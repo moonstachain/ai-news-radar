@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Business Evidence Radar</title>
+    <meta
+      name="description"
+      content="English-only evidence layer for AI business model innovation, one-person companies, founder stories, and Yuanli IP strategy."
+    />
+    <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/styles.css?v=business-evidence-0701" />
+  </head>
+  <body class="business-body">
+    <main class="business-shell">
+      <header class="business-hero">
+        <div>
+          <p class="hero-tag">ENGLISH-ONLY BUSINESS EVIDENCE LAYER</p>
+          <h1>AI Business Evidence Radar</h1>
+          <p class="business-subtitle">
+            AI business model innovation, one-person company cases, founder stories, and counter-signals mapped back to Yuanli IP.
+          </p>
+        </div>
+        <nav class="business-nav" aria-label="Radar navigation">
+          <a class="hero-link" href="./index.html">AI News</a>
+          <a class="hero-link" href="https://github.com/moonstachain/ai-news-radar" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+      </header>
+
+      <section class="business-kpis" id="businessKpis" aria-label="Business evidence summary"></section>
+
+      <section class="business-section">
+        <div class="business-section-head">
+          <div>
+            <p class="hero-tag">TOP JUDGMENTS</p>
+            <h2>Daily Business Brief</h2>
+          </div>
+          <span id="businessUpdated" class="updated">Loading...</span>
+        </div>
+        <div class="business-brief-grid" id="businessBrief"></div>
+      </section>
+
+      <section class="business-section">
+        <div class="business-section-head">
+          <div>
+            <p class="hero-tag">STORY CLUSTERS</p>
+            <h2>Business Model Evidence</h2>
+          </div>
+        </div>
+        <div class="business-cluster-list" id="businessClusters"></div>
+      </section>
+
+      <section class="business-section business-two-col">
+        <div>
+          <div class="business-section-head">
+            <div>
+              <p class="hero-tag">OPC</p>
+              <h2>One-Person Company Case Bank</h2>
+            </div>
+          </div>
+          <div class="business-case-list" id="businessCases"></div>
+        </div>
+        <aside>
+          <div class="business-section-head">
+            <div>
+              <p class="hero-tag">SOURCE HEALTH</p>
+              <h2>English Source Map</h2>
+            </div>
+          </div>
+          <div class="business-source-list" id="businessSources"></div>
+        </aside>
+      </section>
+    </main>
+
+    <script>
+      const fmt = new Intl.NumberFormat("en-US");
+      const dataFiles = {
+        latest: "./data/business-latest-24h.json",
+        status: "./data/business-source-status.json",
+        stories: "./data/business-stories-merged.json",
+        brief: "./data/business-daily-brief.json",
+        cases: "./data/business-case-bank.json",
+        catalog: "./data/business-source-catalog.json",
+      };
+
+      function esc(value) {
+        return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#39;",
+        }[ch]));
+      }
+
+      async function loadJson(url) {
+        const response = await fetch(url, { cache: "no-store" });
+        if (!response.ok) throw new Error(`${url} ${response.status}`);
+        return response.json();
+      }
+
+      function link(title, url) {
+        if (!url) return esc(title);
+        return `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>`;
+      }
+
+      function renderKpis(latest, status, stories, cases) {
+        const el = document.getElementById("businessKpis");
+        const sourceOk = status.successful_sources || 0;
+        const sourceTotal = status.source_count || 0;
+        el.innerHTML = [
+          ["Signals", latest.items?.length || 0],
+          ["Story Clusters", stories.clusters?.length || 0],
+          ["OPC Cases", cases.cases?.length || 0],
+          ["Sources OK", `${sourceOk}/${sourceTotal}`],
+        ].map(([label, value]) => `
+          <div class="business-kpi">
+            <strong>${esc(value)}</strong>
+            <span>${esc(label)}</span>
+          </div>
+        `).join("");
+      }
+
+      function renderBrief(payload, latest) {
+        const byId = new Map((latest.items || []).map((item) => [item.signal_id, item]));
+        document.getElementById("businessUpdated").textContent = payload.generated_at || "Unknown";
+        document.getElementById("businessBrief").innerHTML = (payload.brief || []).map((item) => {
+          const evidence = (item.evidence_refs || []).slice(0, 3).map((id) => byId.get(id)).filter(Boolean);
+          return `
+            <article class="business-card">
+              <div class="business-rank">#${esc(item.rank)}</div>
+              <h3>${esc(item.title)}</h3>
+              <p>${esc(item.judgment)}</p>
+              <div class="business-tags">${(item.yuanli_mapping || []).map((tag) => `<span>${esc(tag)}</span>`).join("")}</div>
+              <ul>${evidence.map((row) => `<li>${link(row.title, row.url)}</li>`).join("")}</ul>
+              <div class="business-action">${esc(item.recommended_action)}</div>
+            </article>
+          `;
+        }).join("");
+      }
+
+      function renderClusters(payload) {
+        document.getElementById("businessClusters").innerHTML = (payload.clusters || []).map((cluster) => `
+          <article class="business-cluster">
+            <div class="business-cluster-score">${esc(cluster.importance_score)}</div>
+            <div>
+              <h3>${esc(cluster.thesis)}</h3>
+              <p>${esc(cluster.why_it_matters)}</p>
+              <div class="business-tags">
+                <span>${esc(cluster.lane)}</span>
+                <span>${esc(cluster.confidence)}</span>
+                ${(cluster.yuanli_mapping || []).map((tag) => `<span>${esc(tag)}</span>`).join("")}
+              </div>
+              <div class="business-action">${esc(cluster.recommended_action)}</div>
+            </div>
+          </article>
+        `).join("");
+      }
+
+      function renderCases(payload) {
+        document.getElementById("businessCases").innerHTML = (payload.cases || []).slice(0, 12).map((item) => `
+          <article class="business-case">
+            <h3>${link(item.company || item.title, item.url)}</h3>
+            <p>${esc(item.title)}</p>
+            <div class="business-tags">${(item.yuanli_mapping || []).slice(0, 4).map((tag) => `<span>${esc(tag)}</span>`).join("")}</div>
+            <div class="business-action">${esc(item.reusable_lesson)}</div>
+          </article>
+        `).join("");
+      }
+
+      function renderSources(catalog) {
+        document.getElementById("businessSources").innerHTML = (catalog || []).map((source) => `
+          <div class="business-source-row ${source.health_status === "ok" ? "ok" : "bad"}">
+            <span>${esc(source.name)}</span>
+            <strong>${esc(source.health_status)}</strong>
+          </div>
+        `).join("");
+      }
+
+      async function main() {
+        const [latest, status, stories, brief, cases, catalog] = await Promise.all(Object.values(dataFiles).map(loadJson));
+        renderKpis(latest, status, stories, cases);
+        renderBrief(brief, latest);
+        renderClusters(stories);
+        renderCases(cases);
+        renderSources(catalog);
+      }
+
+      main().catch((error) => {
+        document.getElementById("businessBrief").innerHTML = `<article class="business-card"><h3>Data failed to load</h3><p>${esc(error.message)}</p></article>`;
+      });
+    </script>
+  </body>
+</html>

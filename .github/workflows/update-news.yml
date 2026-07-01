@@ -99,6 +99,10 @@ jobs:
             python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21
           fi
 
+      - name: Update business evidence layer
+        run: |
+          python scripts/update_business_evidence.py --output-dir data --window-hours 72 --max-items 150
+
       - name: Commit and push changes
         env:
           EMAIL_DIGEST_PUBLISH: ${{ secrets.EMAIL_DIGEST_PUBLISH || vars.EMAIL_DIGEST_PUBLISH }}
