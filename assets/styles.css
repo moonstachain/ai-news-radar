@@ -50,8 +50,7 @@ body.radar-shell-body {
   --bad: #c97a72;
   color: var(--ink);
   background:
-    linear-gradient(90deg, rgba(201, 169, 106, 0.06) 1px, transparent 1px) 0 0 / 120px 120px,
-    linear-gradient(180deg, rgba(201, 169, 106, 0.04), transparent 280px),
+    linear-gradient(180deg, rgba(201, 169, 106, 0.035), transparent 220px),
     #07100d;
   overflow-x: clip;
 }
@@ -3017,6 +3016,115 @@ summary:focus-visible {
   color: var(--bad);
 }
 
+.radar-shell-body .bole-ribbon,
+.radar-shell-body .top-rank,
+.radar-shell-body .source-count,
+.radar-shell-body .bole-row-meta > span,
+.radar-shell-body .bole-row-meta > strong,
+.radar-shell-body .signal-tag,
+.radar-shell-body .intel-tags > span,
+.radar-shell-body .intel-card-sources > span,
+.radar-shell-body .intel-card-sources > strong,
+.radar-shell-body .story-source-chip,
+.radar-shell-body .category,
+.radar-shell-body .source,
+.radar-shell-body .ai-tag,
+.radar-shell-body .meta-row .signal-tag {
+  border-color: rgba(201, 169, 106, 0.18);
+  color: rgba(239, 230, 210, 0.72);
+  background: rgba(201, 169, 106, 0.055);
+}
+
+.radar-shell-body .bole-ribbon,
+.radar-shell-body .top-rank,
+.radar-shell-body .source-count,
+.radar-shell-body .intel-tags > span,
+.radar-shell-body .ai-tag {
+  color: rgba(201, 169, 106, 0.9);
+  font-weight: 760;
+}
+
+.radar-shell-body .bole-lead-card,
+.radar-shell-body .top-story-card,
+.radar-shell-body .top-story-card.lead,
+.radar-shell-body .story-body,
+.radar-shell-body .bole-row-body,
+.radar-shell-body .intel-card,
+.radar-shell-body .news-card,
+.radar-shell-body .waytoagi-item,
+.radar-shell-body .source-group-head,
+.radar-shell-body .group-more-btn,
+.radar-shell-body .list-loading {
+  border-color: rgba(201, 169, 106, 0.16);
+  color: #efe6d2;
+  background: rgba(15, 24, 19, 0.92);
+  box-shadow: none;
+}
+
+.radar-shell-body .bole-lead-card:hover,
+.radar-shell-body .top-story-card:hover,
+.radar-shell-body .story-row:hover .story-body,
+.radar-shell-body .bole-row:hover .bole-row-body,
+.radar-shell-body .intel-card:hover,
+.radar-shell-body .news-card:hover,
+.radar-shell-body .waytoagi-item:hover,
+.radar-shell-body .group-more-btn:hover {
+  border-color: rgba(201, 169, 106, 0.34);
+  background: rgba(18, 29, 23, 0.96);
+  box-shadow: none;
+}
+
+.radar-shell-body .bole-score-orb {
+  border-color: rgba(201, 169, 106, 0.24);
+  color: rgba(201, 169, 106, 0.84);
+  background: rgba(201, 169, 106, 0.06);
+}
+
+.radar-shell-body .bole-lead-title,
+.radar-shell-body .bole-row-title,
+.radar-shell-body .top-story-title,
+.radar-shell-body .intel-title,
+.radar-shell-body .story-title,
+.radar-shell-body .title,
+.radar-shell-body .site,
+.radar-shell-body .story-time-latest,
+.radar-shell-body .top-story-why span,
+.radar-shell-body .waytoagi-item .t,
+.radar-shell-body .site-group-head h3,
+.radar-shell-body .source-group-head h3 {
+  color: #efe6d2;
+}
+
+.radar-shell-body .bole-kicker,
+.radar-shell-body .bole-lead-reason,
+.radar-shell-body .bole-row-time,
+.radar-shell-body .bole-row-reason,
+.radar-shell-body .top-story-summary,
+.radar-shell-body .intel-reason,
+.radar-shell-body .story-title-en,
+.radar-shell-body .news-summary,
+.radar-shell-body .title-sub,
+.radar-shell-body .meta-row,
+.radar-shell-body .top-story-why p,
+.radar-shell-body .waytoagi-item .d,
+.radar-shell-body .site-group-head span,
+.radar-shell-body .source-group-head span {
+  color: #b8ad91;
+}
+
+.radar-shell-body .top-story-why {
+  border-left-color: rgba(201, 169, 106, 0.26);
+}
+
+.radar-shell-body .story-row::before {
+  border-color: rgba(201, 169, 106, 0.72);
+  background: #0b1511;
+}
+
+.radar-shell-body .bole-compact-list::before {
+  background: rgba(201, 169, 106, 0.18);
+}
+
 @media (max-width: 760px) {
   .shell {
     padding: 18px 12px 36px;
@@ -3492,8 +3600,7 @@ summary:focus-visible {
 .top-story-card,
 .intel-card,
 .coverage-card {
-  will-change: transform;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  transition: border-color 0.14s ease, background-color 0.14s ease;
 }
 
 .story-row:hover,
@@ -3501,13 +3608,13 @@ summary:focus-visible {
 .news-card:hover,
 .top-story-card:hover,
 .intel-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  transform: none;
+  box-shadow: none;
 }
 
 .coverage-card:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+  transform: none;
+  box-shadow: none;
 }
 
 @media (prefers-reduced-motion: reduce) {

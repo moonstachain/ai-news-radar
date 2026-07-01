@@ -228,6 +228,15 @@
         `).join("");
       }
 
+      function updateShellPulse(latest, status, stories, brief, cases) {
+        const payload = { latest, status, stories, brief, cases };
+        if (window.RadarShell?.updateBusinessPulse) {
+          window.RadarShell.updateBusinessPulse(payload);
+        } else {
+          window.__RADAR_PENDING_PULSE = { channel: "ai-business", payload };
+        }
+      }
+
       async function main() {
         const [latest, status, stories, brief, cases, catalog] = await Promise.all(Object.values(dataFiles).map(loadJson));
         renderBrief(brief, latest);
@@ -235,6 +244,7 @@
         renderClusters(stories, latest);
         renderCases(cases);
         renderSources(catalog);
+        updateShellPulse(latest, status, stories, brief, cases);
       }
 
       main().catch((error) => {

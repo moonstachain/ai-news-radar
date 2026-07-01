@@ -208,6 +208,22 @@ function renderSourceStatusPill(errorMessage = "") {
   if (failed) sourceStatusPillEl.classList.add("warn");
 }
 
+function updateRadarShellPulse() {
+  const payload = {
+    items: state.itemsAi,
+    total: state.totalAi || state.itemsAi.length,
+    highCount: state.itemsAi.filter((item) => isHighPriorityItem(item)).length,
+    status: state.sourceStatus,
+    brief: state.dailyBrief,
+    generatedAt: state.generatedAt,
+  };
+  if (window.RadarShell?.updateNewsPulse) {
+    window.RadarShell.updateNewsPulse(payload);
+  } else {
+    window.__RADAR_PENDING_PULSE = { channel: "ai-news", payload };
+  }
+}
+
 function renderStickySummary() {
   if (!stickySummaryTextEl) return;
   const filteredCount = getFilteredItems().length;
@@ -2916,6 +2932,7 @@ async function init() {
     waytoagiListEl.innerHTML = `<div class="waytoagi-error">${waytoagiResult.reason.message}</div>`;
   }
 
+  updateRadarShellPulse();
   document.dispatchEvent(new CustomEvent("aiRadar:ready"));
 }
 

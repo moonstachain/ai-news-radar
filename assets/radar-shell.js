@@ -18,6 +18,8 @@
   };
 
   const fmt = new Intl.NumberFormat("en-US");
+  let shellBuilt = false;
+  let lastPulse = null;
   const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (ch) => ({
     "&": "&amp;",
     "<": "&lt;",
@@ -38,12 +40,6 @@
       hour12: false,
       timeZoneName: "short",
     }).format(date);
-  }
-
-  async function loadJson(path) {
-    const response = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`${path} ${response.status}`);
-    return response.json();
   }
 
   function statusClass(failed) {
@@ -87,22 +83,24 @@
     if (sideUpdated && meta) sideUpdated.textContent = meta;
   }
 
-  async function loadNewsPulse() {
-    const [latest, status, brief] = await Promise.all([
-      loadJson("./data/latest-24h.json"),
-      loadJson("./data/source-status.json"),
-      loadJson("./data/daily-brief.json"),
-    ]);
-    const items = Array.isArray(latest.items) ? latest.items : [];
-    const total = Number(latest.total_items || items.length || 0);
-    const high = items.filter((item) => Number(item.ai_score || item.importance_score || 0) >= 80).length;
+  function updateNewsPulse(payload = {}) {
+    lastPulse = { channel: "ai-news", payload };
+    if (!shellBuilt) return;
+    const latest = payload.latest || {};
+    const status = payload.status || {};
+    const brief = payload.brief || {};
+    const items = Array.isArray(payload.items)
+      ? payload.items
+      : (Array.isArray(latest.items) ? latest.items : []);
+    const total = Number(payload.total ?? latest.total_items ?? items.length ?? 0);
+    const high = Number(payload.highCount ?? items.filter((item) => Number(item.ai_score || item.importance_score || 0) >= 80).length);
     const sites = Array.isArray(status.sites) ? status.sites : [];
     const failedSites = Array.isArray(status.failed_sites) ? status.failed_sites.length : 0;
     const failedFeeds = Array.isArray(status.rss_opml?.failed_feeds) ? status.rss_opml.failed_feeds.length : 0;
     const failed = failedSites + failedFeeds;
     renderDecision(
       channels["ai-news"].decision,
-      `Snapshot ${shortDate(latest.generated_at || status.generated_at || brief.generated_at)}`,
+      `Snapshot ${shortDate(payload.generatedAt || latest.generated_at || status.generated_at || brief.generated_at)}`,
     );
     renderPulse([
       { label: "AI Signals", value: fmt.format(total), meta: "topic-filtered", tone: "gold" },
@@ -112,14 +110,14 @@
     ]);
   }
 
-  async function loadBusinessPulse() {
-    const [latest, status, stories, brief, cases] = await Promise.all([
-      loadJson("./data/business-latest-24h.json"),
-      loadJson("./data/business-source-status.json"),
-      loadJson("./data/business-stories-merged.json"),
-      loadJson("./data/business-daily-brief.json"),
-      loadJson("./data/business-case-bank.json"),
-    ]);
+  function updateBusinessPulse(payload = {}) {
+    lastPulse = { channel: "ai-business", payload };
+    if (!shellBuilt) return;
+    const latest = payload.latest || {};
+    const status = payload.status || {};
+    const stories = payload.stories || {};
+    const brief = payload.brief || {};
+    const cases = payload.cases || {};
     const failed = Number(status.failed_sources || 0);
     const topCluster = (stories.clusters || [])[0];
     renderDecision(
@@ -182,12 +180,20 @@
 
   function init() {
     buildShell();
-    const loader = channel === "ai-business" ? loadBusinessPulse : loadNewsPulse;
-    loader().catch((error) => {
-      renderDecision(channels[channel]?.decision, `Pulse failed: ${error.message}`);
-      renderPulse([{ label: "Data Pulse", value: "Gap", meta: error.message, tone: "warn" }]);
-    });
+    shellBuilt = true;
+    renderDecision(channels[channel]?.decision, "Waiting for page data");
+    renderPulse([{ label: "Data Pulse", value: "Loading", meta: "shared page data", tone: "gold" }]);
+    const pending = window.__RADAR_PENDING_PULSE || lastPulse;
+    if (pending?.channel === "ai-business") updateBusinessPulse(pending.payload);
+    if (pending?.channel === "ai-news") updateNewsPulse(pending.payload);
   }
+
+  window.RadarShell = {
+    updateNewsPulse,
+    updateBusinessPulse,
+    renderDecision,
+    renderPulse,
+  };
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init, { once: true });
