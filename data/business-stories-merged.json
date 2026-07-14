@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T15:55:43.124204Z",
+  "generated_at": "2026-07-14T17:02:54.790548Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_2f0b4084974e",
@@ -194,13 +194,14 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_e7d9f463f60c",
+      "cluster_id": "biz_cluster_864a09fd627f",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
         "biz_a1d362df5ac0",
         "biz_73aa72e3bde2",
         "biz_3148dc5d80bb",
+        "biz_e5c9d7a69753",
         "biz_ac169e6dbe17",
         "biz_ff34dbeef873",
         "biz_cd58eed0f42a",
@@ -211,21 +212,21 @@
         "biz_31499a68e448"
       ],
       "source_count": 5,
-      "importance_score": 51,
+      "importance_score": 52,
       "confidence": "high",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "11 English evidence items from 5 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "12 English evidence items from 5 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
         "biz_a1d362df5ac0",
         "biz_73aa72e3bde2",
         "biz_3148dc5d80bb",
-        "biz_ac169e6dbe17",
-        "biz_ff34dbeef873"
+        "biz_e5c9d7a69753",
+        "biz_ac169e6dbe17"
       ],
       "top_sources": [
         {
@@ -244,14 +245,14 @@
           "url": "https://a16z.com/podcast/building-search-for-ai-agents-with-exa-ceo-will-bryk/"
         },
         {
-          "source": "Lenny's Newsletter",
-          "title": "What a harness is and how to build one with Claude Agent SDK",
-          "url": "https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build"
+          "source": "OpenAI News",
+          "title": "How to manage AI investments in the agentic era",
+          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era"
         },
         {
           "source": "Lenny's Newsletter",
-          "title": "Sonnet 5 review: I ran 64 generations to find out if it's worth it",
-          "url": "https://www.lennysnewsletter.com/p/sonnet-5-review-i-ran-64-generations"
+          "title": "What a harness is and how to build one with Claude Agent SDK",
+          "url": "https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build"
         }
       ]
     },
