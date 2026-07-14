@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T10:46:10.798666Z",
+  "generated_at": "2026-07-14T12:06:43.187785Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_2f0b4084974e",
@@ -130,10 +130,11 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_b8ad41c79a18",
+      "cluster_id": "biz_cluster_98ba942e2969",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "signal_ids": [
+        "biz_fdfaf967bda3",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
         "biz_3c5823b34f5a",
@@ -144,11 +145,10 @@
         "biz_36255a88492a",
         "biz_e88fa46e3cee",
         "biz_4a0e2e7cfba5",
-        "biz_08413d697637",
-        "biz_af760a0c53d5"
+        "biz_08413d697637"
       ],
       "source_count": 4,
-      "importance_score": 52,
+      "importance_score": 53,
       "confidence": "high",
       "yuanli_mapping": [
         "ftf_trust",
@@ -159,13 +159,18 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
+        "biz_fdfaf967bda3",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
         "biz_3c5823b34f5a",
-        "biz_ee0d77c88941",
-        "biz_c3710204dd3b"
+        "biz_ee0d77c88941"
       ],
       "top_sources": [
+        {
+          "source": "MIT Sloan Management Review",
+          "title": "﻿The Global Scaling Gap: Why Strategic Clarity Is Crucial in the Age of AI",
+          "url": "https://sloanreview.mit.edu/article/the-global-scaling-gap-why-strategic-clarity-is-crucial-in-the-age-of-ai/"
+        },
         {
           "source": "BCG AI Insights",
           "title": "Financial Institutions",
@@ -185,16 +190,11 @@
           "source": "Bain Insights",
           "title": "Customer Experience",
           "url": "https://www.bain.com/consulting-services/customer-strategy-and-marketing/customer-experience-transformation/"
-        },
-        {
-          "source": "Bain Insights",
-          "title": "Supporting Your Growth",
-          "url": "https://www.bain.com/careers/life-at-bain/supporting-your-growth/"
         }
       ]
     },
     {
-      "cluster_id": "biz_cluster_afc31917e37a",
+      "cluster_id": "biz_cluster_e7d9f463f60c",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
@@ -203,20 +203,21 @@
         "biz_3148dc5d80bb",
         "biz_ac169e6dbe17",
         "biz_ff34dbeef873",
+        "biz_cd58eed0f42a",
         "biz_50388674c6d3",
         "biz_efc3c55e96d3",
         "biz_aab79b680c8a",
         "biz_f2601158689e",
         "biz_31499a68e448"
       ],
-      "source_count": 4,
-      "importance_score": 49,
+      "source_count": 5,
+      "importance_score": 51,
       "confidence": "high",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "10 English evidence items from 4 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "11 English evidence items from 5 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
@@ -255,14 +256,14 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_cd460d09f62a",
+      "cluster_id": "biz_cluster_8e6f52d7d500",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "lane": "counter_signal",
       "signal_ids": [
         "biz_5abfba17eae7",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_f7e142831a00",
+        "biz_8de1548b002f",
         "biz_b5d21faaa7d6",
         "biz_85d016ac6404"
       ],
@@ -280,7 +281,7 @@
         "biz_5abfba17eae7",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_f7e142831a00",
+        "biz_8de1548b002f",
         "biz_b5d21faaa7d6"
       ],
       "top_sources": [
@@ -302,7 +303,7 @@
         {
           "source": "Harvard Business Review",
           "title": "You Outsourced the AI—but You Still Own the Risk",
-          "url": "https://hbr.org/2026/07/you-outsourced-the-ai-but-you-still-own-the-risk?ab=HP-latest-2"
+          "url": "https://hbr.org/2026/07/you-outsourced-the-ai-but-you-still-own-the-risk?ab=HP-latest-3"
         },
         {
           "source": "Harvard Business Review",
