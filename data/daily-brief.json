@@ -1,8 +1,313 @@
 {
-  "generated_at": "2026-07-14T21:27:52.408500Z",
+  "generated_at": "2026-07-14T22:29:02.421964Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_9bca5dae0eb3",
+      "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "primary_url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6ea915c5c6c95883a37fe10b4f2fe0b1172f2a29",
+          "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码",
+          "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T21:27:11.693000Z"
+        },
+        {
+          "id": "b247e0d454e1e52c0b5dcde8c59b706571854a3d",
+          "title": "Cursor 0day：当全面披露成为唯一的防护手段时",
+          "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+          "source": "mindgard.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-14T21:27:11.693000Z"
+        },
+        {
+          "id": "90d9dc6cc55337bc3aba8165091dd128e6604d54",
+          "title": "光标 0day：当完全披露成为唯一的保护时 / Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+          "url": "https://news.ycombinator.com/item?id=48910676",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-14T21:10:26.324000Z"
+        },
+        {
+          "id": "78cfa2463e5499e29db33484e9d029f5744a1d3b",
+          "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码 / Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+          "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-14T17:58:35Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews",
+        "mindgard.ai"
+      ],
+      "items": [
+        {
+          "id": "6ea915c5c6c95883a37fe10b4f2fe0b1172f2a29",
+          "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码",
+          "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T21:27:11.693000Z"
+        },
+        {
+          "id": "b247e0d454e1e52c0b5dcde8c59b706571854a3d",
+          "title": "Cursor 0day：当全面披露成为唯一的防护手段时",
+          "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+          "source": "mindgard.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-14T21:27:11.693000Z"
+        },
+        {
+          "id": "90d9dc6cc55337bc3aba8165091dd128e6604d54",
+          "title": "光标 0day：当完全披露成为唯一的保护时 / Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+          "url": "https://news.ycombinator.com/item?id=48910676",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-14T21:10:26.324000Z"
+        },
+        {
+          "id": "78cfa2463e5499e29db33484e9d029f5744a1d3b",
+          "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码 / Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+          "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-14T17:58:35Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8729,
+      "importance": 0.8729,
+      "importance_score": 0.8729,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.83,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9852,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T17:58:35Z",
+      "latest_at": "2026-07-14T21:27:11.693000Z",
+      "primary_item": {
+        "id": "6ea915c5c6c95883a37fe10b4f2fe0b1172f2a29",
+        "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码",
+        "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_77d490ebaf47",
+      "title": "代码扫描显示对拉取请求的人工智能安全检测 / Code scanning shows AI security detections on pull requests",
+      "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+      "primary_url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2d78f5ee5a76aaab8d2edea72b29b0a49b928af6",
+          "title": "代码扫描显示对拉取请求的人工智能安全检测 / Code scanning shows AI security detections on pull requests",
+          "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T19:12:48Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "2d78f5ee5a76aaab8d2edea72b29b0a49b928af6",
+          "title": "代码扫描显示对拉取请求的人工智能安全检测 / Code scanning shows AI security detections on pull requests",
+          "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T19:12:48Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8357,
+      "importance": 0.8357,
+      "importance_score": 0.8357,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9539,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T19:12:48Z",
+      "latest_at": "2026-07-14T19:12:48Z",
+      "primary_item": {
+        "id": "2d78f5ee5a76aaab8d2edea72b29b0a49b928af6",
+        "title": "代码扫描显示对拉取请求的人工智能安全检测 / Code scanning shows AI security detections on pull requests",
+        "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_dc9597f1b62f",
+      "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
+      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
+      "primary_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d6e1c532e318fd0f4f4876f4d269af88e52d857b",
+          "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
+          "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "items": [
+        {
+          "id": "d6e1c532e318fd0f4f4876f4d269af88e52d857b",
+          "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
+          "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8279,
+      "importance": 0.8279,
+      "importance_score": 0.8279,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9106,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T16:00:00Z",
+      "latest_at": "2026-07-14T16:00:00Z",
+      "primary_item": {
+        "id": "d6e1c532e318fd0f4f4876f4d269af88e52d857b",
+        "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
+        "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
+        "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_92ab1f77dd8c",
+      "title": "代理时代如何管理人工智能投资 / How to manage AI investments in the agentic era",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "primary_url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "c6c1d4d73b453e4fee94427c08a5a277195f874f",
+          "title": "代理时代如何管理人工智能投资 / How to manage AI investments in the agentic era",
+          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T10:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "c6c1d4d73b453e4fee94427c08a5a277195f874f",
+          "title": "代理时代如何管理人工智能投资 / How to manage AI investments in the agentic era",
+          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T10:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8223,
+      "importance": 0.8223,
+      "importance_score": 0.8223,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.835,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T10:00:00Z",
+      "latest_at": "2026-07-14T10:00:00Z",
+      "primary_item": {
+        "id": "c6c1d4d73b453e4fee94427c08a5a277195f874f",
+        "title": "代理时代如何管理人工智能投资 / How to manage AI investments in the agentic era",
+        "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_449874491314",
       "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
@@ -95,15 +400,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8505,
-      "importance": 0.8505,
-      "importance_score": 0.8505,
+      "score": 0.8479,
+      "importance": 0.8479,
+      "importance_score": 0.8479,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.977,
+        "recency": 0.9628,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -120,192 +425,6 @@
         "url": "https://prismml.com/news/bonsai-27b",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_77d490ebaf47",
-      "title": "代码扫描显示对拉取请求的人工智能安全检测 / Code scanning shows AI security detections on pull requests",
-      "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
-      "primary_url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "2d78f5ee5a76aaab8d2edea72b29b0a49b928af6",
-          "title": "代码扫描显示对拉取请求的人工智能安全检测 / Code scanning shows AI security detections on pull requests",
-          "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T19:12:48Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "2d78f5ee5a76aaab8d2edea72b29b0a49b928af6",
-          "title": "代码扫描显示对拉取请求的人工智能安全检测 / Code scanning shows AI security detections on pull requests",
-          "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T19:12:48Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8382,
-      "importance": 0.8382,
-      "importance_score": 0.8382,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.968,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-14T19:12:48Z",
-      "latest_at": "2026-07-14T19:12:48Z",
-      "primary_item": {
-        "id": "2d78f5ee5a76aaab8d2edea72b29b0a49b928af6",
-        "title": "代码扫描显示对拉取请求的人工智能安全检测 / Code scanning shows AI security detections on pull requests",
-        "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_dc9597f1b62f",
-      "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
-      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-      "primary_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-      "source": "Google AI Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "d6e1c532e318fd0f4f4876f4d269af88e52d857b",
-          "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
-          "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T16:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Google AI Blog"
-      ],
-      "items": [
-        {
-          "id": "d6e1c532e318fd0f4f4876f4d269af88e52d857b",
-          "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
-          "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T16:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8303,
-      "importance": 0.8303,
-      "importance_score": 0.8303,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9241,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-14T16:00:00Z",
-      "latest_at": "2026-07-14T16:00:00Z",
-      "primary_item": {
-        "id": "d6e1c532e318fd0f4f4876f4d269af88e52d857b",
-        "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
-        "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-        "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_92ab1f77dd8c",
-      "title": "代理时代如何管理人工智能投资 / How to manage AI investments in the agentic era",
-      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "primary_url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "c6c1d4d73b453e4fee94427c08a5a277195f874f",
-          "title": "代理时代如何管理人工智能投资 / How to manage AI investments in the agentic era",
-          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T10:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "c6c1d4d73b453e4fee94427c08a5a277195f874f",
-          "title": "代理时代如何管理人工智能投资 / How to manage AI investments in the agentic era",
-          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T10:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8245,
-      "importance": 0.8245,
-      "importance_score": 0.8245,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8474,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-14T10:00:00Z",
-      "latest_at": "2026-07-14T10:00:00Z",
-      "primary_item": {
-        "id": "c6c1d4d73b453e4fee94427c08a5a277195f874f",
-        "title": "代理时代如何管理人工智能投资 / How to manage AI investments in the agentic era",
-        "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -343,15 +462,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.818,
-      "importance": 0.818,
-      "importance_score": 0.818,
+      "score": 0.8161,
+      "importance": 0.8161,
+      "importance_score": 0.8161,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7335,
+        "recency": 0.7228,
         "story_heat": 0.0
       },
       "category": "official",
@@ -368,6 +487,87 @@
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_3e68f8ee554f",
+      "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库",
+      "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+      "primary_url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "1acf293c8d5fe32e9ae7141f174df40c344e7d99",
+          "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库",
+          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T21:50:11Z"
+        },
+        {
+          "id": "f9625a0d0960866a08717676fff7dee35c7c16c5",
+          "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库 / OpenAI’s new flagship model deletes files on its own, people keep warning",
+          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-14T21:50:11Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "1acf293c8d5fe32e9ae7141f174df40c344e7d99",
+          "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库",
+          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T21:50:11Z"
+        },
+        {
+          "id": "f9625a0d0960866a08717676fff7dee35c7c16c5",
+          "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库 / OpenAI’s new flagship model deletes files on its own, people keep warning",
+          "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-14T21:50:11Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8029,
+      "importance": 0.8029,
+      "importance_score": 0.8029,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9907,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T21:50:11Z",
+      "latest_at": "2026-07-14T21:50:11Z",
+      "primary_item": {
+        "id": "1acf293c8d5fe32e9ae7141f174df40c344e7d99",
+        "title": "OpenAI GPT-5.6 Sol 被曝自行删除用户文件与数据库",
+        "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -405,15 +605,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8321,
-      "importance": 0.8321,
-      "importance_score": 0.8321,
+      "score": 0.8296,
+      "importance": 0.8296,
+      "importance_score": 0.8296,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9337,
+        "recency": 0.9201,
         "story_heat": 0.0
       },
       "category": "official",
@@ -505,15 +705,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7879,
-      "importance": 0.7879,
-      "importance_score": 0.7879,
+      "score": 0.7857,
+      "importance": 0.7857,
+      "importance_score": 0.7857,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.835,
+        "recency": 0.8228,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -567,15 +767,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
+      "score": 0.8101,
+      "importance": 0.8101,
+      "importance_score": 0.8101,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7335,
+        "recency": 0.7228,
         "story_heat": 0.0
       },
       "category": "official",
@@ -590,6 +790,130 @@
         "id": "fb33ef4dff15b9f96936d9e07015c01be9d3c058",
         "title": "数据科学团队如何使用 ChatGPT Work / How data science teams use ChatGPT Work",
         "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_ed3a2198d15e",
+      "title": "GitHub Copilot 应用程序现已提供安全审查 / Security reviews now available in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+      "primary_url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e0dea436d1aaee574751395304a5b58becfb7a90",
+          "title": "GitHub Copilot 应用程序现已提供安全审查 / Security reviews now available in the GitHub Copilot app",
+          "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T12:54:12Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "e0dea436d1aaee574751395304a5b58becfb7a90",
+          "title": "GitHub Copilot 应用程序现已提供安全审查 / Security reviews now available in the GitHub Copilot app",
+          "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T12:54:12Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8287,
+      "importance": 0.8287,
+      "importance_score": 0.8287,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8708,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T12:54:12Z",
+      "latest_at": "2026-07-14T12:54:12Z",
+      "primary_item": {
+        "id": "e0dea436d1aaee574751395304a5b58becfb7a90",
+        "title": "GitHub Copilot 应用程序现已提供安全审查 / Security reviews now available in the GitHub Copilot app",
+        "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_248b5ff06999",
+      "title": "销售团队如何使用 ChatGPT Work / How sales teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "primary_url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "3656a6a4e4f9f7aa7d86fc13f27d4e8bb2583db5",
+          "title": "销售团队如何使用 ChatGPT Work / How sales teams use ChatGPT Work",
+          "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "3656a6a4e4f9f7aa7d86fc13f27d4e8bb2583db5",
+          "title": "销售团队如何使用 ChatGPT Work / How sales teams use ChatGPT Work",
+          "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-14T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8101,
+      "importance": 0.8101,
+      "importance_score": 0.8101,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7228,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T00:00:00Z",
+      "latest_at": "2026-07-14T00:00:00Z",
+      "primary_item": {
+        "id": "3656a6a4e4f9f7aa7d86fc13f27d4e8bb2583db5",
+        "title": "销售团队如何使用 ChatGPT Work / How sales teams use ChatGPT Work",
+        "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -648,15 +972,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7792,
-      "importance": 0.7792,
-      "importance_score": 0.7792,
+      "score": 0.7767,
+      "importance": 0.7767,
+      "importance_score": 0.7767,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9589,
+        "recency": 0.9449,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -676,65 +1000,243 @@
       }
     },
     {
-      "story_id": "story_ed3a2198d15e",
-      "title": "GitHub Copilot 应用程序现已提供安全审查 / Security reviews now available in the GitHub Copilot app",
-      "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-      "primary_url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_52ba1656d62a",
+      "title": "实测LibTV Agent：100个AI视频工作流重组为Skill，实现创意自由",
+      "url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
+      "primary_url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
+      "source": "公众号：卡尔的AI沃茨",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "e0dea436d1aaee574751395304a5b58becfb7a90",
-          "title": "GitHub Copilot 应用程序现已提供安全审查 / Security reviews now available in the GitHub Copilot app",
-          "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T12:54:12Z"
+          "id": "10cbb63befa311b8acc8c4d0e7bf06954e14403e",
+          "title": "实测LibTV Agent：100个AI视频工作流重组为Skill，实现创意自由",
+          "url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
+          "source": "公众号：卡尔的AI沃茨",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T09:04:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "公众号：卡尔的AI沃茨"
       ],
       "items": [
         {
-          "id": "e0dea436d1aaee574751395304a5b58becfb7a90",
-          "title": "GitHub Copilot 应用程序现已提供安全审查 / Security reviews now available in the GitHub Copilot app",
-          "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T12:54:12Z"
+          "id": "10cbb63befa311b8acc8c4d0e7bf06954e14403e",
+          "title": "实测LibTV Agent：100个AI视频工作流重组为Skill，实现创意自由",
+          "url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
+          "source": "公众号：卡尔的AI沃茨",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T09:04:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8311,
-      "importance": 0.8311,
-      "importance_score": 0.8311,
-      "importance_label": "官方更新",
+      "score": 0.7449,
+      "importance": 0.7449,
+      "importance_score": 0.7449,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8837,
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8239,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-14T12:54:12Z",
-      "latest_at": "2026-07-14T12:54:12Z",
+      "earliest_at": "2026-07-14T09:04:00Z",
+      "latest_at": "2026-07-14T09:04:00Z",
       "primary_item": {
-        "id": "e0dea436d1aaee574751395304a5b58becfb7a90",
-        "title": "GitHub Copilot 应用程序现已提供安全审查 / Security reviews now available in the GitHub Copilot app",
-        "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "10cbb63befa311b8acc8c4d0e7bf06954e14403e",
+        "title": "实测LibTV Agent：100个AI视频工作流重组为Skill，实现创意自由",
+        "url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
+        "source": "公众号：卡尔的AI沃茨",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_963623cb91e6",
+      "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
+      "url": "https://x.com/googleaidevs/status/2077049898059354565",
+      "primary_url": "https://x.com/googleaidevs/status/2077049898059354565",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9bc51c2fb59cd6c689018ebf99993d43dca6a689",
+          "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
+          "url": "https://x.com/googleaidevs/status/2077049898059354565",
+          "source": "X：Google AI for Developers (@googleaidevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T15:17:40Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Google AI for Developers (@googleaidevs)"
+      ],
+      "items": [
+        {
+          "id": "9bc51c2fb59cd6c689018ebf99993d43dca6a689",
+          "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
+          "url": "https://x.com/googleaidevs/status/2077049898059354565",
+          "source": "X：Google AI for Developers (@googleaidevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T15:17:40Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7438,
+      "importance": 0.7438,
+      "importance_score": 0.7438,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9014,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-14T15:17:40Z",
+      "latest_at": "2026-07-14T15:17:40Z",
+      "primary_item": {
+        "id": "9bc51c2fb59cd6c689018ebf99993d43dca6a689",
+        "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
+        "url": "https://x.com/googleaidevs/status/2077049898059354565",
+        "source": "X：Google AI for Developers (@googleaidevs)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_8faec0b402e9",
+      "title": "腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能",
+      "url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
+      "primary_url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
+      "source": "公众号：腾讯混元",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "53ac181f9e0e44f1ad6cf8aa858d107575faa0e6",
+          "title": "腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能",
+          "url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
+          "source": "公众号：腾讯混元",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T08:56:07Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：腾讯混元"
+      ],
+      "items": [
+        {
+          "id": "53ac181f9e0e44f1ad6cf8aa858d107575faa0e6",
+          "title": "腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能",
+          "url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
+          "source": "公众号：腾讯混元",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T08:56:07Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7386,
+      "importance": 0.7386,
+      "importance_score": 0.7386,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8223,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-14T08:56:07Z",
+      "latest_at": "2026-07-14T08:56:07Z",
+      "primary_item": {
+        "id": "53ac181f9e0e44f1ad6cf8aa858d107575faa0e6",
+        "title": "腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能",
+        "url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
+        "source": "公众号：腾讯混元",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_5d3ffb4c6f4d",
+      "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
+      "url": "https://www.ithome.com/0/976/453.htm",
+      "primary_url": "https://www.ithome.com/0/976/453.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "82a2e205293819aecf0e1fad2e9aa425c941d57e",
+          "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
+          "url": "https://www.ithome.com/0/976/453.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T05:43:25Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "82a2e205293819aecf0e1fad2e9aa425c941d57e",
+          "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
+          "url": "https://www.ithome.com/0/976/453.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T05:43:25Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7379,
+      "importance": 0.7379,
+      "importance_score": 0.7379,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.785,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-14T05:43:25Z",
+      "latest_at": "2026-07-14T05:43:25Z",
+      "primary_item": {
+        "id": "82a2e205293819aecf0e1fad2e9aa425c941d57e",
+        "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
+        "url": "https://www.ithome.com/0/976/453.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -810,15 +1312,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7995,
-      "importance": 0.7995,
-      "importance_score": 0.7995,
+      "score": 0.7971,
+      "importance": 0.7971,
+      "importance_score": 0.7971,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9329,
+        "recency": 0.9193,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -834,389 +1336,6 @@
         "title": "如何让 Claude 不再说\"honest takes\"和\"load-bearing seams\"",
         "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_248b5ff06999",
-      "title": "销售团队如何使用 ChatGPT Work / How sales teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "primary_url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "3656a6a4e4f9f7aa7d86fc13f27d4e8bb2583db5",
-          "title": "销售团队如何使用 ChatGPT Work / How sales teams use ChatGPT Work",
-          "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "3656a6a4e4f9f7aa7d86fc13f27d4e8bb2583db5",
-          "title": "销售团队如何使用 ChatGPT Work / How sales teams use ChatGPT Work",
-          "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.812,
-      "importance": 0.812,
-      "importance_score": 0.812,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7335,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-14T00:00:00Z",
-      "latest_at": "2026-07-14T00:00:00Z",
-      "primary_item": {
-        "id": "3656a6a4e4f9f7aa7d86fc13f27d4e8bb2583db5",
-        "title": "销售团队如何使用 ChatGPT Work / How sales teams use ChatGPT Work",
-        "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_52ba1656d62a",
-      "title": "实测LibTV Agent：100个AI视频工作流重组为Skill，实现创意自由",
-      "url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
-      "primary_url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
-      "source": "公众号：卡尔的AI沃茨",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "10cbb63befa311b8acc8c4d0e7bf06954e14403e",
-          "title": "实测LibTV Agent：100个AI视频工作流重组为Skill，实现创意自由",
-          "url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
-          "source": "公众号：卡尔的AI沃茨",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T09:04:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：卡尔的AI沃茨"
-      ],
-      "items": [
-        {
-          "id": "10cbb63befa311b8acc8c4d0e7bf06954e14403e",
-          "title": "实测LibTV Agent：100个AI视频工作流重组为Skill，实现创意自由",
-          "url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
-          "source": "公众号：卡尔的AI沃茨",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T09:04:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7471,
-      "importance": 0.7471,
-      "importance_score": 0.7471,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8361,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-14T09:04:00Z",
-      "latest_at": "2026-07-14T09:04:00Z",
-      "primary_item": {
-        "id": "10cbb63befa311b8acc8c4d0e7bf06954e14403e",
-        "title": "实测LibTV Agent：100个AI视频工作流重组为Skill，实现创意自由",
-        "url": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
-        "source": "公众号：卡尔的AI沃茨",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_963623cb91e6",
-      "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
-      "url": "https://x.com/googleaidevs/status/2077049898059354565",
-      "primary_url": "https://x.com/googleaidevs/status/2077049898059354565",
-      "source": "X：Google AI for Developers (@googleaidevs)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9bc51c2fb59cd6c689018ebf99993d43dca6a689",
-          "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
-          "url": "https://x.com/googleaidevs/status/2077049898059354565",
-          "source": "X：Google AI for Developers (@googleaidevs)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T15:17:40Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Google AI for Developers (@googleaidevs)"
-      ],
-      "items": [
-        {
-          "id": "9bc51c2fb59cd6c689018ebf99993d43dca6a689",
-          "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
-          "url": "https://x.com/googleaidevs/status/2077049898059354565",
-          "source": "X：Google AI for Developers (@googleaidevs)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T15:17:40Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7463,
-      "importance": 0.7463,
-      "importance_score": 0.7463,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9148,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-14T15:17:40Z",
-      "latest_at": "2026-07-14T15:17:40Z",
-      "primary_item": {
-        "id": "9bc51c2fb59cd6c689018ebf99993d43dca6a689",
-        "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
-        "url": "https://x.com/googleaidevs/status/2077049898059354565",
-        "source": "X：Google AI for Developers (@googleaidevs)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_a4b29ff806d7",
-      "title": "纽约州暂停所有新建大型数据中心项目",
-      "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-      "primary_url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a32b1d644b136455a25a1266059f71b15538ff6b",
-          "title": "纽约州暂停所有新建大型数据中心项目",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T15:17:59Z"
-        },
-        {
-          "id": "0270c884a779ec63062be205b14ce881b4f6415e",
-          "title": "纽约州暂停所有新建大型数据中心项目 / New York State halts construction of all new data centers",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-14T15:17:59Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "a32b1d644b136455a25a1266059f71b15538ff6b",
-          "title": "纽约州暂停所有新建大型数据中心项目",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T15:17:59Z"
-        },
-        {
-          "id": "0270c884a779ec63062be205b14ce881b4f6415e",
-          "title": "纽约州暂停所有新建大型数据中心项目 / New York State halts construction of all new data centers",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-14T15:17:59Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7743,
-      "importance": 0.7743,
-      "importance_score": 0.7743,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9148,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-14T15:17:59Z",
-      "latest_at": "2026-07-14T15:17:59Z",
-      "primary_item": {
-        "id": "a32b1d644b136455a25a1266059f71b15538ff6b",
-        "title": "纽约州暂停所有新建大型数据中心项目",
-        "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_8faec0b402e9",
-      "title": "腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能",
-      "url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
-      "primary_url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
-      "source": "公众号：腾讯混元",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "53ac181f9e0e44f1ad6cf8aa858d107575faa0e6",
-          "title": "腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能",
-          "url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
-          "source": "公众号：腾讯混元",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T08:56:07Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：腾讯混元"
-      ],
-      "items": [
-        {
-          "id": "53ac181f9e0e44f1ad6cf8aa858d107575faa0e6",
-          "title": "腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能",
-          "url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
-          "source": "公众号：腾讯混元",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T08:56:07Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7408,
-      "importance": 0.7408,
-      "importance_score": 0.7408,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8345,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-14T08:56:07Z",
-      "latest_at": "2026-07-14T08:56:07Z",
-      "primary_item": {
-        "id": "53ac181f9e0e44f1ad6cf8aa858d107575faa0e6",
-        "title": "腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能",
-        "url": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
-        "source": "公众号：腾讯混元",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_5d3ffb4c6f4d",
-      "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
-      "url": "https://www.ithome.com/0/976/453.htm",
-      "primary_url": "https://www.ithome.com/0/976/453.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "82a2e205293819aecf0e1fad2e9aa425c941d57e",
-          "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
-          "url": "https://www.ithome.com/0/976/453.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T05:43:25Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "82a2e205293819aecf0e1fad2e9aa425c941d57e",
-          "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
-          "url": "https://www.ithome.com/0/976/453.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T05:43:25Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.74,
-      "importance": 0.74,
-      "importance_score": 0.74,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7967,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-14T05:43:25Z",
-      "latest_at": "2026-07-14T05:43:25Z",
-      "primary_item": {
-        "id": "82a2e205293819aecf0e1fad2e9aa425c941d57e",
-        "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
-        "url": "https://www.ithome.com/0/976/453.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1274,15 +1393,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7668,
-      "importance": 0.7668,
-      "importance_score": 0.7668,
+      "score": 0.7645,
+      "importance": 0.7645,
+      "importance_score": 0.7645,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8566,
+        "recency": 0.8441,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1336,15 +1455,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.734,
-      "importance": 0.734,
-      "importance_score": 0.734,
+      "score": 0.7316,
+      "importance": 0.7316,
+      "importance_score": 0.7316,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9133,
+        "recency": 0.9,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1358,66 +1477,6 @@
         "title": "Anthropic 推出 Claude for Teachers",
         "url": "https://www.anthropic.com/news/claude-for-teachers",
         "source": "Anthropic：Newsroom（网页）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_a0366cc85c2f",
-      "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
-      "url": "https://x.com/SenseTime_AI/status/2076828658531262619",
-      "primary_url": "https://x.com/SenseTime_AI/status/2076828658531262619",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b5851a195823881985167c1306ffc765d134db35",
-          "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
-          "url": "https://x.com/SenseTime_AI/status/2076828658531262619",
-          "source": "X：商汤 SenseTime (@SenseTime_AI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T00:38:32Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：商汤 SenseTime (@SenseTime_AI)"
-      ],
-      "items": [
-        {
-          "id": "b5851a195823881985167c1306ffc765d134db35",
-          "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
-          "url": "https://x.com/SenseTime_AI/status/2076828658531262619",
-          "source": "X：商汤 SenseTime (@SenseTime_AI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T00:38:32Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7269,
-      "importance": 0.7269,
-      "importance_score": 0.7269,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7403,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-14T00:38:32Z",
-      "latest_at": "2026-07-14T00:38:32Z",
-      "primary_item": {
-        "id": "b5851a195823881985167c1306ffc765d134db35",
-        "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
-        "url": "https://x.com/SenseTime_AI/status/2076828658531262619",
-        "source": "X：商汤 SenseTime (@SenseTime_AI)",
         "source_name": "AI HOT"
       }
     }
