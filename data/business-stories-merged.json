@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:15:55.207789Z",
+  "generated_at": "2026-07-15T18:37:02.879437Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_2f0b4084974e",
@@ -129,42 +129,47 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_8ed9c90755b3",
+      "cluster_id": "biz_cluster_4339051e535d",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "signal_ids": [
+        "biz_3abdbcb27fa5",
         "biz_72e195cb3c37",
         "biz_f3113cd6c1eb",
+        "biz_9bb2c946e7f3",
+        "biz_a3b410f2163d",
         "biz_6c9a126452ca",
-        "biz_b929c31bd9e0",
-        "biz_3b5dea885d52",
-        "biz_6d12fbd2407f",
-        "biz_6419e341a022",
-        "biz_81957eff1692",
-        "biz_de26830f28c9",
-        "biz_5f07c8cdd16c",
-        "biz_ff7535ed1189",
-        "biz_f1ab42db59b3"
+        "biz_2e5649d04e21",
+        "biz_ab4a35294bbe",
+        "biz_f9d704914583",
+        "biz_abe98ef13065",
+        "biz_054ed6386955",
+        "biz_b929c31bd9e0"
       ],
-      "source_count": 3,
-      "importance_score": 56,
+      "source_count": 2,
+      "importance_score": 57,
       "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "12 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "12 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
+        "biz_3abdbcb27fa5",
         "biz_72e195cb3c37",
         "biz_f3113cd6c1eb",
-        "biz_6c9a126452ca",
-        "biz_b929c31bd9e0",
-        "biz_3b5dea885d52"
+        "biz_9bb2c946e7f3",
+        "biz_a3b410f2163d"
       ],
       "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: Thryve",
+          "url": "https://www.cbinsights.com/research/ceo-interview-thryve/"
+        },
         {
           "source": "First Round Review",
           "title": "Firsthand: How I Bet On Clay (And It Bet On Me) I joined Clay as one of its earliest employees and a reluctant marketing hire. This is how, over the last three years, we built a role around my strengths as a storyteller, scaled past $100M ARR, and created a brand that startups study.",
@@ -176,19 +181,14 @@
           "url": "https://review.firstround.com/guidelines-path-to-product-market-fit/"
         },
         {
-          "source": "First Round Review",
-          "title": "So You Want to Hire a Forward Deployed Engineer: How to Know If You Need One and How to Get the Role Right Founders and operators who’ve successfully built forward deployed engineering teams share the nuances that make this idiosyncratic role work, along with advice for hiring your own team.",
-          "url": "https://review.firstround.com/so-you-want-to-hire-a-forward-deployed-engineer/"
-        },
-        {
-          "source": "First Round Review",
-          "title": "Applied Intuition’s Path to Product-Market Fit — The $15B Founder’s Formula for a Winning Company Co-founder and CEO Qasar Younis lays out the personal and business moves he's made to build a company only he could start.",
-          "url": "https://review.firstround.com/applied-intuitions-path-to-product-market-fit/"
+          "source": "CB Insights",
+          "title": "CEO Interview: NovaSpark Energy",
+          "url": "https://www.cbinsights.com/research/ceo-interview-novaspark-energy/"
         },
         {
           "source": "CB Insights",
-          "title": "Executive Interview: Insait.io",
-          "url": "https://www.cbinsights.com/research/executive-interview-insait-io/"
+          "title": "CEO Interview: Cara",
+          "url": "https://www.cbinsights.com/research/ceo-interview-cara/"
         }
       ]
     },
