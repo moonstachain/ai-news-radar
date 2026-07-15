@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:59:40.364370Z",
+  "generated_at": "2026-07-15T17:15:55.207789Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_2f0b4084974e",
@@ -66,11 +66,12 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_95f84e367f70",
+      "cluster_id": "biz_cluster_521dd5c60941",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
         "biz_a1d362df5ac0",
+        "biz_bdf7a7a8bd86",
         "biz_ffddf2a62ef5",
         "biz_cc36443ea683",
         "biz_6d29dad39b36",
@@ -80,11 +81,10 @@
         "biz_3152d763f9b7",
         "biz_3148dc5d80bb",
         "biz_ac169e6dbe17",
-        "biz_dfe74ecd7ceb",
-        "biz_e5c9d7a69753"
+        "biz_dfe74ecd7ceb"
       ],
       "source_count": 5,
-      "importance_score": 60,
+      "importance_score": 61,
       "confidence": "high",
       "yuanli_mapping": [
         "yuanli_os",
@@ -95,16 +95,21 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
         "biz_a1d362df5ac0",
+        "biz_bdf7a7a8bd86",
         "biz_ffddf2a62ef5",
         "biz_cc36443ea683",
-        "biz_6d29dad39b36",
-        "biz_40562aaff0ff"
+        "biz_6d29dad39b36"
       ],
       "top_sources": [
         {
           "source": "a16z",
           "title": "AI Agents and the Fight for Customer Data",
           "url": "https://a16z.com/podcast/ai-agents-and-the-fight-for-customer-data/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "Executive Interview: Lyzr",
+          "url": "https://www.cbinsights.com/research/executive-interview-lyzr/"
         },
         {
           "source": "Anthropic News",
@@ -120,11 +125,6 @@
           "source": "Anthropic News",
           "title": "Product Jun 30, 2026 Introducing Claude Sonnet 5 Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.",
           "url": "https://www.anthropic.com/news/claude-sonnet-5"
-        },
-        {
-          "source": "Anthropic News",
-          "title": "Announcements Jun 30, 2026 Claude Science, an AI workbench for scientists, is now available Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
-          "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
         }
       ]
     },
@@ -141,10 +141,10 @@
         "biz_6d12fbd2407f",
         "biz_6419e341a022",
         "biz_81957eff1692",
-        "biz_d86bbeea8a46",
         "biz_de26830f28c9",
         "biz_5f07c8cdd16c",
-        "biz_ff7535ed1189"
+        "biz_ff7535ed1189",
+        "biz_f1ab42db59b3"
       ],
       "source_count": 3,
       "importance_score": 56,

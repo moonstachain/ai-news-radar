@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:58:10.518983Z",
+  "generated_at": "2026-07-15T17:14:36.746791Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -31,7 +31,7 @@
         },
         {
           "id": "39de46bc3c39610026b5943df3ef0a3a20f15444",
-          "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码 / Full disclosure: Arbitrary code execution in Cursor",
+          "title": "Cursor 0day：当全面披露成为唯一的防护手段时 / Full disclosure: Arbitrary code execution in Cursor",
           "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
@@ -58,7 +58,7 @@
         },
         {
           "id": "686215783dedf013f07bd603608feb468065bac5",
-          "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码 / Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+          "title": "Cursor 0day：当全面披露成为唯一的防护手段时 / Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
           "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -95,7 +95,7 @@
         },
         {
           "id": "39de46bc3c39610026b5943df3ef0a3a20f15444",
-          "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码 / Full disclosure: Arbitrary code execution in Cursor",
+          "title": "Cursor 0day：当全面披露成为唯一的防护手段时 / Full disclosure: Arbitrary code execution in Cursor",
           "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
@@ -122,7 +122,7 @@
         },
         {
           "id": "686215783dedf013f07bd603608feb468065bac5",
-          "title": "Cursor IDE 0day 漏洞：打开恶意仓库即可自动执行任意代码 / Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+          "title": "Cursor 0day：当全面披露成为唯一的防护手段时 / Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
           "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -132,15 +132,15 @@
       ],
       "item_count": 6,
       "duplicate_count": 6,
-      "score": 0.8584,
-      "importance": 0.8584,
-      "importance_score": 0.8584,
+      "score": 0.8559,
+      "importance": 0.8559,
+      "importance_score": 0.8559,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.83,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7654,
+        "recency": 0.7514,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -157,6 +157,68 @@
         "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_ee230258f27f",
+      "title": "GPT-Red：释放自我完善的稳健性 / GPT-Red: Unlocking Self-Improvement for Robustness",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "primary_url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "684e8a3b4518eeb703ca575d74f032dd5b51f744",
+          "title": "GPT-Red：释放自我完善的稳健性 / GPT-Red: Unlocking Self-Improvement for Robustness",
+          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-15T10:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "684e8a3b4518eeb703ca575d74f032dd5b51f744",
+          "title": "GPT-Red：释放自我完善的稳健性 / GPT-Red: Unlocking Self-Improvement for Robustness",
+          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-15T10:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8421,
+      "importance": 0.8421,
+      "importance_score": 0.8421,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.9007,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-15T10:00:00Z",
+      "latest_at": "2026-07-15T10:00:00Z",
+      "primary_item": {
+        "id": "684e8a3b4518eeb703ca575d74f032dd5b51f744",
+        "title": "GPT-Red：释放自我完善的稳健性 / GPT-Red: Unlocking Self-Improvement for Robustness",
+        "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -194,15 +256,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8229,
-      "importance": 0.8229,
-      "importance_score": 0.8229,
+      "score": 0.8203,
+      "importance": 0.8203,
+      "importance_score": 0.8203,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.794,
+        "recency": 0.7796,
         "story_heat": 0.0
       },
       "category": "official",
@@ -256,15 +318,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.815,
-      "importance": 0.815,
-      "importance_score": 0.815,
+      "score": 0.8124,
+      "importance": 0.8124,
+      "importance_score": 0.8124,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7943,
+        "recency": 0.7798,
         "story_heat": 0.0
       },
       "category": "official",
@@ -280,6 +342,68 @@
         "title": "Visual Studio 中的 GitHub Copilot — 6 月更新 / GitHub Copilot in Visual Studio — June update",
         "url": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
         "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_1e97faa490fa",
+      "title": "美国正在通过州和联邦行动推进人工智能安全 / The US is advancing AI safety through state and federal action",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "primary_url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "543ceb9367a46d4476ec95c0e70823503b3a64f4",
+          "title": "美国正在通过州和联邦行动推进人工智能安全 / The US is advancing AI safety through state and federal action",
+          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-15T12:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "543ceb9367a46d4476ec95c0e70823503b3a64f4",
+          "title": "美国正在通过州和联邦行动推进人工智能安全 / The US is advancing AI safety through state and federal action",
+          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-15T12:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8389,
+      "importance": 0.8389,
+      "importance_score": 0.8389,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9271,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-15T12:00:00Z",
+      "latest_at": "2026-07-15T12:00:00Z",
+      "primary_item": {
+        "id": "543ceb9367a46d4476ec95c0e70823503b3a64f4",
+        "title": "美国正在通过州和联邦行动推进人工智能安全 / The US is advancing AI safety through state and federal action",
+        "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -337,15 +461,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8046,
-      "importance": 0.8046,
-      "importance_score": 0.8046,
+      "score": 0.8017,
+      "importance": 0.8017,
+      "importance_score": 0.8017,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9002,
+        "recency": 0.8838,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -362,68 +486,6 @@
         "url": "https://www.ithome.com/0/977/109.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_dc9597f1b62f",
-      "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
-      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-      "primary_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-      "source": "Google AI Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "d6e1c532e318fd0f4f4876f4d269af88e52d857b",
-          "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
-          "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T16:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Google AI Blog"
-      ],
-      "items": [
-        {
-          "id": "d6e1c532e318fd0f4f4876f4d269af88e52d857b",
-          "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
-          "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-14T16:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7913,
-      "importance": 0.7913,
-      "importance_score": 0.7913,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7074,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-14T16:00:00Z",
-      "latest_at": "2026-07-14T16:00:00Z",
-      "primary_item": {
-        "id": "d6e1c532e318fd0f4f4876f4d269af88e52d857b",
-        "title": "庆祝视觉搜索创新 25 周年 / Celebrating 25 years of visual search innovation",
-        "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-        "source": "Google AI Blog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -461,15 +523,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8142,
-      "importance": 0.8142,
-      "importance_score": 0.8142,
+      "score": 0.8116,
+      "importance": 0.8116,
+      "importance_score": 0.8116,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7898,
+        "recency": 0.7754,
         "story_heat": 0.0
       },
       "category": "official",
@@ -486,6 +548,125 @@
         "url": "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_449874491314",
+      "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "primary_url": "https://prismml.com/news/bonsai-27b",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "cf4a7f54fa86a332e7d7e5f9623df0d94e681b32",
+          "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
+          "url": "https://prismml.com/news/bonsai-27b",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T19:51:19.560000Z"
+        },
+        {
+          "id": "63510c526bb9f9d7a05ece0b22b7cb9ab8c3522b",
+          "title": "Bonsai 27B（1 位 LLM）：第一个在手机上运行的 27B 级模型 / Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
+          "url": "https://news.ycombinator.com/item?id=48910545",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-14T19:40:13.818000Z"
+        },
+        {
+          "id": "4198570cfbeaec1c6e0cba89ffcc05d3bf6e8f46",
+          "title": "Bonsai 27B：首款可在手机上运行的27B级模型 / Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
+          "url": "https://prismml.com/news/bonsai-27b",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-14T17:50:48Z"
+        },
+        {
+          "id": "0538b3877f0fcb65372fd03929a5d4429e265c67",
+          "title": "Bonsai 27B：首款可在手机上运行的27B级模型 / Bonsai 27B: A 27B-Class model that runs on a phone",
+          "url": "https://prismml.com/news/bonsai-27b",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-14T17:50:48Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News",
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "cf4a7f54fa86a332e7d7e5f9623df0d94e681b32",
+          "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
+          "url": "https://prismml.com/news/bonsai-27b",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-14T19:51:19.560000Z"
+        },
+        {
+          "id": "63510c526bb9f9d7a05ece0b22b7cb9ab8c3522b",
+          "title": "Bonsai 27B（1 位 LLM）：第一个在手机上运行的 27B 级模型 / Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
+          "url": "https://news.ycombinator.com/item?id=48910545",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-14T19:40:13.818000Z"
+        },
+        {
+          "id": "4198570cfbeaec1c6e0cba89ffcc05d3bf6e8f46",
+          "title": "Bonsai 27B：首款可在手机上运行的27B级模型 / Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
+          "url": "https://prismml.com/news/bonsai-27b",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-14T17:50:48Z"
+        },
+        {
+          "id": "0538b3877f0fcb65372fd03929a5d4429e265c67",
+          "title": "Bonsai 27B：首款可在手机上运行的27B级模型 / Bonsai 27B: A 27B-Class model that runs on a phone",
+          "url": "https://prismml.com/news/bonsai-27b",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-14T17:50:48Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8068,
+      "importance": 0.8068,
+      "importance_score": 0.8068,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7343,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-14T17:50:48Z",
+      "latest_at": "2026-07-14T19:51:19.560000Z",
+      "primary_item": {
+        "id": "cf4a7f54fa86a332e7d7e5f9623df0d94e681b32",
+        "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
+        "url": "https://prismml.com/news/bonsai-27b",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -542,15 +723,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7794,
-      "importance": 0.7794,
-      "importance_score": 0.7794,
+      "score": 0.7763,
+      "importance": 0.7763,
+      "importance_score": 0.7763,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9266,
+        "recency": 0.9097,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -567,125 +748,6 @@
         "url": "https://www.aibase.com/news/29625",
         "source": "AIbase",
         "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_449874491314",
-      "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
-      "url": "https://prismml.com/news/bonsai-27b",
-      "primary_url": "https://prismml.com/news/bonsai-27b",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "cf4a7f54fa86a332e7d7e5f9623df0d94e681b32",
-          "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
-          "url": "https://prismml.com/news/bonsai-27b",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T19:51:19.560000Z"
-        },
-        {
-          "id": "63510c526bb9f9d7a05ece0b22b7cb9ab8c3522b",
-          "title": "Bonsai 27B（1 位 LLM）：第一个在手机上运行的 27B 级模型 / Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
-          "url": "https://news.ycombinator.com/item?id=48910545",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-14T19:40:13.818000Z"
-        },
-        {
-          "id": "4198570cfbeaec1c6e0cba89ffcc05d3bf6e8f46",
-          "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型 / Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
-          "url": "https://prismml.com/news/bonsai-27b",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-14T17:50:48Z"
-        },
-        {
-          "id": "0538b3877f0fcb65372fd03929a5d4429e265c67",
-          "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型 / Bonsai 27B: A 27B-Class model that runs on a phone",
-          "url": "https://prismml.com/news/bonsai-27b",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-14T17:50:48Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "cf4a7f54fa86a332e7d7e5f9623df0d94e681b32",
-          "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
-          "url": "https://prismml.com/news/bonsai-27b",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-14T19:51:19.560000Z"
-        },
-        {
-          "id": "63510c526bb9f9d7a05ece0b22b7cb9ab8c3522b",
-          "title": "Bonsai 27B（1 位 LLM）：第一个在手机上运行的 27B 级模型 / Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
-          "url": "https://news.ycombinator.com/item?id=48910545",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-14T19:40:13.818000Z"
-        },
-        {
-          "id": "4198570cfbeaec1c6e0cba89ffcc05d3bf6e8f46",
-          "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型 / Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
-          "url": "https://prismml.com/news/bonsai-27b",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-14T17:50:48Z"
-        },
-        {
-          "id": "0538b3877f0fcb65372fd03929a5d4429e265c67",
-          "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型 / Bonsai 27B: A 27B-Class model that runs on a phone",
-          "url": "https://prismml.com/news/bonsai-27b",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-14T17:50:48Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8092,
-      "importance": 0.8092,
-      "importance_score": 0.8092,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7479,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-14T17:50:48Z",
-      "latest_at": "2026-07-14T19:51:19.560000Z",
-      "primary_item": {
-        "id": "cf4a7f54fa86a332e7d7e5f9623df0d94e681b32",
-        "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
-        "url": "https://prismml.com/news/bonsai-27b",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -723,15 +785,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.773,
-      "importance": 0.773,
-      "importance_score": 0.773,
+      "score": 0.77,
+      "importance": 0.77,
+      "importance_score": 0.77,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9301,
+        "recency": 0.9132,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -803,15 +865,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7631,
-      "importance": 0.7631,
-      "importance_score": 0.7631,
+      "score": 0.7606,
+      "importance": 0.7606,
+      "importance_score": 0.7606,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7696,
+        "recency": 0.7556,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -865,15 +927,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7535,
-      "importance": 0.7535,
-      "importance_score": 0.7535,
+      "score": 0.7508,
+      "importance": 0.7508,
+      "importance_score": 0.7508,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8218,
+        "recency": 0.8068,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -888,6 +950,87 @@
         "title": "Airtap iMessage 新功能：发条短信让 AI 替你操作手机",
         "url": "https://x.com/AYi_AInotes/status/2077217295504490992",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e21c965e6aed",
+      "title": "Telegram 无服务器架构",
+      "url": "https://core.telegram.org/bots/serverless",
+      "primary_url": "https://core.telegram.org/bots/serverless",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b48d0bcf1ac9713812076dcfd68a880183ee0fa8",
+          "title": "Telegram 无服务器架构",
+          "url": "https://core.telegram.org/bots/serverless",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-15T15:37:19.450000Z"
+        },
+        {
+          "id": "896aa7903770e1ec702edbf7b8920e29b26a2232",
+          "title": "Telegram 无服务器架构 / Telegram Serverless",
+          "url": "https://core.telegram.org/bots/serverless",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-15T10:06:39Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "b48d0bcf1ac9713812076dcfd68a880183ee0fa8",
+          "title": "Telegram 无服务器架构",
+          "url": "https://core.telegram.org/bots/serverless",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-15T15:37:19.450000Z"
+        },
+        {
+          "id": "896aa7903770e1ec702edbf7b8920e29b26a2232",
+          "title": "Telegram 无服务器架构 / Telegram Serverless",
+          "url": "https://core.telegram.org/bots/serverless",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-15T10:06:39Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8034,
+      "importance": 0.8034,
+      "importance_score": 0.8034,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9769,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-15T10:06:39Z",
+      "latest_at": "2026-07-15T15:37:19.450000Z",
+      "primary_item": {
+        "id": "b48d0bcf1ac9713812076dcfd68a880183ee0fa8",
+        "title": "Telegram 无服务器架构",
+        "url": "https://core.telegram.org/bots/serverless",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -926,15 +1069,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7388,
-      "importance": 0.7388,
-      "importance_score": 0.7388,
+      "score": 0.7361,
+      "importance": 0.7361,
+      "importance_score": 0.7361,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8233,
+        "recency": 0.8083,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1004,15 +1147,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7687,
-      "importance": 0.7687,
-      "importance_score": 0.7687,
+      "score": 0.7659,
+      "importance": 0.7659,
+      "importance_score": 0.7659,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8672,
+        "recency": 0.8514,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1085,15 +1228,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7686,
-      "importance": 0.7686,
-      "importance_score": 0.7686,
+      "score": 0.7656,
+      "importance": 0.7656,
+      "importance_score": 0.7656,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8999,
+        "recency": 0.8835,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1147,15 +1290,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7974,
-      "importance": 0.7974,
-      "importance_score": 0.7974,
+      "score": 0.795,
+      "importance": 0.795,
+      "importance_score": 0.795,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.741,
+        "recency": 0.7275,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1209,15 +1352,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7345,
-      "importance": 0.7345,
-      "importance_score": 0.7345,
+      "score": 0.7319,
+      "importance": 0.7319,
+      "importance_score": 0.7319,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7829,
+        "recency": 0.7686,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1269,15 +1412,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7314,
-      "importance": 0.7314,
-      "importance_score": 0.7314,
+      "score": 0.7288,
+      "importance": 0.7288,
+      "importance_score": 0.7288,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8157,
+        "recency": 0.8009,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1348,15 +1491,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7387,
-      "importance": 0.7387,
-      "importance_score": 0.7387,
+      "score": 0.7363,
+      "importance": 0.7363,
+      "importance_score": 0.7363,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.734,
+        "recency": 0.7207,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1372,168 +1515,6 @@
         "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_eb9b80fadbba",
-      "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重",
-      "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
-      "primary_url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "7780ac5867d8905bd2b741d4f72a57d47bde334a",
-          "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重",
-          "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-15T03:51:16.524000Z"
-        },
-        {
-          "id": "1c2aadf61cc7aa7e0b8fcfe152ee25bea2f95ac3",
-          "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重 / Data centers have hiked electricity prices on the public by $23B",
-          "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-15T00:20:31Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "7780ac5867d8905bd2b741d4f72a57d47bde334a",
-          "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重",
-          "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-15T03:51:16.524000Z"
-        },
-        {
-          "id": "1c2aadf61cc7aa7e0b8fcfe152ee25bea2f95ac3",
-          "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重 / Data centers have hiked electricity prices on the public by $23B",
-          "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-15T00:20:31Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7637,
-      "importance": 0.7637,
-      "importance_score": 0.7637,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8395,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-15T00:20:31Z",
-      "latest_at": "2026-07-15T03:51:16.524000Z",
-      "primary_item": {
-        "id": "7780ac5867d8905bd2b741d4f72a57d47bde334a",
-        "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重",
-        "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_3cb375934083",
-      "title": "AI 转录 Mac 工具MacWhisper14 发布：新增编辑器视图可直接编辑转录稿，修复CPU占用过高问题",
-      "url": "https://www.aibase.com/news/29609",
-      "primary_url": "https://www.aibase.com/news/29609",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "f42390251bc986e4ab09f27a61b95d1832ec7738",
-          "title": "AI 转录 Mac 工具MacWhisper14 发布：新增编辑器视图可直接编辑转录稿，修复CPU占用过高问题",
-          "url": "https://www.aibase.com/news/29609",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-15T03:42:24.024291Z"
-        },
-        {
-          "id": "233fccf637e7d448c766f90673d7b0169a2f7b62",
-          "title": "AI 转录 Mac 工具 MacWhisper 14 发布：新增编辑器视图，修复 CPU 占用过高问题",
-          "url": "https://www.ithome.com/0/976/812.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-15T01:37:49Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "IT之家 (ITHome)"
-      ],
-      "items": [
-        {
-          "id": "f42390251bc986e4ab09f27a61b95d1832ec7738",
-          "title": "AI 转录 Mac 工具MacWhisper14 发布：新增编辑器视图可直接编辑转录稿，修复CPU占用过高问题",
-          "url": "https://www.aibase.com/news/29609",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-15T03:42:24.024291Z"
-        },
-        {
-          "id": "233fccf637e7d448c766f90673d7b0169a2f7b62",
-          "title": "AI 转录 Mac 工具 MacWhisper 14 发布：新增编辑器视图，修复 CPU 占用过高问题",
-          "url": "https://www.ithome.com/0/976/812.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-15T01:37:49Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7634,
-      "importance": 0.7634,
-      "importance_score": 0.7634,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8377,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-15T01:37:49Z",
-      "latest_at": "2026-07-15T03:42:24.024291Z",
-      "primary_item": {
-        "id": "f42390251bc986e4ab09f27a61b95d1832ec7738",
-        "title": "AI 转录 Mac 工具MacWhisper14 发布：新增编辑器视图可直接编辑转录稿，修复CPU占用过高问题",
-        "url": "https://www.aibase.com/news/29609",
-        "source": "AIbase",
-        "source_name": "AIbase"
       }
     }
   ]
