@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T10:42:31.798296Z",
+  "generated_at": "2026-07-15T12:10:45.705088Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_2f0b4084974e",
@@ -205,10 +205,10 @@
         "biz_c3710204dd3b",
         "biz_d11e19e17274",
         "biz_9a38fd553437",
+        "biz_36255a88492a",
         "biz_e88fa46e3cee",
         "biz_4a0e2e7cfba5",
-        "biz_08413d697637",
-        "biz_f0a4db33c50f"
+        "biz_08413d697637"
       ],
       "source_count": 4,
       "importance_score": 52,
@@ -257,14 +257,13 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_6b05edc612f9",
+      "cluster_id": "biz_cluster_c91b604fa871",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "lane": "counter_signal",
       "signal_ids": [
         "biz_5abfba17eae7",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_2de9683e1220",
         "biz_b5d21faaa7d6",
         "biz_85d016ac6404"
       ],
@@ -275,15 +274,15 @@
         "ftf_trust",
         "yuanli_os"
       ],
-      "why_it_matters": "6 English evidence items from 4 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "5 English evidence items from 4 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "Counter-signals are the evidence, not a rejection of the thesis.",
       "recommended_action": "Add these counter-signals to sales objections and content credibility checks.",
       "evidence_refs": [
         "biz_5abfba17eae7",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_2de9683e1220",
-        "biz_b5d21faaa7d6"
+        "biz_b5d21faaa7d6",
+        "biz_85d016ac6404"
       ],
       "top_sources": [
         {
@@ -303,13 +302,13 @@
         },
         {
           "source": "Harvard Business Review",
-          "title": "You Outsourced the AI—but You Still Own the Risk",
-          "url": "https://hbr.org/2026/07/you-outsourced-the-ai-but-you-still-own-the-risk?ab=HP-latest-8"
-        },
-        {
-          "source": "Harvard Business Review",
           "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
           "url": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond"
+        },
+        {
+          "source": "a16z",
+          "title": "Hugging Face’s Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+          "url": "https://a16z.com/podcast/hugging-faces-clem-delangue-on-open-source-ai-and-the-llm-bubble-mts-live/"
         }
       ]
     }
