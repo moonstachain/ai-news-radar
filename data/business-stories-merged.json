@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T21:28:55.026194Z",
+  "generated_at": "2026-07-15T22:29:24.605916Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_2f0b4084974e",
@@ -193,13 +193,13 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_98ba942e2969",
+      "cluster_id": "biz_cluster_d2e5c3c712f5",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "signal_ids": [
-        "biz_fdfaf967bda3",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
+        "biz_fdfaf967bda3",
         "biz_3c5823b34f5a",
         "biz_ee0d77c88941",
         "biz_c3710204dd3b",
@@ -222,18 +222,13 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
-        "biz_fdfaf967bda3",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
+        "biz_fdfaf967bda3",
         "biz_3c5823b34f5a",
         "biz_ee0d77c88941"
       ],
       "top_sources": [
-        {
-          "source": "MIT Sloan Management Review",
-          "title": "﻿The Global Scaling Gap: Why Strategic Clarity Is Crucial in the Age of AI",
-          "url": "https://sloanreview.mit.edu/article/the-global-scaling-gap-why-strategic-clarity-is-crucial-in-the-age-of-ai/"
-        },
         {
           "source": "BCG AI Insights",
           "title": "Financial Institutions",
@@ -243,6 +238,11 @@
           "source": "BCG AI Insights",
           "title": "Principal Investors and Private Equity",
           "url": "https://www.bcg.com/industries/principal-investors-private-equity/overview"
+        },
+        {
+          "source": "MIT Sloan Management Review",
+          "title": "﻿The Global Scaling Gap: Why Strategic Clarity Is Crucial in the Age of AI",
+          "url": "https://sloanreview.mit.edu/article/the-global-scaling-gap-why-strategic-clarity-is-crucial-in-the-age-of-ai/"
         },
         {
           "source": "Harvard Business Review",
@@ -257,15 +257,15 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_c91b604fa871",
+      "cluster_id": "biz_cluster_2db17cd63f28",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "lane": "counter_signal",
       "signal_ids": [
         "biz_5abfba17eae7",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_b5d21faaa7d6",
-        "biz_85d016ac6404"
+        "biz_85d016ac6404",
+        "biz_b5d21faaa7d6"
       ],
       "source_count": 4,
       "importance_score": 48,
@@ -281,8 +281,8 @@
         "biz_5abfba17eae7",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_b5d21faaa7d6",
-        "biz_85d016ac6404"
+        "biz_85d016ac6404",
+        "biz_b5d21faaa7d6"
       ],
       "top_sources": [
         {
@@ -301,14 +301,14 @@
           "url": "https://www.generalist.com/p/why-one-superintelligence-is-more"
         },
         {
-          "source": "Harvard Business Review",
-          "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
-          "url": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond"
-        },
-        {
           "source": "a16z",
           "title": "Hugging Face’s Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
           "url": "https://a16z.com/podcast/hugging-faces-clem-delangue-on-open-source-ai-and-the-llm-bubble-mts-live/"
+        },
+        {
+          "source": "Harvard Business Review",
+          "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
+          "url": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond"
         }
       ]
     }
