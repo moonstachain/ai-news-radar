@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T18:37:02.879437Z",
+  "generated_at": "2026-07-15T20:02:37.221632Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_2f0b4084974e",
@@ -66,12 +66,11 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_521dd5c60941",
+      "cluster_id": "biz_cluster_95f84e367f70",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
         "biz_a1d362df5ac0",
-        "biz_bdf7a7a8bd86",
         "biz_ffddf2a62ef5",
         "biz_cc36443ea683",
         "biz_6d29dad39b36",
@@ -81,10 +80,11 @@
         "biz_3152d763f9b7",
         "biz_3148dc5d80bb",
         "biz_ac169e6dbe17",
-        "biz_dfe74ecd7ceb"
+        "biz_dfe74ecd7ceb",
+        "biz_e5c9d7a69753"
       ],
       "source_count": 5,
-      "importance_score": 61,
+      "importance_score": 60,
       "confidence": "high",
       "yuanli_mapping": [
         "yuanli_os",
@@ -95,21 +95,16 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
         "biz_a1d362df5ac0",
-        "biz_bdf7a7a8bd86",
         "biz_ffddf2a62ef5",
         "biz_cc36443ea683",
-        "biz_6d29dad39b36"
+        "biz_6d29dad39b36",
+        "biz_40562aaff0ff"
       ],
       "top_sources": [
         {
           "source": "a16z",
           "title": "AI Agents and the Fight for Customer Data",
           "url": "https://a16z.com/podcast/ai-agents-and-the-fight-for-customer-data/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: Lyzr",
-          "url": "https://www.cbinsights.com/research/executive-interview-lyzr/"
         },
         {
           "source": "Anthropic News",
@@ -125,6 +120,11 @@
           "source": "Anthropic News",
           "title": "Product Jun 30, 2026 Introducing Claude Sonnet 5 Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.",
           "url": "https://www.anthropic.com/news/claude-sonnet-5"
+        },
+        {
+          "source": "Anthropic News",
+          "title": "Announcements Jun 30, 2026 Claude Science, an AI workbench for scientists, is now available Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
         }
       ]
     },
@@ -139,12 +139,12 @@
         "biz_9bb2c946e7f3",
         "biz_a3b410f2163d",
         "biz_6c9a126452ca",
+        "biz_32151fea2203",
+        "biz_e38b75f2711c",
         "biz_2e5649d04e21",
         "biz_ab4a35294bbe",
         "biz_f9d704914583",
-        "biz_abe98ef13065",
-        "biz_054ed6386955",
-        "biz_b929c31bd9e0"
+        "biz_abe98ef13065"
       ],
       "source_count": 2,
       "importance_score": 57,
@@ -193,11 +193,10 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_3117b7290b36",
+      "cluster_id": "biz_cluster_98ba942e2969",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "signal_ids": [
-        "biz_55afee00b348",
         "biz_fdfaf967bda3",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
@@ -208,10 +207,11 @@
         "biz_9a38fd553437",
         "biz_36255a88492a",
         "biz_e88fa46e3cee",
-        "biz_4a0e2e7cfba5"
+        "biz_4a0e2e7cfba5",
+        "biz_08413d697637"
       ],
       "source_count": 4,
-      "importance_score": 55,
+      "importance_score": 52,
       "confidence": "high",
       "yuanli_mapping": [
         "ftf_trust",
@@ -222,18 +222,13 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
-        "biz_55afee00b348",
         "biz_fdfaf967bda3",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
-        "biz_3c5823b34f5a"
+        "biz_3c5823b34f5a",
+        "biz_ee0d77c88941"
       ],
       "top_sources": [
-        {
-          "source": "Harvard Business Review",
-          "title": "Startup Founders Need a New Sales Playbook",
-          "url": "https://hbr.org/2026/06/startup-founders-need-a-new-sales-playbook?ab=HP-hero-for-you-1"
-        },
         {
           "source": "MIT Sloan Management Review",
           "title": "﻿The Global Scaling Gap: Why Strategic Clarity Is Crucial in the Age of AI",
@@ -253,6 +248,11 @@
           "source": "Harvard Business Review",
           "title": "What Customer Workarounds Can Reveal About Your Business Model",
           "url": "https://hbr.org/2026/05/what-customer-workarounds-can-reveal-about-your-business-model?ab=HP-topics-text-3"
+        },
+        {
+          "source": "Bain Insights",
+          "title": "Customer Experience",
+          "url": "https://www.bain.com/consulting-services/customer-strategy-and-marketing/customer-experience-transformation/"
         }
       ]
     },
