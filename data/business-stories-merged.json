@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T03:56:11.314832Z",
+  "generated_at": "2026-07-16T06:10:46.656849Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_4da344a37c84",
@@ -129,16 +129,16 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_4339051e535d",
+      "cluster_id": "biz_cluster_9d470ab48b78",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "signal_ids": [
-        "biz_3abdbcb27fa5",
         "biz_72e195cb3c37",
+        "biz_3abdbcb27fa5",
         "biz_f3113cd6c1eb",
         "biz_9bb2c946e7f3",
-        "biz_a3b410f2163d",
         "biz_6c9a126452ca",
+        "biz_a3b410f2163d",
         "biz_32151fea2203",
         "biz_e38b75f2711c",
         "biz_2e5649d04e21",
@@ -158,22 +158,22 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
-        "biz_3abdbcb27fa5",
         "biz_72e195cb3c37",
+        "biz_3abdbcb27fa5",
         "biz_f3113cd6c1eb",
         "biz_9bb2c946e7f3",
-        "biz_a3b410f2163d"
+        "biz_6c9a126452ca"
       ],
       "top_sources": [
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: Thryve",
-          "url": "https://www.cbinsights.com/research/ceo-interview-thryve/"
-        },
         {
           "source": "First Round Review",
           "title": "Firsthand: How I Bet On Clay (And It Bet On Me) I joined Clay as one of its earliest employees and a reluctant marketing hire. This is how, over the last three years, we built a role around my strengths as a storyteller, scaled past $100M ARR, and created a brand that startups study.",
           "url": "https://review.firstround.com/firsthand-clay/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: Thryve",
+          "url": "https://www.cbinsights.com/research/ceo-interview-thryve/"
         },
         {
           "source": "First Round Review",
@@ -186,9 +186,9 @@
           "url": "https://www.cbinsights.com/research/ceo-interview-novaspark-energy/"
         },
         {
-          "source": "CB Insights",
-          "title": "CEO Interview: Cara",
-          "url": "https://www.cbinsights.com/research/ceo-interview-cara/"
+          "source": "First Round Review",
+          "title": "So You Want to Hire a Forward Deployed Engineer: How to Know If You Need One and How to Get the Role Right Founders and operators who’ve successfully built forward deployed engineering teams share the nuances that make this idiosyncratic role work, along with advice for hiring your own team.",
+          "url": "https://review.firstround.com/so-you-want-to-hire-a-forward-deployed-engineer/"
         }
       ]
     },
@@ -257,15 +257,15 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_2db17cd63f28",
+      "cluster_id": "biz_cluster_c91b604fa871",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "lane": "counter_signal",
       "signal_ids": [
         "biz_5abfba17eae7",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_85d016ac6404",
-        "biz_b5d21faaa7d6"
+        "biz_b5d21faaa7d6",
+        "biz_85d016ac6404"
       ],
       "source_count": 4,
       "importance_score": 48,
@@ -281,8 +281,8 @@
         "biz_5abfba17eae7",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_85d016ac6404",
-        "biz_b5d21faaa7d6"
+        "biz_b5d21faaa7d6",
+        "biz_85d016ac6404"
       ],
       "top_sources": [
         {
@@ -301,14 +301,14 @@
           "url": "https://www.generalist.com/p/why-one-superintelligence-is-more"
         },
         {
-          "source": "a16z",
-          "title": "Hugging Face’s Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
-          "url": "https://a16z.com/podcast/hugging-faces-clem-delangue-on-open-source-ai-and-the-llm-bubble-mts-live/"
-        },
-        {
           "source": "Harvard Business Review",
           "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
           "url": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond"
+        },
+        {
+          "source": "a16z",
+          "title": "Hugging Face’s Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
+          "url": "https://a16z.com/podcast/hugging-faces-clem-delangue-on-open-source-ai-and-the-llm-bubble-mts-live/"
         }
       ]
     }
