@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T12:15:15.392644Z",
+  "generated_at": "2026-07-16T14:32:05.650707Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_4da344a37c84",
@@ -16,8 +16,8 @@
         "biz_920e7d166118",
         "biz_dddc6c8969fe",
         "biz_902ca483b674",
-        "biz_48bf144cc577",
-        "biz_231b8128e9d8"
+        "biz_231b8128e9d8",
+        "biz_8c7ea4c92179"
       ],
       "source_count": 3,
       "importance_score": 85,
@@ -193,6 +193,63 @@
       ]
     },
     {
+      "cluster_id": "biz_cluster_c78f29fc9d39",
+      "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
+      "lane": "counter_signal",
+      "signal_ids": [
+        "biz_5abfba17eae7",
+        "biz_85227d2c27b6",
+        "biz_3f3b42cbc409",
+        "biz_d3bb755fab5d",
+        "biz_b5d21faaa7d6",
+        "biz_85d016ac6404"
+      ],
+      "source_count": 5,
+      "importance_score": 53,
+      "confidence": "high",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_os"
+      ],
+      "why_it_matters": "6 English evidence items from 5 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "Counter-signals are the evidence, not a rejection of the thesis.",
+      "recommended_action": "Add these counter-signals to sales objections and content credibility checks.",
+      "evidence_refs": [
+        "biz_5abfba17eae7",
+        "biz_85227d2c27b6",
+        "biz_3f3b42cbc409",
+        "biz_d3bb755fab5d",
+        "biz_b5d21faaa7d6"
+      ],
+      "top_sources": [
+        {
+          "source": "BCG AI Insights",
+          "title": "Insurance Industry",
+          "url": "https://www.bcg.com/industries/insurance/overview"
+        },
+        {
+          "source": "MIT Sloan Management Review",
+          "title": "What CEOs Need to Know About Sovereign AI",
+          "url": "https://sloanreview.mit.edu/article/what-ceos-need-to-know-about-sovereign-ai/"
+        },
+        {
+          "source": "The Generalist",
+          "title": "The Token Budget Problem Nobody Is Talking About (Matan Grinberg, Co-Founder & CEO of Factory)",
+          "url": "https://www.generalist.com/p/the-token-budget-problem"
+        },
+        {
+          "source": "The Generalist",
+          "title": "Why One Superintelligence Is More Dangerous Than a Thousand (Vincent Weisser, CEO & Co-Founder of Prime Intellect)",
+          "url": "https://www.generalist.com/p/why-one-superintelligence-is-more"
+        },
+        {
+          "source": "Harvard Business Review",
+          "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
+          "url": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond"
+        }
+      ]
+    },
+    {
       "cluster_id": "biz_cluster_d2e5c3c712f5",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
@@ -253,62 +310,6 @@
           "source": "Bain Insights",
           "title": "Customer Experience",
           "url": "https://www.bain.com/consulting-services/customer-strategy-and-marketing/customer-experience-transformation/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_c91b604fa871",
-      "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
-      "lane": "counter_signal",
-      "signal_ids": [
-        "biz_5abfba17eae7",
-        "biz_3f3b42cbc409",
-        "biz_d3bb755fab5d",
-        "biz_b5d21faaa7d6",
-        "biz_85d016ac6404"
-      ],
-      "source_count": 4,
-      "importance_score": 48,
-      "confidence": "high",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_os"
-      ],
-      "why_it_matters": "5 English evidence items from 4 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "Counter-signals are the evidence, not a rejection of the thesis.",
-      "recommended_action": "Add these counter-signals to sales objections and content credibility checks.",
-      "evidence_refs": [
-        "biz_5abfba17eae7",
-        "biz_3f3b42cbc409",
-        "biz_d3bb755fab5d",
-        "biz_b5d21faaa7d6",
-        "biz_85d016ac6404"
-      ],
-      "top_sources": [
-        {
-          "source": "BCG AI Insights",
-          "title": "Insurance Industry",
-          "url": "https://www.bcg.com/industries/insurance/overview"
-        },
-        {
-          "source": "The Generalist",
-          "title": "The Token Budget Problem Nobody Is Talking About (Matan Grinberg, Co-Founder & CEO of Factory)",
-          "url": "https://www.generalist.com/p/the-token-budget-problem"
-        },
-        {
-          "source": "The Generalist",
-          "title": "Why One Superintelligence Is More Dangerous Than a Thousand (Vincent Weisser, CEO & Co-Founder of Prime Intellect)",
-          "url": "https://www.generalist.com/p/why-one-superintelligence-is-more"
-        },
-        {
-          "source": "Harvard Business Review",
-          "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
-          "url": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond"
-        },
-        {
-          "source": "a16z",
-          "title": "Hugging Face’s Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
-          "url": "https://a16z.com/podcast/hugging-faces-clem-delangue-on-open-source-ai-and-the-llm-bubble-mts-live/"
         }
       ]
     }
