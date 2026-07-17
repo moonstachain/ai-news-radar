@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T04:43:50.848934Z",
+  "generated_at": "2026-07-17T07:11:05.134752Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_4da344a37c84",
@@ -66,6 +66,69 @@
       ]
     },
     {
+      "cluster_id": "biz_cluster_95f84e367f70",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "signal_ids": [
+        "biz_a1d362df5ac0",
+        "biz_ffddf2a62ef5",
+        "biz_cc36443ea683",
+        "biz_6d29dad39b36",
+        "biz_40562aaff0ff",
+        "biz_73aa72e3bde2",
+        "biz_de525aae38e5",
+        "biz_3152d763f9b7",
+        "biz_3148dc5d80bb",
+        "biz_dfe74ecd7ceb",
+        "biz_ac169e6dbe17",
+        "biz_e8c1e345ccf7"
+      ],
+      "source_count": 4,
+      "importance_score": 58,
+      "confidence": "high",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "12 English evidence items from 4 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_a1d362df5ac0",
+        "biz_ffddf2a62ef5",
+        "biz_cc36443ea683",
+        "biz_6d29dad39b36",
+        "biz_40562aaff0ff"
+      ],
+      "top_sources": [
+        {
+          "source": "a16z",
+          "title": "AI Agents and the Fight for Customer Data",
+          "url": "https://a16z.com/podcast/ai-agents-and-the-fight-for-customer-data/"
+        },
+        {
+          "source": "Anthropic News",
+          "title": "Features Jul 6, 2026 The Making of Claude Code The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built it.",
+          "url": "https://www.anthropic.com/features/making-of-claude-code"
+        },
+        {
+          "source": "Anthropic News",
+          "title": "Announcements Jun 30, 2026 Redeploying Fable 5 Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.",
+          "url": "https://www.anthropic.com/news/redeploying-fable-5"
+        },
+        {
+          "source": "Anthropic News",
+          "title": "Product Jun 30, 2026 Introducing Claude Sonnet 5 Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5"
+        },
+        {
+          "source": "Anthropic News",
+          "title": "Announcements Jun 30, 2026 Claude Science, an AI workbench for scientists, is now available Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+        }
+      ]
+    },
+    {
       "cluster_id": "biz_cluster_f2823f7b82f5",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
@@ -126,69 +189,6 @@
           "source": "CB Insights",
           "title": "CEO Interview: NovaSpark Energy",
           "url": "https://www.cbinsights.com/research/ceo-interview-novaspark-energy/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_7c59f4dd4a7c",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "signal_ids": [
-        "biz_a1d362df5ac0",
-        "biz_73aa72e3bde2",
-        "biz_3148dc5d80bb",
-        "biz_ac169e6dbe17",
-        "biz_ff34dbeef873",
-        "biz_e5c9d7a69753",
-        "biz_a73246b651e6",
-        "biz_b55aca8ce17b",
-        "biz_50388674c6d3",
-        "biz_efc3c55e96d3",
-        "biz_aab79b680c8a",
-        "biz_f2601158689e"
-      ],
-      "source_count": 6,
-      "importance_score": 53,
-      "confidence": "high",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "why_it_matters": "12 English evidence items from 6 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "evidence_refs": [
-        "biz_a1d362df5ac0",
-        "biz_73aa72e3bde2",
-        "biz_3148dc5d80bb",
-        "biz_ac169e6dbe17",
-        "biz_ff34dbeef873"
-      ],
-      "top_sources": [
-        {
-          "source": "a16z",
-          "title": "AI Agents and the Fight for Customer Data",
-          "url": "https://a16z.com/podcast/ai-agents-and-the-fight-for-customer-data/"
-        },
-        {
-          "source": "First Round Review",
-          "title": "Serval's Path to Product-Market Fit — Win Enterprise Buyers by Treating Them Like Consumers Notes from an AI founder taking a swing at a hundred-billion-dollar incumbent.",
-          "url": "https://review.firstround.com/servals-path-to-product-market-fit/"
-        },
-        {
-          "source": "a16z",
-          "title": "Building Search for AI Agents with Exa CEO Will Bryk",
-          "url": "https://a16z.com/podcast/building-search-for-ai-agents-with-exa-ceo-will-bryk/"
-        },
-        {
-          "source": "Lenny's Newsletter",
-          "title": "What a harness is and how to build one with Claude Agent SDK",
-          "url": "https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build"
-        },
-        {
-          "source": "Lenny's Newsletter",
-          "title": "Sonnet 5 review: I ran 64 generations to find out if it's worth it",
-          "url": "https://www.lennysnewsletter.com/p/sonnet-5-review-i-ran-64-generations"
         }
       ]
     },
