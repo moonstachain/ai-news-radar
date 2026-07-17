@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T09:26:38.662913Z",
+  "generated_at": "2026-07-17T11:03:34.151580Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_4da344a37c84",
@@ -251,14 +251,13 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_c8279fd7df5a",
+      "cluster_id": "biz_cluster_b8ad41c79a18",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "signal_ids": [
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
         "biz_3c5823b34f5a",
-        "biz_fdfaf967bda3",
         "biz_ee0d77c88941",
         "biz_c3710204dd3b",
         "biz_d11e19e17274",
@@ -266,25 +265,26 @@
         "biz_e88fa46e3cee",
         "biz_4a0e2e7cfba5",
         "biz_08413d697637",
-        "biz_39dc5f97a715"
+        "biz_39dc5f97a715",
+        "biz_f55d819a9223"
       ],
-      "source_count": 4,
-      "importance_score": 52,
-      "confidence": "high",
+      "source_count": 3,
+      "importance_score": 50,
+      "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "yuanli_startup"
       ],
-      "why_it_matters": "12 English evidence items from 4 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "12 English evidence items from 3 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
         "biz_3c5823b34f5a",
-        "biz_fdfaf967bda3",
-        "biz_ee0d77c88941"
+        "biz_ee0d77c88941",
+        "biz_c3710204dd3b"
       ],
       "top_sources": [
         {
@@ -303,14 +303,14 @@
           "url": "https://hbr.org/2026/05/what-customer-workarounds-can-reveal-about-your-business-model?ab=HP-topics-text-3"
         },
         {
-          "source": "MIT Sloan Management Review",
-          "title": "﻿The Global Scaling Gap: Why Strategic Clarity Is Crucial in the Age of AI",
-          "url": "https://sloanreview.mit.edu/article/the-global-scaling-gap-why-strategic-clarity-is-crucial-in-the-age-of-ai/"
-        },
-        {
           "source": "Bain Insights",
           "title": "Customer Experience",
           "url": "https://www.bain.com/consulting-services/customer-strategy-and-marketing/customer-experience-transformation/"
+        },
+        {
+          "source": "Bain Insights",
+          "title": "Supporting Your Growth",
+          "url": "https://www.bain.com/careers/life-at-bain/supporting-your-growth/"
         }
       ]
     }
