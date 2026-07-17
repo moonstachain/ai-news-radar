@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T14:25:37.024844Z",
+  "generated_at": "2026-07-17T15:53:44.221660Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_4da344a37c84",
@@ -250,10 +250,11 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_b8ad41c79a18",
+      "cluster_id": "biz_cluster_242ab4a357fb",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "signal_ids": [
+        "biz_fe5cd9f943ae",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
         "biz_3c5823b34f5a",
@@ -264,7 +265,6 @@
         "biz_e88fa46e3cee",
         "biz_4a0e2e7cfba5",
         "biz_08413d697637",
-        "biz_c53671f6e2df",
         "biz_39dc5f97a715"
       ],
       "source_count": 3,
@@ -279,13 +279,18 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
+        "biz_fe5cd9f943ae",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
         "biz_3c5823b34f5a",
-        "biz_ee0d77c88941",
-        "biz_c3710204dd3b"
+        "biz_ee0d77c88941"
       ],
       "top_sources": [
+        {
+          "source": "Harvard Business Review",
+          "title": "Contact Customer Service",
+          "url": "https://hbr.org/subscriber-help#contact-customer-service"
+        },
         {
           "source": "BCG AI Insights",
           "title": "Financial Institutions",
@@ -305,11 +310,6 @@
           "source": "Bain Insights",
           "title": "Customer Experience",
           "url": "https://www.bain.com/consulting-services/customer-strategy-and-marketing/customer-experience-transformation/"
-        },
-        {
-          "source": "Bain Insights",
-          "title": "Supporting Your Growth",
-          "url": "https://www.bain.com/careers/life-at-bain/supporting-your-growth/"
         }
       ]
     }
