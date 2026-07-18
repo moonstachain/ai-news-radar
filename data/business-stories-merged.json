@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T11:44:58.280539Z",
+  "generated_at": "2026-07-18T12:49:25.096126Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_4da344a37c84",
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_d50035b5907d",
+      "cluster_id": "biz_cluster_c78f29fc9d39",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "lane": "counter_signal",
       "signal_ids": [
@@ -201,8 +201,8 @@
         "biz_85227d2c27b6",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_85d016ac6404",
-        "biz_b5d21faaa7d6"
+        "biz_b5d21faaa7d6",
+        "biz_85d016ac6404"
       ],
       "source_count": 5,
       "importance_score": 52,
@@ -219,7 +219,7 @@
         "biz_85227d2c27b6",
         "biz_3f3b42cbc409",
         "biz_d3bb755fab5d",
-        "biz_85d016ac6404"
+        "biz_b5d21faaa7d6"
       ],
       "top_sources": [
         {
@@ -243,17 +243,18 @@
           "url": "https://www.generalist.com/p/why-one-superintelligence-is-more"
         },
         {
-          "source": "a16z",
-          "title": "Hugging Face’s Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
-          "url": "https://a16z.com/podcast/hugging-faces-clem-delangue-on-open-source-ai-and-the-llm-bubble-mts-live/"
+          "source": "Harvard Business Review",
+          "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
+          "url": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond"
         }
       ]
     },
     {
-      "cluster_id": "biz_cluster_b8ad41c79a18",
+      "cluster_id": "biz_cluster_242ab4a357fb",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "signal_ids": [
+        "biz_fe5cd9f943ae",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
         "biz_3c5823b34f5a",
@@ -264,7 +265,6 @@
         "biz_e88fa46e3cee",
         "biz_4a0e2e7cfba5",
         "biz_08413d697637",
-        "biz_39dc5f97a715",
         "biz_4baee4abe5c3"
       ],
       "source_count": 3,
@@ -279,13 +279,18 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
+        "biz_fe5cd9f943ae",
         "biz_fd2b63193b5d",
         "biz_3f595b7a14d2",
         "biz_3c5823b34f5a",
-        "biz_ee0d77c88941",
-        "biz_c3710204dd3b"
+        "biz_ee0d77c88941"
       ],
       "top_sources": [
+        {
+          "source": "Harvard Business Review",
+          "title": "Contact Customer Service",
+          "url": "https://hbr.org/subscriber-help#contact-customer-service"
+        },
         {
           "source": "BCG AI Insights",
           "title": "Financial Institutions",
@@ -305,11 +310,6 @@
           "source": "Bain Insights",
           "title": "Customer Experience",
           "url": "https://www.bain.com/consulting-services/customer-strategy-and-marketing/customer-experience-transformation/"
-        },
-        {
-          "source": "Bain Insights",
-          "title": "Supporting Your Growth",
-          "url": "https://www.bain.com/careers/life-at-bain/supporting-your-growth/"
         }
       ]
     }
