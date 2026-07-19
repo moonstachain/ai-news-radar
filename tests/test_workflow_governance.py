@@ -10,6 +10,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKFLOW_PATH = ROOT / ".github" / "workflows" / "update-news.yml"
+TEST_WORKFLOW_PATH = ROOT / ".github" / "workflows" / "test.yml"
 
 
 def workflow_text() -> str:
@@ -19,6 +20,10 @@ def workflow_text() -> str:
 def workflow_document() -> dict:
     # BaseLoader avoids YAML 1.1 treating the GitHub Actions `on` key as true.
     return yaml.load(workflow_text(), Loader=yaml.BaseLoader)
+
+
+def read_test_workflow_text() -> str:
+    return TEST_WORKFLOW_PATH.read_text(encoding="utf-8")
 
 
 def publish_script() -> str:
@@ -81,10 +86,21 @@ def test_dispatched_test_is_selected_and_verified_by_snapshot_sha():
     assert 'gh run watch "$RUN_ID" --exit-status' in script
 
 
+def test_dispatched_test_publishes_a_required_status_for_its_exact_sha():
+    text = read_test_workflow_text()
+    assert "statuses: write" in text
+    assert "github.event_name == 'workflow_dispatch'" in text
+    assert "TEST_RESULT: ${{ job.status }}" in text
+    assert '"repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}"' in text
+    assert '-f context="test"' in text
+    assert '-f state="$STATE"' in text
+
+
 def test_merge_rechecks_pr_head_and_matches_the_tested_commit():
     script = publish_script()
     assert 'PR_HEAD_SHA=$(gh pr view "$PR_URL" --json headRefOid' in script
     assert 'if [ "$PR_HEAD_SHA" != "$SNAPSHOT_SHA" ]' in script
     assert '--match-head-commit "$SNAPSHOT_SHA"' in script
+    assert "--auto" in script
     assert "--squash" in script
     assert "--delete-branch" in script

@@ -193,6 +193,7 @@ jobs:
             exit 1
           fi
           gh pr merge "$PR_URL" \
+            --auto \
             --squash \
             --delete-branch \
             --match-head-commit "$SNAPSHOT_SHA"
