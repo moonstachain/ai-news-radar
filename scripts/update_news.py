@@ -2723,11 +2723,31 @@ def load_archive(path: Path) -> dict[str, dict[str, Any]]:
 
 
 def event_time(record: dict[str, Any]) -> datetime | None:
-    # RSS sources must rely on the source's publish time only.
-    # first_seen_at is fetch time and would falsely mark historical items as "24h".
-    if str(record.get("site_id") or "") == "opmlrss":
-        return parse_iso(record.get("published_at"))
-    return parse_iso(record.get("published_at")) or parse_iso(record.get("first_seen_at"))
+    # A 24-hour news product must use the source event time.  ``first_seen_at``
+    # is transport evidence only: falling back to it silently turns an old or
+    # undated record into a fresh story on every first capture.
+    return parse_iso(record.get("published_at"))
+
+
+def strict_24h_event_time(
+    record: dict[str, Any],
+    *,
+    now: datetime,
+    window_start: datetime,
+) -> tuple[datetime | None, str | None]:
+    """Return a trustworthy source timestamp or a fail-closed skip reason."""
+
+    published = event_time(record)
+    if published is None:
+        return None, "missing_published_at"
+    if published > now:
+        return None, "future_published_at"
+    if published < window_start:
+        return None, "outside_window"
+    first_seen = parse_iso(record.get("first_seen_at"))
+    if first_seen is not None and published == first_seen:
+        return None, "published_equals_first_seen"
+    return published, None
 
 
 SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
@@ -5440,25 +5460,35 @@ def main() -> int:
     # 24h view
     window_start = now - timedelta(hours=args.window_hours)
     latest_items_all: list[dict[str, Any]] = []
+    timestamp_skips = {
+        "missing_published_at": 0,
+        "future_published_at": 0,
+        "published_equals_first_seen": 0,
+        "outside_window": 0,
+    }
     for record in archive.values():
-        ts = event_time(record)
-        if not ts:
+        ts, skip_reason = strict_24h_event_time(
+            record,
+            now=now,
+            window_start=window_start,
+        )
+        if skip_reason:
+            timestamp_skips[skip_reason] += 1
             continue
-        if ts >= window_start:
-            normalized = dict(record)
-            normalized["title"] = maybe_fix_mojibake(str(normalized.get("title") or ""))
-            normalized["source"] = maybe_fix_mojibake(normalize_source_for_display(
-                str(normalized.get("site_id") or ""),
-                str(normalized.get("source") or ""),
-                str(normalized.get("url") or ""),
-            ))
-            if str(normalized.get("site_id") or "") == "aihubtoday" and is_hubtoday_placeholder_title(
-                str(normalized.get("title") or "")
-            ):
-                continue
-            normalized = add_ai_relevance_fields(normalized)
-            normalized = add_source_tier_fields(normalized)
-            latest_items_all.append(normalized)
+        normalized = dict(record)
+        normalized["title"] = maybe_fix_mojibake(str(normalized.get("title") or ""))
+        normalized["source"] = maybe_fix_mojibake(normalize_source_for_display(
+            str(normalized.get("site_id") or ""),
+            str(normalized.get("source") or ""),
+            str(normalized.get("url") or ""),
+        ))
+        if str(normalized.get("site_id") or "") == "aihubtoday" and is_hubtoday_placeholder_title(
+            str(normalized.get("title") or "")
+        ):
+            continue
+        normalized = add_ai_relevance_fields(normalized)
+        normalized = add_source_tier_fields(normalized)
+        latest_items_all.append(normalized)
 
     latest_items_all = normalize_aihubtoday_records(latest_items_all)
 
@@ -5589,6 +5619,12 @@ def main() -> int:
         "fetched_raw_items": len(raw_items),
         "items_before_topic_filter": len(latest_items_all),
         "items_in_24h": len(latest_items_ai_dedup),
+        "timestamp_gate": {
+            "status": "fail_closed",
+            "basis": "published_at_only",
+            "window_hours": args.window_hours,
+            "skipped": timestamp_skips,
+        },
         "rss_opml": {
             "enabled": bool(args.rss_opml),
             "path": "configured" if args.rss_opml else None,
