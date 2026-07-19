@@ -288,7 +288,14 @@ Use this only for sources that should benefit every public visitor:
 
 The public deployment should remain GitHub Pages + GitHub Actions:
 
-- GitHub Actions updates `data/*.json`.
+- GitHub Actions generates `data/*.json` on a unique automation branch, opens
+  an auditable PR, dispatches the repository test workflow for that exact
+  commit, verifies that the tested SHA is still the PR head, and squash-merges
+  only after the check succeeds. The checkout is pinned to the triggering
+  default-branch SHA, so a queued run cannot silently change its snapshot base.
+  The repository must allow Actions to create PRs and protect `master` with the
+  required `test` check. The workflow rejects non-default-branch dispatches and
+  never pushes generated snapshots directly to `master`.
 - GitHub Pages serves `index.html` and `assets/*`.
 - Private OPML input belongs in `FOLLOW_OPML_B64`, not in the repository.
 
