@@ -20,6 +20,7 @@ concurrency:
 
 permissions:
   contents: read
+  statuses: write
 
 jobs:
   test:
@@ -45,3 +46,22 @@ jobs:
 
       - name: Run test suite
         run: python -m pytest -q
+
+      - name: Publish required status for dispatched commit
+        if: ${{ always() && github.event_name == 'workflow_dispatch' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TEST_RESULT: ${{ job.status }}
+        run: |
+          STATE="failure"
+          DESCRIPTION="Repository tests failed"
+          if [ "$TEST_RESULT" = "success" ]; then
+            STATE="success"
+            DESCRIPTION="Repository tests passed"
+          fi
+          gh api -X POST \
+            "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" \
+            -f state="$STATE" \
+            -f context="test" \
+            -f description="$DESCRIPTION" \
+            -f target_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"

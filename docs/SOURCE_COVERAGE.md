@@ -294,8 +294,10 @@ The public deployment should remain GitHub Pages + GitHub Actions:
   only after the check succeeds. The checkout is pinned to the triggering
   default-branch SHA, so a queued run cannot silently change its snapshot base.
   The repository must allow Actions to create PRs and protect `master` with the
-  required `test` check. The workflow rejects non-default-branch dispatches and
-  never pushes generated snapshots directly to `master`.
+  required `test` check. The dispatched test publishes its result against the
+  exact snapshot commit, and the publication workflow queues squash auto-merge
+  without bypassing the branch Ruleset. The workflow rejects non-default-branch
+  dispatches and never pushes generated snapshots directly to `master`.
 - GitHub Pages serves `index.html` and `assets/*`.
 - Private OPML input belongs in `FOLLOW_OPML_B64`, not in the repository.
 
