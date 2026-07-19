@@ -6,10 +6,55 @@ from __future__ import annotations
 from datetime import datetime, timedelta, timezone
 
 from scripts.ai_relevance import score_ai_relevance
-from scripts.update_news import select_diverse_stories, suppress_near_duplicate_items
+from scripts.update_news import (
+    event_time,
+    select_diverse_stories,
+    strict_24h_event_time,
+    suppress_near_duplicate_items,
+)
 
 
 NOW = datetime(2026, 6, 11, 12, 0, tzinfo=timezone.utc)
+
+
+class TestStrict24HourTimestampGate:
+    def test_event_time_never_falls_back_to_transport_time(self):
+        assert event_time({"first_seen_at": NOW.isoformat()}) is None
+
+    def test_accepts_only_source_time_inside_window(self):
+        published = NOW - timedelta(hours=2)
+        value, reason = strict_24h_event_time(
+            {
+                "published_at": published.isoformat(),
+                "first_seen_at": (NOW - timedelta(hours=1)).isoformat(),
+            },
+            now=NOW,
+            window_start=NOW - timedelta(hours=24),
+        )
+        assert value == published
+        assert reason is None
+
+    def test_missing_future_old_and_capture_substitution_fail_closed(self):
+        cases = (
+            ({}, "missing_published_at"),
+            ({"published_at": (NOW + timedelta(seconds=1)).isoformat()}, "future_published_at"),
+            ({"published_at": (NOW - timedelta(hours=25)).isoformat()}, "outside_window"),
+            (
+                {
+                    "published_at": NOW.isoformat(),
+                    "first_seen_at": NOW.isoformat(),
+                },
+                "published_equals_first_seen",
+            ),
+        )
+        for record, expected in cases:
+            value, reason = strict_24h_event_time(
+                record,
+                now=NOW,
+                window_start=NOW - timedelta(hours=24),
+            )
+            assert value is None
+            assert reason == expected
 
 
 class TestUrlHostOnlyRelevance:
