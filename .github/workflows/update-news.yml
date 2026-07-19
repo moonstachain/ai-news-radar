@@ -19,7 +19,6 @@ permissions:
   contents: write
   pull-requests: write
   actions: write
-  checks: read
 
 jobs:
   update:
@@ -31,18 +30,6 @@ jobs:
         run: |
           echo "::error::Snapshot publication must run from the default branch"
           exit 1
-
-      - name: Verify PR publication permission
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          CAN_CREATE_PR=$(gh api \
-            "repos/${GITHUB_REPOSITORY}/actions/permissions/workflow" \
-            --jq '.can_approve_pull_request_reviews')
-          if [ "$CAN_CREATE_PR" != "true" ]; then
-            echo "::error::Enable 'Allow GitHub Actions to create and approve pull requests' before running snapshot publication"
-            exit 1
-          fi
 
       - name: Checkout
         uses: actions/checkout@v6
@@ -164,11 +151,15 @@ jobs:
           export SNAPSHOT_SHA
           git push --set-upstream origin "$BRANCH"
 
-          PR_URL=$(gh pr create \
-            --base "$DEFAULT_BRANCH" \
-            --head "$BRANCH" \
-            --title "chore: update ai news snapshot" \
-            --body "Automated snapshot from workflow run ${GITHUB_RUN_ID}. Generated data only; merge requires the repository test check.")
+          if ! PR_URL=$(gh pr create \
+              --base "$DEFAULT_BRANCH" \
+              --head "$BRANCH" \
+              --title "chore: update ai news snapshot" \
+              --body "Automated snapshot from workflow run ${GITHUB_RUN_ID}. Generated data only; merge requires the repository test check."); then
+            echo "::error::Snapshot branch was pushed, but GitHub Actions could not create its PR. Confirm the repository Actions PR setting."
+            git push origin --delete "$BRANCH" || true
+            exit 1
+          fi
 
           gh workflow run test.yml --ref "$BRANCH"
           RUN_ID=""
