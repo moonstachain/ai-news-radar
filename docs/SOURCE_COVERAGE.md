@@ -111,6 +111,32 @@ baseline, then let the aggregator layer add breadth.
   community signal lane so it can appear under the Community tab without
   occupying a standalone homepage block.
 
+## Business Evidence Capture
+
+The separate English business-evidence layer uses a versioned capture mode per
+source instead of assuming that every publisher has one permanent RSS URL:
+
+- **Official feed candidates**: try reviewed first-party RSS/Atom endpoints in
+  order and retain the selected endpoint in source status. A `200` response with
+  zero entries is not success.
+- **Official sitemap plus article metadata**: use sitemap `lastmod` only to order
+  candidate pages, then require a matching canonical article URL and a
+  page-bound provider publication timestamp. Sitemap modification time is never
+  substituted for article publication time.
+- **Listing plus article metadata**: a first-party listing may discover article
+  URLs, but the article page must supply structured publication metadata before
+  the source can contribute a signal.
+- **Plaintext feed cross-check**: HBR's official HTTP feed is accepted only when
+  its title, HTTPS canonical article URL, and publication time match the article
+  page.
+- **Manual review**: McKinsey / QuantumBlack and AI Engineer currently have no
+  stable public, timestamped surface that this pipeline can verify. They remain
+  explicit `manual_review_required` sources with a `next_review_at`; fetch time
+  and page reachability are not used as publication time.
+
+These checks verify first-party publication metadata, not the factual truth of
+article prose or the business conclusions derived from it.
+
 ## Disabled Default Sources
 
 - **X API direct recent search**: supported as an advanced, secret-backed adapter

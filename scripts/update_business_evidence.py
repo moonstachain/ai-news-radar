@@ -9,12 +9,14 @@ models, one-person companies, founder cases, and counter-signals.
 from __future__ import annotations
 
 import argparse
+import gzip
 import hashlib
 import json
 import math
 import re
 import time
 import warnings
+import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import asdict, dataclass
 from datetime import datetime, timedelta, timezone
@@ -41,6 +43,8 @@ TIMESTAMP_SKIP_REASONS = (
     "invalid_timestamp",
     "future_timestamp",
     "outside_window",
+    "conflicted_timestamp",
+    "unverified_page",
 )
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
@@ -148,6 +152,15 @@ class BusinessSource:
     cadence: str = "30m"
     health_status: str = "unknown"
     last_checked_at: str = ""
+    capture_mode: str = "feed"
+    feed_candidates: tuple[str, ...] = ()
+    sitemap_urls: tuple[str, ...] = ()
+    entry_hosts: tuple[str, ...] = ()
+    entry_path_pattern: str = ""
+    entry_base_url: str = ""
+    require_entry_page_cross_check: bool = False
+    candidate_limit: int = 12
+    next_review_at: str = ""
 
 
 @dataclass
@@ -173,30 +186,30 @@ class BusinessSignal:
 
 
 SOURCES: list[BusinessSource] = [
-    BusinessSource("mckinsey_ai", "McKinsey / QuantumBlack", "https://www.mckinsey.com/capabilities/quantumblack/our-insights", "https://www.mckinsey.com/featured-insights/rss", "authority", "tier_1"),
-    BusinessSource("bcg_ai", "BCG AI Insights", "https://www.bcg.com/capabilities/artificial-intelligence/insights", "https://www.bcg.com/rss", "authority", "tier_1"),
-    BusinessSource("bain_insights", "Bain Insights", "https://www.bain.com/insights/", "https://www.bain.com/insights/rss/", "authority", "tier_1"),
-    BusinessSource("hbr", "Harvard Business Review", "https://hbr.org/", "https://feeds.hbr.org/harvardbusiness", "authority", "tier_1"),
+    BusinessSource("mckinsey_ai", "McKinsey / QuantumBlack", "https://www.mckinsey.com/capabilities/quantumblack/our-insights", "https://www.mckinsey.com/featured-insights/rss", "authority", "tier_1", capture_mode="manual", next_review_at="2026-07-26T00:00:00Z"),
+    BusinessSource("bcg_ai", "BCG AI Insights", "https://www.bcg.com/capabilities/artificial-intelligence/insights", "https://www.bcg.com/rss", "authority", "tier_1", capture_mode="sitemap", sitemap_urls=("https://www.bcg.com/google_sitemap-content.xml",), entry_hosts=("bcg.com", "www.bcg.com"), entry_path_pattern=r"^/publications/2026/.*(?:ai|agent|genai|artificial-intelligence)"),
+    BusinessSource("bain_insights", "Bain Insights", "https://www.bain.com/insights/", "https://www.bain.com/insights/rss/", "authority", "tier_1", feed_candidates=("https://www.bain.com/rss-feed/", "https://www.bain.com/insights/rss/"), entry_hosts=("bain.com", "www.bain.com")),
+    BusinessSource("hbr", "Harvard Business Review", "https://hbr.org/", "https://feeds.hbr.org/harvardbusiness", "authority", "tier_1", feed_candidates=("http://feeds.hbr.org/harvardbusiness", "https://feeds.hbr.org/harvardbusiness"), entry_hosts=("hbr.org", "www.hbr.org"), entry_base_url="https://hbr.org/", require_entry_page_cross_check=True),
     BusinessSource("mit_smr", "MIT Sloan Management Review", "https://sloanreview.mit.edu/", "https://sloanreview.mit.edu/feed/", "authority", "tier_1"),
     BusinessSource("knowledge_wharton", "Knowledge at Wharton", "https://knowledge.wharton.upenn.edu/", "https://knowledge.wharton.upenn.edu/feed/", "authority", "tier_2"),
     BusinessSource("yc_blog", "Y Combinator Blog", "https://www.ycombinator.com/blog", "https://www.ycombinator.com/blog/rss", "startup_vc", "tier_1"),
-    BusinessSource("a16z", "a16z", "https://a16z.com/ai/", "https://a16z.com/feed/", "startup_vc", "tier_1"),
-    BusinessSource("first_round", "First Round Review", "https://review.firstround.com/", "https://review.firstround.com/rss/", "startup_vc", "tier_1"),
+    BusinessSource("a16z", "a16z", "https://a16z.com/ai/", "https://a16z.com/feed/", "startup_vc", "tier_1", capture_mode="sitemap", sitemap_urls=("https://a16z.com/post-sitemap3.xml", "https://a16z.com/announcement-sitemap.xml"), entry_hosts=("a16z.com", "www.a16z.com")),
+    BusinessSource("first_round", "First Round Review", "https://review.firstround.com/", "https://review.firstround.com/rss/", "startup_vc", "tier_1", capture_mode="sitemap", sitemap_urls=("https://review.firstround.com/sitemap-posts.xml",), entry_hosts=("review.firstround.com",)),
     BusinessSource("lenny", "Lenny's Newsletter", "https://www.lennysnewsletter.com/", "https://www.lennysnewsletter.com/feed", "startup_vc", "tier_2"),
     BusinessSource("generalist", "The Generalist", "https://www.generalist.com/", "https://www.generalist.com/feed", "startup_vc", "tier_2"),
     BusinessSource("not_boring", "Not Boring", "https://www.notboring.co/", "https://www.notboring.co/feed", "startup_vc", "tier_2"),
     BusinessSource("cbinsights", "CB Insights", "https://www.cbinsights.com/research/", "https://www.cbinsights.com/research/feed/", "startup_vc", "tier_2"),
-    BusinessSource("indie_hackers", "Indie Hackers", "https://www.indiehackers.com/", "https://www.indiehackers.com/feed.xml", "opc", "tier_2"),
-    BusinessSource("starter_story", "Starter Story", "https://www.starterstory.com/", "https://www.starterstory.com/feed", "opc", "tier_2"),
-    BusinessSource("microconf", "MicroConf", "https://microconf.com/", "https://microconf.com/feed", "opc", "tier_2"),
-    BusinessSource("tinyseed", "TinySeed", "https://tinyseed.com/", "https://tinyseed.com/feed", "opc", "tier_2"),
-    BusinessSource("bootstrapped_founder", "The Bootstrapped Founder", "https://thebootstrappedfounder.com/", "https://thebootstrappedfounder.com/feed.xml", "opc", "tier_2"),
+    BusinessSource("indie_hackers", "Indie Hackers", "https://www.indiehackers.com/", "https://www.indiehackers.com/feed.xml", "opc", "tier_2", capture_mode="page_detail", entry_hosts=("indiehackers.com", "www.indiehackers.com"), entry_path_pattern=r"^/post/"),
+    BusinessSource("starter_story", "Starter Story", "https://www.starterstory.com/", "https://www.starterstory.com/feed", "opc", "tier_2", capture_mode="sitemap", sitemap_urls=("https://www.starterstory.com/sitemap",), entry_hosts=("starterstory.com", "www.starterstory.com"), entry_path_pattern=r"^/stories/"),
+    BusinessSource("microconf", "MicroConf", "https://microconf.com/", "https://microconf.com/feed", "opc", "tier_2", feed_candidates=("https://microconf.com/latest?format=rss", "https://microconf.com/feed"), entry_hosts=("microconf.com", "www.microconf.com")),
+    BusinessSource("tinyseed", "TinySeed", "https://tinyseed.com/", "https://tinyseed.com/feed", "opc", "tier_2", capture_mode="sitemap", sitemap_urls=("https://tinyseed.com/sitemap.xml",), entry_hosts=("tinyseed.com", "www.tinyseed.com"), entry_path_pattern=r"^/spring-2026/"),
+    BusinessSource("bootstrapped_founder", "The Bootstrapped Founder", "https://thebootstrappedfounder.com/", "https://thebootstrappedfounder.com/feed.xml", "opc", "tier_2", feed_candidates=("https://thebootstrappedfounder.com/feed/", "https://thebootstrappedfounder.com/feed.xml"), entry_hosts=("thebootstrappedfounder.com", "www.thebootstrappedfounder.com")),
     BusinessSource("levelsio", "levels.io", "https://levels.io/", "https://levels.io/rss/", "opc", "tier_2"),
     BusinessSource("latent_space", "Latent Space", "https://www.latent.space/", "https://www.latent.space/feed", "ai_commercialization", "tier_2"),
-    BusinessSource("ai_engineer", "AI Engineer", "https://www.ai.engineer/", "https://www.ai.engineer/feed", "ai_commercialization", "tier_2"),
-    BusinessSource("the_batch", "The Batch", "https://www.deeplearning.ai/the-batch/", "https://www.deeplearning.ai/the-batch/rss/", "ai_commercialization", "tier_2"),
+    BusinessSource("ai_engineer", "AI Engineer", "https://www.ai.engineer/", "https://www.ai.engineer/feed", "ai_commercialization", "tier_2", capture_mode="manual", next_review_at="2026-07-26T00:00:00Z"),
+    BusinessSource("the_batch", "The Batch", "https://www.deeplearning.ai/the-batch/", "https://www.deeplearning.ai/the-batch/rss/", "ai_commercialization", "tier_2", feed_candidates=("https://charonhub.deeplearning.ai/rss/", "https://www.deeplearning.ai/the-batch/rss/"), entry_hosts=("charonhub.deeplearning.ai",)),
     BusinessSource("openai_news", "OpenAI News", "https://openai.com/news/", "https://openai.com/news/rss.xml", "ai_commercialization", "tier_1"),
-    BusinessSource("anthropic_news", "Anthropic News", "https://www.anthropic.com/news", "https://www.anthropic.com/news/rss.xml", "ai_commercialization", "tier_1"),
+    BusinessSource("anthropic_news", "Anthropic News", "https://www.anthropic.com/news", "https://www.anthropic.com/news/rss.xml", "ai_commercialization", "tier_1", capture_mode="sitemap", sitemap_urls=("https://www.anthropic.com/sitemap.xml",), entry_hosts=("anthropic.com", "www.anthropic.com"), entry_path_pattern=r"^/news/"),
     BusinessSource("github_blog", "GitHub Blog", "https://github.blog/", "https://github.blog/feed/", "ai_commercialization", "tier_1"),
     BusinessSource("huggingface_blog", "Hugging Face Blog", "https://huggingface.co/blog", "https://huggingface.co/blog/feed.xml", "ai_commercialization", "tier_2"),
 ]
@@ -273,6 +286,146 @@ def clean_text(text: Any) -> str:
 
 def host(url: str) -> str:
     return urlparse(url).netloc.replace("www.", "")
+
+
+def allowed_entry_hosts(source: BusinessSource) -> set[str]:
+    configured = {value.lower() for value in source.entry_hosts if value}
+    homepage_host = (urlparse(source.homepage_url).hostname or "").lower()
+    if homepage_host:
+        configured.add(homepage_host)
+        configured.add(homepage_host.removeprefix("www."))
+        configured.add(f"www.{homepage_host.removeprefix('www.')}")
+    return configured
+
+
+def normalized_public_url(value: str) -> str:
+    parsed = urlparse(value)
+    path = parsed.path.rstrip("/") or "/"
+    return f"{parsed.scheme.lower()}://{parsed.netloc.lower()}{path}"
+
+
+def walk_json_objects(value: Any):
+    if isinstance(value, dict):
+        yield value
+        for child in value.values():
+            yield from walk_json_objects(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from walk_json_objects(child)
+
+
+def next_frame_post_metadata(soup: BeautifulSoup, requested_url: str) -> dict[str, str]:
+    """Read a page-bound post object from Next.js RSC frames when present."""
+    requested_slug = urlparse(requested_url).path.rstrip("/").rsplit("/", 1)[-1]
+    for script in soup.find_all("script"):
+        raw = script.string or script.get_text()
+        marker = "self.__next_f.push("
+        if marker not in raw:
+            continue
+        expression = raw.split(marker, 1)[1].rsplit(")", 1)[0]
+        try:
+            frame = json.loads(expression)[1]
+        except (IndexError, TypeError, ValueError):
+            continue
+        if not isinstance(frame, str):
+            continue
+        search_from = 0
+        while True:
+            marker_match = re.search(r'"post"\s*:\s*{', frame[search_from:])
+            if marker_match is None:
+                break
+            object_start = search_from + marker_match.end() - 1
+            try:
+                post, consumed = json.JSONDecoder().raw_decode(frame[object_start:])
+            except (TypeError, ValueError):
+                search_from = object_start + 1
+                continue
+            search_from = object_start + consumed
+            if not isinstance(post, dict):
+                continue
+            slug = post.get("slug")
+            slug_value = slug.get("current") if isinstance(slug, dict) else slug
+            if slug_value != requested_slug:
+                continue
+            title = clean_text(post.get("title"))
+            published = str(post.get("publishedOn") or post.get("publishedAt") or "").strip()
+            if title and published:
+                return {"title": title, "published": published}
+    return {}
+
+
+def publication_page_metadata(body: bytes, requested_url: str, allowed_hosts: set[str]) -> dict[str, Any]:
+    """Extract title, canonical URL and a page-bound provider publication time."""
+    soup = BeautifulSoup(body, "html.parser")
+    metadata: dict[str, str] = {}
+    for node in soup.find_all("meta"):
+        key = str(node.get("property") or node.get("name") or node.get("itemprop") or "").lower()
+        value = str(node.get("content") or "").strip()
+        if key and value and key not in metadata:
+            metadata[key] = value
+
+    canonical_node = soup.find("link", rel=lambda value: value and "canonical" in str(value).lower())
+    canonical = urljoin(requested_url, str(canonical_node.get("href") or "")) if canonical_node else requested_url
+    has_explicit_canonical = canonical_node is not None
+    title = metadata.get("og:title") or metadata.get("twitter:title")
+    published = metadata.get("article:published_time") or metadata.get("datepublished") or metadata.get("date")
+
+    for node in soup.find_all("script", type="application/ld+json"):
+        try:
+            payload = json.loads(node.string or node.get_text())
+        except (TypeError, ValueError):
+            continue
+        for item in walk_json_objects(payload):
+            if not title and isinstance(item.get("headline"), str):
+                title = clean_text(item["headline"])
+            if not published and isinstance(item.get("datePublished"), str):
+                published = item["datePublished"].strip()
+            if not has_explicit_canonical and canonical == requested_url and isinstance(item.get("url"), str):
+                canonical = urljoin(requested_url, item["url"].strip())
+            if title and published:
+                break
+
+    if not title or not published:
+        frame = next_frame_post_metadata(soup, requested_url)
+        title = title or frame.get("title")
+        published = published or frame.get("published")
+
+    title = clean_text(title or (soup.title.get_text(" ") if soup.title else ""))
+    canonical_host = (urlparse(canonical).hostname or "").lower()
+    if canonical_host not in allowed_hosts:
+        raise ValueError(f"publication_page_canonical_host_not_allowed: {canonical_host}")
+    if normalized_public_url(canonical) != normalized_public_url(requested_url):
+        raise ValueError("publication_page_canonical_url_mismatch")
+    parsed = parse_time(published)
+    if not title or parsed is None:
+        raise ValueError("publication_page_title_or_timestamp_missing")
+    return {"title": title, "url": canonical, "published": parsed}
+
+
+def sitemap_candidates(body: bytes, source: BusinessSource) -> list[dict[str, Any]]:
+    if body[:2] == b"\x1f\x8b":
+        body = gzip.decompress(body)
+    try:
+        root = ET.fromstring(body)
+    except ET.ParseError as exc:
+        raise ValueError("official_sitemap_invalid_xml") from exc
+    if root.tag.rsplit("}", 1)[-1] != "urlset":
+        raise ValueError("official_sitemap_unresolved_index")
+    allowed_hosts = allowed_entry_hosts(source)
+    rows: list[dict[str, Any]] = []
+    for node in list(root):
+        if node.tag.rsplit("}", 1)[-1] != "url":
+            continue
+        values = {child.tag.rsplit("}", 1)[-1]: clean_text("".join(child.itertext())) for child in list(node)}
+        url = values.get("loc") or ""
+        modified = parse_time(values.get("lastmod"))
+        parsed = urlparse(url)
+        if not url or modified is None or (parsed.hostname or "").lower() not in allowed_hosts:
+            continue
+        if source.entry_path_pattern and not re.search(source.entry_path_pattern, parsed.path, re.IGNORECASE):
+            continue
+        rows.append({"url": url, "last_modified": modified})
+    return sorted(rows, key=lambda row: row["last_modified"], reverse=True)
 
 
 def keyword_score(text: str, keywords: list[str], weight: int) -> int:
@@ -454,109 +607,311 @@ def fetch_page_fallback(
     return signals, skips
 
 
-def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime, window_start: datetime, max_per_source: int) -> tuple[list[BusinessSignal], dict[str, Any]]:
-    start = time.perf_counter()
-    status = {
+def source_status(source: BusinessSource, mode: str, now: datetime) -> dict[str, Any]:
+    return {
         "source_id": source.source_id,
         "name": source.name,
         "lane": source.lane,
+        "capture_mode": source.capture_mode,
         "ok": False,
         "transport_ok": False,
-        "transport_mode": "feed",
+        "transport_mode": mode,
         "quality_status": "unavailable",
         "item_count": 0,
         "entry_count": 0,
+        "verified_timestamp_count": 0,
         "eligible_timestamp_count": 0,
         "timestamp_skips": empty_timestamp_skips(),
+        "attempted_urls": [],
+        "selected_url": "",
         "duration_ms": 0,
         "error": "",
-        "last_checked_at": now_iso(),
+        "last_checked_at": now.isoformat().replace("+00:00", "Z"),
+        "next_review_at": source.next_review_at,
     }
+
+
+def finalize_timestamp_status(status: dict[str, Any], signals: list[BusinessSignal], *, empty_error: str) -> None:
+    status["item_count"] = len(signals)
+    if status["eligible_timestamp_count"] > 0:
+        status["ok"] = True
+        status["quality_status"] = "verified_timestamp"
+        return
+    if status["verified_timestamp_count"] > 0:
+        status["ok"] = True
+        status["quality_status"] = "no_current_items"
+        return
+    if status["entry_count"] > 0:
+        status["quality_status"] = "unverified_timestamp"
+        status["error"] = "entries_without_trustworthy_timestamp"
+        return
+    status["quality_status"] = "empty_feed" if status["transport_mode"] == "feed" else "unavailable"
+    status["error"] = empty_error
+
+
+def fetch_sitemap_source(
+    session: requests.Session,
+    source: BusinessSource,
+    now: datetime,
+    window_start: datetime,
+    max_per_source: int,
+) -> tuple[list[BusinessSignal], dict[str, Any]]:
+    start = time.perf_counter()
+    status = source_status(source, "sitemap_page", now)
+    candidates_by_url: dict[str, dict[str, Any]] = {}
+    errors: list[str] = []
+    for sitemap_url in source.sitemap_urls:
+        status["attempted_urls"].append(sitemap_url)
+        try:
+            response = session.get(sitemap_url, timeout=max(TIMEOUT, 20))
+            response.raise_for_status()
+            rows = sitemap_candidates(response.content, source)
+            status["transport_ok"] = True
+            for row in rows:
+                previous = candidates_by_url.get(row["url"])
+                if previous is None or row["last_modified"] > previous["last_modified"]:
+                    candidates_by_url[row["url"]] = row
+        except Exception as exc:
+            errors.append(f"{sitemap_url}: {str(exc)[:180]}")
+
+    candidates = sorted(candidates_by_url.values(), key=lambda row: row["last_modified"], reverse=True)
+    status["entry_count"] = len(candidates)
     signals: list[BusinessSignal] = []
+    allowed_hosts = allowed_entry_hosts(source)
+    for candidate in candidates[: source.candidate_limit]:
+        page_url = candidate["url"]
+        try:
+            response = session.get(page_url, timeout=max(TIMEOUT, 20))
+            response.raise_for_status()
+            metadata = publication_page_metadata(response.content, page_url, allowed_hosts)
+        except Exception as exc:
+            status["timestamp_skips"]["unverified_page"] += 1
+            errors.append(f"{page_url}: {str(exc)[:180]}")
+            continue
+        published = metadata["published"]
+        if published <= now:
+            status["verified_timestamp_count"] += 1
+            status["selected_url"] = status["selected_url"] or page_url
+        published = validate_published_time(published, now, window_start, status["timestamp_skips"])
+        if published is None:
+            continue
+        status["eligible_timestamp_count"] += 1
+        signal = make_signal(
+            source,
+            metadata["title"],
+            metadata["url"],
+            "",
+            published,
+            now,
+            timestamp_basis="page_structured_time",
+            transport_mode="sitemap_page",
+        )
+        if signal is not None:
+            signals.append(signal)
+        if len(signals) >= max_per_source:
+            break
+
+    finalize_timestamp_status(status, signals, empty_error="sitemap_has_no_reviewed_candidates")
+    if not status["ok"] and errors:
+        status["error"] = f"{status['error']}; " + " | ".join(errors[:4])
+    status["duration_ms"] = int((time.perf_counter() - start) * 1000)
+    return signals, status
+
+
+def fetch_page_detail_source(
+    session: requests.Session,
+    source: BusinessSource,
+    now: datetime,
+    window_start: datetime,
+    max_per_source: int,
+) -> tuple[list[BusinessSignal], dict[str, Any]]:
+    start = time.perf_counter()
+    status = source_status(source, "page_detail", now)
+    status["attempted_urls"].append(source.homepage_url)
+    signals: list[BusinessSignal] = []
+    errors: list[str] = []
     try:
-        resp = session.get(source.feed_url, timeout=TIMEOUT)
-        resp.raise_for_status()
+        response = session.get(source.homepage_url, timeout=max(TIMEOUT, 20))
+        response.raise_for_status()
         status["transport_ok"] = True
-        if feedparser is not None:
-            parsed = feedparser.parse(resp.content)
-            entries = list(parsed.entries)
-        else:
-            soup = BeautifulSoup(resp.text, "xml")
-            entries = []
-            for item in soup.find_all(["item", "entry"]):
-                entries.append(
+        soup = BeautifulSoup(response.content, "html.parser")
+        allowed_hosts = allowed_entry_hosts(source)
+        candidates: list[str] = []
+        for anchor in soup.find_all("a", href=True):
+            page_url = urljoin(source.homepage_url, str(anchor.get("href") or ""))
+            parsed = urlparse(page_url)
+            if (parsed.hostname or "").lower() not in allowed_hosts:
+                continue
+            if source.entry_path_pattern and not re.search(source.entry_path_pattern, parsed.path, re.IGNORECASE):
+                continue
+            page_url = normalized_public_url(page_url)
+            if page_url not in candidates:
+                candidates.append(page_url)
+        status["entry_count"] = len(candidates)
+        for page_url in candidates[: source.candidate_limit]:
+            try:
+                page = session.get(page_url, timeout=max(TIMEOUT, 20))
+                page.raise_for_status()
+                metadata = publication_page_metadata(page.content, page_url, allowed_hosts)
+            except Exception as exc:
+                status["timestamp_skips"]["unverified_page"] += 1
+                errors.append(f"{page_url}: {str(exc)[:180]}")
+                continue
+            published = metadata["published"]
+            if published <= now:
+                status["verified_timestamp_count"] += 1
+                status["selected_url"] = status["selected_url"] or page_url
+            published = validate_published_time(published, now, window_start, status["timestamp_skips"])
+            if published is None:
+                continue
+            status["eligible_timestamp_count"] += 1
+            signal = make_signal(
+                source,
+                metadata["title"],
+                metadata["url"],
+                "",
+                published,
+                now,
+                timestamp_basis="page_structured_time",
+                transport_mode="page_detail",
+            )
+            if signal is not None:
+                signals.append(signal)
+            if len(signals) >= max_per_source:
+                break
+    except Exception as exc:
+        errors.append(f"{source.homepage_url}: {str(exc)[:220]}")
+
+    finalize_timestamp_status(status, signals, empty_error="page_detail_has_no_reviewed_candidates")
+    if not status["ok"] and errors:
+        status["error"] = f"{status['error']}; " + " | ".join(errors[:4])
+    status["duration_ms"] = int((time.perf_counter() - start) * 1000)
+    return signals, status
+
+
+def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime, window_start: datetime, max_per_source: int) -> tuple[list[BusinessSignal], dict[str, Any]]:
+    start = time.perf_counter()
+    status = source_status(source, "feed", now)
+    signals: list[BusinessSignal] = []
+    feed_errors: list[str] = []
+    saw_entries = False
+    candidates = source.feed_candidates or (source.feed_url,)
+    allowed_hosts = allowed_entry_hosts(source)
+    for feed_url in candidates:
+        status["attempted_urls"].append(feed_url)
+        try:
+            resp = session.get(feed_url, timeout=TIMEOUT)
+            resp.raise_for_status()
+            status["transport_ok"] = True
+            if feedparser is not None:
+                entries = list(feedparser.parse(resp.content).entries)
+            else:
+                soup = BeautifulSoup(resp.text, "xml")
+                entries = [
                     {
                         "title": clean_text(item.find("title")),
                         "link": clean_text(item.find("link")),
                         "summary": clean_text(item.find("description") or item.find("summary")),
                         "published": clean_text(item.find("pubDate") or item.find("published") or item.find("updated")),
                     }
+                    for item in soup.find_all(["item", "entry"])
+                ]
+            if not entries:
+                feed_errors.append(f"{feed_url}: feed_returned_no_entries")
+                continue
+            saw_entries = True
+            status["entry_count"] = len(entries)
+            status["selected_url"] = feed_url
+            for entry in entries[: max_per_source * 3]:
+                title = clean_text(entry.get("title"))
+                raw_url = clean_text(entry.get("link") or entry.get("id"))
+                url = urljoin(source.entry_base_url or feed_url, raw_url)
+                if not title or not raw_url or (urlparse(url).hostname or "").lower() not in allowed_hosts:
+                    continue
+                summary_text = clean_text(entry.get("summary") or entry.get("description") or entry.get("content", [{}])[0].get("value") if isinstance(entry.get("content"), list) and entry.get("content") else "")
+                published_value = entry.get("published") or entry.get("updated") or entry.get("created")
+                parsed_timestamp = parse_time(published_value)
+                if parsed_timestamp is None or parsed_timestamp > now:
+                    validate_published_time(published_value, now, window_start, status["timestamp_skips"])
+                    continue
+                needs_page_cross_check = source.require_entry_page_cross_check and (
+                    parsed_timestamp >= window_start or status["verified_timestamp_count"] == 0
                 )
-        status["entry_count"] = len(entries)
-        for entry in entries[: max_per_source * 3]:
-            title = clean_text(entry.get("title"))
-            url = clean_text(entry.get("link") or entry.get("id"))
-            if not title or not url:
-                continue
-            summary_text = clean_text(entry.get("summary") or entry.get("description") or entry.get("content", [{}])[0].get("value") if isinstance(entry.get("content"), list) and entry.get("content") else "")
-            published_value = entry.get("published") or entry.get("updated") or entry.get("created")
-            published = validate_published_time(published_value, now, window_start, status["timestamp_skips"])
-            if published is None:
-                continue
-            status["eligible_timestamp_count"] += 1
-            signal = make_signal(
-                source,
-                title,
-                url,
-                summary_text,
-                published,
-                now,
-                timestamp_basis="feed_published",
-                transport_mode="feed",
-            )
-            if signal is None:
-                continue
-            signals.append(signal)
-            if len(signals) >= max_per_source:
+                if needs_page_cross_check:
+                    try:
+                        page = session.get(url, timeout=max(TIMEOUT, 20))
+                        page.raise_for_status()
+                        page_metadata = publication_page_metadata(page.content, url, allowed_hosts)
+                        if clean_text(page_metadata["title"]) != title or page_metadata["published"] != parsed_timestamp:
+                            status["timestamp_skips"]["conflicted_timestamp"] += 1
+                            continue
+                    except Exception as exc:
+                        status["timestamp_skips"]["unverified_page"] += 1
+                        feed_errors.append(f"{url}: {str(exc)[:180]}")
+                        continue
+                if not source.require_entry_page_cross_check or needs_page_cross_check:
+                    status["verified_timestamp_count"] += 1
+                published = validate_published_time(parsed_timestamp, now, window_start, status["timestamp_skips"])
+                if published is None:
+                    continue
+                status["eligible_timestamp_count"] += 1
+                signal = make_signal(
+                    source,
+                    title,
+                    url,
+                    summary_text,
+                    published,
+                    now,
+                    timestamp_basis="feed_published",
+                    transport_mode="feed",
+                )
+                if signal is not None:
+                    signals.append(signal)
+                if len(signals) >= max_per_source:
+                    break
+            if status["verified_timestamp_count"] > 0:
                 break
-        status["item_count"] = len(signals)
-        timestamp_errors = sum(
-            status["timestamp_skips"][reason]
-            for reason in ("missing_timestamp", "invalid_timestamp", "future_timestamp")
-        )
-        if status["eligible_timestamp_count"] > 0:
-            status["ok"] = True
-            status["quality_status"] = "verified_timestamp"
-        elif status["entry_count"] > 0 and timestamp_errors == 0:
-            status["ok"] = True
-            status["quality_status"] = "no_current_items"
-        elif status["entry_count"] > 0:
-            status["quality_status"] = "unverified_timestamp"
-            status["error"] = "feed_entries_without_trustworthy_timestamp"
-        else:
-            status["quality_status"] = "empty_feed"
-            status["error"] = "feed_returned_no_entries"
-    except Exception as exc:
-        feed_error = str(exc)[:500]
+            feed_errors.append(f"{feed_url}: feed_entries_without_trustworthy_timestamp")
+        except Exception as exc:
+            feed_errors.append(f"{feed_url}: {str(exc)[:220]}")
+
+    if not saw_entries and status["verified_timestamp_count"] == 0:
         try:
-            signals, skips = fetch_page_fallback(session, source, now, window_start, max_per_source)
-            status["transport_ok"] = True
-            status["transport_mode"] = "page_fallback"
-            status["timestamp_skips"] = skips
-            status["item_count"] = len(signals)
-            status["eligible_timestamp_count"] = len(signals)
-            if signals:
-                status["ok"] = True
-                status["quality_status"] = "page_fallback_verified_timestamp"
-                status["error"] = f"feed_failed_page_fallback_verified_timestamp: {feed_error}"
-            else:
-                status["quality_status"] = "page_fallback_unverified_timestamp"
-                status["error"] = f"page_fallback_unverified_timestamp; feed_failed: {feed_error}"
-        except Exception as page_exc:
-            status["quality_status"] = "unavailable"
-            status["error"] = f"feed_failed: {feed_error}; page_failed: {str(page_exc)[:220]}"
+            fallback_signals, skips = fetch_page_fallback(session, source, now, window_start, max_per_source)
+            if fallback_signals:
+                signals = fallback_signals
+                status["transport_ok"] = True
+                status["transport_mode"] = "page_fallback"
+                status["timestamp_skips"] = skips
+                status["verified_timestamp_count"] = len(signals)
+                status["eligible_timestamp_count"] = len(signals)
+        except Exception as exc:
+            feed_errors.append(f"{source.homepage_url}: {str(exc)[:220]}")
+
+    finalize_timestamp_status(status, signals, empty_error="feed_returned_no_entries")
+    if not status["ok"] and feed_errors:
+        status["error"] = f"{status['error']}; " + " | ".join(feed_errors[:4])
     status["duration_ms"] = int((time.perf_counter() - start) * 1000)
     return signals, status
+
+
+def fetch_source_evidence(
+    session: requests.Session,
+    source: BusinessSource,
+    now: datetime,
+    window_start: datetime,
+    max_per_source: int,
+) -> tuple[list[BusinessSignal], dict[str, Any]]:
+    if source.capture_mode == "sitemap":
+        return fetch_sitemap_source(session, source, now, window_start, max_per_source)
+    if source.capture_mode == "page_detail":
+        return fetch_page_detail_source(session, source, now, window_start, max_per_source)
+    if source.capture_mode == "manual":
+        status = source_status(source, "manual", now)
+        status["quality_status"] = "manual_review_required"
+        status["error"] = "no_stable_public_timestamped_surface"
+        return [], status
+    return fetch_feed(session, source, now, window_start, max_per_source)
 
 
 def dedupe_signals(signals: list[BusinessSignal]) -> list[BusinessSignal]:
@@ -738,7 +1093,7 @@ def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int
     def fetch_source(source: BusinessSource) -> tuple[list[BusinessSignal], dict[str, Any]]:
         session = requests.Session()
         session.headers.update({"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8"})
-        return fetch_feed(session, source, now, window_start, max_per_source)
+        return fetch_source_evidence(session, source, now, window_start, max_per_source)
 
     with ThreadPoolExecutor(max_workers=8) as executor:
         future_map = {executor.submit(fetch_source, source): source for source in SOURCES}
@@ -748,22 +1103,8 @@ def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int
                 signals, status = future.result()
             except Exception as exc:
                 signals = []
-                status = {
-                    "source_id": source.source_id,
-                    "name": source.name,
-                    "lane": source.lane,
-                    "ok": False,
-                    "transport_ok": False,
-                    "transport_mode": "worker",
-                    "quality_status": "unavailable",
-                    "item_count": 0,
-                    "entry_count": 0,
-                    "eligible_timestamp_count": 0,
-                    "timestamp_skips": empty_timestamp_skips(),
-                    "duration_ms": 0,
-                    "error": f"worker_failed: {str(exc)[:500]}",
-                    "last_checked_at": now_iso(),
-                }
+                status = source_status(source, "worker", now)
+                status["error"] = f"worker_failed: {str(exc)[:500]}"
             all_signals.extend(signals)
             statuses.append(status)
 
@@ -781,6 +1122,11 @@ def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int
         "source_count": len(SOURCES),
         "successful_sources": sum(1 for row in statuses if row.get("ok")),
         "failed_sources": sum(1 for row in statuses if not row.get("ok")),
+        "automated_source_count": sum(1 for source in SOURCES if source.capture_mode != "manual"),
+        "automated_failed_sources": sum(
+            1 for row in statuses if row.get("capture_mode") != "manual" and not row.get("ok")
+        ),
+        "manual_review_sources": sum(1 for row in statuses if row.get("capture_mode") == "manual"),
         "item_count": len(signals),
         "timestamp_skips": {
             reason: sum(int(row.get("timestamp_skips", {}).get(reason, 0)) for row in statuses)
@@ -804,6 +1150,8 @@ def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int
         "cases": len(case_bank),
         "successful_sources": status_payload["successful_sources"],
         "failed_sources": status_payload["failed_sources"],
+        "automated_failed_sources": status_payload["automated_failed_sources"],
+        "manual_review_sources": status_payload["manual_review_sources"],
     }
 
 

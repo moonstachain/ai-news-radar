@@ -1,3 +1,4 @@
+import json
 from datetime import datetime, timedelta, timezone
 
 import pytest
@@ -10,9 +11,12 @@ from scripts.update_business_evidence import (
     build_clusters,
     fetch_feed,
     fetch_page_fallback,
+    fetch_page_detail_source,
+    fetch_sitemap_source,
     match_tags,
     match_yuanli_tags,
     parse_time,
+    publication_page_metadata,
     run,
     score_signal,
 )
@@ -212,3 +216,205 @@ def test_page_fallback_accepts_only_local_time_inside_window():
     assert signals[0].published_at == "2026-07-19T07:30:00Z"
     assert signals[0].timestamp_basis == "page_structured_time"
     assert signals[0].transport_mode == "page_fallback"
+
+
+def test_feed_uses_first_working_official_candidate():
+    source = BusinessSource(
+        source_id="sample",
+        name="Sample First Party",
+        homepage_url="https://example.com/news",
+        feed_url="https://example.com/legacy.xml",
+        lane="ai_commercialization",
+        authority_tier="tier_1",
+        feed_candidates=("https://example.com/legacy.xml", "https://example.com/current.xml"),
+        entry_hosts=("example.com",),
+    )
+    now = datetime(2026, 7, 19, 8, 0, tzinfo=timezone.utc)
+    session = FakeSession(
+        {
+            "https://example.com/legacy.xml": FakeResponse("not found", 404),
+            "https://example.com/current.xml": FakeResponse(
+                rss_item(published="Sun, 19 Jul 2026 07:30:00 GMT")
+            ),
+        }
+    )
+
+    signals, status = fetch_feed(session, source, now, now - timedelta(hours=24), 10)
+
+    assert len(signals) == 1
+    assert status["ok"] is True
+    assert status["selected_url"] == "https://example.com/current.xml"
+    assert status["attempted_urls"] == [
+        "https://example.com/legacy.xml",
+        "https://example.com/current.xml",
+    ]
+
+
+def test_plaintext_feed_cross_check_conflict_fails_closed():
+    source = BusinessSource(
+        source_id="sample",
+        name="Sample First Party",
+        homepage_url="https://example.com/news",
+        feed_url="http://feeds.example.com/current.xml",
+        lane="ai_commercialization",
+        authority_tier="tier_1",
+        entry_hosts=("example.com",),
+        entry_base_url="https://example.com/",
+        require_entry_page_cross_check=True,
+    )
+    page_url = "https://example.com/current-story"
+    now = datetime(2026, 7, 19, 8, 0, tzinfo=timezone.utc)
+    session = FakeSession(
+        {
+            source.feed_url: FakeResponse(rss_item(published="Sun, 19 Jul 2026 07:30:00 GMT")),
+            page_url: FakeResponse(article_html(page_url, "2026-07-19T07:31:00Z")),
+        }
+    )
+
+    signals, status = fetch_feed(session, source, now, now - timedelta(hours=24), 10)
+
+    assert signals == []
+    assert status["ok"] is False
+    assert status["quality_status"] == "unverified_timestamp"
+    assert status["timestamp_skips"]["conflicted_timestamp"] == 1
+
+
+def test_empty_feed_and_unverified_page_remain_failed():
+    source = sample_source()
+    now = datetime(2026, 7, 19, 8, 0, tzinfo=timezone.utc)
+    session = FakeSession(
+        {
+            source.feed_url: FakeResponse("<rss><channel></channel></rss>"),
+            source.homepage_url: FakeResponse("<html><body><a href='/story'>No timestamp here at all</a></body></html>"),
+        }
+    )
+
+    signals, status = fetch_feed(session, source, now, now - timedelta(hours=24), 10)
+
+    assert signals == []
+    assert status["ok"] is False
+    assert status["quality_status"] == "empty_feed"
+
+
+def sitemap_xml(page_url: str, last_modified: str) -> str:
+    return f"""
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url><loc>{page_url}</loc><lastmod>{last_modified}</lastmod></url>
+    </urlset>
+    """
+
+
+def article_html(page_url: str, published: str | None) -> str:
+    website = f'<script type="application/ld+json">{json.dumps({"@type": "WebSite", "url": "https://example.com"})}</script>'
+    structured = (
+        f'<script type="application/ld+json">{json.dumps({"headline": "AI agent workflow startup reaches 100 enterprise customers", "url": page_url, "datePublished": published})}</script>'
+        if published is not None
+        else ""
+    )
+    return f"""
+    <html><head>
+      <link rel="canonical" href="{page_url}">
+      <meta property="og:title" content="AI agent workflow startup reaches 100 enterprise customers">
+      {website}
+      {structured}
+    </head></html>
+    """
+
+
+def test_sitemap_mode_requires_page_bound_publication_time():
+    sitemap_url = "https://example.com/sitemap.xml"
+    page_url = "https://example.com/articles/current"
+    source = BusinessSource(
+        source_id="sample",
+        name="Sample First Party",
+        homepage_url="https://example.com/articles",
+        feed_url="https://example.com/removed-feed.xml",
+        lane="ai_commercialization",
+        authority_tier="tier_1",
+        capture_mode="sitemap",
+        sitemap_urls=(sitemap_url,),
+        entry_hosts=("example.com",),
+        entry_path_pattern=r"^/articles/",
+    )
+    now = datetime(2026, 7, 19, 8, 0, tzinfo=timezone.utc)
+    session = FakeSession(
+        {
+            sitemap_url: FakeResponse(sitemap_xml(page_url, "2026-07-19T07:45:00Z")),
+            page_url: FakeResponse(article_html(page_url, "2026-07-19T07:30:00Z")),
+        }
+    )
+
+    signals, status = fetch_sitemap_source(session, source, now, now - timedelta(hours=24), 10)
+
+    assert len(signals) == 1
+    assert status["ok"] is True
+    assert signals[0].timestamp_basis == "page_structured_time"
+    assert signals[0].transport_mode == "sitemap_page"
+
+    unverified = FakeSession(
+        {
+            sitemap_url: FakeResponse(sitemap_xml(page_url, "2026-07-19T07:45:00Z")),
+            page_url: FakeResponse(article_html(page_url, None)),
+        }
+    )
+    missing_signals, missing_status = fetch_sitemap_source(
+        unverified, source, now, now - timedelta(hours=24), 10
+    )
+
+    assert missing_signals == []
+    assert missing_status["ok"] is False
+    assert missing_status["timestamp_skips"]["unverified_page"] == 1
+
+
+def test_next_frame_metadata_is_bound_to_requested_article_slug():
+    page_url = "https://example.com/news/current-story"
+    frame = "0:" + json.dumps(
+        {
+            "post": {
+                "title": "AI agent workflow startup reaches 100 enterprise customers",
+                "publishedOn": "2026-07-19T07:30:00Z",
+                "slug": {"current": "current-story"},
+                "relatedPosts": [
+                    {"title": "Wrong related story", "publishedOn": "2026-07-19T07:59:00Z", "slug": {"current": "wrong"}}
+                ],
+            }
+        }
+    )
+    push = json.dumps([1, frame])
+    html = f"""
+    <html><head><link rel="canonical" href="{page_url}"></head>
+    <body><script>self.__next_f.push({push})</script></body></html>
+    """
+
+    metadata = publication_page_metadata(html.encode(), page_url, {"example.com"})
+
+    assert metadata["title"] == "AI agent workflow startup reaches 100 enterprise customers"
+    assert metadata["published"] == datetime(2026, 7, 19, 7, 30, tzinfo=timezone.utc)
+
+
+def test_page_detail_mode_follows_listing_but_trusts_only_article_metadata():
+    source = BusinessSource(
+        source_id="sample",
+        name="Sample First Party",
+        homepage_url="https://example.com/",
+        feed_url="https://example.com/removed.xml",
+        lane="opc",
+        authority_tier="tier_2",
+        capture_mode="page_detail",
+        entry_hosts=("example.com",),
+        entry_path_pattern=r"^/post/",
+    )
+    page_url = "https://example.com/post/current"
+    now = datetime(2026, 7, 19, 8, 0, tzinfo=timezone.utc)
+    session = FakeSession(
+        {
+            source.homepage_url: FakeResponse(f"<html><body><a href='{page_url}'>Current post</a></body></html>"),
+            page_url: FakeResponse(article_html(page_url, "2026-07-19T07:30:00Z")),
+        }
+    )
+
+    signals, status = fetch_page_detail_source(session, source, now, now - timedelta(hours=24), 10)
+
+    assert len(signals) == 1
+    assert status["ok"] is True
+    assert status["transport_mode"] == "page_detail"
