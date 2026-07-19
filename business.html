@@ -220,12 +220,18 @@
       }
 
       function renderSources(catalog) {
-        document.getElementById("businessSources").innerHTML = (catalog || []).map((source) => `
-          <div class="business-source-row ${source.health_status === "ok" ? "ok" : "bad"}">
-            <span>${esc(source.name)}</span>
+        document.getElementById("businessSources").innerHTML = (catalog || []).map((source) => {
+          const stateClass = source.current ? "ok" : source.verified && source.fresh ? "watch" : "bad";
+          return `
+          <div class="business-source-row ${stateClass}">
+            <span>
+              ${esc(source.name)}
+              <small>reachable ${source.reachable ? "yes" : "no"} · verified ${source.verified ? "yes" : "no"} · fresh ${source.fresh ? "yes" : "no"} · 24h ${source.current ? "yes" : "no"}</small>
+            </span>
             <strong>${esc(source.health_status)}</strong>
           </div>
-        `).join("");
+        `;
+        }).join("");
       }
 
       function updateShellPulse(latest, status, stories, brief, cases) {

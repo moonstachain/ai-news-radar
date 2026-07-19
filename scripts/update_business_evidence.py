@@ -11,21 +11,26 @@ from __future__ import annotations
 import argparse
 import gzip
 import hashlib
+import io
+import ipaddress
 import json
 import math
 import re
+import socket
+import ssl
 import time
 import warnings
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, urlunparse
 
 import requests
+import urllib3
 from bs4 import BeautifulSoup
 from bs4 import MarkupResemblesLocatorWarning
 
@@ -38,6 +43,15 @@ except Exception:  # pragma: no cover - optional dependency branch
 UA = "AI-News-Radar-Business-Evidence/1.0 (+https://github.com/moonstachain/ai-news-radar)"
 TIMEOUT = 6
 DEFAULT_WINDOW_HOURS = 24
+MAX_REDIRECTS = 5
+MAX_FEED_BYTES = 8 * 1024 * 1024
+MAX_PAGE_BYTES = 4 * 1024 * 1024
+MAX_SITEMAP_BYTES = 24 * 1024 * 1024
+MAX_SITEMAP_DECOMPRESSED_BYTES = 48 * 1024 * 1024
+MAX_SOURCE_BYTES = 96 * 1024 * 1024
+MAX_SOURCE_REQUESTS = 40
+MAX_SOURCE_SECONDS = 75
+MAX_SITEMAP_URLS = 50_000
 TIMESTAMP_SKIP_REASONS = (
     "missing_timestamp",
     "invalid_timestamp",
@@ -156,10 +170,12 @@ class BusinessSource:
     feed_candidates: tuple[str, ...] = ()
     sitemap_urls: tuple[str, ...] = ()
     entry_hosts: tuple[str, ...] = ()
+    transport_hosts: tuple[str, ...] = ()
     entry_path_pattern: str = ""
     entry_base_url: str = ""
     require_entry_page_cross_check: bool = False
     candidate_limit: int = 12
+    freshness_sla_hours: int = 336
     next_review_at: str = ""
 
 
@@ -185,33 +201,91 @@ class BusinessSignal:
     transport_mode: str = ""
 
 
+@dataclass
+class FetchBudget:
+    remaining_requests: int = MAX_SOURCE_REQUESTS
+    remaining_bytes: int = MAX_SOURCE_BYTES
+    deadline_monotonic: float = field(default_factory=lambda: time.monotonic() + MAX_SOURCE_SECONDS)
+
+    def remaining_seconds(self) -> float:
+        remaining = self.deadline_monotonic - time.monotonic()
+        if remaining <= 0:
+            raise ValueError("source_deadline_exceeded")
+        return remaining
+
+    def begin_request(self) -> None:
+        self.remaining_seconds()
+        if self.remaining_requests <= 0:
+            raise ValueError("source_request_budget_exceeded")
+        self.remaining_requests -= 1
+
+    def consume_bytes(self, size: int) -> None:
+        self.remaining_seconds()
+        if size < 0 or size > self.remaining_bytes:
+            raise ValueError("source_byte_budget_exceeded")
+        self.remaining_bytes -= size
+
+
+@dataclass(frozen=True)
+class SafeResponse:
+    url: str
+    status_code: int
+    headers: dict[str, str]
+    content: bytes
+
+    @property
+    def text(self) -> str:
+        return self.content.decode("utf-8", errors="replace")
+
+    def raise_for_status(self) -> None:
+        if self.status_code >= 400:
+            raise requests.HTTPError(f"HTTP {self.status_code} for {self.url}")
+
+
+class PinnedHTTPResponse:
+    def __init__(self, response: urllib3.response.HTTPResponse, pool: Any):
+        self._response = response
+        self._pool = pool
+        self.status_code = int(response.status)
+        self.headers = dict(response.headers)
+
+    def iter_content(self, chunk_size: int):
+        yield from self._response.stream(amt=chunk_size, decode_content=False)
+
+    def close(self) -> None:
+        try:
+            self._response.close()
+        finally:
+            self._pool.close()
+
+
 SOURCES: list[BusinessSource] = [
     BusinessSource("mckinsey_ai", "McKinsey / QuantumBlack", "https://www.mckinsey.com/capabilities/quantumblack/our-insights", "https://www.mckinsey.com/featured-insights/rss", "authority", "tier_1", capture_mode="manual", next_review_at="2026-07-26T00:00:00Z"),
-    BusinessSource("bcg_ai", "BCG AI Insights", "https://www.bcg.com/capabilities/artificial-intelligence/insights", "https://www.bcg.com/rss", "authority", "tier_1", capture_mode="sitemap", sitemap_urls=("https://www.bcg.com/google_sitemap-content.xml",), entry_hosts=("bcg.com", "www.bcg.com"), entry_path_pattern=r"^/publications/2026/.*(?:ai|agent|genai|artificial-intelligence)"),
-    BusinessSource("bain_insights", "Bain Insights", "https://www.bain.com/insights/", "https://www.bain.com/insights/rss/", "authority", "tier_1", feed_candidates=("https://www.bain.com/rss-feed/", "https://www.bain.com/insights/rss/"), entry_hosts=("bain.com", "www.bain.com")),
-    BusinessSource("hbr", "Harvard Business Review", "https://hbr.org/", "https://feeds.hbr.org/harvardbusiness", "authority", "tier_1", feed_candidates=("http://feeds.hbr.org/harvardbusiness", "https://feeds.hbr.org/harvardbusiness"), entry_hosts=("hbr.org", "www.hbr.org"), entry_base_url="https://hbr.org/", require_entry_page_cross_check=True),
+    BusinessSource("bcg_ai", "BCG AI Insights", "https://www.bcg.com/capabilities/artificial-intelligence/insights", "https://www.bcg.com/rss", "authority", "tier_1", capture_mode="sitemap", sitemap_urls=("https://www.bcg.com/google_sitemap-content.xml",), entry_hosts=("bcg.com", "www.bcg.com"), entry_path_pattern=r"^/publications/20\d{2}/.*(?:ai|agent|genai|artificial-intelligence)", freshness_sla_hours=720),
+    BusinessSource("bain_insights", "Bain Insights", "https://www.bain.com/insights/", "https://www.bain.com/insights/rss/", "authority", "tier_1", feed_candidates=("https://www.bain.com/rss-feed/", "https://www.bain.com/insights/rss/"), entry_hosts=("bain.com", "www.bain.com"), freshness_sla_hours=720),
+    BusinessSource("hbr", "Harvard Business Review", "https://hbr.org/", "https://feeds.hbr.org/harvardbusiness", "authority", "tier_1", feed_candidates=("http://feeds.hbr.org/harvardbusiness", "https://feeds.hbr.org/harvardbusiness"), entry_hosts=("hbr.org", "www.hbr.org"), entry_base_url="https://hbr.org/", require_entry_page_cross_check=True, freshness_sla_hours=72),
     BusinessSource("mit_smr", "MIT Sloan Management Review", "https://sloanreview.mit.edu/", "https://sloanreview.mit.edu/feed/", "authority", "tier_1"),
     BusinessSource("knowledge_wharton", "Knowledge at Wharton", "https://knowledge.wharton.upenn.edu/", "https://knowledge.wharton.upenn.edu/feed/", "authority", "tier_2"),
     BusinessSource("yc_blog", "Y Combinator Blog", "https://www.ycombinator.com/blog", "https://www.ycombinator.com/blog/rss", "startup_vc", "tier_1"),
     BusinessSource("a16z", "a16z", "https://a16z.com/ai/", "https://a16z.com/feed/", "startup_vc", "tier_1", capture_mode="sitemap", sitemap_urls=("https://a16z.com/post-sitemap3.xml", "https://a16z.com/announcement-sitemap.xml"), entry_hosts=("a16z.com", "www.a16z.com")),
-    BusinessSource("first_round", "First Round Review", "https://review.firstround.com/", "https://review.firstround.com/rss/", "startup_vc", "tier_1", capture_mode="sitemap", sitemap_urls=("https://review.firstround.com/sitemap-posts.xml",), entry_hosts=("review.firstround.com",)),
-    BusinessSource("lenny", "Lenny's Newsletter", "https://www.lennysnewsletter.com/", "https://www.lennysnewsletter.com/feed", "startup_vc", "tier_2"),
-    BusinessSource("generalist", "The Generalist", "https://www.generalist.com/", "https://www.generalist.com/feed", "startup_vc", "tier_2"),
-    BusinessSource("not_boring", "Not Boring", "https://www.notboring.co/", "https://www.notboring.co/feed", "startup_vc", "tier_2"),
+    BusinessSource("first_round", "First Round Review", "https://review.firstround.com/", "https://review.firstround.com/rss/", "startup_vc", "tier_1", capture_mode="sitemap", sitemap_urls=("https://review.firstround.com/sitemap-posts.xml",), entry_hosts=("review.firstround.com",), freshness_sla_hours=720),
+    BusinessSource("lenny", "Lenny's Newsletter", "https://www.lennysnewsletter.com/", "https://www.lennysnewsletter.com/feed", "startup_vc", "tier_2", freshness_sla_hours=240),
+    BusinessSource("generalist", "The Generalist", "https://www.generalist.com/", "https://www.generalist.com/feed", "startup_vc", "tier_2", freshness_sla_hours=240),
+    BusinessSource("not_boring", "Not Boring", "https://www.notboring.co/", "https://www.notboring.co/feed", "startup_vc", "tier_2", freshness_sla_hours=240),
     BusinessSource("cbinsights", "CB Insights", "https://www.cbinsights.com/research/", "https://www.cbinsights.com/research/feed/", "startup_vc", "tier_2"),
-    BusinessSource("indie_hackers", "Indie Hackers", "https://www.indiehackers.com/", "https://www.indiehackers.com/feed.xml", "opc", "tier_2", capture_mode="page_detail", entry_hosts=("indiehackers.com", "www.indiehackers.com"), entry_path_pattern=r"^/post/"),
-    BusinessSource("starter_story", "Starter Story", "https://www.starterstory.com/", "https://www.starterstory.com/feed", "opc", "tier_2", capture_mode="sitemap", sitemap_urls=("https://www.starterstory.com/sitemap",), entry_hosts=("starterstory.com", "www.starterstory.com"), entry_path_pattern=r"^/stories/"),
+    BusinessSource("indie_hackers", "Indie Hackers", "https://www.indiehackers.com/", "https://www.indiehackers.com/feed.xml", "opc", "tier_2", capture_mode="page_detail", entry_hosts=("indiehackers.com", "www.indiehackers.com"), entry_path_pattern=r"^/post/", freshness_sla_hours=72),
+    BusinessSource("starter_story", "Starter Story", "https://www.starterstory.com/", "https://www.starterstory.com/feed", "opc", "tier_2", capture_mode="sitemap", sitemap_urls=("https://www.starterstory.com/sitemap",), entry_hosts=("starterstory.com", "www.starterstory.com"), transport_hosts=("d1coqmn8qm80r4.cloudfront.net",), entry_path_pattern=r"^/stories/"),
     BusinessSource("microconf", "MicroConf", "https://microconf.com/", "https://microconf.com/feed", "opc", "tier_2", feed_candidates=("https://microconf.com/latest?format=rss", "https://microconf.com/feed"), entry_hosts=("microconf.com", "www.microconf.com")),
-    BusinessSource("tinyseed", "TinySeed", "https://tinyseed.com/", "https://tinyseed.com/feed", "opc", "tier_2", capture_mode="sitemap", sitemap_urls=("https://tinyseed.com/sitemap.xml",), entry_hosts=("tinyseed.com", "www.tinyseed.com"), entry_path_pattern=r"^/spring-2026/"),
+    BusinessSource("tinyseed", "TinySeed", "https://tinyseed.com/", "https://tinyseed.com/feed", "opc", "tier_2", capture_mode="sitemap", sitemap_urls=("https://tinyseed.com/sitemap.xml",), entry_hosts=("tinyseed.com", "www.tinyseed.com"), entry_path_pattern=r"^/(?:spring|summer|fall|autumn|winter)-20\d{2}/", freshness_sla_hours=720),
     BusinessSource("bootstrapped_founder", "The Bootstrapped Founder", "https://thebootstrappedfounder.com/", "https://thebootstrappedfounder.com/feed.xml", "opc", "tier_2", feed_candidates=("https://thebootstrappedfounder.com/feed/", "https://thebootstrappedfounder.com/feed.xml"), entry_hosts=("thebootstrappedfounder.com", "www.thebootstrappedfounder.com")),
-    BusinessSource("levelsio", "levels.io", "https://levels.io/", "https://levels.io/rss/", "opc", "tier_2"),
+    BusinessSource("levelsio", "levels.io", "https://levels.io/", "https://levels.io/rss/", "opc", "tier_2", freshness_sla_hours=720),
     BusinessSource("latent_space", "Latent Space", "https://www.latent.space/", "https://www.latent.space/feed", "ai_commercialization", "tier_2"),
     BusinessSource("ai_engineer", "AI Engineer", "https://www.ai.engineer/", "https://www.ai.engineer/feed", "ai_commercialization", "tier_2", capture_mode="manual", next_review_at="2026-07-26T00:00:00Z"),
     BusinessSource("the_batch", "The Batch", "https://www.deeplearning.ai/the-batch/", "https://www.deeplearning.ai/the-batch/rss/", "ai_commercialization", "tier_2", feed_candidates=("https://charonhub.deeplearning.ai/rss/", "https://www.deeplearning.ai/the-batch/rss/"), entry_hosts=("charonhub.deeplearning.ai",)),
     BusinessSource("openai_news", "OpenAI News", "https://openai.com/news/", "https://openai.com/news/rss.xml", "ai_commercialization", "tier_1"),
     BusinessSource("anthropic_news", "Anthropic News", "https://www.anthropic.com/news", "https://www.anthropic.com/news/rss.xml", "ai_commercialization", "tier_1", capture_mode="sitemap", sitemap_urls=("https://www.anthropic.com/sitemap.xml",), entry_hosts=("anthropic.com", "www.anthropic.com"), entry_path_pattern=r"^/news/"),
-    BusinessSource("github_blog", "GitHub Blog", "https://github.blog/", "https://github.blog/feed/", "ai_commercialization", "tier_1"),
-    BusinessSource("huggingface_blog", "Hugging Face Blog", "https://huggingface.co/blog", "https://huggingface.co/blog/feed.xml", "ai_commercialization", "tier_2"),
+    BusinessSource("github_blog", "GitHub Blog", "https://github.blog/", "https://github.blog/feed/", "ai_commercialization", "tier_1", freshness_sla_hours=168),
+    BusinessSource("huggingface_blog", "Hugging Face Blog", "https://huggingface.co/blog", "https://huggingface.co/blog/feed.xml", "ai_commercialization", "tier_2", freshness_sla_hours=168),
 ]
 
 
@@ -288,6 +362,175 @@ def host(url: str) -> str:
     return urlparse(url).netloc.replace("www.", "")
 
 
+def resolve_public_addresses(hostname: str) -> tuple[str, ...]:
+    """Resolve a reviewed hostname and reject any non-public destination."""
+    try:
+        literal = ipaddress.ip_address(hostname)
+        addresses = {literal}
+    except ValueError:
+        try:
+            addresses = {
+                ipaddress.ip_address(row[4][0])
+                for row in socket.getaddrinfo(hostname, None, type=socket.SOCK_STREAM)
+            }
+        except (OSError, ValueError) as exc:
+            raise ValueError(f"public_host_resolution_failed: {hostname}") from exc
+    if not addresses or any(not address.is_global for address in addresses):
+        raise ValueError(f"non_public_destination_rejected: {hostname}")
+    return tuple(str(address) for address in sorted(addresses, key=lambda value: (value.version, str(value))))
+
+
+def validate_remote_url(url: str, allowed_hosts: set[str], *, allow_http: bool = False) -> tuple[str, ...]:
+    parsed = urlparse(url)
+    hostname = (parsed.hostname or "").lower()
+    if parsed.username or parsed.password:
+        raise ValueError("remote_url_credentials_rejected")
+    if parsed.scheme not in ({"https", "http"} if allow_http else {"https"}):
+        raise ValueError(f"remote_url_scheme_rejected: {parsed.scheme or 'missing'}")
+    if hostname not in {value.lower() for value in allowed_hosts}:
+        raise ValueError(f"remote_url_host_not_allowed: {hostname}")
+    try:
+        port = parsed.port
+    except ValueError as exc:
+        raise ValueError("remote_url_port_invalid") from exc
+    expected_port = 80 if parsed.scheme == "http" else 443
+    if port not in (None, expected_port):
+        raise ValueError(f"remote_url_port_rejected: {port}")
+    return resolve_public_addresses(hostname)
+
+
+def _pinned_session_get(
+    session: requests.Session,
+    url: str,
+    addresses: tuple[str, ...],
+    timeout: int,
+    budget: FetchBudget,
+) -> PinnedHTTPResponse:
+    """Connect to a validated IP while preserving the reviewed Host and TLS SNI."""
+    parsed = urlparse(url)
+    hostname = parsed.hostname or ""
+    request_target = urlunparse(("", "", parsed.path or "/", parsed.params, parsed.query, ""))
+    headers = {str(key): str(value) for key, value in session.headers.items()}
+    headers["Host"] = hostname
+    headers["Accept-Encoding"] = "identity"
+    errors: list[str] = []
+    for address in addresses:
+        budget.begin_request()
+        request_timeout = max(1.0, min(float(timeout), budget.remaining_seconds()))
+        if parsed.scheme == "https":
+            pool: Any = urllib3.HTTPSConnectionPool(
+                address,
+                port=443,
+                maxsize=1,
+                block=True,
+                assert_hostname=hostname,
+                server_hostname=hostname,
+                ssl_context=ssl.create_default_context(),
+            )
+        else:
+            pool = urllib3.HTTPConnectionPool(address, port=80, maxsize=1, block=True)
+        try:
+            response = pool.urlopen(
+                "GET",
+                request_target,
+                headers=headers,
+                redirect=False,
+                retries=False,
+                preload_content=False,
+                decode_content=False,
+                timeout=urllib3.Timeout(connect=request_timeout, read=request_timeout, total=request_timeout),
+            )
+            return PinnedHTTPResponse(response, pool)
+        except Exception as exc:
+            pool.close()
+            errors.append(f"{address}: {str(exc)[:160]}")
+    raise ValueError("pinned_public_connection_failed: " + " | ".join(errors[:3]))
+
+
+def _response_headers(response: Any) -> dict[str, str]:
+    return {str(key).lower(): str(value) for key, value in dict(getattr(response, "headers", {}) or {}).items()}
+
+
+def _read_response_body(response: Any, max_bytes: int, budget: FetchBudget) -> bytes:
+    headers = _response_headers(response)
+    content_length = headers.get("content-length")
+    if content_length:
+        try:
+            declared_size = int(content_length)
+        except ValueError as exc:
+            raise ValueError("response_content_length_invalid") from exc
+        if declared_size < 0 or declared_size > max_bytes or declared_size > budget.remaining_bytes:
+            raise ValueError("response_body_too_large")
+
+    chunks: list[bytes] = []
+    total = 0
+    iterator = getattr(response, "iter_content", None)
+    if callable(iterator):
+        stream = iterator(chunk_size=64 * 1024)
+    else:
+        stream = (bytes(getattr(response, "content", b"")),)
+    for chunk in stream:
+        budget.remaining_seconds()
+        if not chunk:
+            continue
+        raw = bytes(chunk)
+        total += len(raw)
+        if total > max_bytes or total > budget.remaining_bytes:
+            raise ValueError("response_body_too_large")
+        chunks.append(raw)
+    budget.consume_bytes(total)
+    return b"".join(chunks)
+
+
+def safe_get(
+    session: requests.Session,
+    url: str,
+    *,
+    allowed_hosts: set[str],
+    budget: FetchBudget,
+    timeout: int,
+    max_bytes: int,
+    allow_http_initial: bool = False,
+) -> SafeResponse:
+    """Fetch with per-hop scheme, host, IP, redirect and byte-budget checks."""
+    current_url = url
+    for hop in range(MAX_REDIRECTS + 1):
+        addresses = validate_remote_url(current_url, allowed_hosts, allow_http=allow_http_initial and hop == 0)
+        if isinstance(session, requests.Session):
+            response = _pinned_session_get(session, current_url, addresses, timeout, budget)
+        else:
+            budget.begin_request()
+            request_timeout = max(1, min(timeout, math.ceil(budget.remaining_seconds())))
+            try:
+                response = session.get(current_url, timeout=request_timeout, allow_redirects=False, stream=True)
+            except TypeError:
+                # Minimal test doubles may implement only the historical get(url, timeout) API.
+                response = session.get(current_url, timeout=request_timeout)
+        status_code = int(getattr(response, "status_code", 0) or 0)
+        headers = _response_headers(response)
+        if status_code in {301, 302, 303, 307, 308}:
+            location = headers.get("location", "").strip()
+            close = getattr(response, "close", None)
+            if callable(close):
+                close()
+            if not location:
+                raise ValueError("redirect_location_missing")
+            if hop >= MAX_REDIRECTS:
+                raise ValueError("redirect_limit_exceeded")
+            current_url = urljoin(current_url, location)
+            continue
+        close = getattr(response, "close", None)
+        try:
+            body = _read_response_body(response, max_bytes, budget)
+        finally:
+            if callable(close):
+                close()
+        result = SafeResponse(current_url, status_code, headers, body)
+        result.raise_for_status()
+        return result
+    raise ValueError("redirect_limit_exceeded")
+
+
 def allowed_entry_hosts(source: BusinessSource) -> set[str]:
     configured = {value.lower() for value in source.entry_hosts if value}
     homepage_host = (urlparse(source.homepage_url).hostname or "").lower()
@@ -298,10 +541,36 @@ def allowed_entry_hosts(source: BusinessSource) -> set[str]:
     return configured
 
 
+def allowed_transport_hosts(source: BusinessSource) -> set[str]:
+    values = {
+        source.homepage_url,
+        source.feed_url,
+        *source.feed_candidates,
+        *source.sitemap_urls,
+    }
+    configured = allowed_entry_hosts(source)
+    configured.update(value.lower() for value in source.transport_hosts if value)
+    configured.update((urlparse(value).hostname or "").lower() for value in values if value)
+    configured.discard("")
+    return configured
+
+
 def normalized_public_url(value: str) -> str:
     parsed = urlparse(value)
     path = parsed.path.rstrip("/") or "/"
     return f"{parsed.scheme.lower()}://{parsed.netloc.lower()}{path}"
+
+
+def canonical_entry_url(source: BusinessSource, feed_url: str, raw_url: str) -> str:
+    value = urljoin(source.entry_base_url or feed_url, raw_url)
+    parsed = urlparse(value)
+    if (
+        source.require_entry_page_cross_check
+        and parsed.scheme == "http"
+        and (parsed.hostname or "").lower() in allowed_entry_hosts(source)
+    ):
+        value = urlunparse(parsed._replace(scheme="https", netloc=parsed.hostname or ""))
+    return value
 
 
 def walk_json_objects(value: Any):
@@ -312,6 +581,47 @@ def walk_json_objects(value: Any):
     elif isinstance(value, list):
         for child in value:
             yield from walk_json_objects(child)
+
+
+def _jsonld_types(item: dict[str, Any]) -> set[str]:
+    raw = item.get("@type")
+    values = raw if isinstance(raw, list) else [raw]
+    return {str(value).rsplit("/", 1)[-1].lower() for value in values if value}
+
+
+def _jsonld_urls(item: dict[str, Any], requested_url: str) -> list[str]:
+    values: list[Any] = [item.get("url"), item.get("@id")]
+    main_entity = item.get("mainEntityOfPage")
+    if isinstance(main_entity, dict):
+        values.extend((main_entity.get("url"), main_entity.get("@id")))
+    else:
+        values.append(main_entity)
+    return [urljoin(requested_url, value.strip()) for value in values if isinstance(value, str) and value.strip()]
+
+
+def jsonld_article_metadata(payload: Any, requested_url: str, allowed_hosts: set[str]) -> dict[str, str]:
+    """Accept title, date and URL only from one matching article object."""
+    matches: list[dict[str, str]] = []
+    for item in walk_json_objects(payload):
+        if not {"article", "newsarticle", "blogposting"}.intersection(_jsonld_types(item)):
+            continue
+        title = clean_text(item.get("headline"))
+        published = str(item.get("datePublished") or "").strip()
+        if not title or not published:
+            continue
+        for candidate_url in _jsonld_urls(item, requested_url):
+            hostname = (urlparse(candidate_url).hostname or "").lower()
+            if hostname not in allowed_hosts:
+                continue
+            if normalized_public_url(candidate_url) == normalized_public_url(requested_url):
+                matches.append({"title": title, "published": published, "url": candidate_url})
+                break
+    parsed_times = {parse_time(row["published"]) for row in matches}
+    if None in parsed_times:
+        raise ValueError("publication_page_jsonld_timestamp_invalid")
+    if len(parsed_times) > 1:
+        raise ValueError("publication_page_timestamp_conflict")
+    return matches[0] if matches else {}
 
 
 def next_frame_post_metadata(soup: BeautifulSoup, requested_url: str) -> dict[str, str]:
@@ -356,6 +666,8 @@ def next_frame_post_metadata(soup: BeautifulSoup, requested_url: str) -> dict[st
 
 def publication_page_metadata(body: bytes, requested_url: str, allowed_hosts: set[str]) -> dict[str, Any]:
     """Extract title, canonical URL and a page-bound provider publication time."""
+    if len(body) > MAX_PAGE_BYTES:
+        raise ValueError("publication_page_too_large")
     soup = BeautifulSoup(body, "html.parser")
     metadata: dict[str, str] = {}
     for node in soup.find_all("meta"):
@@ -367,28 +679,40 @@ def publication_page_metadata(body: bytes, requested_url: str, allowed_hosts: se
     canonical_node = soup.find("link", rel=lambda value: value and "canonical" in str(value).lower())
     canonical = urljoin(requested_url, str(canonical_node.get("href") or "")) if canonical_node else requested_url
     has_explicit_canonical = canonical_node is not None
-    title = metadata.get("og:title") or metadata.get("twitter:title")
-    published = metadata.get("article:published_time") or metadata.get("datepublished") or metadata.get("date")
+    meta_title = metadata.get("og:title") or metadata.get("twitter:title")
+    meta_published = metadata.get("article:published_time") or metadata.get("datepublished")
 
+    matching_articles: list[dict[str, str]] = []
     for node in soup.find_all("script", type="application/ld+json"):
         try:
             payload = json.loads(node.string or node.get_text())
         except (TypeError, ValueError):
             continue
-        for item in walk_json_objects(payload):
-            if not title and isinstance(item.get("headline"), str):
-                title = clean_text(item["headline"])
-            if not published and isinstance(item.get("datePublished"), str):
-                published = item["datePublished"].strip()
-            if not has_explicit_canonical and canonical == requested_url and isinstance(item.get("url"), str):
-                canonical = urljoin(requested_url, item["url"].strip())
-            if title and published:
-                break
+        matching_article = jsonld_article_metadata(payload, requested_url, allowed_hosts)
+        if matching_article:
+            matching_articles.append(matching_article)
 
-    if not title or not published:
-        frame = next_frame_post_metadata(soup, requested_url)
-        title = title or frame.get("title")
-        published = published or frame.get("published")
+    frame = next_frame_post_metadata(soup, requested_url)
+    timestamp_candidates = {
+        "meta": meta_published,
+        **{f"jsonld_{index}": row["published"] for index, row in enumerate(matching_articles)},
+        "next_frame": frame.get("published"),
+    }
+    parsed_timestamps: dict[str, datetime] = {}
+    for label, value in timestamp_candidates.items():
+        if not str(value or "").strip():
+            continue
+        parsed_value = parse_time(value)
+        if parsed_value is None:
+            raise ValueError(f"publication_page_timestamp_invalid: {label}")
+        parsed_timestamps[label] = parsed_value
+    if len(set(parsed_timestamps.values())) > 1:
+        raise ValueError("publication_page_timestamp_conflict")
+
+    title = meta_title or (matching_articles[0]["title"] if matching_articles else "") or frame.get("title")
+    published = next(iter(parsed_timestamps.values()), None)
+    if matching_articles and not has_explicit_canonical:
+        canonical = matching_articles[0]["url"]
 
     title = clean_text(title or (soup.title.get_text(" ") if soup.title else ""))
     canonical_host = (urlparse(canonical).hostname or "").lower()
@@ -396,35 +720,67 @@ def publication_page_metadata(body: bytes, requested_url: str, allowed_hosts: se
         raise ValueError(f"publication_page_canonical_host_not_allowed: {canonical_host}")
     if normalized_public_url(canonical) != normalized_public_url(requested_url):
         raise ValueError("publication_page_canonical_url_mismatch")
-    parsed = parse_time(published)
-    if not title or parsed is None:
+    if not title or published is None:
         raise ValueError("publication_page_title_or_timestamp_missing")
-    return {"title": title, "url": canonical, "published": parsed}
+    return {"title": title, "url": canonical, "published": published}
 
 
-def sitemap_candidates(body: bytes, source: BusinessSource) -> list[dict[str, Any]]:
+def sitemap_candidates(
+    body: bytes,
+    source: BusinessSource,
+    budget: FetchBudget | None = None,
+) -> list[dict[str, Any]]:
+    if len(body) > MAX_SITEMAP_BYTES:
+        raise ValueError("official_sitemap_too_large")
     if body[:2] == b"\x1f\x8b":
-        body = gzip.decompress(body)
-    try:
-        root = ET.fromstring(body)
-    except ET.ParseError as exc:
-        raise ValueError("official_sitemap_invalid_xml") from exc
-    if root.tag.rsplit("}", 1)[-1] != "urlset":
-        raise ValueError("official_sitemap_unresolved_index")
+        with gzip.GzipFile(fileobj=io.BytesIO(body)) as compressed:
+            decompressed = compressed.read(MAX_SITEMAP_DECOMPRESSED_BYTES + 1)
+        if len(decompressed) > MAX_SITEMAP_DECOMPRESSED_BYTES:
+            raise ValueError("official_sitemap_decompressed_too_large")
+        if budget is not None:
+            budget.consume_bytes(max(0, len(decompressed) - len(body)))
+        body = decompressed
+    if len(body) > MAX_SITEMAP_DECOMPRESSED_BYTES:
+        raise ValueError("official_sitemap_decompressed_too_large")
+    upper_prefix = body[:4096].upper()
+    if b"<!DOCTYPE" in upper_prefix or b"<!ENTITY" in upper_prefix:
+        raise ValueError("official_sitemap_dtd_rejected")
     allowed_hosts = allowed_entry_hosts(source)
     rows: list[dict[str, Any]] = []
-    for node in list(root):
-        if node.tag.rsplit("}", 1)[-1] != "url":
-            continue
-        values = {child.tag.rsplit("}", 1)[-1]: clean_text("".join(child.itertext())) for child in list(node)}
-        url = values.get("loc") or ""
-        modified = parse_time(values.get("lastmod"))
-        parsed = urlparse(url)
-        if not url or modified is None or (parsed.hostname or "").lower() not in allowed_hosts:
-            continue
-        if source.entry_path_pattern and not re.search(source.entry_path_pattern, parsed.path, re.IGNORECASE):
-            continue
-        rows.append({"url": url, "last_modified": modified})
+    total_url_nodes = 0
+    root_name = ""
+    try:
+        for event, node in ET.iterparse(io.BytesIO(body), events=("start", "end")):
+            local_name = node.tag.rsplit("}", 1)[-1]
+            if not root_name and event == "start":
+                root_name = local_name
+            if event != "end" or local_name != "url":
+                continue
+            total_url_nodes += 1
+            if total_url_nodes > MAX_SITEMAP_URLS:
+                raise ValueError("official_sitemap_url_budget_exceeded")
+            values = {
+                child.tag.rsplit("}", 1)[-1]: clean_text("".join(child.itertext()))
+                for child in list(node)
+            }
+            url = values.get("loc") or ""
+            modified = parse_time(values.get("lastmod"))
+            parsed = urlparse(url)
+            if (
+                url
+                and modified is not None
+                and (parsed.hostname or "").lower() in allowed_hosts
+                and (
+                    not source.entry_path_pattern
+                    or re.search(source.entry_path_pattern, parsed.path, re.IGNORECASE)
+                )
+            ):
+                rows.append({"url": url, "last_modified": modified})
+            node.clear()
+    except ET.ParseError as exc:
+        raise ValueError("official_sitemap_invalid_xml") from exc
+    if root_name != "urlset":
+        raise ValueError("official_sitemap_unresolved_index")
     return sorted(rows, key=lambda row: row["last_modified"], reverse=True)
 
 
@@ -537,7 +893,7 @@ def score_signal(source: BusinessSource, title: str, summary: str, published_at:
     return min(100, sum(breakdown.values())), breakdown, opc_fit, case_concreteness
 
 
-def local_structured_timestamp(anchor: Any) -> Any:
+def local_structured_timestamp(anchor: Any, base_url: str = "") -> Any:
     """Return only a timestamp structurally attached to the linked story."""
     containers: list[Any] = []
     current = anchor.parent
@@ -549,17 +905,30 @@ def local_structured_timestamp(anchor: Any) -> Any:
             break
 
     for container in containers:
-        time_node = container.find("time", datetime=True)
-        if time_node is not None and str(time_node.get("datetime") or "").strip():
-            return time_node.get("datetime")
-        published_node = container.find(attrs={"itemprop": "datePublished"})
-        if published_node is not None:
-            value = published_node.get("content") or published_node.get("datetime")
-            if str(value or "").strip():
-                return value
-        meta_node = container.find("meta", attrs={"property": "article:published_time"})
-        if meta_node is not None and str(meta_node.get("content") or "").strip():
-            return meta_node.get("content")
+        base_host = (urlparse(base_url).hostname or "").lower()
+        story_urls: set[str] = set()
+        for node in container.find_all("a", href=True):
+            raw_href = str(node.get("href") or "").strip()
+            candidate_url = urljoin(base_url, raw_href)
+            candidate = urlparse(candidate_url)
+            if not raw_href or candidate.scheme != "https" or (candidate.hostname or "").lower() != base_host:
+                continue
+            story_urls.add(normalized_public_url(candidate_url))
+        anchor_url = normalized_public_url(urljoin(base_url, str(anchor.get("href") or "")))
+        if len(story_urls) != 1 or anchor_url not in story_urls:
+            continue
+
+        values: list[Any] = []
+        values.extend(node.get("datetime") for node in container.find_all("time", datetime=True))
+        for node in container.find_all(attrs={"itemprop": "datePublished"}):
+            values.append(node.get("content") or node.get("datetime"))
+        values.extend(
+            node.get("content")
+            for node in container.find_all("meta", attrs={"property": "article:published_time"})
+        )
+        timestamps = {str(value).strip() for value in values if str(value or "").strip()}
+        if len(timestamps) == 1:
+            return next(iter(timestamps))
     return None
 
 
@@ -569,9 +938,18 @@ def fetch_page_fallback(
     now: datetime,
     window_start: datetime,
     max_per_source: int,
+    budget: FetchBudget | None = None,
 ) -> tuple[list[BusinessSignal], dict[str, int]]:
-    resp = session.get(source.homepage_url, timeout=TIMEOUT)
-    resp.raise_for_status()
+    budget = budget or FetchBudget()
+    allowed_hosts = allowed_entry_hosts(source)
+    resp = safe_get(
+        session,
+        source.homepage_url,
+        allowed_hosts=allowed_transport_hosts(source),
+        budget=budget,
+        timeout=TIMEOUT,
+        max_bytes=MAX_PAGE_BYTES,
+    )
     soup = BeautifulSoup(resp.text, "html.parser")
     signals: list[BusinessSignal] = []
     skips = empty_timestamp_skips()
@@ -582,10 +960,22 @@ def fetch_page_fallback(
         if not title or len(title) < 18 or not href:
             continue
         href = urljoin(source.homepage_url, href)
-        if not href.startswith("http") or href in seen:
+        parsed_href = urlparse(href)
+        if (
+            parsed_href.scheme != "https"
+            or (parsed_href.hostname or "").lower() not in allowed_hosts
+            or href in seen
+        ):
+            continue
+        if source.entry_path_pattern and not re.search(source.entry_path_pattern, parsed_href.path, re.IGNORECASE):
             continue
         seen.add(href)
-        published = validate_published_time(local_structured_timestamp(anchor), now, window_start, skips)
+        published = validate_published_time(
+            local_structured_timestamp(anchor, source.homepage_url),
+            now,
+            window_start,
+            skips,
+        )
         if published is None:
             continue
         context = clean_text(anchor.parent.get_text(" ") if anchor.parent else title)
@@ -614,6 +1004,10 @@ def source_status(source: BusinessSource, mode: str, now: datetime) -> dict[str,
         "lane": source.lane,
         "capture_mode": source.capture_mode,
         "ok": False,
+        "reachable": False,
+        "verified": False,
+        "fresh": False,
+        "current": False,
         "transport_ok": False,
         "transport_mode": mode,
         "quality_status": "unavailable",
@@ -624,6 +1018,8 @@ def source_status(source: BusinessSource, mode: str, now: datetime) -> dict[str,
         "timestamp_skips": empty_timestamp_skips(),
         "attempted_urls": [],
         "selected_url": "",
+        "latest_verified_published_at": "",
+        "freshness_sla_hours": source.freshness_sla_hours,
         "duration_ms": 0,
         "error": "",
         "last_checked_at": now.isoformat().replace("+00:00", "Z"),
@@ -631,15 +1027,36 @@ def source_status(source: BusinessSource, mode: str, now: datetime) -> dict[str,
     }
 
 
+def record_verified_timestamp(status: dict[str, Any], published: datetime) -> None:
+    current = parse_time(status.get("latest_verified_published_at"))
+    if current is None or published > current:
+        status["latest_verified_published_at"] = published.isoformat().replace("+00:00", "Z")
+
+
 def finalize_timestamp_status(status: dict[str, Any], signals: list[BusinessSignal], *, empty_error: str) -> None:
     status["item_count"] = len(signals)
+    status["reachable"] = bool(status.get("transport_ok"))
+    status["verified"] = int(status.get("verified_timestamp_count") or 0) > 0
+    status["current"] = int(status.get("eligible_timestamp_count") or 0) > 0
+    checked_at = parse_time(status.get("last_checked_at")) or datetime.now(tz=timezone.utc)
+    latest_verified = parse_time(status.get("latest_verified_published_at"))
+    freshness_sla_hours = max(1, int(status.get("freshness_sla_hours") or 0))
+    status["fresh"] = bool(
+        latest_verified is not None
+        and latest_verified >= checked_at - timedelta(hours=freshness_sla_hours)
+    )
     if status["eligible_timestamp_count"] > 0:
         status["ok"] = True
+        status["fresh"] = True
         status["quality_status"] = "verified_timestamp"
         return
     if status["verified_timestamp_count"] > 0:
-        status["ok"] = True
-        status["quality_status"] = "no_current_items"
+        if status["fresh"]:
+            status["ok"] = True
+            status["quality_status"] = "no_current_items"
+        else:
+            status["quality_status"] = "stale_source"
+            status["error"] = "latest_verified_item_exceeds_source_sla"
         return
     if status["entry_count"] > 0:
         status["quality_status"] = "unverified_timestamp"
@@ -658,14 +1075,21 @@ def fetch_sitemap_source(
 ) -> tuple[list[BusinessSignal], dict[str, Any]]:
     start = time.perf_counter()
     status = source_status(source, "sitemap_page", now)
+    budget = FetchBudget()
     candidates_by_url: dict[str, dict[str, Any]] = {}
     errors: list[str] = []
     for sitemap_url in source.sitemap_urls:
         status["attempted_urls"].append(sitemap_url)
         try:
-            response = session.get(sitemap_url, timeout=max(TIMEOUT, 20))
-            response.raise_for_status()
-            rows = sitemap_candidates(response.content, source)
+            response = safe_get(
+                session,
+                sitemap_url,
+                allowed_hosts=allowed_transport_hosts(source),
+                budget=budget,
+                timeout=max(TIMEOUT, 20),
+                max_bytes=MAX_SITEMAP_BYTES,
+            )
+            rows = sitemap_candidates(response.content, source, budget)
             status["transport_ok"] = True
             for row in rows:
                 previous = candidates_by_url.get(row["url"])
@@ -681,8 +1105,14 @@ def fetch_sitemap_source(
     for candidate in candidates[: source.candidate_limit]:
         page_url = candidate["url"]
         try:
-            response = session.get(page_url, timeout=max(TIMEOUT, 20))
-            response.raise_for_status()
+            response = safe_get(
+                session,
+                page_url,
+                allowed_hosts=allowed_hosts,
+                budget=budget,
+                timeout=max(TIMEOUT, 20),
+                max_bytes=MAX_PAGE_BYTES,
+            )
             metadata = publication_page_metadata(response.content, page_url, allowed_hosts)
         except Exception as exc:
             status["timestamp_skips"]["unverified_page"] += 1
@@ -692,6 +1122,7 @@ def fetch_sitemap_source(
         if published <= now:
             status["verified_timestamp_count"] += 1
             status["selected_url"] = status["selected_url"] or page_url
+            record_verified_timestamp(status, published)
         published = validate_published_time(published, now, window_start, status["timestamp_skips"])
         if published is None:
             continue
@@ -727,12 +1158,19 @@ def fetch_page_detail_source(
 ) -> tuple[list[BusinessSignal], dict[str, Any]]:
     start = time.perf_counter()
     status = source_status(source, "page_detail", now)
+    budget = FetchBudget()
     status["attempted_urls"].append(source.homepage_url)
     signals: list[BusinessSignal] = []
     errors: list[str] = []
     try:
-        response = session.get(source.homepage_url, timeout=max(TIMEOUT, 20))
-        response.raise_for_status()
+        response = safe_get(
+            session,
+            source.homepage_url,
+            allowed_hosts=allowed_transport_hosts(source),
+            budget=budget,
+            timeout=max(TIMEOUT, 20),
+            max_bytes=MAX_PAGE_BYTES,
+        )
         status["transport_ok"] = True
         soup = BeautifulSoup(response.content, "html.parser")
         allowed_hosts = allowed_entry_hosts(source)
@@ -750,8 +1188,14 @@ def fetch_page_detail_source(
         status["entry_count"] = len(candidates)
         for page_url in candidates[: source.candidate_limit]:
             try:
-                page = session.get(page_url, timeout=max(TIMEOUT, 20))
-                page.raise_for_status()
+                page = safe_get(
+                    session,
+                    page_url,
+                    allowed_hosts=allowed_hosts,
+                    budget=budget,
+                    timeout=max(TIMEOUT, 20),
+                    max_bytes=MAX_PAGE_BYTES,
+                )
                 metadata = publication_page_metadata(page.content, page_url, allowed_hosts)
             except Exception as exc:
                 status["timestamp_skips"]["unverified_page"] += 1
@@ -761,6 +1205,7 @@ def fetch_page_detail_source(
             if published <= now:
                 status["verified_timestamp_count"] += 1
                 status["selected_url"] = status["selected_url"] or page_url
+                record_verified_timestamp(status, published)
             published = validate_published_time(published, now, window_start, status["timestamp_skips"])
             if published is None:
                 continue
@@ -792,16 +1237,31 @@ def fetch_page_detail_source(
 def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime, window_start: datetime, max_per_source: int) -> tuple[list[BusinessSignal], dict[str, Any]]:
     start = time.perf_counter()
     status = source_status(source, "feed", now)
-    signals: list[BusinessSignal] = []
     feed_errors: list[str] = []
     saw_entries = False
     candidates = source.feed_candidates or (source.feed_url,)
     allowed_hosts = allowed_entry_hosts(source)
-    for feed_url in candidates:
+    transport_hosts = allowed_transport_hosts(source)
+    budget = FetchBudget()
+    candidate_results: list[dict[str, Any]] = []
+
+    for candidate_index, feed_url in enumerate(candidates):
         status["attempted_urls"].append(feed_url)
+        candidate_skips = empty_timestamp_skips()
+        candidate_signals: list[BusinessSignal] = []
+        verified_timestamp_count = 0
+        eligible_timestamp_count = 0
+        latest_verified_timestamp: datetime | None = None
         try:
-            resp = session.get(feed_url, timeout=TIMEOUT)
-            resp.raise_for_status()
+            resp = safe_get(
+                session,
+                feed_url,
+                allowed_hosts=transport_hosts,
+                budget=budget,
+                timeout=TIMEOUT,
+                max_bytes=MAX_FEED_BYTES,
+                allow_http_initial=feed_url.startswith("http://"),
+            )
             status["transport_ok"] = True
             if feedparser is not None:
                 entries = list(feedparser.parse(resp.content).entries)
@@ -820,41 +1280,52 @@ def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime,
                 feed_errors.append(f"{feed_url}: feed_returned_no_entries")
                 continue
             saw_entries = True
-            status["entry_count"] = len(entries)
-            status["selected_url"] = feed_url
             for entry in entries[: max_per_source * 3]:
                 title = clean_text(entry.get("title"))
                 raw_url = clean_text(entry.get("link") or entry.get("id"))
-                url = urljoin(source.entry_base_url or feed_url, raw_url)
-                if not title or not raw_url or (urlparse(url).hostname or "").lower() not in allowed_hosts:
+                url = canonical_entry_url(source, feed_url, raw_url)
+                parsed_url = urlparse(url)
+                if (
+                    not title
+                    or not raw_url
+                    or parsed_url.scheme != "https"
+                    or (parsed_url.hostname or "").lower() not in allowed_hosts
+                ):
                     continue
                 summary_text = clean_text(entry.get("summary") or entry.get("description") or entry.get("content", [{}])[0].get("value") if isinstance(entry.get("content"), list) and entry.get("content") else "")
                 published_value = entry.get("published") or entry.get("updated") or entry.get("created")
                 parsed_timestamp = parse_time(published_value)
                 if parsed_timestamp is None or parsed_timestamp > now:
-                    validate_published_time(published_value, now, window_start, status["timestamp_skips"])
+                    validate_published_time(published_value, now, window_start, candidate_skips)
                     continue
                 needs_page_cross_check = source.require_entry_page_cross_check and (
-                    parsed_timestamp >= window_start or status["verified_timestamp_count"] == 0
+                    parsed_timestamp >= window_start or verified_timestamp_count == 0
                 )
                 if needs_page_cross_check:
                     try:
-                        page = session.get(url, timeout=max(TIMEOUT, 20))
-                        page.raise_for_status()
+                        page = safe_get(
+                            session,
+                            url,
+                            allowed_hosts=allowed_hosts,
+                            budget=budget,
+                            timeout=max(TIMEOUT, 20),
+                            max_bytes=MAX_PAGE_BYTES,
+                        )
                         page_metadata = publication_page_metadata(page.content, url, allowed_hosts)
                         if clean_text(page_metadata["title"]) != title or page_metadata["published"] != parsed_timestamp:
-                            status["timestamp_skips"]["conflicted_timestamp"] += 1
+                            candidate_skips["conflicted_timestamp"] += 1
                             continue
                     except Exception as exc:
-                        status["timestamp_skips"]["unverified_page"] += 1
+                        candidate_skips["unverified_page"] += 1
                         feed_errors.append(f"{url}: {str(exc)[:180]}")
                         continue
                 if not source.require_entry_page_cross_check or needs_page_cross_check:
-                    status["verified_timestamp_count"] += 1
-                published = validate_published_time(parsed_timestamp, now, window_start, status["timestamp_skips"])
+                    verified_timestamp_count += 1
+                    latest_verified_timestamp = max(latest_verified_timestamp or parsed_timestamp, parsed_timestamp)
+                published = validate_published_time(parsed_timestamp, now, window_start, candidate_skips)
                 if published is None:
                     continue
-                status["eligible_timestamp_count"] += 1
+                eligible_timestamp_count += 1
                 signal = make_signal(
                     source,
                     title,
@@ -866,18 +1337,65 @@ def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime,
                     transport_mode="feed",
                 )
                 if signal is not None:
-                    signals.append(signal)
-                if len(signals) >= max_per_source:
+                    candidate_signals.append(signal)
+                if len(candidate_signals) >= max_per_source:
                     break
-            if status["verified_timestamp_count"] > 0:
-                break
-            feed_errors.append(f"{feed_url}: feed_entries_without_trustworthy_timestamp")
+            candidate_results.append(
+                {
+                    "candidate_index": candidate_index,
+                    "feed_url": feed_url,
+                    "entry_count": len(entries),
+                    "signals": candidate_signals,
+                    "verified_timestamp_count": verified_timestamp_count,
+                    "eligible_timestamp_count": eligible_timestamp_count,
+                    "latest_verified_timestamp": latest_verified_timestamp,
+                    "timestamp_skips": candidate_skips,
+                }
+            )
+            if verified_timestamp_count == 0:
+                feed_errors.append(f"{feed_url}: feed_entries_without_trustworthy_timestamp")
         except Exception as exc:
             feed_errors.append(f"{feed_url}: {str(exc)[:220]}")
 
-    if not saw_entries and status["verified_timestamp_count"] == 0:
+    for result in candidate_results:
+        for reason, count in result["timestamp_skips"].items():
+            status["timestamp_skips"][reason] += count
+
+    trustworthy_results = [row for row in candidate_results if row["verified_timestamp_count"] > 0]
+    selected = None
+    if trustworthy_results:
+        selected = max(
+            trustworthy_results,
+            key=lambda row: (
+                row["eligible_timestamp_count"] > 0,
+                row["latest_verified_timestamp"] or datetime.min.replace(tzinfo=timezone.utc),
+                -row["candidate_index"],
+            ),
+        )
+
+    signals: list[BusinessSignal] = []
+    if selected is not None:
+        signals = selected["signals"]
+        status["entry_count"] = selected["entry_count"]
+        status["selected_url"] = selected["feed_url"]
+        status["verified_timestamp_count"] = selected["verified_timestamp_count"]
+        status["eligible_timestamp_count"] = selected["eligible_timestamp_count"]
+        latest_verified = selected["latest_verified_timestamp"]
+        if latest_verified is not None:
+            record_verified_timestamp(status, latest_verified)
+    elif candidate_results:
+        status["entry_count"] = sum(row["entry_count"] for row in candidate_results)
+
+    if not saw_entries and selected is None:
         try:
-            fallback_signals, skips = fetch_page_fallback(session, source, now, window_start, max_per_source)
+            fallback_signals, skips = fetch_page_fallback(
+                session,
+                source,
+                now,
+                window_start,
+                max_per_source,
+                budget,
+            )
             if fallback_signals:
                 signals = fallback_signals
                 status["transport_ok"] = True
@@ -885,6 +1403,10 @@ def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime,
                 status["timestamp_skips"] = skips
                 status["verified_timestamp_count"] = len(signals)
                 status["eligible_timestamp_count"] = len(signals)
+                for signal in signals:
+                    published = parse_time(signal.published_at)
+                    if published is not None:
+                        record_verified_timestamp(status, published)
         except Exception as exc:
             feed_errors.append(f"{source.homepage_url}: {str(exc)[:220]}")
 
@@ -1072,7 +1594,12 @@ def build_catalog(statuses: list[dict[str, Any]]) -> list[dict[str, Any]]:
     for source in SOURCES:
         status = status_by_id.get(source.source_id, {})
         row = asdict(source)
-        row["health_status"] = "ok" if status.get("ok") else "failed" if status else "unknown"
+        row["health_status"] = str(status.get("quality_status") or "unknown")
+        row["reachable"] = bool(status.get("reachable"))
+        row["verified"] = bool(status.get("verified"))
+        row["fresh"] = bool(status.get("fresh"))
+        row["current"] = bool(status.get("current"))
+        row["latest_verified_published_at"] = str(status.get("latest_verified_published_at") or "")
         row["last_checked_at"] = str(status.get("last_checked_at") or "")
         row["latest_error"] = str(status.get("error") or "")
         catalog.append(row)
@@ -1122,6 +1649,11 @@ def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int
         "source_count": len(SOURCES),
         "successful_sources": sum(1 for row in statuses if row.get("ok")),
         "failed_sources": sum(1 for row in statuses if not row.get("ok")),
+        "reachable_sources": sum(1 for row in statuses if row.get("reachable")),
+        "verified_sources": sum(1 for row in statuses if row.get("verified")),
+        "fresh_sources": sum(1 for row in statuses if row.get("fresh")),
+        "current_sources": sum(1 for row in statuses if row.get("current")),
+        "stale_sources": sum(1 for row in statuses if row.get("quality_status") == "stale_source"),
         "automated_source_count": sum(1 for source in SOURCES if source.capture_mode != "manual"),
         "automated_failed_sources": sum(
             1 for row in statuses if row.get("capture_mode") != "manual" and not row.get("ok")

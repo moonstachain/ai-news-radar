@@ -122,7 +122,9 @@ source instead of assuming that every publisher has one permanent RSS URL:
 - **Official sitemap plus article metadata**: use sitemap `lastmod` only to order
   candidate pages, then require a matching canonical article URL and a
   page-bound provider publication timestamp. Sitemap modification time is never
-  substituted for article publication time.
+  substituted for article publication time. Any first-party CDN redirect must
+  be explicitly registered as a transport host; redirects never broaden the
+  article-host allowlist.
 - **Listing plus article metadata**: a first-party listing may discover article
   URLs, but the article page must supply structured publication metadata before
   the source can contribute a signal.
@@ -133,6 +135,10 @@ source instead of assuming that every publisher has one permanent RSS URL:
   stable public, timestamped surface that this pipeline can verify. They remain
   explicit `manual_review_required` sources with a `next_review_at`; fetch time
   and page reachability are not used as publication time.
+- **Freshness state**: reachability, timestamp verification, publisher-SLA
+  freshness, and presence of a 24-hour item are separate fields. A verified old
+  item can be retained as evidence, but once it exceeds that publisher's review
+  SLA the source becomes `stale_source` rather than a green success.
 
 These checks verify first-party publication metadata, not the factual truth of
 article prose or the business conclusions derived from it.
