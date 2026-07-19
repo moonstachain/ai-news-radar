@@ -30,6 +30,12 @@ The default source set is English-only and public-only. It favors RSS/Atom and
 stable public pages from business schools, consulting firms, VC/startup media,
 OPC/bootstrapped founder communities, and AI commercialization sources.
 
+Every item in `business-latest-24h.json` must carry a source-published timestamp
+inside the strict 24-hour window. Missing, invalid, future, or out-of-window
+timestamps are rejected. A public-page fallback is eligible only when the
+individual story card exposes a parseable structured publication time; the
+collector time is never substituted for the publication time.
+
 Do not add default sources that require private cookies, paid inboxes, social
 API credentials, LinkedIn sessions, or user-owned secrets. Those belong in a
 future advanced layer.

@@ -21,7 +21,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -35,6 +35,13 @@ except Exception:  # pragma: no cover - optional dependency branch
 
 UA = "AI-News-Radar-Business-Evidence/1.0 (+https://github.com/moonstachain/ai-news-radar)"
 TIMEOUT = 6
+DEFAULT_WINDOW_HOURS = 24
+TIMESTAMP_SKIP_REASONS = (
+    "missing_timestamp",
+    "invalid_timestamp",
+    "future_timestamp",
+    "outside_window",
+)
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 LANE_LABELS = {
@@ -161,6 +168,8 @@ class BusinessSignal:
     total_score: int
     score_breakdown: dict[str, int]
     summary: str
+    timestamp_basis: str = ""
+    transport_mode: str = ""
 
 
 SOURCES: list[BusinessSource] = [
@@ -197,10 +206,12 @@ def now_iso() -> str:
     return datetime.now(tz=timezone.utc).isoformat().replace("+00:00", "Z")
 
 
-def parse_time(value: Any, fallback: datetime) -> datetime:
+def parse_time(value: Any) -> datetime | None:
     if not value:
-        return fallback
+        return None
     if isinstance(value, datetime):
+        if value.tzinfo is None:
+            value = value.replace(tzinfo=timezone.utc)
         return value.astimezone(timezone.utc)
     text = str(value).strip()
     try:
@@ -217,7 +228,33 @@ def parse_time(value: Any, fallback: datetime) -> datetime:
             parsed = parsed.replace(tzinfo=timezone.utc)
         return parsed.astimezone(timezone.utc)
     except Exception:
-        return fallback
+        return None
+
+
+def empty_timestamp_skips() -> dict[str, int]:
+    return {reason: 0 for reason in TIMESTAMP_SKIP_REASONS}
+
+
+def validate_published_time(
+    value: Any,
+    now: datetime,
+    window_start: datetime,
+    skips: dict[str, int],
+) -> datetime | None:
+    if value is None or not str(value).strip():
+        skips["missing_timestamp"] += 1
+        return None
+    published = parse_time(value)
+    if published is None:
+        skips["invalid_timestamp"] += 1
+        return None
+    if published > now:
+        skips["future_timestamp"] += 1
+        return None
+    if published < window_start:
+        skips["outside_window"] += 1
+        return None
+    return published
 
 
 def stable_id(*parts: str, prefix: str = "biz") -> str:
@@ -228,7 +265,9 @@ def stable_id(*parts: str, prefix: str = "biz") -> str:
 def clean_text(text: Any) -> str:
     if text is None:
         return ""
-    collapsed = re.sub(r"\s+", " ", BeautifulSoup(str(text), "html.parser").get_text(" "))
+    raw = str(text)
+    plain = BeautifulSoup(raw, "html.parser").get_text(" ") if "<" in raw or "&" in raw else raw
+    collapsed = re.sub(r"\s+", " ", plain)
     return collapsed.strip()
 
 
@@ -282,7 +321,17 @@ def build_summary(title: str, text: str, tags: list[str]) -> str:
     return f"{summary} Tags: {', '.join(tags[:3])}."
 
 
-def make_signal(source: BusinessSource, title: str, url: str, summary_text: str, published: datetime, now: datetime) -> BusinessSignal | None:
+def make_signal(
+    source: BusinessSource,
+    title: str,
+    url: str,
+    summary_text: str,
+    published: datetime,
+    now: datetime,
+    *,
+    timestamp_basis: str,
+    transport_mode: str,
+) -> BusinessSignal | None:
     if not title or not url:
         return None
     combined = f"{title} {summary_text}"
@@ -308,6 +357,8 @@ def make_signal(source: BusinessSource, title: str, url: str, summary_text: str,
         total_score=total,
         score_breakdown=breakdown,
         summary=build_summary(title, summary_text, tags),
+        timestamp_basis=timestamp_basis,
+        transport_mode=transport_mode,
     )
 
 
@@ -333,31 +384,74 @@ def score_signal(source: BusinessSource, title: str, summary: str, published_at:
     return min(100, sum(breakdown.values())), breakdown, opc_fit, case_concreteness
 
 
-def fetch_page_fallback(session: requests.Session, source: BusinessSource, now: datetime, max_per_source: int) -> list[BusinessSignal]:
+def local_structured_timestamp(anchor: Any) -> Any:
+    """Return only a timestamp structurally attached to the linked story."""
+    containers: list[Any] = []
+    current = anchor.parent
+    while current is not None and getattr(current, "name", None) not in {"body", "html"}:
+        if getattr(current, "name", None) in {"article", "li", "section", "div"}:
+            containers.append(current)
+        current = current.parent
+        if len(containers) >= 4:
+            break
+
+    for container in containers:
+        time_node = container.find("time", datetime=True)
+        if time_node is not None and str(time_node.get("datetime") or "").strip():
+            return time_node.get("datetime")
+        published_node = container.find(attrs={"itemprop": "datePublished"})
+        if published_node is not None:
+            value = published_node.get("content") or published_node.get("datetime")
+            if str(value or "").strip():
+                return value
+        meta_node = container.find("meta", attrs={"property": "article:published_time"})
+        if meta_node is not None and str(meta_node.get("content") or "").strip():
+            return meta_node.get("content")
+    return None
+
+
+def fetch_page_fallback(
+    session: requests.Session,
+    source: BusinessSource,
+    now: datetime,
+    window_start: datetime,
+    max_per_source: int,
+) -> tuple[list[BusinessSignal], dict[str, int]]:
     resp = session.get(source.homepage_url, timeout=TIMEOUT)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
     signals: list[BusinessSignal] = []
+    skips = empty_timestamp_skips()
     seen: set[str] = set()
     for anchor in soup.find_all("a"):
         title = clean_text(anchor.get_text(" "))
         href = str(anchor.get("href") or "").strip()
         if not title or len(title) < 18 or not href:
             continue
-        if href.startswith("/"):
-            parsed = urlparse(source.homepage_url)
-            href = f"{parsed.scheme}://{parsed.netloc}{href}"
+        href = urljoin(source.homepage_url, href)
         if not href.startswith("http") or href in seen:
             continue
         seen.add(href)
+        published = validate_published_time(local_structured_timestamp(anchor), now, window_start, skips)
+        if published is None:
+            continue
         context = clean_text(anchor.parent.get_text(" ") if anchor.parent else title)
-        signal = make_signal(source, title, href, context, now, now)
+        signal = make_signal(
+            source,
+            title,
+            href,
+            context,
+            published,
+            now,
+            timestamp_basis="page_structured_time",
+            transport_mode="page_fallback",
+        )
         if signal is None:
             continue
         signals.append(signal)
         if len(signals) >= max_per_source:
             break
-    return signals
+    return signals, skips
 
 
 def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime, window_start: datetime, max_per_source: int) -> tuple[list[BusinessSignal], dict[str, Any]]:
@@ -367,7 +461,13 @@ def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime,
         "name": source.name,
         "lane": source.lane,
         "ok": False,
+        "transport_ok": False,
+        "transport_mode": "feed",
+        "quality_status": "unavailable",
         "item_count": 0,
+        "entry_count": 0,
+        "eligible_timestamp_count": 0,
+        "timestamp_skips": empty_timestamp_skips(),
         "duration_ms": 0,
         "error": "",
         "last_checked_at": now_iso(),
@@ -376,6 +476,7 @@ def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime,
     try:
         resp = session.get(source.feed_url, timeout=TIMEOUT)
         resp.raise_for_status()
+        status["transport_ok"] = True
         if feedparser is not None:
             parsed = feedparser.parse(resp.content)
             entries = list(parsed.entries)
@@ -391,33 +492,68 @@ def fetch_feed(session: requests.Session, source: BusinessSource, now: datetime,
                         "published": clean_text(item.find("pubDate") or item.find("published") or item.find("updated")),
                     }
                 )
+        status["entry_count"] = len(entries)
         for entry in entries[: max_per_source * 3]:
             title = clean_text(entry.get("title"))
             url = clean_text(entry.get("link") or entry.get("id"))
             if not title or not url:
                 continue
             summary_text = clean_text(entry.get("summary") or entry.get("description") or entry.get("content", [{}])[0].get("value") if isinstance(entry.get("content"), list) and entry.get("content") else "")
-            published = parse_time(entry.get("published") or entry.get("updated") or entry.get("created"), now)
-            # Public sources often omit dates or publish evergreen case archives. Keep
-            # relevant evergreen evidence, but mark freshness through scoring.
-            if published < window_start and source.lane not in {"opc", "startup_vc"}:
+            published_value = entry.get("published") or entry.get("updated") or entry.get("created")
+            published = validate_published_time(published_value, now, window_start, status["timestamp_skips"])
+            if published is None:
                 continue
-            signal = make_signal(source, title, url, summary_text, published, now)
+            status["eligible_timestamp_count"] += 1
+            signal = make_signal(
+                source,
+                title,
+                url,
+                summary_text,
+                published,
+                now,
+                timestamp_basis="feed_published",
+                transport_mode="feed",
+            )
             if signal is None:
                 continue
             signals.append(signal)
             if len(signals) >= max_per_source:
                 break
-        status["ok"] = True
         status["item_count"] = len(signals)
+        timestamp_errors = sum(
+            status["timestamp_skips"][reason]
+            for reason in ("missing_timestamp", "invalid_timestamp", "future_timestamp")
+        )
+        if status["eligible_timestamp_count"] > 0:
+            status["ok"] = True
+            status["quality_status"] = "verified_timestamp"
+        elif status["entry_count"] > 0 and timestamp_errors == 0:
+            status["ok"] = True
+            status["quality_status"] = "no_current_items"
+        elif status["entry_count"] > 0:
+            status["quality_status"] = "unverified_timestamp"
+            status["error"] = "feed_entries_without_trustworthy_timestamp"
+        else:
+            status["quality_status"] = "empty_feed"
+            status["error"] = "feed_returned_no_entries"
     except Exception as exc:
         feed_error = str(exc)[:500]
         try:
-            signals = fetch_page_fallback(session, source, now, max_per_source)
-            status["ok"] = True
+            signals, skips = fetch_page_fallback(session, source, now, window_start, max_per_source)
+            status["transport_ok"] = True
+            status["transport_mode"] = "page_fallback"
+            status["timestamp_skips"] = skips
             status["item_count"] = len(signals)
-            status["error"] = f"feed_failed_page_fallback: {feed_error}" if signals else f"feed_failed_empty_page_fallback: {feed_error}"
+            status["eligible_timestamp_count"] = len(signals)
+            if signals:
+                status["ok"] = True
+                status["quality_status"] = "page_fallback_verified_timestamp"
+                status["error"] = f"feed_failed_page_fallback_verified_timestamp: {feed_error}"
+            else:
+                status["quality_status"] = "page_fallback_unverified_timestamp"
+                status["error"] = f"page_fallback_unverified_timestamp; feed_failed: {feed_error}"
         except Exception as page_exc:
+            status["quality_status"] = "unavailable"
             status["error"] = f"feed_failed: {feed_error}; page_failed: {str(page_exc)[:220]}"
     status["duration_ms"] = int((time.perf_counter() - start) * 1000)
     return signals, status
@@ -589,6 +725,10 @@ def build_catalog(statuses: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int) -> dict[str, Any]:
+    if window_hours != DEFAULT_WINDOW_HOURS:
+        raise ValueError(
+            f"business-latest-24h.json requires window_hours={DEFAULT_WINDOW_HOURS}; got {window_hours}"
+        )
     now = datetime.now(tz=timezone.utc)
     window_start = now - timedelta(hours=window_hours)
 
@@ -613,7 +753,13 @@ def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int
                     "name": source.name,
                     "lane": source.lane,
                     "ok": False,
+                    "transport_ok": False,
+                    "transport_mode": "worker",
+                    "quality_status": "unavailable",
                     "item_count": 0,
+                    "entry_count": 0,
+                    "eligible_timestamp_count": 0,
+                    "timestamp_skips": empty_timestamp_skips(),
                     "duration_ms": 0,
                     "error": f"worker_failed: {str(exc)[:500]}",
                     "last_checked_at": now_iso(),
@@ -622,6 +768,8 @@ def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int
             statuses.append(status)
 
     signals = dedupe_signals(all_signals)[:max_items]
+    if any(not signal.timestamp_basis or not signal.transport_mode for signal in signals):
+        raise RuntimeError("business evidence item missing trustworthy timestamp provenance")
     generated_at = now.isoformat().replace("+00:00", "Z")
     clusters = build_clusters(signals)
     case_bank = build_case_bank(signals)
@@ -634,6 +782,10 @@ def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int
         "successful_sources": sum(1 for row in statuses if row.get("ok")),
         "failed_sources": sum(1 for row in statuses if not row.get("ok")),
         "item_count": len(signals),
+        "timestamp_skips": {
+            reason: sum(int(row.get("timestamp_skips", {}).get(reason, 0)) for row in statuses)
+            for reason in TIMESTAMP_SKIP_REASONS
+        },
         "sources": statuses,
     }
 
@@ -658,7 +810,7 @@ def run(output_dir: Path, window_hours: int, max_items: int, max_per_source: int
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", default="data", type=Path)
-    parser.add_argument("--window-hours", default=72, type=int)
+    parser.add_argument("--window-hours", default=DEFAULT_WINDOW_HOURS, type=int)
     parser.add_argument("--max-items", default=150, type=int)
     parser.add_argument("--max-per-source", default=10, type=int)
     args = parser.parse_args()

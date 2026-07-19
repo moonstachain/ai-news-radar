@@ -101,7 +101,7 @@ jobs:
 
       - name: Update business evidence layer
         run: |
-          python scripts/update_business_evidence.py --output-dir data --window-hours 72 --max-items 150
+          python scripts/update_business_evidence.py --output-dir data --window-hours 24 --max-items 150
 
       - name: Commit and push changes
         env:
