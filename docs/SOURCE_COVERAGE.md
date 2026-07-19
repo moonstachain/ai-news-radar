@@ -111,6 +111,38 @@ baseline, then let the aggregator layer add breadth.
   community signal lane so it can appear under the Community tab without
   occupying a standalone homepage block.
 
+## Business Evidence Capture
+
+The separate English business-evidence layer uses a versioned capture mode per
+source instead of assuming that every publisher has one permanent RSS URL:
+
+- **Official feed candidates**: try reviewed first-party RSS/Atom endpoints in
+  order and retain the selected endpoint in source status. A `200` response with
+  zero entries is not success.
+- **Official sitemap plus article metadata**: use sitemap `lastmod` only to order
+  candidate pages, then require a matching canonical article URL and a
+  page-bound provider publication timestamp. Sitemap modification time is never
+  substituted for article publication time. Any first-party CDN redirect must
+  be explicitly registered as a transport host; redirects never broaden the
+  article-host allowlist.
+- **Listing plus article metadata**: a first-party listing may discover article
+  URLs, but the article page must supply structured publication metadata before
+  the source can contribute a signal.
+- **Plaintext feed cross-check**: HBR's official HTTP feed is accepted only when
+  its title, HTTPS canonical article URL, and publication time match the article
+  page.
+- **Manual review**: McKinsey / QuantumBlack and AI Engineer currently have no
+  stable public, timestamped surface that this pipeline can verify. They remain
+  explicit `manual_review_required` sources with a `next_review_at`; fetch time
+  and page reachability are not used as publication time.
+- **Freshness state**: reachability, timestamp verification, publisher-SLA
+  freshness, and presence of a 24-hour item are separate fields. A verified old
+  item can be retained as evidence, but once it exceeds that publisher's review
+  SLA the source becomes `stale_source` rather than a green success.
+
+These checks verify first-party publication metadata, not the factual truth of
+article prose or the business conclusions derived from it.
+
 ## Disabled Default Sources
 
 - **X API direct recent search**: supported as an advanced, secret-backed adapter
@@ -256,7 +288,14 @@ Use this only for sources that should benefit every public visitor:
 
 The public deployment should remain GitHub Pages + GitHub Actions:
 
-- GitHub Actions updates `data/*.json`.
+- GitHub Actions generates `data/*.json` on a unique automation branch, opens
+  an auditable PR, dispatches the repository test workflow for that exact
+  commit, verifies that the tested SHA is still the PR head, and squash-merges
+  only after the check succeeds. The checkout is pinned to the triggering
+  default-branch SHA, so a queued run cannot silently change its snapshot base.
+  The repository must allow Actions to create PRs and protect `master` with the
+  required `test` check. The workflow rejects non-default-branch dispatches and
+  never pushes generated snapshots directly to `master`.
 - GitHub Pages serves `index.html` and `assets/*`.
 - Private OPML input belongs in `FOLLOW_OPML_B64`, not in the repository.
 

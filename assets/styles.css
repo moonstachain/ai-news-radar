@@ -418,8 +418,25 @@ button {
   color: var(--bad);
 }
 
+.business-source-row span {
+  min-width: 0;
+}
+
+.business-source-row small {
+  display: block;
+  margin-top: 3px;
+  color: var(--ink-soft);
+  opacity: 0.78;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
 .business-source-row.ok strong {
   color: var(--good);
+}
+
+.business-source-row.watch strong {
+  color: var(--accent-warm);
 }
 
 .radar-side {

@@ -13,18 +13,44 @@ on:
 
 concurrency:
   group: update-ai-news-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
+  pull-requests: write
+  actions: write
+  checks: read
 
 jobs:
   update:
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
+      - name: Require default branch trigger
+        if: ${{ github.ref_name != github.event.repository.default_branch }}
+        run: |
+          echo "::error::Snapshot publication must run from the default branch"
+          exit 1
+
+      - name: Verify PR publication permission
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CAN_CREATE_PR=$(gh api \
+            "repos/${GITHUB_REPOSITORY}/actions/permissions/workflow" \
+            --jq '.can_approve_pull_request_reviews')
+          if [ "$CAN_CREATE_PR" != "true" ]; then
+            echo "::error::Enable 'Allow GitHub Actions to create and approve pull requests' before running snapshot publication"
+            exit 1
+          fi
+
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          # Pin the snapshot base to the exact default-branch commit that
+          # triggered this run. A branch name could move while the job waits.
+          ref: ${{ github.sha }}
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -103,9 +129,11 @@ jobs:
         run: |
           python scripts/update_business_evidence.py --output-dir data --window-hours 24 --max-items 150
 
-      - name: Commit and push changes
+      - name: Publish reviewed snapshot PR
         env:
           EMAIL_DIGEST_PUBLISH: ${{ secrets.EMAIL_DIGEST_PUBLISH || vars.EMAIL_DIGEST_PUBLISH }}
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -128,5 +156,52 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
+          BRANCH="automation/news-snapshot-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          export BRANCH
+          git switch -c "$BRANCH"
           git commit -m "chore: update ai news snapshot"
-          git push
+          SNAPSHOT_SHA=$(git rev-parse HEAD)
+          export SNAPSHOT_SHA
+          git push --set-upstream origin "$BRANCH"
+
+          PR_URL=$(gh pr create \
+            --base "$DEFAULT_BRANCH" \
+            --head "$BRANCH" \
+            --title "chore: update ai news snapshot" \
+            --body "Automated snapshot from workflow run ${GITHUB_RUN_ID}. Generated data only; merge requires the repository test check.")
+
+          gh workflow run test.yml --ref "$BRANCH"
+          RUN_ID=""
+          for attempt in $(seq 1 30); do
+            RUN_ID=$(gh run list \
+              --workflow test.yml \
+              --branch "$BRANCH" \
+              --event workflow_dispatch \
+              --commit "$SNAPSHOT_SHA" \
+              --limit 1 \
+              --json databaseId \
+              --jq '.[0].databaseId // empty')
+            if [ -n "$RUN_ID" ]; then
+              break
+            fi
+            sleep 2
+          done
+          if [ -z "$RUN_ID" ]; then
+            echo "::error::Test workflow dispatch was not observed for $BRANCH"
+            exit 1
+          fi
+          TEST_SHA=$(gh run view "$RUN_ID" --json headSha --jq '.headSha')
+          if [ "$TEST_SHA" != "$SNAPSHOT_SHA" ]; then
+            echo "::error::Dispatched test SHA $TEST_SHA does not match snapshot SHA $SNAPSHOT_SHA"
+            exit 1
+          fi
+          gh run watch "$RUN_ID" --exit-status
+          PR_HEAD_SHA=$(gh pr view "$PR_URL" --json headRefOid --jq '.headRefOid')
+          if [ "$PR_HEAD_SHA" != "$SNAPSHOT_SHA" ]; then
+            echo "::error::PR head SHA $PR_HEAD_SHA changed after test; refusing merge"
+            exit 1
+          fi
+          gh pr merge "$PR_URL" \
+            --squash \
+            --delete-branch \
+            --match-head-commit "$SNAPSHOT_SHA"
