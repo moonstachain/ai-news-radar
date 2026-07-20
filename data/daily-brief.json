@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T18:48:25.959702Z",
+  "generated_at": "2026-07-20T20:16:31.417094Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8778,
-      "importance": 0.8778,
-      "importance_score": 0.8778,
+      "score": 0.8742,
+      "importance": 0.8742,
+      "importance_score": 0.8742,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.96,
+        "recency": 0.9399,
         "story_heat": 0.25
       },
       "category": "official",
@@ -139,15 +139,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8555,
-      "importance": 0.8555,
-      "importance_score": 0.8555,
+      "score": 0.8522,
+      "importance": 0.8522,
+      "importance_score": 0.8522,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8806,
+        "recency": 0.8621,
         "story_heat": 0.25
       },
       "category": "official",
@@ -165,6 +165,124 @@
         "url": "https://openai.com/index/safety-alignment-long-horizon-models",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_2b4b6588b1d6",
+      "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
+      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "primary_url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "0f678a2fdef492aa4c3d0ce4fc36604dbdbe8a8d",
+          "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
+          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T18:28:23.600000Z"
+        },
+        {
+          "id": "b2601d5909e76698c05ddcd733411a3d25be597c",
+          "title": "目前，ArXiv上超过30%的新投稿读起来像是人工智能撰写的",
+          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+          "source": "unslop.run",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-20T18:28:23.600000Z"
+        },
+        {
+          "id": "3c5cafa69cae492adc835a138f64ec57c7d6bfdb",
+          "title": "ArXiv上超30%新投稿文本特征与AI撰写一致 / How we measured AI writing across arXiv, and where the measurement breaks",
+          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-20T16:36:36Z"
+        },
+        {
+          "id": "3cbd95b51eb65716652cf72caf1ee928cc34607b",
+          "title": "ArXiv上超30%新投稿文本特征与AI撰写一致 / Over 30% of new ArXiv submissions now read as AI-written",
+          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-20T16:36:36Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "unslop.run"
+      ],
+      "items": [
+        {
+          "id": "0f678a2fdef492aa4c3d0ce4fc36604dbdbe8a8d",
+          "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
+          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T18:28:23.600000Z"
+        },
+        {
+          "id": "b2601d5909e76698c05ddcd733411a3d25be597c",
+          "title": "目前，ArXiv上超过30%的新投稿读起来像是人工智能撰写的",
+          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+          "source": "unslop.run",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-20T18:28:23.600000Z"
+        },
+        {
+          "id": "3c5cafa69cae492adc835a138f64ec57c7d6bfdb",
+          "title": "ArXiv上超30%新投稿文本特征与AI撰写一致 / How we measured AI writing across arXiv, and where the measurement breaks",
+          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-20T16:36:36Z"
+        },
+        {
+          "id": "3cbd95b51eb65716652cf72caf1ee928cc34607b",
+          "title": "ArXiv上超30%新投稿文本特征与AI撰写一致 / Over 30% of new ArXiv submissions now read as AI-written",
+          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-20T16:36:36Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.844,
+      "importance": 0.844,
+      "importance_score": 0.844,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9743,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-20T16:36:36Z",
+      "latest_at": "2026-07-20T18:28:23.600000Z",
+      "primary_item": {
+        "id": "0f678a2fdef492aa4c3d0ce4fc36604dbdbe8a8d",
+        "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
+        "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -202,15 +320,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8449,
-      "importance": 0.8449,
-      "importance_score": 0.8449,
+      "score": 0.8412,
+      "importance": 0.8412,
+      "importance_score": 0.8412,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9603,
+        "recency": 0.9402,
         "story_heat": 0.0
       },
       "category": "official",
@@ -264,15 +382,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.843,
-      "importance": 0.843,
-      "importance_score": 0.843,
+      "score": 0.8392,
+      "importance": 0.8392,
+      "importance_score": 0.8392,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9942,
+        "recency": 0.9733,
         "story_heat": 0.0
       },
       "category": "official",
@@ -345,15 +463,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8013,
-      "importance": 0.8013,
-      "importance_score": 0.8013,
+      "score": 0.7976,
+      "importance": 0.7976,
+      "importance_score": 0.7976,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9819,
+        "recency": 0.9613,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -370,6 +488,68 @@
         "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c3556096c82e",
+      "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
+      "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
+          "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
+          "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-20T13:01:24Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
+          "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
+          "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-20T13:01:24Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8261,
+      "importance": 0.8261,
+      "importance_score": 0.8261,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9006,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-20T13:01:24Z",
+      "latest_at": "2026-07-20T13:01:24Z",
+      "primary_item": {
+        "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
+        "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
+        "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -445,15 +625,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7956,
-      "importance": 0.7956,
-      "importance_score": 0.7956,
+      "score": 0.7921,
+      "importance": 0.7921,
+      "importance_score": 0.7921,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.911,
+        "recency": 0.8919,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -470,68 +650,6 @@
         "url": "https://github.com/Saivineeth147/lora-speedrun",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c3556096c82e",
-      "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
-      "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
-      "primary_url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
-          "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
-          "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-20T13:01:24Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
-          "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
-          "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-20T13:01:24Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8296,
-      "importance": 0.8296,
-      "importance_score": 0.8296,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9199,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-20T13:01:24Z",
-      "latest_at": "2026-07-20T13:01:24Z",
-      "primary_item": {
-        "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
-        "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
-        "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -588,15 +706,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7584,
-      "importance": 0.7584,
-      "importance_score": 0.7584,
+      "score": 0.7552,
+      "importance": 0.7552,
+      "importance_score": 0.7552,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8433,
+        "recency": 0.8256,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -669,15 +787,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7853,
-      "importance": 0.7853,
-      "importance_score": 0.7853,
+      "score": 0.7818,
+      "importance": 0.7818,
+      "importance_score": 0.7818,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9092,
+        "recency": 0.8901,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -750,15 +868,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7535,
-      "importance": 0.7535,
-      "importance_score": 0.7535,
+      "score": 0.7507,
+      "importance": 0.7507,
+      "importance_score": 0.7507,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7327,
+        "recency": 0.7173,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -812,21 +930,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7523,
-      "importance": 0.7523,
-      "importance_score": 0.7523,
+      "score": 0.7486,
+      "importance": 0.7486,
+      "importance_score": 0.7486,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9649,
+        "recency": 0.9446,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-20T16:19:52.655000Z",
       "latest_at": "2026-07-20T16:19:52.655000Z",
@@ -835,6 +952,86 @@
         "title": "Grok for Excel 发布：在 Microsoft Excel 中用自然语言提问、写公式和运行场景",
         "url": "https://x.ai/news/introducing-excel-addin",
         "source": "xAI：News（网页）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_32d427eb72d1",
+      "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+      "url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "primary_url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "source": "Cursor Blog",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9967527d5e5b535c1b7e8fa13dd7b9a991ec71fa",
+          "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+          "url": "https://cursor.com/blog/agent-swarm-model-economics",
+          "source": "Cursor Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T12:00:00Z"
+        },
+        {
+          "id": "ba63a889be06175186b81bb35172e9a594e1cc65",
+          "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试 / Agent swarms and the new model economics",
+          "url": "https://cursor.com/blog/agent-swarm-model-economics",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-20T18:06:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Cursor Blog",
+        "Hacker News (黑客新闻)"
+      ],
+      "items": [
+        {
+          "id": "9967527d5e5b535c1b7e8fa13dd7b9a991ec71fa",
+          "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+          "url": "https://cursor.com/blog/agent-swarm-model-economics",
+          "source": "Cursor Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T12:00:00Z"
+        },
+        {
+          "id": "ba63a889be06175186b81bb35172e9a594e1cc65",
+          "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试 / Agent swarms and the new model economics",
+          "url": "https://cursor.com/blog/agent-swarm-model-economics",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-20T18:06:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7483,
+      "importance": 0.7483,
+      "importance_score": 0.7483,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.64,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8874,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-20T12:00:00Z",
+      "latest_at": "2026-07-20T18:06:13Z",
+      "primary_item": {
+        "id": "9967527d5e5b535c1b7e8fa13dd7b9a991ec71fa",
+        "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+        "url": "https://cursor.com/blog/agent-swarm-model-economics",
+        "source": "Cursor Blog",
         "source_name": "AI HOT"
       }
     },
@@ -873,15 +1070,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7477,
-      "importance": 0.7477,
-      "importance_score": 0.7477,
+      "score": 0.7447,
+      "importance": 0.7447,
+      "importance_score": 0.7447,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8064,
+        "recency": 0.7894,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -933,15 +1130,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7395,
-      "importance": 0.7395,
-      "importance_score": 0.7395,
+      "score": 0.7359,
+      "importance": 0.7359,
+      "importance_score": 0.7359,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9605,
+        "recency": 0.9404,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -993,15 +1190,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7376,
-      "importance": 0.7376,
-      "importance_score": 0.7376,
+      "score": 0.7343,
+      "importance": 0.7343,
+      "importance_score": 0.7343,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8665,
+        "recency": 0.8483,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1053,15 +1250,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7371,
-      "importance": 0.7371,
-      "importance_score": 0.7371,
+      "score": 0.7342,
+      "importance": 0.7342,
+      "importance_score": 0.7342,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7636,
+        "recency": 0.7476,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1113,15 +1310,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7311,
-      "importance": 0.7311,
-      "importance_score": 0.7311,
+      "score": 0.7274,
+      "importance": 0.7274,
+      "importance_score": 0.7274,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.61,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9808,
+        "recency": 0.9602,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1173,15 +1370,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7296,
-      "importance": 0.7296,
-      "importance_score": 0.7296,
+      "score": 0.7264,
+      "importance": 0.7264,
+      "importance_score": 0.7264,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8557,
+        "recency": 0.8377,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1195,66 +1392,6 @@
         "title": "小红书与北大开源 UltraEP：面向大规模 MoE 训推的实时负载均衡方案",
         "url": "https://mp.weixin.qq.com/s/rAoF65ywi5trWbI-heJieg",
         "source": "公众号：小红书技术（dots.llm）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_32d427eb72d1",
-      "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
-      "url": "https://cursor.com/blog/agent-swarm-model-economics",
-      "primary_url": "https://cursor.com/blog/agent-swarm-model-economics",
-      "source": "Cursor Blog",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9967527d5e5b535c1b7e8fa13dd7b9a991ec71fa",
-          "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
-          "url": "https://cursor.com/blog/agent-swarm-model-economics",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-20T12:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Cursor Blog"
-      ],
-      "items": [
-        {
-          "id": "9967527d5e5b535c1b7e8fa13dd7b9a991ec71fa",
-          "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
-          "url": "https://cursor.com/blog/agent-swarm-model-economics",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-20T12:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7267,
-      "importance": 0.7267,
-      "importance_score": 0.7267,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.64,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9064,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-20T12:00:00Z",
-      "latest_at": "2026-07-20T12:00:00Z",
-      "primary_item": {
-        "id": "9967527d5e5b535c1b7e8fa13dd7b9a991ec71fa",
-        "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
-        "url": "https://cursor.com/blog/agent-swarm-model-economics",
-        "source": "Cursor Blog",
         "source_name": "AI HOT"
       }
     },
@@ -1293,15 +1430,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7313,
-      "importance": 0.7313,
-      "importance_score": 0.7313,
+      "score": 0.7284,
+      "importance": 0.7284,
+      "importance_score": 0.7284,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7817,
+        "recency": 0.7653,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1316,141 +1453,6 @@
         "url": "https://ollama.com/blog/all-aboard-open-models",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2dadc2dd59af",
-      "title": "中国的开放权重人工智能战略正在获胜 / China's open-weights AI strategy is winning",
-      "url": "https://news.ycombinator.com/item?id=48979269",
-      "primary_url": "https://news.ycombinator.com/item?id=48979269",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "bd5c854bfb479954e0c9b2ba6400c2697fbb71f1",
-          "title": "中国的开放权重人工智能战略正在获胜 / China's open-weights AI strategy is winning",
-          "url": "https://news.ycombinator.com/item?id=48979269",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T18:26:50.904000Z"
-        },
-        {
-          "id": "521f7864945153703238c005b6be7b2536006a06",
-          "title": "美国的人工智能是封闭且专有的。正在失去 / American AI is locked down and proprietary. It's losing",
-          "url": "https://news.ycombinator.com/item?id=48979269",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T16:26:37.345000Z"
-        },
-        {
-          "id": "f0a76f417a97d4d5e9ce51628c55f3f091492cab",
-          "title": "美国的人工智能系统处于封闭状态且属于专有技术。它正在失去……",
-          "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
-          "source": "werd.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T16:20:16.340000Z"
-        },
-        {
-          "id": "46c28e5b7d35b6a19e859aae8194dfd4ccceffe3",
-          "title": "美国的人工智能系统处于封闭状态且属于专有技术。它正在失去…… / American AI is locked down and proprietary. It's losing",
-          "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T14:21:47Z"
-        },
-        {
-          "id": "9372c75ee96b1bda9dc2ac708bdcf29c70f78955",
-          "title": "美国的人工智能系统处于封闭状态且属于专有技术。它正在失去…… / China's open-weights AI strategy is winning",
-          "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-20T14:21:47Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "hackernews",
-        "werd.io"
-      ],
-      "items": [
-        {
-          "id": "bd5c854bfb479954e0c9b2ba6400c2697fbb71f1",
-          "title": "中国的开放权重人工智能战略正在获胜 / China's open-weights AI strategy is winning",
-          "url": "https://news.ycombinator.com/item?id=48979269",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T18:26:50.904000Z"
-        },
-        {
-          "id": "521f7864945153703238c005b6be7b2536006a06",
-          "title": "美国的人工智能是封闭且专有的。正在失去 / American AI is locked down and proprietary. It's losing",
-          "url": "https://news.ycombinator.com/item?id=48979269",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T16:26:37.345000Z"
-        },
-        {
-          "id": "f0a76f417a97d4d5e9ce51628c55f3f091492cab",
-          "title": "美国的人工智能系统处于封闭状态且属于专有技术。它正在失去……",
-          "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
-          "source": "werd.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T16:20:16.340000Z"
-        },
-        {
-          "id": "46c28e5b7d35b6a19e859aae8194dfd4ccceffe3",
-          "title": "美国的人工智能系统处于封闭状态且属于专有技术。它正在失去…… / American AI is locked down and proprietary. It's losing",
-          "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T14:21:47Z"
-        },
-        {
-          "id": "9372c75ee96b1bda9dc2ac708bdcf29c70f78955",
-          "title": "美国的人工智能系统处于封闭状态且属于专有技术。它正在失去…… / China's open-weights AI strategy is winning",
-          "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-20T14:21:47Z"
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.6199,
-      "importance": 0.6199,
-      "importance_score": 0.6199,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9948,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-20T14:21:47Z",
-      "latest_at": "2026-07-20T18:26:50.904000Z",
-      "primary_item": {
-        "id": "bd5c854bfb479954e0c9b2ba6400c2697fbb71f1",
-        "title": "中国的开放权重人工智能战略正在获胜 / China's open-weights AI strategy is winning",
-        "url": "https://news.ycombinator.com/item?id=48979269",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     }
   ]
