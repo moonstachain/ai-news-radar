@@ -1,5 +1,87 @@
 {
-  "generated_at": "2026-07-20T10:41:03.724805Z",
+  "generated_at": "2026-07-20T13:02:07.279751Z",
   "window_hours": 24,
-  "items": []
+  "items": [
+    {
+      "signal_id": "biz_7999d9215df7",
+      "title": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
+      "url": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built",
+      "source_id": "lenny",
+      "source_name": "Lenny's Newsletter",
+      "published_at": "2026-07-20T12:04:47Z",
+      "captured_at": "2026-07-20T13:02:07.279751Z",
+      "lane": "startup_vc",
+      "entities": [
+        "Lenny's Newsletter",
+        "Morning Brew",
+        "Claude",
+        "Alex Lieberman"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Founder Case",
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 58,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 9,
+        "business_model_value": 10,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Listen now | 🎙 How Alex Lieberman (Morning Brew) built a Claude workflow that interviews him before drafting, codes his voice in Markdown, and runs a six-persona revision loop before posting Tags: AI Business Model Innovation, Founder Case, Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_15ce69a3ec8d",
+      "title": "How Leaders Unlock Innovation on the Front Lines",
+      "url": "https://sloanreview.mit.edu/article/how-leaders-unlock-innovation-on-the-front-lines/",
+      "source_id": "mit_smr",
+      "source_name": "MIT Sloan Management Review",
+      "published_at": "2026-07-20T11:00:53Z",
+      "captured_at": "2026-07-20T13:02:07.279751Z",
+      "lane": "authority",
+      "entities": [
+        "MIT Sloan Management Review",
+        "How Leaders Unlock",
+        "Innovation",
+        "Front Lines"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "Enterprise AI Workflow",
+        "Counter Signal",
+        "AI Business Model Innovation"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 8,
+      "total_score": 52,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 9,
+        "case_concreteness": 8,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 4
+      },
+      "summary": "PPaint/Ikon Images Balancing the daily grind of operations with the spark of innovation is one of the most persistent challenges managers face.1 Regulatory compliance, performance metrics, and the never-ending demands of... Tags: Founder Case, Enterprise AI Workflow, Counter Signal.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    }
+  ]
 }
