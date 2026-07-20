@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-20T16:51:20.326418Z",
+  "generated_at": "2026-07-20T18:48:25.959702Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
       "story_id": "story_8030c8e0dc09",
-      "title": "Cosmos 3 Edge 简介 / Introducing Cosmos 3 Edge",
+      "title": "NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成 / Introducing Cosmos 3 Edge",
       "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
       "primary_url": "https://huggingface.co/blog/nvidia/cosmos3edge",
       "source": "Hugging Face Blog",
@@ -13,45 +13,65 @@
       "sources": [
         {
           "id": "2c503dcdedf18d5c8ed3527eb239b92ad9eaa01a",
-          "title": "Cosmos 3 Edge 简介 / Introducing Cosmos 3 Edge",
+          "title": "NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成 / Introducing Cosmos 3 Edge",
           "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-07-20T15:58:51Z"
+        },
+        {
+          "id": "48b5febd9e34d2df1d498ff00566ad5bd7cc0718",
+          "title": "NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成",
+          "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T15:58:51Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "Hugging Face Blog"
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
       ],
       "items": [
         {
           "id": "2c503dcdedf18d5c8ed3527eb239b92ad9eaa01a",
-          "title": "Cosmos 3 Edge 简介 / Introducing Cosmos 3 Edge",
+          "title": "NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成 / Introducing Cosmos 3 Edge",
           "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-07-20T15:58:51Z"
+        },
+        {
+          "id": "48b5febd9e34d2df1d498ff00566ad5bd7cc0718",
+          "title": "NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成",
+          "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T15:58:51Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8577,
-      "importance": 0.8577,
-      "importance_score": 0.8577,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8778,
+      "importance": 0.8778,
+      "importance_score": 0.8778,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9874,
-        "story_heat": 0.0
+        "recency": 0.96,
+        "story_heat": 0.25
       },
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
@@ -59,9 +79,91 @@
       "latest_at": "2026-07-20T15:58:51Z",
       "primary_item": {
         "id": "2c503dcdedf18d5c8ed3527eb239b92ad9eaa01a",
-        "title": "Cosmos 3 Edge 简介 / Introducing Cosmos 3 Edge",
+        "title": "NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成 / Introducing Cosmos 3 Edge",
         "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
         "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_d4ff9ec891b7",
+      "title": "OpenAI 在长时运行模型的安全与对齐实践中发现新型故障并改进评估体系 / Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "primary_url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "c81dd37d71e440ff2dcd40744732287ef9858e55",
+          "title": "OpenAI 在长时运行模型的安全与对齐实践中发现新型故障并改进评估体系 / Safety and alignment in an era of long-horizon models",
+          "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-20T10:00:00Z"
+        },
+        {
+          "id": "3d15a603b50a03a92a4b367554b73a5aae999d2a",
+          "title": "OpenAI 在长时运行模型的安全与对齐实践中发现新型故障并改进评估体系",
+          "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T10:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      ],
+      "items": [
+        {
+          "id": "c81dd37d71e440ff2dcd40744732287ef9858e55",
+          "title": "OpenAI 在长时运行模型的安全与对齐实践中发现新型故障并改进评估体系 / Safety and alignment in an era of long-horizon models",
+          "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-20T10:00:00Z"
+        },
+        {
+          "id": "3d15a603b50a03a92a4b367554b73a5aae999d2a",
+          "title": "OpenAI 在长时运行模型的安全与对齐实践中发现新型故障并改进评估体系",
+          "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T10:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8555,
+      "importance": 0.8555,
+      "importance_score": 0.8555,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8806,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-20T10:00:00Z",
+      "latest_at": "2026-07-20T10:00:00Z",
+      "primary_item": {
+        "id": "c81dd37d71e440ff2dcd40744732287ef9858e55",
+        "title": "OpenAI 在长时运行模型的安全与对齐实践中发现新型故障并改进评估体系 / Safety and alignment in an era of long-horizon models",
+        "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -100,15 +202,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8498,
-      "importance": 0.8498,
-      "importance_score": 0.8498,
+      "score": 0.8449,
+      "importance": 0.8449,
+      "importance_score": 0.8449,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9878,
+        "recency": 0.9603,
         "story_heat": 0.0
       },
       "category": "official",
@@ -128,21 +230,21 @@
       }
     },
     {
-      "story_id": "story_c3556096c82e",
-      "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
-      "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
-      "primary_url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+      "story_id": "story_a4b8abada7fb",
+      "title": "计费 UI 中成本中心的 AI 信用池 / AI credit pools for cost centers in the billing UI",
+      "url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
+      "primary_url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
-          "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
-          "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+          "id": "ab7cc346965e9994992fb262ce52e7f150790853",
+          "title": "计费 UI 中成本中心的 AI 信用池 / AI credit pools for cost centers in the billing UI",
+          "url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-20T13:01:24Z"
+          "published_at": "2026-07-20T18:24:14Z"
         }
       ],
       "source_count": 1,
@@ -151,26 +253,26 @@
       ],
       "items": [
         {
-          "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
-          "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
-          "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+          "id": "ab7cc346965e9994992fb262ce52e7f150790853",
+          "title": "计费 UI 中成本中心的 AI 信用池 / AI credit pools for cost centers in the billing UI",
+          "url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-20T13:01:24Z"
+          "published_at": "2026-07-20T18:24:14Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8343,
-      "importance": 0.8343,
-      "importance_score": 0.8343,
+      "score": 0.843,
+      "importance": 0.843,
+      "importance_score": 0.843,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9462,
+        "recency": 0.9942,
         "story_heat": 0.0
       },
       "category": "official",
@@ -179,14 +281,95 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-20T13:01:24Z",
-      "latest_at": "2026-07-20T13:01:24Z",
+      "earliest_at": "2026-07-20T18:24:14Z",
+      "latest_at": "2026-07-20T18:24:14Z",
       "primary_item": {
-        "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
-        "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
-        "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+        "id": "ab7cc346965e9994992fb262ce52e7f150790853",
+        "title": "计费 UI 中成本中心的 AI 信用池 / AI credit pools for cost centers in the billing UI",
+        "url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_e665a7f0b623",
+      "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
+      "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
+      "primary_url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "7a444cb04f8963eb2df183444c28ca7a82bd7f3c",
+          "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
+          "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T17:32:41Z"
+        },
+        {
+          "id": "697dac40e0e8367e5c8a53068f771b670e0fc2e4",
+          "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》 / District 9 director Neill Blomkamp releases first short film made entirely with AI video generation",
+          "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-20T17:32:41Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "7a444cb04f8963eb2df183444c28ca7a82bd7f3c",
+          "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
+          "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T17:32:41Z"
+        },
+        {
+          "id": "697dac40e0e8367e5c8a53068f771b670e0fc2e4",
+          "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》 / District 9 director Neill Blomkamp releases first short film made entirely with AI video generation",
+          "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-20T17:32:41Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8013,
+      "importance": 0.8013,
+      "importance_score": 0.8013,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9819,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-20T17:32:41Z",
+      "latest_at": "2026-07-20T17:32:41Z",
+      "primary_item": {
+        "id": "7a444cb04f8963eb2df183444c28ca7a82bd7f3c",
+        "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
+        "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -262,15 +445,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8003,
-      "importance": 0.8003,
-      "importance_score": 0.8003,
+      "score": 0.7956,
+      "importance": 0.7956,
+      "importance_score": 0.7956,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.937,
+        "recency": 0.911,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -286,6 +469,149 @@
         "title": "LoRA Speedrun 公开排行榜：6分05秒微调Qwen2.5-1.5B达GSM8K 61.1%准确率",
         "url": "https://github.com/Saivineeth147/lora-speedrun",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_c3556096c82e",
+      "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
+      "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
+          "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
+          "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-20T13:01:24Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
+          "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
+          "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-20T13:01:24Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8296,
+      "importance": 0.8296,
+      "importance_score": 0.8296,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9199,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-20T13:01:24Z",
+      "latest_at": "2026-07-20T13:01:24Z",
+      "primary_item": {
+        "id": "d543202a8b2358f6bed77a88f80a30696b41e4f2",
+        "title": "GitHub 代码质量现已普遍可用 / GitHub Code Quality is now generally available",
+        "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_be4a41673752",
+      "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
+      "url": "https://www.ithome.com/0/979/017.htm",
+      "primary_url": "https://www.ithome.com/0/979/017.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b7044c331d1b621e3a6a807f26d1a02069721734",
+          "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
+          "url": "https://www.ithome.com/0/979/017.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T07:00:15Z"
+        },
+        {
+          "id": "0e2a58cb1e0dbfa155599a1dafb7b2182e9d6174",
+          "title": "多模态 AI 模型“神珍”开放，能处理蛋白质、天气等六类科学信息",
+          "url": "https://www.ithome.com/0/979/017.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-20T07:00:15Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "b7044c331d1b621e3a6a807f26d1a02069721734",
+          "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
+          "url": "https://www.ithome.com/0/979/017.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T07:00:15Z"
+        },
+        {
+          "id": "0e2a58cb1e0dbfa155599a1dafb7b2182e9d6174",
+          "title": "多模态 AI 模型“神珍”开放，能处理蛋白质、天气等六类科学信息",
+          "url": "https://www.ithome.com/0/979/017.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-20T07:00:15Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7584,
+      "importance": 0.7584,
+      "importance_score": 0.7584,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8433,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-20T07:00:15Z",
+      "latest_at": "2026-07-20T07:00:15Z",
+      "primary_item": {
+        "id": "b7044c331d1b621e3a6a807f26d1a02069721734",
+        "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
+        "url": "https://www.ithome.com/0/979/017.htm",
+        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -343,15 +669,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7899,
-      "importance": 0.7899,
-      "importance_score": 0.7899,
+      "score": 0.7853,
+      "importance": 0.7853,
+      "importance_score": 0.7853,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9352,
+        "recency": 0.9092,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -367,87 +693,6 @@
         "title": "Hugging Face 遭自主AI智能体入侵，用AI工具完成数小时取证分析",
         "url": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back",
         "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_be4a41673752",
-      "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
-      "url": "https://www.ithome.com/0/979/017.htm",
-      "primary_url": "https://www.ithome.com/0/979/017.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b7044c331d1b621e3a6a807f26d1a02069721734",
-          "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
-          "url": "https://www.ithome.com/0/979/017.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-20T07:00:15Z"
-        },
-        {
-          "id": "0e2a58cb1e0dbfa155599a1dafb7b2182e9d6174",
-          "title": "多模态 AI 模型“神珍”开放，能处理蛋白质、天气等六类科学信息",
-          "url": "https://www.ithome.com/0/979/017.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T07:00:15Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "b7044c331d1b621e3a6a807f26d1a02069721734",
-          "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
-          "url": "https://www.ithome.com/0/979/017.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-20T07:00:15Z"
-        },
-        {
-          "id": "0e2a58cb1e0dbfa155599a1dafb7b2182e9d6174",
-          "title": "多模态 AI 模型“神珍”开放，能处理蛋白质、天气等六类科学信息",
-          "url": "https://www.ithome.com/0/979/017.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T07:00:15Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7627,
-      "importance": 0.7627,
-      "importance_score": 0.7627,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8674,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-20T07:00:15Z",
-      "latest_at": "2026-07-20T07:00:15Z",
-      "primary_item": {
-        "id": "b7044c331d1b621e3a6a807f26d1a02069721734",
-        "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
-        "url": "https://www.ithome.com/0/979/017.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -505,15 +750,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7573,
-      "importance": 0.7573,
-      "importance_score": 0.7573,
+      "score": 0.7535,
+      "importance": 0.7535,
+      "importance_score": 0.7535,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7536,
+        "recency": 0.7327,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -567,15 +812,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7572,
-      "importance": 0.7572,
-      "importance_score": 0.7572,
+      "score": 0.7523,
+      "importance": 0.7523,
+      "importance_score": 0.7523,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9925,
+        "recency": 0.9649,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -628,21 +873,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7519,
-      "importance": 0.7519,
-      "importance_score": 0.7519,
+      "score": 0.7477,
+      "importance": 0.7477,
+      "importance_score": 0.7477,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8294,
+        "recency": 0.8064,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-20T03:54:08Z",
       "latest_at": "2026-07-20T03:54:08Z",
@@ -689,15 +933,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7444,
-      "importance": 0.7444,
-      "importance_score": 0.7444,
+      "score": 0.7395,
+      "importance": 0.7395,
+      "importance_score": 0.7395,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.988,
+        "recency": 0.9605,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -749,15 +993,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.742,
-      "importance": 0.742,
-      "importance_score": 0.742,
+      "score": 0.7376,
+      "importance": 0.7376,
+      "importance_score": 0.7376,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8913,
+        "recency": 0.8665,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -809,15 +1053,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.741,
-      "importance": 0.741,
-      "importance_score": 0.741,
+      "score": 0.7371,
+      "importance": 0.7371,
+      "importance_score": 0.7371,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7855,
+        "recency": 0.7636,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -831,6 +1075,66 @@
         "title": "不会代码也能做产品：一份从0开始的Vibe Coding保姆级教程",
         "url": "https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg",
         "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_83085757836c",
+      "title": "中国AI几乎追平美国，Kimi K3开源模型引发市场震荡",
+      "url": "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
+      "primary_url": "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a5e048933dd418c20308963b9b2edd2b0fd0a1da",
+          "title": "中国AI几乎追平美国，Kimi K3开源模型引发市场震荡",
+          "url": "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T17:27:55Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Gary Marcus：The Road to AI We Can Trust（RSS）"
+      ],
+      "items": [
+        {
+          "id": "a5e048933dd418c20308963b9b2edd2b0fd0a1da",
+          "title": "中国AI几乎追平美国，Kimi K3开源模型引发市场震荡",
+          "url": "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T17:27:55Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7311,
+      "importance": 0.7311,
+      "importance_score": 0.7311,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.61,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9808,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-20T17:27:55Z",
+      "latest_at": "2026-07-20T17:27:55Z",
+      "primary_item": {
+        "id": "a5e048933dd418c20308963b9b2edd2b0fd0a1da",
+        "title": "中国AI几乎追平美国，Kimi K3开源模型引发市场震荡",
+        "url": "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
+        "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -869,15 +1173,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.734,
-      "importance": 0.734,
-      "importance_score": 0.734,
+      "score": 0.7296,
+      "importance": 0.7296,
+      "importance_score": 0.7296,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8801,
+        "recency": 0.8557,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -891,6 +1195,66 @@
         "title": "小红书与北大开源 UltraEP：面向大规模 MoE 训推的实时负载均衡方案",
         "url": "https://mp.weixin.qq.com/s/rAoF65ywi5trWbI-heJieg",
         "source": "公众号：小红书技术（dots.llm）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_32d427eb72d1",
+      "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+      "url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "primary_url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "source": "Cursor Blog",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9967527d5e5b535c1b7e8fa13dd7b9a991ec71fa",
+          "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+          "url": "https://cursor.com/blog/agent-swarm-model-economics",
+          "source": "Cursor Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T12:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Cursor Blog"
+      ],
+      "items": [
+        {
+          "id": "9967527d5e5b535c1b7e8fa13dd7b9a991ec71fa",
+          "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+          "url": "https://cursor.com/blog/agent-swarm-model-economics",
+          "source": "Cursor Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-20T12:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7267,
+      "importance": 0.7267,
+      "importance_score": 0.7267,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.64,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9064,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-20T12:00:00Z",
+      "latest_at": "2026-07-20T12:00:00Z",
+      "primary_item": {
+        "id": "9967527d5e5b535c1b7e8fa13dd7b9a991ec71fa",
+        "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+        "url": "https://cursor.com/blog/agent-swarm-model-economics",
+        "source": "Cursor Blog",
         "source_name": "AI HOT"
       }
     },
@@ -929,15 +1293,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7353,
-      "importance": 0.7353,
-      "importance_score": 0.7353,
+      "score": 0.7313,
+      "importance": 0.7313,
+      "importance_score": 0.7313,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.804,
+        "recency": 0.7817,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -956,12 +1320,21 @@
     },
     {
       "story_id": "story_2dadc2dd59af",
-      "title": "美国的人工智能是封闭且专有的。正在失去 / American AI is locked down and proprietary. It's losing",
+      "title": "中国的开放权重人工智能战略正在获胜 / China's open-weights AI strategy is winning",
       "url": "https://news.ycombinator.com/item?id=48979269",
       "primary_url": "https://news.ycombinator.com/item?id=48979269",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
+        {
+          "id": "bd5c854bfb479954e0c9b2ba6400c2697fbb71f1",
+          "title": "中国的开放权重人工智能战略正在获胜 / China's open-weights AI strategy is winning",
+          "url": "https://news.ycombinator.com/item?id=48979269",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-20T18:26:50.904000Z"
+        },
         {
           "id": "521f7864945153703238c005b6be7b2536006a06",
           "title": "美国的人工智能是封闭且专有的。正在失去 / American AI is locked down and proprietary. It's losing",
@@ -999,7 +1372,7 @@
           "published_at": "2026-07-20T14:21:47Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 5,
       "source_names": [
         "Hacker News (黑客新闻)",
         "Hacker News · 24h最热",
@@ -1008,6 +1381,15 @@
       ],
       "items": [
         {
+          "id": "bd5c854bfb479954e0c9b2ba6400c2697fbb71f1",
+          "title": "中国的开放权重人工智能战略正在获胜 / China's open-weights AI strategy is winning",
+          "url": "https://news.ycombinator.com/item?id=48979269",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-20T18:26:50.904000Z"
+        },
+        {
           "id": "521f7864945153703238c005b6be7b2536006a06",
           "title": "美国的人工智能是封闭且专有的。正在失去 / American AI is locked down and proprietary. It's losing",
           "url": "https://news.ycombinator.com/item?id=48979269",
@@ -1044,520 +1426,31 @@
           "published_at": "2026-07-20T14:21:47Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5947,
-      "importance": 0.5947,
-      "importance_score": 0.5947,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9941,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-20T14:21:47Z",
-      "latest_at": "2026-07-20T16:26:37.345000Z",
-      "primary_item": {
-        "id": "521f7864945153703238c005b6be7b2536006a06",
-        "title": "美国的人工智能是封闭且专有的。正在失去 / American AI is locked down and proprietary. It's losing",
-        "url": "https://news.ycombinator.com/item?id=48979269",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_fd0a7ef35a9d",
-      "title": "人工智能建议让人们不太准确，但更自信——研究 / AI advice made people less accurate but more confident – sudy",
-      "url": "https://news.ycombinator.com/item?id=48971738",
-      "primary_url": "https://news.ycombinator.com/item?id=48971738",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "4f4d33539412136a3ae48ba7dfcb2ed18b0d213e",
-          "title": "人工智能建议让人们不太准确，但更自信——研究 / AI advice made people less accurate but more confident – sudy",
-          "url": "https://news.ycombinator.com/item?id=48971738",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T04:37:11.807000Z"
-        },
-        {
-          "id": "8a56ea9bd60176aaa58ad3b25c07c5bfa3775c68",
-          "title": "研究人员发现，人工智能建议的准确性降低了 3 倍，但信心却提高了 2 倍 / AI advice made people 3x less accurate but 2x confident, researchers found",
-          "url": "https://news.ycombinator.com/item?id=48971738",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-19T23:25:36.858000Z"
-        },
-        {
-          "id": "0eea1d87eacc15a486631f4f55c4b2997bd9dc43",
-          "title": "研究人员发现，AI建议会使人们的准确率降低3倍，但自信度却提高2倍",
-          "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-          "source": "thenextweb.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-19T23:05:08.884000Z"
-        },
-        {
-          "id": "d1478b7d662bf7e42e4c5ae373bbec00223f2664",
-          "title": "研究人员发现，AI建议会使人们的准确率降低3倍，但自信度却提高2倍 / AI advice made people 3x less accurate but 2x confident, researchers found",
-          "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-19T21:18:10Z"
-        },
-        {
-          "id": "3abe293cd2a3db5921f0d11ee4bf5757ee5a263c",
-          "title": "研究人员发现，AI建议会使人们的准确率降低3倍，但自信度却提高2倍 / AI advice made people less accurate but more confident – sudy",
-          "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-19T21:18:10Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "hackernews",
-        "thenextweb.com"
-      ],
-      "items": [
-        {
-          "id": "4f4d33539412136a3ae48ba7dfcb2ed18b0d213e",
-          "title": "人工智能建议让人们不太准确，但更自信——研究 / AI advice made people less accurate but more confident – sudy",
-          "url": "https://news.ycombinator.com/item?id=48971738",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T04:37:11.807000Z"
-        },
-        {
-          "id": "8a56ea9bd60176aaa58ad3b25c07c5bfa3775c68",
-          "title": "研究人员发现，人工智能建议的准确性降低了 3 倍，但信心却提高了 2 倍 / AI advice made people 3x less accurate but 2x confident, researchers found",
-          "url": "https://news.ycombinator.com/item?id=48971738",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-19T23:25:36.858000Z"
-        },
-        {
-          "id": "0eea1d87eacc15a486631f4f55c4b2997bd9dc43",
-          "title": "研究人员发现，AI建议会使人们的准确率降低3倍，但自信度却提高2倍",
-          "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-          "source": "thenextweb.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-19T23:05:08.884000Z"
-        },
-        {
-          "id": "d1478b7d662bf7e42e4c5ae373bbec00223f2664",
-          "title": "研究人员发现，AI建议会使人们的准确率降低3倍，但自信度却提高2倍 / AI advice made people 3x less accurate but 2x confident, researchers found",
-          "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-19T21:18:10Z"
-        },
-        {
-          "id": "3abe293cd2a3db5921f0d11ee4bf5757ee5a263c",
-          "title": "研究人员发现，AI建议会使人们的准确率降低3倍，但自信度却提高2倍 / AI advice made people less accurate but more confident – sudy",
-          "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-19T21:18:10Z"
-        }
-      ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.5916,
-      "importance": 0.5916,
-      "importance_score": 0.5916,
+      "score": 0.6199,
+      "importance": 0.6199,
+      "importance_score": 0.6199,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.838,
+        "recency": 0.9948,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-19T21:18:10Z",
-      "latest_at": "2026-07-20T04:37:11.807000Z",
+      "earliest_at": "2026-07-20T14:21:47Z",
+      "latest_at": "2026-07-20T18:26:50.904000Z",
       "primary_item": {
-        "id": "4f4d33539412136a3ae48ba7dfcb2ed18b0d213e",
-        "title": "人工智能建议让人们不太准确，但更自信——研究 / AI advice made people less accurate but more confident – sudy",
-        "url": "https://news.ycombinator.com/item?id=48971738",
+        "id": "bd5c854bfb479954e0c9b2ba6400c2697fbb71f1",
+        "title": "中国的开放权重人工智能战略正在获胜 / China's open-weights AI strategy is winning",
+        "url": "https://news.ycombinator.com/item?id=48979269",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_2b709f3ee251",
-      "title": "漏洞中介愿意为 WordPress 的 RCE 漏洞支付 50 万美元。我发现了一个利用 GPT-5.6 的漏洞，售价 25 美元。",
-      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
-      "primary_url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
-      "source": "slcyber.io",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "afd9a43d8bf0fd72514ec6325cacfe5096287221",
-          "title": "漏洞中介愿意为 WordPress 的 RCE 漏洞支付 50 万美元。我发现了一个利用 GPT-5.6 的漏洞，售价 25 美元。",
-          "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
-          "source": "slcyber.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T10:47:09.626000Z"
-        },
-        {
-          "id": "3ab3689a1aa2714fb90ef62d309e0ad9bb3de6ff",
-          "title": "漏洞利用经纪人为 WordPress RCE 支付 50 万美元。我找到了一个 GPT5.6 的，售价 25 美元 / Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
-          "url": "https://news.ycombinator.com/item?id=48975665",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T10:14:10.648000Z"
-        },
-        {
-          "id": "18b67079333c64ae73e0b9d1cc727c01b745549c",
-          "title": "漏洞中介愿意为 WordPress 的 RCE 漏洞支付 50 万美元。我发现了一个利用 GPT-5.6 的漏洞，售价 25 美元。 / Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
-          "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-20T08:13:36Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "hackernews",
-        "slcyber.io"
-      ],
-      "items": [
-        {
-          "id": "afd9a43d8bf0fd72514ec6325cacfe5096287221",
-          "title": "漏洞中介愿意为 WordPress 的 RCE 漏洞支付 50 万美元。我发现了一个利用 GPT-5.6 的漏洞，售价 25 美元。",
-          "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
-          "source": "slcyber.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T10:47:09.626000Z"
-        },
-        {
-          "id": "3ab3689a1aa2714fb90ef62d309e0ad9bb3de6ff",
-          "title": "漏洞利用经纪人为 WordPress RCE 支付 50 万美元。我找到了一个 GPT5.6 的，售价 25 美元 / Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
-          "url": "https://news.ycombinator.com/item?id=48975665",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T10:14:10.648000Z"
-        },
-        {
-          "id": "18b67079333c64ae73e0b9d1cc727c01b745549c",
-          "title": "漏洞中介愿意为 WordPress 的 RCE 漏洞支付 50 万美元。我发现了一个利用 GPT-5.6 的漏洞，售价 25 美元。 / Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
-          "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-20T08:13:36Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5557,
-      "importance": 0.5557,
-      "importance_score": 0.5557,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9161,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-20T08:13:36Z",
-      "latest_at": "2026-07-20T10:47:09.626000Z",
-      "primary_item": {
-        "id": "afd9a43d8bf0fd72514ec6325cacfe5096287221",
-        "title": "漏洞中介愿意为 WordPress 的 RCE 漏洞支付 50 万美元。我发现了一个利用 GPT-5.6 的漏洞，售价 25 美元。",
-        "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
-        "source": "slcyber.io",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f3a7c0081493",
-      "title": "克劳德找到了雅可比猜想的一个反例 / Claude found a counterexample to the Jacobian Conjecture",
-      "url": "https://news.ycombinator.com/item?id=48973869",
-      "primary_url": "https://news.ycombinator.com/item?id=48973869",
-      "source": "Lobsters (技术社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "fb0696dd041bee5692545372563a191cfc07bbcd",
-          "title": "克劳德找到了雅可比猜想的一个反例 / Claude found a counterexample to the Jacobian Conjecture",
-          "url": "https://news.ycombinator.com/item?id=48973869",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T07:23:27Z"
-        },
-        {
-          "id": "01ef593fb86c7e6b6f13861aea7dff1c9dce381b",
-          "title": "克劳德找到了雅可比猜想的一个反例 / Claude Fable produced a counterexample to the Jacobian Conjecture",
-          "url": "https://news.ycombinator.com/item?id=48973869",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T04:37:11.807000Z"
-        },
-        {
-          "id": "3b828850ef717d1e4aa08247010387f60ad8f8c3",
-          "title": "克劳德·法布尔给出了雅可比猜想的一个反例 / Claude Fable produced a counterexample to the Jacobian Conjecture",
-          "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-20T02:51:16Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "Lobsters (技术社区)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "fb0696dd041bee5692545372563a191cfc07bbcd",
-          "title": "克劳德找到了雅可比猜想的一个反例 / Claude found a counterexample to the Jacobian Conjecture",
-          "url": "https://news.ycombinator.com/item?id=48973869",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T07:23:27Z"
-        },
-        {
-          "id": "01ef593fb86c7e6b6f13861aea7dff1c9dce381b",
-          "title": "克劳德找到了雅可比猜想的一个反例 / Claude Fable produced a counterexample to the Jacobian Conjecture",
-          "url": "https://news.ycombinator.com/item?id=48973869",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-20T04:37:11.807000Z"
-        },
-        {
-          "id": "3b828850ef717d1e4aa08247010387f60ad8f8c3",
-          "title": "克劳德·法布尔给出了雅可比猜想的一个反例 / Claude Fable produced a counterexample to the Jacobian Conjecture",
-          "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-20T02:51:16Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5478,
-      "importance": 0.5478,
-      "importance_score": 0.5478,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8723,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-20T02:51:16Z",
-      "latest_at": "2026-07-20T07:23:27Z",
-      "primary_item": {
-        "id": "fb0696dd041bee5692545372563a191cfc07bbcd",
-        "title": "克劳德找到了雅可比猜想的一个反例 / Claude found a counterexample to the Jacobian Conjecture",
-        "url": "https://news.ycombinator.com/item?id=48973869",
-        "source": "Lobsters (技术社区)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_2bb4e1e9b72e",
-      "title": "利用基于大型语言模型（LLM）的验证技术消除Linux网络堆栈中的错误",
-      "url": "https://www.basis.ai/blog/verified-nftables",
-      "primary_url": "https://www.basis.ai/blog/verified-nftables",
-      "source": "www.basis.ai",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "efe94999be8176956557d31c8f676aa6f80e7c17",
-          "title": "利用基于大型语言模型（LLM）的验证技术消除Linux网络堆栈中的错误",
-          "url": "https://www.basis.ai/blog/verified-nftables",
-          "source": "www.basis.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T14:13:12.550000Z"
-        },
-        {
-          "id": "9ce1649efe7cf92e1d116dc661ca7cf363c0baa5",
-          "title": "利用基于大型语言模型（LLM）的验证技术消除Linux网络堆栈中的错误 / Using LLM-based Verification to Eliminate Bugs in Linux's Network Stack",
-          "url": "https://www.basis.ai/blog/verified-nftables",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T13:57:41Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "www.basis.ai"
-      ],
-      "items": [
-        {
-          "id": "efe94999be8176956557d31c8f676aa6f80e7c17",
-          "title": "利用基于大型语言模型（LLM）的验证技术消除Linux网络堆栈中的错误",
-          "url": "https://www.basis.ai/blog/verified-nftables",
-          "source": "www.basis.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T14:13:12.550000Z"
-        },
-        {
-          "id": "9ce1649efe7cf92e1d116dc661ca7cf363c0baa5",
-          "title": "利用基于大型语言模型（LLM）的验证技术消除Linux网络堆栈中的错误 / Using LLM-based Verification to Eliminate Bugs in Linux's Network Stack",
-          "url": "https://www.basis.ai/blog/verified-nftables",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T13:57:41Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5391,
-      "importance": 0.5391,
-      "importance_score": 0.5391,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9627,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-20T13:57:41Z",
-      "latest_at": "2026-07-20T14:13:12.550000Z",
-      "primary_item": {
-        "id": "efe94999be8176956557d31c8f676aa6f80e7c17",
-        "title": "利用基于大型语言模型（LLM）的验证技术消除Linux网络堆栈中的错误",
-        "url": "https://www.basis.ai/blog/verified-nftables",
-        "source": "www.basis.ai",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_ee53b2e14da2",
-      "title": "超越 grep：构建一个语境丰富的 AI 编码框架的理由",
-      "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
-      "primary_url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
-      "source": "arstechnica.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "3655a502c0c0913803f37fb4be7aed8dd69cfb93",
-          "title": "超越 grep：构建一个语境丰富的 AI 编码框架的理由",
-          "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T11:50:12.489000Z"
-        },
-        {
-          "id": "149dc146716f077b2b1a4fcbcd48d13ff10d3edc",
-          "title": "超越 grep：构建一个语境丰富的 AI 编码框架的理由 / Beyond grep: The case for a context-rich AI coding harness",
-          "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
-          "source": "Ars Technica (科技媒体)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T11:20:10Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ars Technica (科技媒体)",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "3655a502c0c0913803f37fb4be7aed8dd69cfb93",
-          "title": "超越 grep：构建一个语境丰富的 AI 编码框架的理由",
-          "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T11:50:12.489000Z"
-        },
-        {
-          "id": "149dc146716f077b2b1a4fcbcd48d13ff10d3edc",
-          "title": "超越 grep：构建一个语境丰富的 AI 编码框架的理由 / Beyond grep: The case for a context-rich AI coding harness",
-          "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
-          "source": "Ars Technica (科技媒体)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T11:20:10Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5332,
-      "importance": 0.5332,
-      "importance_score": 0.5332,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9301,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-20T11:20:10Z",
-      "latest_at": "2026-07-20T11:50:12.489000Z",
-      "primary_item": {
-        "id": "3655a502c0c0913803f37fb4be7aed8dd69cfb93",
-        "title": "超越 grep：构建一个语境丰富的 AI 编码框架的理由",
-        "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
       }
     }
   ]
