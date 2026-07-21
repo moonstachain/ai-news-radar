@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T21:06:52.792232Z",
+  "generated_at": "2026-07-21T22:25:13.492284Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -114,15 +114,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.9374,
-      "importance": 0.9374,
-      "importance_score": 0.9374,
+      "score": 0.9344,
+      "importance": 0.9344,
+      "importance_score": 0.9344,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9191,
+        "recency": 0.902,
         "story_heat": 1.0
       },
       "category": "official",
@@ -169,6 +169,15 @@
           "published_at": "2026-07-21T07:00:00Z"
         },
         {
+          "id": "29119a66f1868a2b558b802e2d4078dcfc2660fb",
+          "title": "OpenAI模型突破安全沙箱，入侵Hugging Face获取数据以通过测试",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-21T21:47:48.098000Z"
+        },
+        {
           "id": "fba18341e51c956c08af218056c9ebec7d33e0fd",
           "title": "OpenAI 与 Hugging Face 合作应对安全事件",
           "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
@@ -176,6 +185,24 @@
           "source_name": "Buzzing",
           "site_id": "buzzing",
           "published_at": "2026-07-21T20:43:27.075000Z"
+        },
+        {
+          "id": "966b3c0d8e2b38c51fa30a9dd478de6824d3ad4a",
+          "title": "OpenAI 与 Hugging Face 联合披露安全事件：GPT-5.6 Sol 等模型在评估中自主攻破生产环境 / OpenAI model breaks out of security sandbox, hacks Hugging Face for data to pass test",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-21T20:38:04Z"
+        },
+        {
+          "id": "db9d67dc5cd5c793b75ca2ce586be1942a5ff124",
+          "title": "OpenAI 与 Hugging Face 联合披露安全事件：GPT-5.6 Sol 等模型在评估中自主攻破生产环境 / OpenAI and Hugging Face address security incident during model evaluation",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-21T20:09:52Z"
         },
         {
           "id": "fecd8ca47044972009950030a7e954d6d615448d",
@@ -187,9 +214,10 @@
           "published_at": "2026-07-21T20:09:52Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 7,
       "source_names": [
         "Hacker News (黑客新闻)",
+        "Lobsters (技术社区)",
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "openai.com"
@@ -214,6 +242,15 @@
           "published_at": "2026-07-21T07:00:00Z"
         },
         {
+          "id": "29119a66f1868a2b558b802e2d4078dcfc2660fb",
+          "title": "OpenAI模型突破安全沙箱，入侵Hugging Face获取数据以通过测试",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-21T21:47:48.098000Z"
+        },
+        {
           "id": "fba18341e51c956c08af218056c9ebec7d33e0fd",
           "title": "OpenAI 与 Hugging Face 合作应对安全事件",
           "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
@@ -221,6 +258,24 @@
           "source_name": "Buzzing",
           "site_id": "buzzing",
           "published_at": "2026-07-21T20:43:27.075000Z"
+        },
+        {
+          "id": "966b3c0d8e2b38c51fa30a9dd478de6824d3ad4a",
+          "title": "OpenAI 与 Hugging Face 联合披露安全事件：GPT-5.6 Sol 等模型在评估中自主攻破生产环境 / OpenAI model breaks out of security sandbox, hacks Hugging Face for data to pass test",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-21T20:38:04Z"
+        },
+        {
+          "id": "db9d67dc5cd5c793b75ca2ce586be1942a5ff124",
+          "title": "OpenAI 与 Hugging Face 联合披露安全事件：GPT-5.6 Sol 等模型在评估中自主攻破生产环境 / OpenAI and Hugging Face address security incident during model evaluation",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-21T20:09:52Z"
         },
         {
           "id": "fecd8ca47044972009950030a7e954d6d615448d",
@@ -232,18 +287,18 @@
           "published_at": "2026-07-21T20:09:52Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.9118,
-      "importance": 0.9118,
-      "importance_score": 0.9118,
+      "item_count": 7,
+      "duplicate_count": 7,
+      "score": 0.9341,
+      "importance": 0.9341,
+      "importance_score": 0.9341,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.8156,
-        "story_heat": 0.75
+        "recency": 0.8004,
+        "story_heat": 1.0
       },
       "category": "official",
       "reasons": [
@@ -253,7 +308,7 @@
         "high_importance"
       ],
       "earliest_at": "2026-07-21T07:00:00Z",
-      "latest_at": "2026-07-21T20:43:27.075000Z",
+      "latest_at": "2026-07-21T21:47:48.098000Z",
       "primary_item": {
         "id": "494d38cbc59cc560c42129d01d1dc19ce9a76409",
         "title": "OpenAI 与 Hugging Face 联合披露安全事件：GPT-5.6 Sol 等模型在评估中自主攻破生产环境 / OpenAI and Hugging Face partner to address security incident during model evaluation",
@@ -297,15 +352,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8571,
-      "importance": 0.8571,
-      "importance_score": 0.8571,
+      "score": 0.8538,
+      "importance": 0.8538,
+      "importance_score": 0.8538,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9841,
+        "recency": 0.9658,
         "story_heat": 0.0
       },
       "category": "official",
@@ -378,15 +433,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8562,
-      "importance": 0.8562,
-      "importance_score": 0.8562,
+      "score": 0.8531,
+      "importance": 0.8531,
+      "importance_score": 0.8531,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9288,
+        "recency": 0.9115,
         "story_heat": 0.25
       },
       "category": "official",
@@ -441,15 +496,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.845,
-      "importance": 0.845,
-      "importance_score": 0.845,
+      "score": 0.8419,
+      "importance": 0.8419,
+      "importance_score": 0.8419,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9165,
+        "recency": 0.8994,
         "story_heat": 0.0
       },
       "category": "official",
@@ -505,7 +560,7 @@
         },
         {
           "id": "0285ad52e8e2fd643c01f65ec1b4aa9a9b7fa6fb",
-          "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元 / Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+          "title": "五家美国科技巨头的隐性债务因不透明的人工智能融资飙升至1.65万亿美元 / Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
           "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -550,7 +605,7 @@
         },
         {
           "id": "0285ad52e8e2fd643c01f65ec1b4aa9a9b7fa6fb",
-          "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元 / Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+          "title": "五家美国科技巨头的隐性债务因不透明的人工智能融资飙升至1.65万亿美元 / Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
           "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -560,15 +615,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8341,
-      "importance": 0.8341,
-      "importance_score": 0.8341,
+      "score": 0.8314,
+      "importance": 0.8314,
+      "importance_score": 0.8314,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8028,
+        "recency": 0.7878,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -622,15 +677,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8496,
-      "importance": 0.8496,
-      "importance_score": 0.8496,
+      "score": 0.8464,
+      "importance": 0.8464,
+      "importance_score": 0.8464,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9423,
+        "recency": 0.9247,
         "story_heat": 0.0
       },
       "category": "official",
@@ -684,15 +739,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8187,
-      "importance": 0.8187,
-      "importance_score": 0.8187,
+      "score": 0.8162,
+      "importance": 0.8162,
+      "importance_score": 0.8162,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7372,
+        "recency": 0.7234,
         "story_heat": 0.0
       },
       "category": "official",
@@ -746,15 +801,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8129,
-      "importance": 0.8129,
-      "importance_score": 0.8129,
+      "score": 0.8096,
+      "importance": 0.8096,
+      "importance_score": 0.8096,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.88,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9852,
+        "recency": 0.9668,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -845,15 +900,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8289,
-      "importance": 0.8289,
-      "importance_score": 0.8289,
+      "score": 0.8256,
+      "importance": 0.8256,
+      "importance_score": 0.8256,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9792,
+        "recency": 0.9609,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -945,15 +1000,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7973,
-      "importance": 0.7973,
-      "importance_score": 0.7973,
+      "score": 0.7946,
+      "importance": 0.7946,
+      "importance_score": 0.7946,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8039,
+        "recency": 0.7889,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1007,15 +1062,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8187,
-      "importance": 0.8187,
-      "importance_score": 0.8187,
+      "score": 0.8162,
+      "importance": 0.8162,
+      "importance_score": 0.8162,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7372,
+        "recency": 0.7234,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1088,15 +1143,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7857,
-      "importance": 0.7857,
-      "importance_score": 0.7857,
+      "score": 0.7825,
+      "importance": 0.7825,
+      "importance_score": 0.7825,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.945,
+        "recency": 0.9273,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1169,15 +1224,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7815,
-      "importance": 0.7815,
-      "importance_score": 0.7815,
+      "score": 0.7785,
+      "importance": 0.7785,
+      "importance_score": 0.7785,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8881,
+        "recency": 0.8716,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1231,15 +1286,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.775,
-      "importance": 0.775,
-      "importance_score": 0.775,
+      "score": 0.7718,
+      "importance": 0.7718,
+      "importance_score": 0.7718,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9409,
+        "recency": 0.9234,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1292,15 +1347,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7708,
-      "importance": 0.7708,
-      "importance_score": 0.7708,
+      "score": 0.7677,
+      "importance": 0.7677,
+      "importance_score": 0.7677,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9177,
+        "recency": 0.9006,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1353,15 +1408,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7704,
-      "importance": 0.7704,
-      "importance_score": 0.7704,
+      "score": 0.7675,
+      "importance": 0.7675,
+      "importance_score": 0.7675,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8655,
+        "recency": 0.8494,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1376,6 +1431,67 @@
         "title": "小红书 dots 模型获 IMO 2026 满分金牌",
         "url": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
         "source": "公众号：小红书技术（dots.llm）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_11385d2f3bae",
+      "title": "OpenRouter 上线 Gemini 3.6 Flash 与 3.5 Flash-Lite",
+      "url": "https://x.com/OpenRouter/status/2079686435247186015",
+      "primary_url": "https://x.com/OpenRouter/status/2079686435247186015",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "86424d7feb8caa2bc8dc3b0c8058a854bedf561c",
+          "title": "OpenRouter 上线 Gemini 3.6 Flash 与 3.5 Flash-Lite",
+          "url": "https://x.com/OpenRouter/status/2079686435247186015",
+          "source": "X：OpenRouter (@OpenRouter)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T21:54:19Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：OpenRouter (@OpenRouter)"
+      ],
+      "items": [
+        {
+          "id": "86424d7feb8caa2bc8dc3b0c8058a854bedf561c",
+          "title": "OpenRouter 上线 Gemini 3.6 Flash 与 3.5 Flash-Lite",
+          "url": "https://x.com/OpenRouter/status/2079686435247186015",
+          "source": "X：OpenRouter (@OpenRouter)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T21:54:19Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7663,
+      "importance": 0.7663,
+      "importance_score": 0.7663,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9926,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-21T21:54:19Z",
+      "latest_at": "2026-07-21T21:54:19Z",
+      "primary_item": {
+        "id": "86424d7feb8caa2bc8dc3b0c8058a854bedf561c",
+        "title": "OpenRouter 上线 Gemini 3.6 Flash 与 3.5 Flash-Lite",
+        "url": "https://x.com/OpenRouter/status/2079686435247186015",
+        "source": "X：OpenRouter (@OpenRouter)",
         "source_name": "AI HOT"
       }
     },
@@ -1433,15 +1549,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7849,
-      "importance": 0.7849,
-      "importance_score": 0.7849,
+      "score": 0.7818,
+      "importance": 0.7818,
+      "importance_score": 0.7818,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9237,
+        "recency": 0.9064,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1514,22 +1630,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7521,
-      "importance": 0.7521,
-      "importance_score": 0.7521,
+      "score": 0.7496,
+      "importance": 0.7496,
+      "importance_score": 0.7496,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7584,
+        "recency": 0.7442,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-21T01:57:54Z",
       "latest_at": "2026-07-21T01:57:54Z",
@@ -1538,67 +1653,6 @@
         "title": "Anthropic 与作家群体15亿美元版权和解获批",
         "url": "https://www.ithome.com/0/979/324.htm",
         "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_403fc3e324b6",
-      "title": "Claude Cowork 新增技能录制功能",
-      "url": "https://x.com/claudeai/status/2079595988998554047",
-      "primary_url": "https://x.com/claudeai/status/2079595988998554047",
-      "source": "X：Claude (@claudeai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "448d84a4a49bea5b256ff2c6198cdb984ebafb75",
-          "title": "Claude Cowork 新增技能录制功能",
-          "url": "https://x.com/claudeai/status/2079595988998554047",
-          "source": "X：Claude (@claudeai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-21T15:54:55Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Claude (@claudeai)"
-      ],
-      "items": [
-        {
-          "id": "448d84a4a49bea5b256ff2c6198cdb984ebafb75",
-          "title": "Claude Cowork 新增技能录制功能",
-          "url": "https://x.com/claudeai/status/2079595988998554047",
-          "source": "X：Claude (@claudeai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-21T15:54:55Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7516,
-      "importance": 0.7516,
-      "importance_score": 0.7516,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9277,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-21T15:54:55Z",
-      "latest_at": "2026-07-21T15:54:55Z",
-      "primary_item": {
-        "id": "448d84a4a49bea5b256ff2c6198cdb984ebafb75",
-        "title": "Claude Cowork 新增技能录制功能",
-        "url": "https://x.com/claudeai/status/2079595988998554047",
-        "source": "X：Claude (@claudeai)",
         "source_name": "AI HOT"
       }
     }
