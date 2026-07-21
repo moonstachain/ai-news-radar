@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T07:29:07.218216Z",
+  "generated_at": "2026-07-21T10:01:23.291641Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_bd0c3cf8aec7",
@@ -65,26 +65,28 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_571abaaca78f",
+      "cluster_id": "biz_cluster_85b31053cdf6",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
         "biz_7999d9215df7",
-        "biz_ce70d9307db0"
+        "biz_ce70d9307db0",
+        "biz_fb332328e574"
       ],
-      "source_count": 2,
-      "importance_score": 54,
+      "source_count": 3,
+      "importance_score": 50,
       "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
         "biz_7999d9215df7",
-        "biz_ce70d9307db0"
+        "biz_ce70d9307db0",
+        "biz_fb332328e574"
       ],
       "top_sources": [
         {
@@ -96,6 +98,11 @@
           "source": "GitHub Blog",
           "title": "$100 million for open source: A milestone built by the community",
           "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "title": "Grabette: an open system to record robot-manipulation data",
+          "url": "https://huggingface.co/blog/grabette"
         }
       ]
     },
@@ -131,35 +138,6 @@
           "source": "Bain Insights",
           "title": "Strong Momentum in Insurance, but Structural Challenges Remain",
           "url": "https://www.bain.com/insights/strong-momentum-in-insurance-but-structural-challenges-remain/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_11e7c51e107e",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_73c7f0885ba3"
-      ],
-      "source_count": 1,
-      "importance_score": 45,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_73c7f0885ba3"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "I built an AI that turns an idea into a live business in under 10 minutes. Here’s what 1,000 launches taught me",
-          "url": "https://www.indiehackers.com/post/i-built-an-ai-that-turns-an-idea-into-a-live-business-in-under-10-minutes-here-s-what-1-000-launches-taught-me-4df62ca3f5"
         }
       ]
     },
