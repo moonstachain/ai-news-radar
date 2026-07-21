@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T16:52:30.849823Z",
+  "generated_at": "2026-07-21T18:09:01.332922Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -30,6 +30,15 @@
           "published_at": "2026-07-21T15:55:51.307000Z"
         },
         {
+          "id": "3c25c972721ea49279d6cba47460eb431956db34",
+          "title": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber / Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+          "url": "https://news.ycombinator.com/item?id=48993414",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-21T16:53:15.320000Z"
+        },
+        {
           "id": "90efc8f5456ddac1a4d12933b89874809215fb34",
           "title": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
@@ -48,12 +57,13 @@
           "published_at": "2026-07-21T15:17:16Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 5,
       "source_names": [
         "Google DeepMind",
         "Hacker News (黑客新闻)",
         "Hacker News 热门（buzzing.cc 中文翻译）",
-        "blog.google"
+        "blog.google",
+        "hackernews"
       ],
       "items": [
         {
@@ -75,6 +85,15 @@
           "published_at": "2026-07-21T15:55:51.307000Z"
         },
         {
+          "id": "3c25c972721ea49279d6cba47460eb431956db34",
+          "title": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber / Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+          "url": "https://news.ycombinator.com/item?id=48993414",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-21T16:53:15.320000Z"
+        },
+        {
           "id": "90efc8f5456ddac1a4d12933b89874809215fb34",
           "title": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
@@ -93,18 +112,18 @@
           "published_at": "2026-07-21T15:17:16Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.9229,
-      "importance": 0.9229,
-      "importance_score": 0.9229,
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.9447,
+      "importance": 0.9447,
+      "importance_score": 0.9447,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9772,
-        "story_heat": 0.75
+        "recency": 0.9593,
+        "story_heat": 1.0
       },
       "category": "official",
       "reasons": [
@@ -114,7 +133,7 @@
         "high_importance"
       ],
       "earliest_at": "2026-07-21T15:16:30Z",
-      "latest_at": "2026-07-21T15:55:51.307000Z",
+      "latest_at": "2026-07-21T16:53:15.320000Z",
       "primary_item": {
         "id": "58a603ff973e405be8b22025b3eff82bfeab08a7",
         "title": "隆重推出 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber / Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
@@ -177,15 +196,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8667,
-      "importance": 0.8667,
-      "importance_score": 0.8667,
+      "score": 0.8635,
+      "importance": 0.8635,
+      "importance_score": 0.8635,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9874,
+        "recency": 0.9694,
         "story_heat": 0.25
       },
       "category": "official",
@@ -202,6 +221,68 @@
         "title": "GitHub Copilot 推出 canvases 扩展，实现开发者与 AI 智能体实时协作 / How to build interactive experiences with canvases",
         "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
         "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_d42362617c64",
+      "title": "推出适用于小型企业的 ChatGPT 计划 / Introducing the ChatGPT for small business program",
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "primary_url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "b9aa56271695b6dc458f13551b888e6449f32922",
+          "title": "推出适用于小型企业的 ChatGPT 计划 / Introducing the ChatGPT for small business program",
+          "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-21T17:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "b9aa56271695b6dc458f13551b888e6449f32922",
+          "title": "推出适用于小型企业的 ChatGPT 计划 / Introducing the ChatGPT for small business program",
+          "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-21T17:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.857,
+      "importance": 0.857,
+      "importance_score": 0.857,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.9835,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-21T17:00:00Z",
+      "latest_at": "2026-07-21T17:00:00Z",
+      "primary_item": {
+        "id": "b9aa56271695b6dc458f13551b888e6449f32922",
+        "title": "推出适用于小型企业的 ChatGPT 计划 / Introducing the ChatGPT for small business program",
+        "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -240,15 +321,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8554,
-      "importance": 0.8554,
-      "importance_score": 0.8554,
+      "score": 0.8522,
+      "importance": 0.8522,
+      "importance_score": 0.8522,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9743,
+        "recency": 0.9566,
         "story_heat": 0.0
       },
       "category": "official",
@@ -359,15 +440,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8432,
-      "importance": 0.8432,
-      "importance_score": 0.8432,
+      "score": 0.8404,
+      "importance": 0.8404,
+      "importance_score": 0.8404,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8535,
+        "recency": 0.8379,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -421,15 +502,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8271,
-      "importance": 0.8271,
-      "importance_score": 0.8271,
+      "score": 0.8245,
+      "importance": 0.8245,
+      "importance_score": 0.8245,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7837,
+        "recency": 0.7694,
         "story_heat": 0.0
       },
       "category": "official",
@@ -521,15 +602,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8064,
-      "importance": 0.8064,
-      "importance_score": 0.8064,
+      "score": 0.8036,
+      "importance": 0.8036,
+      "importance_score": 0.8036,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8547,
+        "recency": 0.8391,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -549,30 +630,30 @@
       }
     },
     {
-      "story_id": "story_2a32c5e41363",
-      "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
-      "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
-      "primary_url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+      "story_id": "story_01119b73028b",
+      "title": "Google DeepMind 发布三款新 Gemini 模型，但未包含 3.5 Pro",
+      "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
+      "primary_url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
       "source": "TechCrunch：AI（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "aef576e777cf695b5a265ee8213b9c2c4696860b",
-          "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
-          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+          "id": "58964ea448845690e62aa7ada30a2161b894a18b",
+          "title": "Google DeepMind 发布三款新 Gemini 模型，但未包含 3.5 Pro",
+          "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
           "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-21T15:37:05Z"
+          "published_at": "2026-07-21T17:11:50Z"
         },
         {
-          "id": "875895c5812144b8b52ddc76a31d2443035c2b34",
-          "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁 / US threatens sanctions against Chinese AI models over IP theft",
-          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+          "id": "05bc4282f94a11d45e862cdf47f121e590a7dd72",
+          "title": "Google DeepMind 发布三款新 Gemini 模型，但未包含 3.5 Pro / Google releases three new Gemini models — but no 3.5 Pro",
+          "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
           "source": "TechCrunch AI",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-07-21T15:37:05Z"
+          "published_at": "2026-07-21T17:11:50Z"
         }
       ],
       "source_count": 2,
@@ -582,35 +663,35 @@
       ],
       "items": [
         {
-          "id": "aef576e777cf695b5a265ee8213b9c2c4696860b",
-          "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
-          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+          "id": "58964ea448845690e62aa7ada30a2161b894a18b",
+          "title": "Google DeepMind 发布三款新 Gemini 模型，但未包含 3.5 Pro",
+          "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
           "source": "TechCrunch：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-21T15:37:05Z"
+          "published_at": "2026-07-21T17:11:50Z"
         },
         {
-          "id": "875895c5812144b8b52ddc76a31d2443035c2b34",
-          "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁 / US threatens sanctions against Chinese AI models over IP theft",
-          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+          "id": "05bc4282f94a11d45e862cdf47f121e590a7dd72",
+          "title": "Google DeepMind 发布三款新 Gemini 模型，但未包含 3.5 Pro / Google releases three new Gemini models — but no 3.5 Pro",
+          "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
           "source": "TechCrunch AI",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-07-21T15:37:05Z"
+          "published_at": "2026-07-21T17:11:50Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7954,
-      "importance": 0.7954,
-      "importance_score": 0.7954,
+      "score": 0.7931,
+      "importance": 0.7931,
+      "importance_score": 0.7931,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.74,
+        "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.982,
+        "recency": 0.9863,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -619,12 +700,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-21T15:37:05Z",
-      "latest_at": "2026-07-21T15:37:05Z",
+      "earliest_at": "2026-07-21T17:11:50Z",
+      "latest_at": "2026-07-21T17:11:50Z",
       "primary_item": {
-        "id": "aef576e777cf695b5a265ee8213b9c2c4696860b",
-        "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
-        "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+        "id": "58964ea448845690e62aa7ada30a2161b894a18b",
+        "title": "Google DeepMind 发布三款新 Gemini 模型，但未包含 3.5 Pro",
+        "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
         "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
       }
@@ -683,15 +764,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7916,
-      "importance": 0.7916,
-      "importance_score": 0.7916,
+      "score": 0.7885,
+      "importance": 0.7885,
+      "importance_score": 0.7885,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9442,
+        "recency": 0.927,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -707,6 +788,167 @@
         "title": "Anthropic 团队透露 Claude Tag 承担 65% 产品工程 PR，系统提示词缩减 80%",
         "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq",
         "source": "Simon Willison 博客",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2b4a10c6a262",
+      "title": "Karpathy：用语音与LLM长谈可提升理解效率",
+      "url": "https://x.com/karpathy/status/2079610838143623371",
+      "primary_url": "https://x.com/karpathy/status/2079610838143623371",
+      "source": "X：Andrej Karpathy (@karpathy)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f27cd361ad5af13540c36cae62a98991594b013c",
+          "title": "Karpathy：用语音与LLM长谈可提升理解效率",
+          "url": "https://x.com/karpathy/status/2079610838143623371",
+          "source": "X：Andrej Karpathy (@karpathy)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T16:53:55Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Andrej Karpathy (@karpathy)"
+      ],
+      "items": [
+        {
+          "id": "f27cd361ad5af13540c36cae62a98991594b013c",
+          "title": "Karpathy：用语音与LLM长谈可提升理解效率",
+          "url": "https://x.com/karpathy/status/2079610838143623371",
+          "source": "X：Andrej Karpathy (@karpathy)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T16:53:55Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7824,
+      "importance": 0.7824,
+      "importance_score": 0.7824,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9821,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-21T16:53:55Z",
+      "latest_at": "2026-07-21T16:53:55Z",
+      "primary_item": {
+        "id": "f27cd361ad5af13540c36cae62a98991594b013c",
+        "title": "Karpathy：用语音与LLM长谈可提升理解效率",
+        "url": "https://x.com/karpathy/status/2079610838143623371",
+        "source": "X：Andrej Karpathy (@karpathy)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_204ad590c8d0",
+      "title": "Claude 不是编译器--它比编译器更好",
+      "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "primary_url": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "1afaa93141a4e70b78e2d44d11731c2de10dba48",
+          "title": "Claude 不是编译器--它比编译器更好",
+          "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T17:15:35.727000Z"
+        },
+        {
+          "id": "db7d943ddc2e7e78378d9b73c1263d8696947b50",
+          "title": "Claude 不是编译器",
+          "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+          "source": "blog.exe.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-21T17:15:35.727000Z"
+        },
+        {
+          "id": "91fd98664185cd1b76aaa069147340e3163b64a8",
+          "title": "Claude 不是编译器--它比编译器更好 / Claude Is Not a Compiler",
+          "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-21T14:49:18Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "blog.exe.dev"
+      ],
+      "items": [
+        {
+          "id": "1afaa93141a4e70b78e2d44d11731c2de10dba48",
+          "title": "Claude 不是编译器--它比编译器更好",
+          "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T17:15:35.727000Z"
+        },
+        {
+          "id": "db7d943ddc2e7e78378d9b73c1263d8696947b50",
+          "title": "Claude 不是编译器",
+          "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+          "source": "blog.exe.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-21T17:15:35.727000Z"
+        },
+        {
+          "id": "91fd98664185cd1b76aaa069147340e3163b64a8",
+          "title": "Claude 不是编译器--它比编译器更好 / Claude Is Not a Compiler",
+          "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-21T14:49:18Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8123,
+      "importance": 0.8123,
+      "importance_score": 0.8123,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9872,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-21T14:49:18Z",
+      "latest_at": "2026-07-21T17:15:35.727000Z",
+      "primary_item": {
+        "id": "1afaa93141a4e70b78e2d44d11731c2de10dba48",
+        "title": "Claude 不是编译器--它比编译器更好",
+        "url": "https://blog.exe.dev/claude-is-not-a-compiler",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -745,15 +987,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7812,
-      "importance": 0.7812,
-      "importance_score": 0.7812,
+      "score": 0.778,
+      "importance": 0.778,
+      "importance_score": 0.778,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9756,
+        "recency": 0.9578,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -806,15 +1048,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7802,
-      "importance": 0.7802,
-      "importance_score": 0.7802,
+      "score": 0.7772,
+      "importance": 0.7772,
+      "importance_score": 0.7772,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9202,
+        "recency": 0.9034,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -829,6 +1071,87 @@
         "title": "小红书 dots 模型获 IMO 2026 满分金牌",
         "url": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
         "source": "公众号：小红书技术（dots.llm）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2a32c5e41363",
+      "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
+      "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+      "primary_url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "aef576e777cf695b5a265ee8213b9c2c4696860b",
+          "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
+          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T15:37:05Z"
+        },
+        {
+          "id": "875895c5812144b8b52ddc76a31d2443035c2b34",
+          "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁 / US threatens sanctions against Chinese AI models over IP theft",
+          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-21T15:37:05Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "aef576e777cf695b5a265ee8213b9c2c4696860b",
+          "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
+          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T15:37:05Z"
+        },
+        {
+          "id": "875895c5812144b8b52ddc76a31d2443035c2b34",
+          "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁 / US threatens sanctions against Chinese AI models over IP theft",
+          "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-21T15:37:05Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7921,
+      "importance": 0.7921,
+      "importance_score": 0.7921,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9641,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-21T15:37:05Z",
+      "latest_at": "2026-07-21T15:37:05Z",
+      "primary_item": {
+        "id": "aef576e777cf695b5a265ee8213b9c2c4696860b",
+        "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
+        "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+        "source": "TechCrunch：AI（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -867,15 +1190,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7941,
-      "importance": 0.7941,
-      "importance_score": 0.7941,
+      "score": 0.7917,
+      "importance": 0.7917,
+      "importance_score": 0.7917,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7229,
+        "recency": 0.7097,
         "story_heat": 0.0
       },
       "category": "official",
@@ -929,15 +1252,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7621,
-      "importance": 0.7621,
-      "importance_score": 0.7621,
+      "score": 0.7589,
+      "importance": 0.7589,
+      "importance_score": 0.7589,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9862,
+        "recency": 0.9682,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1009,15 +1332,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7607,
-      "importance": 0.7607,
-      "importance_score": 0.7607,
+      "score": 0.7581,
+      "importance": 0.7581,
+      "importance_score": 0.7581,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8063,
+        "recency": 0.7916,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1037,183 +1360,123 @@
       }
     },
     {
-      "story_id": "story_e665a7f0b623",
-      "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
-      "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
-      "primary_url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
-      "source": "The Decoder：AI News（RSS）",
+      "story_id": "story_55c157c7389e",
+      "title": "Anthropic 如何保障AI原生软件开发生命周期的安全",
+      "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+      "primary_url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+      "source": "Claude：Blog（网页）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "7a444cb04f8963eb2df183444c28ca7a82bd7f3c",
-          "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
-          "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
-          "source": "The Decoder：AI News（RSS）",
+          "id": "27426a3573d58880530fc42c93df48bd900b2522",
+          "title": "Anthropic 如何保障AI原生软件开发生命周期的安全",
+          "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+          "source": "Claude：Blog（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-20T17:32:41Z"
-        },
-        {
-          "id": "697dac40e0e8367e5c8a53068f771b670e0fc2e4",
-          "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》 / District 9 director Neill Blomkamp releases first short film made entirely with AI video generation",
-          "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-20T17:32:41Z"
+          "published_at": "2026-07-21T17:54:42.493000Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
+        "Claude：Blog（网页）"
       ],
       "items": [
         {
-          "id": "7a444cb04f8963eb2df183444c28ca7a82bd7f3c",
-          "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
-          "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
-          "source": "The Decoder：AI News（RSS）",
+          "id": "27426a3573d58880530fc42c93df48bd900b2522",
+          "title": "Anthropic 如何保障AI原生软件开发生命周期的安全",
+          "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+          "source": "Claude：Blog（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-20T17:32:41Z"
-        },
-        {
-          "id": "697dac40e0e8367e5c8a53068f771b670e0fc2e4",
-          "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》 / District 9 director Neill Blomkamp releases first short film made entirely with AI video generation",
-          "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-20T17:32:41Z"
+          "published_at": "2026-07-21T17:54:42.493000Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7531,
-      "importance": 0.7531,
-      "importance_score": 0.7531,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.752,
+      "importance": 0.752,
+      "importance_score": 0.752,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.76,
+        "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.714,
-        "story_heat": 0.25
+        "recency": 0.9966,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-20T17:32:41Z",
-      "latest_at": "2026-07-20T17:32:41Z",
+      "earliest_at": "2026-07-21T17:54:42.493000Z",
+      "latest_at": "2026-07-21T17:54:42.493000Z",
       "primary_item": {
-        "id": "7a444cb04f8963eb2df183444c28ca7a82bd7f3c",
-        "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
-        "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
-        "source": "The Decoder：AI News（RSS）",
+        "id": "27426a3573d58880530fc42c93df48bd900b2522",
+        "title": "Anthropic 如何保障AI原生软件开发生命周期的安全",
+        "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+        "source": "Claude：Blog（网页）",
         "source_name": "AI HOT"
       }
     },
     {
-      "story_id": "story_32d427eb72d1",
-      "title": "代理群（Agent Swarm）通过树状分解在构建 SQLite（Rust 版）任务中达到 80% 测试通过率",
-      "url": "https://cursor.com/blog/agent-swarm-model-economics",
-      "primary_url": "https://cursor.com/blog/agent-swarm-model-economics",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_5d5986221c3c",
+      "title": "xAI 推出 Grok for Outlook 加载项",
+      "url": "https://x.ai/news/introducing-outlook-addin",
+      "primary_url": "https://x.ai/news/introducing-outlook-addin",
+      "source": "xAI：News（网页）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "9a0ec36f6f8791f3a36883b7a3e2a4b2f2a40f84",
-          "title": "代理群（Agent Swarm）通过树状分解在构建 SQLite（Rust 版）任务中达到 80% 测试通过率",
-          "url": "https://cursor.com/blog/agent-swarm-model-economics",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "b4608009217062e825e5d839e023f1c13117770d",
+          "title": "xAI 推出 Grok for Outlook 加载项",
+          "url": "https://x.ai/news/introducing-outlook-addin",
+          "source": "xAI：News（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-21T00:35:26.928000Z"
-        },
-        {
-          "id": "0f7b1a9c982e3a0e860acf56d601bfcbbb63cec7",
-          "title": "代理群与新经济模式",
-          "url": "https://cursor.com/blog/agent-swarm-model-economics",
-          "source": "cursor.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T00:35:26.928000Z"
-        },
-        {
-          "id": "ba63a889be06175186b81bb35172e9a594e1cc65",
-          "title": "代理群（Agent Swarm）通过树状分解在构建 SQLite（Rust 版）任务中达到 80% 测试通过率 / Agent swarms and the new model economics",
-          "url": "https://cursor.com/blog/agent-swarm-model-economics",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T18:06:13Z"
+          "published_at": "2026-07-21T17:22:49.842000Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "cursor.com"
+        "xAI：News（网页）"
       ],
       "items": [
         {
-          "id": "9a0ec36f6f8791f3a36883b7a3e2a4b2f2a40f84",
-          "title": "代理群（Agent Swarm）通过树状分解在构建 SQLite（Rust 版）任务中达到 80% 测试通过率",
-          "url": "https://cursor.com/blog/agent-swarm-model-economics",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "b4608009217062e825e5d839e023f1c13117770d",
+          "title": "xAI 推出 Grok for Outlook 加载项",
+          "url": "https://x.ai/news/introducing-outlook-addin",
+          "source": "xAI：News（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-21T00:35:26.928000Z"
-        },
-        {
-          "id": "0f7b1a9c982e3a0e860acf56d601bfcbbb63cec7",
-          "title": "代理群与新经济模式",
-          "url": "https://cursor.com/blog/agent-swarm-model-economics",
-          "source": "cursor.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T00:35:26.928000Z"
-        },
-        {
-          "id": "ba63a889be06175186b81bb35172e9a594e1cc65",
-          "title": "代理群（Agent Swarm）通过树状分解在构建 SQLite（Rust 版）任务中达到 80% 测试通过率 / Agent swarms and the new model economics",
-          "url": "https://cursor.com/blog/agent-swarm-model-economics",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-20T18:06:13Z"
+          "published_at": "2026-07-21T17:22:49.842000Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7769,
-      "importance": 0.7769,
-      "importance_score": 0.7769,
-      "importance_label": "多源热议",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7386,
+      "importance": 0.7386,
+      "importance_score": 0.7386,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.71,
+        "editorial": 0.63,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7904,
-        "story_heat": 0.5
+        "recency": 0.9889,
+        "story_heat": 0.0
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-20T18:06:13Z",
-      "latest_at": "2026-07-21T00:35:26.928000Z",
+      "earliest_at": "2026-07-21T17:22:49.842000Z",
+      "latest_at": "2026-07-21T17:22:49.842000Z",
       "primary_item": {
-        "id": "9a0ec36f6f8791f3a36883b7a3e2a4b2f2a40f84",
-        "title": "代理群（Agent Swarm）通过树状分解在构建 SQLite（Rust 版）任务中达到 80% 测试通过率",
-        "url": "https://cursor.com/blog/agent-swarm-model-economics",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "id": "b4608009217062e825e5d839e023f1c13117770d",
+        "title": "xAI 推出 Grok for Outlook 加载项",
+        "url": "https://x.ai/news/introducing-outlook-addin",
+        "source": "xAI：News（网页）",
         "source_name": "AI HOT"
       }
     },
@@ -1252,15 +1515,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7383,
-      "importance": 0.7383,
-      "importance_score": 0.7383,
+      "score": 0.7351,
+      "importance": 0.7351,
+      "importance_score": 0.7351,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.63,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9875,
+        "recency": 0.9694,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1275,322 +1538,6 @@
         "url": "https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix",
         "source": "Google Developers Blog（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2b4b6588b1d6",
-      "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
-      "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "primary_url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "0f678a2fdef492aa4c3d0ce4fc36604dbdbe8a8d",
-          "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
-          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-20T18:28:23.600000Z"
-        },
-        {
-          "id": "b2601d5909e76698c05ddcd733411a3d25be597c",
-          "title": "目前，ArXiv上超过30%的新投稿读起来像是人工智能撰写的",
-          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-          "source": "unslop.run",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T18:28:23.600000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "unslop.run"
-      ],
-      "items": [
-        {
-          "id": "0f678a2fdef492aa4c3d0ce4fc36604dbdbe8a8d",
-          "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
-          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-20T18:28:23.600000Z"
-        },
-        {
-          "id": "b2601d5909e76698c05ddcd733411a3d25be597c",
-          "title": "目前，ArXiv上超过30%的新投稿读起来像是人工智能撰写的",
-          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-          "source": "unslop.run",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T18:28:23.600000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7489,
-      "importance": 0.7489,
-      "importance_score": 0.7489,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7236,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-20T18:28:23.600000Z",
-      "latest_at": "2026-07-20T18:28:23.600000Z",
-      "primary_item": {
-        "id": "0f678a2fdef492aa4c3d0ce4fc36604dbdbe8a8d",
-        "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
-        "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_aeba7fb1463a",
-      "title": "Ask HN: Anthropic 或 OpenAI 会开始提供中文开源模型吗？",
-      "url": "https://news.ycombinator.com/item?id=48990892",
-      "primary_url": "https://news.ycombinator.com/item?id=48990892",
-      "source": "news.ycombinator.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "556f37c97a505e633d14f2ff592ab3fd0f2c499d",
-          "title": "Ask HN: Anthropic 或 OpenAI 会开始提供中文开源模型吗？",
-          "url": "https://news.ycombinator.com/item?id=48990892",
-          "source": "news.ycombinator.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T11:41:15.282000Z"
-        },
-        {
-          "id": "9339bcfc8be38b9d0509ab34ab0a969c79fe0539",
-          "title": "Ask HN: Anthropic 或 OpenAI 会开始提供中文开源模型吗？ / Ask HN: Will Anthropic or OpenAI start offering Chinese open source models?",
-          "url": "https://news.ycombinator.com/item?id=48990892",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-07-21T11:34:26Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "news.ycombinator.com"
-      ],
-      "items": [
-        {
-          "id": "556f37c97a505e633d14f2ff592ab3fd0f2c499d",
-          "title": "Ask HN: Anthropic 或 OpenAI 会开始提供中文开源模型吗？",
-          "url": "https://news.ycombinator.com/item?id=48990892",
-          "source": "news.ycombinator.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T11:41:15.282000Z"
-        },
-        {
-          "id": "9339bcfc8be38b9d0509ab34ab0a969c79fe0539",
-          "title": "Ask HN: Anthropic 或 OpenAI 会开始提供中文开源模型吗？ / Ask HN: Will Anthropic or OpenAI start offering Chinese open source models?",
-          "url": "https://news.ycombinator.com/item?id=48990892",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-07-21T11:34:26Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5328,
-      "importance": 0.5328,
-      "importance_score": 0.5328,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9278,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-21T11:34:26Z",
-      "latest_at": "2026-07-21T11:41:15.282000Z",
-      "primary_item": {
-        "id": "556f37c97a505e633d14f2ff592ab3fd0f2c499d",
-        "title": "Ask HN: Anthropic 或 OpenAI 会开始提供中文开源模型吗？",
-        "url": "https://news.ycombinator.com/item?id=48990892",
-        "source": "news.ycombinator.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_74c85e5c3666",
-      "title": "伯纳姆在科技领域人事调整中任命首位人工智能部长进入内阁",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-20/burnham-names-narayan-as-uk-s-first-ai-minister-to-new-cabinet",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-07-20/burnham-names-narayan-as-uk-s-first-ai-minister-to-new-cabinet",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "f197e707539961fc4584be3c7ed7298ec083a810",
-          "title": "伯纳姆在科技领域人事调整中任命首位人工智能部长进入内阁",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-20/burnham-names-narayan-as-uk-s-first-ai-minister-to-new-cabinet",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T10:22:24.888000Z"
-        },
-        {
-          "id": "82e35d318ac9cfeccdf6e6b95d0260771c7d752e",
-          "title": "伯纳姆任命纳拉扬为首位出席内阁会议的英国人工智能大臣",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-20/burnham-names-narayan-as-uk-s-first-ai-minister-to-new-cabinet",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T23:15:07.012000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "f197e707539961fc4584be3c7ed7298ec083a810",
-          "title": "伯纳姆在科技领域人事调整中任命首位人工智能部长进入内阁",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-20/burnham-names-narayan-as-uk-s-first-ai-minister-to-new-cabinet",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T10:22:24.888000Z"
-        },
-        {
-          "id": "82e35d318ac9cfeccdf6e6b95d0260771c7d752e",
-          "title": "伯纳姆任命纳拉扬为首位出席内阁会议的英国人工智能大臣",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-20/burnham-names-narayan-as-uk-s-first-ai-minister-to-new-cabinet",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-20T23:15:07.012000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5297,
-      "importance": 0.5297,
-      "importance_score": 0.5297,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9104,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-20T23:15:07.012000Z",
-      "latest_at": "2026-07-21T10:22:24.888000Z",
-      "primary_item": {
-        "id": "f197e707539961fc4584be3c7ed7298ec083a810",
-        "title": "伯纳姆在科技领域人事调整中任命首位人工智能部长进入内阁",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-20/burnham-names-narayan-as-uk-s-first-ai-minister-to-new-cabinet",
-        "source": "www.bloomberg.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_76adcf10307c",
-      "title": "腾讯云：将大规模部署国产化算力，布局 NPO 超级节点",
-      "url": "https://www.ithome.com/0/979/624.htm",
-      "primary_url": "https://www.ithome.com/0/979/624.htm",
-      "source": "IT之家 (ITHome)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "199c6da53633b379b77f796a92598edaab48dcc3",
-          "title": "腾讯云：将大规模部署国产化算力，布局 NPO 超级节点",
-          "url": "https://www.ithome.com/0/979/624.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-21T08:01:38Z"
-        },
-        {
-          "id": "de56aa17e76d67b256bf7324266251e7db6ff3ef",
-          "title": "腾讯云：将大规模部署国产化算力和NPO超级节点",
-          "url": "https://36kr.com/newsflashes/3905101534168711?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-21T07:54:42Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "36氪 (36Kr)",
-        "IT之家 (ITHome)"
-      ],
-      "items": [
-        {
-          "id": "199c6da53633b379b77f796a92598edaab48dcc3",
-          "title": "腾讯云：将大规模部署国产化算力，布局 NPO 超级节点",
-          "url": "https://www.ithome.com/0/979/624.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-21T08:01:38Z"
-        },
-        {
-          "id": "de56aa17e76d67b256bf7324266251e7db6ff3ef",
-          "title": "腾讯云：将大规模部署国产化算力和NPO超级节点",
-          "url": "https://36kr.com/newsflashes/3905101534168711?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-21T07:54:42Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5242,
-      "importance": 0.5242,
-      "importance_score": 0.5242,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8801,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-21T07:54:42Z",
-      "latest_at": "2026-07-21T08:01:38Z",
-      "primary_item": {
-        "id": "199c6da53633b379b77f796a92598edaab48dcc3",
-        "title": "腾讯云：将大规模部署国产化算力，布局 NPO 超级节点",
-        "url": "https://www.ithome.com/0/979/624.htm",
-        "source": "IT之家 (ITHome)",
-        "source_name": "Info Flow"
       }
     }
   ]
