@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T03:56:46.811197Z",
+  "generated_at": "2026-07-22T06:22:14.942830Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-07-21T12:05:00Z",
-      "captured_at": "2026-07-22T03:56:46.811197Z",
+      "captured_at": "2026-07-22T06:22:14.942830Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -47,7 +47,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-07-21T16:00:00Z",
-      "captured_at": "2026-07-22T03:56:46.811197Z",
+      "captured_at": "2026-07-22T06:22:14.942830Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog"
@@ -83,7 +83,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-07-21T11:00:41Z",
-      "captured_at": "2026-07-22T03:56:46.811197Z",
+      "captured_at": "2026-07-22T06:22:14.942830Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -116,41 +116,6 @@
       "summary": "Erik Brynjolfsson has a challenge for anyone worried about artificial intelligence: Stop asking what AI will do to us, and start asking what we will do with AI. In this episode of Me, Myself, and AI, the Stanford Univers... Tags: Enterprise AI Workflow, Counter Signal, AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_d7afdfdc29a5",
-      "title": "From idea to sellable product in 48 hours with a $200 budget: day-4 numbers inside",
-      "url": "https://www.indiehackers.com/post/from-idea-to-sellable-product-in-48-hours-with-a-200-budget-day-4-numbers-inside-ae001a6d63",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-07-21T05:48:07.711000Z",
-      "captured_at": "2026-07-22T03:56:46.811197Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "From"
-      ],
-      "business_model_tags": [
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 4,
-      "total_score": 32,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 0,
-        "case_concreteness": 4,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "From idea to sellable product in 48 hours with a $200 budget: day-4 numbers inside Tags: OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
     }
   ]
 }
