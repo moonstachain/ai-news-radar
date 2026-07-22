@@ -1,6 +1,35 @@
 {
-  "generated_at": "2026-07-22T12:55:31.650189Z",
+  "generated_at": "2026-07-22T14:56:30.713267Z",
   "clusters": [
+    {
+      "cluster_id": "biz_cluster_7ed302abec07",
+      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+      "lane": "founder_case",
+      "signal_ids": [
+        "biz_87595f9e24a9"
+      ],
+      "source_count": 1,
+      "importance_score": 52,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "wealth_flywheel"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
+      "evidence_refs": [
+        "biz_87595f9e24a9"
+      ],
+      "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: Wocap",
+          "url": "https://www.cbinsights.com/research/ceo-interview-wocap/"
+        }
+      ]
+    },
     {
       "cluster_id": "biz_cluster_fe2e659f2276",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
@@ -26,6 +55,35 @@
           "source": "GitHub Blog",
           "title": "How to build interactive experiences with canvases",
           "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_b213dadcb8a0",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "signal_ids": [
+        "biz_8d80ffa56e07"
+      ],
+      "source_count": 1,
+      "importance_score": 38,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_8d80ffa56e07"
+      ],
+      "top_sources": [
+        {
+          "source": "Bain Insights",
+          "title": "Rearchitecting the Data Platform for the AI Era",
+          "url": "https://www.bain.com/insights/rearchitecting-the-data-platform-for-the-ai-era/"
         }
       ]
     }
