@@ -1,42 +1,7 @@
 {
-  "generated_at": "2026-07-21T23:27:54.737959Z",
+  "generated_at": "2026-07-22T00:16:03.227756Z",
   "window_hours": 24,
   "items": [
-    {
-      "signal_id": "biz_6a3ee3452449",
-      "title": "AI raises everyone's app quality but customers now vibecode their own clones to skip paying",
-      "url": "https://levels.io/ai-removes-app-layer-as-customers-vibecode-clones",
-      "source_id": "levelsio",
-      "source_name": "levels.io",
-      "published_at": "2026-07-21T00:00:00Z",
-      "captured_at": "2026-07-21T23:27:54.737959Z",
-      "lane": "opc",
-      "entities": [
-        "levels.io"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 42,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "AI raises everyone's app quality but customers now vibecode their own clones to skip paying Tags: Founder Case, OPC.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
     {
       "signal_id": "biz_f145da6c76ba",
       "title": "Responsible AI Is Becoming a Growth Strategy",
@@ -44,7 +9,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-07-21T12:05:00Z",
-      "captured_at": "2026-07-21T23:27:54.737959Z",
+      "captured_at": "2026-07-22T00:16:03.227756Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -82,7 +47,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-07-21T16:00:00Z",
-      "captured_at": "2026-07-21T23:27:54.737959Z",
+      "captured_at": "2026-07-22T00:16:03.227756Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog"
@@ -118,7 +83,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-07-21T11:00:41Z",
-      "captured_at": "2026-07-21T23:27:54.737959Z",
+      "captured_at": "2026-07-22T00:16:03.227756Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -159,7 +124,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-07-21T05:48:07.711000Z",
-      "captured_at": "2026-07-21T23:27:54.737959Z",
+      "captured_at": "2026-07-22T00:16:03.227756Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -186,43 +151,6 @@
       "summary": "From idea to sellable product in 48 hours with a $200 budget: day-4 numbers inside Tags: OPC.",
       "timestamp_basis": "page_structured_time",
       "transport_mode": "page_detail"
-    },
-    {
-      "signal_id": "biz_fb332328e574",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "url": "https://huggingface.co/blog/grabette",
-      "source_id": "huggingface_blog",
-      "source_name": "Hugging Face Blog",
-      "published_at": "2026-07-21T00:00:00Z",
-      "captured_at": "2026-07-21T23:27:54.737959Z",
-      "lane": "ai_commercialization",
-      "entities": [
-        "Hugging Face Blog",
-        "Grabette"
-      ],
-      "business_model_tags": [
-        "Enterprise AI Workflow"
-      ],
-      "yuanli_tags": [
-        "yuanli_asset",
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 32,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 9,
-        "business_model_value": 0,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Grabette: an open system to record robot-manipulation data Tags: Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
     }
   ]
 }
