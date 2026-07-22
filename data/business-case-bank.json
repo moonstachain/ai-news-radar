@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T14:56:30.713267Z",
+  "generated_at": "2026-07-22T16:15:11.854466Z",
   "cases": [
     {
       "case_id": "opc_case_ad35b646ea7c",
@@ -21,6 +21,46 @@
         "ftf_trust"
       ],
       "score": 50
+    },
+    {
+      "case_id": "opc_case_cf3bd1b7446e",
+      "company": "Why We Built",
+      "founder": "",
+      "source_refs": [
+        "biz_7f43f822e5e5"
+      ],
+      "url": "https://www.indiehackers.com/post/why-we-built-a-shopify-store-that-is-not-meant-to-maximize-sales-1b30d60823",
+      "title": "Why We Built a Shopify Store That Is Not Meant to Maximize Sales",
+      "business_model": "Founder Case, OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Indie Hackers",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup"
+      ],
+      "score": 43
+    },
+    {
+      "case_id": "opc_case_57246937ae84",
+      "company": "Failing",
+      "founder": "",
+      "source_refs": [
+        "biz_dfba7c1fdbcc"
+      ],
+      "url": "https://www.indiehackers.com/post/tech/failing-6-times-before-hitting-a-7-figure-arr-in-10-months-with-no-code-3FvQoHUh2SglJvAJGkSF",
+      "title": "Failing 6 times before hitting a 7-figure ARR in 10 months with no code",
+      "business_model": "OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Indie Hackers",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup"
+      ],
+      "score": 32
     }
   ]
 }
