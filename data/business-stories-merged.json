@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T22:54:16.946614Z",
+  "generated_at": "2026-07-22T23:55:37.001398Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_9400d3b0f311",
@@ -64,33 +64,40 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_073f19c81a97",
+      "cluster_id": "biz_cluster_57316d0343cf",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "signal_ids": [
-        "biz_48b2f823c3f4",
+        "biz_e175cf7034b1",
+        "biz_af6536117c7d",
         "biz_ec6ecbd974b1"
       ],
       "source_count": 1,
-      "importance_score": 45,
+      "importance_score": 48,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_48b2f823c3f4",
+        "biz_e175cf7034b1",
+        "biz_af6536117c7d",
         "biz_ec6ecbd974b1"
       ],
       "top_sources": [
         {
           "source": "Indie Hackers",
-          "title": "I spent 6 months on my first product and made $0. Here's what I built next.",
-          "url": "https://www.indiehackers.com/post/i-spent-6-months-on-my-first-product-and-made-0-heres-what-i-built-next-763f2886e7"
+          "title": "Cybersecurity Services for Startups: Express Scan, Base Audit, and Penetration Testing",
+          "url": "https://www.indiehackers.com/post/cybersecurity-services-for-startups-express-scan-base-audit-and-penetration-testing-0beda6e078"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "35K+ views. 1.5K+ website visits. Still zero paid customers. What am I missing?",
+          "url": "https://www.indiehackers.com/post/35k-views-1-5k-website-visits-still-zero-paid-customers-what-am-i-missing-a404387cbd"
         },
         {
           "source": "Indie Hackers",
@@ -100,30 +107,37 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_beb2515cf7a7",
+      "cluster_id": "biz_cluster_ff309a788338",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
-        "biz_0870a3ac6422"
+        "biz_0870a3ac6422",
+        "biz_9ee10cab0e12"
       ],
-      "source_count": 1,
-      "importance_score": 45,
-      "confidence": "watch",
+      "source_count": 2,
+      "importance_score": 44,
+      "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
-        "biz_0870a3ac6422"
+        "biz_0870a3ac6422",
+        "biz_9ee10cab0e12"
       ],
       "top_sources": [
         {
           "source": "GitHub Blog",
           "title": "Copilot vs. raw API access: What are you actually paying for?",
           "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/"
+        },
+        {
+          "source": "OpenAI News",
+          "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+          "url": "https://openai.com/index/ntt-data"
         }
       ]
     },
@@ -135,7 +149,7 @@
         "biz_8d80ffa56e07"
       ],
       "source_count": 1,
-      "importance_score": 38,
+      "importance_score": 37,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
