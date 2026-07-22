@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T03:55:24.636820Z",
+  "generated_at": "2026-07-22T06:21:11.243431Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -150,15 +150,15 @@
       ],
       "item_count": 7,
       "duplicate_count": 7,
-      "score": 0.9231,
-      "importance": 0.9231,
-      "importance_score": 0.9231,
+      "score": 0.9185,
+      "importance": 0.9185,
+      "importance_score": 0.9185,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.7392,
+        "recency": 0.7137,
         "story_heat": 1.0
       },
       "category": "official",
@@ -289,15 +289,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.922,
-      "importance": 0.922,
-      "importance_score": 0.922,
+      "score": 0.9168,
+      "importance": 0.9168,
+      "importance_score": 0.9168,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8331,
+        "recency": 0.8043,
         "story_heat": 1.0
       },
       "category": "official",
@@ -318,65 +318,122 @@
       }
     },
     {
-      "story_id": "story_eed16821fcdd",
-      "title": "物理 AI 仿真现状：概述 / The State of Simulation for Physical AI: An Overview",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "primary_url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_fe64421b4dfd",
+      "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "primary_url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "9ebf5c48305ae386c0e6a4477024ccf03d38ee44",
-          "title": "物理 AI 仿真现状：概述 / The State of Simulation for Physical AI: An Overview",
-          "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-21T20:00:27Z"
+          "id": "279e175787d3add4a256c7ac2f454ed7d0cca39d",
+          "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议",
+          "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-22T04:52:13.369000Z"
+        },
+        {
+          "id": "bfff5271a6bebacb18fa8f6ae4082bbe49b280b2",
+          "title": "法官批准Anthropic就利用盗版书籍训练Claude一案达成15亿美元和解协议",
+          "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+          "source": "apnews.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-22T04:52:13.369000Z"
+        },
+        {
+          "id": "3291a4d8896e9892d7a7ed635a7ccdbfa229b400",
+          "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议 / Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+          "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-07-21T19:04:39Z"
+        },
+        {
+          "id": "e3b0f2fb93b49383f4c5426a22bcdae66c0b78b3",
+          "title": "法官批准针对用于训练克劳德的盗版书籍的 15 亿美元人为和解 / Judge Approves $1.5 Billion Anthropic Settlement Over Pirated Books Used To Train Claude",
+          "url": "https://yro.slashdot.org/story/26/07/21/1744202/judge-approves-15-billion-anthropic-settlement-over-pirated-books-used-to-train-claude",
+          "source": "Slashdot (科技资讯)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-21T18:00:00Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 4,
       "source_names": [
-        "Hugging Face Blog"
+        "HN Algolia · AI 24h",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "Slashdot (科技资讯)",
+        "apnews.com"
       ],
       "items": [
         {
-          "id": "9ebf5c48305ae386c0e6a4477024ccf03d38ee44",
-          "title": "物理 AI 仿真现状：概述 / The State of Simulation for Physical AI: An Overview",
-          "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-21T20:00:27Z"
+          "id": "279e175787d3add4a256c7ac2f454ed7d0cca39d",
+          "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议",
+          "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-22T04:52:13.369000Z"
+        },
+        {
+          "id": "bfff5271a6bebacb18fa8f6ae4082bbe49b280b2",
+          "title": "法官批准Anthropic就利用盗版书籍训练Claude一案达成15亿美元和解协议",
+          "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+          "source": "apnews.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-22T04:52:13.369000Z"
+        },
+        {
+          "id": "3291a4d8896e9892d7a7ed635a7ccdbfa229b400",
+          "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议 / Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+          "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-07-21T19:04:39Z"
+        },
+        {
+          "id": "e3b0f2fb93b49383f4c5426a22bcdae66c0b78b3",
+          "title": "法官批准针对用于训练克劳德的盗版书籍的 15 亿美元人为和解 / Judge Approves $1.5 Billion Anthropic Settlement Over Pirated Books Used To Train Claude",
+          "url": "https://yro.slashdot.org/story/26/07/21/1744202/judge-approves-15-billion-anthropic-settlement-over-pirated-books-used-to-train-claude",
+          "source": "Slashdot (科技资讯)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-21T18:00:00Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8406,
-      "importance": 0.8406,
-      "importance_score": 0.8406,
-      "importance_label": "官方更新",
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8598,
+      "importance": 0.8598,
+      "importance_score": 0.8598,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.892,
-        "story_heat": 0.0
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9788,
+        "story_heat": 0.75
       },
-      "category": "official",
+      "category": "multi_source",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-21T20:00:27Z",
-      "latest_at": "2026-07-21T20:00:27Z",
+      "earliest_at": "2026-07-21T18:00:00Z",
+      "latest_at": "2026-07-22T04:52:13.369000Z",
       "primary_item": {
-        "id": "9ebf5c48305ae386c0e6a4477024ccf03d38ee44",
-        "title": "物理 AI 仿真现状：概述 / The State of Simulation for Physical AI: An Overview",
-        "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
+        "id": "279e175787d3add4a256c7ac2f454ed7d0cca39d",
+        "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议",
+        "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -433,15 +490,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8405,
-      "importance": 0.8405,
-      "importance_score": 0.8405,
+      "score": 0.8353,
+      "importance": 0.8353,
+      "importance_score": 0.8353,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8418,
+        "recency": 0.8128,
         "story_heat": 0.25
       },
       "category": "official",
@@ -458,6 +515,68 @@
         "title": "GitHub Copilot 推出 canvases 扩展，实现开发者与 AI 智能体实时协作 / How to build interactive experiences with canvases",
         "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
         "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_eed16821fcdd",
+      "title": "物理 AI 仿真现状：概述 / The State of Simulation for Physical AI: An Overview",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "primary_url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "9ebf5c48305ae386c0e6a4477024ccf03d38ee44",
+          "title": "物理 AI 仿真现状：概述 / The State of Simulation for Physical AI: An Overview",
+          "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-21T20:00:27Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "9ebf5c48305ae386c0e6a4477024ccf03d38ee44",
+          "title": "物理 AI 仿真现状：概述 / The State of Simulation for Physical AI: An Overview",
+          "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-21T20:00:27Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.835,
+      "importance": 0.835,
+      "importance_score": 0.835,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8612,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-21T20:00:27Z",
+      "latest_at": "2026-07-21T20:00:27Z",
+      "primary_item": {
+        "id": "9ebf5c48305ae386c0e6a4477024ccf03d38ee44",
+        "title": "物理 AI 仿真现状：概述 / The State of Simulation for Physical AI: An Overview",
+        "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -496,15 +615,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8295,
-      "importance": 0.8295,
-      "importance_score": 0.8295,
+      "score": 0.8244,
+      "importance": 0.8244,
+      "importance_score": 0.8244,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8307,
+        "recency": 0.802,
         "story_heat": 0.0
       },
       "category": "official",
@@ -595,15 +714,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.826,
-      "importance": 0.826,
-      "importance_score": 0.826,
+      "score": 0.8203,
+      "importance": 0.8203,
+      "importance_score": 0.8203,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9302,
+        "recency": 0.8981,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -619,125 +738,6 @@
         "title": "OpenAI 自曝 AI 模型突破沙盒入侵 Hugging Face",
         "url": "https://www.ithome.com/0/979/815.htm",
         "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_1db9c8ac2637",
-      "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元",
-      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "primary_url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "af7d6248407dbd8bec3b59b4c542fe8da91e018b",
-          "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元",
-          "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-21T05:54:05.672000Z"
-        },
-        {
-          "id": "1ed27b6f885e79ad484c21efaabab02210fb054a",
-          "title": "五家美国科技巨头的隐性债务因不透明的人工智能融资飙升至1.65万亿美元",
-          "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-          "source": "asia.nikkei.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T05:54:05.672000Z"
-        },
-        {
-          "id": "870201b2392dbaf2dfc87231762febb172eb72f4",
-          "title": "由于人工智能融资不透明，美国五家科技巨头的隐性债务飙升至 1.65 吨 / Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
-          "url": "https://news.ycombinator.com/item?id=48987863",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-21T04:24:06.277000Z"
-        },
-        {
-          "id": "0285ad52e8e2fd643c01f65ec1b4aa9a9b7fa6fb",
-          "title": "五家美国科技巨头的隐性债务因不透明的人工智能融资飙升至1.65万亿美元 / Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
-          "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-21T03:56:03Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "asia.nikkei.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "af7d6248407dbd8bec3b59b4c542fe8da91e018b",
-          "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元",
-          "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-21T05:54:05.672000Z"
-        },
-        {
-          "id": "1ed27b6f885e79ad484c21efaabab02210fb054a",
-          "title": "五家美国科技巨头的隐性债务因不透明的人工智能融资飙升至1.65万亿美元",
-          "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-          "source": "asia.nikkei.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T05:54:05.672000Z"
-        },
-        {
-          "id": "870201b2392dbaf2dfc87231762febb172eb72f4",
-          "title": "由于人工智能融资不透明，美国五家科技巨头的隐性债务飙升至 1.65 吨 / Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
-          "url": "https://news.ycombinator.com/item?id=48987863",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-21T04:24:06.277000Z"
-        },
-        {
-          "id": "0285ad52e8e2fd643c01f65ec1b4aa9a9b7fa6fb",
-          "title": "五家美国科技巨头的隐性债务因不透明的人工智能融资飙升至1.65万亿美元 / Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
-          "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-21T03:56:03Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.8206,
-      "importance": 0.8206,
-      "importance_score": 0.8206,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7276,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-21T03:56:03Z",
-      "latest_at": "2026-07-21T05:54:05.672000Z",
-      "primary_item": {
-        "id": "af7d6248407dbd8bec3b59b4c542fe8da91e018b",
-        "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元",
-        "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -776,15 +776,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8337,
-      "importance": 0.8337,
-      "importance_score": 0.8337,
+      "score": 0.8284,
+      "importance": 0.8284,
+      "importance_score": 0.8284,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8541,
+        "recency": 0.8246,
         "story_heat": 0.0
       },
       "category": "official",
@@ -838,15 +838,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7963,
-      "importance": 0.7963,
-      "importance_score": 0.7963,
+      "score": 0.7908,
+      "importance": 0.7908,
+      "importance_score": 0.7908,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.88,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.893,
+        "recency": 0.8622,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -865,102 +865,63 @@
       }
     },
     {
-      "story_id": "story_8a76849761ae",
-      "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
-      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-      "primary_url": "https://qwen.ai/blog?id=qwen-image-3.0",
-      "source": "Qwen：Blog Retrieval（API）",
+      "story_id": "story_f3196b73cd32",
+      "title": "腾讯设计Agent平台Miora全面开放",
+      "url": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
+      "primary_url": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
+      "source": "公众号：数字生命卡兹克",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "36d38540011f8f5fcbc9e5b3b53653f01cd2a3d0",
-          "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
-          "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-          "source": "Qwen：Blog Retrieval（API）",
+          "id": "d50fdfa0f64e53690f99d1a2b52b1d7070bf630f",
+          "title": "腾讯设计Agent平台Miora全面开放",
+          "url": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
+          "source": "公众号：数字生命卡兹克",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-21T06:00:00Z"
-        },
-        {
-          "id": "46d9236c43067a055cda17be4f14cb3dcfbfdf08",
-          "title": "Qwen-Image-3.0：丰富的内容、真实的细节、深厚的知识",
-          "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-          "source": "qwen.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T10:38:03.030000Z"
-        },
-        {
-          "id": "4e4246dba5c5ba1be1f42db1539cc1aac9819851",
-          "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\" / Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-          "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-21T08:44:23Z"
+          "published_at": "2026-07-22T04:21:03Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "Qwen：Blog Retrieval（API）",
-        "qwen.ai"
+        "公众号：数字生命卡兹克"
       ],
       "items": [
         {
-          "id": "36d38540011f8f5fcbc9e5b3b53653f01cd2a3d0",
-          "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
-          "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-          "source": "Qwen：Blog Retrieval（API）",
+          "id": "d50fdfa0f64e53690f99d1a2b52b1d7070bf630f",
+          "title": "腾讯设计Agent平台Miora全面开放",
+          "url": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
+          "source": "公众号：数字生命卡兹克",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-21T06:00:00Z"
-        },
-        {
-          "id": "46d9236c43067a055cda17be4f14cb3dcfbfdf08",
-          "title": "Qwen-Image-3.0：丰富的内容、真实的细节、深厚的知识",
-          "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-          "source": "qwen.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T10:38:03.030000Z"
-        },
-        {
-          "id": "4e4246dba5c5ba1be1f42db1539cc1aac9819851",
-          "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\" / Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-          "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-21T08:44:23Z"
+          "published_at": "2026-07-22T04:21:03Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.7838,
-      "importance": 0.7838,
-      "importance_score": 0.7838,
-      "importance_label": "多源热议",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7775,
+      "importance": 0.7775,
+      "importance_score": 0.7775,
+      "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7286,
-        "story_heat": 0.5
+        "recency": 0.9715,
+        "story_heat": 0.0
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-21T06:00:00Z",
-      "latest_at": "2026-07-21T10:38:03.030000Z",
+      "earliest_at": "2026-07-22T04:21:03Z",
+      "latest_at": "2026-07-22T04:21:03Z",
       "primary_item": {
-        "id": "36d38540011f8f5fcbc9e5b3b53653f01cd2a3d0",
-        "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
-        "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-        "source": "Qwen：Blog Retrieval（API）",
+        "id": "d50fdfa0f64e53690f99d1a2b52b1d7070bf630f",
+        "title": "腾讯设计Agent平台Miora全面开放",
+        "url": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
+        "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
       }
     },
@@ -1037,15 +998,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8123,
-      "importance": 0.8123,
-      "importance_score": 0.8123,
+      "score": 0.8068,
+      "importance": 0.8068,
+      "importance_score": 0.8068,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8875,
+        "recency": 0.8569,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1061,6 +1022,67 @@
         "title": "OpenAI 在 ChatGPT 中正式推出广告服务",
         "url": "https://ads.openai.com",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_a81c94f16b8f",
+      "title": "ABot-World-0：单张桌面级GPU实现无限交互式世界生成",
+      "url": "https://arxiv.org/abs/2607.19191",
+      "primary_url": "https://arxiv.org/abs/2607.19191",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c617fbb7fca8bbb3e6e5bc35a1bc07e1c9910ff1",
+          "title": "ABot-World-0：单张桌面级GPU实现无限交互式世界生成",
+          "url": "https://arxiv.org/abs/2607.19191",
+          "source": "HuggingFace Daily Papers（社区热门论文）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T15:26:50Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "HuggingFace Daily Papers（社区热门论文）"
+      ],
+      "items": [
+        {
+          "id": "c617fbb7fca8bbb3e6e5bc35a1bc07e1c9910ff1",
+          "title": "ABot-World-0：单张桌面级GPU实现无限交互式世界生成",
+          "url": "https://arxiv.org/abs/2607.19191",
+          "source": "HuggingFace Daily Papers（社区热门论文）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-21T15:26:50Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7657,
+      "importance": 0.7657,
+      "importance_score": 0.7657,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.83,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8063,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-21T15:26:50Z",
+      "latest_at": "2026-07-21T15:26:50Z",
+      "primary_item": {
+        "id": "c617fbb7fca8bbb3e6e5bc35a1bc07e1c9910ff1",
+        "title": "ABot-World-0：单张桌面级GPU实现无限交互式世界生成",
+        "url": "https://arxiv.org/abs/2607.19191",
+        "source": "HuggingFace Daily Papers（社区热门论文）",
         "source_name": "AI HOT"
       }
     },
@@ -1118,15 +1140,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7698,
-      "importance": 0.7698,
-      "importance_score": 0.7698,
+      "score": 0.7645,
+      "importance": 0.7645,
+      "importance_score": 0.7645,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8565,
+        "recency": 0.827,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1199,15 +1221,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7665,
-      "importance": 0.7665,
-      "importance_score": 0.7665,
+      "score": 0.7615,
+      "importance": 0.7615,
+      "importance_score": 0.7615,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.805,
+        "recency": 0.7772,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1261,15 +1283,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7591,
-      "importance": 0.7591,
-      "importance_score": 0.7591,
+      "score": 0.7538,
+      "importance": 0.7538,
+      "importance_score": 0.7538,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8528,
+        "recency": 0.8234,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1284,6 +1306,67 @@
         "title": "Karpathy：用语音与LLM长谈可提升理解效率",
         "url": "https://x.com/karpathy/status/2079610838143623371",
         "source": "X：Andrej Karpathy (@karpathy)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_38c1c638feb3",
+      "title": "OpenRouter 新增音频转写 API，支持 Whisper 与 token 计价 STT 模型",
+      "url": "https://openrouter.ai/blog/tutorials/transcription-on-openrouter",
+      "primary_url": "https://openrouter.ai/blog/tutorials/transcription-on-openrouter",
+      "source": "OpenRouter：Announcements（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "3aaeabc1c8bab9d58d3d66397375491bf721d2b5",
+          "title": "OpenRouter 新增音频转写 API，支持 Whisper 与 token 计价 STT 模型",
+          "url": "https://openrouter.ai/blog/tutorials/transcription-on-openrouter",
+          "source": "OpenRouter：Announcements（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-22T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenRouter：Announcements（RSS）"
+      ],
+      "items": [
+        {
+          "id": "3aaeabc1c8bab9d58d3d66397375491bf721d2b5",
+          "title": "OpenRouter 新增音频转写 API，支持 Whisper 与 token 计价 STT 模型",
+          "url": "https://openrouter.ai/blog/tutorials/transcription-on-openrouter",
+          "source": "OpenRouter：Announcements（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-22T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7518,
+      "importance": 0.7518,
+      "importance_score": 0.7518,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9123,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-22T00:00:00Z",
+      "latest_at": "2026-07-22T00:00:00Z",
+      "primary_item": {
+        "id": "3aaeabc1c8bab9d58d3d66397375491bf721d2b5",
+        "title": "OpenRouter 新增音频转写 API，支持 Whisper 与 token 计价 STT 模型",
+        "url": "https://openrouter.ai/blog/tutorials/transcription-on-openrouter",
+        "source": "OpenRouter：Announcements（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -1322,15 +1405,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7558,
-      "importance": 0.7558,
-      "importance_score": 0.7558,
+      "score": 0.7509,
+      "importance": 0.7509,
+      "importance_score": 0.7509,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7845,
+        "recency": 0.7574,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1383,15 +1466,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7553,
-      "importance": 0.7553,
-      "importance_score": 0.7553,
+      "score": 0.7502,
+      "importance": 0.7502,
+      "importance_score": 0.7502,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8318,
+        "recency": 0.8031,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1444,21 +1527,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7526,
-      "importance": 0.7526,
-      "importance_score": 0.7526,
+      "score": 0.7469,
+      "importance": 0.7469,
+      "importance_score": 0.7469,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9168,
+        "recency": 0.8852,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-21T21:54:19Z",
       "latest_at": "2026-07-21T21:54:19Z",
@@ -1524,15 +1606,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7693,
-      "importance": 0.7693,
-      "importance_score": 0.7693,
+      "score": 0.7641,
+      "importance": 0.7641,
+      "importance_score": 0.7641,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8372,
+        "recency": 0.8083,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -1548,147 +1630,6 @@
         "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
         "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
         "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_403fc3e324b6",
-      "title": "Claude Cowork 新增技能录制功能",
-      "url": "https://x.com/claudeai/status/2079595988998554047",
-      "primary_url": "https://x.com/claudeai/status/2079595988998554047",
-      "source": "X：Claude (@claudeai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "448d84a4a49bea5b256ff2c6198cdb984ebafb75",
-          "title": "Claude Cowork 新增技能录制功能",
-          "url": "https://x.com/claudeai/status/2079595988998554047",
-          "source": "X：Claude (@claudeai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-21T15:54:55Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Claude (@claudeai)"
-      ],
-      "items": [
-        {
-          "id": "448d84a4a49bea5b256ff2c6198cdb984ebafb75",
-          "title": "Claude Cowork 新增技能录制功能",
-          "url": "https://x.com/claudeai/status/2079595988998554047",
-          "source": "X：Claude (@claudeai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-21T15:54:55Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7359,
-      "importance": 0.7359,
-      "importance_score": 0.7359,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8408,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-21T15:54:55Z",
-      "latest_at": "2026-07-21T15:54:55Z",
-      "primary_item": {
-        "id": "448d84a4a49bea5b256ff2c6198cdb984ebafb75",
-        "title": "Claude Cowork 新增技能录制功能",
-        "url": "https://x.com/claudeai/status/2079595988998554047",
-        "source": "X：Claude (@claudeai)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_f2a1bf222d63",
-      "title": "Poolside 发布 Laguna S 2.1：118B 参数 MoE 模型，长程编码能力对标更大模型",
-      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "primary_url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5e453989214a1ab18fe4d2ac4b6428a31860d710",
-          "title": "Poolside 发布 Laguna S 2.1：118B 参数 MoE 模型，长程编码能力对标更大模型",
-          "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-21T20:43:27.067000Z"
-        },
-        {
-          "id": "0fe01d520cc76b9d2269217c736be75265817e67",
-          "title": "Poolside 发布 Laguna S 2.1：118B 参数 MoE 模型，长程编码能力对标更大模型 / Laguna S 2.1",
-          "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-          "source": "poolside.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T20:43:27.067000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "poolside.ai"
-      ],
-      "items": [
-        {
-          "id": "5e453989214a1ab18fe4d2ac4b6428a31860d710",
-          "title": "Poolside 发布 Laguna S 2.1：118B 参数 MoE 模型，长程编码能力对标更大模型",
-          "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-21T20:43:27.067000Z"
-        },
-        {
-          "id": "0fe01d520cc76b9d2269217c736be75265817e67",
-          "title": "Poolside 发布 Laguna S 2.1：118B 参数 MoE 模型，长程编码能力对标更大模型 / Laguna S 2.1",
-          "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-          "source": "poolside.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-21T20:43:27.067000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7928,
-      "importance": 0.7928,
-      "importance_score": 0.7928,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9013,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-21T20:43:27.067000Z",
-      "latest_at": "2026-07-21T20:43:27.067000Z",
-      "primary_item": {
-        "id": "5e453989214a1ab18fe4d2ac4b6428a31860d710",
-        "title": "Poolside 发布 Laguna S 2.1：118B 参数 MoE 模型，长程编码能力对标更大模型",
-        "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     }
