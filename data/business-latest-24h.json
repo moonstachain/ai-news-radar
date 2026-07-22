@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T14:56:30.713267Z",
+  "generated_at": "2026-07-22T16:15:11.854466Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T14:42:39Z",
-      "captured_at": "2026-07-22T14:56:30.713267Z",
+      "captured_at": "2026-07-22T16:15:11.854466Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -40,40 +40,43 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_4b71a2c4ce40",
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "source_id": "github_blog",
-      "source_name": "GitHub Blog",
-      "published_at": "2026-07-21T16:00:00Z",
-      "captured_at": "2026-07-22T14:56:30.713267Z",
-      "lane": "ai_commercialization",
+      "signal_id": "biz_7f43f822e5e5",
+      "title": "Why We Built a Shopify Store That Is Not Meant to Maximize Sales",
+      "url": "https://www.indiehackers.com/post/why-we-built-a-shopify-store-that-is-not-meant-to-maximize-sales-1b30d60823",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-07-22T11:19:31.360000Z",
+      "captured_at": "2026-07-22T16:15:11.854466Z",
+      "lane": "opc",
       "entities": [
-        "GitHub Blog"
+        "Indie Hackers",
+        "Why We Built",
+        "Shopify Store That",
+        "Is Not Meant",
+        "Maximize Sales"
       ],
       "business_model_tags": [
-        "AI Business Model Innovation",
-        "Enterprise AI Workflow"
+        "Founder Case",
+        "OPC"
       ],
       "yuanli_tags": [
-        "yuanli_asset",
-        "yuanli_os"
+        "yuanli_startup"
       ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 38,
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 43,
       "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 8,
         "counter_signal_value": 0
       },
-      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The... Tags: AI Business Model Innovation, Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
+      "summary": "Why We Built a Shopify Store That Is Not Meant to Maximize Sales Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     },
     {
       "signal_id": "biz_8d80ffa56e07",
@@ -82,7 +85,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-07-22T13:00:00Z",
-      "captured_at": "2026-07-22T14:56:30.713267Z",
+      "captured_at": "2026-07-22T16:15:11.854466Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
@@ -112,6 +115,42 @@
       "summary": "Rearchitecting the Data Platform for the AI Era Tags: AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_dfba7c1fdbcc",
+      "title": "Failing 6 times before hitting a 7-figure ARR in 10 months with no code",
+      "url": "https://www.indiehackers.com/post/tech/failing-6-times-before-hitting-a-7-figure-arr-in-10-months-with-no-code-3FvQoHUh2SglJvAJGkSF",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-07-21T17:19:16.050000Z",
+      "captured_at": "2026-07-22T16:15:11.854466Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Failing",
+        "ARR"
+      ],
+      "business_model_tags": [
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 32,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Failing 6 times before hitting a 7-figure ARR in 10 months with no code Tags: OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     }
   ]
 }

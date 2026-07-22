@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T14:56:30.713267Z",
+  "generated_at": "2026-07-22T16:15:11.854466Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_7ed302abec07",
@@ -31,30 +31,38 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_fe2e659f2276",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
+      "cluster_id": "biz_cluster_24140c9e9e69",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
       "signal_ids": [
-        "biz_4b71a2c4ce40"
+        "biz_7f43f822e5e5",
+        "biz_dfba7c1fdbcc"
       ],
       "source_count": 1,
       "importance_score": 40,
       "confidence": "watch",
       "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_4b71a2c4ce40"
+        "biz_7f43f822e5e5",
+        "biz_dfba7c1fdbcc"
       ],
       "top_sources": [
         {
-          "source": "GitHub Blog",
-          "title": "How to build interactive experiences with canvases",
-          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/"
+          "source": "Indie Hackers",
+          "title": "Why We Built a Shopify Store That Is Not Meant to Maximize Sales",
+          "url": "https://www.indiehackers.com/post/why-we-built-a-shopify-store-that-is-not-meant-to-maximize-sales-1b30d60823"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "Failing 6 times before hitting a 7-figure ARR in 10 months with no code",
+          "url": "https://www.indiehackers.com/post/tech/failing-6-times-before-hitting-a-7-figure-arr-in-10-months-with-no-code-3FvQoHUh2SglJvAJGkSF"
         }
       ]
     },
