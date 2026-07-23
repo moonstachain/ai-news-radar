@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T07:56:13.125143Z",
+  "generated_at": "2026-07-23T10:12:12.497139Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T19:53:12Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T19:23:00Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -83,7 +83,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T19:05:27Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -120,7 +120,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T18:51:41Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -157,7 +157,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T18:43:45Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -194,7 +194,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T18:09:32Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -231,7 +231,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T17:48:51Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -267,7 +267,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T17:41:55Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -304,7 +304,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T17:33:29Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -341,7 +341,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-22T17:31:21Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -372,13 +372,51 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_0d7b2b050403",
+      "title": "Building a startup costs $0. Your tooling budget costs $500K. Here's why.",
+      "url": "https://www.indiehackers.com/post/building-a-startup-costs-0-your-tooling-budget-costs-500k-heres-why-5d87b37500",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-07-23T07:03:21.089000Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Building",
+        "Your",
+        "Here"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 12,
+      "total_score": 47,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 12,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Building a startup costs $0. Your tooling budget costs $500K. Here's why. Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_af6536117c7d",
       "title": "35K+ views. 1.5K+ website visits. Still zero paid customers. What am I missing?",
       "url": "https://www.indiehackers.com/post/35k-views-1-5k-website-visits-still-zero-paid-customers-what-am-i-missing-a404387cbd",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-07-22T13:33:55.066000Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -415,7 +453,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-07-23T05:09:14Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -455,7 +493,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-07-22T19:00:00Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -488,49 +526,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_7de24c7bb410",
-      "title": "What I've learned talking to founders about cross-border payments this week",
-      "url": "https://www.indiehackers.com/post/what-ive-learned-talking-to-founders-about-cross-border-payments-this-week-a13d212ed3",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-07-22T15:32:48.702000Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "What I"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 42,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "What I've learned talking to founders about cross-border payments this week Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
       "signal_id": "biz_8d80ffa56e07",
       "title": "Rearchitecting the Data Platform for the AI Era",
       "url": "https://www.bain.com/insights/rearchitecting-the-data-platform-for-the-ai-era/",
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-07-22T13:00:00Z",
-      "captured_at": "2026-07-23T07:56:13.125143Z",
+      "captured_at": "2026-07-23T10:12:12.497139Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
