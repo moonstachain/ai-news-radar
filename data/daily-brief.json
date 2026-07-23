@@ -1,8 +1,70 @@
 {
-  "generated_at": "2026-07-23T05:15:08.152370Z",
+  "generated_at": "2026-07-23T07:54:48.427852Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_37c9890bc32e",
+      "title": "将 Nunchaku 4 位扩散推理引入扩散器 / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "primary_url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "f8aff7e85b5148594e968854ce8edf596c17f4e4",
+          "title": "将 Nunchaku 4 位扩散推理引入扩散器 / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+          "url": "https://huggingface.co/blog/nunchaku-diffusers",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-23T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "f8aff7e85b5148594e968854ce8edf596c17f4e4",
+          "title": "将 Nunchaku 4 位扩散推理引入扩散器 / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+          "url": "https://huggingface.co/blog/nunchaku-diffusers",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-23T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8486,
+      "importance": 0.8486,
+      "importance_score": 0.8486,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.892,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-23T00:00:00Z",
+      "latest_at": "2026-07-23T00:00:00Z",
+      "primary_item": {
+        "id": "f8aff7e85b5148594e968854ce8edf596c17f4e4",
+        "title": "将 Nunchaku 4 位扩散推理引入扩散器 / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+        "url": "https://huggingface.co/blog/nunchaku-diffusers",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_788f933fe449",
       "title": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊",
@@ -95,15 +157,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8471,
-      "importance": 0.8471,
-      "importance_score": 0.8471,
+      "score": 0.8408,
+      "importance": 0.8408,
+      "importance_score": 0.8408,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9251,
+        "recency": 0.8902,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -157,15 +219,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8272,
-      "importance": 0.8272,
-      "importance_score": 0.8272,
+      "score": 0.8214,
+      "importance": 0.8214,
+      "importance_score": 0.8214,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8624,
+        "recency": 0.8299,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,88 +243,6 @@
         "title": "Copilot 与原始 API 访问：您实际支付的费用是什么？ / Copilot vs. raw API access: What are you actually paying for?",
         "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for",
         "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_c54f46e53d48",
-      "title": "OpenAI 简介 / Introducing OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "primary_url": "https://openai.com/index/introducing-openai-presence",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "b837aaba9a8cd4918eb0a3906625456af41df706",
-          "title": "OpenAI 简介 / Introducing OpenAI Presence",
-          "url": "https://openai.com/index/introducing-openai-presence",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-22T05:30:00Z"
-        },
-        {
-          "id": "917f21479e088d88c0fb8646923c28857bb19d27",
-          "title": "OpenAI 存在 / OpenAI Presence",
-          "url": "https://openai.com/index/introducing-openai-presence",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-22T15:12:26Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "b837aaba9a8cd4918eb0a3906625456af41df706",
-          "title": "OpenAI 简介 / Introducing OpenAI Presence",
-          "url": "https://openai.com/index/introducing-openai-presence",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-22T05:30:00Z"
-        },
-        {
-          "id": "917f21479e088d88c0fb8646923c28857bb19d27",
-          "title": "OpenAI 存在 / OpenAI Presence",
-          "url": "https://openai.com/index/introducing-openai-presence",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-22T15:12:26Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8247,
-      "importance": 0.8247,
-      "importance_score": 0.8247,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7096,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-22T05:30:00Z",
-      "latest_at": "2026-07-22T15:12:26Z",
-      "primary_item": {
-        "id": "b837aaba9a8cd4918eb0a3906625456af41df706",
-        "title": "OpenAI 简介 / Introducing OpenAI Presence",
-        "url": "https://openai.com/index/introducing-openai-presence",
-        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -301,15 +281,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8214,
-      "importance": 0.8214,
-      "importance_score": 0.8214,
+      "score": 0.8158,
+      "importance": 0.8158,
+      "importance_score": 0.8158,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8302,
+        "recency": 0.7989,
         "story_heat": 0.0
       },
       "category": "official",
@@ -325,6 +305,68 @@
         "title": "新的 Copilot 使用指标影响仪表板 / New Copilot usage metrics impact dashboard",
         "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
         "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_bd6ce42035f5",
+      "title": "与埃芬汉县社区一起建设人工智能基础设施 / Building AI infrastructure with the Effingham County community",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "primary_url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "5e7f9c64c7891969d90129dd9dfdb0cbe001cf95",
+          "title": "与埃芬汉县社区一起建设人工智能基础设施 / Building AI infrastructure with the Effingham County community",
+          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-22T13:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "5e7f9c64c7891969d90129dd9dfdb0cbe001cf95",
+          "title": "与埃芬汉县社区一起建设人工智能基础设施 / Building AI infrastructure with the Effingham County community",
+          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-07-22T13:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.809,
+      "importance": 0.809,
+      "importance_score": 0.809,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.761,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-22T13:00:00Z",
+      "latest_at": "2026-07-22T13:00:00Z",
+      "primary_item": {
+        "id": "5e7f9c64c7891969d90129dd9dfdb0cbe001cf95",
+        "title": "与埃芬汉县社区一起建设人工智能基础设施 / Building AI infrastructure with the Effingham County community",
+        "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -382,15 +424,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8111,
-      "importance": 0.8111,
-      "importance_score": 0.8111,
+      "score": 0.8052,
+      "importance": 0.8052,
+      "importance_score": 0.8052,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8694,
+        "recency": 0.8367,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -444,15 +486,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8077,
-      "importance": 0.8077,
-      "importance_score": 0.8077,
+      "score": 0.8023,
+      "importance": 0.8023,
+      "importance_score": 0.8023,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7983,
+        "recency": 0.7682,
         "story_heat": 0.0
       },
       "category": "official",
@@ -506,15 +548,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8063,
-      "importance": 0.8063,
-      "importance_score": 0.8063,
+      "score": 0.801,
+      "importance": 0.801,
+      "importance_score": 0.801,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7908,
+        "recency": 0.761,
         "story_heat": 0.0
       },
       "category": "official",
@@ -606,15 +648,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8045,
-      "importance": 0.8045,
-      "importance_score": 0.8045,
+      "score": 0.7987,
+      "importance": 0.7987,
+      "importance_score": 0.7987,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8606,
+        "recency": 0.8282,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -687,15 +729,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7923,
-      "importance": 0.7923,
-      "importance_score": 0.7923,
+      "score": 0.7864,
+      "importance": 0.7864,
+      "importance_score": 0.7864,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8648,
+        "recency": 0.8322,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -715,17 +757,17 @@
       }
     },
     {
-      "story_id": "story_bd6ce42035f5",
-      "title": "与埃芬汉县社区一起建设人工智能基础设施 / Building AI infrastructure with the Effingham County community",
-      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "primary_url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "story_id": "story_130e23c4bd2f",
+      "title": "新闻机构如何利用人工智能来推进其重要使命 / How news organizations are using AI to advance their vital missions",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "primary_url": "https://openai.com/index/how-news-organizations-are-using-ai",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "5e7f9c64c7891969d90129dd9dfdb0cbe001cf95",
-          "title": "与埃芬汉县社区一起建设人工智能基础设施 / Building AI infrastructure with the Effingham County community",
-          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+          "id": "ede594f4d7e5baa3e7ce5a1f00c080f468a49c96",
+          "title": "新闻机构如何利用人工智能来推进其重要使命 / How news organizations are using AI to advance their vital missions",
+          "url": "https://openai.com/index/how-news-organizations-are-using-ai",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
@@ -738,9 +780,9 @@
       ],
       "items": [
         {
-          "id": "5e7f9c64c7891969d90129dd9dfdb0cbe001cf95",
-          "title": "与埃芬汉县社区一起建设人工智能基础设施 / Building AI infrastructure with the Effingham County community",
-          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+          "id": "ede594f4d7e5baa3e7ce5a1f00c080f468a49c96",
+          "title": "新闻机构如何利用人工智能来推进其重要使命 / How news organizations are using AI to advance their vital missions",
+          "url": "https://openai.com/index/how-news-organizations-are-using-ai",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
@@ -749,15 +791,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8143,
-      "importance": 0.8143,
-      "importance_score": 0.8143,
+      "score": 0.809,
+      "importance": 0.809,
+      "importance_score": 0.809,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7908,
+        "recency": 0.761,
         "story_heat": 0.0
       },
       "category": "official",
@@ -769,9 +811,9 @@
       "earliest_at": "2026-07-22T13:00:00Z",
       "latest_at": "2026-07-22T13:00:00Z",
       "primary_item": {
-        "id": "5e7f9c64c7891969d90129dd9dfdb0cbe001cf95",
-        "title": "与埃芬汉县社区一起建设人工智能基础设施 / Building AI infrastructure with the Effingham County community",
-        "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+        "id": "ede594f4d7e5baa3e7ce5a1f00c080f468a49c96",
+        "title": "新闻机构如何利用人工智能来推进其重要使命 / How news organizations are using AI to advance their vital missions",
+        "url": "https://openai.com/index/how-news-organizations-are-using-ai",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -830,15 +872,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7835,
-      "importance": 0.7835,
-      "importance_score": 0.7835,
+      "score": 0.7769,
+      "importance": 0.7769,
+      "importance_score": 0.7769,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9661,
+        "recency": 0.9297,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -892,15 +934,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8107,
-      "importance": 0.8107,
-      "importance_score": 0.8107,
+      "score": 0.8052,
+      "importance": 0.8052,
+      "importance_score": 0.8052,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.815,
+        "recency": 0.7843,
         "story_heat": 0.0
       },
       "category": "official",
@@ -954,15 +996,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7794,
-      "importance": 0.7794,
-      "importance_score": 0.7794,
+      "score": 0.7727,
+      "importance": 0.7727,
+      "importance_score": 0.7727,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9821,
+        "recency": 0.9451,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -981,21 +1023,102 @@
       }
     },
     {
-      "story_id": "story_130e23c4bd2f",
-      "title": "新闻机构如何利用人工智能来推进其重要使命 / How news organizations are using AI to advance their vital missions",
-      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "primary_url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "story_id": "story_bc4da3fea4fc",
+      "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
+      "url": "https://github.com/cactus-compute/cactus-hybrid",
+      "primary_url": "https://github.com/cactus-compute/cactus-hybrid",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9183f24fd0a2f27a4fb7f2151480d9279d4b65e8",
+          "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
+          "url": "https://github.com/cactus-compute/cactus-hybrid",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T05:47:29.042000Z"
+        },
+        {
+          "id": "e979efd4d9513751d3ac9afefa61cda734df90da",
+          "title": "Show HN: 《仙人掌杂交种》：我们教4岁的杰玛如何分辨对错 / Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+          "url": "https://github.com/cactus-compute/cactus-hybrid",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-22T17:56:29Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "9183f24fd0a2f27a4fb7f2151480d9279d4b65e8",
+          "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
+          "url": "https://github.com/cactus-compute/cactus-hybrid",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T05:47:29.042000Z"
+        },
+        {
+          "id": "e979efd4d9513751d3ac9afefa61cda734df90da",
+          "title": "Show HN: 《仙人掌杂交种》：我们教4岁的杰玛如何分辨对错 / Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+          "url": "https://github.com/cactus-compute/cactus-hybrid",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-22T17:56:29Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7812,
+      "importance": 0.7812,
+      "importance_score": 0.7812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9698,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-22T17:56:29Z",
+      "latest_at": "2026-07-23T05:47:29.042000Z",
+      "primary_item": {
+        "id": "9183f24fd0a2f27a4fb7f2151480d9279d4b65e8",
+        "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
+        "url": "https://github.com/cactus-compute/cactus-hybrid",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_fc3528d001b5",
+      "title": "推进国家科学的下一个时代 / Advancing the next era of national science",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "primary_url": "https://openai.com/index/advancing-the-next-era-of-national-science",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "ede594f4d7e5baa3e7ce5a1f00c080f468a49c96",
-          "title": "新闻机构如何利用人工智能来推进其重要使命 / How news organizations are using AI to advance their vital missions",
-          "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+          "id": "010dceb15564775c57509eec82ea52e633bcdae4",
+          "title": "推进国家科学的下一个时代 / Advancing the next era of national science",
+          "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-22T13:00:00Z"
+          "published_at": "2026-07-22T12:00:00Z"
         }
       ],
       "source_count": 1,
@@ -1004,26 +1127,26 @@
       ],
       "items": [
         {
-          "id": "ede594f4d7e5baa3e7ce5a1f00c080f468a49c96",
-          "title": "新闻机构如何利用人工智能来推进其重要使命 / How news organizations are using AI to advance their vital missions",
-          "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+          "id": "010dceb15564775c57509eec82ea52e633bcdae4",
+          "title": "推进国家科学的下一个时代 / Advancing the next era of national science",
+          "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-22T13:00:00Z"
+          "published_at": "2026-07-22T12:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8143,
-      "importance": 0.8143,
-      "importance_score": 0.8143,
+      "score": 0.807,
+      "importance": 0.807,
+      "importance_score": 0.807,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7908,
+        "recency": 0.7501,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1032,12 +1155,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-22T13:00:00Z",
-      "latest_at": "2026-07-22T13:00:00Z",
+      "earliest_at": "2026-07-22T12:00:00Z",
+      "latest_at": "2026-07-22T12:00:00Z",
       "primary_item": {
-        "id": "ede594f4d7e5baa3e7ce5a1f00c080f468a49c96",
-        "title": "新闻机构如何利用人工智能来推进其重要使命 / How news organizations are using AI to advance their vital missions",
-        "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+        "id": "010dceb15564775c57509eec82ea52e633bcdae4",
+        "title": "推进国家科学的下一个时代 / Advancing the next era of national science",
+        "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -1077,21 +1200,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7504,
-      "importance": 0.7504,
-      "importance_score": 0.7504,
+      "score": 0.7444,
+      "importance": 0.7444,
+      "importance_score": 0.7444,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8877,
+        "recency": 0.8543,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-22T21:00:17Z",
       "latest_at": "2026-07-22T21:00:17Z",
@@ -1138,15 +1260,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7485,
-      "importance": 0.7485,
-      "importance_score": 0.7485,
+      "score": 0.7428,
+      "importance": 0.7428,
+      "importance_score": 0.7428,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8441,
+        "recency": 0.8122,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1160,6 +1282,66 @@
         "title": "从提示词到任务：多模态交互单元提升AI智能体效率",
         "url": "https://x.com/omarsar0/status/2079982491578827214",
         "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_5ab660276dcf",
+      "title": "北京发布智能体新政，首次将Harness Engineering、Token经济、OPC等写入政策",
+      "url": "https://mp.weixin.qq.com/s/CYB7v1e5D4m-btgosjmLgA",
+      "primary_url": "https://mp.weixin.qq.com/s/CYB7v1e5D4m-btgosjmLgA",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "98ee80e744f7c39cfb79a06cb355896cf1b0750b",
+          "title": "北京发布智能体新政，首次将Harness Engineering、Token经济、OPC等写入政策",
+          "url": "https://mp.weixin.qq.com/s/CYB7v1e5D4m-btgosjmLgA",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T05:13:37Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "items": [
+        {
+          "id": "98ee80e744f7c39cfb79a06cb355896cf1b0750b",
+          "title": "北京发布智能体新政，首次将Harness Engineering、Token经济、OPC等写入政策",
+          "url": "https://mp.weixin.qq.com/s/CYB7v1e5D4m-btgosjmLgA",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T05:13:37Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7428,
+      "importance": 0.7428,
+      "importance_score": 0.7428,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.66,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9619,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-23T05:13:37Z",
+      "latest_at": "2026-07-23T05:13:37Z",
+      "primary_item": {
+        "id": "98ee80e744f7c39cfb79a06cb355896cf1b0750b",
+        "title": "北京发布智能体新政，首次将Harness Engineering、Token经济、OPC等写入政策",
+        "url": "https://mp.weixin.qq.com/s/CYB7v1e5D4m-btgosjmLgA",
+        "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
       }
     },
@@ -1198,15 +1380,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.744,
-      "importance": 0.744,
-      "importance_score": 0.744,
+      "score": 0.7386,
+      "importance": 0.7386,
+      "importance_score": 0.7386,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8024,
+        "recency": 0.7722,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1220,207 +1402,6 @@
         "title": "AMD 投资 50 亿，Anthropic 采购 2GW GPU",
         "url": "https://x.com/SemiAnalysis_/status/2079929602429141215",
         "source": "X：SemiAnalysis (@SemiAnalysis_)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_e8fd0fe4c651",
-      "title": "微软 MagenticLite 模型全面开源",
-      "url": "https://x.com/MSFTResearch/status/2079989338994069511",
-      "primary_url": "https://x.com/MSFTResearch/status/2079989338994069511",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "dd8a7f2203b3cc45de551a806933da55cd93ec16",
-          "title": "微软 MagenticLite 模型全面开源",
-          "url": "https://x.com/MSFTResearch/status/2079989338994069511",
-          "source": "X：Microsoft Research (@MSFTResearch)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-22T17:57:57Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Microsoft Research (@MSFTResearch)"
-      ],
-      "items": [
-        {
-          "id": "dd8a7f2203b3cc45de551a806933da55cd93ec16",
-          "title": "微软 MagenticLite 模型全面开源",
-          "url": "https://x.com/MSFTResearch/status/2079989338994069511",
-          "source": "X：Microsoft Research (@MSFTResearch)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-22T17:57:57Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7435,
-      "importance": 0.7435,
-      "importance_score": 0.7435,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8496,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-22T17:57:57Z",
-      "latest_at": "2026-07-22T17:57:57Z",
-      "primary_item": {
-        "id": "dd8a7f2203b3cc45de551a806933da55cd93ec16",
-        "title": "微软 MagenticLite 模型全面开源",
-        "url": "https://x.com/MSFTResearch/status/2079989338994069511",
-        "source": "X：Microsoft Research (@MSFTResearch)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_108e4a92a72a",
-      "title": "OpenAI 拟投资 200 亿美元在美新建数据中心，2030 年算力支出预期上调至近 7500 亿美元",
-      "url": "https://www.ithome.com/0/980/322.htm",
-      "primary_url": "https://www.ithome.com/0/980/322.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c24da6b2af737a31f905fc86a05150a27d67805b",
-          "title": "OpenAI 拟投资 200 亿美元在美新建数据中心，2030 年算力支出预期上调至近 7500 亿美元",
-          "url": "https://www.ithome.com/0/980/322.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-22T14:12:49Z"
-        },
-        {
-          "id": "c0e9c6d55f0e10cb78d59b4e3cd92bbf9f28ef50",
-          "title": "OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元",
-          "url": "https://www.ithome.com/0/980/322.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-22T14:12:49Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "c24da6b2af737a31f905fc86a05150a27d67805b",
-          "title": "OpenAI 拟投资 200 亿美元在美新建数据中心，2030 年算力支出预期上调至近 7500 亿美元",
-          "url": "https://www.ithome.com/0/980/322.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-22T14:12:49Z"
-        },
-        {
-          "id": "c0e9c6d55f0e10cb78d59b4e3cd92bbf9f28ef50",
-          "title": "OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元",
-          "url": "https://www.ithome.com/0/980/322.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-22T14:12:49Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7665,
-      "importance": 0.7665,
-      "importance_score": 0.7665,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8048,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-22T14:12:49Z",
-      "latest_at": "2026-07-22T14:12:49Z",
-      "primary_item": {
-        "id": "c24da6b2af737a31f905fc86a05150a27d67805b",
-        "title": "OpenAI 拟投资 200 亿美元在美新建数据中心，2030 年算力支出预期上调至近 7500 亿美元",
-        "url": "https://www.ithome.com/0/980/322.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_85aa09c15ed0",
-      "title": "Claude 新增 Anthropic Economic Index 连接器，可直接查询 AI 对经济与职业的影响数据",
-      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-      "primary_url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-      "source": "Anthropic：Newsroom（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "821bdadd86b732e41232f06399db46b8b3aace9f",
-          "title": "Claude 新增 Anthropic Economic Index 连接器，可直接查询 AI 对经济与职业的影响数据",
-          "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-22T17:23:31.324000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Anthropic：Newsroom（网页）"
-      ],
-      "items": [
-        {
-          "id": "821bdadd86b732e41232f06399db46b8b3aace9f",
-          "title": "Claude 新增 Anthropic Economic Index 连接器，可直接查询 AI 对经济与职业的影响数据",
-          "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-22T17:23:31.324000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7333,
-      "importance": 0.7333,
-      "importance_score": 0.7333,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8426,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-22T17:23:31.324000Z",
-      "latest_at": "2026-07-22T17:23:31.324000Z",
-      "primary_item": {
-        "id": "821bdadd86b732e41232f06399db46b8b3aace9f",
-        "title": "Claude 新增 Anthropic Economic Index 连接器，可直接查询 AI 对经济与职业的影响数据",
-        "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-        "source": "Anthropic：Newsroom（网页）",
         "source_name": "AI HOT"
       }
     }
