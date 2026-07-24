@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T07:33:17.149453Z",
+  "generated_at": "2026-07-24T10:07:45.297351Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-07-23T11:11:11Z",
-      "captured_at": "2026-07-24T07:33:17.149453Z",
+      "captured_at": "2026-07-24T10:07:45.297351Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -42,13 +42,49 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_2442066cfd12",
+      "title": "Launched Voclip — turn a voice note into a shareable video without ever showing your face",
+      "url": "https://www.indiehackers.com/post/launched-voclip-turn-a-voice-note-into-a-shareable-video-without-ever-showing-your-face-8d418c51bc",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-07-23T11:56:07.888000Z",
+      "captured_at": "2026-07-24T10:07:45.297351Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Launched Voclip"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 39,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Launched Voclip — turn a voice note into a shareable video without ever showing your face Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_7036073a7a6f",
       "title": "Watch: Launching Gravitas, one of the highest-powered spacecraft ever built",
       "url": "https://review.firstround.com/watch-launching-gravitas-one-of-the-highest-powered-spacecraft-ever-built/",
       "source_id": "first_round",
       "source_name": "First Round Review",
       "published_at": "2026-07-23T16:39:10Z",
-      "captured_at": "2026-07-24T07:33:17.149453Z",
+      "captured_at": "2026-07-24T10:07:45.297351Z",
       "lane": "startup_vc",
       "entities": [
         "First Round Review",
@@ -84,7 +120,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-07-23T11:00:55Z",
-      "captured_at": "2026-07-24T07:33:17.149453Z",
+      "captured_at": "2026-07-24T10:07:45.297351Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
