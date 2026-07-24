@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-07-24T15:21:36.252394Z",
+  "generated_at": "2026-07-24T17:02:07.214225Z",
   "window_hours": 24,
   "items": [
+    {
+      "signal_id": "biz_4fcfd20cfeb1",
+      "title": "How Gamma pulled off their AI pivot | Jon Noronha (Co-founder and CPO of Gamma)",
+      "url": "https://review.firstround.com/how-gamma-pulled-off-their-ai-pivot-jon-noronha-co-founder-and-cpo-of-gamma/",
+      "source_id": "first_round",
+      "source_name": "First Round Review",
+      "published_at": "2026-07-24T11:00:00Z",
+      "captured_at": "2026-07-24T17:02:07.214225Z",
+      "lane": "startup_vc",
+      "entities": [
+        "First Round Review",
+        "How Gamma",
+        "Jon Noronha",
+        "Co-founder",
+        "CPO",
+        "Gamma"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 8,
+      "total_score": 42,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "How Gamma pulled off their AI pivot | Jon Noronha (Co-founder and CPO of Gamma) Tags: Founder Case.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "sitemap_page"
+    },
     {
       "signal_id": "biz_f97f07c632dc",
       "title": "Built 3 Pine Script v5 SMC indicators — giving away the FVG one free to test demand",
@@ -9,7 +48,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-07-24T10:44:48.294000Z",
-      "captured_at": "2026-07-24T15:21:36.252394Z",
+      "captured_at": "2026-07-24T17:02:07.214225Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -42,40 +81,39 @@
       "transport_mode": "page_detail"
     },
     {
-      "signal_id": "biz_7036073a7a6f",
-      "title": "Watch: Launching Gravitas, one of the highest-powered spacecraft ever built",
-      "url": "https://review.firstround.com/watch-launching-gravitas-one-of-the-highest-powered-spacecraft-ever-built/",
-      "source_id": "first_round",
-      "source_name": "First Round Review",
-      "published_at": "2026-07-23T16:39:10Z",
-      "captured_at": "2026-07-24T15:21:36.252394Z",
-      "lane": "startup_vc",
+      "signal_id": "biz_96edc3de910d",
+      "title": "67K impressions in 2 days from a single Daily-Dev post — here's what happened",
+      "url": "https://www.indiehackers.com/post/67k-impressions-in-2-days-from-a-single-daily-dev-post-heres-what-happened-ac5057bf0d",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-07-24T14:07:16.098000Z",
+      "captured_at": "2026-07-24T17:02:07.214225Z",
+      "lane": "opc",
       "entities": [
-        "First Round Review",
-        "Watch",
-        "Launching Gravitas"
+        "Indie Hackers",
+        "Daily-Dev"
       ],
       "business_model_tags": [
-        "Founder Case"
+        "OPC"
       ],
       "yuanli_tags": [
         "yuanli_startup"
       ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 8,
-      "total_score": 38,
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 33,
       "score_breakdown": {
-        "source_authority": 20,
+        "source_authority": 16,
         "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 0,
-        "freshness": 7,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 8,
         "counter_signal_value": 0
       },
-      "summary": "Watch: Launching Gravitas, one of the highest-powered spacecraft ever built Tags: Founder Case.",
+      "summary": "67K impressions in 2 days from a single Daily-Dev post — here's what happened Tags: OPC.",
       "timestamp_basis": "page_structured_time",
-      "transport_mode": "sitemap_page"
+      "transport_mode": "page_detail"
     }
   ]
 }

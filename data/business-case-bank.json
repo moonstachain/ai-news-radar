@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T15:21:36.252394Z",
+  "generated_at": "2026-07-24T17:02:07.214225Z",
   "cases": [
     {
       "case_id": "opc_case_25bdad15338a",
@@ -22,14 +22,34 @@
       "score": 40
     },
     {
-      "case_id": "opc_case_3b2c01e36459",
-      "company": "Watch",
+      "case_id": "opc_case_79ef6cabfa12",
+      "company": "Daily-Dev",
       "founder": "",
       "source_refs": [
-        "biz_7036073a7a6f"
+        "biz_96edc3de910d"
       ],
-      "url": "https://review.firstround.com/watch-launching-gravitas-one-of-the-highest-powered-spacecraft-ever-built/",
-      "title": "Watch: Launching Gravitas, one of the highest-powered spacecraft ever built",
+      "url": "https://www.indiehackers.com/post/67k-impressions-in-2-days-from-a-single-daily-dev-post-heres-what-happened-ac5057bf0d",
+      "title": "67K impressions in 2 days from a single Daily-Dev post — here's what happened",
+      "business_model": "OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Indie Hackers",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup"
+      ],
+      "score": 33
+    },
+    {
+      "case_id": "opc_case_d4112eb5a0f0",
+      "company": "How Gamma",
+      "founder": "",
+      "source_refs": [
+        "biz_4fcfd20cfeb1"
+      ],
+      "url": "https://review.firstround.com/how-gamma-pulled-off-their-ai-pivot-jon-noronha-co-founder-and-cpo-of-gamma/",
+      "title": "How Gamma pulled off their AI pivot | Jon Noronha (Co-founder and CPO of Gamma)",
       "business_model": "Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
@@ -39,7 +59,7 @@
       "yuanli_mapping": [
         "yuanli_startup"
       ],
-      "score": 38
+      "score": 42
     }
   ]
 }
