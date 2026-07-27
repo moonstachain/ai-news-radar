@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T23:28:43.448710Z",
+  "generated_at": "2026-07-27T01:08:16.267762Z",
   "window_hours": 24,
   "source_count": 26,
   "successful_sources": 15,
@@ -7,7 +7,7 @@
   "reachable_sources": 22,
   "verified_sources": 21,
   "fresh_sources": 15,
-  "current_sources": 3,
+  "current_sources": 2,
   "stale_sources": 6,
   "automated_source_count": 24,
   "automated_failed_sources": 9,
@@ -17,9 +17,9 @@
     "missing_timestamp": 0,
     "invalid_timestamp": 0,
     "future_timestamp": 0,
-    "outside_window": 390,
+    "outside_window": 391,
     "conflicted_timestamp": 0,
-    "unverified_page": 14
+    "unverified_page": 15
   },
   "sources": [
     {
@@ -53,8 +53,44 @@
       "freshness_sla_hours": 336,
       "duration_ms": 0,
       "error": "no_stable_public_timestamped_surface",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": "2026-07-26T00:00:00Z"
+    },
+    {
+      "source_id": "yc_blog",
+      "name": "Y Combinator Blog",
+      "lane": "startup_vc",
+      "capture_mode": "feed",
+      "ok": false,
+      "reachable": true,
+      "verified": true,
+      "fresh": false,
+      "current": false,
+      "transport_ok": true,
+      "transport_mode": "feed",
+      "quality_status": "stale_source",
+      "item_count": 0,
+      "entry_count": 15,
+      "verified_timestamp_count": 15,
+      "eligible_timestamp_count": 0,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 15,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://www.ycombinator.com/blog/rss"
+      ],
+      "selected_url": "https://www.ycombinator.com/blog/rss",
+      "latest_verified_published_at": "2026-06-16T16:14:22Z",
+      "freshness_sla_hours": 336,
+      "duration_ms": 134,
+      "error": "latest_verified_item_exceeds_source_sla",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
+      "next_review_at": ""
     },
     {
       "source_id": "knowledge_wharton",
@@ -87,9 +123,9 @@
       "selected_url": "",
       "latest_verified_published_at": "",
       "freshness_sla_hours": 336,
-      "duration_ms": 180,
+      "duration_ms": 166,
       "error": "feed_returned_no_entries; https://knowledge.wharton.upenn.edu/feed/: HTTP 403 for https://knowledge.wharton.upenn.edu/feed/ | https://knowledge.wharton.upenn.edu/: HTTP 403 for https://knowledge.wharton.upenn.edu/",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -123,81 +159,9 @@
       "selected_url": "https://sloanreview.mit.edu/feed/",
       "latest_verified_published_at": "2026-07-23T11:00:55Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 297,
+      "duration_ms": 333,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "yc_blog",
-      "name": "Y Combinator Blog",
-      "lane": "startup_vc",
-      "capture_mode": "feed",
-      "ok": false,
-      "reachable": true,
-      "verified": true,
-      "fresh": false,
-      "current": false,
-      "transport_ok": true,
-      "transport_mode": "feed",
-      "quality_status": "stale_source",
-      "item_count": 0,
-      "entry_count": 15,
-      "verified_timestamp_count": 15,
-      "eligible_timestamp_count": 0,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 15,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://www.ycombinator.com/blog/rss"
-      ],
-      "selected_url": "https://www.ycombinator.com/blog/rss",
-      "latest_verified_published_at": "2026-06-16T16:14:22Z",
-      "freshness_sla_hours": 336,
-      "duration_ms": 350,
-      "error": "latest_verified_item_exceeds_source_sla",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "lenny",
-      "name": "Lenny's Newsletter",
-      "lane": "startup_vc",
-      "capture_mode": "feed",
-      "ok": true,
-      "reachable": true,
-      "verified": true,
-      "fresh": true,
-      "current": true,
-      "transport_ok": true,
-      "transport_mode": "feed",
-      "quality_status": "verified_timestamp",
-      "item_count": 0,
-      "entry_count": 20,
-      "verified_timestamp_count": 20,
-      "eligible_timestamp_count": 1,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 19,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://www.lennysnewsletter.com/feed"
-      ],
-      "selected_url": "https://www.lennysnewsletter.com/feed",
-      "latest_verified_published_at": "2026-07-26T12:32:06Z",
-      "freshness_sla_hours": 240,
-      "duration_ms": 363,
-      "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -231,9 +195,45 @@
       "selected_url": "https://www.generalist.com/feed",
       "latest_verified_published_at": "2026-07-10T18:09:57Z",
       "freshness_sla_hours": 240,
-      "duration_ms": 477,
+      "duration_ms": 380,
       "error": "latest_verified_item_exceeds_source_sla",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "lenny",
+      "name": "Lenny's Newsletter",
+      "lane": "startup_vc",
+      "capture_mode": "feed",
+      "ok": true,
+      "reachable": true,
+      "verified": true,
+      "fresh": true,
+      "current": true,
+      "transport_ok": true,
+      "transport_mode": "feed",
+      "quality_status": "verified_timestamp",
+      "item_count": 0,
+      "entry_count": 20,
+      "verified_timestamp_count": 20,
+      "eligible_timestamp_count": 1,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 19,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://www.lennysnewsletter.com/feed"
+      ],
+      "selected_url": "https://www.lennysnewsletter.com/feed",
+      "latest_verified_published_at": "2026-07-26T12:32:06Z",
+      "freshness_sla_hours": 240,
+      "duration_ms": 610,
+      "error": "",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -267,9 +267,9 @@
       "selected_url": "https://www.cbinsights.com/research/feed/",
       "latest_verified_published_at": "2026-07-23T22:45:04Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 323,
+      "duration_ms": 313,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -303,9 +303,9 @@
       "selected_url": "https://www.notboring.co/feed",
       "latest_verified_published_at": "2026-07-25T17:25:07Z",
       "freshness_sla_hours": 240,
-      "duration_ms": 1129,
+      "duration_ms": 1040,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -340,9 +340,9 @@
       "selected_url": "http://feeds.hbr.org/harvardbusiness",
       "latest_verified_published_at": "2026-07-24T12:15:15Z",
       "freshness_sla_hours": 72,
-      "duration_ms": 1482,
+      "duration_ms": 1603,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -377,45 +377,9 @@
       "selected_url": "https://microconf.com/latest?format=rss",
       "latest_verified_published_at": "2026-04-08T18:33:36Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 1509,
+      "duration_ms": 1924,
       "error": "latest_verified_item_exceeds_source_sla; https://microconf.com/feed: HTTP 404 for https://microconf.com/feed",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "tinyseed",
-      "name": "TinySeed",
-      "lane": "opc",
-      "capture_mode": "sitemap",
-      "ok": false,
-      "reachable": true,
-      "verified": true,
-      "fresh": false,
-      "current": false,
-      "transport_ok": true,
-      "transport_mode": "sitemap_page",
-      "quality_status": "stale_source",
-      "item_count": 0,
-      "entry_count": 7,
-      "verified_timestamp_count": 7,
-      "eligible_timestamp_count": 0,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 7,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://tinyseed.com/sitemap.xml"
-      ],
-      "selected_url": "https://tinyseed.com/spring-2026/handelbay",
-      "latest_verified_published_at": "2026-05-28T17:45:41Z",
-      "freshness_sla_hours": 720,
-      "duration_ms": 4136,
-      "error": "latest_verified_item_exceeds_source_sla",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -450,9 +414,45 @@
       "selected_url": "https://thebootstrappedfounder.com/feed/",
       "latest_verified_published_at": "2026-04-03T13:00:00Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 3694,
+      "duration_ms": 3238,
       "error": "latest_verified_item_exceeds_source_sla; https://thebootstrappedfounder.com/feed.xml: HTTP 404 for https://thebootstrappedfounder.com/feed.xml",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "tinyseed",
+      "name": "TinySeed",
+      "lane": "opc",
+      "capture_mode": "sitemap",
+      "ok": false,
+      "reachable": true,
+      "verified": true,
+      "fresh": false,
+      "current": false,
+      "transport_ok": true,
+      "transport_mode": "sitemap_page",
+      "quality_status": "stale_source",
+      "item_count": 0,
+      "entry_count": 7,
+      "verified_timestamp_count": 7,
+      "eligible_timestamp_count": 0,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 7,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://tinyseed.com/sitemap.xml"
+      ],
+      "selected_url": "https://tinyseed.com/spring-2026/handelbay",
+      "latest_verified_published_at": "2026-05-28T17:45:41Z",
+      "freshness_sla_hours": 720,
+      "duration_ms": 5378,
+      "error": "latest_verified_item_exceeds_source_sla",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -464,19 +464,19 @@
       "reachable": true,
       "verified": true,
       "fresh": true,
-      "current": true,
+      "current": false,
       "transport_ok": true,
       "transport_mode": "feed",
-      "quality_status": "verified_timestamp",
+      "quality_status": "no_current_items",
       "item_count": 0,
-      "entry_count": 786,
+      "entry_count": 787,
       "verified_timestamp_count": 30,
-      "eligible_timestamp_count": 1,
+      "eligible_timestamp_count": 0,
       "timestamp_skips": {
         "missing_timestamp": 0,
         "invalid_timestamp": 0,
         "future_timestamp": 0,
-        "outside_window": 29,
+        "outside_window": 30,
         "conflicted_timestamp": 0,
         "unverified_page": 0
       },
@@ -486,9 +486,9 @@
       "selected_url": "https://levels.io/rss/",
       "latest_verified_published_at": "2026-07-26T00:00:00Z",
       "freshness_sla_hours": 720,
-      "duration_ms": 1655,
+      "duration_ms": 1677,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -522,12 +522,12 @@
       "freshness_sla_hours": 336,
       "duration_ms": 0,
       "error": "no_stable_public_timestamped_surface",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": "2026-07-26T00:00:00Z"
     },
     {
-      "source_id": "first_round",
-      "name": "First Round Review",
+      "source_id": "a16z",
+      "name": "a16z",
       "lane": "startup_vc",
       "capture_mode": "sitemap",
       "ok": true,
@@ -539,7 +539,7 @@
       "transport_mode": "sitemap_page",
       "quality_status": "no_current_items",
       "item_count": 0,
-      "entry_count": 974,
+      "entry_count": 368,
       "verified_timestamp_count": 12,
       "eligible_timestamp_count": 0,
       "timestamp_skips": {
@@ -551,51 +551,15 @@
         "unverified_page": 0
       },
       "attempted_urls": [
-        "https://review.firstround.com/sitemap-posts.xml"
+        "https://a16z.com/post-sitemap3.xml",
+        "https://a16z.com/announcement-sitemap.xml"
       ],
-      "selected_url": "https://review.firstround.com/how-gamma-pulled-off-their-ai-pivot-jon-noronha-co-founder-and-cpo-of-gamma/",
-      "latest_verified_published_at": "2026-07-24T11:00:00Z",
-      "freshness_sla_hours": 720,
-      "duration_ms": 7635,
+      "selected_url": "https://a16z.com/how-to-win-the-largest-market-in-ai/",
+      "latest_verified_published_at": "2026-07-23T15:34:55Z",
+      "freshness_sla_hours": 336,
+      "duration_ms": 8343,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "bain_insights",
-      "name": "Bain Insights",
-      "lane": "authority",
-      "capture_mode": "feed",
-      "ok": true,
-      "reachable": true,
-      "verified": true,
-      "fresh": true,
-      "current": false,
-      "transport_ok": true,
-      "transport_mode": "feed",
-      "quality_status": "no_current_items",
-      "item_count": 0,
-      "entry_count": 6536,
-      "verified_timestamp_count": 30,
-      "eligible_timestamp_count": 0,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 30,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://www.bain.com/rss-feed/",
-        "https://www.bain.com/insights/rss/"
-      ],
-      "selected_url": "https://www.bain.com/rss-feed/",
-      "latest_verified_published_at": "2026-07-22T13:00:00Z",
-      "freshness_sla_hours": 720,
-      "duration_ms": 7955,
-      "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -630,9 +594,9 @@
       "selected_url": "",
       "latest_verified_published_at": "",
       "freshness_sla_hours": 336,
-      "duration_ms": 902,
+      "duration_ms": 647,
       "error": "feed_returned_no_entries; https://charonhub.deeplearning.ai/rss/: HTTP 403 for https://charonhub.deeplearning.ai/rss/ | https://www.deeplearning.ai/the-batch/rss/: HTTP 403 for https://www.deeplearning.ai/the-batch/rss/ | https://www.deeplearning.ai/the-batch/: HTTP 403 for https://www.deeplearning.ai/the-batch/",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -666,86 +630,14 @@
       "selected_url": "https://www.latent.space/feed",
       "latest_verified_published_at": "2026-07-25T07:25:38Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 1550,
+      "duration_ms": 2152,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
-      "source_id": "openai_news",
-      "name": "OpenAI News",
-      "lane": "ai_commercialization",
-      "capture_mode": "feed",
-      "ok": true,
-      "reachable": true,
-      "verified": true,
-      "fresh": true,
-      "current": false,
-      "transport_ok": true,
-      "transport_mode": "feed",
-      "quality_status": "no_current_items",
-      "item_count": 0,
-      "entry_count": 1050,
-      "verified_timestamp_count": 30,
-      "eligible_timestamp_count": 0,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 30,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://openai.com/news/rss.xml"
-      ],
-      "selected_url": "https://openai.com/news/rss.xml",
-      "latest_verified_published_at": "2026-07-23T00:00:00Z",
-      "freshness_sla_hours": 336,
-      "duration_ms": 1041,
-      "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "huggingface_blog",
-      "name": "Hugging Face Blog",
-      "lane": "ai_commercialization",
-      "capture_mode": "feed",
-      "ok": true,
-      "reachable": true,
-      "verified": true,
-      "fresh": true,
-      "current": false,
-      "transport_ok": true,
-      "transport_mode": "feed",
-      "quality_status": "no_current_items",
-      "item_count": 0,
-      "entry_count": 831,
-      "verified_timestamp_count": 30,
-      "eligible_timestamp_count": 0,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 30,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://huggingface.co/blog/feed.xml"
-      ],
-      "selected_url": "https://huggingface.co/blog/feed.xml",
-      "latest_verified_published_at": "2026-07-23T00:00:00Z",
-      "freshness_sla_hours": 168,
-      "duration_ms": 569,
-      "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "a16z",
-      "name": "a16z",
+      "source_id": "first_round",
+      "name": "First Round Review",
       "lane": "startup_vc",
       "capture_mode": "sitemap",
       "ok": true,
@@ -757,7 +649,7 @@
       "transport_mode": "sitemap_page",
       "quality_status": "no_current_items",
       "item_count": 0,
-      "entry_count": 368,
+      "entry_count": 974,
       "verified_timestamp_count": 12,
       "eligible_timestamp_count": 0,
       "timestamp_skips": {
@@ -769,15 +661,14 @@
         "unverified_page": 0
       },
       "attempted_urls": [
-        "https://a16z.com/post-sitemap3.xml",
-        "https://a16z.com/announcement-sitemap.xml"
+        "https://review.firstround.com/sitemap-posts.xml"
       ],
-      "selected_url": "https://a16z.com/how-to-win-the-largest-market-in-ai/",
-      "latest_verified_published_at": "2026-07-23T15:34:55Z",
-      "freshness_sla_hours": 336,
-      "duration_ms": 8937,
+      "selected_url": "https://review.firstround.com/how-gamma-pulled-off-their-ai-pivot-jon-noronha-co-founder-and-cpo-of-gamma/",
+      "latest_verified_published_at": "2026-07-24T11:00:00Z",
+      "freshness_sla_hours": 720,
+      "duration_ms": 9621,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -811,9 +702,118 @@
       "selected_url": "https://github.blog/feed/",
       "latest_verified_published_at": "2026-07-23T16:00:00Z",
       "freshness_sla_hours": 168,
-      "duration_ms": 762,
+      "duration_ms": 1010,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "huggingface_blog",
+      "name": "Hugging Face Blog",
+      "lane": "ai_commercialization",
+      "capture_mode": "feed",
+      "ok": true,
+      "reachable": true,
+      "verified": true,
+      "fresh": true,
+      "current": false,
+      "transport_ok": true,
+      "transport_mode": "feed",
+      "quality_status": "no_current_items",
+      "item_count": 0,
+      "entry_count": 831,
+      "verified_timestamp_count": 30,
+      "eligible_timestamp_count": 0,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 30,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://huggingface.co/blog/feed.xml"
+      ],
+      "selected_url": "https://huggingface.co/blog/feed.xml",
+      "latest_verified_published_at": "2026-07-23T00:00:00Z",
+      "freshness_sla_hours": 168,
+      "duration_ms": 1003,
+      "error": "",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "openai_news",
+      "name": "OpenAI News",
+      "lane": "ai_commercialization",
+      "capture_mode": "feed",
+      "ok": true,
+      "reachable": true,
+      "verified": true,
+      "fresh": true,
+      "current": false,
+      "transport_ok": true,
+      "transport_mode": "feed",
+      "quality_status": "no_current_items",
+      "item_count": 0,
+      "entry_count": 1050,
+      "verified_timestamp_count": 30,
+      "eligible_timestamp_count": 0,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 30,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "selected_url": "https://openai.com/news/rss.xml",
+      "latest_verified_published_at": "2026-07-23T00:00:00Z",
+      "freshness_sla_hours": 336,
+      "duration_ms": 2366,
+      "error": "",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "bain_insights",
+      "name": "Bain Insights",
+      "lane": "authority",
+      "capture_mode": "feed",
+      "ok": true,
+      "reachable": true,
+      "verified": true,
+      "fresh": true,
+      "current": false,
+      "transport_ok": true,
+      "transport_mode": "feed",
+      "quality_status": "no_current_items",
+      "item_count": 0,
+      "entry_count": 6536,
+      "verified_timestamp_count": 30,
+      "eligible_timestamp_count": 0,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 30,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://www.bain.com/rss-feed/",
+        "https://www.bain.com/insights/rss/"
+      ],
+      "selected_url": "https://www.bain.com/rss-feed/",
+      "latest_verified_published_at": "2026-07-22T13:00:00Z",
+      "freshness_sla_hours": 720,
+      "duration_ms": 11035,
+      "error": "",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -847,9 +847,9 @@
       "selected_url": "https://www.anthropic.com/news/claude-opus-5",
       "latest_verified_published_at": "2026-07-24T17:00:00Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 3751,
+      "duration_ms": 4398,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -883,9 +883,9 @@
       "selected_url": "https://www.starterstory.com/stories/how-i-leveraged-my-experience-and-created-a-60k-mo-online-course-platform",
       "latest_verified_published_at": "2026-07-12T00:00:00Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 13143,
+      "duration_ms": 15649,
       "error": "latest_verified_item_exceeds_source_sla; https://www.starterstory.com/stories/starter-story-solopreneurs-report: publication_page_canonical_url_mismatch",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -902,16 +902,16 @@
       "transport_mode": "page_detail",
       "quality_status": "verified_timestamp",
       "item_count": 2,
-      "entry_count": 74,
-      "verified_timestamp_count": 12,
-      "eligible_timestamp_count": 3,
+      "entry_count": 71,
+      "verified_timestamp_count": 11,
+      "eligible_timestamp_count": 2,
       "timestamp_skips": {
         "missing_timestamp": 0,
         "invalid_timestamp": 0,
         "future_timestamp": 0,
         "outside_window": 9,
         "conflicted_timestamp": 0,
-        "unverified_page": 0
+        "unverified_page": 1
       },
       "attempted_urls": [
         "https://www.indiehackers.com/"
@@ -919,9 +919,9 @@
       "selected_url": "https://www.indiehackers.com/post/i-m-building-a-tool-to-help-founders-kill-bad-startup-ideas-before-building-what-signal-would-you-trust-b905feb023",
       "latest_verified_published_at": "2026-07-26T16:41:12.139000Z",
       "freshness_sla_hours": 72,
-      "duration_ms": 17443,
+      "duration_ms": 22474,
       "error": "",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     },
     {
@@ -955,9 +955,9 @@
       "selected_url": "",
       "latest_verified_published_at": "",
       "freshness_sla_hours": 720,
-      "duration_ms": 21303,
+      "duration_ms": 25675,
       "error": "entries_without_trustworthy_timestamp; https://www.bcg.com/publications/2026/how-ceos-can-optimize-ai-token-costs: publication_page_timestamp_conflict | https://www.bcg.com/publications/2026/low-carbon-shipping-demand-falls-but-value-remains: publication_page_timestamp_conflict | https://www.bcg.com/publications/2026/the-ai-first-refiner-faster-decisions-better-margins: publication_page_timestamp_conflict | https://www.bcg.com/publications/2026/managing-ai-token-costs: publication_page_timestamp_conflict",
-      "last_checked_at": "2026-07-26T23:28:43.448710Z",
+      "last_checked_at": "2026-07-27T01:08:16.267762Z",
       "next_review_at": ""
     }
   ]
