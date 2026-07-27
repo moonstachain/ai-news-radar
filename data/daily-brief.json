@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T12:10:52.992425Z",
+  "generated_at": "2026-07-27T15:20:56.120185Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8633,
-      "importance": 0.8633,
-      "importance_score": 0.8633,
+      "score": 0.8555,
+      "importance": 0.8555,
+      "importance_score": 0.8555,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9626,
+        "recency": 0.9195,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8308,
-      "importance": 0.8308,
-      "importance_score": 0.8308,
+      "score": 0.8237,
+      "importance": 0.8237,
+      "importance_score": 0.8237,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8822,
+        "recency": 0.8427,
         "story_heat": 0.0
       },
       "category": "official",
@@ -162,21 +162,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7563,
-      "importance": 0.7563,
-      "importance_score": 0.7563,
+      "score": 0.7493,
+      "importance": 0.7493,
+      "importance_score": 0.7493,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8705,
+        "recency": 0.8316,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-27T02:34:34Z",
       "latest_at": "2026-07-27T02:34:34Z",
@@ -185,86 +184,6 @@
         "title": "用AI Skill自动生成可协作HTML PPT",
         "url": "https://x.com/vista8/status/2081568902241513786",
         "source": "X：Vista (@vista8)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_f8f08a1eac71",
-      "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-      "url": "https://www.ithome.com/0/981/797.htm",
-      "primary_url": "https://www.ithome.com/0/981/797.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5309bb87c866fe790223159d8f8d4b9313205eac",
-          "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-          "url": "https://www.ithome.com/0/981/797.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-26T12:54:28Z"
-        },
-        {
-          "id": "2d83a34bc0ea8deab0490155f3c73d3d011a0017",
-          "title": "消息称 OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋马斯克公开反对",
-          "url": "https://www.ithome.com/0/981/797.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-26T12:54:28Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "5309bb87c866fe790223159d8f8d4b9313205eac",
-          "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-          "url": "https://www.ithome.com/0/981/797.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-26T12:54:28Z"
-        },
-        {
-          "id": "2d83a34bc0ea8deab0490155f3c73d3d011a0017",
-          "title": "消息称 OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋马斯克公开反对",
-          "url": "https://www.ithome.com/0/981/797.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-26T12:54:28Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7382,
-      "importance": 0.7382,
-      "importance_score": 0.7382,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7146,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-26T12:54:28Z",
-      "latest_at": "2026-07-26T12:54:28Z",
-      "primary_item": {
-        "id": "5309bb87c866fe790223159d8f8d4b9313205eac",
-        "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-        "url": "https://www.ithome.com/0/981/797.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -303,15 +222,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7327,
-      "importance": 0.7327,
-      "importance_score": 0.7327,
+      "score": 0.7251,
+      "importance": 0.7251,
+      "importance_score": 0.7251,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.64,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9395,
+        "recency": 0.8975,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -363,15 +282,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.727,
-      "importance": 0.727,
-      "importance_score": 0.727,
+      "score": 0.7202,
+      "importance": 0.7202,
+      "importance_score": 0.7202,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8411,
+        "recency": 0.8035,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -386,6 +305,1068 @@
         "url": "https://mp.weixin.qq.com/s/AwOk3di8m6eVeIUjzNftgg",
         "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_82e17f04394c",
+      "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
+      "url": "https://news.ycombinator.com/item?id=49066591",
+      "primary_url": "https://news.ycombinator.com/item?id=49066591",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "664b72220941b9396422ffc521c0d95bd1e01de2",
+          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
+          "url": "https://news.ycombinator.com/item?id=49066591",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-27T12:11:38.934000Z"
+        },
+        {
+          "id": "63c5eb8dd391036d7752e7691ffb154c6b4e6686",
+          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
+          "url": "https://status.claude.com/incidents/mfdtrknpxghq",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-27T11:32:32Z"
+        },
+        {
+          "id": "0c5e0c400b84872915e36b61935e326db6a55c04",
+          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
+          "url": "https://status.claude.com/incidents/lhqp09kxq7pb",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T08:20:06Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "664b72220941b9396422ffc521c0d95bd1e01de2",
+          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
+          "url": "https://news.ycombinator.com/item?id=49066591",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-27T12:11:38.934000Z"
+        },
+        {
+          "id": "63c5eb8dd391036d7752e7691ffb154c6b4e6686",
+          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
+          "url": "https://status.claude.com/incidents/mfdtrknpxghq",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-27T11:32:32Z"
+        },
+        {
+          "id": "0c5e0c400b84872915e36b61935e326db6a55c04",
+          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
+          "url": "https://status.claude.com/incidents/lhqp09kxq7pb",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T08:20:06Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5628,
+      "importance": 0.5628,
+      "importance_score": 0.5628,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9555,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T08:20:06Z",
+      "latest_at": "2026-07-27T12:11:38.934000Z",
+      "primary_item": {
+        "id": "664b72220941b9396422ffc521c0d95bd1e01de2",
+        "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
+        "url": "https://news.ycombinator.com/item?id=49066591",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_40e4f325384d",
+      "title": "罗宾·艾 / Robynn AI",
+      "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites",
+      "primary_url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites",
+      "source": "producthunt",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "b7d3c48c17f56cda92c516a49702f9b253ded376",
+          "title": "罗宾·艾 / Robynn AI",
+          "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites",
+          "source": "producthunt",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-27T15:08:52.469000Z"
+        },
+        {
+          "id": "1ee60963d1f3f3d242017980c8dd4dafd285c008",
+          "title": "Robynn AI - 自我改进网站 / Robynn AI - Self Improving Websites",
+          "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites",
+          "source": "producthunt",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-27T12:11:38.934000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "producthunt"
+      ],
+      "items": [
+        {
+          "id": "b7d3c48c17f56cda92c516a49702f9b253ded376",
+          "title": "罗宾·艾 / Robynn AI",
+          "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites",
+          "source": "producthunt",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-27T15:08:52.469000Z"
+        },
+        {
+          "id": "1ee60963d1f3f3d242017980c8dd4dafd285c008",
+          "title": "Robynn AI - 自我改进网站 / Robynn AI - Self Improving Websites",
+          "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites",
+          "source": "producthunt",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-27T12:11:38.934000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5453,
+      "importance": 0.5453,
+      "importance_score": 0.5453,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9971,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T12:11:38.934000Z",
+      "latest_at": "2026-07-27T15:08:52.469000Z",
+      "primary_item": {
+        "id": "b7d3c48c17f56cda92c516a49702f9b253ded376",
+        "title": "罗宾·艾 / Robynn AI",
+        "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites",
+        "source": "producthunt",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_e736f3ac4979",
+      "title": "Show HN: Ctxdiff – 适用于您的大语言模型（LLM）代理上下文窗口的 Git 差异比较工具",
+      "url": "https://github.com/salmanzafar949/ctxdiff",
+      "primary_url": "https://github.com/salmanzafar949/ctxdiff",
+      "source": "github.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "7defd81d657e24397dc747d2658819638595755e",
+          "title": "Show HN: Ctxdiff – 适用于您的大语言模型（LLM）代理上下文窗口的 Git 差异比较工具",
+          "url": "https://github.com/salmanzafar949/ctxdiff",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T14:17:27.375000Z"
+        },
+        {
+          "id": "3cd46521e99933ca61b29a871101f6d0eedb6805",
+          "title": "Show HN: Ctxdiff – 适用于您的大语言模型（LLM）代理上下文窗口的 Git 差异比较工具 / Show HN: Ctxdiff – Git diff for your LLM agent's context window",
+          "url": "https://github.com/salmanzafar949/ctxdiff",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-07-27T14:14:05Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "github.com"
+      ],
+      "items": [
+        {
+          "id": "7defd81d657e24397dc747d2658819638595755e",
+          "title": "Show HN: Ctxdiff – 适用于您的大语言模型（LLM）代理上下文窗口的 Git 差异比较工具",
+          "url": "https://github.com/salmanzafar949/ctxdiff",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T14:17:27.375000Z"
+        },
+        {
+          "id": "3cd46521e99933ca61b29a871101f6d0eedb6805",
+          "title": "Show HN: Ctxdiff – 适用于您的大语言模型（LLM）代理上下文窗口的 Git 差异比较工具 / Show HN: Ctxdiff – Git diff for your LLM agent's context window",
+          "url": "https://github.com/salmanzafar949/ctxdiff",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-07-27T14:14:05Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5431,
+      "importance": 0.5431,
+      "importance_score": 0.5431,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9848,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T14:14:05Z",
+      "latest_at": "2026-07-27T14:17:27.375000Z",
+      "primary_item": {
+        "id": "7defd81d657e24397dc747d2658819638595755e",
+        "title": "Show HN: Ctxdiff – 适用于您的大语言模型（LLM）代理上下文窗口的 Git 差异比较工具",
+        "url": "https://github.com/salmanzafar949/ctxdiff",
+        "source": "github.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_8c2ab21032bb",
+      "title": "人工智能公司在华盛顿游说上花费了创纪录的资金 / AI companies spend record sums on Washington lobbying",
+      "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+      "primary_url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "848d454f510776a8cfc7996c17409b6afbb0bad1",
+          "title": "人工智能公司在华盛顿游说上花费了创纪录的资金 / AI companies spend record sums on Washington lobbying",
+          "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-27T14:07:48Z"
+        },
+        {
+          "id": "21feef6673198e67530ddef42b80ba5ba71485c0",
+          "title": "人工智能企业在华盛顿的游说支出创下历史新高",
+          "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db?syn-25a6b1a6=1",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T04:10:31.499000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "www.ft.com"
+      ],
+      "items": [
+        {
+          "id": "848d454f510776a8cfc7996c17409b6afbb0bad1",
+          "title": "人工智能公司在华盛顿游说上花费了创纪录的资金 / AI companies spend record sums on Washington lobbying",
+          "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-27T14:07:48Z"
+        },
+        {
+          "id": "21feef6673198e67530ddef42b80ba5ba71485c0",
+          "title": "人工智能企业在华盛顿的游说支出创下历史新高",
+          "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db?syn-25a6b1a6=1",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T04:10:31.499000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5427,
+      "importance": 0.5427,
+      "importance_score": 0.5427,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9826,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T04:10:31.499000Z",
+      "latest_at": "2026-07-27T14:07:48Z",
+      "primary_item": {
+        "id": "848d454f510776a8cfc7996c17409b6afbb0bad1",
+        "title": "人工智能公司在华盛顿游说上花费了创纪录的资金 / AI companies spend record sums on Washington lobbying",
+        "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_af8546d362a0",
+      "title": "人工智能公司正在销毁珍本古籍",
+      "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+      "primary_url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+      "source": "xcancel.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "656cc9dca182ad075423f09c171670ad90d55eff",
+          "title": "人工智能公司正在销毁珍本古籍",
+          "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+          "source": "xcancel.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T13:13:18.076000Z"
+        },
+        {
+          "id": "0b147b85e4634799b17b31382da70f2cac8468c0",
+          "title": "人工智能公司正在销毁珍本古籍 / AI companies are shredding rare books",
+          "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T12:32:12Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "xcancel.com"
+      ],
+      "items": [
+        {
+          "id": "656cc9dca182ad075423f09c171670ad90d55eff",
+          "title": "人工智能公司正在销毁珍本古籍",
+          "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+          "source": "xcancel.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T13:13:18.076000Z"
+        },
+        {
+          "id": "0b147b85e4634799b17b31382da70f2cac8468c0",
+          "title": "人工智能公司正在销毁珍本古籍 / AI companies are shredding rare books",
+          "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T12:32:12Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5404,
+      "importance": 0.5404,
+      "importance_score": 0.5404,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9697,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T12:32:12Z",
+      "latest_at": "2026-07-27T13:13:18.076000Z",
+      "primary_item": {
+        "id": "656cc9dca182ad075423f09c171670ad90d55eff",
+        "title": "人工智能公司正在销毁珍本古籍",
+        "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+        "source": "xcancel.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_34b90ee402fb",
+      "title": "Claude Code 出现“API 错误：529 重载”",
+      "url": "https://news.ycombinator.com/item?id=49067964",
+      "primary_url": "https://news.ycombinator.com/item?id=49067964",
+      "source": "news.ycombinator.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "45c6d6bea7e2464471f0147915b613736f50bdb7",
+          "title": "Claude Code 出现“API 错误：529 重载”",
+          "url": "https://news.ycombinator.com/item?id=49067964",
+          "source": "news.ycombinator.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T11:37:28.493000Z"
+        },
+        {
+          "id": "f1455cb4ebe5c7973a5fd63229a2a45bb4c98ed9",
+          "title": "Claude Code 出现“API 错误：529 重载” / Claude Code getting \"API Error: 529 Overloaded\"",
+          "url": "https://news.ycombinator.com/item?id=49067964",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-07-27T11:25:28Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "news.ycombinator.com"
+      ],
+      "items": [
+        {
+          "id": "45c6d6bea7e2464471f0147915b613736f50bdb7",
+          "title": "Claude Code 出现“API 错误：529 重载”",
+          "url": "https://news.ycombinator.com/item?id=49067964",
+          "source": "news.ycombinator.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T11:37:28.493000Z"
+        },
+        {
+          "id": "f1455cb4ebe5c7973a5fd63229a2a45bb4c98ed9",
+          "title": "Claude Code 出现“API 错误：529 重载” / Claude Code getting \"API Error: 529 Overloaded\"",
+          "url": "https://news.ycombinator.com/item?id=49067964",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-07-27T11:25:28Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5364,
+      "importance": 0.5364,
+      "importance_score": 0.5364,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9476,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T11:25:28Z",
+      "latest_at": "2026-07-27T11:37:28.493000Z",
+      "primary_item": {
+        "id": "45c6d6bea7e2464471f0147915b613736f50bdb7",
+        "title": "Claude Code 出现“API 错误：529 重载”",
+        "url": "https://news.ycombinator.com/item?id=49067964",
+        "source": "news.ycombinator.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_e45482a3354c",
+      "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售",
+      "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+      "primary_url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+      "source": "arstechnica.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "d5c39a9c9a3805bf94715b0018b026d121c37564",
+          "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售",
+          "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T11:21:32.901000Z"
+        },
+        {
+          "id": "04d62a3ed1402e340fbb82fcb96f1228eb71be18",
+          "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售 / Artist sues AI meme generator for selling deeply personal comic as ad template",
+          "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T10:50:37Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Ars Technica",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "d5c39a9c9a3805bf94715b0018b026d121c37564",
+          "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售",
+          "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T11:21:32.901000Z"
+        },
+        {
+          "id": "04d62a3ed1402e340fbb82fcb96f1228eb71be18",
+          "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售 / Artist sues AI meme generator for selling deeply personal comic as ad template",
+          "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T10:50:37Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5357,
+      "importance": 0.5357,
+      "importance_score": 0.5357,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.944,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T10:50:37Z",
+      "latest_at": "2026-07-27T11:21:32.901000Z",
+      "primary_item": {
+        "id": "d5c39a9c9a3805bf94715b0018b026d121c37564",
+        "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售",
+        "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+        "source": "arstechnica.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_d666d9da5945",
+      "title": "Show HN：观看 14 字节 AI“大脑”尝试解决 2D 迷宫（很难） / Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
+      "url": "https://news.ycombinator.com/item?id=49066083",
+      "primary_url": "https://news.ycombinator.com/item?id=49066083",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "507d44e4e07753aeddfdc3197f44d6f1900da11f",
+          "title": "Show HN：观看 14 字节 AI“大脑”尝试解决 2D 迷宫（很难） / Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
+          "url": "https://news.ycombinator.com/item?id=49066083",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-27T12:11:38.934000Z"
+        },
+        {
+          "id": "3b3219bff00a935d8ea97e4610c7799ec74c6e71",
+          "title": "Show HN: 观看14字节的AI“大脑”尝试解决一个二维迷宫（这很难）",
+          "url": "https://con-dog.github.io/MINIMIO-PUBLIC-FRONTEND",
+          "source": "con-dog.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T07:21:18.948000Z"
+        },
+        {
+          "id": "63ec0dcd080b6f3f416c4acb67d372471d9d8d25",
+          "title": "Show HN: 观看14字节的AI“大脑”尝试解决一个二维迷宫（这很难） / Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
+          "url": "https://con-dog.github.io/MINIMIO-PUBLIC-FRONTEND",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-27T07:15:15Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "con-dog.github.io",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "507d44e4e07753aeddfdc3197f44d6f1900da11f",
+          "title": "Show HN：观看 14 字节 AI“大脑”尝试解决 2D 迷宫（很难） / Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
+          "url": "https://news.ycombinator.com/item?id=49066083",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-07-27T12:11:38.934000Z"
+        },
+        {
+          "id": "3b3219bff00a935d8ea97e4610c7799ec74c6e71",
+          "title": "Show HN: 观看14字节的AI“大脑”尝试解决一个二维迷宫（这很难）",
+          "url": "https://con-dog.github.io/MINIMIO-PUBLIC-FRONTEND",
+          "source": "con-dog.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T07:21:18.948000Z"
+        },
+        {
+          "id": "63ec0dcd080b6f3f416c4acb67d372471d9d8d25",
+          "title": "Show HN: 观看14字节的AI“大脑”尝试解决一个二维迷宫（这很难） / Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
+          "url": "https://con-dog.github.io/MINIMIO-PUBLIC-FRONTEND",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-27T07:15:15Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5628,
+      "importance": 0.5628,
+      "importance_score": 0.5628,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9555,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T07:15:15Z",
+      "latest_at": "2026-07-27T12:11:38.934000Z",
+      "primary_item": {
+        "id": "507d44e4e07753aeddfdc3197f44d6f1900da11f",
+        "title": "Show HN：观看 14 字节 AI“大脑”尝试解决 2D 迷宫（很难） / Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
+        "url": "https://news.ycombinator.com/item?id=49066083",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_67a8f2940ce9",
+      "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。",
+      "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
+      "primary_url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "5f30f4b4e359319c5ec6f6b092050fce183230ae",
+          "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。",
+          "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T09:29:27.473000Z"
+        },
+        {
+          "id": "92199e98a75d236868f168c443c37c481717b05f",
+          "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。 / Actors are losing roles to AI knockoffs of themselves",
+          "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T09:02:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "5f30f4b4e359319c5ec6f6b092050fce183230ae",
+          "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。",
+          "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T09:29:27.473000Z"
+        },
+        {
+          "id": "92199e98a75d236868f168c443c37c481717b05f",
+          "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。 / Actors are losing roles to AI knockoffs of themselves",
+          "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T09:02:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5312,
+      "importance": 0.5312,
+      "importance_score": 0.5312,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9189,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T09:02:01Z",
+      "latest_at": "2026-07-27T09:29:27.473000Z",
+      "primary_item": {
+        "id": "5f30f4b4e359319c5ec6f6b092050fce183230ae",
+        "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。",
+        "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_8db54e78e80f",
+      "title": "关于人工智能",
+      "url": "https://jcs.org/2026/07/23/ai",
+      "primary_url": "https://jcs.org/2026/07/23/ai",
+      "source": "jcs.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "ecfd3b623319ddedf5e71bc347572dacc30a297b",
+          "title": "关于人工智能",
+          "url": "https://jcs.org/2026/07/23/ai",
+          "source": "jcs.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T08:57:32.799000Z"
+        },
+        {
+          "id": "2bca89137c54eef1bf56a76dad9ae349865bedbf",
+          "title": "On AI",
+          "url": "https://jcs.org/2026/07/23/ai",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-27T08:52:37Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "jcs.org"
+      ],
+      "items": [
+        {
+          "id": "ecfd3b623319ddedf5e71bc347572dacc30a297b",
+          "title": "关于人工智能",
+          "url": "https://jcs.org/2026/07/23/ai",
+          "source": "jcs.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T08:57:32.799000Z"
+        },
+        {
+          "id": "2bca89137c54eef1bf56a76dad9ae349865bedbf",
+          "title": "On AI",
+          "url": "https://jcs.org/2026/07/23/ai",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-27T08:52:37Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5299,
+      "importance": 0.5299,
+      "importance_score": 0.5299,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9119,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T08:52:37Z",
+      "latest_at": "2026-07-27T08:57:32.799000Z",
+      "primary_item": {
+        "id": "ecfd3b623319ddedf5e71bc347572dacc30a297b",
+        "title": "关于人工智能",
+        "url": "https://jcs.org/2026/07/23/ai",
+        "source": "jcs.org",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_98985b641f4b",
+      "title": "英伟达正就支持OpenAI租赁软银美国数据中心一事进行磋商",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "c2f04e2d085879f8602734fdfdb4f04bbfd29784",
+          "title": "英伟达正就支持OpenAI租赁软银美国数据中心一事进行磋商",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T03:54:12.791000Z"
+        },
+        {
+          "id": "1f3cd6e0b8da4457d27ed28eb8fb354729f1795b",
+          "title": "据《华尔街日报》报道，英伟达正考虑向OpenAI Hub提供2500亿美元投资",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T00:26:20.196000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.bloomberg.com"
+      ],
+      "items": [
+        {
+          "id": "c2f04e2d085879f8602734fdfdb4f04bbfd29784",
+          "title": "英伟达正就支持OpenAI租赁软银美国数据中心一事进行磋商",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T03:54:12.791000Z"
+        },
+        {
+          "id": "1f3cd6e0b8da4457d27ed28eb8fb354729f1795b",
+          "title": "据《华尔街日报》报道，英伟达正考虑向OpenAI Hub提供2500亿美元投资",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T00:26:20.196000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5184,
+      "importance": 0.5184,
+      "importance_score": 0.5184,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8477,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T00:26:20.196000Z",
+      "latest_at": "2026-07-27T03:54:12.791000Z",
+      "primary_item": {
+        "id": "c2f04e2d085879f8602734fdfdb4f04bbfd29784",
+        "title": "英伟达正就支持OpenAI租赁软银美国数据中心一事进行磋商",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+        "source": "www.bloomberg.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_8a483f76989e",
+      "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。”",
+      "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
+      "primary_url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "2cb66bc34e0ef0f59c3d7f6c3d432597de6a4d72",
+          "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。”",
+          "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T09:29:27.477000Z"
+        },
+        {
+          "id": "36b229426953a73999ac26ead96044e6a525e4b7",
+          "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。” / Sam Altman says one of his biggest fears is that a small number of companies will control AI: 'That'd be very, very bad'",
+          "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T09:21:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "2cb66bc34e0ef0f59c3d7f6c3d432597de6a4d72",
+          "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。”",
+          "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-27T09:29:27.477000Z"
+        },
+        {
+          "id": "36b229426953a73999ac26ead96044e6a525e4b7",
+          "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。” / Sam Altman says one of his biggest fears is that a small number of companies will control AI: 'That'd be very, very bad'",
+          "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-07-27T09:21:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5312,
+      "importance": 0.5312,
+      "importance_score": 0.5312,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9189,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-27T09:21:01Z",
+      "latest_at": "2026-07-27T09:29:27.477000Z",
+      "primary_item": {
+        "id": "2cb66bc34e0ef0f59c3d7f6c3d432597de6a4d72",
+        "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。”",
+        "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_e7e67019fae6",
+      "title": "如何写作英语散文（2023） / How to Write English Prose",
+      "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+      "primary_url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "bdbaadcd259799893e2ffdf3da3cd1ee8a0f2b22",
+          "title": "如何写作英语散文（2023） / How to Write English Prose",
+          "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-26T17:29:35Z"
+        },
+        {
+          "id": "80225dc611874460914d58567d595a03df932b1d",
+          "title": "如何写作英语散文（2023） / How to write English prose (2023)",
+          "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-26T17:29:35Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "bdbaadcd259799893e2ffdf3da3cd1ee8a0f2b22",
+          "title": "如何写作英语散文（2023） / How to Write English Prose",
+          "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-26T17:29:35Z"
+        },
+        {
+          "id": "80225dc611874460914d58567d595a03df932b1d",
+          "title": "如何写作英语散文（2023） / How to write English prose (2023)",
+          "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-26T17:29:35Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4971,
+      "importance": 0.4971,
+      "importance_score": 0.4971,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7293,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-26T17:29:35Z",
+      "latest_at": "2026-07-26T17:29:35Z",
+      "primary_item": {
+        "id": "bdbaadcd259799893e2ffdf3da3cd1ee8a0f2b22",
+        "title": "如何写作英语散文（2023） / How to Write English Prose",
+        "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -461,15 +1442,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5616,
-      "importance": 0.5616,
-      "importance_score": 0.5616,
+      "score": 0.5539,
+      "importance": 0.5539,
+      "importance_score": 0.5539,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9488,
+        "recency": 0.9064,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -482,930 +1463,6 @@
         "id": "aef79877fe0677a9ac3e3b2b8989645960fb5942",
         "title": "Kimi-K3 在 HuggingFace 7/27 上发布 / Kimi-K3 Releases on HuggingFace 7/27",
         "url": "https://news.ycombinator.com/item?id=49065752",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_34b90ee402fb",
-      "title": "Claude Code 出现“API 错误：529 重载”",
-      "url": "https://news.ycombinator.com/item?id=49067964",
-      "primary_url": "https://news.ycombinator.com/item?id=49067964",
-      "source": "news.ycombinator.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "45c6d6bea7e2464471f0147915b613736f50bdb7",
-          "title": "Claude Code 出现“API 错误：529 重载”",
-          "url": "https://news.ycombinator.com/item?id=49067964",
-          "source": "news.ycombinator.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T11:37:28.493000Z"
-        },
-        {
-          "id": "f1455cb4ebe5c7973a5fd63229a2a45bb4c98ed9",
-          "title": "Claude Code 出现“API 错误：529 重载” / Claude Code getting \"API Error: 529 Overloaded\"",
-          "url": "https://news.ycombinator.com/item?id=49067964",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-07-27T11:25:28Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "news.ycombinator.com"
-      ],
-      "items": [
-        {
-          "id": "45c6d6bea7e2464471f0147915b613736f50bdb7",
-          "title": "Claude Code 出现“API 错误：529 重载”",
-          "url": "https://news.ycombinator.com/item?id=49067964",
-          "source": "news.ycombinator.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T11:37:28.493000Z"
-        },
-        {
-          "id": "f1455cb4ebe5c7973a5fd63229a2a45bb4c98ed9",
-          "title": "Claude Code 出现“API 错误：529 重载” / Claude Code getting \"API Error: 529 Overloaded\"",
-          "url": "https://news.ycombinator.com/item?id=49067964",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-07-27T11:25:28Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5444,
-      "importance": 0.5444,
-      "importance_score": 0.5444,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.992,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-27T11:25:28Z",
-      "latest_at": "2026-07-27T11:37:28.493000Z",
-      "primary_item": {
-        "id": "45c6d6bea7e2464471f0147915b613736f50bdb7",
-        "title": "Claude Code 出现“API 错误：529 重载”",
-        "url": "https://news.ycombinator.com/item?id=49067964",
-        "source": "news.ycombinator.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_82e17f04394c",
-      "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
-      "url": "https://status.claude.com/incidents/mfdtrknpxghq",
-      "primary_url": "https://status.claude.com/incidents/mfdtrknpxghq",
-      "source": "Hacker News (黑客新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "63c5eb8dd391036d7752e7691ffb154c6b4e6686",
-          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
-          "url": "https://status.claude.com/incidents/mfdtrknpxghq",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-27T11:32:32Z"
-        },
-        {
-          "id": "0c5e0c400b84872915e36b61935e326db6a55c04",
-          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
-          "url": "https://status.claude.com/incidents/lhqp09kxq7pb",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-27T08:20:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "Hacker News (黑客新闻)"
-      ],
-      "items": [
-        {
-          "id": "63c5eb8dd391036d7752e7691ffb154c6b4e6686",
-          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
-          "url": "https://status.claude.com/incidents/mfdtrknpxghq",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-27T11:32:32Z"
-        },
-        {
-          "id": "0c5e0c400b84872915e36b61935e326db6a55c04",
-          "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
-          "url": "https://status.claude.com/incidents/lhqp09kxq7pb",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-27T08:20:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5441,
-      "importance": 0.5441,
-      "importance_score": 0.5441,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9908,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-27T08:20:06Z",
-      "latest_at": "2026-07-27T11:32:32Z",
-      "primary_item": {
-        "id": "63c5eb8dd391036d7752e7691ffb154c6b4e6686",
-        "title": "Claude Opus 5 上的错误增加 / Elevated errors on Claude Opus 5",
-        "url": "https://status.claude.com/incidents/mfdtrknpxghq",
-        "source": "Hacker News (黑客新闻)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_e45482a3354c",
-      "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售",
-      "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
-      "primary_url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
-      "source": "arstechnica.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "d5c39a9c9a3805bf94715b0018b026d121c37564",
-          "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售",
-          "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T11:21:32.901000Z"
-        },
-        {
-          "id": "04d62a3ed1402e340fbb82fcb96f1228eb71be18",
-          "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售 / Artist sues AI meme generator for selling deeply personal comic as ad template",
-          "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-27T10:50:37Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ars Technica",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "d5c39a9c9a3805bf94715b0018b026d121c37564",
-          "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售",
-          "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T11:21:32.901000Z"
-        },
-        {
-          "id": "04d62a3ed1402e340fbb82fcb96f1228eb71be18",
-          "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售 / Artist sues AI meme generator for selling deeply personal comic as ad template",
-          "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-27T10:50:37Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5437,
-      "importance": 0.5437,
-      "importance_score": 0.5437,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9882,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-27T10:50:37Z",
-      "latest_at": "2026-07-27T11:21:32.901000Z",
-      "primary_item": {
-        "id": "d5c39a9c9a3805bf94715b0018b026d121c37564",
-        "title": "艺术家起诉一家AI表情包生成平台，指控其将极具个人隐私的漫画作为广告模板出售",
-        "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_67a8f2940ce9",
-      "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。",
-      "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
-      "primary_url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "5f30f4b4e359319c5ec6f6b092050fce183230ae",
-          "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。",
-          "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T09:29:27.473000Z"
-        },
-        {
-          "id": "92199e98a75d236868f168c443c37c481717b05f",
-          "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。 / Actors are losing roles to AI knockoffs of themselves",
-          "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-27T09:02:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "5f30f4b4e359319c5ec6f6b092050fce183230ae",
-          "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。",
-          "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T09:29:27.473000Z"
-        },
-        {
-          "id": "92199e98a75d236868f168c443c37c481717b05f",
-          "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。 / Actors are losing roles to AI knockoffs of themselves",
-          "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-27T09:02:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5389,
-      "importance": 0.5389,
-      "importance_score": 0.5389,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9619,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-27T09:02:01Z",
-      "latest_at": "2026-07-27T09:29:27.473000Z",
-      "primary_item": {
-        "id": "5f30f4b4e359319c5ec6f6b092050fce183230ae",
-        "title": "他们曾主演过电视剧。随后，AI演员抄袭了他们的表演。",
-        "url": "https://www.businessinsider.com/actors-see-ai-versions-of-their-performances-in-new-shows-2026-7",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_8db54e78e80f",
-      "title": "关于人工智能",
-      "url": "https://jcs.org/2026/07/23/ai",
-      "primary_url": "https://jcs.org/2026/07/23/ai",
-      "source": "jcs.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "ecfd3b623319ddedf5e71bc347572dacc30a297b",
-          "title": "关于人工智能",
-          "url": "https://jcs.org/2026/07/23/ai",
-          "source": "jcs.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T08:57:32.799000Z"
-        },
-        {
-          "id": "2bca89137c54eef1bf56a76dad9ae349865bedbf",
-          "title": "On AI",
-          "url": "https://jcs.org/2026/07/23/ai",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-27T08:52:37Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "jcs.org"
-      ],
-      "items": [
-        {
-          "id": "ecfd3b623319ddedf5e71bc347572dacc30a297b",
-          "title": "关于人工智能",
-          "url": "https://jcs.org/2026/07/23/ai",
-          "source": "jcs.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T08:57:32.799000Z"
-        },
-        {
-          "id": "2bca89137c54eef1bf56a76dad9ae349865bedbf",
-          "title": "On AI",
-          "url": "https://jcs.org/2026/07/23/ai",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-27T08:52:37Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5376,
-      "importance": 0.5376,
-      "importance_score": 0.5376,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9545,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-27T08:52:37Z",
-      "latest_at": "2026-07-27T08:57:32.799000Z",
-      "primary_item": {
-        "id": "ecfd3b623319ddedf5e71bc347572dacc30a297b",
-        "title": "关于人工智能",
-        "url": "https://jcs.org/2026/07/23/ai",
-        "source": "jcs.org",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_8a43a7c831c0",
-      "title": "人工智能的新“超能力”：专注与坚持到底",
-      "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-      "primary_url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-      "source": "www.rickmanelius.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "a4f694c70e32b8740533b72da76cfb4abc0767b5",
-          "title": "人工智能的新“超能力”：专注与坚持到底",
-          "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-          "source": "www.rickmanelius.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-26T21:46:07.121000Z"
-        },
-        {
-          "id": "847f85af48af097f0bfa8d7d4cb4331ea3ab1317",
-          "title": "新的人工智能超级大国：专注和跟进 / The New AI Superpowers: Focus and Followthrough",
-          "url": "https://news.ycombinator.com/item?id=49057877",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-26T15:25:44.678000Z"
-        },
-        {
-          "id": "af35245db0dd08e13b1aac103b17c7ef174246dc",
-          "title": "人工智能的新“超能力”：专注与坚持到底 / The New AI Superpowers: Focus and Followthrough",
-          "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-26T13:13:03Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "www.rickmanelius.com"
-      ],
-      "items": [
-        {
-          "id": "a4f694c70e32b8740533b72da76cfb4abc0767b5",
-          "title": "人工智能的新“超能力”：专注与坚持到底",
-          "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-          "source": "www.rickmanelius.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-26T21:46:07.121000Z"
-        },
-        {
-          "id": "847f85af48af097f0bfa8d7d4cb4331ea3ab1317",
-          "title": "新的人工智能超级大国：专注和跟进 / The New AI Superpowers: Focus and Followthrough",
-          "url": "https://news.ycombinator.com/item?id=49057877",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-26T15:25:44.678000Z"
-        },
-        {
-          "id": "af35245db0dd08e13b1aac103b17c7ef174246dc",
-          "title": "人工智能的新“超能力”：专注与坚持到底 / The New AI Superpowers: Focus and Followthrough",
-          "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-26T13:13:03Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.537,
-      "importance": 0.537,
-      "importance_score": 0.537,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8121,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-26T13:13:03Z",
-      "latest_at": "2026-07-26T21:46:07.121000Z",
-      "primary_item": {
-        "id": "a4f694c70e32b8740533b72da76cfb4abc0767b5",
-        "title": "人工智能的新“超能力”：专注与坚持到底",
-        "url": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
-        "source": "www.rickmanelius.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_b6ef92302bcf",
-      "title": "伦敦盖特威克机场的“Park by Robot”服务",
-      "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-      "primary_url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-      "source": "aerospaceglobalnews.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c587265a466725b1c337d817a8f4656bc09439b0",
-          "title": "伦敦盖特威克机场的“Park by Robot”服务",
-          "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-          "source": "aerospaceglobalnews.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-26T16:42:46.682000Z"
-        },
-        {
-          "id": "c420b97dddbb2bb19ee965c074fa5cb6f4d9e28d",
-          "title": "伦敦盖特威克机场的“Park by Robot”服务 / London Gatwick has launched a robotic airport parking service",
-          "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T14:40:27Z"
-        },
-        {
-          "id": "5f0f3e2bad15b81e229cadbf583c6e687db8fbc8",
-          "title": "伦敦盖特威克机场的“Park by Robot”服务 / Park by Robot at London Gatwick Airport",
-          "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-26T14:40:27Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "aerospaceglobalnews.com"
-      ],
-      "items": [
-        {
-          "id": "c587265a466725b1c337d817a8f4656bc09439b0",
-          "title": "伦敦盖特威克机场的“Park by Robot”服务",
-          "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-          "source": "aerospaceglobalnews.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-26T16:42:46.682000Z"
-        },
-        {
-          "id": "c420b97dddbb2bb19ee965c074fa5cb6f4d9e28d",
-          "title": "伦敦盖特威克机场的“Park by Robot”服务 / London Gatwick has launched a robotic airport parking service",
-          "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T14:40:27Z"
-        },
-        {
-          "id": "5f0f3e2bad15b81e229cadbf583c6e687db8fbc8",
-          "title": "伦敦盖特威克机场的“Park by Robot”服务 / Park by Robot at London Gatwick Airport",
-          "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-26T14:40:27Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5267,
-      "importance": 0.5267,
-      "importance_score": 0.5267,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7549,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-26T14:40:27Z",
-      "latest_at": "2026-07-26T16:42:46.682000Z",
-      "primary_item": {
-        "id": "c587265a466725b1c337d817a8f4656bc09439b0",
-        "title": "伦敦盖特威克机场的“Park by Robot”服务",
-        "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
-        "source": "aerospaceglobalnews.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_98985b641f4b",
-      "title": "英伟达正就支持OpenAI租赁软银美国数据中心一事进行磋商",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c2f04e2d085879f8602734fdfdb4f04bbfd29784",
-          "title": "英伟达正就支持OpenAI租赁软银美国数据中心一事进行磋商",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T03:54:12.791000Z"
-        },
-        {
-          "id": "1f3cd6e0b8da4457d27ed28eb8fb354729f1795b",
-          "title": "据《华尔街日报》报道，英伟达正考虑向OpenAI Hub提供2500亿美元投资",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T00:26:20.196000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "c2f04e2d085879f8602734fdfdb4f04bbfd29784",
-          "title": "英伟达正就支持OpenAI租赁软银美国数据中心一事进行磋商",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T03:54:12.791000Z"
-        },
-        {
-          "id": "1f3cd6e0b8da4457d27ed28eb8fb354729f1795b",
-          "title": "据《华尔街日报》报道，英伟达正考虑向OpenAI Hub提供2500亿美元投资",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T00:26:20.196000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5255,
-      "importance": 0.5255,
-      "importance_score": 0.5255,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8873,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-27T00:26:20.196000Z",
-      "latest_at": "2026-07-27T03:54:12.791000Z",
-      "primary_item": {
-        "id": "c2f04e2d085879f8602734fdfdb4f04bbfd29784",
-        "title": "英伟达正就支持OpenAI租赁软银美国数据中心一事进行磋商",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
-        "source": "www.bloomberg.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_8a483f76989e",
-      "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。”",
-      "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
-      "primary_url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "2cb66bc34e0ef0f59c3d7f6c3d432597de6a4d72",
-          "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。”",
-          "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T09:29:27.477000Z"
-        },
-        {
-          "id": "36b229426953a73999ac26ead96044e6a525e4b7",
-          "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。” / Sam Altman says one of his biggest fears is that a small number of companies will control AI: 'That'd be very, very bad'",
-          "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-27T09:21:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "2cb66bc34e0ef0f59c3d7f6c3d432597de6a4d72",
-          "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。”",
-          "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-27T09:29:27.477000Z"
-        },
-        {
-          "id": "36b229426953a73999ac26ead96044e6a525e4b7",
-          "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。” / Sam Altman says one of his biggest fears is that a small number of companies will control AI: 'That'd be very, very bad'",
-          "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-27T09:21:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5389,
-      "importance": 0.5389,
-      "importance_score": 0.5389,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9619,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-27T09:21:01Z",
-      "latest_at": "2026-07-27T09:29:27.477000Z",
-      "primary_item": {
-        "id": "2cb66bc34e0ef0f59c3d7f6c3d432597de6a4d72",
-        "title": "萨姆·奥尔特曼表示，他最担心的事情之一就是少数几家公司将掌控人工智能：“那将是非常、非常糟糕的。”",
-        "url": "https://www.businessinsider.com/openai-sam-altman-ai-authoritarianism-open-source-export-controls-anthropic-2026-7",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_e7e67019fae6",
-      "title": "如何写作英语散文（2023） / How to Write English Prose",
-      "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
-      "primary_url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "bdbaadcd259799893e2ffdf3da3cd1ee8a0f2b22",
-          "title": "如何写作英语散文（2023） / How to Write English Prose",
-          "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T17:29:35Z"
-        },
-        {
-          "id": "80225dc611874460914d58567d595a03df932b1d",
-          "title": "如何写作英语散文（2023） / How to write English prose (2023)",
-          "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T17:29:35Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "bdbaadcd259799893e2ffdf3da3cd1ee8a0f2b22",
-          "title": "如何写作英语散文（2023） / How to Write English Prose",
-          "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T17:29:35Z"
-        },
-        {
-          "id": "80225dc611874460914d58567d595a03df932b1d",
-          "title": "如何写作英语散文（2023） / How to write English prose (2023)",
-          "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T17:29:35Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5032,
-      "importance": 0.5032,
-      "importance_score": 0.5032,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7635,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-26T17:29:35Z",
-      "latest_at": "2026-07-26T17:29:35Z",
-      "primary_item": {
-        "id": "bdbaadcd259799893e2ffdf3da3cd1ee8a0f2b22",
-        "title": "如何写作英语散文（2023） / How to Write English Prose",
-        "url": "https://thelampmagazine.com/blog/how-to-write-english-prose",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_3c20825102e6",
-      "title": "Show HN：Boffin – AI 编码代理的员工工程师层 / Show HN: Boffin – Staff-engineer layer for AI coding agents",
-      "url": "https://news.ycombinator.com/item?id=49060279",
-      "primary_url": "https://news.ycombinator.com/item?id=49060279",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "1a19be9897533d84c57483802338676bcedb54d6",
-          "title": "Show HN：Boffin – AI 编码代理的员工工程师层 / Show HN: Boffin – Staff-engineer layer for AI coding agents",
-          "url": "https://news.ycombinator.com/item?id=49060279",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-26T18:26:14.040000Z"
-        },
-        {
-          "id": "809f80b2970c5be46cbff3b6445a293d1c5f2c33",
-          "title": "Show HN: Boffin——面向AI编码代理的资深工程师层",
-          "url": "https://github.com/MicSm/boffin",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-26T17:30:55.877000Z"
-        },
-        {
-          "id": "bda2c842d2257409f9763fa2ab128dbc4ce56451",
-          "title": "Show HN: Boffin——面向AI编码代理的资深工程师层 / Show HN: Boffin – Staff-engineer layer for AI coding agents",
-          "url": "https://github.com/MicSm/boffin",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T17:28:03Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "github.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "1a19be9897533d84c57483802338676bcedb54d6",
-          "title": "Show HN：Boffin – AI 编码代理的员工工程师层 / Show HN: Boffin – Staff-engineer layer for AI coding agents",
-          "url": "https://news.ycombinator.com/item?id=49060279",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-26T18:26:14.040000Z"
-        },
-        {
-          "id": "809f80b2970c5be46cbff3b6445a293d1c5f2c33",
-          "title": "Show HN: Boffin——面向AI编码代理的资深工程师层",
-          "url": "https://github.com/MicSm/boffin",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-26T17:30:55.877000Z"
-        },
-        {
-          "id": "bda2c842d2257409f9763fa2ab128dbc4ce56451",
-          "title": "Show HN: Boffin——面向AI编码代理的资深工程师层 / Show HN: Boffin – Staff-engineer layer for AI coding agents",
-          "url": "https://github.com/MicSm/boffin",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T17:28:03Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5301,
-      "importance": 0.5301,
-      "importance_score": 0.5301,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.774,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-26T17:28:03Z",
-      "latest_at": "2026-07-26T18:26:14.040000Z",
-      "primary_item": {
-        "id": "1a19be9897533d84c57483802338676bcedb54d6",
-        "title": "Show HN：Boffin – AI 编码代理的员工工程师层 / Show HN: Boffin – Staff-engineer layer for AI coding agents",
-        "url": "https://news.ycombinator.com/item?id=49060279",
         "source": "hackernews",
         "source_name": "NewsNow"
       }
@@ -1464,15 +1521,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5324,
-      "importance": 0.5324,
-      "importance_score": 0.5324,
+      "score": 0.5249,
+      "importance": 0.5249,
+      "importance_score": 0.5249,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9255,
+        "recency": 0.8841,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1487,84 +1544,6 @@
         "url": "https://www.businessinsider.com/hollywood-movie-directors-pushing-back-against-ai-filmmaking-nolan-spielberg-2026-7",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_94d030042966",
-      "title": "推动代币转售商和欺诈行为的接力市场 / An Inside Look at the Token Reseller Market",
-      "url": "https://vectoral.com/blog/token-relay-market",
-      "primary_url": "https://vectoral.com/blog/token-relay-market",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "042de61b0f27be331d5dc3e84886de697a5e1862",
-          "title": "推动代币转售商和欺诈行为的接力市场 / An Inside Look at the Token Reseller Market",
-          "url": "https://vectoral.com/blog/token-relay-market",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T15:17:06Z"
-        },
-        {
-          "id": "38aaec0d18c0844c3ac88be02b7fa27cef04a6f4",
-          "title": "推动代币转售商和欺诈行为的接力市场 / The relay market powering token resellers and fraud",
-          "url": "https://vectoral.com/blog/token-relay-market",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T15:17:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "042de61b0f27be331d5dc3e84886de697a5e1862",
-          "title": "推动代币转售商和欺诈行为的接力市场 / An Inside Look at the Token Reseller Market",
-          "url": "https://vectoral.com/blog/token-relay-market",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T15:17:06Z"
-        },
-        {
-          "id": "38aaec0d18c0844c3ac88be02b7fa27cef04a6f4",
-          "title": "推动代币转售商和欺诈行为的接力市场 / The relay market powering token resellers and fraud",
-          "url": "https://vectoral.com/blog/token-relay-market",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-26T15:17:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4989,
-      "importance": 0.4989,
-      "importance_score": 0.4989,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7395,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-26T15:17:06Z",
-      "latest_at": "2026-07-26T15:17:06Z",
-      "primary_item": {
-        "id": "042de61b0f27be331d5dc3e84886de697a5e1862",
-        "title": "推动代币转售商和欺诈行为的接力市场 / An Inside Look at the Token Reseller Market",
-        "url": "https://vectoral.com/blog/token-relay-market",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
       }
     }
   ]
