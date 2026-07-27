@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T22:51:58.299464Z",
+  "generated_at": "2026-07-27T23:55:42.189441Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T13:51:04Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -49,7 +49,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T15:57:09Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -87,7 +87,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T14:40:40Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -125,7 +125,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T14:53:25Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -162,7 +162,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T14:06:28Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -199,7 +199,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T13:58:56Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -236,7 +236,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T13:16:13Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -267,13 +267,53 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_8555506d4b28",
+      "title": "How We Helped 36 Startups Generate 14.6K Product Views with Our First 100 Members.",
+      "url": "https://www.indiehackers.com/post/how-we-helped-36-startups-generate-14-6k-product-views-with-our-first-100-members-bdaa202886",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-07-27T10:43:59.904000Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "How We Helped",
+        "Startups Generate",
+        "Product Views",
+        "Our First",
+        "Members"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 12,
+      "total_score": 46,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 12,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "How We Helped 36 Startups Generate 14.6K Product Views with Our First 100 Members. Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_42ce473e3c08",
       "title": "GitHub Copilot app for Beginners: Getting started",
       "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-07-27T16:00:00Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -312,7 +352,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-07-27T18:00:00Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog"
@@ -348,7 +388,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-07-27T12:04:34Z",
-      "captured_at": "2026-07-27T22:51:58.299464Z",
+      "captured_at": "2026-07-27T23:55:42.189441Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -364,14 +404,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 8,
-      "total_score": 35,
+      "total_score": 34,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 0,
         "business_model_value": 3,
         "case_concreteness": 8,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Watch now | 🎙️ Maddie Reese built a thermal printer anyone can message, a working Twitter pager, and a personal API using Cursor, a Raspberry Pi, and the radical idea that fun beats practical Tags: Founder Case.",
