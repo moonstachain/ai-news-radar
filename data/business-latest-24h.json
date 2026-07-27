@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T15:22:09.788147Z",
+  "generated_at": "2026-07-27T17:16:51.229172Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T13:51:04Z",
-      "captured_at": "2026-07-27T15:22:09.788147Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -43,13 +43,51 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_5c8337600400",
+      "title": "Executive Interview: Mendel",
+      "url": "https://www.cbinsights.com/research/executive-interview-mendel/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-07-27T15:57:09Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "Mendel"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust",
+        "wealth_flywheel"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 53,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 9,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Julieta Ferrero, Head of Growth at Mendel, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We define our marke... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_d1049c775b2a",
       "title": "CEO Interview: Exosystems",
       "url": "https://www.cbinsights.com/research/ceo-interview-exosystems/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T14:40:40Z",
-      "captured_at": "2026-07-27T15:22:09.788147Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -81,13 +119,50 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_b93b7a452bbf",
+      "title": "Executive Interview: Allica Bank",
+      "url": "https://www.cbinsights.com/research/executive-interview-allica-bank/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-07-27T14:53:25Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "Allica Bank"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Conrad Ford, Chief Strategy Officer at Allica Bank, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Our target... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_80c9fdde842a",
       "title": "CEO Interview: JP Jenkins",
       "url": "https://www.cbinsights.com/research/ceo-interview-jp-jenkins/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T14:06:28Z",
-      "captured_at": "2026-07-27T15:22:09.788147Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -124,7 +199,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T13:58:56Z",
-      "captured_at": "2026-07-27T15:22:09.788147Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -161,7 +236,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-27T13:16:13Z",
-      "captured_at": "2026-07-27T15:22:09.788147Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -192,13 +267,92 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_41d59fda1e91",
+      "title": "Launched: Reporting SaaS — automatic Shopify sales reports by email, no more logging into Analytics every week",
+      "url": "https://www.indiehackers.com/post/launched-reporting-saas-automatic-shopify-sales-reports-by-email-no-more-logging-into-analytics-every-week-70de64799c",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-07-27T14:18:42.793000Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Launched",
+        "Reporting SaaS",
+        "Shopify",
+        "Analytics"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 46,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Launched: Reporting SaaS — automatic Shopify sales reports by email, no more logging into Analytics every week Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
+      "signal_id": "biz_42ce473e3c08",
+      "title": "GitHub Copilot app for Beginners: Getting started",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+      "source_id": "github_blog",
+      "source_name": "GitHub Blog",
+      "published_at": "2026-07-27T16:00:00Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "GitHub Blog",
+        "GitHub Copilot",
+        "Beginners",
+        "Getting"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_asset",
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 45,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 8,
+        "business_model_value": 9,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow. The post GitHub Copilot app for Beginners: Getting started appeared first on Th... Tags: AI Business Model Innovation, Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_3b0a05bdbfe8",
       "title": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
       "url": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-07-27T12:04:34Z",
-      "captured_at": "2026-07-27T15:22:09.788147Z",
+      "captured_at": "2026-07-27T17:16:51.229172Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -227,42 +381,6 @@
       "summary": "Watch now | 🎙️ Maddie Reese built a thermal printer anyone can message, a working Twitter pager, and a personal API using Cursor, a Raspberry Pi, and the radical idea that fun beats practical Tags: Founder Case.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_652a78d1265d",
-      "title": "I spent 3 months building a prediction market on Base as solo Dev",
-      "url": "https://www.indiehackers.com/post/i-spent-3-months-building-a-prediction-market-on-base-as-solo-dev-977ba00c28",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-07-27T09:50:19.634000Z",
-      "captured_at": "2026-07-27T15:22:09.788147Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "Base",
-        "Dev"
-      ],
-      "business_model_tags": [
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 4,
-      "total_score": 33,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 0,
-        "case_concreteness": 4,
-        "opc_fit": 5,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "I spent 3 months building a prediction market on Base as solo Dev Tags: OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
     }
   ]
 }
