@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T05:03:18.289787Z",
+  "generated_at": "2026-07-27T08:53:30.663549Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-07-26T12:32:08.925000Z",
-      "captured_at": "2026-07-27T05:03:18.289787Z",
+      "captured_at": "2026-07-27T08:53:30.663549Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers"
@@ -44,7 +44,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-07-26T13:49:17.462000Z",
-      "captured_at": "2026-07-27T05:03:18.289787Z",
+      "captured_at": "2026-07-27T08:53:30.663549Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -70,6 +70,43 @@
         "counter_signal_value": 0
       },
       "summary": "I built Kitzo because I was tired of searching for the same developer tools repeatedly Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
+      "signal_id": "biz_33e9ddafaab8",
+      "title": "Made a free tool so people can see the pricing problem before signing up",
+      "url": "https://www.indiehackers.com/post/made-a-free-tool-so-people-can-see-the-pricing-problem-before-signing-up-9b7c493387",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-07-26T16:25:11.798000Z",
+      "captured_at": "2026-07-27T08:53:30.663549Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Made"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 0,
+      "total_score": 36,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 2,
+        "case_concreteness": 0,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Made a free tool so people can see the pricing problem before signing up Tags: AI Business Model Innovation, OPC.",
       "timestamp_basis": "page_structured_time",
       "transport_mode": "page_detail"
     }
