@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T16:30:14.633308Z",
+  "generated_at": "2026-07-28T17:54:14.063042Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_81f0b84cb422",
@@ -30,26 +30,28 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_29513e1ad675",
+      "cluster_id": "biz_cluster_681647fc1b75",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
         "biz_9f024be19f76",
+        "biz_cb5705281d3a",
         "biz_336c7f8879e7",
         "biz_bac317f3e1f9"
       ],
-      "source_count": 3,
-      "importance_score": 40,
-      "confidence": "medium",
+      "source_count": 4,
+      "importance_score": 42,
+      "confidence": "high",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "4 English evidence items from 4 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
         "biz_9f024be19f76",
+        "biz_cb5705281d3a",
         "biz_336c7f8879e7",
         "biz_bac317f3e1f9"
       ],
@@ -58,6 +60,11 @@
           "source": "GitHub Blog",
           "title": "The harness is all you need (mostly)",
           "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/"
+        },
+        {
+          "source": "OpenAI News",
+          "title": "Scientific computing in the age of agentic AI",
+          "url": "https://openai.com/index/scientific-computing-agentic-ai"
         },
         {
           "source": "Latent Space",
@@ -97,6 +104,64 @@
           "source": "Lenny's Newsletter",
           "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
           "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_4ed08435e5eb",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "signal_ids": [
+        "biz_99336946cc29"
+      ],
+      "source_count": 1,
+      "importance_score": 38,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_99336946cc29"
+      ],
+      "top_sources": [
+        {
+          "source": "Bain Insights",
+          "title": "The Agentic Travel Agent with Glenn Fogel, CEO of Booking Holdings",
+          "url": "https://www.bain.com/insights/winning-with-ai-podcast-Glenn-Fogel/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_f02191bcc915",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "signal_ids": [
+        "biz_1af0af5fa819"
+      ],
+      "source_count": 1,
+      "importance_score": 35,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_1af0af5fa819"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "Side-hustling for three years before going all-in and hitting $6.4k MRR",
+          "url": "https://www.indiehackers.com/post/tech/side-hustling-for-three-years-before-going-all-in-and-hitting-6-4k-mrr-5kZRj2Lln7jO7nVVoYFP"
         }
       ]
     }
