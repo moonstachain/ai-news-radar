@@ -1,70 +1,6 @@
 {
-  "generated_at": "2026-07-28T14:58:04.657874Z",
+  "generated_at": "2026-07-28T16:30:14.633308Z",
   "clusters": [
-    {
-      "cluster_id": "biz_cluster_58c5328d44cc",
-      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "lane": "founder_case",
-      "signal_ids": [
-        "biz_5c8337600400"
-      ],
-      "source_count": 1,
-      "importance_score": 54,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
-      "evidence_refs": [
-        "biz_5c8337600400"
-      ],
-      "top_sources": [
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: Mendel",
-          "url": "https://www.cbinsights.com/research/executive-interview-mendel/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_daaf0c5c1fb3",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "signal_ids": [
-        "biz_42ce473e3c08",
-        "biz_9f024be19f76"
-      ],
-      "source_count": 1,
-      "importance_score": 45,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "evidence_refs": [
-        "biz_42ce473e3c08",
-        "biz_9f024be19f76"
-      ],
-      "top_sources": [
-        {
-          "source": "GitHub Blog",
-          "title": "GitHub Copilot app for Beginners: Getting started",
-          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/"
-        },
-        {
-          "source": "GitHub Blog",
-          "title": "The harness is all you need (mostly)",
-          "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/"
-        }
-      ]
-    },
     {
       "cluster_id": "biz_cluster_81f0b84cb422",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
@@ -90,6 +26,77 @@
           "source": "Bain Insights",
           "title": "Agentic AI Governance, Risk, and Controls for Business Leaders",
           "url": "https://www.bain.com/insights/agentic-ai-governance-risk-and-controls-for-business-leaders/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_29513e1ad675",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "signal_ids": [
+        "biz_9f024be19f76",
+        "biz_336c7f8879e7",
+        "biz_bac317f3e1f9"
+      ],
+      "source_count": 3,
+      "importance_score": 40,
+      "confidence": "medium",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_9f024be19f76",
+        "biz_336c7f8879e7",
+        "biz_bac317f3e1f9"
+      ],
+      "top_sources": [
+        {
+          "source": "GitHub Blog",
+          "title": "The harness is all you need (mostly)",
+          "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/"
+        },
+        {
+          "source": "Latent Space",
+          "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+          "url": "https://www.latent.space/p/chatgpt-work"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_b9f5bfa80c27",
+      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+      "lane": "founder_case",
+      "signal_ids": [
+        "biz_50366f4f5eb8"
+      ],
+      "source_count": 1,
+      "importance_score": 40,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "wealth_flywheel"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
+      "evidence_refs": [
+        "biz_50366f4f5eb8"
+      ],
+      "top_sources": [
+        {
+          "source": "Lenny's Newsletter",
+          "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
+          "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch"
         }
       ]
     }
