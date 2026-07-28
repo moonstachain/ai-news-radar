@@ -1,36 +1,58 @@
 {
-  "generated_at": "2026-07-28T12:20:52.500195Z",
+  "generated_at": "2026-07-28T14:58:04.657874Z",
   "clusters": [
     {
-      "cluster_id": "biz_cluster_17cc5e9a09dc",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
+      "cluster_id": "biz_cluster_58c5328d44cc",
+      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+      "lane": "founder_case",
       "signal_ids": [
-        "biz_b25d79487575",
-        "biz_42ce473e3c08",
-        "biz_9f024be19f76"
+        "biz_5c8337600400"
       ],
-      "source_count": 2,
-      "importance_score": 52,
-      "confidence": "medium",
+      "source_count": 1,
+      "importance_score": 54,
+      "confidence": "watch",
       "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
+        "ftf_trust",
+        "yuanli_asset",
+        "wealth_flywheel"
       ],
-      "why_it_matters": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
-        "biz_b25d79487575",
-        "biz_42ce473e3c08",
-        "biz_9f024be19f76"
+        "biz_5c8337600400"
       ],
       "top_sources": [
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Kato",
-          "url": "https://www.cbinsights.com/research/ceo-interview-kato/"
-        },
+          "title": "Executive Interview: Mendel",
+          "url": "https://www.cbinsights.com/research/executive-interview-mendel/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_daaf0c5c1fb3",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "signal_ids": [
+        "biz_42ce473e3c08",
+        "biz_9f024be19f76"
+      ],
+      "source_count": 1,
+      "importance_score": 45,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_42ce473e3c08",
+        "biz_9f024be19f76"
+      ],
+      "top_sources": [
         {
           "source": "GitHub Blog",
           "title": "GitHub Copilot app for Beginners: Getting started",
@@ -44,60 +66,30 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_6bb0cd75571d",
-      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "lane": "founder_case",
+      "cluster_id": "biz_cluster_81f0b84cb422",
+      "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
+      "lane": "counter_signal",
       "signal_ids": [
-        "biz_5c8337600400",
-        "biz_d1049c775b2a",
-        "biz_b93b7a452bbf",
-        "biz_80c9fdde842a",
-        "biz_4fe4ad6cfa34",
-        "biz_482a8d54179a"
+        "biz_5b2afe14d6d1"
       ],
       "source_count": 1,
-      "importance_score": 52,
+      "importance_score": 45,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
-        "yuanli_asset",
-        "wealth_flywheel"
+        "yuanli_os"
       ],
-      "why_it_matters": "6 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "Counter-signals are the evidence, not a rejection of the thesis.",
+      "recommended_action": "Add these counter-signals to sales objections and content credibility checks.",
       "evidence_refs": [
-        "biz_5c8337600400",
-        "biz_d1049c775b2a",
-        "biz_b93b7a452bbf",
-        "biz_80c9fdde842a",
-        "biz_4fe4ad6cfa34"
+        "biz_5b2afe14d6d1"
       ],
       "top_sources": [
         {
-          "source": "CB Insights",
-          "title": "Executive Interview: Mendel",
-          "url": "https://www.cbinsights.com/research/executive-interview-mendel/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: Exosystems",
-          "url": "https://www.cbinsights.com/research/ceo-interview-exosystems/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: Allica Bank",
-          "url": "https://www.cbinsights.com/research/executive-interview-allica-bank/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: JP Jenkins",
-          "url": "https://www.cbinsights.com/research/ceo-interview-jp-jenkins/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: Calibre",
-          "url": "https://www.cbinsights.com/research/ceo-interview-calibre/"
+          "source": "Bain Insights",
+          "title": "Agentic AI Governance, Risk, and Controls for Business Leaders",
+          "url": "https://www.bain.com/insights/agentic-ai-governance-risk-and-controls-for-business-leaders/"
         }
       ]
     }
