@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T01:28:20.620849Z",
+  "generated_at": "2026-07-28T04:39:28.173237Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_6bb0cd75571d",
@@ -15,7 +15,7 @@
         "biz_3b0a05bdbfe8"
       ],
       "source_count": 2,
-      "importance_score": 55,
+      "importance_score": 54,
       "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
@@ -99,35 +99,6 @@
           "source": "GitHub Blog",
           "title": "The harness is all you need (mostly)",
           "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_ec1a5cc07e72",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_2d7ae9212b7e"
-      ],
-      "source_count": 1,
-      "importance_score": 37,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_2d7ae9212b7e"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "Where do you draw the line when agents can call real tools?",
-          "url": "https://www.indiehackers.com/post/where-do-you-draw-the-line-when-agents-can-call-real-tools-5c0471a596"
         }
       ]
     }
