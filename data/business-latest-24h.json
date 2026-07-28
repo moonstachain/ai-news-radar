@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T16:30:14.633308Z",
+  "generated_at": "2026-07-28T17:54:14.063042Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-07-28T13:00:00Z",
-      "captured_at": "2026-07-28T16:30:14.633308Z",
+      "captured_at": "2026-07-28T17:54:14.063042Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
@@ -49,7 +49,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-07-27T18:00:00Z",
-      "captured_at": "2026-07-28T16:30:14.633308Z",
+      "captured_at": "2026-07-28T17:54:14.063042Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog"
@@ -85,7 +85,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-07-28T15:54:24Z",
-      "captured_at": "2026-07-28T16:30:14.633308Z",
+      "captured_at": "2026-07-28T17:54:14.063042Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -114,13 +114,89 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_cb5705281d3a",
+      "title": "Scientific computing in the age of agentic AI",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "published_at": "2026-07-28T17:00:00Z",
+      "captured_at": "2026-07-28T17:54:14.063042Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "OpenAI News",
+        "Scientific"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 36,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 5,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Scientific computing in the age of agentic AI Tags: AI Business Model Innovation, Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_99336946cc29",
+      "title": "The Agentic Travel Agent with Glenn Fogel, CEO of Booking Holdings",
+      "url": "https://www.bain.com/insights/winning-with-ai-podcast-Glenn-Fogel/",
+      "source_id": "bain_insights",
+      "source_name": "Bain Insights",
+      "published_at": "2026-07-28T08:00:00Z",
+      "captured_at": "2026-07-28T17:54:14.063042Z",
+      "lane": "authority",
+      "entities": [
+        "Bain Insights",
+        "The Agentic Travel",
+        "Agent",
+        "Glenn Fogel",
+        "CEO",
+        "Booking Holdings"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 36,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 5,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "The Agentic Travel Agent with Glenn Fogel, CEO of Booking Holdings Tags: AI Business Model Innovation, Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_336c7f8879e7",
       "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
       "url": "https://www.latent.space/p/chatgpt-work",
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-07-28T15:26:30Z",
-      "captured_at": "2026-07-28T16:30:14.633308Z",
+      "captured_at": "2026-07-28T17:54:14.063042Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -153,13 +229,49 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_1af0af5fa819",
+      "title": "Side-hustling for three years before going all-in and hitting $6.4k MRR",
+      "url": "https://www.indiehackers.com/post/tech/side-hustling-for-three-years-before-going-all-in-and-hitting-6-4k-mrr-5kZRj2Lln7jO7nVVoYFP",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-07-28T16:22:37.565000Z",
+      "captured_at": "2026-07-28T17:54:14.063042Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Side-hustling",
+        "MRR"
+      ],
+      "business_model_tags": [
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 33,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Side-hustling for three years before going all-in and hitting $6.4k MRR Tags: OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_bac317f3e1f9",
       "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
       "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
       "source_id": "huggingface_blog",
       "source_name": "Hugging Face Blog",
       "published_at": "2026-07-28T16:27:42Z",
-      "captured_at": "2026-07-28T16:30:14.633308Z",
+      "captured_at": "2026-07-28T17:54:14.063042Z",
       "lane": "ai_commercialization",
       "entities": [
         "Hugging Face Blog",
