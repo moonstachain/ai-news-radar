@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-07-28T19:07:06.244452Z",
+  "generated_at": "2026-07-28T20:40:58.845985Z",
   "clusters": [
+    {
+      "cluster_id": "biz_cluster_1d939c460876",
+      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+      "lane": "founder_case",
+      "signal_ids": [
+        "biz_f900e063be8a",
+        "biz_3a380c05d057",
+        "biz_50366f4f5eb8"
+      ],
+      "source_count": 2,
+      "importance_score": 50,
+      "confidence": "medium",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "wealth_flywheel"
+      ],
+      "why_it_matters": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
+      "evidence_refs": [
+        "biz_f900e063be8a",
+        "biz_3a380c05d057",
+        "biz_50366f4f5eb8"
+      ],
+      "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: TandemStride",
+          "url": "https://www.cbinsights.com/research/ceo-interview-tandemstride/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: Quantifind",
+          "url": "https://www.cbinsights.com/research/ceo-interview-quantifind/"
+        },
+        {
+          "source": "Lenny's Newsletter",
+          "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
+          "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch"
+        }
+      ]
+    },
     {
       "cluster_id": "biz_cluster_81f0b84cb422",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
@@ -26,35 +69,6 @@
           "source": "Bain Insights",
           "title": "Agentic AI Governance, Risk, and Controls for Business Leaders",
           "url": "https://www.bain.com/insights/agentic-ai-governance-risk-and-controls-for-business-leaders/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_b9f5bfa80c27",
-      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "lane": "founder_case",
-      "signal_ids": [
-        "biz_50366f4f5eb8"
-      ],
-      "source_count": 1,
-      "importance_score": 40,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
-      "evidence_refs": [
-        "biz_50366f4f5eb8"
-      ],
-      "top_sources": [
-        {
-          "source": "Lenny's Newsletter",
-          "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
-          "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch"
         }
       ]
     },
