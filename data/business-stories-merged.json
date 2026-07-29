@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T12:30:51.680117Z",
+  "generated_at": "2026-07-29T14:43:29.192652Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_1d939c460876",
@@ -45,30 +45,31 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_81f0b84cb422",
-      "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
-      "lane": "counter_signal",
+      "cluster_id": "biz_cluster_31a3a6074220",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
       "signal_ids": [
-        "biz_5b2afe14d6d1"
+        "biz_ccd3146b360a"
       ],
       "source_count": 1,
-      "importance_score": 44,
+      "importance_score": 41,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
-        "yuanli_os"
+        "yuanli_asset",
+        "yuanli_startup"
       ],
       "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "Counter-signals are the evidence, not a rejection of the thesis.",
-      "recommended_action": "Add these counter-signals to sales objections and content credibility checks.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
-        "biz_5b2afe14d6d1"
+        "biz_ccd3146b360a"
       ],
       "top_sources": [
         {
-          "source": "Bain Insights",
-          "title": "Agentic AI Governance, Risk, and Controls for Business Leaders",
-          "url": "https://www.bain.com/insights/agentic-ai-governance-risk-and-controls-for-business-leaders/"
+          "source": "Harvard Business Review",
+          "title": "Research: How AI Agents Broaden the Scope of Knowledge Work",
+          "url": "https://hbr.org/2026/07/research-how-ai-agents-broaden-the-scope-of-knowledge-work"
         }
       ]
     },
