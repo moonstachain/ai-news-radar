@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T16:17:20.529454Z",
+  "generated_at": "2026-07-29T17:47:15.286199Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_5bcfb091e3c6",
@@ -67,13 +67,13 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_690649168fe7",
+      "cluster_id": "biz_cluster_d0c598c17ab8",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "signal_ids": [
         "biz_cd1d7309e58e",
         "biz_29498ace9f43",
-        "biz_1af0af5fa819"
+        "biz_2c30f8da4b41"
       ],
       "source_count": 2,
       "importance_score": 40,
@@ -89,7 +89,7 @@
       "evidence_refs": [
         "biz_cd1d7309e58e",
         "biz_29498ace9f43",
-        "biz_1af0af5fa819"
+        "biz_2c30f8da4b41"
       ],
       "top_sources": [
         {
@@ -104,43 +104,8 @@
         },
         {
           "source": "Indie Hackers",
-          "title": "Side-hustling for three years before going all-in and hitting $6.4k MRR",
-          "url": "https://www.indiehackers.com/post/tech/side-hustling-for-three-years-before-going-all-in-and-hitting-6-4k-mrr-5kZRj2Lln7jO7nVVoYFP"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_a7e8fe5c0898",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "signal_ids": [
-        "biz_cb5705281d3a",
-        "biz_bac317f3e1f9"
-      ],
-      "source_count": 2,
-      "importance_score": 34,
-      "confidence": "medium",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "evidence_refs": [
-        "biz_cb5705281d3a",
-        "biz_bac317f3e1f9"
-      ],
-      "top_sources": [
-        {
-          "source": "OpenAI News",
-          "title": "Scientific computing in the age of agentic AI",
-          "url": "https://openai.com/index/scientific-computing-agentic-ai"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-          "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure"
+          "title": "Selling his agency and hitting $10k MRR within 60 days of launching his SaaS",
+          "url": "https://www.indiehackers.com/post/tech/selling-his-agency-and-hitting-10k-mrr-within-60-days-of-launching-his-saas-sTo5m9qfhxXbruvhBIyH"
         }
       ]
     }
