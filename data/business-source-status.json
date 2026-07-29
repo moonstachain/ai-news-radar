@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T22:29:12.640257Z",
+  "generated_at": "2026-07-29T23:31:25.870308Z",
   "window_hours": 24,
   "source_count": 26,
   "successful_sources": 15,
@@ -17,7 +17,7 @@
     "missing_timestamp": 0,
     "invalid_timestamp": 0,
     "future_timestamp": 0,
-    "outside_window": 382,
+    "outside_window": 381,
     "conflicted_timestamp": 0,
     "unverified_page": 14
   },
@@ -53,7 +53,7 @@
       "freshness_sla_hours": 336,
       "duration_ms": 0,
       "error": "no_stable_public_timestamped_surface",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": "2026-07-26T00:00:00Z"
     },
     {
@@ -87,81 +87,9 @@
       "selected_url": "",
       "latest_verified_published_at": "",
       "freshness_sla_hours": 336,
-      "duration_ms": 77,
+      "duration_ms": 93,
       "error": "feed_returned_no_entries; https://knowledge.wharton.upenn.edu/feed/: HTTP 403 for https://knowledge.wharton.upenn.edu/feed/ | https://knowledge.wharton.upenn.edu/: HTTP 403 for https://knowledge.wharton.upenn.edu/",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "mit_smr",
-      "name": "MIT Sloan Management Review",
-      "lane": "authority",
-      "capture_mode": "feed",
-      "ok": true,
-      "reachable": true,
-      "verified": true,
-      "fresh": true,
-      "current": true,
-      "transport_ok": true,
-      "transport_mode": "feed",
-      "quality_status": "verified_timestamp",
-      "item_count": 1,
-      "entry_count": 20,
-      "verified_timestamp_count": 20,
-      "eligible_timestamp_count": 1,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 19,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://sloanreview.mit.edu/feed/"
-      ],
-      "selected_url": "https://sloanreview.mit.edu/feed/",
-      "latest_verified_published_at": "2026-07-29T11:00:40Z",
-      "freshness_sla_hours": 336,
-      "duration_ms": 242,
-      "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "lenny",
-      "name": "Lenny's Newsletter",
-      "lane": "startup_vc",
-      "capture_mode": "feed",
-      "ok": true,
-      "reachable": true,
-      "verified": true,
-      "fresh": true,
-      "current": false,
-      "transport_ok": true,
-      "transport_mode": "feed",
-      "quality_status": "no_current_items",
-      "item_count": 0,
-      "entry_count": 20,
-      "verified_timestamp_count": 20,
-      "eligible_timestamp_count": 0,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 20,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://www.lennysnewsletter.com/feed"
-      ],
-      "selected_url": "https://www.lennysnewsletter.com/feed",
-      "latest_verified_published_at": "2026-07-28T15:54:24Z",
-      "freshness_sla_hours": 240,
-      "duration_ms": 346,
-      "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -195,9 +123,81 @@
       "selected_url": "https://www.ycombinator.com/blog/rss",
       "latest_verified_published_at": "2026-06-16T16:14:22Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 475,
+      "duration_ms": 188,
       "error": "latest_verified_item_exceeds_source_sla",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "lenny",
+      "name": "Lenny's Newsletter",
+      "lane": "startup_vc",
+      "capture_mode": "feed",
+      "ok": true,
+      "reachable": true,
+      "verified": true,
+      "fresh": true,
+      "current": false,
+      "transport_ok": true,
+      "transport_mode": "feed",
+      "quality_status": "no_current_items",
+      "item_count": 0,
+      "entry_count": 20,
+      "verified_timestamp_count": 20,
+      "eligible_timestamp_count": 0,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 20,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://www.lennysnewsletter.com/feed"
+      ],
+      "selected_url": "https://www.lennysnewsletter.com/feed",
+      "latest_verified_published_at": "2026-07-28T15:54:24Z",
+      "freshness_sla_hours": 240,
+      "duration_ms": 301,
+      "error": "",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "mit_smr",
+      "name": "MIT Sloan Management Review",
+      "lane": "authority",
+      "capture_mode": "feed",
+      "ok": true,
+      "reachable": true,
+      "verified": true,
+      "fresh": true,
+      "current": true,
+      "transport_ok": true,
+      "transport_mode": "feed",
+      "quality_status": "verified_timestamp",
+      "item_count": 1,
+      "entry_count": 20,
+      "verified_timestamp_count": 20,
+      "eligible_timestamp_count": 1,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 19,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://sloanreview.mit.edu/feed/"
+      ],
+      "selected_url": "https://sloanreview.mit.edu/feed/",
+      "latest_verified_published_at": "2026-07-29T11:00:40Z",
+      "freshness_sla_hours": 336,
+      "duration_ms": 731,
+      "error": "",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -231,9 +231,9 @@
       "selected_url": "https://www.generalist.com/feed",
       "latest_verified_published_at": "2026-07-10T18:09:57Z",
       "freshness_sla_hours": 240,
-      "duration_ms": 505,
+      "duration_ms": 581,
       "error": "latest_verified_item_exceeds_source_sla",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -267,9 +267,9 @@
       "selected_url": "https://www.cbinsights.com/research/feed/",
       "latest_verified_published_at": "2026-07-28T19:32:52Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 298,
+      "duration_ms": 244,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -303,9 +303,9 @@
       "selected_url": "https://www.notboring.co/feed",
       "latest_verified_published_at": "2026-07-25T17:25:07Z",
       "freshness_sla_hours": 240,
-      "duration_ms": 1070,
+      "duration_ms": 972,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -340,9 +340,9 @@
       "selected_url": "http://feeds.hbr.org/harvardbusiness",
       "latest_verified_published_at": "2026-07-29T12:25:18Z",
       "freshness_sla_hours": 72,
-      "duration_ms": 2168,
+      "duration_ms": 2721,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -377,9 +377,9 @@
       "selected_url": "https://microconf.com/latest?format=rss",
       "latest_verified_published_at": "2026-04-08T18:33:36Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 1184,
+      "duration_ms": 1526,
       "error": "latest_verified_item_exceeds_source_sla; https://microconf.com/feed: HTTP 404 for https://microconf.com/feed",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -414,9 +414,9 @@
       "selected_url": "https://thebootstrappedfounder.com/feed/",
       "latest_verified_published_at": "2026-04-03T13:00:00Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 2393,
+      "duration_ms": 3779,
       "error": "latest_verified_item_exceeds_source_sla; https://thebootstrappedfounder.com/feed.xml: HTTP 404 for https://thebootstrappedfounder.com/feed.xml",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -451,9 +451,9 @@
       "selected_url": "https://a16z.com/making-a-billion-intelligent-machines/",
       "latest_verified_published_at": "2026-07-27T13:55:19Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 6341,
+      "duration_ms": 7581,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -487,9 +487,9 @@
       "selected_url": "https://levels.io/rss/",
       "latest_verified_published_at": "2026-07-29T00:00:00Z",
       "freshness_sla_hours": 720,
-      "duration_ms": 1769,
+      "duration_ms": 1284,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -523,7 +523,7 @@
       "freshness_sla_hours": 336,
       "duration_ms": 0,
       "error": "no_stable_public_timestamped_surface",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": "2026-07-26T00:00:00Z"
     },
     {
@@ -557,9 +557,9 @@
       "selected_url": "https://tinyseed.com/spring-2026/handelbay",
       "latest_verified_published_at": "2026-05-28T17:45:41Z",
       "freshness_sla_hours": 720,
-      "duration_ms": 5021,
+      "duration_ms": 6015,
       "error": "latest_verified_item_exceeds_source_sla",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -594,9 +594,9 @@
       "selected_url": "",
       "latest_verified_published_at": "",
       "freshness_sla_hours": 336,
-      "duration_ms": 968,
+      "duration_ms": 1039,
       "error": "feed_returned_no_entries; https://charonhub.deeplearning.ai/rss/: HTTP 403 for https://charonhub.deeplearning.ai/rss/ | https://www.deeplearning.ai/the-batch/rss/: HTTP 403 for https://www.deeplearning.ai/the-batch/rss/ | https://www.deeplearning.ai/the-batch/: HTTP 403 for https://www.deeplearning.ai/the-batch/",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -630,9 +630,9 @@
       "selected_url": "https://www.latent.space/feed",
       "latest_verified_published_at": "2026-07-29T00:46:52Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 2484,
+      "duration_ms": 1982,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -666,45 +666,9 @@
       "selected_url": "https://review.firstround.com/how-gamma-pulled-off-their-ai-pivot-jon-noronha-co-founder-and-cpo-of-gamma/",
       "latest_verified_published_at": "2026-07-24T11:00:00Z",
       "freshness_sla_hours": 720,
-      "duration_ms": 9339,
+      "duration_ms": 10277,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "openai_news",
-      "name": "OpenAI News",
-      "lane": "ai_commercialization",
-      "capture_mode": "feed",
-      "ok": true,
-      "reachable": true,
-      "verified": true,
-      "fresh": true,
-      "current": true,
-      "transport_ok": true,
-      "transport_mode": "feed",
-      "quality_status": "verified_timestamp",
-      "item_count": 0,
-      "entry_count": 1054,
-      "verified_timestamp_count": 30,
-      "eligible_timestamp_count": 2,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 28,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://openai.com/news/rss.xml"
-      ],
-      "selected_url": "https://openai.com/news/rss.xml",
-      "latest_verified_published_at": "2026-07-29T10:00:00Z",
-      "freshness_sla_hours": 336,
-      "duration_ms": 2459,
-      "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -738,45 +702,9 @@
       "selected_url": "https://github.blog/feed/",
       "latest_verified_published_at": "2026-07-29T16:00:00Z",
       "freshness_sla_hours": 168,
-      "duration_ms": 1142,
+      "duration_ms": 865,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "huggingface_blog",
-      "name": "Hugging Face Blog",
-      "lane": "ai_commercialization",
-      "capture_mode": "feed",
-      "ok": true,
-      "reachable": true,
-      "verified": true,
-      "fresh": true,
-      "current": false,
-      "transport_ok": true,
-      "transport_mode": "feed",
-      "quality_status": "no_current_items",
-      "item_count": 0,
-      "entry_count": 833,
-      "verified_timestamp_count": 30,
-      "eligible_timestamp_count": 0,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 30,
-        "conflicted_timestamp": 0,
-        "unverified_page": 0
-      },
-      "attempted_urls": [
-        "https://huggingface.co/blog/feed.xml"
-      ],
-      "selected_url": "https://huggingface.co/blog/feed.xml",
-      "latest_verified_published_at": "2026-07-28T16:27:42Z",
-      "freshness_sla_hours": 168,
-      "duration_ms": 791,
-      "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -811,9 +739,81 @@
       "selected_url": "https://www.bain.com/rss-feed/",
       "latest_verified_published_at": "2026-07-29T08:00:00Z",
       "freshness_sla_hours": 720,
-      "duration_ms": 11298,
+      "duration_ms": 10654,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "openai_news",
+      "name": "OpenAI News",
+      "lane": "ai_commercialization",
+      "capture_mode": "feed",
+      "ok": true,
+      "reachable": true,
+      "verified": true,
+      "fresh": true,
+      "current": true,
+      "transport_ok": true,
+      "transport_mode": "feed",
+      "quality_status": "verified_timestamp",
+      "item_count": 0,
+      "entry_count": 1055,
+      "verified_timestamp_count": 30,
+      "eligible_timestamp_count": 3,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 27,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "selected_url": "https://openai.com/news/rss.xml",
+      "latest_verified_published_at": "2026-07-29T15:00:00Z",
+      "freshness_sla_hours": 336,
+      "duration_ms": 1952,
+      "error": "",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "huggingface_blog",
+      "name": "Hugging Face Blog",
+      "lane": "ai_commercialization",
+      "capture_mode": "feed",
+      "ok": true,
+      "reachable": true,
+      "verified": true,
+      "fresh": true,
+      "current": false,
+      "transport_ok": true,
+      "transport_mode": "feed",
+      "quality_status": "no_current_items",
+      "item_count": 0,
+      "entry_count": 833,
+      "verified_timestamp_count": 30,
+      "eligible_timestamp_count": 0,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 30,
+        "conflicted_timestamp": 0,
+        "unverified_page": 0
+      },
+      "attempted_urls": [
+        "https://huggingface.co/blog/feed.xml"
+      ],
+      "selected_url": "https://huggingface.co/blog/feed.xml",
+      "latest_verified_published_at": "2026-07-28T16:27:42Z",
+      "freshness_sla_hours": 168,
+      "duration_ms": 730,
+      "error": "",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -847,9 +847,9 @@
       "selected_url": "https://www.anthropic.com/news/position-open-weights-models",
       "latest_verified_published_at": "2026-07-27T18:36:00Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 5503,
+      "duration_ms": 4297,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -883,45 +883,9 @@
       "selected_url": "https://www.starterstory.com/stories/contrarian-thinking",
       "latest_verified_published_at": "2023-11-25T00:00:00Z",
       "freshness_sla_hours": 336,
-      "duration_ms": 15659,
+      "duration_ms": 13659,
       "error": "latest_verified_item_exceeds_source_sla; https://www.starterstory.com/stories/starter-story-solopreneurs-report: publication_page_canonical_url_mismatch",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
-      "next_review_at": ""
-    },
-    {
-      "source_id": "bcg_ai",
-      "name": "BCG AI Insights",
-      "lane": "authority",
-      "capture_mode": "sitemap",
-      "ok": false,
-      "reachable": true,
-      "verified": false,
-      "fresh": false,
-      "current": false,
-      "transport_ok": true,
-      "transport_mode": "sitemap_page",
-      "quality_status": "unverified_timestamp",
-      "item_count": 0,
-      "entry_count": 1089,
-      "verified_timestamp_count": 0,
-      "eligible_timestamp_count": 0,
-      "timestamp_skips": {
-        "missing_timestamp": 0,
-        "invalid_timestamp": 0,
-        "future_timestamp": 0,
-        "outside_window": 0,
-        "conflicted_timestamp": 0,
-        "unverified_page": 12
-      },
-      "attempted_urls": [
-        "https://www.bcg.com/google_sitemap-content.xml"
-      ],
-      "selected_url": "",
-      "latest_verified_published_at": "",
-      "freshness_sla_hours": 720,
-      "duration_ms": 22110,
-      "error": "entries_without_trustworthy_timestamp; https://www.bcg.com/publications/2026/building-investor-confidence-in-ai-strategy: publication_page_timestamp_conflict | https://www.bcg.com/publications/2026/air-travel-outlook-revenues-and-costs-are-rising: publication_page_timestamp_conflict | https://www.bcg.com/publications/2026/strait-of-hormuz-chokepoint-impacts-future-business: publication_page_timestamp_conflict | https://www.bcg.com/publications/2026/four-ways-to-accelerate-growth-with-ai-and-analytics: publication_page_timestamp_conflict",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     },
     {
@@ -955,9 +919,45 @@
       "selected_url": "https://www.indiehackers.com/post/i-tested-agenmatic-for-finding-customers-in-communities-here-s-what-i-learned-c5fb31ccf7",
       "latest_verified_published_at": "2026-07-29T17:30:11.917000Z",
       "freshness_sla_hours": 72,
-      "duration_ms": 22197,
+      "duration_ms": 16769,
       "error": "",
-      "last_checked_at": "2026-07-29T22:29:12.640257Z",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
+      "next_review_at": ""
+    },
+    {
+      "source_id": "bcg_ai",
+      "name": "BCG AI Insights",
+      "lane": "authority",
+      "capture_mode": "sitemap",
+      "ok": false,
+      "reachable": true,
+      "verified": false,
+      "fresh": false,
+      "current": false,
+      "transport_ok": true,
+      "transport_mode": "sitemap_page",
+      "quality_status": "unverified_timestamp",
+      "item_count": 0,
+      "entry_count": 1089,
+      "verified_timestamp_count": 0,
+      "eligible_timestamp_count": 0,
+      "timestamp_skips": {
+        "missing_timestamp": 0,
+        "invalid_timestamp": 0,
+        "future_timestamp": 0,
+        "outside_window": 0,
+        "conflicted_timestamp": 0,
+        "unverified_page": 12
+      },
+      "attempted_urls": [
+        "https://www.bcg.com/google_sitemap-content.xml"
+      ],
+      "selected_url": "",
+      "latest_verified_published_at": "",
+      "freshness_sla_hours": 720,
+      "duration_ms": 22955,
+      "error": "entries_without_trustworthy_timestamp; https://www.bcg.com/publications/2026/building-investor-confidence-in-ai-strategy: publication_page_timestamp_conflict | https://www.bcg.com/publications/2026/air-travel-outlook-revenues-and-costs-are-rising: publication_page_timestamp_conflict | https://www.bcg.com/publications/2026/strait-of-hormuz-chokepoint-impacts-future-business: publication_page_timestamp_conflict | https://www.bcg.com/publications/2026/four-ways-to-accelerate-growth-with-ai-and-analytics: publication_page_timestamp_conflict",
+      "last_checked_at": "2026-07-29T23:31:25.870308Z",
       "next_review_at": ""
     }
   ]
