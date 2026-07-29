@@ -1,35 +1,6 @@
 {
-  "generated_at": "2026-07-29T07:38:51.320894Z",
+  "generated_at": "2026-07-29T10:30:37.314711Z",
   "clusters": [
-    {
-      "cluster_id": "biz_cluster_adaf1c17b708",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_f7b9ab4ed0c0"
-      ],
-      "source_count": 1,
-      "importance_score": 53,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_f7b9ab4ed0c0"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "Day 8 of building StartupHQ: How would you visualize AI agents working in the background?",
-          "url": "https://www.indiehackers.com/post/day-8-of-building-startuphq-how-would-you-visualize-ai-agents-working-in-the-background-a01b58ad7b"
-        }
-      ]
-    },
     {
       "cluster_id": "biz_cluster_1d939c460876",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
@@ -102,6 +73,42 @@
       ]
     },
     {
+      "cluster_id": "biz_cluster_773021e1b0aa",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "signal_ids": [
+        "biz_cd1d7309e58e",
+        "biz_5822b8f8f216"
+      ],
+      "source_count": 1,
+      "importance_score": 43,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_cd1d7309e58e",
+        "biz_5822b8f8f216"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "I Tested Agenmatic for Finding Customers in Communities — Here’s What I Learned",
+          "url": "https://www.indiehackers.com/post/i-tested-agenmatic-for-finding-customers-in-communities-here-s-what-i-learned-c5fb31ccf7"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "I built an AI bookkeeping tool because I hated doing my own books",
+          "url": "https://www.indiehackers.com/post/i-built-an-ai-bookkeeping-tool-because-i-hated-doing-my-own-books-86ff21647a"
+        }
+      ]
+    },
+    {
       "cluster_id": "biz_cluster_a50573c50aba",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
@@ -140,35 +147,6 @@
           "source": "Hugging Face Blog",
           "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
           "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_4ed08435e5eb",
-      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "lane": "authority_trust",
-      "signal_ids": [
-        "biz_99336946cc29"
-      ],
-      "source_count": 1,
-      "importance_score": 37,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
-      "evidence_refs": [
-        "biz_99336946cc29"
-      ],
-      "top_sources": [
-        {
-          "source": "Bain Insights",
-          "title": "The Agentic Travel Agent with Glenn Fogel, CEO of Booking Holdings",
-          "url": "https://www.bain.com/insights/winning-with-ai-podcast-Glenn-Fogel/"
         }
       ]
     }
