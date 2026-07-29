@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:30:37.314711Z",
+  "generated_at": "2026-07-29T12:30:51.680117Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-28T19:32:52Z",
-      "captured_at": "2026-07-29T10:30:37.314711Z",
+      "captured_at": "2026-07-29T12:30:51.680117Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-28T19:18:42Z",
-      "captured_at": "2026-07-29T10:30:37.314711Z",
+      "captured_at": "2026-07-29T12:30:51.680117Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -77,53 +77,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_cd1d7309e58e",
-      "title": "I Tested Agenmatic for Finding Customers in Communities — Here’s What I Learned",
-      "url": "https://www.indiehackers.com/post/i-tested-agenmatic-for-finding-customers-in-communities-here-s-what-i-learned-c5fb31ccf7",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-07-29T02:53:39.891000Z",
-      "captured_at": "2026-07-29T10:30:37.314711Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "I Tested Agenmatic",
-        "Finding Customers",
-        "Communities",
-        "Here",
-        "What I Learned"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 43,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "I Tested Agenmatic for Finding Customers in Communities — Here’s What I Learned Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
       "signal_id": "biz_5b2afe14d6d1",
       "title": "Agentic AI Governance, Risk, and Controls for Business Leaders",
       "url": "https://www.bain.com/insights/agentic-ai-governance-risk-and-controls-for-business-leaders/",
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-07-28T13:00:00Z",
-      "captured_at": "2026-07-29T10:30:37.314711Z",
+      "captured_at": "2026-07-29T12:30:51.680117Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
@@ -157,48 +117,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_5822b8f8f216",
-      "title": "I built an AI bookkeeping tool because I hated doing my own books",
-      "url": "https://www.indiehackers.com/post/i-built-an-ai-bookkeeping-tool-because-i-hated-doing-my-own-books-86ff21647a",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-07-28T16:41:43.643000Z",
-      "captured_at": "2026-07-29T10:30:37.314711Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 39,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "I built an AI bookkeeping tool because I hated doing my own books Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
       "signal_id": "biz_50366f4f5eb8",
       "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
       "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch",
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-07-28T15:54:24Z",
-      "captured_at": "2026-07-29T10:30:37.314711Z",
+      "captured_at": "2026-07-29T12:30:51.680117Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -233,7 +158,7 @@
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "published_at": "2026-07-28T17:00:00Z",
-      "captured_at": "2026-07-29T10:30:37.314711Z",
+      "captured_at": "2026-07-29T12:30:51.680117Z",
       "lane": "ai_commercialization",
       "entities": [
         "OpenAI News",
@@ -263,13 +188,51 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_29498ace9f43",
+      "title": "﻿The Link Between Explicit AI-Generated Images and Offline Crime",
+      "url": "https://sloanreview.mit.edu/article/the-link-between-explicit-ai-generated-images-and-offline-crime/",
+      "source_id": "mit_smr",
+      "source_name": "MIT Sloan Management Review",
+      "published_at": "2026-07-29T11:00:40Z",
+      "captured_at": "2026-07-29T12:30:51.680117Z",
+      "lane": "authority",
+      "entities": [
+        "MIT Sloan Management Review",
+        "The Link Between",
+        "Explicit AI-Generated Images",
+        "Offline Crime"
+      ],
+      "business_model_tags": [
+        "OPC",
+        "AI Business Model Innovation"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 6,
+      "case_concreteness_score": 0,
+      "total_score": 34,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 0,
+        "business_model_value": 0,
+        "case_concreteness": 0,
+        "opc_fit": 6,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Dung Hoang/theispot.com The online revolution enabled frictionless access to virtually every type of content — including adult content. Generative AI has added a whole new, and potentially more dangerous, dimension to th... Tags: OPC, AI Business Model Innovation.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_336c7f8879e7",
       "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
       "url": "https://www.latent.space/p/chatgpt-work",
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-07-28T15:26:30Z",
-      "captured_at": "2026-07-29T10:30:37.314711Z",
+      "captured_at": "2026-07-29T12:30:51.680117Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -308,7 +271,7 @@
       "source_id": "huggingface_blog",
       "source_name": "Hugging Face Blog",
       "published_at": "2026-07-28T16:27:42Z",
-      "captured_at": "2026-07-29T10:30:37.314711Z",
+      "captured_at": "2026-07-29T12:30:51.680117Z",
       "lane": "ai_commercialization",
       "entities": [
         "Hugging Face Blog",
