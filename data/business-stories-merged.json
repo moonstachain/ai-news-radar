@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T22:35:13.980515Z",
+  "generated_at": "2026-07-30T23:54:54.896441Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_d99b8bad97e7",
@@ -73,30 +73,28 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_d569d40234e9",
+      "cluster_id": "biz_cluster_9a87b005ec2f",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
         "biz_6f9f97e55e7c",
         "biz_af83dc82d2bd",
-        "biz_0acd03efb248",
-        "biz_44d73b55a50e"
+        "biz_0acd03efb248"
       ],
       "source_count": 3,
-      "importance_score": 40,
+      "importance_score": 42,
       "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "4 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
         "biz_6f9f97e55e7c",
         "biz_af83dc82d2bd",
-        "biz_0acd03efb248",
-        "biz_44d73b55a50e"
+        "biz_0acd03efb248"
       ],
       "top_sources": [
         {
@@ -113,11 +111,6 @@
           "source": "Latent Space",
           "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
           "url": "https://www.latent.space/p/ontologies-agentic-systems"
-        },
-        {
-          "source": "Latent Space",
-          "title": "[AINews] AI is eating Finance; AIE NYC now open",
-          "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc"
         }
       ]
     },
