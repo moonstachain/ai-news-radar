@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T09:12:13.030118Z",
+  "generated_at": "2026-07-30T11:29:01.763315Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-07-29T12:05:05Z",
-      "captured_at": "2026-07-30T09:12:13.030118Z",
+      "captured_at": "2026-07-30T11:29:01.763315Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -44,40 +44,81 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_29498ace9f43",
-      "title": "﻿The Link Between Explicit AI-Generated Images and Offline Crime",
-      "url": "https://sloanreview.mit.edu/article/the-link-between-explicit-ai-generated-images-and-offline-crime/",
+      "signal_id": "biz_0acd03efb248",
+      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+      "url": "https://www.latent.space/p/ontologies-agentic-systems",
+      "source_id": "latent_space",
+      "source_name": "Latent Space",
+      "published_at": "2026-07-30T11:17:55Z",
+      "captured_at": "2026-07-30T11:29:01.763315Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "Latent Space",
+        "Ontologies Are So",
+        "Back",
+        "Why AI Agents",
+        "Are Reviving",
+        "Semantic Web"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 32,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 5,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries. Tags: AI Business Model Innovation, Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_187fccb2729c",
+      "title": "How ﻿a Healthy ﻿Work Culture﻿ Help﻿s﻿ ﻿Trauma Survivors",
+      "url": "https://sloanreview.mit.edu/article/how-a-healthy-work-culture-helps-trauma-survivors/",
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
-      "published_at": "2026-07-29T11:00:40Z",
-      "captured_at": "2026-07-30T09:12:13.030118Z",
+      "published_at": "2026-07-30T11:00:24Z",
+      "captured_at": "2026-07-30T11:29:01.763315Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
-        "The Link Between",
-        "Explicit AI-Generated Images",
-        "Offline Crime"
+        "Healthy",
+        "Work Culture",
+        "Help",
+        "Trauma Survivors"
       ],
       "business_model_tags": [
-        "OPC",
+        "Enterprise AI Workflow",
         "AI Business Model Innovation"
       ],
       "yuanli_tags": [
         "yuanli_startup"
       ],
-      "opc_fit_score": 6,
+      "opc_fit_score": 0,
       "case_concreteness_score": 0,
-      "total_score": 33,
+      "total_score": 31,
       "score_breakdown": {
         "source_authority": 20,
         "yuanli_relevance": 0,
-        "business_model_value": 0,
+        "business_model_value": 3,
         "case_concreteness": 0,
-        "opc_fit": 6,
-        "freshness": 7,
+        "opc_fit": 0,
+        "freshness": 8,
         "counter_signal_value": 0
       },
-      "summary": "Dung Hoang/theispot.com The online revolution enabled frictionless access to virtually every type of content — including adult content. Generative AI has added a whole new, and potentially more dangerous, dimension to th... Tags: OPC, AI Business Model Innovation.",
+      "summary": "Donna Grethen/Ikon Images Over the past few decades, there has been burgeoning interest in how leaders and organizations can support employees in the aftermath of traumatic events.1 But there is another pervasive and oft... Tags: Enterprise AI Workflow, AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     },
@@ -88,7 +129,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-07-29T23:32:12Z",
-      "captured_at": "2026-07-30T09:12:13.030118Z",
+      "captured_at": "2026-07-30T11:29:01.763315Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -105,14 +146,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 0,
-      "total_score": 29,
+      "total_score": 28,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 3,
         "business_model_value": 2,
         "case_concreteness": 0,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding. Tags: AI Business Model Innovation, Enterprise AI Workflow.",
