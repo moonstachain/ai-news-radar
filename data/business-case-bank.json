@@ -1,25 +1,47 @@
 {
-  "generated_at": "2026-07-30T17:02:08.434051Z",
+  "generated_at": "2026-07-30T18:19:15.578234Z",
   "cases": [
     {
-      "case_id": "opc_case_4715e66be153",
-      "company": "Two",
+      "case_id": "opc_case_571e7d4f240d",
+      "company": "CEO Interview",
       "founder": "",
       "source_refs": [
-        "biz_2ba4d50a8f5f"
+        "biz_5e370a444e12"
       ],
-      "url": "https://www.indiehackers.com/post/two-customers-almost-booked-the-same-appointment-slot-in-my-saas-heres-the-one-line-bug-that-caused-it-c3db6243d6",
-      "title": "Two customers almost booked the same appointment slot in my SaaS. Here's the one-line bug that caused it",
-      "business_model": "Founder Case, OPC",
+      "url": "https://www.cbinsights.com/research/ceo-interview-valr-capital/",
+      "title": "CEO Interview: VALR Capital",
+      "business_model": "Founder Case, Counter Signal",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
+      "distribution_channel": "CB Insights",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
-        "yuanli_startup"
+        "yuanli_startup",
+        "ftf_trust"
       ],
-      "score": 42
+      "score": 57
+    },
+    {
+      "case_id": "opc_case_2d6f3812972f",
+      "company": "Executive Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_151b381cd4ef"
+      ],
+      "url": "https://www.cbinsights.com/research/executive-interview-finrank/",
+      "title": "Executive Interview: FinRank",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     },
     {
       "case_id": "opc_case_a9a8f9933a3d",
