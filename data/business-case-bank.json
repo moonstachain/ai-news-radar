@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T18:19:15.578234Z",
+  "generated_at": "2026-07-30T20:01:28.652780Z",
   "cases": [
     {
       "case_id": "opc_case_571e7d4f240d",
@@ -21,6 +21,48 @@
         "ftf_trust"
       ],
       "score": 57
+    },
+    {
+      "case_id": "opc_case_b7adfa972dbb",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_e984ff7ba0c4"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-asterix-health/",
+      "title": "CEO Interview: Asterix Health",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
+    },
+    {
+      "case_id": "opc_case_d5871dc2ecb3",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_c3a7e347964b"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-voom-insurance/",
+      "title": "CEO Interview: VOOM Insurance",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     },
     {
       "case_id": "opc_case_2d6f3812972f",
