@@ -1,7 +1,82 @@
 {
-  "generated_at": "2026-07-30T17:02:08.434051Z",
+  "generated_at": "2026-07-30T18:19:15.578234Z",
   "window_hours": 24,
   "items": [
+    {
+      "signal_id": "biz_5e370a444e12",
+      "title": "CEO Interview: VALR Capital",
+      "url": "https://www.cbinsights.com/research/ceo-interview-valr-capital/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-07-30T17:01:00Z",
+      "captured_at": "2026-07-30T18:19:15.578234Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "CEO Interview",
+        "VALR Capital"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "Counter Signal"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 57,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 8,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 4
+      },
+      "summary": "Alex Ndubai, CEO at VALR Capital, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We are credit risk infrastru... Tags: Founder Case, Counter Signal.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_151b381cd4ef",
+      "title": "Executive Interview: FinRank",
+      "url": "https://www.cbinsights.com/research/executive-interview-finrank/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-07-30T16:46:35Z",
+      "captured_at": "2026-07-30T18:19:15.578234Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "FinRank"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Shyam Pradheep, COO at FinRank, Inc., tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We define our market as... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
     {
       "signal_id": "biz_6f9f97e55e7c",
       "title": "What startups get wrong about enterprise | Lindsey Scrase (COO, Checkr)",
@@ -9,7 +84,7 @@
       "source_id": "first_round",
       "source_name": "First Round Review",
       "published_at": "2026-07-30T11:00:00Z",
-      "captured_at": "2026-07-30T17:02:08.434051Z",
+      "captured_at": "2026-07-30T18:19:15.578234Z",
       "lane": "startup_vc",
       "entities": [
         "First Round Review",
@@ -42,41 +117,40 @@
       "transport_mode": "sitemap_page"
     },
     {
-      "signal_id": "biz_2ba4d50a8f5f",
-      "title": "Two customers almost booked the same appointment slot in my SaaS. Here's the one-line bug that caused it",
-      "url": "https://www.indiehackers.com/post/two-customers-almost-booked-the-same-appointment-slot-in-my-saas-heres-the-one-line-bug-that-caused-it-c3db6243d6",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-07-29T17:30:11.917000Z",
-      "captured_at": "2026-07-30T17:02:08.434051Z",
-      "lane": "opc",
+      "signal_id": "biz_af83dc82d2bd",
+      "title": "Stacked sessions and pull requests in the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+      "source_id": "github_blog",
+      "source_name": "GitHub Blog",
+      "published_at": "2026-07-30T17:30:24Z",
+      "captured_at": "2026-07-30T18:19:15.578234Z",
+      "lane": "ai_commercialization",
       "entities": [
-        "Indie Hackers",
-        "Two",
-        "SaaS. Here"
+        "GitHub Blog",
+        "Stacked",
+        "GitHub Copilot"
       ],
       "business_model_tags": [
-        "Founder Case",
-        "OPC"
+        "Enterprise AI Workflow"
       ],
       "yuanli_tags": [
-        "yuanli_startup"
+        "yuanli_os"
       ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 42,
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 34,
       "score_breakdown": {
-        "source_authority": 16,
+        "source_authority": 20,
         "yuanli_relevance": 3,
         "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 7,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
         "counter_signal_value": 0
       },
-      "summary": "Two customers almost booked the same appointment slot in my SaaS. Here's the one-line bug that caused it Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
+      "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app. The post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog . Tags: Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
     },
     {
       "signal_id": "biz_0acd03efb248",
@@ -85,7 +159,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-07-30T11:17:55Z",
-      "captured_at": "2026-07-30T17:02:08.434051Z",
+      "captured_at": "2026-07-30T18:19:15.578234Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -125,7 +199,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-07-30T11:00:24Z",
-      "captured_at": "2026-07-30T17:02:08.434051Z",
+      "captured_at": "2026-07-30T18:19:15.578234Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -164,7 +238,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-07-29T23:32:12Z",
-      "captured_at": "2026-07-30T17:02:08.434051Z",
+      "captured_at": "2026-07-30T18:19:15.578234Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
