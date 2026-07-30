@@ -1,35 +1,28 @@
 {
-  "generated_at": "2026-07-30T11:29:01.763315Z",
+  "generated_at": "2026-07-30T13:04:45.405338Z",
   "clusters": [
     {
-      "cluster_id": "biz_cluster_bc0105336508",
+      "cluster_id": "biz_cluster_9b78d79c5d96",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "signal_ids": [
-        "biz_ccd3146b360a",
         "biz_187fccb2729c"
       ],
-      "source_count": 2,
-      "importance_score": 38,
-      "confidence": "medium",
+      "source_count": 1,
+      "importance_score": 33,
+      "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "yuanli_startup"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
-        "biz_ccd3146b360a",
         "biz_187fccb2729c"
       ],
       "top_sources": [
-        {
-          "source": "Harvard Business Review",
-          "title": "Research: How AI Agents Broaden the Scope of Knowledge Work",
-          "url": "https://hbr.org/2026/07/research-how-ai-agents-broaden-the-scope-of-knowledge-work"
-        },
         {
           "source": "MIT Sloan Management Review",
           "title": "How ﻿a Healthy ﻿Work Culture﻿ Help﻿s﻿ ﻿Trauma Survivors",
