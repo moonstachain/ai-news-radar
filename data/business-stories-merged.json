@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:15:58.388562Z",
+  "generated_at": "2026-07-31T11:05:33.919991Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_d99b8bad97e7",
@@ -73,35 +73,28 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_9a87b005ec2f",
+      "cluster_id": "biz_cluster_34519a8ef8cb",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
-        "biz_6f9f97e55e7c",
         "biz_af83dc82d2bd",
         "biz_0acd03efb248"
       ],
-      "source_count": 3,
-      "importance_score": 42,
+      "source_count": 2,
+      "importance_score": 36,
       "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
-        "biz_6f9f97e55e7c",
         "biz_af83dc82d2bd",
         "biz_0acd03efb248"
       ],
       "top_sources": [
-        {
-          "source": "First Round Review",
-          "title": "What startups get wrong about enterprise | Lindsey Scrase (COO, Checkr)",
-          "url": "https://review.firstround.com/what-startups-get-wrong-about-enterprise-lindsey-scrase-coo-checkr/"
-        },
         {
           "source": "GitHub Blog",
           "title": "Stacked sessions and pull requests in the GitHub Copilot app",
@@ -111,64 +104,6 @@
           "source": "Latent Space",
           "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
           "url": "https://www.latent.space/p/ontologies-agentic-systems"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_e2f0acb713a1",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_3ae3ff4f6007"
-      ],
-      "source_count": 1,
-      "importance_score": 34,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_3ae3ff4f6007"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "5% churn at $3k MRR is $150. At $20k it's $1,000. Nothing about the product changed.",
-          "url": "https://www.indiehackers.com/post/5-churn-at-3k-mrr-is-150-at-20k-its-1-000-nothing-about-the-product-changed-50e17575a2"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_9b78d79c5d96",
-      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "lane": "authority_trust",
-      "signal_ids": [
-        "biz_187fccb2729c"
-      ],
-      "source_count": 1,
-      "importance_score": 32,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
-      "evidence_refs": [
-        "biz_187fccb2729c"
-      ],
-      "top_sources": [
-        {
-          "source": "MIT Sloan Management Review",
-          "title": "How ﻿a Healthy ﻿Work Culture﻿ Help﻿s﻿ ﻿Trauma Survivors",
-          "url": "https://sloanreview.mit.edu/article/how-a-healthy-work-culture-helps-trauma-survivors/"
         }
       ]
     }
