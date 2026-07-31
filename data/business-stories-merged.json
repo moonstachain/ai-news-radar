@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T11:05:33.919991Z",
+  "generated_at": "2026-07-31T13:13:39.028574Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_d99b8bad97e7",
@@ -73,37 +73,30 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_34519a8ef8cb",
+      "cluster_id": "biz_cluster_ea7467936866",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
-        "biz_af83dc82d2bd",
-        "biz_0acd03efb248"
+        "biz_af83dc82d2bd"
       ],
-      "source_count": 2,
-      "importance_score": 36,
-      "confidence": "medium",
+      "source_count": 1,
+      "importance_score": 35,
+      "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
-        "biz_af83dc82d2bd",
-        "biz_0acd03efb248"
+        "biz_af83dc82d2bd"
       ],
       "top_sources": [
         {
           "source": "GitHub Blog",
           "title": "Stacked sessions and pull requests in the GitHub Copilot app",
           "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/"
-        },
-        {
-          "source": "Latent Space",
-          "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
-          "url": "https://www.latent.space/p/ontologies-agentic-systems"
         }
       ]
     }
