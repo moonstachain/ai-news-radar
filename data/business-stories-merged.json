@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:13:39.028574Z",
+  "generated_at": "2026-07-31T15:36:42.696547Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_d99b8bad97e7",
@@ -97,6 +97,35 @@
           "source": "GitHub Blog",
           "title": "Stacked sessions and pull requests in the GitHub Copilot app",
           "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_d39689531f1a",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "signal_ids": [
+        "biz_d8666da04622"
+      ],
+      "source_count": 1,
+      "importance_score": 32,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_d8666da04622"
+      ],
+      "top_sources": [
+        {
+          "source": "Harvard Business Review",
+          "title": "The Hidden Realities of AI Adoption",
+          "url": "https://hbr.org/2026/07/the-hidden-realities-of-ai-adoption"
         }
       ]
     }
