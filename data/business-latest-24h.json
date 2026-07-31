@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T17:19:47.773746Z",
+  "generated_at": "2026-07-31T18:51:59.502661Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-07-30T19:34:37Z",
-      "captured_at": "2026-07-31T17:19:47.773746Z",
+      "captured_at": "2026-07-31T18:51:59.502661Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -40,50 +40,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_c3a7e347964b",
-      "title": "CEO Interview: VOOM Insurance",
-      "url": "https://www.cbinsights.com/research/ceo-interview-voom-insurance/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-07-30T18:13:35Z",
-      "captured_at": "2026-07-31T17:19:47.773746Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "CEO Interview",
-        "VOOM Insurance"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 49,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Tomer Kashi, CEO at VOOM Insurance, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We operate in the digital... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_6c621db33157",
       "title": "A Risk-Balanced Approach to Upstream Capital Projects",
       "url": "https://www.bain.com/insights/a-risk-balanced-approach-to-upstream-capital-projects/",
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-07-31T16:00:00Z",
-      "captured_at": "2026-07-31T17:19:47.773746Z",
+      "captured_at": "2026-07-31T18:51:59.502661Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
@@ -110,79 +73,6 @@
         "counter_signal_value": 4
       },
       "summary": "A Risk-Balanced Approach to Upstream Capital Projects Tags: Counter Signal, AI Business Model Innovation.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_af83dc82d2bd",
-      "title": "Stacked sessions and pull requests in the GitHub Copilot app",
-      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
-      "source_id": "github_blog",
-      "source_name": "GitHub Blog",
-      "published_at": "2026-07-30T17:30:24Z",
-      "captured_at": "2026-07-31T17:19:47.773746Z",
-      "lane": "ai_commercialization",
-      "entities": [
-        "GitHub Blog",
-        "Stacked",
-        "GitHub Copilot"
-      ],
-      "business_model_tags": [
-        "Enterprise AI Workflow"
-      ],
-      "yuanli_tags": [
-        "yuanli_os"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 33,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app. The post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog . Tags: Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_d8666da04622",
-      "title": "The Hidden Realities of AI Adoption",
-      "url": "https://hbr.org/2026/07/the-hidden-realities-of-ai-adoption",
-      "source_id": "hbr",
-      "source_name": "Harvard Business Review",
-      "published_at": "2026-07-30T18:00:48Z",
-      "captured_at": "2026-07-31T17:19:47.773746Z",
-      "lane": "authority",
-      "entities": [
-        "Harvard Business Review",
-        "The Hidden Realities",
-        "AI Adoption"
-      ],
-      "business_model_tags": [
-        "Enterprise AI Workflow",
-        "AI Business Model Innovation"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 30,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "The Hidden Realities of AI Adoption Tags: Enterprise AI Workflow, AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     }
