@@ -1,66 +1,86 @@
 {
-  "generated_at": "2026-08-01T07:40:51.665193Z",
+  "generated_at": "2026-08-01T09:49:27.517756Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_6d58997b466c",
-      "title": "数学和理论计算机科学的十大进展 / Ten advances in mathematics and theoretical computer science",
-      "url": "https://openai.com/index/ten-advances-in-mathematics",
-      "primary_url": "https://openai.com/index/ten-advances-in-mathematics",
+      "story_id": "story_6e145b017b5a",
+      "title": "构建丰富的智能 / Building abundant intelligence",
+      "url": "https://openai.com/index/building-abundant-intelligence",
+      "primary_url": "https://openai.com/index/building-abundant-intelligence",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "a0e4b1e4f3be1357532241ca9041be11d4352f4f",
-          "title": "数学和理论计算机科学的十大进展 / Ten advances in mathematics and theoretical computer science",
-          "url": "https://openai.com/index/ten-advances-in-mathematics",
+          "id": "2440a232fead11fbf349052abb1cbc7f0577e5f6",
+          "title": "构建丰富的智能 / Building abundant intelligence",
+          "url": "https://openai.com/index/building-abundant-intelligence",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-01T00:00:00Z"
+          "published_at": "2026-07-31T15:00:00Z"
+        },
+        {
+          "id": "63783678b17eb65944ded4d1e4c7bdf91d0b1398",
+          "title": "OpenAI 服务超过 10 亿活跃用户 / OpenAI serves more than one billion active users",
+          "url": "https://openai.com/index/building-abundant-intelligence",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-31T19:42:35Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
+        "Hacker News · 24h最热",
         "OpenAI News"
       ],
       "items": [
         {
-          "id": "a0e4b1e4f3be1357532241ca9041be11d4352f4f",
-          "title": "数学和理论计算机科学的十大进展 / Ten advances in mathematics and theoretical computer science",
-          "url": "https://openai.com/index/ten-advances-in-mathematics",
+          "id": "2440a232fead11fbf349052abb1cbc7f0577e5f6",
+          "title": "构建丰富的智能 / Building abundant intelligence",
+          "url": "https://openai.com/index/building-abundant-intelligence",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-01T00:00:00Z"
+          "published_at": "2026-07-31T15:00:00Z"
+        },
+        {
+          "id": "63783678b17eb65944ded4d1e4c7bdf91d0b1398",
+          "title": "OpenAI 服务超过 10 亿活跃用户 / OpenAI serves more than one billion active users",
+          "url": "https://openai.com/index/building-abundant-intelligence",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-31T19:42:35Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8331,
-      "importance": 0.8331,
-      "importance_score": 0.8331,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8342,
+      "importance": 0.8342,
+      "importance_score": 0.8342,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.895,
-        "story_heat": 0.0
+        "recency": 0.762,
+        "story_heat": 0.25
       },
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-01T00:00:00Z",
-      "latest_at": "2026-08-01T00:00:00Z",
+      "earliest_at": "2026-07-31T15:00:00Z",
+      "latest_at": "2026-07-31T19:42:35Z",
       "primary_item": {
-        "id": "a0e4b1e4f3be1357532241ca9041be11d4352f4f",
-        "title": "数学和理论计算机科学的十大进展 / Ten advances in mathematics and theoretical computer science",
-        "url": "https://openai.com/index/ten-advances-in-mathematics",
+        "id": "2440a232fead11fbf349052abb1cbc7f0577e5f6",
+        "title": "构建丰富的智能 / Building abundant intelligence",
+        "url": "https://openai.com/index/building-abundant-intelligence",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -100,15 +120,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8242,
-      "importance": 0.8242,
-      "importance_score": 0.8242,
+      "score": 0.8196,
+      "importance": 0.8196,
+      "importance_score": 0.8196,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8456,
+        "recency": 0.8198,
         "story_heat": 0.0
       },
       "category": "official",
@@ -219,15 +239,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8096,
-      "importance": 0.8096,
-      "importance_score": 0.8096,
+      "score": 0.8049,
+      "importance": 0.8049,
+      "importance_score": 0.8049,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8499,
+        "recency": 0.824,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -247,21 +267,21 @@
       }
     },
     {
-      "story_id": "story_b86dc435d64a",
-      "title": "在整个欧洲推进负责任的人工智能 / Advancing responsible AI across Europe",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "primary_url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "story_id": "story_6d58997b466c",
+      "title": "数学和理论计算机科学的十大进展 / Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "primary_url": "https://openai.com/index/ten-advances-in-mathematics",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "6f15452c6a78dda5866e27c9b09616977b3c8a4a",
-          "title": "在整个欧洲推进负责任的人工智能 / Advancing responsible AI across Europe",
-          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+          "id": "a0e4b1e4f3be1357532241ca9041be11d4352f4f",
+          "title": "数学和理论计算机科学的十大进展 / Ten advances in mathematics and theoretical computer science",
+          "url": "https://openai.com/index/ten-advances-in-mathematics",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-31T15:00:00Z"
+          "published_at": "2026-08-01T00:00:00Z"
         }
       ],
       "source_count": 1,
@@ -270,26 +290,26 @@
       ],
       "items": [
         {
-          "id": "6f15452c6a78dda5866e27c9b09616977b3c8a4a",
-          "title": "在整个欧洲推进负责任的人工智能 / Advancing responsible AI across Europe",
-          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+          "id": "a0e4b1e4f3be1357532241ca9041be11d4352f4f",
+          "title": "数学和理论计算机科学的十大进展 / Ten advances in mathematics and theoretical computer science",
+          "url": "https://openai.com/index/ten-advances-in-mathematics",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-31T15:00:00Z"
+          "published_at": "2026-08-01T00:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8135,
-      "importance": 0.8135,
-      "importance_score": 0.8135,
+      "score": 0.8282,
+      "importance": 0.8282,
+      "importance_score": 0.8282,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7859,
+        "recency": 0.8677,
         "story_heat": 0.0
       },
       "category": "official",
@@ -298,12 +318,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-31T15:00:00Z",
-      "latest_at": "2026-07-31T15:00:00Z",
+      "earliest_at": "2026-08-01T00:00:00Z",
+      "latest_at": "2026-08-01T00:00:00Z",
       "primary_item": {
-        "id": "6f15452c6a78dda5866e27c9b09616977b3c8a4a",
-        "title": "在整个欧洲推进负责任的人工智能 / Advancing responsible AI across Europe",
-        "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+        "id": "a0e4b1e4f3be1357532241ca9041be11d4352f4f",
+        "title": "数学和理论计算机科学的十大进展 / Ten advances in mathematics and theoretical computer science",
+        "url": "https://openai.com/index/ten-advances-in-mathematics",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -343,15 +363,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8122,
-      "importance": 0.8122,
-      "importance_score": 0.8122,
+      "score": 0.8076,
+      "importance": 0.8076,
+      "importance_score": 0.8076,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8231,
+        "recency": 0.798,
         "story_heat": 0.0
       },
       "category": "official",
@@ -424,15 +444,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7704,
-      "importance": 0.7704,
-      "importance_score": 0.7704,
+      "score": 0.7657,
+      "importance": 0.7657,
+      "importance_score": 0.7657,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8602,
+        "recency": 0.834,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -486,15 +506,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7672,
-      "importance": 0.7672,
-      "importance_score": 0.7672,
+      "score": 0.762,
+      "importance": 0.762,
+      "importance_score": 0.762,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9476,
+        "recency": 0.9187,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -547,15 +567,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7613,
-      "importance": 0.7613,
-      "importance_score": 0.7613,
+      "score": 0.7565,
+      "importance": 0.7565,
+      "importance_score": 0.7565,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.865,
+        "recency": 0.8386,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -574,17 +594,78 @@
       }
     },
     {
-      "story_id": "story_6e145b017b5a",
-      "title": "构建丰富的智能 / Building abundant intelligence",
-      "url": "https://openai.com/index/building-abundant-intelligence",
-      "primary_url": "https://openai.com/index/building-abundant-intelligence",
+      "story_id": "story_478fa414920c",
+      "title": "OpenAI Astra 以约2000美元证明10项数学难题",
+      "url": "https://x.com/gdb/status/2083457463337287721",
+      "primary_url": "https://x.com/gdb/status/2083457463337287721",
+      "source": "X：Greg Brockman (@gdb)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "5388e09d34b8b96f7241cc196d2cde3bb212a98d",
+          "title": "OpenAI Astra 以约2000美元证明10项数学难题",
+          "url": "https://x.com/gdb/status/2083457463337287721",
+          "source": "X：Greg Brockman (@gdb)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-01T07:39:02Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Greg Brockman (@gdb)"
+      ],
+      "items": [
+        {
+          "id": "5388e09d34b8b96f7241cc196d2cde3bb212a98d",
+          "title": "OpenAI Astra 以约2000美元证明10项数学难题",
+          "url": "https://x.com/gdb/status/2083457463337287721",
+          "source": "X：Greg Brockman (@gdb)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-01T07:39:02Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.756,
+      "importance": 0.756,
+      "importance_score": 0.756,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9691,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-01T07:39:02Z",
+      "latest_at": "2026-08-01T07:39:02Z",
+      "primary_item": {
+        "id": "5388e09d34b8b96f7241cc196d2cde3bb212a98d",
+        "title": "OpenAI Astra 以约2000美元证明10项数学难题",
+        "url": "https://x.com/gdb/status/2083457463337287721",
+        "source": "X：Greg Brockman (@gdb)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_b86dc435d64a",
+      "title": "在整个欧洲推进负责任的人工智能 / Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "primary_url": "https://openai.com/index/advancing-responsible-ai-across-europe",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "2440a232fead11fbf349052abb1cbc7f0577e5f6",
-          "title": "构建丰富的智能 / Building abundant intelligence",
-          "url": "https://openai.com/index/building-abundant-intelligence",
+          "id": "6f15452c6a78dda5866e27c9b09616977b3c8a4a",
+          "title": "在整个欧洲推进负责任的人工智能 / Advancing responsible AI across Europe",
+          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
@@ -597,9 +678,9 @@
       ],
       "items": [
         {
-          "id": "2440a232fead11fbf349052abb1cbc7f0577e5f6",
-          "title": "构建丰富的智能 / Building abundant intelligence",
-          "url": "https://openai.com/index/building-abundant-intelligence",
+          "id": "6f15452c6a78dda5866e27c9b09616977b3c8a4a",
+          "title": "在整个欧洲推进负责任的人工智能 / Advancing responsible AI across Europe",
+          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
@@ -608,15 +689,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8135,
-      "importance": 0.8135,
-      "importance_score": 0.8135,
+      "score": 0.8092,
+      "importance": 0.8092,
+      "importance_score": 0.8092,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7859,
+        "recency": 0.762,
         "story_heat": 0.0
       },
       "category": "official",
@@ -628,9 +709,9 @@
       "earliest_at": "2026-07-31T15:00:00Z",
       "latest_at": "2026-07-31T15:00:00Z",
       "primary_item": {
-        "id": "2440a232fead11fbf349052abb1cbc7f0577e5f6",
-        "title": "构建丰富的智能 / Building abundant intelligence",
-        "url": "https://openai.com/index/building-abundant-intelligence",
+        "id": "6f15452c6a78dda5866e27c9b09616977b3c8a4a",
+        "title": "在整个欧洲推进负责任的人工智能 / Advancing responsible AI across Europe",
+        "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -689,22 +770,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7521,
-      "importance": 0.7521,
-      "importance_score": 0.7521,
+      "score": 0.748,
+      "importance": 0.748,
+      "importance_score": 0.748,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7414,
+        "recency": 0.7188,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-31T10:57:37Z",
       "latest_at": "2026-07-31T10:57:37Z",
@@ -751,15 +831,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8091,
-      "importance": 0.8091,
-      "importance_score": 0.8091,
+      "score": 0.8047,
+      "importance": 0.8047,
+      "importance_score": 0.8047,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8062,
+        "recency": 0.7816,
         "story_heat": 0.0
       },
       "category": "official",
@@ -813,15 +893,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7372,
-      "importance": 0.7372,
-      "importance_score": 0.7372,
+      "score": 0.7332,
+      "importance": 0.7332,
+      "importance_score": 0.7332,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.731,
+        "recency": 0.7087,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -873,15 +953,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.734,
-      "importance": 0.734,
-      "importance_score": 0.734,
+      "score": 0.7299,
+      "importance": 0.7299,
+      "importance_score": 0.7299,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7636,
+        "recency": 0.7403,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -895,66 +975,6 @@
         "title": "面壁智能ALIGN：自动对齐智能体与环境接口",
         "url": "https://x.com/OpenBMB/status/2083175856563003724",
         "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_11290e610f9d",
-      "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
-      "url": "https://www.ithome.com/0/984/365.htm",
-      "primary_url": "https://www.ithome.com/0/984/365.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4207883dfe56195b7076cbccf3ec343449ed502b",
-          "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
-          "url": "https://www.ithome.com/0/984/365.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-31T11:40:12Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "4207883dfe56195b7076cbccf3ec343449ed502b",
-          "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
-          "url": "https://www.ithome.com/0/984/365.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-31T11:40:12Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7224,
-      "importance": 0.7224,
-      "importance_score": 0.7224,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.749,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-31T11:40:12Z",
-      "latest_at": "2026-07-31T11:40:12Z",
-      "primary_item": {
-        "id": "4207883dfe56195b7076cbccf3ec343449ed502b",
-        "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
-        "url": "https://www.ithome.com/0/984/365.htm",
-        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -993,15 +1013,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7402,
-      "importance": 0.7402,
-      "importance_score": 0.7402,
+      "score": 0.7358,
+      "importance": 0.7358,
+      "importance_score": 0.7358,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7977,
+        "recency": 0.7734,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1015,66 +1035,6 @@
         "title": "animated-voiceover 开源：一人干翻动画工作室",
         "url": "https://x.com/AYi_AInotes/status/2083221612778668388",
         "source": "X：阿易 AI Notes (@AYi_AInotes)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_0ae4eaaaeeda",
-      "title": "DeepSeek V4 Flash 0731 发布，智能指数跃升 10 分",
-      "url": "https://x.com/ArtificialAnlys/status/2083123180869496865",
-      "primary_url": "https://x.com/ArtificialAnlys/status/2083123180869496865",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c9ea765a549630b1225f52ace49b6d1c6619d979",
-          "title": "DeepSeek V4 Flash 0731 发布，智能指数跃升 10 分",
-          "url": "https://x.com/ArtificialAnlys/status/2083123180869496865",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-31T09:30:43Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Artificial Analysis (@ArtificialAnlys)"
-      ],
-      "items": [
-        {
-          "id": "c9ea765a549630b1225f52ace49b6d1c6619d979",
-          "title": "DeepSeek V4 Flash 0731 发布，智能指数跃升 10 分",
-          "url": "https://x.com/ArtificialAnlys/status/2083123180869496865",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-31T09:30:43Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7303,
-      "importance": 0.7303,
-      "importance_score": 0.7303,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7261,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-31T09:30:43Z",
-      "latest_at": "2026-07-31T09:30:43Z",
-      "primary_item": {
-        "id": "c9ea765a549630b1225f52ace49b6d1c6619d979",
-        "title": "DeepSeek V4 Flash 0731 发布，智能指数跃升 10 分",
-        "url": "https://x.com/ArtificialAnlys/status/2083123180869496865",
-        "source": "X：Artificial Analysis (@ArtificialAnlys)",
         "source_name": "AI HOT"
       }
     },
@@ -1131,15 +1091,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5858,
-      "importance": 0.5858,
-      "importance_score": 0.5858,
+      "score": 0.5813,
+      "importance": 0.5813,
+      "importance_score": 0.5813,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.8354,
+        "recency": 0.8099,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1154,6 +1114,104 @@
         "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
         "source": "The Verge",
         "source_name": "Curated Media"
+      }
+    },
+    {
+      "story_id": "story_25475716ab25",
+      "title": "Flint：面向人工智能时代的可视化语言",
+      "url": "https://microsoft.github.io/flint-chart",
+      "primary_url": "https://microsoft.github.io/flint-chart",
+      "source": "microsoft.github.io",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "e4650faa1d9e6e14141535cf794dceaff0486ad3",
+          "title": "Flint：面向人工智能时代的可视化语言",
+          "url": "https://microsoft.github.io/flint-chart",
+          "source": "microsoft.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-01T08:41:23.781000Z"
+        },
+        {
+          "id": "7566c9af461db37ce69beab06930c018b0a158ec",
+          "title": "Flint：AI时代的可视化语言 / Flint: A Visualization Language for the AI Era",
+          "url": "https://news.ycombinator.com/item?id=49130604",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-01T04:50:40.153000Z"
+        },
+        {
+          "id": "a0c1c63603f2363a96e0f45f9d9fbeab30867423",
+          "title": "Flint：面向人工智能时代的可视化语言 / Flint: A Visualization Language for the AI Era",
+          "url": "https://microsoft.github.io/flint-chart",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-01T02:45:09Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "hackernews",
+        "microsoft.github.io"
+      ],
+      "items": [
+        {
+          "id": "e4650faa1d9e6e14141535cf794dceaff0486ad3",
+          "title": "Flint：面向人工智能时代的可视化语言",
+          "url": "https://microsoft.github.io/flint-chart",
+          "source": "microsoft.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-01T08:41:23.781000Z"
+        },
+        {
+          "id": "7566c9af461db37ce69beab06930c018b0a158ec",
+          "title": "Flint：AI时代的可视化语言 / Flint: A Visualization Language for the AI Era",
+          "url": "https://news.ycombinator.com/item?id=49130604",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-01T04:50:40.153000Z"
+        },
+        {
+          "id": "a0c1c63603f2363a96e0f45f9d9fbeab30867423",
+          "title": "Flint：面向人工智能时代的可视化语言 / Flint: A Visualization Language for the AI Era",
+          "url": "https://microsoft.github.io/flint-chart",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-01T02:45:09Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5679,
+      "importance": 0.5679,
+      "importance_score": 0.5679,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9838,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-01T02:45:09Z",
+      "latest_at": "2026-08-01T08:41:23.781000Z",
+      "primary_item": {
+        "id": "e4650faa1d9e6e14141535cf794dceaff0486ad3",
+        "title": "Flint：面向人工智能时代的可视化语言",
+        "url": "https://microsoft.github.io/flint-chart",
+        "source": "microsoft.github.io",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1229,15 +1287,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5599,
-      "importance": 0.5599,
-      "importance_score": 0.5599,
+      "score": 0.5548,
+      "importance": 0.5548,
+      "importance_score": 0.5548,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9395,
+        "recency": 0.9109,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1308,15 +1366,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5548,
-      "importance": 0.5548,
-      "importance_score": 0.5548,
+      "score": 0.5505,
+      "importance": 0.5505,
+      "importance_score": 0.5505,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.5,
         "ai_relevance": 0.67,
-        "recency": 0.7836,
+        "recency": 0.7597,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1334,119 +1392,100 @@
       }
     },
     {
-      "story_id": "story_ae1baf0e4017",
-      "title": "DeepSeek V4 Flash 0731 智能、性能与价格分析",
-      "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
-      "primary_url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
-      "source": "artificialanalysis.ai",
+      "story_id": "story_ba22dc3a74e6",
+      "title": "人工智能的推理是否因错误的理由而正确？",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
+      "primary_url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
+      "source": "www.quantamagazine.org",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "1464af27a6d58bd532d75aacec991ebcc493c20f",
-          "title": "DeepSeek V4 Flash 0731 智能、性能与价格分析",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
-          "source": "artificialanalysis.ai",
+          "id": "a55ba1352b58969709e26276dc89feef44ea41ac",
+          "title": "人工智能的推理是否因错误的理由而正确？",
+          "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
+          "source": "www.quantamagazine.org",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-07-31T12:41:19.830000Z"
+          "published_at": "2026-07-31T23:05:14.419000Z"
         },
         {
-          "id": "8cefd691ac88dc0725a2648f53a8c14c7907cecc",
-          "title": "DeepSeek V4 Flash 0731 情报、性能和价格分析 / DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
-          "url": "https://news.ycombinator.com/item?id=49120299",
+          "id": "bc4fc6c34edb257d5b7861e3e53d26abb3ad7a9c",
+          "title": "人工智能推理是否因错误的原因而正确？ / Is AI reasoning right for the wrong reasons?",
+          "url": "https://news.ycombinator.com/item?id=49124358",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-07-31T10:50:15.428000Z"
+          "published_at": "2026-07-31T16:51:37.581000Z"
         },
         {
-          "id": "ac94df9587e5ba5023ac9e87ce80f5cd52bcbd14",
-          "title": "DeepSeek V4 Flash 0731 情报、性能和价格分析 / DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-31T07:59:11Z"
-        },
-        {
-          "id": "1a66fdeace3d92cf36d15f3662012a7cddb56ba7",
-          "title": "DeepSeek V4 Flash 0731 智能、性能与价格分析 / DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+          "id": "0e40338c8683d32db907cdcdb60ae7fcb1bf5c5a",
+          "title": "人工智能的推理是否因错误的理由而正确？ / Is AI Reasoning Right for the Wrong Reasons?",
+          "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-07-31T07:59:11Z"
+          "published_at": "2026-07-31T15:29:39Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 3,
       "source_names": [
         "Hacker News",
-        "Hacker News · 24h最热",
-        "artificialanalysis.ai",
-        "hackernews"
+        "hackernews",
+        "www.quantamagazine.org"
       ],
       "items": [
         {
-          "id": "1464af27a6d58bd532d75aacec991ebcc493c20f",
-          "title": "DeepSeek V4 Flash 0731 智能、性能与价格分析",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
-          "source": "artificialanalysis.ai",
+          "id": "a55ba1352b58969709e26276dc89feef44ea41ac",
+          "title": "人工智能的推理是否因错误的理由而正确？",
+          "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
+          "source": "www.quantamagazine.org",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-07-31T12:41:19.830000Z"
+          "published_at": "2026-07-31T23:05:14.419000Z"
         },
         {
-          "id": "8cefd691ac88dc0725a2648f53a8c14c7907cecc",
-          "title": "DeepSeek V4 Flash 0731 情报、性能和价格分析 / DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
-          "url": "https://news.ycombinator.com/item?id=49120299",
+          "id": "bc4fc6c34edb257d5b7861e3e53d26abb3ad7a9c",
+          "title": "人工智能推理是否因错误的原因而正确？ / Is AI reasoning right for the wrong reasons?",
+          "url": "https://news.ycombinator.com/item?id=49124358",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-07-31T10:50:15.428000Z"
+          "published_at": "2026-07-31T16:51:37.581000Z"
         },
         {
-          "id": "ac94df9587e5ba5023ac9e87ce80f5cd52bcbd14",
-          "title": "DeepSeek V4 Flash 0731 情报、性能和价格分析 / DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-31T07:59:11Z"
-        },
-        {
-          "id": "1a66fdeace3d92cf36d15f3662012a7cddb56ba7",
-          "title": "DeepSeek V4 Flash 0731 智能、性能与价格分析 / DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
-          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+          "id": "0e40338c8683d32db907cdcdb60ae7fcb1bf5c5a",
+          "title": "人工智能的推理是否因错误的理由而正确？ / Is AI Reasoning Right for the Wrong Reasons?",
+          "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-07-31T07:59:11Z"
+          "published_at": "2026-07-31T15:29:39Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5526,
-      "importance": 0.5526,
-      "importance_score": 0.5526,
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5449,
+      "importance": 0.5449,
+      "importance_score": 0.5449,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7601,
-        "story_heat": 0.75
+        "recency": 0.8564,
+        "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-31T07:59:11Z",
-      "latest_at": "2026-07-31T12:41:19.830000Z",
+      "earliest_at": "2026-07-31T15:29:39Z",
+      "latest_at": "2026-07-31T23:05:14.419000Z",
       "primary_item": {
-        "id": "1464af27a6d58bd532d75aacec991ebcc493c20f",
-        "title": "DeepSeek V4 Flash 0731 智能、性能与价格分析",
-        "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
-        "source": "artificialanalysis.ai",
+        "id": "a55ba1352b58969709e26276dc89feef44ea41ac",
+        "title": "人工智能的推理是否因错误的理由而正确？",
+        "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
+        "source": "www.quantamagazine.org",
         "source_name": "Buzzing"
       }
     }
