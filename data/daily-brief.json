@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:06:25.889161Z",
+  "generated_at": "2026-08-02T15:35:28.072556Z",
   "window_hours": 24,
   "total_items": 19,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7682,
-      "importance": 0.7682,
-      "importance_score": 0.7682,
+      "score": 0.7645,
+      "importance": 0.7645,
+      "importance_score": 0.7645,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9532,
+        "recency": 0.933,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -99,15 +99,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7486,
-      "importance": 0.7486,
-      "importance_score": 0.7486,
+      "score": 0.7452,
+      "importance": 0.7452,
+      "importance_score": 0.7452,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8947,
+        "recency": 0.8757,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -215,15 +215,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5641,
-      "importance": 0.5641,
-      "importance_score": 0.5641,
+      "score": 0.5609,
+      "importance": 0.5609,
+      "importance_score": 0.5609,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8238,
+        "recency": 0.8064,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -313,15 +313,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5472,
-      "importance": 0.5472,
-      "importance_score": 0.5472,
+      "score": 0.5439,
+      "importance": 0.5439,
+      "importance_score": 0.5439,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8688,
+        "recency": 0.8504,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -336,6 +336,85 @@
         "url": "https://news.ycombinator.com/item?id=49140340",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_fbc44f3b9320",
+      "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
+      "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
+      "primary_url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "b141c71170ccd0faec51836b070fa3be8592c0e6",
+          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
+          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-02T14:32:48.790000Z"
+        },
+        {
+          "id": "425db223cf82efa123a33731bc8129d1ed6df732",
+          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事 / After starting the tokenmaxxing panic, Uber's CTO is back with a very different AI story",
+          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-02T13:30:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "b141c71170ccd0faec51836b070fa3be8592c0e6",
+          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
+          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-02T14:32:48.790000Z"
+        },
+        {
+          "id": "425db223cf82efa123a33731bc8129d1ed6df732",
+          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事 / After starting the tokenmaxxing panic, Uber's CTO is back with a very different AI story",
+          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-02T13:30:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5431,
+      "importance": 0.5431,
+      "importance_score": 0.5431,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.985,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-02T13:30:01Z",
+      "latest_at": "2026-08-02T14:32:48.790000Z",
+      "primary_item": {
+        "id": "b141c71170ccd0faec51836b070fa3be8592c0e6",
+        "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
+        "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -392,15 +471,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5374,
-      "importance": 0.5374,
-      "importance_score": 0.5374,
+      "score": 0.5338,
+      "importance": 0.5338,
+      "importance_score": 0.5338,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9535,
+        "recency": 0.9333,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -414,85 +493,6 @@
         "title": "通过手动重新输入大语言模型（LLM）生成的代码来预防认知债务",
         "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
         "source": "ankursethi.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_07c78f05a067",
-      "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
-      "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
-      "primary_url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "7699a4cc2ec0f60cfb6815890d4ba9ad35d70d38",
-          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
-          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-02T08:24:43.919000Z"
-        },
-        {
-          "id": "2b4c3c96243f99ff74718fa1096803b2fe98a52f",
-          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因 / Top economist Steve Hanke told us why he doubts AI will be the job destroyer many expect",
-          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-02T08:07:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "7699a4cc2ec0f60cfb6815890d4ba9ad35d70d38",
-          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
-          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-02T08:24:43.919000Z"
-        },
-        {
-          "id": "2b4c3c96243f99ff74718fa1096803b2fe98a52f",
-          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因 / Top economist Steve Hanke told us why he doubts AI will be the job destroyer many expect",
-          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-02T08:07:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5316,
-      "importance": 0.5316,
-      "importance_score": 0.5316,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9211,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T08:07:01Z",
-      "latest_at": "2026-08-02T08:24:43.919000Z",
-      "primary_item": {
-        "id": "7699a4cc2ec0f60cfb6815890d4ba9ad35d70d38",
-        "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
-        "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
-        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -550,15 +550,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5291,
-      "importance": 0.5291,
-      "importance_score": 0.5291,
+      "score": 0.5256,
+      "importance": 0.5256,
+      "importance_score": 0.5256,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9071,
+        "recency": 0.8879,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -572,104 +572,6 @@
         "title": "在 MI355X 上运行 Kimi K3，其性价比优于 B300",
         "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
         "source": "www.wafer.ai",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_4d5fae192487",
-      "title": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息",
-      "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-      "primary_url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-      "source": "forum.cursor.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "e90b4afc2008713009e131f5b452c20b0078a47c",
-          "title": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息",
-          "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-          "source": "forum.cursor.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-01T17:29:19.514000Z"
-        },
-        {
-          "id": "e9c7de4959c8c31c8ebcc99f00578f42deff131f",
-          "title": "光标从使用页面和 CSV 导出中删除了成本信息 / Cursor removed cost information from the usage page and CSV export",
-          "url": "https://news.ycombinator.com/item?id=49135257",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-01T16:23:38.053000Z"
-        },
-        {
-          "id": "de573c10b33e0a6db03369843a6dd7ee7a027e5c",
-          "title": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息 / Cursor removed cost information from the usage page and CSV export",
-          "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-01T15:25:21Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "forum.cursor.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "e90b4afc2008713009e131f5b452c20b0078a47c",
-          "title": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息",
-          "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-          "source": "forum.cursor.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-01T17:29:19.514000Z"
-        },
-        {
-          "id": "e9c7de4959c8c31c8ebcc99f00578f42deff131f",
-          "title": "光标从使用页面和 CSV 导出中删除了成本信息 / Cursor removed cost information from the usage page and CSV export",
-          "url": "https://news.ycombinator.com/item?id=49135257",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-01T16:23:38.053000Z"
-        },
-        {
-          "id": "de573c10b33e0a6db03369843a6dd7ee7a027e5c",
-          "title": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息 / Cursor removed cost information from the usage page and CSV export",
-          "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-01T15:25:21Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5244,
-      "importance": 0.5244,
-      "importance_score": 0.5244,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7425,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-01T15:25:21Z",
-      "latest_at": "2026-08-01T17:29:19.514000Z",
-      "primary_item": {
-        "id": "e90b4afc2008713009e131f5b452c20b0078a47c",
-        "title": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息",
-        "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-        "source": "forum.cursor.com",
         "source_name": "Buzzing"
       }
     },
@@ -744,15 +646,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5472,
-      "importance": 0.5472,
-      "importance_score": 0.5472,
+      "score": 0.5439,
+      "importance": 0.5439,
+      "importance_score": 0.5439,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8688,
+        "recency": 0.8504,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -823,15 +725,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5069,
-      "importance": 0.5069,
-      "importance_score": 0.5069,
+      "score": 0.5039,
+      "importance": 0.5039,
+      "importance_score": 0.5039,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7836,
+        "recency": 0.767,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -845,6 +747,85 @@
         "title": "大型语言模型无法破解对称加密",
         "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
         "source": "www.bfswa.blog",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_07c78f05a067",
+      "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
+      "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+      "primary_url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "7699a4cc2ec0f60cfb6815890d4ba9ad35d70d38",
+          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
+          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-02T08:24:43.919000Z"
+        },
+        {
+          "id": "2b4c3c96243f99ff74718fa1096803b2fe98a52f",
+          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因 / Top economist Steve Hanke told us why he doubts AI will be the job destroyer many expect",
+          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-02T08:07:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "7699a4cc2ec0f60cfb6815890d4ba9ad35d70d38",
+          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
+          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-02T08:24:43.919000Z"
+        },
+        {
+          "id": "2b4c3c96243f99ff74718fa1096803b2fe98a52f",
+          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因 / Top economist Steve Hanke told us why he doubts AI will be the job destroyer many expect",
+          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-02T08:07:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5281,
+      "importance": 0.5281,
+      "importance_score": 0.5281,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9015,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-02T08:07:01Z",
+      "latest_at": "2026-08-02T08:24:43.919000Z",
+      "primary_item": {
+        "id": "7699a4cc2ec0f60cfb6815890d4ba9ad35d70d38",
+        "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
+        "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -901,15 +882,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5003,
-      "importance": 0.5003,
-      "importance_score": 0.5003,
+      "score": 0.4975,
+      "importance": 0.4975,
+      "importance_score": 0.4975,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7474,
+        "recency": 0.7316,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -980,15 +961,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5401,
-      "importance": 0.5401,
-      "importance_score": 0.5401,
+      "score": 0.5364,
+      "importance": 0.5364,
+      "importance_score": 0.5364,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9685,
+        "recency": 0.948,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1001,6 +982,85 @@
         "id": "452a977b7b5287ba3e8c4c762e386777557aec18",
         "title": "生成式人工智能淹没并稀释了图书市场 / Generative AI floods and dilutes the market for books",
         "url": "https://news.ycombinator.com/item?id=49143289",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_8bfd4174f55c",
+      "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+      "url": "https://news.ycombinator.com/item?id=49143001",
+      "primary_url": "https://news.ycombinator.com/item?id=49143001",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
+          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+          "url": "https://news.ycombinator.com/item?id=49143001",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-02T11:01:55.362000Z"
+        },
+        {
+          "id": "0139bdc1a3ad559df6e57656bb2b5beece076bc1",
+          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+          "url": "https://publicdomainreview.org/essay/ars-notoria",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T10:18:24Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
+          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+          "url": "https://news.ycombinator.com/item?id=49143001",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-02T11:01:55.362000Z"
+        },
+        {
+          "id": "0139bdc1a3ad559df6e57656bb2b5beece076bc1",
+          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+          "url": "https://publicdomainreview.org/essay/ars-notoria",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-02T10:18:24Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5343,
+      "importance": 0.5343,
+      "importance_score": 0.5343,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9363,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-02T10:18:24Z",
+      "latest_at": "2026-08-02T11:01:55.362000Z",
+      "primary_item": {
+        "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
+        "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+        "url": "https://news.ycombinator.com/item?id=49143001",
         "source": "hackernews",
         "source_name": "NewsNow"
       }
@@ -1059,15 +1119,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5063,
-      "importance": 0.5063,
-      "importance_score": 0.5063,
+      "score": 0.5033,
+      "importance": 0.5033,
+      "importance_score": 0.5033,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7806,
+        "recency": 0.7641,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1080,164 +1140,6 @@
         "id": "f48cb1b7101fde524f8401f69aa94a9728e40bd3",
         "title": "YouTube网红汉克·格林在向粉丝致歉时表示，自己“过度依赖”了人工智能",
         "url": "https://www.businessinsider.com/hank-green-youtube-ai-apology-2026-8",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_8bfd4174f55c",
-      "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-      "url": "https://news.ycombinator.com/item?id=49143001",
-      "primary_url": "https://news.ycombinator.com/item?id=49143001",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
-          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-          "url": "https://news.ycombinator.com/item?id=49143001",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T11:01:55.362000Z"
-        },
-        {
-          "id": "0139bdc1a3ad559df6e57656bb2b5beece076bc1",
-          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-          "url": "https://publicdomainreview.org/essay/ars-notoria",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T10:18:24Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
-          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-          "url": "https://news.ycombinator.com/item?id=49143001",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T11:01:55.362000Z"
-        },
-        {
-          "id": "0139bdc1a3ad559df6e57656bb2b5beece076bc1",
-          "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-          "url": "https://publicdomainreview.org/essay/ars-notoria",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T10:18:24Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.538,
-      "importance": 0.538,
-      "importance_score": 0.538,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9566,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T10:18:24Z",
-      "latest_at": "2026-08-02T11:01:55.362000Z",
-      "primary_item": {
-        "id": "f5caf82e06932eaf157b381a7a92ea25ab4c6357",
-        "title": "人工智能：Ars Notoria 和即时知识的承诺 / Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
-        "url": "https://news.ycombinator.com/item?id=49143001",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_43d66e8debd7",
-      "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击",
-      "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
-      "primary_url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "46a86b809a6b54394bcf6814d1c8843e57100846",
-          "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击",
-          "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-01T18:49:33.997000Z"
-        },
-        {
-          "id": "4ad730fe873571990fd52d247e28688b2362d4e8",
-          "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击 / Sam Altman is getting dragged for suggesting this ChatGPT 'use case' for parents",
-          "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-01T18:24:58Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "46a86b809a6b54394bcf6814d1c8843e57100846",
-          "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击",
-          "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-01T18:49:33.997000Z"
-        },
-        {
-          "id": "4ad730fe873571990fd52d247e28688b2362d4e8",
-          "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击 / Sam Altman is getting dragged for suggesting this ChatGPT 'use case' for parents",
-          "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-01T18:24:58Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5021,
-      "importance": 0.5021,
-      "importance_score": 0.5021,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.757,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-01T18:24:58Z",
-      "latest_at": "2026-08-01T18:49:33.997000Z",
-      "primary_item": {
-        "id": "46a86b809a6b54394bcf6814d1c8843e57100846",
-        "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击",
-        "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
@@ -1315,15 +1217,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5365,
-      "importance": 0.5365,
-      "importance_score": 0.5365,
+      "score": 0.5335,
+      "importance": 0.5335,
+      "importance_score": 0.5335,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8097,
+        "recency": 0.7925,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1338,6 +1240,85 @@
         "url": "https://news.ycombinator.com/item?id=49139325",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_43d66e8debd7",
+      "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击",
+      "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
+      "primary_url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "46a86b809a6b54394bcf6814d1c8843e57100846",
+          "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击",
+          "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-01T18:49:33.997000Z"
+        },
+        {
+          "id": "4ad730fe873571990fd52d247e28688b2362d4e8",
+          "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击 / Sam Altman is getting dragged for suggesting this ChatGPT 'use case' for parents",
+          "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-01T18:24:58Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "46a86b809a6b54394bcf6814d1c8843e57100846",
+          "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击",
+          "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-01T18:49:33.997000Z"
+        },
+        {
+          "id": "4ad730fe873571990fd52d247e28688b2362d4e8",
+          "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击 / Sam Altman is getting dragged for suggesting this ChatGPT 'use case' for parents",
+          "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-01T18:24:58Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4992,
+      "importance": 0.4992,
+      "importance_score": 0.4992,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7409,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-01T18:24:58Z",
+      "latest_at": "2026-08-01T18:49:33.997000Z",
+      "primary_item": {
+        "id": "46a86b809a6b54394bcf6814d1c8843e57100846",
+        "title": "萨姆·奥尔特曼因向家长推荐这一ChatGPT“使用场景”而遭到抨击",
+        "url": "https://www.businessinsider.com/sam-altman-chatgpt-parenting-ai-criticism-2026-8",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1394,15 +1375,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5094,
-      "importance": 0.5094,
-      "importance_score": 0.5094,
+      "score": 0.5064,
+      "importance": 0.5064,
+      "importance_score": 0.5064,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7979,
+        "recency": 0.781,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1473,15 +1454,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5062,
-      "importance": 0.5062,
-      "importance_score": 0.5062,
+      "score": 0.5032,
+      "importance": 0.5032,
+      "importance_score": 0.5032,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7801,
+        "recency": 0.7635,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1552,15 +1533,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4993,
-      "importance": 0.4993,
-      "importance_score": 0.4993,
+      "score": 0.4964,
+      "importance": 0.4964,
+      "importance_score": 0.4964,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7415,
+        "recency": 0.7258,
         "story_heat": 0.25
       },
       "category": "watch",
