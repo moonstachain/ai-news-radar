@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T14:16:52.459207Z",
+  "generated_at": "2026-08-03T16:46:40.754258Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-03T11:00:54Z",
-      "captured_at": "2026-08-03T14:16:52.459207Z",
+      "captured_at": "2026-08-03T16:46:40.754258Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -45,77 +45,47 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_60a5d4c38d32",
-      "title": "I got tired of opening 15 AI websites every time I made a YouTube video, so I built one desktop app instead.",
-      "url": "https://www.indiehackers.com/post/i-got-tired-of-opening-15-ai-websites-every-time-i-made-a-youtube-video-so-i-built-one-desktop-app-instead-cbde98dc42",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-03T07:59:38.971000Z",
-      "captured_at": "2026-08-03T14:16:52.459207Z",
-      "lane": "opc",
+      "signal_id": "biz_1adb7f31df60",
+      "title": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser",
+      "source_id": "lenny",
+      "source_name": "Lenny's Newsletter",
+      "published_at": "2026-08-03T15:02:21Z",
+      "captured_at": "2026-08-03T16:46:40.754258Z",
+      "lane": "startup_vc",
       "entities": [
-        "Indie Hackers",
-        "YouTube"
+        "Lenny's Newsletter",
+        "How I AI",
+        "ChatGPT Codex Voice",
+        "Sites",
+        "Nick Baumann",
+        "OpenAI"
       ],
       "business_model_tags": [
-        "Founder Case",
-        "OPC"
+        "AI Business Model Innovation",
+        "Enterprise AI Workflow",
+        "Founder Case"
       ],
       "yuanli_tags": [
-        "yuanli_startup"
+        "yuanli_asset",
+        "yuanli_os",
+        "wealth_flywheel"
       ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 40,
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 38,
       "score_breakdown": {
         "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
+        "yuanli_relevance": 9,
+        "business_model_value": 5,
+        "case_concreteness": 0,
+        "opc_fit": 0,
         "freshness": 8,
         "counter_signal_value": 0
       },
-      "summary": "I got tired of opening 15 AI websites every time I made a YouTube video, so I built one desktop app instead. Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
-      "signal_id": "biz_3cd45072d803",
-      "title": "“I’ll just post on Upwork” is not a client strategy. Here’s what I built instead.",
-      "url": "https://www.indiehackers.com/post/i-ll-just-post-on-upwork-is-not-a-client-strategy-here-s-what-i-built-instead-78ae781ab3",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-02T14:19:44.731000Z",
-      "captured_at": "2026-08-03T14:16:52.459207Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "Upwork",
-        "Here"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 39,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "“I’ll just post on Upwork” is not a client strategy. Here’s what I built instead. Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network Tags: AI Business Model Innovation, Enterprise AI Workflow, Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
     },
     {
       "signal_id": "biz_d714096ef03e",
@@ -124,7 +94,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-03T12:04:26Z",
-      "captured_at": "2026-08-03T14:16:52.459207Z",
+      "captured_at": "2026-08-03T16:46:40.754258Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
