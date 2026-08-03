@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:43:29.699153Z",
+  "generated_at": "2026-08-03T20:20:51.686980Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -39,18 +39,18 @@
           "published_at": "2026-08-03T14:16:13.881000Z"
         },
         {
-          "id": "3c5592abfa3053cd250cb36128a1abe805691b95",
+          "id": "5805bf72e950dcf5ce1117ff14f9fbd24a81190e",
           "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理 / AirLLM 70B inference with single 4GB GPU",
           "url": "https://github.com/lyogavin/airllm",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
           "published_at": "2026-08-03T11:15:48Z"
         }
       ],
       "source_count": 4,
       "source_names": [
-        "Hacker News",
+        "Hacker News (黑客新闻)",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "github.com",
         "hackernews"
@@ -84,26 +84,26 @@
           "published_at": "2026-08-03T14:16:13.881000Z"
         },
         {
-          "id": "3c5592abfa3053cd250cb36128a1abe805691b95",
+          "id": "5805bf72e950dcf5ce1117ff14f9fbd24a81190e",
           "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理 / AirLLM 70B inference with single 4GB GPU",
           "url": "https://github.com/lyogavin/airllm",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
           "published_at": "2026-08-03T11:15:48Z"
         }
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8487,
-      "importance": 0.8487,
-      "importance_score": 0.8487,
+      "score": 0.8447,
+      "importance": 0.8447,
+      "importance_score": 0.8447,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9672,
+        "recency": 0.9448,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -120,6 +120,68 @@
         "url": "https://github.com/lyogavin/airllm",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_61a162b6e7ab",
+      "title": "分类角色可以绕过问题创建限制 / Triage role can bypass issue creation restrictions",
+      "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
+      "primary_url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "ed051aa73fd0c109ac911e7495b81744a719c548",
+          "title": "分类角色可以绕过问题创建限制 / Triage role can bypass issue creation restrictions",
+          "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-03T17:04:32Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "ed051aa73fd0c109ac911e7495b81744a719c548",
+          "title": "分类角色可以绕过问题创建限制 / Triage role can bypass issue creation restrictions",
+          "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-03T17:04:32Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8357,
+      "importance": 0.8357,
+      "importance_score": 0.8357,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9538,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-03T17:04:32Z",
+      "latest_at": "2026-08-03T17:04:32Z",
+      "primary_item": {
+        "id": "ed051aa73fd0c109ac911e7495b81744a719c548",
+        "title": "分类角色可以绕过问题创建限制 / Triage role can bypass issue creation restrictions",
+        "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -195,15 +257,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.83,
-      "importance": 0.83,
-      "importance_score": 0.83,
+      "score": 0.8267,
+      "importance": 0.8267,
+      "importance_score": 0.8267,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.89,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7854,
+        "recency": 0.7672,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -220,6 +282,68 @@
         "url": "https://qwen.ai/blog?id=qwen3.8",
         "source": "Qwen：Blog Retrieval（API）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_545d6c402c71",
+      "title": "使用 GitHub Enterprise Importer 从 GitLab 迁移到 GitHub / Migrate from GitLab to GitHub with GitHub Enterprise Importer",
+      "url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+      "primary_url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "c62b7d6b1f6f5a27d5ebbec0b5ab3f51dde146af",
+          "title": "使用 GitHub Enterprise Importer 从 GitLab 迁移到 GitHub / Migrate from GitLab to GitHub with GitHub Enterprise Importer",
+          "url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-03T16:33:13Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "c62b7d6b1f6f5a27d5ebbec0b5ab3f51dde146af",
+          "title": "使用 GitHub Enterprise Importer 从 GitLab 迁移到 GitHub / Migrate from GitLab to GitHub with GitHub Enterprise Importer",
+          "url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-03T16:33:13Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8344,
+      "importance": 0.8344,
+      "importance_score": 0.8344,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9467,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-03T16:33:13Z",
+      "latest_at": "2026-08-03T16:33:13Z",
+      "primary_item": {
+        "id": "c62b7d6b1f6f5a27d5ebbec0b5ab3f51dde146af",
+        "title": "使用 GitHub Enterprise Importer 从 GitLab 迁移到 GitHub / Migrate from GitLab to GitHub with GitHub Enterprise Importer",
+        "url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -276,15 +400,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7928,
-      "importance": 0.7928,
-      "importance_score": 0.7928,
+      "score": 0.7887,
+      "importance": 0.7887,
+      "importance_score": 0.7887,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9845,
+        "recency": 0.9617,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -300,6 +424,207 @@
         "title": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
         "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
         "source": "The Verge：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_fb1e9b75e4ab",
+      "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
+      "url": "https://blog.cloudflare.com/billable-usage-api",
+      "primary_url": "https://blog.cloudflare.com/billable-usage-api",
+      "source": "Cloudflare Blog",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "7d132557b16f97c759ccf326479eb425d7cec46e",
+          "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
+          "url": "https://blog.cloudflare.com/billable-usage-api",
+          "source": "Cloudflare Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-03T13:00:00Z"
+        },
+        {
+          "id": "cf12fd202e9158693041e50cde292f7ec56d8dfc",
+          "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性 / The Billable Usage API: programmatic cost visibility for Cloudflare",
+          "url": "https://blog.cloudflare.com/billable-usage-api",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-03T17:18:06Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Cloudflare Blog",
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "7d132557b16f97c759ccf326479eb425d7cec46e",
+          "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
+          "url": "https://blog.cloudflare.com/billable-usage-api",
+          "source": "Cloudflare Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-03T13:00:00Z"
+        },
+        {
+          "id": "cf12fd202e9158693041e50cde292f7ec56d8dfc",
+          "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性 / The Billable Usage API: programmatic cost visibility for Cloudflare",
+          "url": "https://blog.cloudflare.com/billable-usage-api",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-03T17:18:06Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7685,
+      "importance": 0.7685,
+      "importance_score": 0.7685,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8993,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-03T13:00:00Z",
+      "latest_at": "2026-08-03T17:18:06Z",
+      "primary_item": {
+        "id": "7d132557b16f97c759ccf326479eb425d7cec46e",
+        "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
+        "url": "https://blog.cloudflare.com/billable-usage-api",
+        "source": "Cloudflare Blog",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_2ef22af5488a",
+      "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
+      "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
+      "primary_url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
+      "source": "Runway：News（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "3cbea6c166df92918432972ce10e79ea2ecd33ea",
+          "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
+          "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
+          "source": "Runway：News（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-03T20:12:03.229000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Runway：News（网页）"
+      ],
+      "items": [
+        {
+          "id": "3cbea6c166df92918432972ce10e79ea2ecd33ea",
+          "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
+          "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
+          "source": "Runway：News（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-03T20:12:03.229000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7462,
+      "importance": 0.7462,
+      "importance_score": 0.7462,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9979,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-03T20:12:03.229000Z",
+      "latest_at": "2026-08-03T20:12:03.229000Z",
+      "primary_item": {
+        "id": "3cbea6c166df92918432972ce10e79ea2ecd33ea",
+        "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
+        "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
+        "source": "Runway：News（网页）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_8bd7492eeab5",
+      "title": "微软开源 Orchard 智能体训练框架",
+      "url": "https://x.com/MSFTResearch/status/2084364547142418722",
+      "primary_url": "https://x.com/MSFTResearch/status/2084364547142418722",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "556ce1f1e1539881d630412aec4ff6f25aa4f6fe",
+          "title": "微软开源 Orchard 智能体训练框架",
+          "url": "https://x.com/MSFTResearch/status/2084364547142418722",
+          "source": "X：Microsoft Research (@MSFTResearch)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-03T19:43:28Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Microsoft Research (@MSFTResearch)"
+      ],
+      "items": [
+        {
+          "id": "556ce1f1e1539881d630412aec4ff6f25aa4f6fe",
+          "title": "微软开源 Orchard 智能体训练框架",
+          "url": "https://x.com/MSFTResearch/status/2084364547142418722",
+          "source": "X：Microsoft Research (@MSFTResearch)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-03T19:43:28Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.745,
+      "importance": 0.745,
+      "importance_score": 0.745,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.991,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-03T19:43:28Z",
+      "latest_at": "2026-08-03T19:43:28Z",
+      "primary_item": {
+        "id": "556ce1f1e1539881d630412aec4ff6f25aa4f6fe",
+        "title": "微软开源 Orchard 智能体训练框架",
+        "url": "https://x.com/MSFTResearch/status/2084364547142418722",
+        "source": "X：Microsoft Research (@MSFTResearch)",
         "source_name": "AI HOT"
       }
     },
@@ -338,15 +663,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7475,
-      "importance": 0.7475,
-      "importance_score": 0.7475,
+      "score": 0.7435,
+      "importance": 0.7435,
+      "importance_score": 0.7435,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9548,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -360,66 +685,6 @@
         "title": "OpenRouter 推出 Ori Eval 简化评估流程",
         "url": "https://x.com/OpenRouter/status/2084301100078027143",
         "source": "X：OpenRouter (@OpenRouter)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_fb1e9b75e4ab",
-      "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
-      "url": "https://blog.cloudflare.com/billable-usage-api",
-      "primary_url": "https://blog.cloudflare.com/billable-usage-api",
-      "source": "Cloudflare Blog",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "7d132557b16f97c759ccf326479eb425d7cec46e",
-          "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
-          "url": "https://blog.cloudflare.com/billable-usage-api",
-          "source": "Cloudflare Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-03T13:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Cloudflare Blog"
-      ],
-      "items": [
-        {
-          "id": "7d132557b16f97c759ccf326479eb425d7cec46e",
-          "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
-          "url": "https://blog.cloudflare.com/billable-usage-api",
-          "source": "Cloudflare Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-03T13:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7473,
-      "importance": 0.7473,
-      "importance_score": 0.7473,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9207,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-03T13:00:00Z",
-      "latest_at": "2026-08-03T13:00:00Z",
-      "primary_item": {
-        "id": "7d132557b16f97c759ccf326479eb425d7cec46e",
-        "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
-        "url": "https://blog.cloudflare.com/billable-usage-api",
-        "source": "Cloudflare Blog",
         "source_name": "AI HOT"
       }
     },
@@ -458,15 +723,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7454,
-      "importance": 0.7454,
-      "importance_score": 0.7454,
+      "score": 0.7415,
+      "importance": 0.7415,
+      "importance_score": 0.7415,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9433,
+        "recency": 0.9215,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -518,15 +783,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7446,
-      "importance": 0.7446,
-      "importance_score": 0.7446,
+      "score": 0.7408,
+      "importance": 0.7408,
+      "importance_score": 0.7408,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9057,
+        "recency": 0.8847,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -578,15 +843,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7301,
-      "importance": 0.7301,
-      "importance_score": 0.7301,
+      "score": 0.7262,
+      "importance": 0.7262,
+      "importance_score": 0.7262,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.63,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9416,
+        "recency": 0.9198,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -657,15 +922,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7269,
-      "importance": 0.7269,
-      "importance_score": 0.7269,
+      "score": 0.7239,
+      "importance": 0.7239,
+      "importance_score": 0.7239,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7352,
+        "recency": 0.7182,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -680,6 +945,86 @@
         "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
         "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
         "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_5c8c3f9f413d",
+      "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC",
+      "url": "https://blog.cloudflare.com/grpc-workers",
+      "primary_url": "https://blog.cloudflare.com/grpc-workers",
+      "source": "Cloudflare Blog",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "96bb94a94ca40bb94ec1ba858b15418405d536d0",
+          "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC",
+          "url": "https://blog.cloudflare.com/grpc-workers",
+          "source": "Cloudflare Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-03T13:00:00Z"
+        },
+        {
+          "id": "22b783d9737e743d6f6fb189ff5be9caaf4a0451",
+          "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC / Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+          "url": "https://blog.cloudflare.com/grpc-workers",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-03T13:30:53Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Cloudflare Blog",
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "96bb94a94ca40bb94ec1ba858b15418405d536d0",
+          "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC",
+          "url": "https://blog.cloudflare.com/grpc-workers",
+          "source": "Cloudflare Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-03T13:00:00Z"
+        },
+        {
+          "id": "22b783d9737e743d6f6fb189ff5be9caaf4a0451",
+          "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC / Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+          "url": "https://blog.cloudflare.com/grpc-workers",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-03T13:30:53Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7385,
+      "importance": 0.7385,
+      "importance_score": 0.7385,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.6,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8993,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-03T13:00:00Z",
+      "latest_at": "2026-08-03T13:30:53Z",
+      "primary_item": {
+        "id": "96bb94a94ca40bb94ec1ba858b15418405d536d0",
+        "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC",
+        "url": "https://blog.cloudflare.com/grpc-workers",
+        "source": "Cloudflare Blog",
         "source_name": "AI HOT"
       }
     },
@@ -718,15 +1063,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7419,
-      "importance": 0.7419,
-      "importance_score": 0.7419,
+      "score": 0.7381,
+      "importance": 0.7381,
+      "importance_score": 0.7381,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9241,
+        "recency": 0.9027,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -796,15 +1141,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5965,
-      "importance": 0.5965,
-      "importance_score": 0.5965,
+      "score": 0.5928,
+      "importance": 0.5928,
+      "importance_score": 0.5928,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.8947,
+        "recency": 0.874,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -819,141 +1164,6 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
         "source": "The Verge",
         "source_name": "Curated Media"
-      }
-    },
-    {
-      "story_id": "story_87444f9634f8",
-      "title": "我的个人 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG” / My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-      "url": "https://news.ycombinator.com/item?id=49147622",
-      "primary_url": "https://news.ycombinator.com/item?id=49147622",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "75b78bfbd3b17e42ede7d7be6b60633dae2a45eb",
-          "title": "我的个人 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG” / My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-          "url": "https://news.ycombinator.com/item?id=49147622",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-03T04:42:14.179000Z"
-        },
-        {
-          "id": "4edaaec810850620669c5112868bb919b9b9706c",
-          "title": "我个人的AI测试题：“生成一张拥有哈布斯堡式下颌的青蛙的SVG图片。”",
-          "url": "https://frogs.vaguespac.es",
-          "source": "frogs.vaguespac.es",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T01:44:49.130000Z"
-        },
-        {
-          "id": "de2aebe71cb4fe599af5e34eec552b9a233564ad",
-          "title": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
-          "url": "https://news.ycombinator.com/item?id=49147622",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T20:55:13.221000Z"
-        },
-        {
-          "id": "f3fb9f6175bfd55e7d16b6addb41e2722c44d99e",
-          "title": "我个人的AI测试题：“生成一张拥有哈布斯堡式下颌的青蛙的SVG图片。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
-          "url": "https://frogs.vaguespac.es",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-02T19:42:08Z"
-        },
-        {
-          "id": "85c464d06f44c53ea531320315e322572052549d",
-          "title": "我个人的AI测试题：“生成一张拥有哈布斯堡式下颌的青蛙的SVG图片。” / My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-          "url": "https://frogs.vaguespac.es",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-02T19:42:08Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "frogs.vaguespac.es",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "75b78bfbd3b17e42ede7d7be6b60633dae2a45eb",
-          "title": "我的个人 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG” / My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-          "url": "https://news.ycombinator.com/item?id=49147622",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-03T04:42:14.179000Z"
-        },
-        {
-          "id": "4edaaec810850620669c5112868bb919b9b9706c",
-          "title": "我个人的AI测试题：“生成一张拥有哈布斯堡式下颌的青蛙的SVG图片。”",
-          "url": "https://frogs.vaguespac.es",
-          "source": "frogs.vaguespac.es",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T01:44:49.130000Z"
-        },
-        {
-          "id": "de2aebe71cb4fe599af5e34eec552b9a233564ad",
-          "title": "我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
-          "url": "https://news.ycombinator.com/item?id=49147622",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T20:55:13.221000Z"
-        },
-        {
-          "id": "f3fb9f6175bfd55e7d16b6addb41e2722c44d99e",
-          "title": "我个人的AI测试题：“生成一张拥有哈布斯堡式下颌的青蛙的SVG图片。” / My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
-          "url": "https://frogs.vaguespac.es",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-02T19:42:08Z"
-        },
-        {
-          "id": "85c464d06f44c53ea531320315e322572052549d",
-          "title": "我个人的AI测试题：“生成一张拥有哈布斯堡式下颌的青蛙的SVG图片。” / My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-          "url": "https://frogs.vaguespac.es",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-02T19:42:08Z"
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.5878,
-      "importance": 0.5878,
-      "importance_score": 0.5878,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8167,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T19:42:08Z",
-      "latest_at": "2026-08-03T04:42:14.179000Z",
-      "primary_item": {
-        "id": "75b78bfbd3b17e42ede7d7be6b60633dae2a45eb",
-        "title": "我的个人 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG” / My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
-        "url": "https://news.ycombinator.com/item?id=49147622",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1029,15 +1239,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5669,
-      "importance": 0.5669,
-      "importance_score": 0.5669,
+      "score": 0.5629,
+      "importance": 0.5629,
+      "importance_score": 0.5629,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9785,
+        "recency": 0.9558,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1051,183 +1261,6 @@
         "title": "是 SQLite 的关键 CVE 还是 LLM 的疏漏？",
         "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops",
         "source": "research.jfrog.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_e008c38efa0b",
-      "title": "Octane——React 的编程模型，已编译",
-      "url": "https://octanejs.dev",
-      "primary_url": "https://octanejs.dev",
-      "source": "octanejs.dev",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "692f981249a44eb5a893a17f06256acc42965b2c",
-          "title": "Octane——React 的编程模型，已编译",
-          "url": "https://octanejs.dev",
-          "source": "octanejs.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T16:41:08.057000Z"
-        },
-        {
-          "id": "78e81419e0159013b8402e6d40f7391def6fa169",
-          "title": "Octane——React 的编程模型，已编译 / Octane – React's programming model, compiled",
-          "url": "https://octanejs.dev",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-03T08:04:04Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "octanejs.dev"
-      ],
-      "items": [
-        {
-          "id": "692f981249a44eb5a893a17f06256acc42965b2c",
-          "title": "Octane——React 的编程模型，已编译",
-          "url": "https://octanejs.dev",
-          "source": "octanejs.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T16:41:08.057000Z"
-        },
-        {
-          "id": "78e81419e0159013b8402e6d40f7391def6fa169",
-          "title": "Octane——React 的编程模型，已编译 / Octane – React's programming model, compiled",
-          "url": "https://octanejs.dev",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-03T08:04:04Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5406,
-      "importance": 0.5406,
-      "importance_score": 0.5406,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.971,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-03T08:04:04Z",
-      "latest_at": "2026-08-03T16:41:08.057000Z",
-      "primary_item": {
-        "id": "692f981249a44eb5a893a17f06256acc42965b2c",
-        "title": "Octane——React 的编程模型，已编译",
-        "url": "https://octanejs.dev",
-        "source": "octanejs.dev",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_245bd9037021",
-      "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者",
-      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-      "primary_url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-      "source": "www.modelrepublic.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "1df375caf2242069944c372fb478134ce40d4667",
-          "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者",
-          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-          "source": "www.modelrepublic.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T05:44:58.273000Z"
-        },
-        {
-          "id": "967b7c526151efdf34a4aa3eb14d4f2ba0d669a5",
-          "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-          "url": "https://news.ycombinator.com/item?id=49150561",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-03T04:42:14.179000Z"
-        },
-        {
-          "id": "92658c15f576130012e41e8bcd733b5f2982a26a",
-          "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-03T02:30:30Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.modelrepublic.org"
-      ],
-      "items": [
-        {
-          "id": "1df375caf2242069944c372fb478134ce40d4667",
-          "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者",
-          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-          "source": "www.modelrepublic.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T05:44:58.273000Z"
-        },
-        {
-          "id": "967b7c526151efdf34a4aa3eb14d4f2ba0d669a5",
-          "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-          "url": "https://news.ycombinator.com/item?id=49150561",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-03T04:42:14.179000Z"
-        },
-        {
-          "id": "92658c15f576130012e41e8bcd733b5f2982a26a",
-          "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-03T02:30:30Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.54,
-      "importance": 0.54,
-      "importance_score": 0.54,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8291,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-03T02:30:30Z",
-      "latest_at": "2026-08-03T05:44:58.273000Z",
-      "primary_item": {
-        "id": "1df375caf2242069944c372fb478134ce40d4667",
-        "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者",
-        "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-        "source": "www.modelrepublic.org",
         "source_name": "Buzzing"
       }
     },
@@ -1304,15 +1337,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5658,
-      "importance": 0.5658,
-      "importance_score": 0.5658,
+      "score": 0.5617,
+      "importance": 0.5617,
+      "importance_score": 0.5617,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9721,
+        "recency": 0.9496,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1330,207 +1363,109 @@
       }
     },
     {
-      "story_id": "story_cfdd2789b4ea",
-      "title": "欧盟关于人工智能模型的法规正式生效。这将带来哪些变化？",
-      "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
-      "primary_url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
-      "source": "www.euronews.com",
-      "source_name": "Buzzing",
+      "story_id": "story_daa4e8074d5c",
+      "title": "谁在法律上对 Anthropic 和 OpenAI 的自主人工智能黑客攻击负有责任？ / Who's legally to blame for Anthropic and OpenAI's autonomous AI hacks?",
+      "url": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated",
+      "primary_url": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
       "sources": [
         {
-          "id": "3239bce5628bd9229716fc1c9ae361a12576d2be",
-          "title": "欧盟关于人工智能模型的法规正式生效。这将带来哪些变化？",
-          "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
-          "source": "www.euronews.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-02T22:48:54.109000Z"
+          "id": "008b6c5ca93cef3caddd7adaa261f8d1209274cc",
+          "title": "谁在法律上对 Anthropic 和 OpenAI 的自主人工智能黑客攻击负有责任？ / Who's legally to blame for Anthropic and OpenAI's autonomous AI hacks?",
+          "url": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-08-03T19:54:43Z"
         },
         {
-          "id": "22d23d553d32775a95bc6a7675c3cfb7edd56004",
-          "title": "欧盟关于人工智能模型的规则变得可执行。将会发生什么变化？ / EU rules on AI models become enforceable. What's going to change?",
-          "url": "https://news.ycombinator.com/item?id=49147606",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T20:55:13.221000Z"
-        },
-        {
-          "id": "859a449233c42d51f2a1075630e46469a0d426b0",
-          "title": "欧盟关于人工智能模型的法规正式生效。这将带来哪些变化？ / EU rules on AI models become enforceable. What's going to change?",
-          "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-02T19:40:19Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.euronews.com"
-      ],
-      "items": [
-        {
-          "id": "3239bce5628bd9229716fc1c9ae361a12576d2be",
-          "title": "欧盟关于人工智能模型的法规正式生效。这将带来哪些变化？",
-          "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
-          "source": "www.euronews.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-02T22:48:54.109000Z"
-        },
-        {
-          "id": "22d23d553d32775a95bc6a7675c3cfb7edd56004",
-          "title": "欧盟关于人工智能模型的规则变得可执行。将会发生什么变化？ / EU rules on AI models become enforceable. What's going to change?",
-          "url": "https://news.ycombinator.com/item?id=49147606",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-02T20:55:13.221000Z"
-        },
-        {
-          "id": "859a449233c42d51f2a1075630e46469a0d426b0",
-          "title": "欧盟关于人工智能模型的法规正式生效。这将带来哪些变化？ / EU rules on AI models become enforceable. What's going to change?",
-          "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-02T19:40:19Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5258,
-      "importance": 0.5258,
-      "importance_score": 0.5258,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7501,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T19:40:19Z",
-      "latest_at": "2026-08-02T22:48:54.109000Z",
-      "primary_item": {
-        "id": "3239bce5628bd9229716fc1c9ae361a12576d2be",
-        "title": "欧盟关于人工智能模型的法规正式生效。这将带来哪些变化？",
-        "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
-        "source": "www.euronews.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_883225bae80f",
-      "title": "人工智能正开始重写那套曾让英伟达所向无敌的软件",
-      "url": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
-      "primary_url": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "cb6792fd6440c1c788ef70a950c2194fc21fcc21",
-          "title": "人工智能正开始重写那套曾让英伟达所向无敌的软件",
-          "url": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T09:12:43.310000Z"
-        },
-        {
-          "id": "c62edacfec8a1292c6b0bfd9149d64f19a8d88af",
-          "title": "人工智能正开始重写那套曾让英伟达所向无敌的软件 / AI is starting to rewrite the software that made Nvidia untouchable",
-          "url": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
-          "source": "Business Insider",
+          "id": "892ee12473638a4717d31e3fd64a84bb05759644",
+          "title": "谁在法律上对 Anthropic 和 OpenAI 的自主人工智能黑客攻击负有责任？情况很复杂 / Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated",
+          "url": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated",
+          "source": "TechCrunch",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-03T09:00:02Z"
+          "published_at": "2026-08-03T19:45:35Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
+        "HN Algolia · AI 24h",
+        "TechCrunch"
       ],
       "items": [
         {
-          "id": "cb6792fd6440c1c788ef70a950c2194fc21fcc21",
-          "title": "人工智能正开始重写那套曾让英伟达所向无敌的软件",
-          "url": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T09:12:43.310000Z"
+          "id": "008b6c5ca93cef3caddd7adaa261f8d1209274cc",
+          "title": "谁在法律上对 Anthropic 和 OpenAI 的自主人工智能黑客攻击负有责任？ / Who's legally to blame for Anthropic and OpenAI's autonomous AI hacks?",
+          "url": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-08-03T19:54:43Z"
         },
         {
-          "id": "c62edacfec8a1292c6b0bfd9149d64f19a8d88af",
-          "title": "人工智能正开始重写那套曾让英伟达所向无敌的软件 / AI is starting to rewrite the software that made Nvidia untouchable",
-          "url": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
-          "source": "Business Insider",
+          "id": "892ee12473638a4717d31e3fd64a84bb05759644",
+          "title": "谁在法律上对 Anthropic 和 OpenAI 的自主人工智能黑客攻击负有责任？情况很复杂 / Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated",
+          "url": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated",
+          "source": "TechCrunch",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-03T09:00:02Z"
+          "published_at": "2026-08-03T19:45:35Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5227,
-      "importance": 0.5227,
-      "importance_score": 0.5227,
+      "score": 0.5447,
+      "importance": 0.5447,
+      "importance_score": 0.5447,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8716,
+        "recency": 0.9937,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-03T09:00:02Z",
-      "latest_at": "2026-08-03T09:12:43.310000Z",
+      "earliest_at": "2026-08-03T19:45:35Z",
+      "latest_at": "2026-08-03T19:54:43Z",
       "primary_item": {
-        "id": "cb6792fd6440c1c788ef70a950c2194fc21fcc21",
-        "title": "人工智能正开始重写那套曾让英伟达所向无敌的软件",
-        "url": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
+        "id": "008b6c5ca93cef3caddd7adaa261f8d1209274cc",
+        "title": "谁在法律上对 Anthropic 和 OpenAI 的自主人工智能黑客攻击负有责任？ / Who's legally to blame for Anthropic and OpenAI's autonomous AI hacks?",
+        "url": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
       }
     },
     {
-      "story_id": "story_81b42fbebc86",
-      "title": "Show HN: 中国人正在推出Claude/Codex的90%折扣优惠",
-      "url": "https://news.ycombinator.com/item?id=49151751",
-      "primary_url": "https://news.ycombinator.com/item?id=49151751",
+      "story_id": "story_ba60314fc80a",
+      "title": "Ask HN: 我让 Codex 和 GPT 5.6 Sol 连续运行了 12 天，代码行数超过 87 万。接下来该怎么办？",
+      "url": "https://news.ycombinator.com/item?id=49160339",
+      "primary_url": "https://news.ycombinator.com/item?id=49160339",
       "source": "news.ycombinator.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "9f44ef1180a4061704606b022b753374eaffc0c0",
-          "title": "Show HN: 中国人正在推出Claude/Codex的90%折扣优惠",
-          "url": "https://news.ycombinator.com/item?id=49151751",
+          "id": "90285e7548f7b6f282a5b6910bf36ff46fbf8b1d",
+          "title": "Ask HN: 我让 Codex 和 GPT 5.6 Sol 连续运行了 12 天，代码行数超过 87 万。接下来该怎么办？",
+          "url": "https://news.ycombinator.com/item?id=49160339",
           "source": "news.ycombinator.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-03T06:48:57.926000Z"
+          "published_at": "2026-08-03T19:36:42.826000Z"
         },
         {
-          "id": "96b4fa9a21fbc5c88946389343c89e310c1687cc",
-          "title": "Show HN: 中国人正在推出Claude/Codex的90%折扣优惠 / Show HN: Chinese are offering Claude/Codex offers 90% off",
-          "url": "https://news.ycombinator.com/item?id=49151751",
+          "id": "e703d6bab744e7301916548e3ddf6ec43a8ee42c",
+          "title": "Ask HN: 我让 Codex 和 GPT 5.6 Sol 连续运行了 12 天，代码行数超过 87 万。接下来该怎么办？ / Ask HN: I had Codex and GPT 5.6 Sol running for 12 days, 870k+ LOC. Now what?",
+          "url": "https://news.ycombinator.com/item?id=49160339",
           "source": "HN Algolia · AI 24h",
           "source_name": "Hacker News",
           "site_id": "hackernews",
-          "published_at": "2026-08-03T06:03:33Z"
+          "published_at": "2026-08-03T19:30:47Z"
         }
       ],
       "source_count": 2,
@@ -1540,127 +1475,48 @@
       ],
       "items": [
         {
-          "id": "9f44ef1180a4061704606b022b753374eaffc0c0",
-          "title": "Show HN: 中国人正在推出Claude/Codex的90%折扣优惠",
-          "url": "https://news.ycombinator.com/item?id=49151751",
+          "id": "90285e7548f7b6f282a5b6910bf36ff46fbf8b1d",
+          "title": "Ask HN: 我让 Codex 和 GPT 5.6 Sol 连续运行了 12 天，代码行数超过 87 万。接下来该怎么办？",
+          "url": "https://news.ycombinator.com/item?id=49160339",
           "source": "news.ycombinator.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-03T06:48:57.926000Z"
+          "published_at": "2026-08-03T19:36:42.826000Z"
         },
         {
-          "id": "96b4fa9a21fbc5c88946389343c89e310c1687cc",
-          "title": "Show HN: 中国人正在推出Claude/Codex的90%折扣优惠 / Show HN: Chinese are offering Claude/Codex offers 90% off",
-          "url": "https://news.ycombinator.com/item?id=49151751",
+          "id": "e703d6bab744e7301916548e3ddf6ec43a8ee42c",
+          "title": "Ask HN: 我让 Codex 和 GPT 5.6 Sol 连续运行了 12 天，代码行数超过 87 万。接下来该怎么办？ / Ask HN: I had Codex and GPT 5.6 Sol running for 12 days, 870k+ LOC. Now what?",
+          "url": "https://news.ycombinator.com/item?id=49160339",
           "source": "HN Algolia · AI 24h",
           "source_name": "Hacker News",
           "site_id": "hackernews",
-          "published_at": "2026-08-03T06:03:33Z"
+          "published_at": "2026-08-03T19:30:47Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5174,
-      "importance": 0.5174,
-      "importance_score": 0.5174,
+      "score": 0.5439,
+      "importance": 0.5439,
+      "importance_score": 0.5439,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.842,
+        "recency": 0.9894,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-03T06:03:33Z",
-      "latest_at": "2026-08-03T06:48:57.926000Z",
+      "earliest_at": "2026-08-03T19:30:47Z",
+      "latest_at": "2026-08-03T19:36:42.826000Z",
       "primary_item": {
-        "id": "9f44ef1180a4061704606b022b753374eaffc0c0",
-        "title": "Show HN: 中国人正在推出Claude/Codex的90%折扣优惠",
-        "url": "https://news.ycombinator.com/item?id=49151751",
+        "id": "90285e7548f7b6f282a5b6910bf36ff46fbf8b1d",
+        "title": "Ask HN: 我让 Codex 和 GPT 5.6 Sol 连续运行了 12 天，代码行数超过 87 万。接下来该怎么办？",
+        "url": "https://news.ycombinator.com/item?id=49160339",
         "source": "news.ycombinator.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f569f1ee57c5",
-      "title": "AI海报在俄亥俄州博览会上获奖",
-      "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-      "primary_url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-      "source": "www.ohiostatefair.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "228ad5508c6f118f1b0277b76977ba9c4c7e3a3d",
-          "title": "AI海报在俄亥俄州博览会上获奖",
-          "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-          "source": "www.ohiostatefair.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T00:56:46.069000Z"
-        },
-        {
-          "id": "570e262588563c580f7876bb7283f82d53ec8d70",
-          "title": "AI海报在俄亥俄州博览会上获奖 / AI poster wins Ohio State Fair contest",
-          "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-02T22:43:47Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "www.ohiostatefair.com"
-      ],
-      "items": [
-        {
-          "id": "228ad5508c6f118f1b0277b76977ba9c4c7e3a3d",
-          "title": "AI海报在俄亥俄州博览会上获奖",
-          "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-          "source": "www.ohiostatefair.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T00:56:46.069000Z"
-        },
-        {
-          "id": "570e262588563c580f7876bb7283f82d53ec8d70",
-          "title": "AI海报在俄亥俄州博览会上获奖 / AI poster wins Ohio State Fair contest",
-          "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-02T22:43:47Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.505,
-      "importance": 0.505,
-      "importance_score": 0.505,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7736,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T22:43:47Z",
-      "latest_at": "2026-08-03T00:56:46.069000Z",
-      "primary_item": {
-        "id": "228ad5508c6f118f1b0277b76977ba9c4c7e3a3d",
-        "title": "AI海报在俄亥俄州博览会上获奖",
-        "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
-        "source": "www.ohiostatefair.com",
         "source_name": "Buzzing"
       }
     }
