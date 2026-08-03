@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:44:44.382000Z",
+  "generated_at": "2026-08-03T20:22:26.253491Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_1fd45f2575fa",
@@ -27,6 +27,42 @@
           "source": "MIT Sloan Management Review",
           "title": "The Marketing Capability Paradox: Seven Forces Eroding Your Marketing Team’s Effectiveness",
           "url": "https://sloanreview.mit.edu/article/the-marketing-capability-paradox-seven-forces-eroding-your-marketing-teams-effectiveness/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_cc9731bd2857",
+      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+      "lane": "founder_case",
+      "signal_ids": [
+        "biz_0fbb0812a0ce",
+        "biz_151a6b428813"
+      ],
+      "source_count": 1,
+      "importance_score": 46,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "wealth_flywheel"
+      ],
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
+      "evidence_refs": [
+        "biz_0fbb0812a0ce",
+        "biz_151a6b428813"
+      ],
+      "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "Investor Interview: Black Forest Labs",
+          "url": "https://www.cbinsights.com/research/investor-interview-black-forest-labs/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "Investor Interview: Casap",
+          "url": "https://www.cbinsights.com/research/investor-interview-casap/"
         }
       ]
     },
@@ -67,28 +103,35 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_24cfb7a9f95b",
+      "cluster_id": "biz_cluster_6c3b6a0d894f",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
+        "biz_b0d7469357ec",
         "biz_1adb7f31df60",
         "biz_d714096ef03e"
       ],
-      "source_count": 1,
-      "importance_score": 38,
-      "confidence": "watch",
+      "source_count": 2,
+      "importance_score": 42,
+      "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
+        "biz_b0d7469357ec",
         "biz_1adb7f31df60",
         "biz_d714096ef03e"
       ],
       "top_sources": [
+        {
+          "source": "OpenAI News",
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+        },
         {
           "source": "Lenny's Newsletter",
           "title": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",

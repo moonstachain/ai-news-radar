@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:44:44.382000Z",
+  "generated_at": "2026-08-03T20:22:26.253491Z",
   "cases": [
     {
       "case_id": "opc_case_de53d7db19ae",
@@ -22,6 +22,27 @@
       "score": 52
     },
     {
+      "case_id": "opc_case_fb086efa2db0",
+      "company": "Investor Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_0fbb0812a0ce"
+      ],
+      "url": "https://www.cbinsights.com/research/investor-interview-black-forest-labs/",
+      "title": "Investor Interview: Black Forest Labs",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
+    },
+    {
       "case_id": "opc_case_f645a3e12a8b",
       "company": "The Marketing Capability",
       "founder": "",
@@ -41,6 +62,46 @@
         "profit_container"
       ],
       "score": 50
+    },
+    {
+      "case_id": "opc_case_bfcef526a068",
+      "company": "OpenAI News",
+      "founder": "",
+      "source_refs": [
+        "biz_b0d7469357ec"
+      ],
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "business_model": "Founder Case, Enterprise AI Workflow",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "OpenAI News",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_os"
+      ],
+      "score": 41
+    },
+    {
+      "case_id": "opc_case_8475532fa558",
+      "company": "Investor Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_151a6b428813"
+      ],
+      "url": "https://www.cbinsights.com/research/investor-interview-casap/",
+      "title": "Investor Interview: Casap",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "ftf_trust"
+      ],
+      "score": 38
     },
     {
       "case_id": "opc_case_54f636530d52",
