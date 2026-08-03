@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T04:57:08.338106Z",
+  "generated_at": "2026-08-03T08:22:30.774167Z",
   "window_hours": 24,
-  "total_items": 20,
+  "total_items": 19,
   "items": [
     {
       "story_id": "story_f1afe25775a0",
@@ -76,15 +76,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8611,
-      "importance": 0.8611,
-      "importance_score": 0.8611,
+      "score": 0.8528,
+      "importance": 0.8528,
+      "importance_score": 0.8528,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.89,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9583,
+        "recency": 0.912,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -157,22 +157,21 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7561,
-      "importance": 0.7561,
-      "importance_score": 0.7561,
+      "score": 0.7483,
+      "importance": 0.7483,
+      "importance_score": 0.7483,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.897,
+        "recency": 0.8537,
         "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-08-02T21:25:27Z",
       "latest_at": "2026-08-02T22:13:30Z",
@@ -219,15 +218,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7351,
-      "importance": 0.7351,
-      "importance_score": 0.7351,
+      "score": 0.7284,
+      "importance": 0.7284,
+      "importance_score": 0.7284,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7693,
+        "recency": 0.7322,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -354,15 +353,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6202,
-      "importance": 0.6202,
-      "importance_score": 0.6202,
+      "score": 0.6115,
+      "importance": 0.6115,
+      "importance_score": 0.6115,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9964,
+        "recency": 0.9484,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -377,6 +376,104 @@
         "url": "https://news.ycombinator.com/item?id=49147622",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_245bd9037021",
+      "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者",
+      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "primary_url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "source": "www.modelrepublic.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "1df375caf2242069944c372fb478134ce40d4667",
+          "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者",
+          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+          "source": "www.modelrepublic.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-03T05:44:58.273000Z"
+        },
+        {
+          "id": "967b7c526151efdf34a4aa3eb14d4f2ba0d669a5",
+          "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+          "url": "https://news.ycombinator.com/item?id=49150561",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-03T04:42:14.179000Z"
+        },
+        {
+          "id": "27d72771898a26819f8daa9ad1aa28003b0f0dbf",
+          "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-03T02:30:30Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "www.modelrepublic.org"
+      ],
+      "items": [
+        {
+          "id": "1df375caf2242069944c372fb478134ce40d4667",
+          "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者",
+          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+          "source": "www.modelrepublic.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-03T05:44:58.273000Z"
+        },
+        {
+          "id": "967b7c526151efdf34a4aa3eb14d4f2ba0d669a5",
+          "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+          "url": "https://news.ycombinator.com/item?id=49150561",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-03T04:42:14.179000Z"
+        },
+        {
+          "id": "27d72771898a26819f8daa9ad1aa28003b0f0dbf",
+          "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-03T02:30:30Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5641,
+      "importance": 0.5641,
+      "importance_score": 0.5641,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9628,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-03T02:30:30Z",
+      "latest_at": "2026-08-03T05:44:58.273000Z",
+      "primary_item": {
+        "id": "1df375caf2242069944c372fb478134ce40d4667",
+        "title": "OpenAI的超级政治行动委员会正在资助一个由人工智能生成的新闻网站，该网站针对行业批评者",
+        "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+        "source": "www.modelrepublic.org",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -452,15 +549,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5555,
-      "importance": 0.5555,
-      "importance_score": 0.5555,
+      "score": 0.5476,
+      "importance": 0.5476,
+      "importance_score": 0.5476,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9152,
+        "recency": 0.8711,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -474,6 +571,85 @@
         "title": "欧盟关于人工智能模型的法规正式生效。这将带来哪些变化？",
         "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
         "source": "www.euronews.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_9ebc895c2d08",
+      "title": "Hugging Face 首席执行官表示，像 OpenAI 事件这样的黑客攻击需要透明度",
+      "url": "https://www.businessinsider.com/hugging-face-ceo-hack-openai-mandatory-transparency-law-ai-2026-8",
+      "primary_url": "https://www.businessinsider.com/hugging-face-ceo-hack-openai-mandatory-transparency-law-ai-2026-8",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "2b77c8a244bbe12f437b142b77337dc6e16ee434",
+          "title": "Hugging Face 首席执行官表示，像 OpenAI 事件这样的黑客攻击需要透明度",
+          "url": "https://www.businessinsider.com/hugging-face-ceo-hack-openai-mandatory-transparency-law-ai-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-03T07:20:51.777000Z"
+        },
+        {
+          "id": "340019a9161967c58e7c13ae9acdb78bf2e4fb57",
+          "title": "Hugging Face 首席执行官表示，像 OpenAI 事件这样的黑客攻击需要透明度 / Hugging Face CEO says AI companies should be required to disclose hacks after OpenAI breach",
+          "url": "https://www.businessinsider.com/hugging-face-ceo-hack-openai-mandatory-transparency-law-ai-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-03T06:52:48Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "2b77c8a244bbe12f437b142b77337dc6e16ee434",
+          "title": "Hugging Face 首席执行官表示，像 OpenAI 事件这样的黑客攻击需要透明度",
+          "url": "https://www.businessinsider.com/hugging-face-ceo-hack-openai-mandatory-transparency-law-ai-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-03T07:20:51.777000Z"
+        },
+        {
+          "id": "340019a9161967c58e7c13ae9acdb78bf2e4fb57",
+          "title": "Hugging Face 首席执行官表示，像 OpenAI 事件这样的黑客攻击需要透明度 / Hugging Face CEO says AI companies should be required to disclose hacks after OpenAI breach",
+          "url": "https://www.businessinsider.com/hugging-face-ceo-hack-openai-mandatory-transparency-law-ai-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-03T06:52:48Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5431,
+      "importance": 0.5431,
+      "importance_score": 0.5431,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9853,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-03T06:52:48Z",
+      "latest_at": "2026-08-03T07:20:51.777000Z",
+      "primary_item": {
+        "id": "2b77c8a244bbe12f437b142b77337dc6e16ee434",
+        "title": "Hugging Face 首席执行官表示，像 OpenAI 事件这样的黑客攻击需要透明度",
+        "url": "https://www.businessinsider.com/hugging-face-ceo-hack-openai-mandatory-transparency-law-ai-2026-8",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -550,15 +726,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5475,
-      "importance": 0.5475,
-      "importance_score": 0.5475,
+      "score": 0.5399,
+      "importance": 0.5399,
+      "importance_score": 0.5399,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8705,
+        "recency": 0.8285,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -572,85 +748,6 @@
         "title": "人工智能：《Ars Notoria》与即时知识的承诺",
         "url": "https://publicdomainreview.org/essay/ars-notoria",
         "source": "publicdomainreview.org",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_cb242949ec8b",
-      "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们",
-      "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
-      "primary_url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c0d7ee1a8e22dc7e5c19413a18d8bf7ac9b00266",
-          "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们",
-          "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T01:44:49.474000Z"
-        },
-        {
-          "id": "39f0ddcef8463e1318c6869b74c8f711a8efab39",
-          "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们 / Meet the coaches, measurers, and builders carving out a slice of the AI cost-saving business",
-          "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-03T01:30:26Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "c0d7ee1a8e22dc7e5c19413a18d8bf7ac9b00266",
-          "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们",
-          "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T01:44:49.474000Z"
-        },
-        {
-          "id": "39f0ddcef8463e1318c6869b74c8f711a8efab39",
-          "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们 / Meet the coaches, measurers, and builders carving out a slice of the AI cost-saving business",
-          "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-03T01:30:26Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5377,
-      "importance": 0.5377,
-      "importance_score": 0.5377,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9548,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-03T01:30:26Z",
-      "latest_at": "2026-08-03T01:44:49.474000Z",
-      "primary_item": {
-        "id": "c0d7ee1a8e22dc7e5c19413a18d8bf7ac9b00266",
-        "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们",
-        "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
-        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -708,15 +805,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5357,
-      "importance": 0.5357,
-      "importance_score": 0.5357,
+      "score": 0.5275,
+      "importance": 0.5275,
+      "importance_score": 0.5275,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9438,
+        "recency": 0.8983,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -786,15 +883,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5318,
-      "importance": 0.5318,
-      "importance_score": 0.5318,
+      "score": 0.5238,
+      "importance": 0.5238,
+      "importance_score": 0.5238,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9221,
+        "recency": 0.8776,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -838,18 +935,18 @@
           "published_at": "2026-08-02T20:24:41.873000Z"
         },
         {
-          "id": "1eafc6bd65713bf0ac88c09d44c540c13e9441dc",
+          "id": "700e68e6f5da0cb67a10c042497b200b18e96b06",
           "title": "Show HN: MicroCodex 编码代理——用 C 重构的 OpenAI/Codex 1MB 二进制文件 / Show HN: MicroCodex Coding Agent – OpenAI/codex reimplemented in C++ <1MB binary",
           "url": "https://github.com/paoloanzn/microcodex",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
           "published_at": "2026-08-02T20:11:35Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News",
+        "HN Algolia · AI 24h",
         "github.com",
         "hackernews"
       ],
@@ -873,26 +970,26 @@
           "published_at": "2026-08-02T20:24:41.873000Z"
         },
         {
-          "id": "1eafc6bd65713bf0ac88c09d44c540c13e9441dc",
+          "id": "700e68e6f5da0cb67a10c042497b200b18e96b06",
           "title": "Show HN: MicroCodex 编码代理——用 C 重构的 OpenAI/Codex 1MB 二进制文件 / Show HN: MicroCodex Coding Agent – OpenAI/codex reimplemented in C++ <1MB binary",
           "url": "https://github.com/paoloanzn/microcodex",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
           "published_at": "2026-08-02T20:11:35Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5546,
-      "importance": 0.5546,
-      "importance_score": 0.5546,
+      "score": 0.5467,
+      "importance": 0.5467,
+      "importance_score": 0.5467,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.91,
+        "recency": 0.8661,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -962,15 +1059,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5217,
-      "importance": 0.5217,
-      "importance_score": 0.5217,
+      "score": 0.5142,
+      "importance": 0.5142,
+      "importance_score": 0.5142,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8659,
+        "recency": 0.8242,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1041,15 +1138,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5166,
-      "importance": 0.5166,
-      "importance_score": 0.5166,
+      "score": 0.5093,
+      "importance": 0.5093,
+      "importance_score": 0.5093,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8376,
+        "recency": 0.7972,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1063,6 +1160,85 @@
         "title": "Show HN: Sprocket——硬件和软件开发领域的最佳人工智能代理",
         "url": "https://sprocket-demo.spikonado.com",
         "source": "sprocket-demo.spikonado.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_cb242949ec8b",
+      "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们",
+      "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
+      "primary_url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "c0d7ee1a8e22dc7e5c19413a18d8bf7ac9b00266",
+          "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们",
+          "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-03T01:44:49.474000Z"
+        },
+        {
+          "id": "39f0ddcef8463e1318c6869b74c8f711a8efab39",
+          "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们 / Meet the coaches, measurers, and builders carving out a slice of the AI cost-saving business",
+          "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-03T01:30:26Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "c0d7ee1a8e22dc7e5c19413a18d8bf7ac9b00266",
+          "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们",
+          "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-03T01:44:49.474000Z"
+        },
+        {
+          "id": "39f0ddcef8463e1318c6869b74c8f711a8efab39",
+          "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们 / Meet the coaches, measurers, and builders carving out a slice of the AI cost-saving business",
+          "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-03T01:30:26Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5294,
+      "importance": 0.5294,
+      "importance_score": 0.5294,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9087,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-03T01:30:26Z",
+      "latest_at": "2026-08-03T01:44:49.474000Z",
+      "primary_item": {
+        "id": "c0d7ee1a8e22dc7e5c19413a18d8bf7ac9b00266",
+        "title": "来认识一下那些正在开拓人工智能降本增效业务领域的教练、评估师和建设者们",
+        "url": "https://www.businessinsider.com/ai-cost-saving-businesses-startups-roi-2026-7",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -1120,15 +1296,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5043,
-      "importance": 0.5043,
-      "importance_score": 0.5043,
+      "score": 0.4976,
+      "importance": 0.4976,
+      "importance_score": 0.4976,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7695,
+        "recency": 0.7324,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1143,163 +1319,6 @@
         "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
         "source": "ankursethi.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_13b20b7a69ba",
-      "title": "[Local LLM] 云 llm 越卷越便宜， mac 统一内存本地部署 32b 已经没意义了",
-      "url": "https://www.v2ex.com/t/1231540",
-      "primary_url": "https://www.v2ex.com/t/1231540",
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "6773301c3c559a8ae054f85340e75deba7343fa9",
-          "title": "[Local LLM] 云 llm 越卷越便宜， mac 统一内存本地部署 32b 已经没意义了",
-          "url": "https://www.v2ex.com/t/1231540",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T07:38:16Z"
-        },
-        {
-          "id": "ec03cdd294a22a82733e8e0aa81d503ede8ee5af",
-          "title": "[奇思妙想] 云 llm 越卷越便宜， mac 统一内存本地部署 32b 已经没意义了",
-          "url": "https://www.v2ex.com/t/1231540",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T07:38:16Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "V2EX (创意工作者社区)"
-      ],
-      "items": [
-        {
-          "id": "6773301c3c559a8ae054f85340e75deba7343fa9",
-          "title": "[Local LLM] 云 llm 越卷越便宜， mac 统一内存本地部署 32b 已经没意义了",
-          "url": "https://www.v2ex.com/t/1231540",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T07:38:16Z"
-        },
-        {
-          "id": "ec03cdd294a22a82733e8e0aa81d503ede8ee5af",
-          "title": "[奇思妙想] 云 llm 越卷越便宜， mac 统一内存本地部署 32b 已经没意义了",
-          "url": "https://www.v2ex.com/t/1231540",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-02T07:38:16Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4981,
-      "importance": 0.4981,
-      "importance_score": 0.4981,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7351,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T07:38:16Z",
-      "latest_at": "2026-08-02T07:38:16Z",
-      "primary_item": {
-        "id": "6773301c3c559a8ae054f85340e75deba7343fa9",
-        "title": "[Local LLM] 云 llm 越卷越便宜， mac 统一内存本地部署 32b 已经没意义了",
-        "url": "https://www.v2ex.com/t/1231540",
-        "source": "V2EX (创意工作者社区)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_245bd9037021",
-      "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "url": "https://news.ycombinator.com/item?id=49150561",
-      "primary_url": "https://news.ycombinator.com/item?id=49150561",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "967b7c526151efdf34a4aa3eb14d4f2ba0d669a5",
-          "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-          "url": "https://news.ycombinator.com/item?id=49150561",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-03T04:42:14.179000Z"
-        },
-        {
-          "id": "27d72771898a26819f8daa9ad1aa28003b0f0dbf",
-          "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-03T02:30:30Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "967b7c526151efdf34a4aa3eb14d4f2ba0d669a5",
-          "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-          "url": "https://news.ycombinator.com/item?id=49150561",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-03T04:42:14.179000Z"
-        },
-        {
-          "id": "27d72771898a26819f8daa9ad1aa28003b0f0dbf",
-          "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-          "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-03T02:30:30Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5452,
-      "importance": 0.5452,
-      "importance_score": 0.5452,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9964,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-03T02:30:30Z",
-      "latest_at": "2026-08-03T04:42:14.179000Z",
-      "primary_item": {
-        "id": "967b7c526151efdf34a4aa3eb14d4f2ba0d669a5",
-        "title": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者 / OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-        "url": "https://news.ycombinator.com/item?id=49150561",
-        "source": "hackernews",
-        "source_name": "NewsNow"
       }
     },
     {
@@ -1355,15 +1374,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5126,
-      "importance": 0.5126,
-      "importance_score": 0.5126,
+      "score": 0.5056,
+      "importance": 0.5056,
+      "importance_score": 0.5056,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8158,
+        "recency": 0.7765,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1378,85 +1397,6 @@
         "url": "https://www.ursulakleguin.com/a-rant-about-technology",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_fbc44f3b9320",
-      "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
-      "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
-      "primary_url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "b141c71170ccd0faec51836b070fa3be8592c0e6",
-          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
-          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-02T14:32:48.790000Z"
-        },
-        {
-          "id": "425db223cf82efa123a33731bc8129d1ed6df732",
-          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事 / After starting the tokenmaxxing panic, Uber's CTO is back with a very different AI story",
-          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-02T13:30:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "b141c71170ccd0faec51836b070fa3be8592c0e6",
-          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
-          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-02T14:32:48.790000Z"
-        },
-        {
-          "id": "425db223cf82efa123a33731bc8129d1ed6df732",
-          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事 / After starting the tokenmaxxing panic, Uber's CTO is back with a very different AI story",
-          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-02T13:30:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.512,
-      "importance": 0.512,
-      "importance_score": 0.512,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8122,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-02T13:30:01Z",
-      "latest_at": "2026-08-02T14:32:48.790000Z",
-      "primary_item": {
-        "id": "b141c71170ccd0faec51836b070fa3be8592c0e6",
-        "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
-        "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1513,15 +1453,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.536,
-      "importance": 0.536,
-      "importance_score": 0.536,
+      "score": 0.5278,
+      "importance": 0.5278,
+      "importance_score": 0.5278,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9456,
+        "recency": 0.9,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1539,30 +1479,30 @@
       }
     },
     {
-      "story_id": "story_07c78f05a067",
-      "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
-      "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
-      "primary_url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+      "story_id": "story_fbc44f3b9320",
+      "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
+      "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
+      "primary_url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
       "source": "www.businessinsider.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "7699a4cc2ec0f60cfb6815890d4ba9ad35d70d38",
-          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
-          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+          "id": "b141c71170ccd0faec51836b070fa3be8592c0e6",
+          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
+          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-02T08:24:43.919000Z"
+          "published_at": "2026-08-02T14:32:48.790000Z"
         },
         {
-          "id": "2b4c3c96243f99ff74718fa1096803b2fe98a52f",
-          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因 / Top economist Steve Hanke told us why he doubts AI will be the job destroyer many expect",
-          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+          "id": "425db223cf82efa123a33731bc8129d1ed6df732",
+          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事 / After starting the tokenmaxxing panic, Uber's CTO is back with a very different AI story",
+          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-02T08:07:01Z"
+          "published_at": "2026-08-02T13:30:01Z"
         }
       ],
       "source_count": 2,
@@ -1572,47 +1512,47 @@
       ],
       "items": [
         {
-          "id": "7699a4cc2ec0f60cfb6815890d4ba9ad35d70d38",
-          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
-          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+          "id": "b141c71170ccd0faec51836b070fa3be8592c0e6",
+          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
+          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-02T08:24:43.919000Z"
+          "published_at": "2026-08-02T14:32:48.790000Z"
         },
         {
-          "id": "2b4c3c96243f99ff74718fa1096803b2fe98a52f",
-          "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因 / Top economist Steve Hanke told us why he doubts AI will be the job destroyer many expect",
-          "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+          "id": "425db223cf82efa123a33731bc8129d1ed6df732",
+          "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事 / After starting the tokenmaxxing panic, Uber's CTO is back with a very different AI story",
+          "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-02T08:07:01Z"
+          "published_at": "2026-08-02T13:30:01Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4996,
-      "importance": 0.4996,
-      "importance_score": 0.4996,
+      "score": 0.5049,
+      "importance": 0.5049,
+      "importance_score": 0.5049,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7433,
+        "recency": 0.773,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-02T08:07:01Z",
-      "latest_at": "2026-08-02T08:24:43.919000Z",
+      "earliest_at": "2026-08-02T13:30:01Z",
+      "latest_at": "2026-08-02T14:32:48.790000Z",
       "primary_item": {
-        "id": "7699a4cc2ec0f60cfb6815890d4ba9ad35d70d38",
-        "title": "顶尖经济学家史蒂夫·汉克向我们阐述了他认为人工智能不会成为大规模就业杀手的原因",
-        "url": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7",
+        "id": "b141c71170ccd0faec51836b070fa3be8592c0e6",
+        "title": "在引发“代币狂潮”恐慌之后，优步首席技术官又带来了一个截然不同的人工智能故事",
+        "url": "https://www.businessinsider.com/uber-turns-best-ai-engineers-loose-pods-business-2026-8",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
@@ -1671,15 +1611,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5065,
-      "importance": 0.5065,
-      "importance_score": 0.5065,
+      "score": 0.4997,
+      "importance": 0.4997,
+      "importance_score": 0.4997,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7816,
+        "recency": 0.7439,
         "story_heat": 0.25
       },
       "category": "watch",
