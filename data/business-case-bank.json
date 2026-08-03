@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-08-03T08:23:42.933251Z",
+  "generated_at": "2026-08-03T11:54:40.124738Z",
   "cases": [
-    {
-      "case_id": "opc_case_861b2742b904",
-      "company": "Indie Hackers",
-      "founder": "",
-      "source_refs": [
-        "biz_e085aeca241d"
-      ],
-      "url": "https://www.indiehackers.com/post/i-built-a-startup-idea-scanner-it-just-told-me-none-of-my-3-400-ideas-are-easy-wins-c6e4e7e5f2",
-      "title": "I built a startup-idea scanner. It just told me none of my 3,400 ideas are easy wins.",
-      "business_model": "Founder Case, OPC",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup"
-      ],
-      "score": 51
-    },
     {
       "case_id": "opc_case_437c77d640f4",
       "company": "Three",
@@ -42,14 +22,14 @@
       "score": 46
     },
     {
-      "case_id": "opc_case_80418ed501aa",
-      "company": "Product Hunt",
+      "case_id": "opc_case_14c5f53cf502",
+      "company": "YouTube",
       "founder": "",
       "source_refs": [
-        "biz_6fcb873faefc"
+        "biz_60a5d4c38d32"
       ],
-      "url": "https://www.indiehackers.com/post/we-launched-on-product-hunt-and-deliberately-didnt-email-our-list-here-s-what-happened-e1bf4b93c9",
-      "title": "We launched on Product Hunt and deliberately didn't email our list. Here's what happened.",
+      "url": "https://www.indiehackers.com/post/i-got-tired-of-opening-15-ai-websites-every-time-i-made-a-youtube-video-so-i-built-one-desktop-app-instead-cbde98dc42",
+      "title": "I got tired of opening 15 AI websites every time I made a YouTube video, so I built one desktop app instead.",
       "business_model": "Founder Case, OPC",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
@@ -59,7 +39,7 @@
       "yuanli_mapping": [
         "yuanli_startup"
       ],
-      "score": 39
+      "score": 40
     },
     {
       "case_id": "opc_case_4d2649d58863",
@@ -80,6 +60,27 @@
         "yuanli_startup"
       ],
       "score": 39
+    },
+    {
+      "case_id": "opc_case_f645a3e12a8b",
+      "company": "The Marketing Capability",
+      "founder": "",
+      "source_refs": [
+        "biz_f2358085b6d0"
+      ],
+      "url": "https://sloanreview.mit.edu/article/the-marketing-capability-paradox-seven-forces-eroding-your-marketing-teams-effectiveness/",
+      "title": "The Marketing Capability Paradox: Seven Forces Eroding Your Marketing Team’s Effectiveness",
+      "business_model": "AI Business Model Innovation, Founder Case, Enterprise AI Workflow",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "MIT Sloan Management Review",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "score": 50
     }
   ]
 }

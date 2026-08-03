@@ -1,39 +1,61 @@
 {
-  "generated_at": "2026-08-03T08:23:42.933251Z",
+  "generated_at": "2026-08-03T11:54:40.124738Z",
   "clusters": [
     {
-      "cluster_id": "biz_cluster_8f2c755c0815",
+      "cluster_id": "biz_cluster_1fd45f2575fa",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "signal_ids": [
+        "biz_f2358085b6d0"
+      ],
+      "source_count": 1,
+      "importance_score": 52,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_f2358085b6d0"
+      ],
+      "top_sources": [
+        {
+          "source": "MIT Sloan Management Review",
+          "title": "The Marketing Capability Paradox: Seven Forces Eroding Your Marketing Team’s Effectiveness",
+          "url": "https://sloanreview.mit.edu/article/the-marketing-capability-paradox-seven-forces-eroding-your-marketing-teams-effectiveness/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_b74ce2170023",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "signal_ids": [
-        "biz_e085aeca241d",
         "biz_ba702ae6795b",
-        "biz_6fcb873faefc",
+        "biz_60a5d4c38d32",
         "biz_3cd45072d803"
       ],
       "source_count": 1,
-      "importance_score": 46,
+      "importance_score": 44,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "4 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_e085aeca241d",
         "biz_ba702ae6795b",
-        "biz_6fcb873faefc",
+        "biz_60a5d4c38d32",
         "biz_3cd45072d803"
       ],
       "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "I built a startup-idea scanner. It just told me none of my 3,400 ideas are easy wins.",
-          "url": "https://www.indiehackers.com/post/i-built-a-startup-idea-scanner-it-just-told-me-none-of-my-3-400-ideas-are-easy-wins-c6e4e7e5f2"
-        },
         {
           "source": "Indie Hackers",
           "title": "Three weeks selling: 16 real visitors, 0 customers",
@@ -41,8 +63,8 @@
         },
         {
           "source": "Indie Hackers",
-          "title": "We launched on Product Hunt and deliberately didn't email our list. Here's what happened.",
-          "url": "https://www.indiehackers.com/post/we-launched-on-product-hunt-and-deliberately-didnt-email-our-list-here-s-what-happened-e1bf4b93c9"
+          "title": "I got tired of opening 15 AI websites every time I made a YouTube video, so I built one desktop app instead.",
+          "url": "https://www.indiehackers.com/post/i-got-tired-of-opening-15-ai-websites-every-time-i-made-a-youtube-video-so-i-built-one-desktop-app-instead-cbde98dc42"
         },
         {
           "source": "Indie Hackers",
