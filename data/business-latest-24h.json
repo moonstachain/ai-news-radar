@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T11:54:40.124738Z",
+  "generated_at": "2026-08-03T14:16:52.459207Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-03T11:00:54Z",
-      "captured_at": "2026-08-03T11:54:40.124738Z",
+      "captured_at": "2026-08-03T14:16:52.459207Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -45,49 +45,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_ba702ae6795b",
-      "title": "Three weeks selling: 16 real visitors, 0 customers",
-      "url": "https://www.indiehackers.com/post/three-weeks-selling-16-real-visitors-0-customers-25d849c3f4",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-02T15:50:50.677000Z",
-      "captured_at": "2026-08-03T11:54:40.124738Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "Three"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 12,
-      "total_score": 46,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 12,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Three weeks selling: 16 real visitors, 0 customers Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
       "signal_id": "biz_60a5d4c38d32",
       "title": "I got tired of opening 15 AI websites every time I made a YouTube video, so I built one desktop app instead.",
       "url": "https://www.indiehackers.com/post/i-got-tired-of-opening-15-ai-websites-every-time-i-made-a-youtube-video-so-i-built-one-desktop-app-instead-cbde98dc42",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-03T07:59:38.971000Z",
-      "captured_at": "2026-08-03T11:54:40.124738Z",
+      "captured_at": "2026-08-03T14:16:52.459207Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -123,7 +87,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-02T14:19:44.731000Z",
-      "captured_at": "2026-08-03T11:54:40.124738Z",
+      "captured_at": "2026-08-03T14:16:52.459207Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -152,6 +116,47 @@
       "summary": "“I’ll just post on Upwork” is not a client strategy. Here’s what I built instead. Tags: Founder Case, OPC.",
       "timestamp_basis": "page_structured_time",
       "transport_mode": "page_detail"
+    },
+    {
+      "signal_id": "biz_d714096ef03e",
+      "title": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+      "url": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites",
+      "source_id": "lenny",
+      "source_name": "Lenny's Newsletter",
+      "published_at": "2026-08-03T12:04:26Z",
+      "captured_at": "2026-08-03T14:16:52.459207Z",
+      "lane": "startup_vc",
+      "entities": [
+        "Lenny's Newsletter",
+        "ChatGPT Codex Voice",
+        "Sites",
+        "Nick Baumann",
+        "OpenAI"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Enterprise AI Workflow",
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_asset",
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 35,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Watch now | 🎙️ChatGPT Voice now manages multiple threads, reads your screen, and runs background tasks, and Nick Baumann walks me through the whole workflow live Tags: AI Business Model Innovation, Enterprise AI Workflow, Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
     }
   ]
 }
