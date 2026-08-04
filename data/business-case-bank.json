@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:06:05.660632Z",
+  "generated_at": "2026-08-04T15:45:53.224562Z",
   "cases": [
     {
       "case_id": "opc_case_fb086efa2db0",
@@ -21,6 +21,46 @@
         "ftf_trust"
       ],
       "score": 49
+    },
+    {
+      "case_id": "opc_case_28a2236b06c9",
+      "company": "Growing",
+      "founder": "",
+      "source_refs": [
+        "biz_6666e000cbf2"
+      ],
+      "url": "https://www.indiehackers.com/post/tech/growing-a-talent-marketplace-to-2-5m-yr-after-two-years-of-losses-9CktlRa1UunyRWHrftxv",
+      "title": "Growing a talent marketplace to $2.5M+/yr after two years of losses",
+      "business_model": "AI Business Model Innovation, OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Indie Hackers",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "profit_container"
+      ],
+      "score": 38
+    },
+    {
+      "case_id": "opc_case_de7ba9242b5d",
+      "company": "A New Way",
+      "founder": "",
+      "source_refs": [
+        "biz_cbad2f98814d"
+      ],
+      "url": "https://hbr.org/2026/08/a-new-way-to-measure-customer-referrals",
+      "title": "A New Way to Measure Customer Referrals",
+      "business_model": "Founder Case, AI Business Model Innovation",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Harvard Business Review",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup"
+      ],
+      "score": 42
     },
     {
       "case_id": "opc_case_38ad600d2e49",
@@ -79,48 +119,6 @@
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
         "ftf_trust"
-      ],
-      "score": 37
-    },
-    {
-      "case_id": "opc_case_54f636530d52",
-      "company": "Indie Hackers",
-      "founder": "",
-      "source_refs": [
-        "biz_7603e0fa1584"
-      ],
-      "url": "https://www.indiehackers.com/post/why-every-productivity-tool-eventually-becomes-the-work-instead-of-doing-the-work-7dba6d00d9",
-      "title": "Why every productivity tool eventually becomes the work instead of doing the work?",
-      "business_model": "Enterprise AI Workflow, OPC",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup"
-      ],
-      "score": 31
-    },
-    {
-      "case_id": "opc_case_dee8bd00e38f",
-      "company": "How I AI",
-      "founder": "",
-      "source_refs": [
-        "biz_1adb7f31df60"
-      ],
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser",
-      "title": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
-      "business_model": "AI Business Model Innovation, Enterprise AI Workflow, Founder Case",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "Lenny's Newsletter",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_os",
-        "wealth_flywheel"
       ],
       "score": 37
     }

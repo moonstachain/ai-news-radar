@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "10c45440fe5de695",
+  "snapshot_id": "f5afa7f3a326a4a5",
   "channel": "ai-news",
-  "generated_at": "2026-08-04T13:04:48.426057Z",
+  "generated_at": "2026-08-04T15:43:12.985809Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 555,
-    "high_priority": 33,
+    "signals": 570,
+    "high_priority": 43,
     "briefs": 20,
-    "stories": 513
+    "stories": 525
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,50 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 174,
-    "Info Flow": 133,
-    "TechURLs": 83,
-    "Zeli": 69,
-    "NewsNow": 24,
-    "Curated Media": 21,
-    "AI HOT": 19,
+    "Buzzing": 180,
+    "Info Flow": 131,
+    "TechURLs": 85,
+    "Zeli": 65,
+    "AI HOT": 25,
+    "NewsNow": 25,
+    "Curated Media": 24,
     "OPML RSS": 13
   },
   "top_stories": [
+    {
+      "story_id": "story_ea7f6df3de1a",
+      "title": "使用 LFM2.5-2.6B 随处部署本地代理 / Deploy local agents everywhere with LFM2.5-2.6B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "primary_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "importance_score": 0.8555,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-04T13:58:29Z",
+      "earliest_at": "2026-08-04T13:58:29Z",
+      "sources": [
+        {
+          "id": "29539b6fa902d9cb9ba640872a1c08e0b500f04e",
+          "title": "使用 LFM2.5-2.6B 随处部署本地代理 / Deploy local agents everywhere with LFM2.5-2.6B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-04T13:58:29Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_d3753d032c98",
       "title": "我们于 2026 年 7 月公布的最新 AI 新闻 / The latest AI news we announced in July 2026",
@@ -43,7 +77,7 @@
       "source_names": [
         "Google AI Blog"
       ],
-      "importance_score": 0.8438,
+      "importance_score": 0.8371,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -67,62 +101,17 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_2163b413300d",
-      "title": "苹果在这件事上搞错了 / Apple is getting this wrong",
-      "url": "https://openai.com/index/apple-is-getting-this-wrong",
-      "primary_url": "https://openai.com/index/apple-is-getting-this-wrong",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "openai.com"
-      ],
-      "importance_score": 0.8418,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-04T07:20:54.985000Z",
-      "earliest_at": "2026-08-03T22:00:00Z",
-      "sources": [
-        {
-          "id": "ce0656b6b37df08856d608cf2a3be369847eee00",
-          "title": "苹果在这件事上搞错了 / Apple is getting this wrong",
-          "url": "https://openai.com/index/apple-is-getting-this-wrong",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-03T22:00:00Z"
-        },
-        {
-          "id": "a833a6eb0db2cced4af45800a3813f6fb7acdd2c",
-          "title": "苹果在这件事上搞错了",
-          "url": "https://openai.com/index/apple-is-getting-this-wrong",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-04T07:20:54.985000Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_9ceda4fbc4c7",
-      "title": "CodeQL 2.26.2 添加了 Swift 6.3.3 和 Kotlin 2.4.10 支持 / CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
-      "url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
-      "primary_url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
+      "story_id": "story_1964f5d9b9fc",
+      "title": "自定义 Dependabot 拉取请求分支名称 / Customize Dependabot pull request branch names",
+      "url": "https://github.blog/changelog/2026-08-04-customize-dependabot-pull-request-branch-names",
+      "primary_url": "https://github.blog/changelog/2026-08-04-customize-dependabot-pull-request-branch-names",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8386,
+      "importance_score": 0.837,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -130,17 +119,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-04T10:57:39Z",
-      "earliest_at": "2026-08-04T10:57:39Z",
+      "latest_at": "2026-08-04T12:57:18Z",
+      "earliest_at": "2026-08-04T12:57:18Z",
       "sources": [
         {
-          "id": "eb05eaad8451f7f2ea6aaf954435290c8eb0140e",
-          "title": "CodeQL 2.26.2 添加了 Swift 6.3.3 和 Kotlin 2.4.10 支持 / CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
-          "url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
+          "id": "14fc4f77a67ad6e0a78f6d500bced5789e4e4175",
+          "title": "自定义 Dependabot 拉取请求分支名称 / Customize Dependabot pull request branch names",
+          "url": "https://github.blog/changelog/2026-08-04-customize-dependabot-pull-request-branch-names",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-04T10:57:39Z"
+          "published_at": "2026-08-04T12:57:18Z"
         }
       ],
       "confidence": "single-source"
