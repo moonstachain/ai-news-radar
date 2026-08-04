@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "910210636b79a552",
+  "snapshot_id": "8572c60f65f83b34",
   "channel": "ai-news",
-  "generated_at": "2026-08-04T08:01:28.866288Z",
+  "generated_at": "2026-08-04T11:01:14.406351Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 565,
-    "high_priority": 32,
+    "signals": 553,
+    "high_priority": 34,
     "briefs": 20,
-    "stories": 523
+    "stories": 514
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 163,
-    "Info Flow": 150,
-    "TechURLs": 84,
+    "Buzzing": 168,
+    "Info Flow": 141,
+    "TechURLs": 73,
     "Zeli": 69,
-    "NewsNow": 26,
-    "Curated Media": 23,
-    "AI HOT": 18,
-    "OPML RSS": 13
+    "NewsNow": 28,
+    "AI HOT": 21,
+    "Curated Media": 19,
+    "OPML RSS": 16
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "OpenAI News",
         "openai.com"
       ],
-      "importance_score": 0.8527,
+      "importance_score": 0.8461,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +88,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8371,
+      "importance_score": 0.8303,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -112,20 +112,19 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_26149269af1e",
-      "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
-      "url": "https://github.com/lyogavin/airllm",
-      "primary_url": "https://github.com/lyogavin/airllm",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_6cbde97d8260",
+      "title": "面壁智能开源 ForgeStencil：一周自动优化 100+ 工业与科学软件，全程零人工介入",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498861&idx=1&sn=d2d16692dd7eb27f9d466803f25c2b78",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498861&idx=1&sn=d2d16692dd7eb27f9d466803f25c2b78",
+      "source": "公众号：面壁智能（MiniCPM）",
       "source_name": "AI HOT",
-      "source_count": 4,
+      "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "github.com",
-        "hackernews"
+        "公众号：数字生命卡兹克",
+        "公众号：腾讯混元",
+        "公众号：面壁智能（MiniCPM）"
       ],
-      "importance_score": 0.8183,
+      "importance_score": 0.819,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -133,44 +132,35 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-03T16:24:45.027000Z",
-      "earliest_at": "2026-08-03T11:15:48Z",
+      "latest_at": "2026-08-04T08:12:36Z",
+      "earliest_at": "2026-08-04T00:06:00Z",
       "sources": [
         {
-          "id": "e0581fc08e4ee08758118ef1c1132d73b95262a5",
-          "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
-          "url": "https://github.com/lyogavin/airllm",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "51868ebba24a0c391770271a0455d8d630015049",
+          "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
+          "source": "公众号：腾讯混元",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-03T16:24:45.027000Z"
+          "published_at": "2026-08-04T08:12:36Z"
         },
         {
-          "id": "2717965917d799ff11365290c89986375891fad3",
-          "title": "使用单块 4GB GPU 进行 AirLLM 70B 推理",
-          "url": "https://github.com/lyogavin/airllm",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-03T16:24:45.027000Z"
+          "id": "d5388abcb5209fc4738af4e6a63a378b7ac7d398",
+          "title": "面壁智能开源 ForgeStencil：一周自动优化 100+ 工业与科学软件，全程零人工介入",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498861&idx=1&sn=d2d16692dd7eb27f9d466803f25c2b78",
+          "source": "公众号：面壁智能（MiniCPM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-04T04:20:28Z"
         },
         {
-          "id": "4091e192e6e64bdf51ad9bafe9fca0787e19caad",
-          "title": "使用单个 4GB GPU 进行 AirLLM 70B 推理 / AirLLM 70B inference with single 4GB GPU",
-          "url": "https://news.ycombinator.com/item?id=49154228",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-03T14:16:13.881000Z"
-        },
-        {
-          "id": "5805bf72e950dcf5ce1117ff14f9fbd24a81190e",
-          "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理 / AirLLM 70B inference with single 4GB GPU",
-          "url": "https://github.com/lyogavin/airllm",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-03T11:15:48Z"
+          "id": "0de57b7d014107379b4cd5b1c435cb4df25bf721",
+          "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-04T00:06:00Z"
         }
       ],
       "confidence": "multi-source"
