@@ -1,7 +1,81 @@
 {
-  "generated_at": "2026-08-04T15:45:53.224562Z",
+  "generated_at": "2026-08-04T17:31:47.931380Z",
   "window_hours": 24,
   "items": [
+    {
+      "signal_id": "biz_81c846e4ee2f",
+      "title": "Executive Interview: Light",
+      "url": "https://www.cbinsights.com/research/executive-interview-light-2/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-04T16:27:49Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "Light"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Luke Richardson, VP Marketing at Light, tells CB Insights how they view the market, customer needs, and their company. How do you define your market, and where does your company fit into that space? So, with Light, we ar... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_a44f26b4d2ee",
+      "title": "Executive Interview: Penguin AI",
+      "url": "https://www.cbinsights.com/research/executive-interview-penguin-ai/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-04T16:14:05Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "Penguin AI"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Glenn Herzberg, Head of Marketing at Penguin AI, tells CB Insights how they view the market, customer needs, and their company. How do you define your market, and where does your company fit into that space? We define ou... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
     {
       "signal_id": "biz_0fbb0812a0ce",
       "title": "Investor Interview: S32 on Black Forest Labs",
@@ -9,7 +83,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-03T19:59:15Z",
-      "captured_at": "2026-08-04T15:45:53.224562Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -47,7 +121,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-08-04T12:25:24Z",
-      "captured_at": "2026-08-04T15:45:53.224562Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -84,7 +158,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-04T15:41:56.692000Z",
-      "captured_at": "2026-08-04T15:45:53.224562Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -120,7 +194,7 @@
       "source_id": "generalist",
       "source_name": "The Generalist",
       "published_at": "2026-08-04T12:03:37Z",
-      "captured_at": "2026-08-04T15:45:53.224562Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
       "lane": "startup_vc",
       "entities": [
         "The Generalist",
@@ -159,7 +233,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-03T21:08:37Z",
-      "captured_at": "2026-08-04T15:45:53.224562Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -196,7 +270,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-03T20:07:51Z",
-      "captured_at": "2026-08-04T15:45:53.224562Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -227,13 +301,49 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_3e137a3ad77e",
+      "title": "Turn one giant AI-generated pull request to a reviewable stack",
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "source_id": "github_blog",
+      "source_name": "GitHub Blog",
+      "published_at": "2026-08-04T16:47:18Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "GitHub Blog",
+        "Turn",
+        "AI-generated"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 34,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests. The post Turn one giant AI-generated pull request to a reviewable stac... Tags: Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_da2267135769",
       "title": "The Elusiveness of Merit-Based Hiring",
       "url": "https://sloanreview.mit.edu/article/the-elusiveness-of-merit-based-hiring/",
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-04T11:00:00Z",
-      "captured_at": "2026-08-04T15:45:53.224562Z",
+      "captured_at": "2026-08-04T17:31:47.931380Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
