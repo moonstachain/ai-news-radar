@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T22:04:34.171686Z",
+  "generated_at": "2026-08-04T23:32:19.042834Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-04T16:41:56Z",
-      "captured_at": "2026-08-04T22:04:34.171686Z",
+      "captured_at": "2026-08-04T23:32:19.042834Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -47,7 +47,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-04T16:27:49Z",
-      "captured_at": "2026-08-04T22:04:34.171686Z",
+      "captured_at": "2026-08-04T23:32:19.042834Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -84,7 +84,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-04T16:14:05Z",
-      "captured_at": "2026-08-04T22:04:34.171686Z",
+      "captured_at": "2026-08-04T23:32:19.042834Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -121,7 +121,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-04T19:02:34Z",
-      "captured_at": "2026-08-04T22:04:34.171686Z",
+      "captured_at": "2026-08-04T23:32:19.042834Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -159,7 +159,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-08-04T12:25:24Z",
-      "captured_at": "2026-08-04T22:04:34.171686Z",
+      "captured_at": "2026-08-04T23:32:19.042834Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -175,14 +175,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 8,
-      "total_score": 42,
+      "total_score": 41,
       "score_breakdown": {
         "source_authority": 20,
         "yuanli_relevance": 3,
         "business_model_value": 3,
         "case_concreteness": 8,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "A New Way to Measure Customer Referrals Tags: Founder Case, AI Business Model Innovation.",
@@ -190,38 +190,36 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_f83439029b79",
-      "title": "Your open tabs are unfinished decisions, not bookmarks. I built an app for that.",
-      "url": "https://www.indiehackers.com/post/your-open-tabs-are-unfinished-decisions-not-bookmarks-i-built-an-app-for-that-5cbc1f7a2f",
+      "signal_id": "biz_5a25189f389e",
+      "title": "I shipped 16 tiny browser tools for freelancers and creators ($7–$9, zero hosting cost)",
+      "url": "https://www.indiehackers.com/post/i-shipped-16-tiny-browser-tools-for-freelancers-and-creators-7-9-zero-hosting-cost-49be195a37",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
-      "published_at": "2026-08-04T17:20:39.736000Z",
-      "captured_at": "2026-08-04T22:04:34.171686Z",
+      "published_at": "2026-08-04T19:12:51.060000Z",
+      "captured_at": "2026-08-04T23:32:19.042834Z",
       "lane": "opc",
       "entities": [
-        "Indie Hackers",
-        "Your"
+        "Indie Hackers"
       ],
       "business_model_tags": [
-        "Founder Case",
         "OPC"
       ],
       "yuanli_tags": [
         "yuanli_startup"
       ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 40,
+      "opc_fit_score": 11,
+      "case_concreteness_score": 4,
+      "total_score": 39,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 11,
         "freshness": 8,
         "counter_signal_value": 0
       },
-      "summary": "Your open tabs are unfinished decisions, not bookmarks. I built an app for that. Tags: Founder Case, OPC.",
+      "summary": "I shipped 16 tiny browser tools for freelancers and creators ($7–$9, zero hosting cost) Tags: OPC.",
       "timestamp_basis": "page_structured_time",
       "transport_mode": "page_detail"
     },
@@ -232,7 +230,7 @@
       "source_id": "generalist",
       "source_name": "The Generalist",
       "published_at": "2026-08-04T12:03:37Z",
-      "captured_at": "2026-08-04T22:04:34.171686Z",
+      "captured_at": "2026-08-04T23:32:19.042834Z",
       "lane": "startup_vc",
       "entities": [
         "The Generalist",
@@ -250,14 +248,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 8,
-      "total_score": 38,
+      "total_score": 37,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 3,
         "business_model_value": 3,
         "case_concreteness": 8,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Listen now | Eric Nguyen explains why biology needs specialized AI, how DNA can be modeled as language, and why lab verification remains a key bottleneck between AI predictions and discovery. Tags: Founder Case.",
@@ -271,7 +269,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-04T16:47:18Z",
-      "captured_at": "2026-08-04T22:04:34.171686Z",
+      "captured_at": "2026-08-04T23:32:19.042834Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -307,7 +305,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-04T11:00:00Z",
-      "captured_at": "2026-08-04T22:04:34.171686Z",
+      "captured_at": "2026-08-04T23:32:19.042834Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
