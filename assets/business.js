@@ -29,7 +29,7 @@
       window.RadarShell.openQuickLook({
         ...item,
         sources: (item.evidence_refs || []).map((id) => byId.get(id)).filter(Boolean),
-      });
+      }, button);
     });
   }
 
@@ -47,13 +47,15 @@
       </button>`).join("");
     root.addEventListener("click", (event) => {
       const button = event.target.closest("[data-cluster-index]");
-      if (button) window.RadarShell.openQuickLook(items[Number(button.dataset.clusterIndex)]);
+      if (button) window.RadarShell.openQuickLook(items[Number(button.dataset.clusterIndex)], button);
     });
   }
 
   function renderCases(payload) {
-    document.getElementById("businessCases").innerHTML = (payload.cases || []).slice(0, 12).map((item) => `
+    const cases = payload.cases || [];
+    document.getElementById("businessCases").innerHTML = cases.slice(0, 12).map((item) => `
       <article class="business-case"><small>${esc(item.business_model)}</small><h3><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(item.company || item.title)}</a></h3><p>${esc(item.title)}</p>${tags(item.yuanli_mapping)}<details><summary>Reusable lesson</summary><div class="business-action">${esc(item.reusable_lesson)}</div></details></article>`).join("");
+    return cases.length;
   }
 
   function renderSources(catalog) {
@@ -61,23 +63,26 @@
       const state = source.current ? "ok" : source.verified && source.fresh ? "watch" : "bad";
       return `<div class="business-source-row ${state}"><span>${esc(source.name)}<small>${esc(source.lane)} · reachable ${source.reachable ? "yes" : "no"} · verified ${source.verified ? "yes" : "no"} · fresh ${source.fresh ? "yes" : "no"} · 24h ${source.current ? "yes" : "no"}</small></span><strong>${esc(source.health_status)}</strong></div>`;
     }).join("");
+    return (catalog || []).length;
   }
 
   function lazySecondary() {
-    const target = document.querySelector(".business-secondary");
+    const archive = document.getElementById("businessArchive");
+    let loaded = false;
     const load = async () => {
+      if (loaded) return;
+      loaded = true;
       const [cases, catalog] = await Promise.all([
         window.RadarData.getJson("business-case-bank.json"),
         window.RadarData.getJson("business-source-catalog.json"),
       ]);
-      renderCases(cases);
-      renderSources(catalog);
+      const caseCount = renderCases(cases);
+      const sourceCount = renderSources(catalog);
+      const summary = document.getElementById("businessArchiveSummary");
+      if (summary) summary.textContent = `${caseCount} cases · ${sourceCount} sources`;
     };
-    if (!("IntersectionObserver" in window) || !target) { load(); return; }
-    const observer = new IntersectionObserver((entries) => {
-      if (entries.some((entry) => entry.isIntersecting)) { observer.disconnect(); load(); }
-    }, { rootMargin: "200px" });
-    observer.observe(target);
+    if (!archive) { load(); return; }
+    archive.addEventListener("toggle", () => { if (archive.open) load(); });
   }
 
   async function init() {

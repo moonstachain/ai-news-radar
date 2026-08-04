@@ -4,99 +4,117 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Business Evidence Radar</title>
-    <meta
-      name="description"
-      content="English-only evidence layer for AI business model innovation, one-person companies, founder stories, and Yuanli IP strategy."
-    />
+    <meta name="description" content="English-only evidence layer for AI business model innovation, one-person companies, founder stories, and Yuanli IP strategy." />
     <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
-    <meta name="theme-color" content="#F5F5F7" />
-    <link rel="stylesheet" href="./assets/styles.css?v=apple-adaptive-0804" />
-    <link rel="stylesheet" href="./assets/apple-adaptive.css?v=apple-adaptive-0804" />
+    <meta name="theme-color" content="#0D2018" />
+    <link rel="stylesheet" href="./assets/styles.css?v=greenbook-0804b" />
+    <link rel="stylesheet" href="./assets/greenbook-cockpit.css?v=greenbook-0804b" />
   </head>
   <body class="business-body radar-shell-body radar-channel-ai-business">
+    <nav class="radar-mobile-switch" aria-label="Radar channels">
+      <a class="radar-channel-link" href="./index.html"><span>AI News</span><em>Technology</em></a>
+      <a class="radar-channel-link active" href="./business.html" aria-current="page"><span>AI Business</span><em>Evidence</em></a>
+    </nav>
+
+    <aside class="radar-side" aria-label="Yuanli Radar navigation">
+      <a class="radar-side-brand" href="./index.html">
+        <span class="radar-side-mark">原</span>
+        <span><strong>Yuanli Radar</strong><em>Evidence to action</em></span>
+      </a>
+      <p class="radar-side-volume">INTELLIGENCE · VOL. II</p>
+      <nav class="radar-side-nav" aria-label="Radar channels">
+        <a class="radar-channel-link" href="./index.html"><span>AI News</span><em>Technology &amp; industry</em></a>
+        <a class="radar-channel-link active" href="./business.html" aria-current="page"><span>AI Business</span><em>English evidence</em></a>
+      </nav>
+      <div class="radar-trust-card"><span>SNAPSHOT TRUST</span><strong id="radarSideStatus">Loading</strong><small id="radarSideUpdated">Checking manifest</small></div>
+      <div class="radar-side-links">
+        <a href="https://github.com/moonstachain/ai-news-radar" target="_blank" rel="noopener noreferrer">GitHub source <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></svg></a>
+      </div>
+    </aside>
+
     <main class="business-shell">
-      <header class="business-hero">
-        <div>
-          <p class="hero-tag">ENGLISH-ONLY BUSINESS EVIDENCE LAYER</p>
-          <h1>AI Business Evidence Radar</h1>
-          <p class="business-subtitle">
-            AI business model innovation, one-person company cases, founder stories, and counter-signals mapped back to Yuanli IP.
-          </p>
+      <header class="radar-toolbar">
+        <div><span class="radar-toolbar-kicker">YUANLI INTELLIGENCE</span><strong>AI Business</strong></div>
+        <div class="radar-toolbar-actions">
+          <button class="radar-icon-button" id="radarSearchButton" type="button" aria-label="Find business evidence"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg></button>
+          <span class="radar-trust-pill is-loading" id="radarTrustPill">CHECKING</span>
         </div>
-        <nav class="business-nav" aria-label="Radar navigation">
-          <a class="hero-link" href="./index.html">AI News</a>
-          <a class="hero-link" href="https://github.com/moonstachain/ai-news-radar" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </nav>
       </header>
 
-      <section class="radar-hero-decision" aria-label="AI Business hero decision">
-        <p class="radar-hero-label">HERO DECISION</p>
-        <h2 id="radarHeroDecision">Convert English AI business evidence into Yuanli IP action.</h2>
-        <p>
-          This channel is not a reading list. It compresses AI business model innovation, OPC cases, founder stories, and counter-signals into reusable Yuanli strategy moves.
-          <span class="radar-decision-meta" id="radarHeroDecisionMeta">Loading evidence pulse</span>
-        </p>
-      </section>
+      <header class="business-hero radar-masthead">
+        <section class="radar-hero-decision" aria-label="AI Business hero decision">
+          <p class="radar-hero-label">ENGLISH BUSINESS EVIDENCE · VOL. II</p>
+          <h1>AI Business Evidence</h1>
+          <h2 id="radarHeroDecision">Convert English AI business evidence into Yuanli IP action.</h2>
+          <p>This is not a reading list. It compresses business models, OPC cases, founder stories, and counter-signals into reusable strategy moves.</p>
+        </section>
+        <aside class="radar-snapshot-ledger" aria-label="Snapshot ledger">
+          <p>SNAPSHOT LEDGER</p>
+          <dl>
+            <div><dt>Freshness</dt><dd id="radarLedgerStatus">Checking</dd></div>
+            <div><dt>Coverage</dt><dd id="radarLedgerCoverage">Checking</dd></div>
+            <div><dt>Snapshot</dt><dd id="radarLedgerSnapshot">Pending</dd></div>
+          </dl>
+          <small id="radarHeroDecisionMeta">Loading evidence pulse</small>
+        </aside>
+      </header>
 
-      <section class="radar-pulse-strip" id="radarPulseStrip" aria-label="Business evidence data pulse"></section>
+      <section class="radar-pulse-strip" id="radarPulseStrip" aria-label="Business evidence data pulse">
+        <div class="radar-pulse-card is-skeleton"><span>Evidence</span><strong>—</strong></div>
+        <div class="radar-pulse-card is-skeleton"><span>Briefs</span><strong>—</strong></div>
+        <div class="radar-pulse-card is-skeleton"><span>Clusters</span><strong>—</strong></div>
+        <div class="radar-pulse-card is-skeleton"><span>Coverage</span><strong>—</strong></div>
+      </section>
 
       <section class="business-primary-grid" aria-label="Business decision cockpit">
         <div class="business-section">
-          <div class="business-section-head">
-            <div>
-              <p class="hero-tag">TOP BRIEF</p>
-              <h2>Decision Brief</h2>
-            </div>
-            <span id="businessUpdated" class="updated">Loading...</span>
+          <div class="business-section-head"><div><p class="hero-tag">DECISION BRIEF</p><h2>Top Evidence Files</h2></div><span id="businessUpdated" class="updated">Loading...</span></div>
+          <div class="business-brief-grid" id="businessBrief">
+            <article class="business-card is-skeleton" aria-hidden="true"><div class="business-rank">01</div><small>READING EVIDENCE</small><h3>Building decision brief</h3><p>Validating source strength and strategic relevance.</p></article>
+            <article class="business-card is-skeleton" aria-hidden="true"><div class="business-rank">02</div><small>READING EVIDENCE</small><h3>Building decision brief</h3><p>Validating source strength and strategic relevance.</p></article>
+            <article class="business-card is-skeleton" aria-hidden="true"><div class="business-rank">03</div><small>READING EVIDENCE</small><h3>Building decision brief</h3><p>Validating source strength and strategic relevance.</p></article>
+            <article class="business-card is-skeleton" aria-hidden="true"><div class="business-rank">04</div><small>READING EVIDENCE</small><h3>Building decision brief</h3><p>Validating source strength and strategic relevance.</p></article>
           </div>
-          <div class="business-brief-grid" id="businessBrief"></div>
         </div>
-        <aside class="business-section">
-          <div class="business-section-head">
-            <div>
-              <p class="hero-tag">ACTION QUEUE</p>
-              <h2>Next Moves</h2>
-            </div>
+        <aside class="business-section business-action-section">
+          <div class="business-section-head"><div><p class="hero-tag">ACTION QUEUE</p><h2>Next Moves</h2></div></div>
+          <div class="business-action-queue" id="businessActionQueue">
+            <article class="business-action-card is-skeleton" aria-hidden="true"><span>01 · PENDING</span><strong>Preparing next move</strong><p>Mapping evidence to Yuanli action.</p></article>
+            <article class="business-action-card is-skeleton" aria-hidden="true"><span>02 · PENDING</span><strong>Preparing next move</strong><p>Mapping evidence to Yuanli action.</p></article>
+            <article class="business-action-card is-skeleton" aria-hidden="true"><span>03 · PENDING</span><strong>Preparing next move</strong><p>Mapping evidence to Yuanli action.</p></article>
+            <article class="business-action-card is-skeleton" aria-hidden="true"><span>04 · PENDING</span><strong>Preparing next move</strong><p>Mapping evidence to Yuanli action.</p></article>
           </div>
-          <div class="business-action-queue" id="businessActionQueue"></div>
         </aside>
       </section>
 
       <section class="business-section">
-        <div class="business-section-head">
-          <div>
-            <p class="hero-tag">STORY CLUSTERS</p>
-            <h2>Business Model Evidence</h2>
-          </div>
+        <div class="business-section-head"><div><p class="hero-tag">STORY CLUSTERS</p><h2>Business Model Evidence</h2></div></div>
+        <div class="business-cluster-list" id="businessClusters">
+          <article class="business-cluster is-skeleton" aria-hidden="true"><div class="business-cluster-score">—</div><div><small>READING EVIDENCE</small><h3>Building evidence cluster</h3><p>Grouping related business signals.</p></div></article>
+          <article class="business-cluster is-skeleton" aria-hidden="true"><div class="business-cluster-score">—</div><div><small>READING EVIDENCE</small><h3>Building evidence cluster</h3><p>Grouping related business signals.</p></div></article>
+          <article class="business-cluster is-skeleton" aria-hidden="true"><div class="business-cluster-score">—</div><div><small>READING EVIDENCE</small><h3>Building evidence cluster</h3><p>Grouping related business signals.</p></div></article>
+          <article class="business-cluster is-skeleton" aria-hidden="true"><div class="business-cluster-score">—</div><div><small>READING EVIDENCE</small><h3>Building evidence cluster</h3><p>Grouping related business signals.</p></div></article>
         </div>
-        <div class="business-cluster-list" id="businessClusters"></div>
       </section>
 
-      <section class="business-section business-secondary business-two-col">
-        <div>
-          <div class="business-section-head">
-            <div>
-              <p class="hero-tag">OPC</p>
-              <h2>One-Person Company Case Bank</h2>
-            </div>
-          </div>
-          <div class="business-case-list" id="businessCases"></div>
-        </div>
-        <aside>
-          <div class="business-section-head">
-            <div>
-              <p class="hero-tag">SOURCE HEALTH</p>
-              <h2>English Source Map</h2>
-            </div>
-          </div>
-          <div class="business-source-list" id="businessSources"></div>
-        </aside>
-      </section>
+      <details class="business-archive" id="businessArchive">
+        <summary><span><small>EVIDENCE ARCHIVE</small><strong>OPC Cases &amp; Source Coverage</strong></span><em id="businessArchiveSummary">Open archive</em></summary>
+        <section class="business-section business-secondary business-two-col">
+          <div><div class="business-section-head"><div><p class="hero-tag">OPC</p><h2>One-Person Company Case Bank</h2></div></div><div class="business-case-list" id="businessCases"></div></div>
+          <aside><div class="business-section-head"><div><p class="hero-tag">SOURCE HEALTH</p><h2>English Source Map</h2></div></div><div class="business-source-list" id="businessSources"></div></aside>
+        </section>
+      </details>
     </main>
 
+    <div class="radar-drawer-backdrop" id="radarDrawerBackdrop" hidden></div>
+    <aside class="radar-quick-look" id="radarQuickLook" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="radarQuickLookTitle" inert>
+      <header><span>EVIDENCE FILE</span><button class="radar-icon-button" id="radarDrawerClose" type="button" aria-label="Close evidence file"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m6 6 12 12M18 6 6 18" /></svg></button></header>
+      <div id="radarQuickLookBody"></div>
+    </aside>
+
     <script>window.RADAR_CHANNEL = "ai-business";</script>
-    <script src="./assets/radar-data.js?v=apple-adaptive-0804" defer></script>
-    <script src="./assets/radar-shell.js?v=apple-adaptive-0804" defer></script>
-    <script src="./assets/business.js?v=apple-adaptive-0804" defer></script>
+    <script src="./assets/radar-data.js?v=greenbook-0804b" defer></script>
+    <script src="./assets/radar-shell.js?v=greenbook-0804b" defer></script>
+    <script src="./assets/business.js?v=greenbook-0804b" defer></script>
   </body>
 </html>

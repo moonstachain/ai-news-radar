@@ -7,7 +7,7 @@
     started = true;
     document.getElementById("radarLoadStream")?.remove();
     const script = document.createElement("script");
-    script.src = "./assets/app.js?v=apple-adaptive-0804";
+    script.src = "./assets/app.js?v=greenbook-0804";
     document.head.appendChild(script);
   }
 
