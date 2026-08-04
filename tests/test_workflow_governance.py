@@ -104,3 +104,11 @@ def test_merge_rechecks_pr_head_and_matches_the_tested_commit():
     assert "--auto" in script
     assert "--squash" in script
     assert "--delete-branch" in script
+
+
+def test_workflow_builds_manifest_after_both_collectors():
+    text = workflow_text()
+    news = text.index("python scripts/update_news.py")
+    business = text.index("python scripts/update_business_evidence.py")
+    overview = text.index("python scripts/build_radar_overviews.py")
+    assert news < business < overview

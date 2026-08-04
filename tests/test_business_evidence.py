@@ -242,7 +242,7 @@ def test_verified_weekly_feed_can_be_fresh_without_a_24_hour_item():
 
 
 def test_business_source_ui_uses_explicit_quality_dimensions():
-    html = Path("business.html").read_text(encoding="utf-8")
+    html = Path("assets/business.js").read_text(encoding="utf-8")
 
     assert 'source.current ? "ok" : source.verified && source.fresh ? "watch" : "bad"' in html
     assert 'reachable ${source.reachable ? "yes" : "no"}' in html

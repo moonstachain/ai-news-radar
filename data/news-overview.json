@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "b7b16c5f1dcb4886",
+  "channel": "ai-news",
+  "generated_at": "2026-08-04T02:26:08.734969Z",
+  "window_hours": 24,
+  "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
+  "metrics": {
+    "signals": 568,
+    "high_priority": 22,
+    "briefs": 20,
+    "stories": 527
+  },
+  "coverage": {
+    "successful": 16,
+    "total": 17,
+    "failed": 1,
+    "ratio": 0.9412,
+    "status": "healthy"
+  },
+  "failed_sources": [
+    "aibreakfast"
+  ],
+  "section_counts": {
+    "Buzzing": 164,
+    "Info Flow": 163,
+    "TechURLs": 84,
+    "Zeli": 69,
+    "NewsNow": 26,
+    "Curated Media": 23,
+    "AI HOT": 16,
+    "OPML RSS": 13
+  },
+  "top_stories": [
+    {
+      "story_id": "story_c5ad624a6ffb",
+      "title": "破坏刑事诈骗行动 / Disrupting a Criminal Scam Operation",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "primary_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "importance_score": 0.8458,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-04T00:00:00Z",
+      "earliest_at": "2026-08-04T00:00:00Z",
+      "sources": [
+        {
+          "id": "1a88b98b8fb6fb30c3c8a33f925220a2d5f4d7ef",
+          "title": "破坏刑事诈骗行动 / Disrupting a Criminal Scam Operation",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-04T00:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_36483847691e",
+      "title": "托管设置的企业团队专业化 / Enterprise team specialization for managed settings",
+      "url": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
+      "primary_url": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.8351,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-03T22:55:29Z",
+      "earliest_at": "2026-08-03T22:55:29Z",
+      "sources": [
+        {
+          "id": "ba95071ee8f1c4b9b02cd6e3be489e744837e4fa",
+          "title": "托管设置的企业团队专业化 / Enterprise team specialization for managed settings",
+          "url": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-03T22:55:29Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_26149269af1e",
+      "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
+      "url": "https://github.com/lyogavin/airllm",
+      "primary_url": "https://github.com/lyogavin/airllm",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 4,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "github.com",
+        "hackernews"
+      ],
+      "importance_score": 0.8303,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-03T16:24:45.027000Z",
+      "earliest_at": "2026-08-03T11:15:48Z",
+      "sources": [
+        {
+          "id": "e0581fc08e4ee08758118ef1c1132d73b95262a5",
+          "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
+          "url": "https://github.com/lyogavin/airllm",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-03T16:24:45.027000Z"
+        },
+        {
+          "id": "2717965917d799ff11365290c89986375891fad3",
+          "title": "使用单块 4GB GPU 进行 AirLLM 70B 推理",
+          "url": "https://github.com/lyogavin/airllm",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-03T16:24:45.027000Z"
+        },
+        {
+          "id": "4091e192e6e64bdf51ad9bafe9fca0787e19caad",
+          "title": "使用单个 4GB GPU 进行 AirLLM 70B 推理 / AirLLM 70B inference with single 4GB GPU",
+          "url": "https://news.ycombinator.com/item?id=49154228",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-03T14:16:13.881000Z"
+        },
+        {
+          "id": "5805bf72e950dcf5ce1117ff14f9fbd24a81190e",
+          "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理 / AirLLM 70B inference with single 4GB GPU",
+          "url": "https://github.com/lyogavin/airllm",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-03T11:15:48Z"
+        }
+      ],
+      "confidence": "multi-source"
+    }
+  ]
+}
