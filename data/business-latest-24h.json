@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T08:02:51.037831Z",
+  "generated_at": "2026-08-04T11:02:33.414791Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-03T19:59:15Z",
-      "captured_at": "2026-08-04T08:02:51.037831Z",
+      "captured_at": "2026-08-04T11:02:33.414791Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -41,90 +41,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_f2358085b6d0",
-      "title": "The Marketing Capability Paradox: Seven Forces Eroding Your Marketing Team’s Effectiveness",
-      "url": "https://sloanreview.mit.edu/article/the-marketing-capability-paradox-seven-forces-eroding-your-marketing-teams-effectiveness/",
-      "source_id": "mit_smr",
-      "source_name": "MIT Sloan Management Review",
-      "published_at": "2026-08-03T11:00:54Z",
-      "captured_at": "2026-08-04T08:02:51.037831Z",
-      "lane": "authority",
-      "entities": [
-        "MIT Sloan Management Review",
-        "The Marketing Capability",
-        "Paradox",
-        "Seven Forces Eroding",
-        "Your Marketing Team",
-        "Effectiveness"
-      ],
-      "business_model_tags": [
-        "AI Business Model Innovation",
-        "Founder Case",
-        "Enterprise AI Workflow"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 8,
-      "total_score": 49,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 6,
-        "business_model_value": 8,
-        "case_concreteness": 8,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Alice Mollon/Ikon Images Marketing capabilities — the complex bundles of skills, processes, and organizational know-how that enable companies to implement customer-related activities and adapt to marketplace changes — ar... Tags: AI Business Model Innovation, Founder Case, Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_ac2d7876bf83",
-      "title": "I built an AI regex tool for overseas users – here’s the stack and what’s working so far",
-      "url": "https://www.indiehackers.com/post/i-built-an-ai-regex-tool-for-overseas-users-here-s-the-stack-and-what-s-working-so-far-17be6669e0",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-03T10:29:02.324000Z",
-      "captured_at": "2026-08-04T08:02:51.037831Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 39,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "I built an AI regex tool for overseas users – here’s the stack and what’s working so far Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
       "signal_id": "biz_619e4d0b3433",
       "title": "Investor Interview: ManchesterStory Group on Penguin AI",
       "url": "https://www.cbinsights.com/research/investor-interview-manchesterstory-group-on-penguin-ai/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-03T21:08:37Z",
-      "captured_at": "2026-08-04T08:02:51.037831Z",
+      "captured_at": "2026-08-04T11:02:33.414791Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -161,7 +84,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-03T20:07:51Z",
-      "captured_at": "2026-08-04T08:02:51.037831Z",
+      "captured_at": "2026-08-04T11:02:33.414791Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -198,7 +121,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-03T15:02:21Z",
-      "captured_at": "2026-08-04T08:02:51.037831Z",
+      "captured_at": "2026-08-04T11:02:33.414791Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -241,7 +164,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-03T12:04:26Z",
-      "captured_at": "2026-08-04T08:02:51.037831Z",
+      "captured_at": "2026-08-04T11:02:33.414791Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -272,6 +195,43 @@
         "counter_signal_value": 0
       },
       "summary": "Watch now | 🎙️ChatGPT Voice now manages multiple threads, reads your screen, and runs background tasks, and Nick Baumann walks me through the whole workflow live Tags: AI Business Model Innovation, Enterprise AI Workflow, Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_da2267135769",
+      "title": "The Elusiveness of Merit-Based Hiring",
+      "url": "https://sloanreview.mit.edu/article/the-elusiveness-of-merit-based-hiring/",
+      "source_id": "mit_smr",
+      "source_name": "MIT Sloan Management Review",
+      "published_at": "2026-08-04T11:00:00Z",
+      "captured_at": "2026-08-04T11:02:33.414791Z",
+      "lane": "authority",
+      "entities": [
+        "MIT Sloan Management Review",
+        "The Elusiveness",
+        "Merit-Based Hiring"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow",
+        "AI Business Model Innovation"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 31,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Patrick George/Ikon Images Since early 2025, organizations seeking to curry favor with the current U.S. administration have disavowed earlier commitments to workforce diversity, equity, and inclusion (DEI) and proclaimed... Tags: Enterprise AI Workflow, AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     }
