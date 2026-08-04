@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "b7b16c5f1dcb4886",
+  "snapshot_id": "698d00b6aa684d30",
   "channel": "ai-business",
-  "generated_at": "2026-08-04T02:27:40.880562Z",
+  "generated_at": "2026-08-04T04:57:30.402301Z",
   "window_hours": 24,
   "decision": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
   "metrics": {
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_3137a181e9c7",
+      "brief_id": "biz_brief_4b494180fd27",
       "rank": 1,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -39,7 +39,7 @@
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     },
     {
-      "brief_id": "biz_brief_c1f8bdf0757c",
+      "brief_id": "biz_brief_6683e2e84706",
       "rank": 2,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -62,7 +62,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_5f6c5778a51a",
+      "brief_id": "biz_brief_869c1cb75cfb",
       "rank": 3,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -84,15 +84,15 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_3783d7e1b7b1",
+      "brief_id": "biz_brief_c45a23dbc9f0",
       "rank": 4,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_7603e0fa1584"
+        "biz_ac2d7876bf83"
       ],
       "evidence_titles": [
-        "Why every productivity tool eventually becomes the work instead of doing the work?"
+        "I built an AI regex tool for overseas users – here’s the stack and what’s working so far"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -105,19 +105,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_3137a181e9c7",
+      "id": "biz_brief_4b494180fd27",
       "label": "Brief #1",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
     },
     {
-      "id": "biz_brief_c1f8bdf0757c",
+      "id": "biz_brief_6683e2e84706",
       "label": "Brief #2",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_5f6c5778a51a",
+      "id": "biz_brief_869c1cb75cfb",
       "label": "Brief #3",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
@@ -226,11 +226,11 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_1a646052705e",
+      "cluster_id": "biz_cluster_43413fc037f9",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 33,
+      "importance_score": 41,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
@@ -241,13 +241,13 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_7603e0fa1584"
+        "biz_ac2d7876bf83"
       ],
       "top_sources": [
         {
           "source": "Indie Hackers",
-          "title": "Why every productivity tool eventually becomes the work instead of doing the work?",
-          "url": "https://www.indiehackers.com/post/why-every-productivity-tool-eventually-becomes-the-work-instead-of-doing-the-work-7dba6d00d9"
+          "title": "I built an AI regex tool for overseas users – here’s the stack and what’s working so far",
+          "url": "https://www.indiehackers.com/post/i-built-an-ai-regex-tool-for-overseas-users-here-s-the-stack-and-what-s-working-so-far-17be6669e0"
         }
       ]
     }
