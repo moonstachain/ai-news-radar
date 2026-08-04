@@ -2801,19 +2801,13 @@ function renderSourceHealth(errorMessage = "") {
 }
 
 async function loadNewsData() {
-  const res = await fetch(`./data/latest-24h.json?t=${Date.now()}`);
-  if (!res.ok) throw new Error(`加载 latest-24h.json 失败: ${res.status}`);
-  return res.json();
+  return window.RadarData.getJson("latest-24h.json");
 }
 
 async function loadAllModeData() {
   if (state.allDataLoaded) return;
   if (!state.allDataPromise) {
-    state.allDataPromise = fetch(`./${state.allDataUrl}?t=${Date.now()}`)
-      .then((res) => {
-        if (!res.ok) throw new Error(`加载 latest-24h-all.json 失败: ${res.status}`);
-        return res.json();
-      })
+    state.allDataPromise = window.RadarData.getJson(state.allDataUrl)
       .then((payload) => {
         state.itemsAllRaw = payload.items_all_raw || payload.items_all || state.itemsAi;
         state.itemsAll = payload.items_all || state.itemsAi;
@@ -2830,27 +2824,19 @@ async function loadAllModeData() {
 }
 
 async function loadWaytoagiData() {
-  const res = await fetch(`./data/waytoagi-7d.json?t=${Date.now()}`);
-  if (!res.ok) throw new Error(`加载 waytoagi-7d.json 失败: ${res.status}`);
-  return res.json();
+  return window.RadarData.getJson("waytoagi-7d.json");
 }
 
 async function loadSourceStatusData() {
-  const res = await fetch(`./data/source-status.json?t=${Date.now()}`);
-  if (!res.ok) throw new Error(`加载 source-status.json 失败: ${res.status}`);
-  return res.json();
+  return window.RadarData.getJson("source-status.json");
 }
 
 async function loadDailyBriefData() {
-  const res = await fetch(`./data/daily-brief.json?t=${Date.now()}`);
-  if (!res.ok) throw new Error(`加载 daily-brief.json 失败: ${res.status}`);
-  return res.json();
+  return window.RadarData.getJson("daily-brief.json");
 }
 
 async function loadStoriesData() {
-  const res = await fetch(`./${state.storiesDataUrl}?t=${Date.now()}`);
-  if (!res.ok) throw new Error(`加载 stories-merged.json 失败: ${res.status}`);
-  return res.json();
+  return window.RadarData.getJson(state.storiesDataUrl);
 }
 
 async function init() {

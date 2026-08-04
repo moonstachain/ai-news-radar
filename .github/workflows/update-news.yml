@@ -116,6 +116,10 @@ jobs:
         run: |
           python scripts/update_business_evidence.py --output-dir data --window-hours 24 --max-items 150
 
+      - name: Build version-bound radar overviews
+        run: |
+          python scripts/build_radar_overviews.py --output-dir data
+
       - name: Publish reviewed snapshot PR
         env:
           EMAIL_DIGEST_PUBLISH: ${{ secrets.EMAIL_DIGEST_PUBLISH || vars.EMAIL_DIGEST_PUBLISH }}

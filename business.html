@@ -9,8 +9,9 @@
       content="English-only evidence layer for AI business model innovation, one-person companies, founder stories, and Yuanli IP strategy."
     />
     <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
-    <meta name="theme-color" content="#07100d" />
-    <link rel="stylesheet" href="./assets/styles.css?v=radar-shell-0701a" />
+    <meta name="theme-color" content="#F5F5F7" />
+    <link rel="stylesheet" href="./assets/styles.css?v=apple-adaptive-0804" />
+    <link rel="stylesheet" href="./assets/apple-adaptive.css?v=apple-adaptive-0804" />
   </head>
   <body class="business-body radar-shell-body radar-channel-ai-business">
     <main class="business-shell">
@@ -93,171 +94,9 @@
       </section>
     </main>
 
-    <script>
-      const fmt = new Intl.NumberFormat("en-US");
-      const dataFiles = {
-        latest: "./data/business-latest-24h.json",
-        status: "./data/business-source-status.json",
-        stories: "./data/business-stories-merged.json",
-        brief: "./data/business-daily-brief.json",
-        cases: "./data/business-case-bank.json",
-        catalog: "./data/business-source-catalog.json",
-      };
-
-      function esc(value) {
-        return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
-          "&": "&amp;",
-          "<": "&lt;",
-          ">": "&gt;",
-          '"': "&quot;",
-          "'": "&#39;",
-        }[ch]));
-      }
-
-      async function loadJson(url) {
-        const response = await fetch(url, { cache: "no-store" });
-        if (!response.ok) throw new Error(`${url} ${response.status}`);
-        return response.json();
-      }
-
-      function link(title, url) {
-        if (!url) return esc(title);
-        return `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>`;
-      }
-
-      function riskTone(level) {
-        if (String(level || "").toLowerCase().includes("high")) return "warn";
-        if (String(level || "").toLowerCase().includes("low")) return "ok";
-        return "";
-      }
-
-      function renderBrief(payload, latest) {
-        const byId = new Map((latest.items || []).map((item) => [item.signal_id, item]));
-        document.getElementById("businessUpdated").textContent = payload.generated_at || "Unknown";
-        document.getElementById("businessBrief").innerHTML = (payload.brief || []).slice(0, 4).map((item) => {
-          const evidence = (item.evidence_refs || []).slice(0, 3).map((id) => byId.get(id)).filter(Boolean);
-          return `
-            <article class="business-card">
-              <div class="business-rank">#${esc(item.rank)}</div>
-              <h3>${esc(item.title)}</h3>
-              <p>${esc(item.judgment)}</p>
-              <div class="business-tags">
-                <span class="${riskTone(item.risk_level)}">${esc(item.risk_level || "risk n/a")}</span>
-                ${(item.yuanli_mapping || []).map((tag) => `<span>${esc(tag)}</span>`).join("")}
-              </div>
-              <details>
-                <summary>Evidence chain · ${esc(evidence.length)} refs</summary>
-                <ul class="business-evidence-list">${evidence.map((row) => `<li>${link(row.title, row.url)}</li>`).join("")}</ul>
-              </details>
-              <div class="business-action">${esc(item.recommended_action)}</div>
-            </article>
-          `;
-        }).join("");
-      }
-
-      function renderActionQueue(brief, stories) {
-        const actions = [
-          ...(brief.brief || []).slice(0, 3).map((item) => ({
-            label: `Brief #${item.rank}`,
-            title: item.recommended_action,
-            meta: item.title,
-          })),
-          ...(stories.clusters || []).slice(0, 2).map((cluster) => ({
-            label: `${cluster.lane} · score ${cluster.importance_score}`,
-            title: cluster.recommended_action,
-            meta: cluster.counter_evidence || cluster.why_it_matters,
-          })),
-        ].slice(0, 5);
-        document.getElementById("businessActionQueue").innerHTML = actions.map((item) => `
-          <article class="business-action-card">
-            <span>${esc(item.label)}</span>
-            <strong>${esc(item.title)}</strong>
-            <p>${esc(item.meta)}</p>
-          </article>
-        `).join("");
-      }
-
-      function renderClusters(payload, latest) {
-        const byId = new Map((latest.items || []).map((item) => [item.signal_id, item]));
-        document.getElementById("businessClusters").innerHTML = (payload.clusters || []).map((cluster) => `
-          <article class="business-cluster">
-            <div class="business-cluster-score">${esc(cluster.importance_score)}</div>
-            <div>
-              <h3>${esc(cluster.thesis)}</h3>
-              <p>${esc(cluster.why_it_matters)}</p>
-              <div class="business-tags">
-                <span>${esc(cluster.lane)}</span>
-                <span>${esc(cluster.confidence)}</span>
-                ${(cluster.yuanli_mapping || []).map((tag) => `<span>${esc(tag)}</span>`).join("")}
-              </div>
-              <div class="business-action">${esc(cluster.recommended_action)}</div>
-              <details>
-                <summary>Evidence refs · ${esc((cluster.evidence_refs || []).length)} / sources ${esc(cluster.source_count || 0)}</summary>
-                <ul class="business-evidence-list">
-                  ${(cluster.evidence_refs || []).slice(0, 5).map((id) => {
-                    const row = byId.get(id);
-                    return row ? `<li>${link(row.title, row.url)}</li>` : `<li>${esc(id)}</li>`;
-                  }).join("")}
-                </ul>
-              </details>
-            </div>
-          </article>
-        `).join("");
-      }
-
-      function renderCases(payload) {
-        document.getElementById("businessCases").innerHTML = (payload.cases || []).slice(0, 12).map((item) => `
-          <article class="business-case">
-            <h3>${link(item.company || item.title, item.url)}</h3>
-            <p>${esc(item.title)}</p>
-            <div class="business-tags">${(item.yuanli_mapping || []).slice(0, 4).map((tag) => `<span>${esc(tag)}</span>`).join("")}</div>
-            <details>
-              <summary>Reusable lesson</summary>
-              <div class="business-action">${esc(item.reusable_lesson)}</div>
-            </details>
-          </article>
-        `).join("");
-      }
-
-      function renderSources(catalog) {
-        document.getElementById("businessSources").innerHTML = (catalog || []).map((source) => {
-          const stateClass = source.current ? "ok" : source.verified && source.fresh ? "watch" : "bad";
-          return `
-          <div class="business-source-row ${stateClass}">
-            <span>
-              ${esc(source.name)}
-              <small>reachable ${source.reachable ? "yes" : "no"} · verified ${source.verified ? "yes" : "no"} · fresh ${source.fresh ? "yes" : "no"} · 24h ${source.current ? "yes" : "no"}</small>
-            </span>
-            <strong>${esc(source.health_status)}</strong>
-          </div>
-        `;
-        }).join("");
-      }
-
-      function updateShellPulse(latest, status, stories, brief, cases) {
-        const payload = { latest, status, stories, brief, cases };
-        if (window.RadarShell?.updateBusinessPulse) {
-          window.RadarShell.updateBusinessPulse(payload);
-        } else {
-          window.__RADAR_PENDING_PULSE = { channel: "ai-business", payload };
-        }
-      }
-
-      async function main() {
-        const [latest, status, stories, brief, cases, catalog] = await Promise.all(Object.values(dataFiles).map(loadJson));
-        renderBrief(brief, latest);
-        renderActionQueue(brief, stories);
-        renderClusters(stories, latest);
-        renderCases(cases);
-        renderSources(catalog);
-        updateShellPulse(latest, status, stories, brief, cases);
-      }
-
-      main().catch((error) => {
-        document.getElementById("businessBrief").innerHTML = `<article class="business-card"><h3>Data failed to load</h3><p>${esc(error.message)}</p></article>`;
-      });
-    </script>
     <script>window.RADAR_CHANNEL = "ai-business";</script>
-    <script src="./assets/radar-shell.js?v=radar-shell-0701a" defer></script>
+    <script src="./assets/radar-data.js?v=apple-adaptive-0804" defer></script>
+    <script src="./assets/radar-shell.js?v=apple-adaptive-0804" defer></script>
+    <script src="./assets/business.js?v=apple-adaptive-0804" defer></script>
   </body>
 </html>
