@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "74e2f77b2c846632",
+  "snapshot_id": "6dbb2fa62aefc1fc",
   "channel": "ai-business",
-  "generated_at": "2026-08-04T22:04:34.171686Z",
+  "generated_at": "2026-08-04T23:32:19.042834Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_c81a878c4e76",
+      "brief_id": "biz_brief_b70883622141",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "4 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -44,15 +44,15 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_5abec437d8b4",
+      "brief_id": "biz_brief_9dd5c91032da",
       "rank": 2,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_f83439029b79"
+        "biz_5a25189f389e"
       ],
       "evidence_titles": [
-        "Your open tabs are unfinished decisions, not bookmarks. I built an app for that."
+        "I shipped 16 tiny browser tools for freelancers and creators ($7–$9, zero hosting cost)"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -63,7 +63,7 @@
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_4f2131e98c6b",
+      "brief_id": "biz_brief_b52e2a157985",
       "rank": 3,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -83,7 +83,7 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_1b41c8efdb8a",
+      "brief_id": "biz_brief_efbcbab63484",
       "rank": 4,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -106,19 +106,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_c81a878c4e76",
+      "id": "biz_brief_b70883622141",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_5abec437d8b4",
+      "id": "biz_brief_9dd5c91032da",
       "label": "Brief #2",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     },
     {
-      "id": "biz_brief_4f2131e98c6b",
+      "id": "biz_brief_b52e2a157985",
       "label": "Brief #3",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
@@ -170,11 +170,11 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_66c748388299",
+      "cluster_id": "biz_cluster_bee6acaf7f87",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 42,
+      "importance_score": 41,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
@@ -185,13 +185,13 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_f83439029b79"
+        "biz_5a25189f389e"
       ],
       "top_sources": [
         {
           "source": "Indie Hackers",
-          "title": "Your open tabs are unfinished decisions, not bookmarks. I built an app for that.",
-          "url": "https://www.indiehackers.com/post/your-open-tabs-are-unfinished-decisions-not-bookmarks-i-built-an-app-for-that-5cbc1f7a2f"
+          "title": "I shipped 16 tiny browser tools for freelancers and creators ($7–$9, zero hosting cost)",
+          "url": "https://www.indiehackers.com/post/i-shipped-16-tiny-browser-tools-for-freelancers-and-creators-7-9-zero-hosting-cost-49be195a37"
         }
       ]
     },

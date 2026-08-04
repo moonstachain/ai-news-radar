@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "74e2f77b2c846632",
+  "snapshot_id": "6dbb2fa62aefc1fc",
   "channel": "ai-news",
-  "generated_at": "2026-08-04T22:03:23.504622Z",
+  "generated_at": "2026-08-04T23:30:57.000719Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 615,
-    "high_priority": 51,
+    "signals": 634,
+    "high_priority": 48,
     "briefs": 20,
-    "stories": 564
+    "stories": 578
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 200,
-    "Info Flow": 131,
-    "TechURLs": 97,
-    "Zeli": 73,
-    "AI HOT": 30,
-    "NewsNow": 27,
-    "Curated Media": 26,
-    "Official AI Updates": 14
+    "Buzzing": 209,
+    "Info Flow": 137,
+    "TechURLs": 104,
+    "Zeli": 72,
+    "AI HOT": 29,
+    "NewsNow": 28,
+    "Curated Media": 25,
+    "Official AI Updates": 12
   },
   "top_stories": [
     {
@@ -39,19 +39,21 @@
       "primary_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "OpenAI News"
+        "OpenAI News",
+        "hackernews"
       ],
-      "importance_score": 0.8562,
+      "importance_score": 0.8776,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-04T19:00:00Z",
+      "latest_at": "2026-08-04T23:08:46.845000Z",
       "earliest_at": "2026-08-04T19:00:00Z",
       "sources": [
         {
@@ -62,9 +64,18 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-04T19:00:00Z"
+        },
+        {
+          "id": "bf5b333699fa8cee02a68c8fe27dd01158d97587",
+          "title": "涉及 OpenAI 模型的第三方网络评估 / Third-party cyber evaluations involving OpenAI models",
+          "url": "https://news.ycombinator.com/item?id=49175248",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-04T23:08:46.845000Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     },
     {
       "story_id": "story_75f2ee9bfb96",
@@ -77,7 +88,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8446,
+      "importance_score": 0.841,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -111,7 +122,7 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "importance_score": 0.8443,
+      "importance_score": 0.8407,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
