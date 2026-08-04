@@ -1,38 +1,71 @@
 {
   "schema_version": 1,
-  "snapshot_id": "859ad45baa054fdc",
+  "snapshot_id": "311320459afabdbc",
   "channel": "ai-news",
-  "generated_at": "2026-08-04T17:30:24.572139Z",
+  "generated_at": "2026-08-04T19:07:27.700032Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 558,
-    "high_priority": 48,
+    "signals": 593,
+    "high_priority": 51,
     "briefs": 20,
-    "stories": 518
+    "stories": 547
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 17,
-    "failed": 2,
-    "ratio": 0.8824,
+    "failed": 1,
+    "ratio": 0.9412,
     "status": "healthy"
   },
   "failed_sources": [
-    "aibreakfast",
-    "newsnow"
+    "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 180,
-    "Info Flow": 130,
-    "TechURLs": 88,
-    "Zeli": 52,
-    "AI HOT": 29,
+    "Buzzing": 189,
+    "Info Flow": 134,
+    "TechURLs": 95,
+    "Zeli": 63,
+    "AI HOT": 31,
+    "NewsNow": 27,
     "Curated Media": 23,
-    "NewsNow": 23,
-    "Official AI Updates": 12
+    "Official AI Updates": 13
   },
   "top_stories": [
+    {
+      "story_id": "story_8dda83992e79",
+      "title": "GitHub 法律团队如何使用 Copilot CLI 简化其工作流程 / How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "importance_score": 0.8518,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-04T19:02:34Z",
+      "earliest_at": "2026-08-04T19:02:34Z",
+      "sources": [
+        {
+          "id": "8e1f0456d179c18a9cfa1b3f5d22973d5efcc1d6",
+          "title": "GitHub 法律团队如何使用 Copilot CLI 简化其工作流程 / How the GitHub legal team used Copilot CLI to streamline their workflows",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-04T19:02:34Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_ea7f6df3de1a",
       "title": "使用 LFM2.5-2.6B 随处部署本地代理 / Deploy local agents everywhere with LFM2.5-2.6B",
@@ -44,7 +77,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.851,
+      "importance_score": 0.8471,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,7 +111,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8399,
+      "importance_score": 0.8358,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -100,51 +133,6 @@
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_2163b413300d",
-      "title": "苹果在这件事上搞错了 / Apple is getting this wrong",
-      "url": "https://openai.com/index/apple-is-getting-this-wrong",
-      "primary_url": "https://openai.com/index/apple-is-getting-this-wrong",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "openai.com"
-      ],
-      "importance_score": 0.8328,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-04T07:20:54.985000Z",
-      "earliest_at": "2026-08-03T22:00:00Z",
-      "sources": [
-        {
-          "id": "ce0656b6b37df08856d608cf2a3be369847eee00",
-          "title": "苹果在这件事上搞错了 / Apple is getting this wrong",
-          "url": "https://openai.com/index/apple-is-getting-this-wrong",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-03T22:00:00Z"
-        },
-        {
-          "id": "a833a6eb0db2cced4af45800a3813f6fb7acdd2c",
-          "title": "苹果在这件事上搞错了",
-          "url": "https://openai.com/index/apple-is-getting-this-wrong",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-04T07:20:54.985000Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }

@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-08-04T17:31:47.931380Z",
+  "generated_at": "2026-08-04T19:08:42.857186Z",
   "clusters": [
     {
-      "cluster_id": "biz_cluster_229e96b41705",
+      "cluster_id": "biz_cluster_e80ea4880c38",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "signal_ids": [
+        "biz_b1273ba3a92e",
         "biz_81c846e4ee2f",
         "biz_a44f26b4d2ee",
         "biz_0fbb0812a0ce",
@@ -14,24 +15,29 @@
         "biz_151a6b428813"
       ],
       "source_count": 2,
-      "importance_score": 49,
+      "importance_score": 51,
       "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "6 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "7 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
+        "biz_b1273ba3a92e",
         "biz_81c846e4ee2f",
         "biz_a44f26b4d2ee",
         "biz_0fbb0812a0ce",
-        "biz_5044319f695b",
-        "biz_619e4d0b3433"
+        "biz_5044319f695b"
       ],
       "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: David Villalon, Maisa",
+          "url": "https://www.cbinsights.com/research/ceo-interview-david-villalon-maisa/"
+        },
         {
           "source": "CB Insights",
           "title": "Executive Interview: Light",
@@ -51,11 +57,41 @@
           "source": "The Generalist",
           "title": "AI Got Good at Language. Now It’s Learning the Language of Life. (Eric Nguyen, Co-Founder and CEO of Radical Numerics)",
           "url": "https://www.generalist.com/p/ai-got-good-at-language-now-its-learning"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_c1bed91b185a",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "signal_ids": [
+        "biz_2d923acde00a",
+        "biz_3e137a3ad77e"
+      ],
+      "source_count": 1,
+      "importance_score": 40,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_2d923acde00a",
+        "biz_3e137a3ad77e"
+      ],
+      "top_sources": [
+        {
+          "source": "GitHub Blog",
+          "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/"
         },
         {
-          "source": "CB Insights",
-          "title": "Investor Interview: ManchesterStory Group on Penguin AI",
-          "url": "https://www.cbinsights.com/research/investor-interview-manchesterstory-group-on-penguin-ai/"
+          "source": "GitHub Blog",
+          "title": "Turn one giant AI-generated pull request to a reviewable stack",
+          "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/"
         }
       ]
     },
@@ -121,34 +157,6 @@
           "source": "Indie Hackers",
           "title": "Growing a talent marketplace to $2.5M+/yr after two years of losses",
           "url": "https://www.indiehackers.com/post/tech/growing-a-talent-marketplace-to-2-5m-yr-after-two-years-of-losses-9CktlRa1UunyRWHrftxv"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_d9fe29da5955",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "signal_ids": [
-        "biz_3e137a3ad77e"
-      ],
-      "source_count": 1,
-      "importance_score": 36,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "evidence_refs": [
-        "biz_3e137a3ad77e"
-      ],
-      "top_sources": [
-        {
-          "source": "GitHub Blog",
-          "title": "Turn one giant AI-generated pull request to a reviewable stack",
-          "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/"
         }
       ]
     }
