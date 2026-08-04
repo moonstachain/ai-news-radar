@@ -1,6 +1,85 @@
 {
-  "generated_at": "2026-08-04T20:50:55.512644Z",
+  "generated_at": "2026-08-04T22:04:34.171686Z",
   "clusters": [
+    {
+      "cluster_id": "biz_cluster_039a529e5893",
+      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+      "lane": "founder_case",
+      "signal_ids": [
+        "biz_b1273ba3a92e",
+        "biz_81c846e4ee2f",
+        "biz_a44f26b4d2ee",
+        "biz_5044319f695b"
+      ],
+      "source_count": 2,
+      "importance_score": 51,
+      "confidence": "medium",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "wealth_flywheel"
+      ],
+      "why_it_matters": "4 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
+      "evidence_refs": [
+        "biz_b1273ba3a92e",
+        "biz_81c846e4ee2f",
+        "biz_a44f26b4d2ee",
+        "biz_5044319f695b"
+      ],
+      "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: David Villalon, Maisa",
+          "url": "https://www.cbinsights.com/research/ceo-interview-david-villalon-maisa/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "Executive Interview: Light",
+          "url": "https://www.cbinsights.com/research/executive-interview-light-2/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "Executive Interview: Penguin AI",
+          "url": "https://www.cbinsights.com/research/executive-interview-penguin-ai/"
+        },
+        {
+          "source": "The Generalist",
+          "title": "AI Got Good at Language. Now It’s Learning the Language of Life. (Eric Nguyen, Co-Founder and CEO of Radical Numerics)",
+          "url": "https://www.generalist.com/p/ai-got-good-at-language-now-its-learning"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_66c748388299",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "signal_ids": [
+        "biz_f83439029b79"
+      ],
+      "source_count": 1,
+      "importance_score": 42,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_f83439029b79"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "Your open tabs are unfinished decisions, not bookmarks. I built an app for that.",
+          "url": "https://www.indiehackers.com/post/your-open-tabs-are-unfinished-decisions-not-bookmarks-i-built-an-app-for-that-5cbc1f7a2f"
+        }
+      ]
+    },
     {
       "cluster_id": "biz_cluster_c1bed91b185a",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
@@ -69,64 +148,6 @@
           "source": "MIT Sloan Management Review",
           "title": "The Elusiveness of Merit-Based Hiring",
           "url": "https://sloanreview.mit.edu/article/the-elusiveness-of-merit-based-hiring/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_9fbc54095cd1",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_765092b7e536"
-      ],
-      "source_count": 1,
-      "importance_score": 40,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_765092b7e536"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "I spent a year building an AI operating system for creators. Here's what I learned.",
-          "url": "https://www.indiehackers.com/post/i-spent-a-year-building-an-ai-operating-system-for-creators-heres-what-i-learned-1e8a331273"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_592febefd4f0",
-      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "lane": "founder_case",
-      "signal_ids": [
-        "biz_5044319f695b"
-      ],
-      "source_count": 1,
-      "importance_score": 40,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
-      "evidence_refs": [
-        "biz_5044319f695b"
-      ],
-      "top_sources": [
-        {
-          "source": "The Generalist",
-          "title": "AI Got Good at Language. Now It’s Learning the Language of Life. (Eric Nguyen, Co-Founder and CEO of Radical Numerics)",
-          "url": "https://www.generalist.com/p/ai-got-good-at-language-now-its-learning"
         }
       ]
     }
