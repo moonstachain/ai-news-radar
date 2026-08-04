@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:02:33.414791Z",
+  "generated_at": "2026-08-04T13:06:05.660632Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-03T19:59:15Z",
-      "captured_at": "2026-08-04T11:02:33.414791Z",
+      "captured_at": "2026-08-04T13:06:05.660632Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -41,13 +41,52 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_5044319f695b",
+      "title": "AI Got Good at Language. Now It’s Learning the Language of Life. (Eric Nguyen, Co-Founder and CEO of Radical Numerics)",
+      "url": "https://www.generalist.com/p/ai-got-good-at-language-now-its-learning",
+      "source_id": "generalist",
+      "source_name": "The Generalist",
+      "published_at": "2026-08-04T12:03:37Z",
+      "captured_at": "2026-08-04T13:06:05.660632Z",
+      "lane": "startup_vc",
+      "entities": [
+        "The Generalist",
+        "AI Got Good",
+        "Language. Now It",
+        "Learning",
+        "Language",
+        "Life"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 8,
+      "total_score": 38,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Listen now | Eric Nguyen explains why biology needs specialized AI, how DNA can be modeled as language, and why lab verification remains a key bottleneck between AI predictions and discovery. Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_619e4d0b3433",
       "title": "Investor Interview: ManchesterStory Group on Penguin AI",
       "url": "https://www.cbinsights.com/research/investor-interview-manchesterstory-group-on-penguin-ai/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-03T21:08:37Z",
-      "captured_at": "2026-08-04T11:02:33.414791Z",
+      "captured_at": "2026-08-04T13:06:05.660632Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -84,7 +123,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-03T20:07:51Z",
-      "captured_at": "2026-08-04T11:02:33.414791Z",
+      "captured_at": "2026-08-04T13:06:05.660632Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -121,7 +160,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-03T15:02:21Z",
-      "captured_at": "2026-08-04T11:02:33.414791Z",
+      "captured_at": "2026-08-04T13:06:05.660632Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -158,54 +197,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_d714096ef03e",
-      "title": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
-      "url": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites",
-      "source_id": "lenny",
-      "source_name": "Lenny's Newsletter",
-      "published_at": "2026-08-03T12:04:26Z",
-      "captured_at": "2026-08-04T11:02:33.414791Z",
-      "lane": "startup_vc",
-      "entities": [
-        "Lenny's Newsletter",
-        "ChatGPT Codex Voice",
-        "Sites",
-        "Nick Baumann",
-        "OpenAI"
-      ],
-      "business_model_tags": [
-        "AI Business Model Innovation",
-        "Enterprise AI Workflow",
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_asset",
-        "yuanli_os"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 34,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Watch now | 🎙️ChatGPT Voice now manages multiple threads, reads your screen, and runs background tasks, and Nick Baumann walks me through the whole workflow live Tags: AI Business Model Innovation, Enterprise AI Workflow, Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_da2267135769",
       "title": "The Elusiveness of Merit-Based Hiring",
       "url": "https://sloanreview.mit.edu/article/the-elusiveness-of-merit-based-hiring/",
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-04T11:00:00Z",
-      "captured_at": "2026-08-04T11:02:33.414791Z",
+      "captured_at": "2026-08-04T13:06:05.660632Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -234,6 +232,41 @@
       "summary": "Patrick George/Ikon Images Since early 2025, organizations seeking to curry favor with the current U.S. administration have disavowed earlier commitments to workforce diversity, equity, and inclusion (DEI) and proclaimed... Tags: Enterprise AI Workflow, AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_7603e0fa1584",
+      "title": "Why every productivity tool eventually becomes the work instead of doing the work?",
+      "url": "https://www.indiehackers.com/post/why-every-productivity-tool-eventually-becomes-the-work-instead-of-doing-the-work-7dba6d00d9",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-03T13:37:08.441000Z",
+      "captured_at": "2026-08-04T13:06:05.660632Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 0,
+      "total_score": 31,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 0,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Why every productivity tool eventually becomes the work instead of doing the work? Tags: Enterprise AI Workflow, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     }
   ]
 }

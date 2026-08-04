@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "8572c60f65f83b34",
+  "snapshot_id": "10c45440fe5de695",
   "channel": "ai-news",
-  "generated_at": "2026-08-04T11:01:14.406351Z",
+  "generated_at": "2026-08-04T13:04:48.426057Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 553,
-    "high_priority": 34,
+    "signals": 555,
+    "high_priority": 33,
     "briefs": 20,
-    "stories": 514
+    "stories": 513
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,50 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 168,
-    "Info Flow": 141,
-    "TechURLs": 73,
+    "Buzzing": 174,
+    "Info Flow": 133,
+    "TechURLs": 83,
     "Zeli": 69,
-    "NewsNow": 28,
-    "AI HOT": 21,
-    "Curated Media": 19,
-    "OPML RSS": 16
+    "NewsNow": 24,
+    "Curated Media": 21,
+    "AI HOT": 19,
+    "OPML RSS": 13
   },
   "top_stories": [
+    {
+      "story_id": "story_d3753d032c98",
+      "title": "我们于 2026 年 7 月公布的最新 AI 新闻 / The latest AI news we announced in July 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026",
+      "primary_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "importance_score": 0.8438,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-04T13:00:00Z",
+      "earliest_at": "2026-08-04T13:00:00Z",
+      "sources": [
+        {
+          "id": "c1aae7eb61623d8b10f7a2bb098ea622e156fb5f",
+          "title": "我们于 2026 年 7 月公布的最新 AI 新闻 / The latest AI news we announced in July 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-04T13:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_2163b413300d",
       "title": "苹果在这件事上搞错了 / Apple is getting this wrong",
@@ -44,7 +78,7 @@
         "OpenAI News",
         "openai.com"
       ],
-      "importance_score": 0.8461,
+      "importance_score": 0.8418,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,17 +112,17 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_3949965c0b54",
-      "title": "自定义 Copilot 云代理的推理级别 / Customize the reasoning level for Copilot cloud agent",
-      "url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
-      "primary_url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+      "story_id": "story_9ceda4fbc4c7",
+      "title": "CodeQL 2.26.2 添加了 Swift 6.3.3 和 Kotlin 2.4.10 支持 / CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
+      "url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
+      "primary_url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8303,
+      "importance_score": 0.8386,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -96,74 +130,20 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-03T23:27:35Z",
-      "earliest_at": "2026-08-03T23:27:35Z",
+      "latest_at": "2026-08-04T10:57:39Z",
+      "earliest_at": "2026-08-04T10:57:39Z",
       "sources": [
         {
-          "id": "5803cb933451034d5a8a624cb85ce4959768cd46",
-          "title": "自定义 Copilot 云代理的推理级别 / Customize the reasoning level for Copilot cloud agent",
-          "url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+          "id": "eb05eaad8451f7f2ea6aaf954435290c8eb0140e",
+          "title": "CodeQL 2.26.2 添加了 Swift 6.3.3 和 Kotlin 2.4.10 支持 / CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
+          "url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-03T23:27:35Z"
+          "published_at": "2026-08-04T10:57:39Z"
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_6cbde97d8260",
-      "title": "面壁智能开源 ForgeStencil：一周自动优化 100+ 工业与科学软件，全程零人工介入",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498861&idx=1&sn=d2d16692dd7eb27f9d466803f25c2b78",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498861&idx=1&sn=d2d16692dd7eb27f9d466803f25c2b78",
-      "source": "公众号：面壁智能（MiniCPM）",
-      "source_name": "AI HOT",
-      "source_count": 3,
-      "source_names": [
-        "公众号：数字生命卡兹克",
-        "公众号：腾讯混元",
-        "公众号：面壁智能（MiniCPM）"
-      ],
-      "importance_score": 0.819,
-      "importance_label": "多源热议",
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-04T08:12:36Z",
-      "earliest_at": "2026-08-04T00:06:00Z",
-      "sources": [
-        {
-          "id": "51868ebba24a0c391770271a0455d8d630015049",
-          "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
-          "source": "公众号：腾讯混元",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-04T08:12:36Z"
-        },
-        {
-          "id": "d5388abcb5209fc4738af4e6a63a378b7ac7d398",
-          "title": "面壁智能开源 ForgeStencil：一周自动优化 100+ 工业与科学软件，全程零人工介入",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498861&idx=1&sn=d2d16692dd7eb27f9d466803f25c2b78",
-          "source": "公众号：面壁智能（MiniCPM）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-04T04:20:28Z"
-        },
-        {
-          "id": "0de57b7d014107379b4cd5b1c435cb4df25bf721",
-          "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-04T00:06:00Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }
