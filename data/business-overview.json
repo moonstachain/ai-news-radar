@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "bcee0cce2915c14c",
+  "snapshot_id": "c707453f923c9547",
   "channel": "ai-business",
-  "generated_at": "2026-08-05T15:55:47.793418Z",
+  "generated_at": "2026-08-05T17:20:02.340956Z",
   "window_hours": 24,
-  "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+  "decision": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
   "metrics": {
-    "signals": 8,
-    "briefs": 4,
-    "clusters": 4,
-    "cases": 5
+    "signals": 4,
+    "briefs": 3,
+    "clusters": 3,
+    "cases": 2
   },
   "coverage": {
     "successful": 16,
@@ -20,31 +20,8 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_72e7ca5860fa",
+      "brief_id": "biz_brief_26caa35a276b",
       "rank": 1,
-      "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_b1273ba3a92e",
-        "biz_81c846e4ee2f",
-        "biz_a44f26b4d2ee"
-      ],
-      "evidence_titles": [
-        "CEO Interview: David Villalon, Maisa",
-        "Executive Interview: Light",
-        "Executive Interview: Penguin AI"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "recommended_action": "Convert high-score founder cases into FTF credible story assets."
-    },
-    {
-      "brief_id": "biz_brief_b08f675f060e",
-      "rank": 2,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
@@ -64,7 +41,25 @@
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     },
     {
-      "brief_id": "biz_brief_3b0c8d4d5fe0",
+      "brief_id": "biz_brief_9f2746547201",
+      "rank": 2,
+      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_2d923acde00a"
+      ],
+      "evidence_titles": [
+        "How the GitHub legal team used Copilot CLI to streamline their workflows"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
+    },
+    {
+      "brief_id": "biz_brief_7a90932e5b87",
       "rank": 3,
       "title": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -80,87 +75,29 @@
         "yuanli_os"
       ],
       "recommended_action": "Add these counter-signals to sales objections and content credibility checks."
-    },
-    {
-      "brief_id": "biz_brief_a84a84110461",
-      "rank": 4,
-      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_2d923acde00a",
-        "biz_3e137a3ad77e"
-      ],
-      "evidence_titles": [
-        "How the GitHub legal team used Copilot CLI to streamline their workflows",
-        "Turn one giant AI-generated pull request to a reviewable stack"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_72e7ca5860fa",
+      "id": "biz_brief_26caa35a276b",
       "label": "Brief #1",
-      "title": "Convert high-score founder cases into FTF credible story assets.",
-      "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
-    },
-    {
-      "id": "biz_brief_b08f675f060e",
-      "label": "Brief #2",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
     },
     {
-      "id": "biz_brief_3b0c8d4d5fe0",
+      "id": "biz_brief_9f2746547201",
+      "label": "Brief #2",
+      "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
+    },
+    {
+      "id": "biz_brief_7a90932e5b87",
       "label": "Brief #3",
       "title": "Add these counter-signals to sales objections and content credibility checks.",
       "context": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language."
     }
   ],
   "clusters": [
-    {
-      "cluster_id": "biz_cluster_ce1b0cc1a6b7",
-      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "lane": "founder_case",
-      "source_count": 1,
-      "importance_score": 51,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "why_it_matters": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
-      "evidence_refs": [
-        "biz_b1273ba3a92e",
-        "biz_81c846e4ee2f",
-        "biz_a44f26b4d2ee"
-      ],
-      "top_sources": [
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: David Villalon, Maisa",
-          "url": "https://www.cbinsights.com/research/ceo-interview-david-villalon-maisa/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: Light",
-          "url": "https://www.cbinsights.com/research/executive-interview-light-2/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: Penguin AI",
-          "url": "https://www.cbinsights.com/research/executive-interview-penguin-ai/"
-        }
-      ]
-    },
     {
       "cluster_id": "biz_cluster_e65cb26fd445",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
@@ -194,6 +131,31 @@
       ]
     },
     {
+      "cluster_id": "biz_cluster_a631a8e944bd",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "source_count": 1,
+      "importance_score": 44,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_2d923acde00a"
+      ],
+      "top_sources": [
+        {
+          "source": "GitHub Blog",
+          "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/"
+        }
+      ]
+    },
+    {
       "cluster_id": "biz_cluster_af869834ddfd",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "lane": "counter_signal",
@@ -215,37 +177,6 @@
           "source": "Lenny's Newsletter",
           "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
           "url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_c1bed91b185a",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "source_count": 1,
-      "importance_score": 40,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "evidence_refs": [
-        "biz_2d923acde00a",
-        "biz_3e137a3ad77e"
-      ],
-      "top_sources": [
-        {
-          "source": "GitHub Blog",
-          "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
-          "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/"
-        },
-        {
-          "source": "GitHub Blog",
-          "title": "Turn one giant AI-generated pull request to a reviewable stack",
-          "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/"
         }
       ]
     }
