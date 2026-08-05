@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "86bff9055c1b4dd9",
+  "snapshot_id": "bcee0cce2915c14c",
   "channel": "ai-business",
-  "generated_at": "2026-08-05T13:42:34.017477Z",
+  "generated_at": "2026-08-05T15:55:47.793418Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 7,
+    "signals": 8,
     "briefs": 4,
     "clusters": 4,
-    "cases": 4
+    "cases": 5
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_b2d268393e26",
+      "brief_id": "biz_brief_72e7ca5860fa",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -43,8 +43,29 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_9985b8a8fc85",
+      "brief_id": "biz_brief_b08f675f060e",
       "rank": 2,
+      "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_f5b65f2ae997",
+        "biz_1efe67afe6cf"
+      ],
+      "evidence_titles": [
+        "How to Recognize When Your Customers Want You to Act",
+        "Stop Prompting AI. Start Directing It"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
+    },
+    {
+      "brief_id": "biz_brief_3b0c8d4d5fe0",
+      "rank": 3,
       "title": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
@@ -61,8 +82,8 @@
       "recommended_action": "Add these counter-signals to sales objections and content credibility checks."
     },
     {
-      "brief_id": "biz_brief_c5aa758cc396",
-      "rank": 3,
+      "brief_id": "biz_brief_a84a84110461",
+      "rank": 4,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
@@ -79,45 +100,26 @@
         "ftf_trust"
       ],
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
-    },
-    {
-      "brief_id": "biz_brief_0377678232dd",
-      "rank": 4,
-      "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_1efe67afe6cf"
-      ],
-      "evidence_titles": [
-        "Stop Prompting AI. Start Directing It"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_b2d268393e26",
+      "id": "biz_brief_72e7ca5860fa",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_9985b8a8fc85",
+      "id": "biz_brief_b08f675f060e",
       "label": "Brief #2",
-      "title": "Add these counter-signals to sales objections and content credibility checks.",
-      "context": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language."
+      "title": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
     },
     {
-      "id": "biz_brief_c5aa758cc396",
+      "id": "biz_brief_3b0c8d4d5fe0",
       "label": "Brief #3",
-      "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
+      "title": "Add these counter-signals to sales objections and content credibility checks.",
+      "context": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language."
     }
   ],
   "clusters": [
@@ -156,6 +158,38 @@
           "source": "CB Insights",
           "title": "Executive Interview: Penguin AI",
           "url": "https://www.cbinsights.com/research/executive-interview-penguin-ai/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_e65cb26fd445",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "source_count": 2,
+      "importance_score": 44,
+      "confidence": "medium",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_f5b65f2ae997",
+        "biz_1efe67afe6cf"
+      ],
+      "top_sources": [
+        {
+          "source": "Harvard Business Review",
+          "title": "How to Recognize When Your Customers Want You to Act",
+          "url": "https://hbr.org/2026/08/how-to-recognize-when-your-customers-want-you-to-act"
+        },
+        {
+          "source": "MIT Sloan Management Review",
+          "title": "Stop Prompting AI. Start Directing It",
+          "url": "https://sloanreview.mit.edu/article/stop-prompting-ai-start-directing-it/"
         }
       ]
     },
@@ -212,32 +246,6 @@
           "source": "GitHub Blog",
           "title": "Turn one giant AI-generated pull request to a reviewable stack",
           "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_054ffdeb34b4",
-      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "lane": "authority_trust",
-      "source_count": 1,
-      "importance_score": 39,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
-      "evidence_refs": [
-        "biz_1efe67afe6cf"
-      ],
-      "top_sources": [
-        {
-          "source": "MIT Sloan Management Review",
-          "title": "Stop Prompting AI. Start Directing It",
-          "url": "https://sloanreview.mit.edu/article/stop-prompting-ai-start-directing-it/"
         }
       ]
     }
