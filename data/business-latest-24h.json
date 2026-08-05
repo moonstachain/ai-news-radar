@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T11:37:13.585719Z",
+  "generated_at": "2026-08-05T13:42:34.017477Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-04T16:41:56Z",
-      "captured_at": "2026-08-05T11:37:13.585719Z",
+      "captured_at": "2026-08-05T13:42:34.017477Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -47,7 +47,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-04T16:27:49Z",
-      "captured_at": "2026-08-05T11:37:13.585719Z",
+      "captured_at": "2026-08-05T13:42:34.017477Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -84,7 +84,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-04T16:14:05Z",
-      "captured_at": "2026-08-05T11:37:13.585719Z",
+      "captured_at": "2026-08-05T13:42:34.017477Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -121,7 +121,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-04T19:02:34Z",
-      "captured_at": "2026-08-05T11:37:13.585719Z",
+      "captured_at": "2026-08-05T13:42:34.017477Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -153,39 +153,40 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_cbad2f98814d",
-      "title": "A New Way to Measure Customer Referrals",
-      "url": "https://hbr.org/2026/08/a-new-way-to-measure-customer-referrals",
-      "source_id": "hbr",
-      "source_name": "Harvard Business Review",
-      "published_at": "2026-08-04T12:25:24Z",
-      "captured_at": "2026-08-05T11:37:13.585719Z",
-      "lane": "authority",
+      "signal_id": "biz_ebfec598040e",
+      "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
+      "url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
+      "source_id": "lenny",
+      "source_name": "Lenny's Newsletter",
+      "published_at": "2026-08-05T12:04:01Z",
+      "captured_at": "2026-08-05T13:42:34.017477Z",
+      "lane": "startup_vc",
       "entities": [
-        "Harvard Business Review",
-        "A New Way",
-        "Measure Customer Referrals"
+        "Lenny's Newsletter",
+        "Build",
+        "Vercel Eve"
       ],
       "business_model_tags": [
-        "Founder Case",
-        "AI Business Model Innovation"
+        "Enterprise AI Workflow",
+        "Counter Signal",
+        "Founder Case"
       ],
       "yuanli_tags": [
-        "yuanli_startup"
+        "yuanli_os"
       ],
       "opc_fit_score": 0,
-      "case_concreteness_score": 8,
+      "case_concreteness_score": 4,
       "total_score": 41,
       "score_breakdown": {
-        "source_authority": 20,
+        "source_authority": 16,
         "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 8,
+        "business_model_value": 6,
+        "case_concreteness": 4,
         "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
+        "freshness": 8,
+        "counter_signal_value": 4
       },
-      "summary": "A New Way to Measure Customer Referrals Tags: Founder Case, AI Business Model Innovation.",
+      "summary": "Watch now | 🎙️ I used Vercel Eve agents and Codex to build Merge Mommy: a PR review bot that scores risk, auto-approves the easy ones, and pings me in Slack for the rest Tags: Enterprise AI Workflow, Counter Signal, Founder Case.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     },
@@ -196,7 +197,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-05T11:00:54Z",
-      "captured_at": "2026-08-05T11:37:13.585719Z",
+      "captured_at": "2026-08-05T13:42:34.017477Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -228,52 +229,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_5044319f695b",
-      "title": "AI Got Good at Language. Now It’s Learning the Language of Life. (Eric Nguyen, Co-Founder and CEO of Radical Numerics)",
-      "url": "https://www.generalist.com/p/ai-got-good-at-language-now-its-learning",
-      "source_id": "generalist",
-      "source_name": "The Generalist",
-      "published_at": "2026-08-04T12:03:37Z",
-      "captured_at": "2026-08-05T11:37:13.585719Z",
-      "lane": "startup_vc",
-      "entities": [
-        "The Generalist",
-        "AI Got Good",
-        "Language. Now It",
-        "Learning",
-        "Language",
-        "Life"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 8,
-      "total_score": 37,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Listen now | Eric Nguyen explains why biology needs specialized AI, how DNA can be modeled as language, and why lab verification remains a key bottleneck between AI predictions and discovery. Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_3e137a3ad77e",
       "title": "Turn one giant AI-generated pull request to a reviewable stack",
       "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-04T16:47:18Z",
-      "captured_at": "2026-08-05T11:37:13.585719Z",
+      "captured_at": "2026-08-05T13:42:34.017477Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
