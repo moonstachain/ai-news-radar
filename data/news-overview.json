@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "fcec1e7b170d3aa9",
+  "snapshot_id": "a937a254a90ff87e",
   "channel": "ai-news",
-  "generated_at": "2026-08-05T22:48:53.996653Z",
+  "generated_at": "2026-08-05T23:48:03.180933Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 651,
-    "high_priority": 32,
+    "signals": 633,
+    "high_priority": 31,
     "briefs": 20,
-    "stories": 580
+    "stories": 562
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 227,
-    "Info Flow": 123,
+    "Buzzing": 220,
+    "Info Flow": 114,
     "TechURLs": 106,
-    "Zeli": 70,
-    "NewsNow": 33,
-    "OPML RSS": 28,
+    "Zeli": 71,
+    "NewsNow": 31,
+    "OPML RSS": 29,
     "AI HOT": 27,
     "Curated Media": 26
   },
@@ -46,7 +46,7 @@
         "hackernews",
         "www.wired.com"
       ],
-      "importance_score": 0.8594,
+      "importance_score": 0.8569,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -110,7 +110,7 @@
         "Lobsters (技术社区)",
         "www.quantamagazine.org"
       ],
-      "importance_score": 0.8487,
+      "importance_score": 0.8463,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -180,7 +180,7 @@
       "source_names": [
         "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8155,
+      "importance_score": 0.8136,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
