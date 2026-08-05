@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c707453f923c9547",
+  "snapshot_id": "266b24e59bded470",
   "channel": "ai-news",
-  "generated_at": "2026-08-05T17:18:44.631505Z",
+  "generated_at": "2026-08-05T19:02:14.276735Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 684,
-    "high_priority": 36,
+    "signals": 671,
+    "high_priority": 34,
     "briefs": 20,
-    "stories": 622
+    "stories": 608
   },
   "coverage": {
     "successful": 16,
@@ -23,13 +23,13 @@
   ],
   "section_counts": {
     "Buzzing": 253,
-    "Info Flow": 117,
-    "TechURLs": 106,
-    "Zeli": 80,
-    "NewsNow": 34,
-    "Curated Media": 30,
-    "OPML RSS": 25,
-    "AI HOT": 24
+    "Info Flow": 123,
+    "TechURLs": 98,
+    "Zeli": 76,
+    "Curated Media": 28,
+    "NewsNow": 28,
+    "OPML RSS": 27,
+    "AI HOT": 23
   },
   "top_stories": [
     {
@@ -41,12 +41,12 @@
       "source_name": "AI HOT",
       "source_count": 5,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "Lobsters (技术社区)",
         "www.quantamagazine.org"
       ],
-      "importance_score": 0.8622,
+      "importance_score": 0.8579,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -94,58 +94,13 @@
           "published_at": "2026-08-05T16:23:34.819000Z"
         },
         {
-          "id": "4b1da2e147ec98f348d4c66b294b9211bd9a5a0c",
+          "id": "ddb30b9ccc522b86b61d1105aedfa4b20eff1385",
           "title": "为什么传奇的埃尔德什问题正被人工智能攻克 / Why Erdős Problems Are Falling to AI",
           "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-05T11:49:34Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_977f60f7e5e3",
-      "title": "涉及 OpenAI 模型的第三方网络评估 / Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "primary_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "hackernews"
-      ],
-      "importance_score": 0.8394,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-04T23:08:46.845000Z",
-      "earliest_at": "2026-08-04T19:00:00Z",
-      "sources": [
-        {
-          "id": "56547598ec4d3c59330bc56ab8fade3ecbd44a26",
-          "title": "涉及 OpenAI 模型的第三方网络评估 / Third-party cyber evaluations involving OpenAI models",
-          "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-04T19:00:00Z"
-        },
-        {
-          "id": "bf5b333699fa8cee02a68c8fe27dd01158d97587",
-          "title": "涉及 OpenAI 模型的第三方网络评估 / Third-party cyber evaluations involving OpenAI models",
-          "url": "https://news.ycombinator.com/item?id=49175248",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-04T23:08:46.845000Z"
         }
       ],
       "confidence": "multi-source"
@@ -161,7 +116,7 @@
       "source_names": [
         "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8262,
+      "importance_score": 0.8227,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -183,6 +138,50 @@
         }
       ],
       "confidence": "single-source"
+    },
+    {
+      "story_id": "story_b97f34cabf8a",
+      "title": "Google DeepMind 领导层大调整：Demis Hassabis 转任 Alphabet 首席科学家，Jeff Dean 离职创业",
+      "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+      "primary_url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "importance_score": 0.8005,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-05T18:20:53Z",
+      "earliest_at": "2026-08-05T17:26:53Z",
+      "sources": [
+        {
+          "id": "b37af09bb0b3497375efddc2fd57f44d17dda8f5",
+          "title": "Google DeepMind 领导层大调整：Demis Hassabis 转任 Alphabet 首席科学家，Jeff Dean 离职创业",
+          "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-05T17:26:53Z"
+        },
+        {
+          "id": "d36a4968a81810874bf8711933ff0944702a23e0",
+          "title": "Google DeepMind 领导层大调整：Demis Hassabis 转任 Alphabet 首席科学家，Jeff Dean 离职创业 / Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously",
+          "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-05T18:20:53Z"
+        }
+      ],
+      "confidence": "multi-source"
     }
   ]
 }
