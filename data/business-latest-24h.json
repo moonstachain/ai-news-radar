@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T06:20:59.923379Z",
+  "generated_at": "2026-08-05T09:19:09.292162Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-04T16:41:56Z",
-      "captured_at": "2026-08-05T06:20:59.923379Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -47,7 +47,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-04T16:27:49Z",
-      "captured_at": "2026-08-05T06:20:59.923379Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -84,7 +84,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-04T16:14:05Z",
-      "captured_at": "2026-08-05T06:20:59.923379Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -121,7 +121,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-04T19:02:34Z",
-      "captured_at": "2026-08-05T06:20:59.923379Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -159,7 +159,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-08-04T12:25:24Z",
-      "captured_at": "2026-08-05T06:20:59.923379Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -196,7 +196,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-04T10:06:21.660000Z",
-      "captured_at": "2026-08-05T06:20:59.923379Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -228,13 +228,50 @@
       "transport_mode": "page_detail"
     },
     {
+      "signal_id": "biz_ffb4a223c9fc",
+      "title": "Solo-built Pistly for months. Launching on PH this week and I still don't know if the market wants it.",
+      "url": "https://www.indiehackers.com/post/solo-built-pistly-for-months-launching-on-ph-this-week-and-i-still-dont-know-if-the-market-wants-it-d5dafe57bb",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-04T14:02:30.076000Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Solo-built Pistly",
+        "Launching"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 39,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Solo-built Pistly for months. Launching on PH this week and I still don't know if the market wants it. Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_5044319f695b",
       "title": "AI Got Good at Language. Now It’s Learning the Language of Life. (Eric Nguyen, Co-Founder and CEO of Radical Numerics)",
       "url": "https://www.generalist.com/p/ai-got-good-at-language-now-its-learning",
       "source_id": "generalist",
       "source_name": "The Generalist",
       "published_at": "2026-08-04T12:03:37Z",
-      "captured_at": "2026-08-05T06:20:59.923379Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
       "lane": "startup_vc",
       "entities": [
         "The Generalist",
@@ -273,7 +310,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-04T16:47:18Z",
-      "captured_at": "2026-08-05T06:20:59.923379Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -309,7 +346,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-04T11:00:00Z",
-      "captured_at": "2026-08-05T06:20:59.923379Z",
+      "captured_at": "2026-08-05T09:19:09.292162Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
