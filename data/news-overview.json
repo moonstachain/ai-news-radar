@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c16fa5adf82900f6",
+  "snapshot_id": "2db47129b47481d7",
   "channel": "ai-news",
-  "generated_at": "2026-08-06T04:38:25.243571Z",
+  "generated_at": "2026-08-06T07:32:46.592102Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 639,
-    "high_priority": 29,
+    "signals": 660,
+    "high_priority": 38,
     "briefs": 20,
-    "stories": 564
+    "stories": 585
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,80 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 203,
-    "Info Flow": 128,
-    "TechURLs": 112,
-    "Zeli": 73,
-    "NewsNow": 31,
-    "OPML RSS": 30,
-    "Curated Media": 29,
-    "AI HOT": 28
+    "Buzzing": 200,
+    "Info Flow": 131,
+    "TechURLs": 118,
+    "Zeli": 76,
+    "NewsNow": 30,
+    "AI HOT": 29,
+    "OPML RSS": 29,
+    "Curated Media": 28
   },
   "top_stories": [
+    {
+      "story_id": "story_1c979cd00903",
+      "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025）",
+      "url": "https://arxiv.org/abs/2510.01395",
+      "primary_url": "https://arxiv.org/abs/2510.01395",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 4,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews"
+      ],
+      "importance_score": 0.8563,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-06T07:03:41.634000Z",
+      "earliest_at": "2026-08-05T18:17:03Z",
+      "sources": [
+        {
+          "id": "c77b4f6032f947c41785cb2f994bf7fe6fff9e33",
+          "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025）",
+          "url": "https://arxiv.org/abs/2510.01395",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-06T07:03:41.634000Z"
+        },
+        {
+          "id": "08c8bc5409ab851c42d84d2c379b4bfd7c88ea44",
+          "title": "谄媚的人工智能会降低亲社会意图并促进依赖性 / Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence",
+          "url": "https://news.ycombinator.com/item?id=49186720",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-05T19:02:56.607000Z"
+        },
+        {
+          "id": "e354fc4ff8a9dbd403e48d609e4531715c6ecfc4",
+          "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025） / Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence",
+          "url": "https://arxiv.org/abs/2510.01395",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-05T18:17:03Z"
+        },
+        {
+          "id": "9d586b993f87c511afb708d75012b0aa9a9d5292",
+          "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025） / Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
+          "url": "https://arxiv.org/abs/2510.01395",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-05T18:17:03Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_defd8a4d74dc",
       "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性虐待图像的广告",
@@ -46,7 +110,7 @@
         "hackernews",
         "www.wired.com"
       ],
-      "importance_score": 0.8452,
+      "importance_score": 0.8386,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -103,21 +167,21 @@
       "primary_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684990&idx=1&sn=86a6d71b133589916b49a9d57046c127",
       "source": "公众号：数字生命卡兹克",
       "source_name": "AI HOT",
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
         "公众号：卡尔的AI沃茨",
         "公众号：数字生命卡兹克"
       ],
-      "importance_score": 0.833,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.801,
+      "importance_label": "行业动态",
+      "category": "industry",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
       "latest_at": "2026-08-06T01:27:00Z",
-      "earliest_at": "2026-08-05T06:46:00Z",
+      "earliest_at": "2026-08-06T01:15:29Z",
       "sources": [
         {
           "id": "2c99870418ada7bf5e51f040598d4aeb8f0564d2",
@@ -136,88 +200,6 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-06T01:15:29Z"
-        },
-        {
-          "id": "f966e2d070c2476257c0e6afb637e5417e64bc9d",
-          "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦身的新技巧",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509161&idx=1&sn=bd9aa077bbc46a6049ad66af6d15af0f",
-          "source": "公众号：卡尔的AI沃茨",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-05T06:46:00Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_fcd661a6629c",
-      "title": "为什么传奇的埃尔德什问题正被人工智能攻克",
-      "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
-      "primary_url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 5,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "Lobsters (技术社区)",
-        "www.quantamagazine.org"
-      ],
-      "importance_score": 0.8354,
-      "importance_label": "多源热议",
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-05T17:11:40.147000Z",
-      "earliest_at": "2026-08-05T11:49:34Z",
-      "sources": [
-        {
-          "id": "b085ee3aa73cd9e3f58a03427c9137ed5c9920a6",
-          "title": "为什么传奇的埃尔德什问题正被人工智能攻克",
-          "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-05T16:23:34.819000Z"
-        },
-        {
-          "id": "e78be47400c297a7c666db618aa7bb257f2720ad",
-          "title": "为何传奇的埃尔德什难题正被人工智能攻克",
-          "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
-          "source": "www.quantamagazine.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-05T17:11:40.147000Z"
-        },
-        {
-          "id": "59e71498c3e56288b548709fd4926dfd2e41148c",
-          "title": "为什么埃尔德什问题正被人工智能攻克 / Why the Legendary Erdős Problems Are Falling to AI",
-          "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-05T16:54:21Z"
-        },
-        {
-          "id": "7e8981397479ba5632711006471078e9496b00b5",
-          "title": "为什么埃尔德什问题正被人工智能攻克",
-          "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
-          "source": "www.quantamagazine.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-05T16:23:34.819000Z"
-        },
-        {
-          "id": "ddb30b9ccc522b86b61d1105aedfa4b20eff1385",
-          "title": "为什么埃尔德什问题正被人工智能攻克 / Why Erdős Problems Are Falling to AI",
-          "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-05T11:49:34Z"
         }
       ],
       "confidence": "multi-source"
