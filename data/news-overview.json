@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a937a254a90ff87e",
+  "snapshot_id": "5937ced85bf20ee6",
   "channel": "ai-news",
-  "generated_at": "2026-08-05T23:48:03.180933Z",
+  "generated_at": "2026-08-06T01:25:01.174138Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 633,
+    "signals": 635,
     "high_priority": 31,
     "briefs": 20,
-    "stories": 562
+    "stories": 565
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 220,
-    "Info Flow": 114,
-    "TechURLs": 106,
-    "Zeli": 71,
+    "Buzzing": 208,
+    "Info Flow": 120,
+    "TechURLs": 109,
+    "Zeli": 73,
     "NewsNow": 31,
-    "OPML RSS": 29,
-    "AI HOT": 27,
-    "Curated Media": 26
+    "OPML RSS": 30,
+    "Curated Media": 29,
+    "AI HOT": 28
   },
   "top_stories": [
     {
@@ -46,7 +46,7 @@
         "hackernews",
         "www.wired.com"
       ],
-      "importance_score": 0.8569,
+      "importance_score": 0.8529,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -110,7 +110,7 @@
         "Lobsters (技术社区)",
         "www.quantamagazine.org"
       ],
-      "importance_score": 0.8463,
+      "importance_score": 0.8426,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -170,38 +170,48 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.146.1 / Codex CLI 0.146.1",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
+      "story_id": "story_b97f34cabf8a",
+      "title": "Google DeepMind 领导层大调整：Demis Hassabis 转任 Alphabet 首席科学家，Jeff Dean 离职创业",
+      "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+      "primary_url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 2,
       "source_names": [
-        "OpenAI Codex Changelog"
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.8136,
-      "importance_label": "官方更新",
-      "category": "official",
+      "importance_score": 0.785,
+      "importance_label": "行业动态",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-05T00:00:00Z",
-      "earliest_at": "2026-08-05T00:00:00Z",
+      "latest_at": "2026-08-05T18:20:53Z",
+      "earliest_at": "2026-08-05T17:26:53Z",
       "sources": [
         {
-          "id": "58e1ee1fbaa85927b5d15f6eb6d39146b6384769",
-          "title": "法典 CLI 0.146.1 / Codex CLI 0.146.1",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-05T00:00:00Z"
+          "id": "b37af09bb0b3497375efddc2fd57f44d17dda8f5",
+          "title": "Google DeepMind 领导层大调整：Demis Hassabis 转任 Alphabet 首席科学家，Jeff Dean 离职创业",
+          "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-05T17:26:53Z"
+        },
+        {
+          "id": "d36a4968a81810874bf8711933ff0944702a23e0",
+          "title": "Google DeepMind 领导层大调整：Demis Hassabis 转任 Alphabet 首席科学家，Jeff Dean 离职创业 / Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously",
+          "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-05T18:20:53Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }
