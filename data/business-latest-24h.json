@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:07:38.002583Z",
+  "generated_at": "2026-08-07T09:32:03.920683Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-06T18:51:24Z",
-      "captured_at": "2026-08-07T08:07:38.002583Z",
+      "captured_at": "2026-08-07T09:32:03.920683Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -48,7 +48,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-06T18:21:15Z",
-      "captured_at": "2026-08-07T08:07:38.002583Z",
+      "captured_at": "2026-08-07T09:32:03.920683Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -85,7 +85,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-06T18:03:53Z",
-      "captured_at": "2026-08-07T08:07:38.002583Z",
+      "captured_at": "2026-08-07T09:32:03.920683Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -122,7 +122,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-06T16:51:12Z",
-      "captured_at": "2026-08-07T08:07:38.002583Z",
+      "captured_at": "2026-08-07T09:32:03.920683Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog"
@@ -158,7 +158,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-06T19:49:34Z",
-      "captured_at": "2026-08-07T08:07:38.002583Z",
+      "captured_at": "2026-08-07T09:32:03.920683Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -187,41 +187,6 @@
       "summary": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow. The post A guide to slash commands in the GitHub Copilot app appeared fir... Tags: AI Business Model Innovation, Enterprise AI Workflow.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_4b0b10800334",
-      "title": "I built a tool to find people already talking about problems your product solves",
-      "url": "https://www.indiehackers.com/post/i-built-a-tool-to-find-people-already-talking-about-problems-your-product-solves-dbca80a1cb",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-06T08:51:03.446000Z",
-      "captured_at": "2026-08-07T08:07:38.002583Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 39,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "I built a tool to find people already talking about problems your product solves Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
     }
   ]
 }
