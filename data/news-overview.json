@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2e50d784e988474f",
+  "snapshot_id": "b97a91d87a89aea7",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T00:21:47.766395Z",
+  "generated_at": "2026-08-07T03:24:16.648312Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 535,
-    "high_priority": 31,
+    "signals": 536,
+    "high_priority": 29,
     "briefs": 20,
-    "stories": 497
+    "stories": 503
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 147,
-    "Info Flow": 144,
-    "TechURLs": 84,
-    "Zeli": 68,
-    "Curated Media": 29,
-    "AI HOT": 20,
-    "NewsNow": 18,
+    "Info Flow": 146,
+    "Buzzing": 145,
+    "TechURLs": 78,
+    "Zeli": 73,
+    "Curated Media": 27,
+    "NewsNow": 23,
+    "AI HOT": 18,
     "OPML RSS": 13
   },
   "top_stories": [
@@ -46,7 +46,7 @@
         "OpenAI News",
         "openai.com"
       ],
-      "importance_score": 0.9013,
+      "importance_score": 0.895,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -109,7 +109,7 @@
         "GitHub AI & ML",
         "GitHub Blog"
       ],
-      "importance_score": 0.8656,
+      "importance_score": 0.8583,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -143,17 +143,17 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_2b2f00c5abe1",
-      "title": "Kimi K3 现已在 GitHub Copilot 中提供 / Kimi K3 is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
-      "source": "GitHub Changelog",
+      "story_id": "story_91992ed9f82d",
+      "title": "法典 CLI 0.147.0 / Codex CLI 0.147.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8349,
+      "importance_score": 0.8574,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -161,17 +161,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-06T17:27:25Z",
-      "earliest_at": "2026-08-06T17:27:25Z",
+      "latest_at": "2026-08-07T00:00:00Z",
+      "earliest_at": "2026-08-07T00:00:00Z",
       "sources": [
         {
-          "id": "c855fc44324bb924734d7afac3b08a717102aa19",
-          "title": "Kimi K3 现已在 GitHub Copilot 中提供 / Kimi K3 is now available in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
-          "source": "GitHub Changelog",
+          "id": "b3ad943613d971383ab781d0f38a0b1ca858303e",
+          "title": "法典 CLI 0.147.0 / Codex CLI 0.147.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-06T17:27:25Z"
+          "published_at": "2026-08-07T00:00:00Z"
         }
       ],
       "confidence": "single-source"
