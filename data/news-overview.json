@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "9997aaa458afc51d",
+  "snapshot_id": "aaca7c3c4e6aa296",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T12:05:30.822249Z",
+  "generated_at": "2026-08-07T14:45:17.719276Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 547,
-    "high_priority": 35,
+    "signals": 527,
+    "high_priority": 29,
     "briefs": 20,
-    "stories": 512
+    "stories": 491
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 150,
-    "Buzzing": 137,
-    "TechURLs": 79,
+    "Info Flow": 143,
+    "Buzzing": 134,
+    "TechURLs": 75,
     "Zeli": 73,
-    "Curated Media": 27,
+    "Curated Media": 25,
     "NewsNow": 25,
-    "AI HOT": 22,
-    "OPML RSS": 18
+    "AI HOT": 17,
+    "OPML RSS": 16
   },
   "top_stories": [
     {
@@ -44,9 +44,10 @@
         "公众号：千问APP（阿里）",
         "公众号：小红书技术（dots.llm）",
         "公众号：火山引擎",
+        "公众号：蚂蚁百灵（Ling）",
         "公众号：面壁智能（MiniCPM）"
       ],
-      "importance_score": 0.8795,
+      "importance_score": 0.8733,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -54,9 +55,18 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-07T09:59:00Z",
-      "earliest_at": "2026-08-06T13:25:10Z",
+      "latest_at": "2026-08-07T12:02:16Z",
+      "earliest_at": "2026-08-07T02:04:51Z",
       "sources": [
+        {
+          "id": "328b7ffe55b75e17b1c3672f7372d5a7cf947fb8",
+          "title": "蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
+          "source": "公众号：蚂蚁百灵（Ling）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T12:02:16Z"
+        },
         {
           "id": "c2e0ad32857b9ad4cff6e70f1c62a42bd11ea88a",
           "title": "小红书联合浙大、复旦提出 CULTURE-MT：首个面向社媒翻译的「文化有效性」评测基准，入选 ICML 2026",
@@ -92,15 +102,6 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-07T02:04:51Z"
-        },
-        {
-          "id": "c110113a3a0b2a75f48bc8792fd669a704115243",
-          "title": "千问全网首发公测，全新 Wan3.0 来了！",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T13:25:10Z"
         }
       ],
       "confidence": "multi-source"
@@ -116,7 +117,7 @@
       "source_names": [
         "OpenAI News"
       ],
-      "importance_score": 0.8441,
+      "importance_score": 0.8376,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -151,7 +152,7 @@
         "GitHub AI & ML",
         "GitHub Blog"
       ],
-      "importance_score": 0.8393,
+      "importance_score": 0.8339,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
