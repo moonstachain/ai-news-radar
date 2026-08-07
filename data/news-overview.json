@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "6929da7b8081016d",
+  "snapshot_id": "2e50d784e988474f",
   "channel": "ai-news",
-  "generated_at": "2026-08-06T14:43:48.033750Z",
+  "generated_at": "2026-08-07T00:21:47.766395Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 665,
-    "high_priority": 37,
+    "signals": 535,
+    "high_priority": 31,
     "briefs": 20,
-    "stories": 595
+    "stories": 497
   },
   "coverage": {
     "successful": 16,
@@ -22,92 +22,138 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 196,
-    "Info Flow": 150,
-    "TechURLs": 114,
-    "Zeli": 75,
-    "Curated Media": 33,
-    "AI HOT": 28,
-    "NewsNow": 28,
-    "OPML RSS": 25
+    "Buzzing": 147,
+    "Info Flow": 144,
+    "TechURLs": 84,
+    "Zeli": 68,
+    "Curated Media": 29,
+    "AI HOT": 20,
+    "NewsNow": 18,
+    "OPML RSS": 13
   },
   "top_stories": [
     {
-      "story_id": "story_1c979cd00903",
-      "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025）",
-      "url": "https://arxiv.org/abs/2510.01395",
-      "primary_url": "https://arxiv.org/abs/2510.01395",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
+      "story_id": "story_0f0c1961f93e",
+      "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限 / Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "primary_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
       "source_count": 4,
       "source_names": [
         "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews"
+        "OpenAI News",
+        "openai.com"
       ],
-      "importance_score": 0.8387,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.9013,
+      "importance_label": "官方更新",
+      "category": "official",
       "reasons": [
+        "official_source",
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-06T07:03:41.634000Z",
-      "earliest_at": "2026-08-05T18:17:03Z",
+      "latest_at": "2026-08-06T23:01:28.628000Z",
+      "earliest_at": "2026-08-06T10:00:00Z",
       "sources": [
         {
-          "id": "c77b4f6032f947c41785cb2f994bf7fe6fff9e33",
-          "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025）",
-          "url": "https://arxiv.org/abs/2510.01395",
+          "id": "f93ec6f48fe52e81c65afa79e0da2ba5fffd251c",
+          "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限 / Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-06T10:00:00Z"
+        },
+        {
+          "id": "f71ed3ff4eb803dbb4d165a443499c1ef51cabb7",
+          "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-06T07:03:41.634000Z"
+          "published_at": "2026-08-06T23:01:28.628000Z"
         },
         {
-          "id": "08c8bc5409ab851c42d84d2c379b4bfd7c88ea44",
-          "title": "谄媚的人工智能会降低亲社会意图并促进依赖性 / Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence",
-          "url": "https://news.ycombinator.com/item?id=49186720",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-05T19:02:56.607000Z"
+          "id": "55069910b2b7c6cbbd5a1bfea11d6b412a3b7095",
+          "title": "优化 ChatGPT 中的 GPT‑5.6 Sol，并扩大免费用户对 GPT‑5.6 Luna 的访问权限",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-06T23:01:28.628000Z"
         },
         {
-          "id": "e354fc4ff8a9dbd403e48d609e4531715c6ecfc4",
-          "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025） / Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence",
-          "url": "https://arxiv.org/abs/2510.01395",
+          "id": "006698dd9d730d1e3a747fe3a98049a45f8b2803",
+          "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限 / Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-08-05T18:17:03Z"
-        },
-        {
-          "id": "9d586b993f87c511afb708d75012b0aa9a9d5292",
-          "title": "阿谀奉承的人工智能会削弱利他意图并助长依赖性（2025） / Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
-          "url": "https://arxiv.org/abs/2510.01395",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-05T18:17:03Z"
+          "published_at": "2026-08-06T17:02:04Z"
         }
       ],
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_72ea094fa822",
-      "title": "Baseten 拥抱人脸推理提供商 🔥 / Baseten on Hugging Face Inference Providers 🔥",
-      "url": "https://huggingface.co/blog/baseten",
-      "primary_url": "https://huggingface.co/blog/baseten",
-      "source": "Hugging Face Blog",
+      "story_id": "story_4427aa482e81",
+      "title": "GitHub Copilot 应用中的斜杠命令使用指南 / A guide to slash commands in the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "GitHub AI & ML",
+        "GitHub Blog"
+      ],
+      "importance_score": 0.8656,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-06T19:49:34Z",
+      "earliest_at": "2026-08-06T19:49:34Z",
+      "sources": [
+        {
+          "id": "d5900b5b899d712c3656d676da0a85d7b1eabf74",
+          "title": "GitHub Copilot 应用中的斜杠命令使用指南 / A guide to slash commands in the GitHub Copilot app",
+          "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-06T19:49:34Z"
+        },
+        {
+          "id": "bf05b62ba3a52d66512f663dc07c49f2dfaa067c",
+          "title": "GitHub Copilot 应用中的斜杠命令使用指南",
+          "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
+          "source": "GitHub Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-06T19:49:34Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_2b2f00c5abe1",
+      "title": "Kimi K3 现已在 GitHub Copilot 中提供 / Kimi K3 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "Hugging Face Blog"
+        "GitHub Changelog"
       ],
-      "importance_score": 0.8255,
+      "importance_score": 0.8349,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -115,74 +161,20 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-06T00:00:00Z",
-      "earliest_at": "2026-08-06T00:00:00Z",
+      "latest_at": "2026-08-06T17:27:25Z",
+      "earliest_at": "2026-08-06T17:27:25Z",
       "sources": [
         {
-          "id": "fb000cb0e2b418ef4b8d077235fff1c6b87bb350",
-          "title": "Baseten 拥抱人脸推理提供商 🔥 / Baseten on Hugging Face Inference Providers 🔥",
-          "url": "https://huggingface.co/blog/baseten",
-          "source": "Hugging Face Blog",
+          "id": "c855fc44324bb924734d7afac3b08a717102aa19",
+          "title": "Kimi K3 现已在 GitHub Copilot 中提供 / Kimi K3 is now available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-06T00:00:00Z"
+          "published_at": "2026-08-06T17:27:25Z"
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_6cbde97d8260",
-      "title": "OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全扫描插件",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684990&idx=1&sn=86a6d71b133589916b49a9d57046c127",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684990&idx=1&sn=86a6d71b133589916b49a9d57046c127",
-      "source": "公众号：数字生命卡兹克",
-      "source_name": "AI HOT",
-      "source_count": 3,
-      "source_names": [
-        "公众号：千问APP（阿里）",
-        "公众号：卡尔的AI沃茨",
-        "公众号：数字生命卡兹克"
-      ],
-      "importance_score": 0.8098,
-      "importance_label": "多源热议",
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-06T13:25:10Z",
-      "earliest_at": "2026-08-06T01:15:29Z",
-      "sources": [
-        {
-          "id": "c110113a3a0b2a75f48bc8792fd669a704115243",
-          "title": "千问全网首发公测，全新 Wan3.0 来了！",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T13:25:10Z"
-        },
-        {
-          "id": "2c99870418ada7bf5e51f040598d4aeb8f0564d2",
-          "title": "分享10个能大幅提升vibe coding幸福感的开源App",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509213&idx=1&sn=0ee2b58388d9bdb7f3f087d5197b6f19",
-          "source": "公众号：卡尔的AI沃茨",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T01:27:00Z"
-        },
-        {
-          "id": "d2e64c07e89b4d5a04a3101508e075bf9a91c098",
-          "title": "OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全扫描插件",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684990&idx=1&sn=86a6d71b133589916b49a9d57046c127",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T01:15:29Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }

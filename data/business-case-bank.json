@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-06T14:45:06.963802Z",
+  "generated_at": "2026-08-07T00:22:52.990266Z",
   "cases": [
     {
-      "case_id": "opc_case_9f7f9783b6af",
-      "company": "Executive Interview",
+      "case_id": "opc_case_ae7fce4ea4ca",
+      "company": "CEO Interview",
       "founder": "",
       "source_refs": [
-        "biz_d90ac4ae3989"
+        "biz_c63846a91fc7"
       ],
-      "url": "https://www.cbinsights.com/research/executive-interview-outcomesai/",
-      "title": "Executive Interview: OutcomesAI",
+      "url": "https://www.cbinsights.com/research/ceo-interview-dentira/",
+      "title": "CEO Interview: Dentira",
       "business_model": "AI Business Model Innovation, Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
@@ -18,19 +18,20 @@
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
         "yuanli_startup",
-        "ftf_trust"
+        "ftf_trust",
+        "profit_container"
       ],
-      "score": 51
+      "score": 55
     },
     {
-      "case_id": "opc_case_149c684d7c9e",
+      "case_id": "opc_case_ca34760e0a59",
       "company": "CEO Interview",
       "founder": "",
       "source_refs": [
-        "biz_4b6b0c807b40"
+        "biz_67adda8a4b53"
       ],
-      "url": "https://www.cbinsights.com/research/ceo-interview-vinyl-equity/",
-      "title": "CEO Interview: Vinyl Equity",
+      "url": "https://www.cbinsights.com/research/ceo-interview-lenkie/",
+      "title": "CEO Interview: Lenkie",
       "business_model": "Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
@@ -41,17 +42,17 @@
         "yuanli_startup",
         "ftf_trust"
       ],
-      "score": 49
+      "score": 50
     },
     {
-      "case_id": "opc_case_98c71d883f05",
-      "company": "CEO Interview",
+      "case_id": "opc_case_da33734b4ad0",
+      "company": "Executive Interview",
       "founder": "",
       "source_refs": [
-        "biz_57c9f383290c"
+        "biz_02561feb8bfa"
       ],
-      "url": "https://www.cbinsights.com/research/ceo-interview-theia-insights-ltd/",
-      "title": "CEO Interview: Theia Insights Ltd",
+      "url": "https://www.cbinsights.com/research/executive-interview-neoflo-ai/",
+      "title": "Executive Interview: Neoflo AI",
       "business_model": "Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
@@ -62,47 +63,28 @@
         "yuanli_startup",
         "ftf_trust"
       ],
-      "score": 49
+      "score": 50
     },
     {
-      "case_id": "opc_case_fb6ceabebfa4",
-      "company": "Co-founders",
+      "case_id": "opc_case_7401e5e4cec5",
+      "company": "GitHub Blog",
       "founder": "",
       "source_refs": [
-        "biz_6fe42d33206b"
+        "biz_336449d6cde9"
       ],
-      "url": "https://www.indiehackers.com/post/co-founders-suck-e4116b6d72",
-      "title": "Co-founders suck…",
-      "business_model": "Founder Case, OPC",
+      "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+      "title": "How we took malware advisories beyond npm",
+      "business_model": "Founder Case, Enterprise AI Workflow",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
+      "distribution_channel": "GitHub Blog",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
-        "yuanli_startup"
+        "yuanli_asset",
+        "ftf_trust"
       ],
-      "score": 42
-    },
-    {
-      "case_id": "opc_case_a5df555cf807",
-      "company": "Building",
-      "founder": "",
-      "source_refs": [
-        "biz_b23f8f454047"
-      ],
-      "url": "https://www.indiehackers.com/post/tech/building-for-himself-and-growing-his-portfolio-to-10k-mo-1r8AaZOjxXZSB5MMAhG5",
-      "title": "Building for himself and growing his portfolio to $10k+/mo",
-      "business_model": "OPC",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup"
-      ],
-      "score": 33
+      "score": 45
     }
   ]
 }
