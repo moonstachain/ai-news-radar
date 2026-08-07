@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "b757eb20173f36e9",
+  "snapshot_id": "bf56ed30f328fd4f",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T05:10:53.967421Z",
+  "generated_at": "2026-08-07T06:41:18.385946Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 527,
-    "high_priority": 27,
+    "signals": 528,
+    "high_priority": 25,
     "briefs": 20,
-    "stories": 496
+    "stories": 495
   },
   "coverage": {
     "successful": 16,
@@ -22,9 +22,9 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 143,
-    "Info Flow": 141,
-    "TechURLs": 78,
+    "Info Flow": 146,
+    "Buzzing": 142,
+    "TechURLs": 77,
     "Zeli": 74,
     "Curated Media": 29,
     "NewsNow": 22,
@@ -46,7 +46,7 @@
         "OpenAI News",
         "openai.com"
       ],
-      "importance_score": 0.8915,
+      "importance_score": 0.8885,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -109,7 +109,7 @@
         "GitHub AI & ML",
         "GitHub Blog"
       ],
-      "importance_score": 0.8543,
+      "importance_score": 0.8509,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -153,7 +153,7 @@
       "source_names": [
         "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.853,
+      "importance_score": 0.8494,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
