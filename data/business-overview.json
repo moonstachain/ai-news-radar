@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d670f08d3f893dcd",
+  "snapshot_id": "ca2df461a6fe64f1",
   "channel": "ai-business",
-  "generated_at": "2026-08-07T16:42:53.239850Z",
+  "generated_at": "2026-08-07T17:41:34.462201Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 5,
+    "signals": 4,
     "briefs": 2,
     "clusters": 2,
-    "cases": 4
+    "cases": 3
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_0996733624b6",
+      "brief_id": "biz_brief_4a29f3afed6f",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -43,16 +43,14 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_604e28b6eb4c",
+      "brief_id": "biz_brief_7e386b2c5917",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_336449d6cde9",
         "biz_46e3c0df5ba0"
       ],
       "evidence_titles": [
-        "How we took malware advisories beyond npm",
         "A guide to slash commands in the GitHub Copilot app"
       ],
       "risk_level": "low",
@@ -65,13 +63,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_0996733624b6",
+      "id": "biz_brief_4a29f3afed6f",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_604e28b6eb4c",
+      "id": "biz_brief_7e386b2c5917",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
@@ -117,29 +115,23 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_e36f6238bbc7",
+      "cluster_id": "biz_cluster_e6d7b43ae829",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "source_count": 1,
-      "importance_score": 45,
+      "importance_score": 44,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
-        "biz_336449d6cde9",
         "biz_46e3c0df5ba0"
       ],
       "top_sources": [
-        {
-          "source": "GitHub Blog",
-          "title": "How we took malware advisories beyond npm",
-          "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/"
-        },
         {
           "source": "GitHub Blog",
           "title": "A guide to slash commands in the GitHub Copilot app",
