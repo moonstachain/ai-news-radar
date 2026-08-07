@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ab39cc6679f050e8",
+  "snapshot_id": "f98aea6009c7eae4",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T19:44:12.707922Z",
+  "generated_at": "2026-08-07T20:29:35.924155Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 584,
+    "signals": 585,
     "high_priority": 33,
     "briefs": 20,
-    "stories": 538
+    "stories": 542
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,61 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 176,
+    "Buzzing": 181,
     "Info Flow": 143,
-    "TechURLs": 85,
-    "Zeli": 69,
+    "TechURLs": 83,
+    "Zeli": 67,
     "NewsNow": 28,
-    "Curated Media": 25,
+    "Curated Media": 26,
     "AI HOT": 19,
-    "OPML RSS": 19
+    "OPML RSS": 18
   },
   "top_stories": [
+    {
+      "story_id": "story_833934ee3b25",
+      "title": "应对关键网络能力的下一个前沿领域 / Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "primary_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "openai.com"
+      ],
+      "importance_score": 0.8641,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-07T19:58:36.823000Z",
+      "earliest_at": "2026-08-07T15:20:00Z",
+      "sources": [
+        {
+          "id": "4dc1ecc054abc74f38d7891bb5d697470390768f",
+          "title": "应对关键网络能力的下一个前沿领域 / Responding to the next frontier of critical cyber capabilities",
+          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T15:20:00Z"
+        },
+        {
+          "id": "3db804f194a1d5367a65288097f89e5f7cec1bb6",
+          "title": "应对关键网络能力的下一个前沿领域",
+          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-07T19:58:36.823000Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_6cbde97d8260",
       "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
@@ -47,7 +92,7 @@
         "公众号：蚂蚁百灵（Ling）",
         "公众号：面壁智能（MiniCPM）"
       ],
-      "importance_score": 0.8623,
+      "importance_score": 0.8607,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -117,7 +162,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8553,
+      "importance_score": 0.8534,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -136,40 +181,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-07T17:53:32Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_1256b7011cc5",
-      "title": "Copilot 使用指标 API 添加代理应用程序活动 / Copilot usage metrics API adds agent app activity",
-      "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
-      "primary_url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.8484,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-07T18:20:47Z",
-      "earliest_at": "2026-08-07T18:20:47Z",
-      "sources": [
-        {
-          "id": "b5ca7b0374c5cdf52faaefed7bbfe9d814f6ea08",
-          "title": "Copilot 使用指标 API 添加代理应用程序活动 / Copilot usage metrics API adds agent app activity",
-          "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T18:20:47Z"
         }
       ],
       "confidence": "single-source"
