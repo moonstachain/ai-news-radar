@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d670f08d3f893dcd",
+  "snapshot_id": "ca2df461a6fe64f1",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T16:41:37.966429Z",
+  "generated_at": "2026-08-07T17:40:24.947416Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 553,
+    "signals": 556,
     "high_priority": 30,
     "briefs": 20,
-    "stories": 515
+    "stories": 518
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 156,
-    "Info Flow": 144,
-    "TechURLs": 81,
-    "Zeli": 72,
+    "Buzzing": 162,
+    "Info Flow": 143,
+    "TechURLs": 85,
+    "Zeli": 69,
     "NewsNow": 25,
-    "Curated Media": 23,
-    "OPML RSS": 18,
-    "AI HOT": 17
+    "Curated Media": 21,
+    "AI HOT": 17,
+    "OPML RSS": 17
   },
   "top_stories": [
     {
@@ -47,7 +47,7 @@
         "公众号：蚂蚁百灵（Ling）",
         "公众号：面壁智能（MiniCPM）"
       ],
-      "importance_score": 0.8689,
+      "importance_score": 0.8667,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -117,7 +117,7 @@
       "source_names": [
         "OpenAI News"
       ],
-      "importance_score": 0.8485,
+      "importance_score": 0.846,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -151,7 +151,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.848,
+      "importance_score": 0.8455,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [

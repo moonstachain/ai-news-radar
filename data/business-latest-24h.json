@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:42:53.239850Z",
+  "generated_at": "2026-08-07T17:41:34.462201Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-06T18:51:24Z",
-      "captured_at": "2026-08-07T16:42:53.239850Z",
+      "captured_at": "2026-08-07T17:41:34.462201Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -48,7 +48,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-06T18:21:15Z",
-      "captured_at": "2026-08-07T16:42:53.239850Z",
+      "captured_at": "2026-08-07T17:41:34.462201Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -85,7 +85,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-06T18:03:53Z",
-      "captured_at": "2026-08-07T16:42:53.239850Z",
+      "captured_at": "2026-08-07T17:41:34.462201Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -116,49 +116,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_336449d6cde9",
-      "title": "How we took malware advisories beyond npm",
-      "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-      "source_id": "github_blog",
-      "source_name": "GitHub Blog",
-      "published_at": "2026-08-06T16:51:12Z",
-      "captured_at": "2026-08-07T16:42:53.239850Z",
-      "lane": "ai_commercialization",
-      "entities": [
-        "GitHub Blog"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "Enterprise AI Workflow"
-      ],
-      "yuanli_tags": [
-        "yuanli_asset",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 8,
-      "total_score": 44,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 6,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malware advisories beyond np... Tags: Founder Case, Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_46e3c0df5ba0",
       "title": "A guide to slash commands in the GitHub Copilot app",
       "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-06T19:49:34Z",
-      "captured_at": "2026-08-07T16:42:53.239850Z",
+      "captured_at": "2026-08-07T17:41:34.462201Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
