@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "bfc05e38ed43f8c1",
+  "snapshot_id": "9997aaa458afc51d",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T11:14:56.479031Z",
+  "generated_at": "2026-08-07T12:05:30.822249Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 555,
+    "signals": 547,
     "high_priority": 35,
     "briefs": 20,
-    "stories": 518
+    "stories": 512
   },
   "coverage": {
     "successful": 16,
@@ -23,13 +23,13 @@
   ],
   "section_counts": {
     "Info Flow": 150,
-    "Buzzing": 144,
-    "TechURLs": 77,
-    "Zeli": 76,
-    "Curated Media": 28,
+    "Buzzing": 137,
+    "TechURLs": 79,
+    "Zeli": 73,
+    "Curated Media": 27,
     "NewsNow": 25,
     "AI HOT": 22,
-    "OPML RSS": 16
+    "OPML RSS": 18
   },
   "top_stories": [
     {
@@ -46,7 +46,7 @@
         "公众号：火山引擎",
         "公众号：面壁智能（MiniCPM）"
       ],
-      "importance_score": 0.8815,
+      "importance_score": 0.8795,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -116,7 +116,7 @@
       "source_names": [
         "OpenAI News"
       ],
-      "importance_score": 0.8462,
+      "importance_score": 0.8441,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -151,7 +151,7 @@
         "GitHub AI & ML",
         "GitHub Blog"
       ],
-      "importance_score": 0.8411,
+      "importance_score": 0.8393,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
