@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "aaca7c3c4e6aa296",
+  "snapshot_id": "153ffd7c7dd726c3",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T14:45:17.719276Z",
+  "generated_at": "2026-08-07T15:44:08.274193Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 527,
+    "signals": 547,
     "high_priority": 29,
     "briefs": 20,
-    "stories": 491
+    "stories": 509
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 143,
-    "Buzzing": 134,
-    "TechURLs": 75,
-    "Zeli": 73,
+    "Info Flow": 142,
+    "Buzzing": 142,
+    "TechURLs": 83,
+    "Zeli": 77,
     "Curated Media": 25,
     "NewsNow": 25,
-    "AI HOT": 17,
-    "OPML RSS": 16
+    "OPML RSS": 18,
+    "AI HOT": 16
   },
   "top_stories": [
     {
@@ -47,7 +47,7 @@
         "公众号：蚂蚁百灵（Ling）",
         "公众号：面壁智能（MiniCPM）"
       ],
-      "importance_score": 0.8733,
+      "importance_score": 0.8711,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,6 +107,40 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_10bf651dfc42",
+      "title": "GitHub 代码质量不再将 Copilot 添加为审阅者 / GitHub Code Quality no longer adds Copilot as a reviewer",
+      "url": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+      "primary_url": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.8504,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-07T15:07:25Z",
+      "earliest_at": "2026-08-07T15:07:25Z",
+      "sources": [
+        {
+          "id": "16c06fb6508c831ca57b7519d0029d33558c95e9",
+          "title": "GitHub 代码质量不再将 Copilot 添加为审阅者 / GitHub Code Quality no longer adds Copilot as a reviewer",
+          "url": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T15:07:25Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_2ee94000fec4",
       "title": "HSP GRUPPE 如何构建人工智能税务咨询能力 / How HSP GRUPPE builds AI capabilities for tax advisory",
       "url": "https://openai.com/index/hsp-gruppe",
@@ -117,7 +151,7 @@
       "source_names": [
         "OpenAI News"
       ],
-      "importance_score": 0.8376,
+      "importance_score": 0.8353,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -139,51 +173,6 @@
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_4427aa482e81",
-      "title": "GitHub Copilot 应用中的斜杠命令使用指南 / A guide to slash commands in the GitHub Copilot app",
-      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "GitHub AI & ML",
-        "GitHub Blog"
-      ],
-      "importance_score": 0.8339,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-06T19:49:34Z",
-      "earliest_at": "2026-08-06T19:49:34Z",
-      "sources": [
-        {
-          "id": "d5900b5b899d712c3656d676da0a85d7b1eabf74",
-          "title": "GitHub Copilot 应用中的斜杠命令使用指南 / A guide to slash commands in the GitHub Copilot app",
-          "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-06T19:49:34Z"
-        },
-        {
-          "id": "bf05b62ba3a52d66512f663dc07c49f2dfaa067c",
-          "title": "GitHub Copilot 应用中的斜杠命令使用指南",
-          "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
-          "source": "GitHub Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T19:49:34Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }
