@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ca2df461a6fe64f1",
+  "snapshot_id": "8acfc1aed544b851",
   "channel": "ai-business",
-  "generated_at": "2026-08-07T17:41:34.462201Z",
+  "generated_at": "2026-08-07T18:40:35.078549Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 4,
+    "signals": 2,
     "briefs": 2,
     "clusters": 2,
-    "cases": 3
+    "cases": 1
   },
   "coverage": {
     "successful": 16,
@@ -20,19 +20,15 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_4a29f3afed6f",
+      "brief_id": "biz_brief_08502a94383a",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_c63846a91fc7",
-        "biz_67adda8a4b53",
-        "biz_02561feb8bfa"
+        "biz_c63846a91fc7"
       ],
       "evidence_titles": [
-        "CEO Interview: Dentira",
-        "CEO Interview: Lenkie",
-        "Executive Interview: Neoflo AI"
+        "CEO Interview: Dentira"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -43,7 +39,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_7e386b2c5917",
+      "brief_id": "biz_brief_8758e804ba5a",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -63,13 +59,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_4a29f3afed6f",
+      "id": "biz_brief_08502a94383a",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_7e386b2c5917",
+      "id": "biz_brief_8758e804ba5a",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
@@ -77,40 +73,28 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_2339d3f759ca",
+      "cluster_id": "biz_cluster_21cdfd4440fe",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "source_count": 1,
-      "importance_score": 53,
+      "importance_score": 56,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
-        "biz_c63846a91fc7",
-        "biz_67adda8a4b53",
-        "biz_02561feb8bfa"
+        "biz_c63846a91fc7"
       ],
       "top_sources": [
         {
           "source": "CB Insights",
           "title": "CEO Interview: Dentira",
           "url": "https://www.cbinsights.com/research/ceo-interview-dentira/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: Lenkie",
-          "url": "https://www.cbinsights.com/research/ceo-interview-lenkie/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: Neoflo AI",
-          "url": "https://www.cbinsights.com/research/executive-interview-neoflo-ai/"
         }
       ]
     },
