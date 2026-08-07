@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "fa3c0f76100feea6",
+  "snapshot_id": "a03a0bdc052900df",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T21:10:35.342025Z",
+  "generated_at": "2026-08-07T22:03:53.328811Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 582,
-    "high_priority": 33,
+    "signals": 579,
+    "high_priority": 34,
     "briefs": 20,
-    "stories": 538
+    "stories": 539
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 181,
+    "Buzzing": 184,
     "Info Flow": 143,
-    "TechURLs": 81,
-    "Zeli": 65,
+    "TechURLs": 78,
+    "Zeli": 58,
+    "Curated Media": 29,
     "NewsNow": 29,
-    "Curated Media": 26,
     "AI HOT": 19,
     "OPML RSS": 18
   },
@@ -44,7 +44,7 @@
         "OpenAI News",
         "openai.com"
       ],
-      "importance_score": 0.8624,
+      "importance_score": 0.8603,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -92,7 +92,7 @@
         "公众号：蚂蚁百灵（Ling）",
         "公众号：面壁智能（MiniCPM）"
       ],
-      "importance_score": 0.8592,
+      "importance_score": 0.8574,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -162,7 +162,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8517,
+      "importance_score": 0.8495,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
