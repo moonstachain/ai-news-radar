@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T19:45:22.779004Z",
+  "generated_at": "2026-08-07T20:30:54.393951Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-07T19:10:48Z",
-      "captured_at": "2026-08-07T19:45:22.779004Z",
+      "captured_at": "2026-08-07T20:30:54.393951Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-07T18:56:20Z",
-      "captured_at": "2026-08-07T19:45:22.779004Z",
+      "captured_at": "2026-08-07T20:30:54.393951Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -73,43 +73,6 @@
         "counter_signal_value": 0
       },
       "summary": "David Hanna, CEO at Finmo Tech Pte Ltd, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Finmo operates in the... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_46e3c0df5ba0",
-      "title": "A guide to slash commands in the GitHub Copilot app",
-      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
-      "source_id": "github_blog",
-      "source_name": "GitHub Blog",
-      "published_at": "2026-08-06T19:49:34Z",
-      "captured_at": "2026-08-07T19:45:22.779004Z",
-      "lane": "ai_commercialization",
-      "entities": [
-        "GitHub Blog",
-        "GitHub Copilot"
-      ],
-      "business_model_tags": [
-        "AI Business Model Innovation",
-        "Enterprise AI Workflow"
-      ],
-      "yuanli_tags": [
-        "yuanli_asset",
-        "yuanli_os"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 42,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 8,
-        "business_model_value": 7,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow. The post A guide to slash commands in the GitHub Copilot app appeared fir... Tags: AI Business Model Innovation, Enterprise AI Workflow.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     }
