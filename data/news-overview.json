@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "bf56ed30f328fd4f",
+  "snapshot_id": "e2c1de49b0618919",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T06:41:18.385946Z",
+  "generated_at": "2026-08-07T08:06:15.210987Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 528,
-    "high_priority": 25,
+    "signals": 548,
+    "high_priority": 34,
     "briefs": 20,
-    "stories": 495
+    "stories": 512
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 146,
-    "Buzzing": 142,
-    "TechURLs": 77,
-    "Zeli": 74,
+    "Info Flow": 150,
+    "Buzzing": 144,
+    "TechURLs": 76,
+    "Zeli": 73,
     "Curated Media": 29,
-    "NewsNow": 22,
-    "AI HOT": 18,
+    "NewsNow": 25,
+    "AI HOT": 21,
     "OPML RSS": 13
   },
   "top_stories": [
@@ -46,7 +46,7 @@
         "OpenAI News",
         "openai.com"
       ],
-      "importance_score": 0.8885,
+      "importance_score": 0.8858,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -98,6 +98,69 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_6cbde97d8260",
+      "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
+      "source": "公众号：火山引擎",
+      "source_name": "AI HOT",
+      "source_count": 4,
+      "source_names": [
+        "公众号：千问APP（阿里）",
+        "公众号：火山引擎",
+        "公众号：面壁智能（MiniCPM）"
+      ],
+      "importance_score": 0.8643,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-07T06:41:21Z",
+      "earliest_at": "2026-08-06T13:25:10Z",
+      "sources": [
+        {
+          "id": "4308e87bf2f6e7113425e138acd3b37426bbd145",
+          "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
+          "source": "公众号：面壁智能（MiniCPM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T06:41:21Z"
+        },
+        {
+          "id": "87b09f41ca563f02768c82cc2557933ed9f775dd",
+          "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T06:01:45Z"
+        },
+        {
+          "id": "2d73ce4a13ace600c29323dbd667f512dcec622e",
+          "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
+          "source": "公众号：千问APP（阿里）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T02:04:51Z"
+        },
+        {
+          "id": "c110113a3a0b2a75f48bc8792fd669a704115243",
+          "title": "千问全网首发公测，全新 Wan3.0 来了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
+          "source": "公众号：千问APP（阿里）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-06T13:25:10Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
       "story_id": "story_4427aa482e81",
       "title": "GitHub Copilot 应用中的斜杠命令使用指南 / A guide to slash commands in the GitHub Copilot app",
       "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
@@ -109,7 +172,7 @@
         "GitHub AI & ML",
         "GitHub Blog"
       ],
-      "importance_score": 0.8509,
+      "importance_score": 0.8478,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -141,40 +204,6 @@
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.147.0 / Codex CLI 0.147.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "importance_score": 0.8494,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-07T00:00:00Z",
-      "earliest_at": "2026-08-07T00:00:00Z",
-      "sources": [
-        {
-          "id": "b3ad943613d971383ab781d0f38a0b1ca858303e",
-          "title": "法典 CLI 0.147.0 / Codex CLI 0.147.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T00:00:00Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }
