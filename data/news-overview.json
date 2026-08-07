@@ -1,103 +1,37 @@
 {
   "schema_version": 1,
-  "snapshot_id": "daeb2eae85949a3b",
+  "snapshot_id": "1abcb9d2b364f973",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T09:30:19.810745Z",
+  "generated_at": "2026-08-07T10:26:36.992016Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 559,
-    "high_priority": 36,
+    "signals": 550,
+    "high_priority": 35,
     "briefs": 20,
-    "stories": 523
+    "stories": 513
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 17,
-    "failed": 2,
-    "ratio": 0.8824,
+    "failed": 1,
+    "ratio": 0.9412,
     "status": "healthy"
   },
   "failed_sources": [
-    "aibreakfast",
-    "newsnow"
+    "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 154,
-    "Buzzing": 144,
-    "TechURLs": 78,
-    "Zeli": 77,
-    "Curated Media": 30,
-    "NewsNow": 26,
-    "AI HOT": 21,
-    "Follow Builders": 11
+    "Info Flow": 147,
+    "Buzzing": 145,
+    "TechURLs": 81,
+    "Zeli": 76,
+    "Curated Media": 28,
+    "AI HOT": 22,
+    "NewsNow": 20,
+    "OPML RSS": 14
   },
   "top_stories": [
-    {
-      "story_id": "story_0f0c1961f93e",
-      "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限 / Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "primary_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 4,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "OpenAI News",
-        "openai.com"
-      ],
-      "importance_score": 0.8832,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-06T23:01:28.628000Z",
-      "earliest_at": "2026-08-06T10:00:00Z",
-      "sources": [
-        {
-          "id": "f93ec6f48fe52e81c65afa79e0da2ba5fffd251c",
-          "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限 / Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-06T10:00:00Z"
-        },
-        {
-          "id": "f71ed3ff4eb803dbb4d165a443499c1ef51cabb7",
-          "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限",
-          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-06T23:01:28.628000Z"
-        },
-        {
-          "id": "55069910b2b7c6cbbd5a1bfea11d6b412a3b7095",
-          "title": "优化 ChatGPT 中的 GPT‑5.6 Sol，并扩大免费用户对 GPT‑5.6 Luna 的访问权限",
-          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-06T23:01:28.628000Z"
-        },
-        {
-          "id": "006698dd9d730d1e3a747fe3a98049a45f8b2803",
-          "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限 / Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
-          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-06T17:02:04Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
     {
       "story_id": "story_6cbde97d8260",
       "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
@@ -105,13 +39,14 @@
       "primary_url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
       "source": "公众号：火山引擎",
       "source_name": "AI HOT",
-      "source_count": 4,
+      "source_count": 5,
       "source_names": [
         "公众号：千问APP（阿里）",
+        "公众号：小红书技术（dots.llm）",
         "公众号：火山引擎",
         "公众号：面壁智能（MiniCPM）"
       ],
-      "importance_score": 0.8608,
+      "importance_score": 0.8835,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -119,9 +54,18 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-07T06:41:21Z",
+      "latest_at": "2026-08-07T09:59:00Z",
       "earliest_at": "2026-08-06T13:25:10Z",
       "sources": [
+        {
+          "id": "c2e0ad32857b9ad4cff6e70f1c62a42bd11ea88a",
+          "title": "小红书联合浙大、复旦提出 CULTURE-MT：首个面向社媒翻译的「文化有效性」评测基准，入选 ICML 2026",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496008&idx=1&sn=08f2ce717483f63bc00a2181e59e3f40",
+          "source": "公众号：小红书技术（dots.llm）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-07T09:59:00Z"
+        },
         {
           "id": "4308e87bf2f6e7113425e138acd3b37426bbd145",
           "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
@@ -162,6 +106,40 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_2ee94000fec4",
+      "title": "HSP GRUPPE 如何构建人工智能税务咨询能力 / How HSP GRUPPE builds AI capabilities for tax advisory",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "primary_url": "https://openai.com/index/hsp-gruppe",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "importance_score": 0.8483,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-07T09:00:00Z",
+      "earliest_at": "2026-08-07T09:00:00Z",
+      "sources": [
+        {
+          "id": "678a4bd8bf5d6a1b6b3855f41fa13940c1b075a2",
+          "title": "HSP GRUPPE 如何构建人工智能税务咨询能力 / How HSP GRUPPE builds AI capabilities for tax advisory",
+          "url": "https://openai.com/index/hsp-gruppe",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T09:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_4427aa482e81",
       "title": "GitHub Copilot 应用中的斜杠命令使用指南 / A guide to slash commands in the GitHub Copilot app",
       "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
@@ -173,7 +151,7 @@
         "GitHub AI & ML",
         "GitHub Blog"
       ],
-      "importance_score": 0.8447,
+      "importance_score": 0.8427,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
