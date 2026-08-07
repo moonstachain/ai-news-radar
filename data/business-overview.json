@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "8acfc1aed544b851",
+  "snapshot_id": "ab39cc6679f050e8",
   "channel": "ai-business",
-  "generated_at": "2026-08-07T18:40:35.078549Z",
+  "generated_at": "2026-08-07T19:45:22.779004Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 2,
+    "signals": 3,
     "briefs": 2,
     "clusters": 2,
-    "cases": 1
+    "cases": 2
   },
   "coverage": {
     "successful": 16,
@@ -20,15 +20,17 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_08502a94383a",
+      "brief_id": "biz_brief_07262bcb8444",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_c63846a91fc7"
+        "biz_e6b041d5ea7b",
+        "biz_dbcce9b43161"
       ],
       "evidence_titles": [
-        "CEO Interview: Dentira"
+        "CEO Interview: XO Life",
+        "CEO Interview: Finmo"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -39,7 +41,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_8758e804ba5a",
+      "brief_id": "biz_brief_a32e34c3958f",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -59,13 +61,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_08502a94383a",
+      "id": "biz_brief_07262bcb8444",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_8758e804ba5a",
+      "id": "biz_brief_a32e34c3958f",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
@@ -73,28 +75,34 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_21cdfd4440fe",
+      "cluster_id": "biz_cluster_ee020578a4de",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "source_count": 1,
-      "importance_score": 56,
+      "importance_score": 52,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
-        "biz_c63846a91fc7"
+        "biz_e6b041d5ea7b",
+        "biz_dbcce9b43161"
       ],
       "top_sources": [
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Dentira",
-          "url": "https://www.cbinsights.com/research/ceo-interview-dentira/"
+          "title": "CEO Interview: XO Life",
+          "url": "https://www.cbinsights.com/research/ceo-interview-xo-life/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: Finmo",
+          "url": "https://www.cbinsights.com/research/ceo-interview-finmo/"
         }
       ]
     },

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-07T18:40:35.078549Z",
+  "generated_at": "2026-08-07T19:45:22.779004Z",
   "cases": [
     {
-      "case_id": "opc_case_ae7fce4ea4ca",
+      "case_id": "opc_case_f9227d2b8291",
       "company": "CEO Interview",
       "founder": "",
       "source_refs": [
-        "biz_c63846a91fc7"
+        "biz_e6b041d5ea7b"
       ],
-      "url": "https://www.cbinsights.com/research/ceo-interview-dentira/",
-      "title": "CEO Interview: Dentira",
-      "business_model": "AI Business Model Innovation, Founder Case",
+      "url": "https://www.cbinsights.com/research/ceo-interview-xo-life/",
+      "title": "CEO Interview: XO Life",
+      "business_model": "Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
@@ -18,10 +18,30 @@
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
         "yuanli_startup",
-        "ftf_trust",
-        "profit_container"
+        "ftf_trust"
       ],
-      "score": 54
+      "score": 50
+    },
+    {
+      "case_id": "opc_case_a072aa225fc1",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_dbcce9b43161"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-finmo/",
+      "title": "CEO Interview: Finmo",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     }
   ]
 }
