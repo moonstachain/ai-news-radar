@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "bfa623d235ac5e58",
+  "snapshot_id": "a54aebe72a06ae4a",
   "channel": "ai-news",
-  "generated_at": "2026-08-08T20:55:58.693043Z",
+  "generated_at": "2026-08-08T21:20:30.885519Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 311,
-    "high_priority": 17,
+    "signals": 302,
+    "high_priority": 16,
     "briefs": 20,
-    "stories": 287
+    "stories": 278
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 106,
+    "Buzzing": 101,
     "Info Flow": 81,
-    "Zeli": 36,
-    "TechURLs": 32,
+    "Zeli": 37,
+    "TechURLs": 29,
     "NewsNow": 18,
-    "Curated Media": 17,
+    "Curated Media": 16,
     "AI HOT": 7,
     "OPML RSS": 5
   },
@@ -46,7 +46,7 @@
         "Simon Willison",
         "simonwillison.net"
       ],
-      "importance_score": 0.86,
+      "importance_score": 0.859,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,7 +107,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8036,
+      "importance_score": 0.8029,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -142,7 +142,7 @@
         "The Decoder AI News",
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7868,
+      "importance_score": 0.7858,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
