@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T11:00:45.211411Z",
+  "generated_at": "2026-08-08T11:24:13.031383Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-07T19:10:48Z",
-      "captured_at": "2026-08-08T11:00:45.211411Z",
+      "captured_at": "2026-08-08T11:24:13.031383Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-07T18:56:20Z",
-      "captured_at": "2026-08-08T11:00:45.211411Z",
+      "captured_at": "2026-08-08T11:24:13.031383Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -75,6 +75,43 @@
       "summary": "David Hanna, CEO at Finmo Tech Pte Ltd, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Finmo operates in the... Tags: Founder Case.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_bfd1c4b589b8",
+      "title": "Built EmotifyAI to a live product with real users. Now looking to hand it off.",
+      "url": "https://www.indiehackers.com/post/built-emotifyai-to-a-live-product-with-real-users-now-looking-to-hand-it-off-3f9065da8d",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-08T07:13:18.532000Z",
+      "captured_at": "2026-08-08T11:24:13.031383Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Built EmotifyAI",
+        "Now"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 40,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Built EmotifyAI to a live product with real users. Now looking to hand it off. Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     }
   ]
 }
