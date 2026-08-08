@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d0abe38e22f4e23c",
+  "snapshot_id": "c7e957e122a43c6f",
   "channel": "ai-business",
-  "generated_at": "2026-08-08T19:10:33.302905Z",
+  "generated_at": "2026-08-08T19:52:16.282590Z",
   "window_hours": 24,
-  "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+  "decision": "Prioritize evidence with concrete economics, repeatable distribution, and explicit counter-signals.",
   "metrics": {
-    "signals": 1,
-    "briefs": 1,
-    "clusters": 1,
-    "cases": 1
+    "signals": 0,
+    "briefs": 0,
+    "clusters": 0,
+    "cases": 0
   },
   "coverage": {
     "successful": 16,
@@ -18,61 +18,7 @@
     "ratio": 0.6154,
     "status": "limited"
   },
-  "brief": [
-    {
-      "brief_id": "biz_brief_8d2973ebe506",
-      "rank": 1,
-      "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_e6b041d5ea7b"
-      ],
-      "evidence_titles": [
-        "CEO Interview: XO Life"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "recommended_action": "Convert high-score founder cases into FTF credible story assets."
-    }
-  ],
-  "actions": [
-    {
-      "id": "biz_brief_8d2973ebe506",
-      "label": "Brief #1",
-      "title": "Convert high-score founder cases into FTF credible story assets.",
-      "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
-    }
-  ],
-  "clusters": [
-    {
-      "cluster_id": "biz_cluster_93179e12e285",
-      "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "lane": "founder_case",
-      "source_count": 1,
-      "importance_score": 51,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
-      "evidence_refs": [
-        "biz_e6b041d5ea7b"
-      ],
-      "top_sources": [
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: XO Life",
-          "url": "https://www.cbinsights.com/research/ceo-interview-xo-life/"
-        }
-      ]
-    }
-  ]
+  "brief": [],
+  "actions": [],
+  "clusters": []
 }
