@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:54:49.454027Z",
+  "generated_at": "2026-08-08T16:22:00.024406Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-07T19:10:48Z",
-      "captured_at": "2026-08-08T15:54:49.454027Z",
+      "captured_at": "2026-08-08T16:22:00.024406Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-07T18:56:20Z",
-      "captured_at": "2026-08-08T15:54:49.454027Z",
+      "captured_at": "2026-08-08T16:22:00.024406Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -75,42 +75,6 @@
       "summary": "David Hanna, CEO at Finmo Tech Pte Ltd, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Finmo operates in the... Tags: Founder Case.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_d7ed845631f4",
-      "title": "What finally made you stop handling customer updates manually?",
-      "url": "https://www.indiehackers.com/post/what-finally-made-you-stop-handling-customer-updates-manually-014d93bd59",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-08T05:04:09.948000Z",
-      "captured_at": "2026-08-08T15:54:49.454027Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "What"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 42,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "What finally made you stop handling customer updates manually? Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
     }
   ]
 }

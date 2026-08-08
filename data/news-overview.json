@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e0e0e6a468c1c3bc",
+  "snapshot_id": "4c3c4718af0e7e4d",
   "channel": "ai-news",
-  "generated_at": "2026-08-08T15:53:46.481612Z",
+  "generated_at": "2026-08-08T16:20:34.722493Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 400,
+    "signals": 389,
     "high_priority": 31,
     "briefs": 20,
-    "stories": 366
+    "stories": 357
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 128,
-    "Info Flow": 75,
-    "TechURLs": 57,
-    "Zeli": 49,
-    "Curated Media": 26,
+    "Buzzing": 127,
+    "Info Flow": 77,
+    "TechURLs": 53,
+    "Zeli": 44,
+    "Curated Media": 25,
     "NewsNow": 20,
     "AI HOT": 11,
     "Follow Builders": 11
@@ -46,7 +46,7 @@
         "Simon Willison",
         "simonwillison.net"
       ],
-      "importance_score": 0.8724,
+      "importance_score": 0.8712,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,7 +107,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8136,
+      "importance_score": 0.8127,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -141,7 +141,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.811,
+      "importance_score": 0.8102,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
