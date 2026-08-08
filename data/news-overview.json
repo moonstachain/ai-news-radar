@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "785702219d0be674",
+  "snapshot_id": "76b5d70d10bdab1d",
   "channel": "ai-news",
-  "generated_at": "2026-08-07T23:55:53.788532Z",
+  "generated_at": "2026-08-08T00:47:39.303990Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 566,
-    "high_priority": 36,
+    "signals": 561,
+    "high_priority": 33,
     "briefs": 20,
-    "stories": 525
+    "stories": 520
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 173,
-    "Info Flow": 139,
+    "Buzzing": 176,
+    "Info Flow": 140,
     "TechURLs": 76,
-    "Zeli": 58,
-    "NewsNow": 30,
+    "Zeli": 55,
     "Curated Media": 29,
-    "AI HOT": 20,
-    "OPML RSS": 19
+    "NewsNow": 26,
+    "OPML RSS": 20,
+    "AI HOT": 18
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "OpenAI News",
         "openai.com"
       ],
-      "importance_score": 0.856,
+      "importance_score": 0.854,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -92,7 +92,7 @@
         "公众号：蚂蚁百灵（Ling）",
         "公众号：面壁智能（MiniCPM）"
       ],
-      "importance_score": 0.8536,
+      "importance_score": 0.8519,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -152,17 +152,17 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_fd5b733b3580",
-      "title": "TutorMoments：人工智能导师知道什么时候该帮忙，什么时候该阻止吗？ / TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "url": "https://huggingface.co/blog/allenai/tutormoments",
-      "primary_url": "https://huggingface.co/blog/allenai/tutormoments",
-      "source": "Hugging Face Blog",
+      "story_id": "story_413964f479f7",
+      "title": "GitHub Copilot 每周发布 — 8 月 3 日 / GitHub Copilot weekly releases — August 3",
+      "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+      "primary_url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "Hugging Face Blog"
+        "GitHub Changelog"
       ],
-      "importance_score": 0.845,
+      "importance_score": 0.8481,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -170,17 +170,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-07T17:53:32Z",
-      "earliest_at": "2026-08-07T17:53:32Z",
+      "latest_at": "2026-08-07T23:16:02Z",
+      "earliest_at": "2026-08-07T23:16:02Z",
       "sources": [
         {
-          "id": "99d393e8e93ddbc7c75db81d11dde4db00583792",
-          "title": "TutorMoments：人工智能导师知道什么时候该帮忙，什么时候该阻止吗？ / TutorMoments: Do AI tutors know when to help and when to hold back?",
-          "url": "https://huggingface.co/blog/allenai/tutormoments",
-          "source": "Hugging Face Blog",
+          "id": "cd9e9649a324d072f3aad152dc6e75c564295c1f",
+          "title": "GitHub Copilot 每周发布 — 8 月 3 日 / GitHub Copilot weekly releases — August 3",
+          "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-07T17:53:32Z"
+          "published_at": "2026-08-07T23:16:02Z"
         }
       ],
       "confidence": "single-source"
