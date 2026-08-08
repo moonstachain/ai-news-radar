@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ce2a0f0272620dae",
+  "snapshot_id": "da291b60111c7af2",
   "channel": "ai-news",
-  "generated_at": "2026-08-08T14:56:37.220608Z",
+  "generated_at": "2026-08-08T15:19:40.301593Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
     "signals": 406,
-    "high_priority": 30,
+    "high_priority": 32,
     "briefs": 20,
-    "stories": 377
+    "stories": 373
   },
   "coverage": {
     "successful": 16,
@@ -24,14 +24,78 @@
   "section_counts": {
     "Buzzing": 134,
     "Info Flow": 78,
-    "TechURLs": 59,
-    "Zeli": 45,
+    "TechURLs": 55,
+    "Zeli": 47,
     "Curated Media": 26,
-    "NewsNow": 18,
-    "OPML RSS": 13,
+    "NewsNow": 20,
+    "AI HOT": 11,
     "Follow Builders": 11
   },
   "top_stories": [
+    {
+      "story_id": "story_0e629a938b0d",
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "primary_url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 4,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "Simon Willison",
+        "simonwillison.net"
+      ],
+      "importance_score": 0.8738,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-08T14:38:40.439000Z",
+      "earliest_at": "2026-08-07T23:55:58Z",
+      "sources": [
+        {
+          "id": "6f1d927bf0a65acd269f03155a05af3e9253eaa2",
+          "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+          "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-08T14:38:40.439000Z"
+        },
+        {
+          "id": "755cf1d31d3794e0d339f6d6320d0a8565153f25",
+          "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉 / Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+          "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+          "source": "Simon Willison",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T23:55:58Z"
+        },
+        {
+          "id": "64fa3f9e49363fc2819186bd8757cd00d59a6545",
+          "title": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线",
+          "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+          "source": "simonwillison.net",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-08T14:38:40.439000Z"
+        },
+        {
+          "id": "5b015116aed6ce47d6c5207632a67bb607bab9cd",
+          "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉 / Timeline of the OpenAI accidental attack against Hugging Face",
+          "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-08T10:57:44Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_833934ee3b25",
       "title": "应对关键网络能力的下一个前沿领域 / Responding to the next frontier of critical cyber capabilities",
@@ -44,7 +108,7 @@
         "OpenAI News",
         "openai.com"
       ],
-      "importance_score": 0.825,
+      "importance_score": 0.8243,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +152,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8155,
+      "importance_score": 0.8147,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -107,40 +171,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-07T23:16:02Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_fd5b733b3580",
-      "title": "TutorMoments：人工智能导师知道什么时候该帮忙，什么时候该阻止吗？ / TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "url": "https://huggingface.co/blog/allenai/tutormoments",
-      "primary_url": "https://huggingface.co/blog/allenai/tutormoments",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "importance_score": 0.8128,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-07T17:53:32Z",
-      "earliest_at": "2026-08-07T17:53:32Z",
-      "sources": [
-        {
-          "id": "99d393e8e93ddbc7c75db81d11dde4db00583792",
-          "title": "TutorMoments：人工智能导师知道什么时候该帮忙，什么时候该阻止吗？ / TutorMoments: Do AI tutors know when to help and when to hold back?",
-          "url": "https://huggingface.co/blog/allenai/tutormoments",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T17:53:32Z"
         }
       ],
       "confidence": "single-source"
