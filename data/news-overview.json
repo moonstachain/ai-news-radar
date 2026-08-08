@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "da291b60111c7af2",
+  "snapshot_id": "e0e0e6a468c1c3bc",
   "channel": "ai-news",
-  "generated_at": "2026-08-08T15:19:40.301593Z",
+  "generated_at": "2026-08-08T15:53:46.481612Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 406,
-    "high_priority": 32,
+    "signals": 400,
+    "high_priority": 31,
     "briefs": 20,
-    "stories": 373
+    "stories": 366
   },
   "coverage": {
     "successful": 16,
@@ -22,10 +22,10 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 134,
-    "Info Flow": 78,
-    "TechURLs": 55,
-    "Zeli": 47,
+    "Buzzing": 128,
+    "Info Flow": 75,
+    "TechURLs": 57,
+    "Zeli": 49,
     "Curated Media": 26,
     "NewsNow": 20,
     "AI HOT": 11,
@@ -46,7 +46,7 @@
         "Simon Willison",
         "simonwillison.net"
       ],
-      "importance_score": 0.8738,
+      "importance_score": 0.8724,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -97,51 +97,6 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_833934ee3b25",
-      "title": "应对关键网络能力的下一个前沿领域 / Responding to the next frontier of critical cyber capabilities",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "primary_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "openai.com"
-      ],
-      "importance_score": 0.8243,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-07T19:58:36.823000Z",
-      "earliest_at": "2026-08-07T15:20:00Z",
-      "sources": [
-        {
-          "id": "4dc1ecc054abc74f38d7891bb5d697470390768f",
-          "title": "应对关键网络能力的下一个前沿领域 / Responding to the next frontier of critical cyber capabilities",
-          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T15:20:00Z"
-        },
-        {
-          "id": "3db804f194a1d5367a65288097f89e5f7cec1bb6",
-          "title": "应对关键网络能力的下一个前沿领域",
-          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-07T19:58:36.823000Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
       "story_id": "story_413964f479f7",
       "title": "GitHub Copilot 每周发布 — 8 月 3 日 / GitHub Copilot weekly releases — August 3",
       "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
@@ -152,7 +107,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8147,
+      "importance_score": 0.8136,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -171,6 +126,40 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-07T23:16:02Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_fd5b733b3580",
+      "title": "TutorMoments：人工智能导师知道什么时候该帮忙，什么时候该阻止吗？ / TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "primary_url": "https://huggingface.co/blog/allenai/tutormoments",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "importance_score": 0.811,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-07T17:53:32Z",
+      "earliest_at": "2026-08-07T17:53:32Z",
+      "sources": [
+        {
+          "id": "99d393e8e93ddbc7c75db81d11dde4db00583792",
+          "title": "TutorMoments：人工智能导师知道什么时候该帮忙，什么时候该阻止吗？ / TutorMoments: Do AI tutors know when to help and when to hold back?",
+          "url": "https://huggingface.co/blog/allenai/tutormoments",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-07T17:53:32Z"
         }
       ],
       "confidence": "single-source"
