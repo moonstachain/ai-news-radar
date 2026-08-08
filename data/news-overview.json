@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "4b1af794a5f24357",
+  "snapshot_id": "1e62ae04cd004fc8",
   "channel": "ai-news",
-  "generated_at": "2026-08-08T17:31:00.793225Z",
+  "generated_at": "2026-08-08T17:58:49.945325Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 360,
-    "high_priority": 29,
+    "signals": 350,
+    "high_priority": 26,
     "briefs": 20,
-    "stories": 331
+    "stories": 325
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 115,
+    "Buzzing": 114,
     "Info Flow": 74,
-    "TechURLs": 46,
     "Zeli": 42,
-    "Curated Media": 23,
+    "TechURLs": 41,
+    "Curated Media": 22,
     "NewsNow": 20,
-    "AI HOT": 11,
+    "AI HOT": 10,
     "Follow Builders": 9
   },
   "top_stories": [
@@ -46,7 +46,7 @@
         "Simon Willison",
         "simonwillison.net"
       ],
-      "importance_score": 0.8683,
+      "importance_score": 0.8671,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,7 +107,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8103,
+      "importance_score": 0.8094,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -131,38 +131,48 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_fd5b733b3580",
-      "title": "TutorMoments：人工智能导师知道什么时候该帮忙，什么时候该阻止吗？ / TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "url": "https://huggingface.co/blog/allenai/tutormoments",
-      "primary_url": "https://huggingface.co/blog/allenai/tutormoments",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
+      "story_id": "story_63a050836097",
+      "title": "Anthropic 将 Claude Code 默认设为 Auto Mode，以防开发者误批准危险操作",
+      "url": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals",
+      "primary_url": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 2,
       "source_names": [
-        "Hugging Face Blog"
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.808,
-      "importance_label": "官方更新",
-      "category": "official",
+      "importance_score": 0.794,
+      "importance_label": "行业动态",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-07T17:53:32Z",
-      "earliest_at": "2026-08-07T17:53:32Z",
+      "latest_at": "2026-08-08T14:58:57Z",
+      "earliest_at": "2026-08-08T14:58:57Z",
       "sources": [
         {
-          "id": "99d393e8e93ddbc7c75db81d11dde4db00583792",
-          "title": "TutorMoments：人工智能导师知道什么时候该帮忙，什么时候该阻止吗？ / TutorMoments: Do AI tutors know when to help and when to hold back?",
-          "url": "https://huggingface.co/blog/allenai/tutormoments",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-07T17:53:32Z"
+          "id": "82658c2944fcf33914f9377e87c83701a049d799",
+          "title": "Anthropic 将 Claude Code 默认设为 Auto Mode，以防开发者误批准危险操作",
+          "url": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-08T14:58:57Z"
+        },
+        {
+          "id": "15f73adf38fa9b69a2b7b1147fc8c89355e097fe",
+          "title": "Anthropic 将 Claude Code 默认设为 Auto Mode，以防开发者误批准危险操作 / Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals",
+          "url": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-08T14:58:57Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }
