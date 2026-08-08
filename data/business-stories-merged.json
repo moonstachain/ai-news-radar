@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T11:00:45.211411Z",
+  "generated_at": "2026-08-08T11:24:13.031383Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_ee020578a4de",
@@ -34,6 +34,35 @@
           "source": "CB Insights",
           "title": "CEO Interview: Finmo",
           "url": "https://www.cbinsights.com/research/ceo-interview-finmo/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_edce43b3e9bd",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "signal_ids": [
+        "biz_bfd1c4b589b8"
+      ],
+      "source_count": 1,
+      "importance_score": 42,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_bfd1c4b589b8"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "Built EmotifyAI to a live product with real users. Now looking to hand it off.",
+          "url": "https://www.indiehackers.com/post/built-emotifyai-to-a-live-product-with-real-users-now-looking-to-hand-it-off-3f9065da8d"
         }
       ]
     }
