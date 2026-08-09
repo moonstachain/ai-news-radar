@@ -1,5 +1,41 @@
 {
-  "generated_at": "2026-08-09T19:56:02.066916Z",
+  "generated_at": "2026-08-09T20:22:37.572563Z",
   "window_hours": 24,
-  "items": []
+  "items": [
+    {
+      "signal_id": "biz_65255f781daa",
+      "title": "I built a churn-prevention tool, then deleted the billing code and made it free",
+      "url": "https://www.indiehackers.com/post/i-built-a-churn-prevention-tool-then-deleted-the-billing-code-and-made-it-free-2fb1fc16d1",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-09T10:13:21.531000Z",
+      "captured_at": "2026-08-09T20:22:37.572563Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 40,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "I built a churn-prevention tool, then deleted the billing code and made it free Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    }
+  ]
 }
