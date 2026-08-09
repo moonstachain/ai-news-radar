@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "fbf7f6465cdb0d01",
+  "snapshot_id": "88a4babe80885c3c",
   "channel": "ai-news",
-  "generated_at": "2026-08-09T10:03:30.232179Z",
+  "generated_at": "2026-08-09T11:00:23.744835Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 327,
-    "high_priority": 18,
+    "signals": 328,
+    "high_priority": 19,
     "briefs": 20,
-    "stories": 301
+    "stories": 303
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 93,
-    "Info Flow": 83,
-    "Zeli": 51,
-    "TechURLs": 29,
-    "NewsNow": 27,
+    "Buzzing": 94,
+    "Info Flow": 86,
+    "Zeli": 46,
+    "NewsNow": 29,
+    "TechURLs": 26,
+    "Curated Media": 13,
     "Follow Builders": 13,
-    "Curated Media": 12,
-    "AI HOT": 7
+    "AI HOT": 8
   },
   "top_stories": [
     {
@@ -39,25 +39,21 @@
       "primary_url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
-      "source_count": 7,
+      "source_count": 2,
       "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
-        "Simon Willison",
-        "hackernews",
         "simonwillison.net"
       ],
-      "importance_score": 0.8566,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.7797,
+      "importance_label": "行业动态",
+      "category": "industry",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-08T14:57:10.080000Z",
-      "earliest_at": "2026-08-08T10:57:44Z",
+      "latest_at": "2026-08-08T14:38:40.439000Z",
+      "earliest_at": "2026-08-08T14:38:40.439000Z",
       "sources": [
         {
           "id": "6f1d927bf0a65acd269f03155a05af3e9253eaa2",
@@ -69,24 +65,6 @@
           "published_at": "2026-08-08T14:38:40.439000Z"
         },
         {
-          "id": "bc60dfc47cca456c2dafc164f87626edfbc7b050",
-          "title": "现在我们有了 OpenAI 对 Hugging Face 意外攻击的时间表 / Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-          "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h",
-          "source": "Simon Willison",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-08T14:06:41Z"
-        },
-        {
-          "id": "b5fc60704b2aa5162388492b379dd00d2b12aea4",
-          "title": "OpenAI 对 Hugging Face 的意外攻击的时间线 / Timeline of the OpenAI accidental attack against Hugging Face",
-          "url": "https://news.ycombinator.com/item?id=49220609",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-08T14:57:10.080000Z"
-        },
-        {
           "id": "64fa3f9e49363fc2819186bd8757cd00d59a6545",
           "title": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线",
           "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
@@ -94,33 +72,6 @@
           "source_name": "Buzzing",
           "site_id": "buzzing",
           "published_at": "2026-08-08T14:38:40.439000Z"
-        },
-        {
-          "id": "4d15169b132bea5df501427ef44496c13ad48c19",
-          "title": "现在我们有了 OpenAI 对 Hugging Face 意外攻击的时间表 / Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-          "url": "https://news.ycombinator.com/item?id=49220609",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-08T11:53:56.321000Z"
-        },
-        {
-          "id": "29407e5727109cce76c77d1f73cb883e658a308f",
-          "title": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线 / Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-          "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-08T10:57:44Z"
-        },
-        {
-          "id": "5f517648bf2c7bf6013bdff103610531a35b52c5",
-          "title": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线 / Timeline of the OpenAI accidental attack against Hugging Face",
-          "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-08T10:57:44Z"
         }
       ],
       "confidence": "multi-source"
@@ -137,7 +88,7 @@
         "The Decoder AI News",
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7583,
+      "importance_score": 0.7564,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -181,7 +132,7 @@
         "IT之家 (ITHome)",
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7556,
+      "importance_score": 0.7538,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
