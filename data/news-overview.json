@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "6ed03a654d94dfc6",
+  "snapshot_id": "a47dbbed5e6c4e28",
   "channel": "ai-news",
-  "generated_at": "2026-08-09T23:23:49.404173Z",
+  "generated_at": "2026-08-09T23:56:29.094432Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 349,
+    "signals": 352,
     "high_priority": 10,
     "briefs": 20,
-    "stories": 319
+    "stories": 321
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 96,
-    "Info Flow": 86,
-    "Zeli": 73,
-    "NewsNow": 34,
-    "TechURLs": 27,
+    "Buzzing": 95,
+    "Info Flow": 85,
+    "Zeli": 75,
+    "NewsNow": 35,
+    "TechURLs": 28,
     "Curated Media": 12,
     "Hacker News": 8,
     "AI HOT": 6
@@ -44,7 +44,7 @@
         "TechCrunch AI",
         "TechCrunch：AI（RSS）"
       ],
-      "importance_score": 0.7919,
+      "importance_score": 0.7907,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +87,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7639,
+      "importance_score": 0.7625,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -120,7 +120,7 @@
       "source_names": [
         "X：Boris Cherny (@bcherny)"
       ],
-      "importance_score": 0.7494,
+      "importance_score": 0.7481,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
