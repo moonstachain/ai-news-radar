@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "249d436089f1b08f",
+  "snapshot_id": "f7cb5558c3efd995",
   "channel": "ai-news",
-  "generated_at": "2026-08-09T21:32:13.638002Z",
+  "generated_at": "2026-08-09T22:19:52.291786Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 352,
-    "high_priority": 11,
+    "signals": 353,
+    "high_priority": 10,
     "briefs": 20,
-    "stories": 322
+    "stories": 323
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 95,
-    "Info Flow": 89,
-    "Zeli": 71,
+    "Buzzing": 97,
+    "Info Flow": 86,
+    "Zeli": 76,
     "NewsNow": 34,
-    "TechURLs": 29,
+    "TechURLs": 27,
     "Curated Media": 12,
     "Hacker News": 7,
     "AI HOT": 6
@@ -44,7 +44,7 @@
         "TechCrunch AI",
         "TechCrunch：AI（RSS）"
       ],
-      "importance_score": 0.7962,
+      "importance_score": 0.7944,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +87,7 @@
       "source_names": [
         "X：Boris Cherny (@bcherny)"
       ],
-      "importance_score": 0.754,
+      "importance_score": 0.752,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -120,7 +120,7 @@
       "source_names": [
         "公众号：卡尔的AI沃茨"
       ],
-      "importance_score": 0.7302,
+      "importance_score": 0.7286,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
