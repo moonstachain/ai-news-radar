@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "fbc4de41fe2538a6",
+  "snapshot_id": "fac2cfa66938ce3c",
   "channel": "ai-news",
-  "generated_at": "2026-08-09T13:30:26.318573Z",
+  "generated_at": "2026-08-09T14:07:30.459649Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 330,
-    "high_priority": 17,
+    "signals": 323,
+    "high_priority": 16,
     "briefs": 20,
-    "stories": 306
+    "stories": 302
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 92,
-    "Info Flow": 88,
-    "Zeli": 49,
+    "Buzzing": 91,
+    "Info Flow": 86,
+    "Zeli": 47,
     "NewsNow": 30,
-    "TechURLs": 26,
+    "TechURLs": 25,
     "Curated Media": 13,
     "Follow Builders": 13,
-    "AI HOT": 7
+    "AI HOT": 6
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "simonwillison.net"
       ],
-      "importance_score": 0.775,
+      "importance_score": 0.7738,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -88,7 +88,7 @@
         "The Decoder AI News",
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7516,
+      "importance_score": 0.7505,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -121,47 +121,36 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_10f59a98f1f0",
-      "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
-      "url": "https://www.ithome.com/0/987/438.htm",
-      "primary_url": "https://www.ithome.com/0/987/438.htm",
-      "source": "IT之家（RSS）",
+      "story_id": "story_6cbde97d8260",
+      "title": "Seedance 2.5 上线一周新增六种创意玩法",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509275&idx=1&sn=48cc15b0f9b22173ce93350da61f15dc",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509275&idx=1&sn=48cc15b0f9b22173ce93350da61f15dc",
+      "source": "公众号：卡尔的AI沃茨",
       "source_name": "AI HOT",
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
+        "公众号：卡尔的AI沃茨"
       ],
-      "importance_score": 0.7491,
+      "importance_score": 0.7463,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance"
       ],
-      "latest_at": "2026-08-08T13:38:40Z",
-      "earliest_at": "2026-08-08T13:38:40Z",
+      "latest_at": "2026-08-09T05:25:02Z",
+      "earliest_at": "2026-08-09T05:25:02Z",
       "sources": [
         {
-          "id": "f5bc497562dfe1981697b7003a50e2b6c4c44767",
-          "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
-          "url": "https://www.ithome.com/0/987/438.htm",
-          "source": "IT之家（RSS）",
+          "id": "f457c769b1a1749686824ffbe42d7d4feaeb6009",
+          "title": "Seedance 2.5 上线一周新增六种创意玩法",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509275&idx=1&sn=48cc15b0f9b22173ce93350da61f15dc",
+          "source": "公众号：卡尔的AI沃茨",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-08T13:38:40Z"
-        },
-        {
-          "id": "682068a11714b8eea5aae54179de865fdd172a09",
-          "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1:1000 近乎“误差”",
-          "url": "https://www.ithome.com/0/987/438.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-08T13:38:40Z"
+          "published_at": "2026-08-09T05:25:02Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     }
   ]
 }
