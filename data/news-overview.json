@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "73158498254217b4",
+  "snapshot_id": "202de3c19b588df6",
   "channel": "ai-news",
-  "generated_at": "2026-08-09T05:29:07.112157Z",
+  "generated_at": "2026-08-09T06:08:06.300311Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 311,
+    "signals": 306,
     "high_priority": 12,
     "briefs": 20,
-    "stories": 286
+    "stories": 282
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 98,
-    "Info Flow": 91,
-    "Zeli": 48,
-    "TechURLs": 29,
-    "NewsNow": 18,
+    "Buzzing": 95,
+    "Info Flow": 90,
+    "Zeli": 49,
+    "TechURLs": 28,
+    "NewsNow": 17,
     "Curated Media": 11,
     "AI HOT": 7,
     "OPML RSS": 4
@@ -48,7 +48,7 @@
         "hackernews",
         "simonwillison.net"
       ],
-      "importance_score": 0.8659,
+      "importance_score": 0.8645,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -137,7 +137,7 @@
         "The Decoder AI News",
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7676,
+      "importance_score": 0.7662,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -181,7 +181,7 @@
         "IT之家 (ITHome)",
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7648,
+      "importance_score": 0.7635,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
