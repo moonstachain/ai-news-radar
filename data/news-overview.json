@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "snapshot_id": "214092cbc44ecb99",
+  "snapshot_id": "20db1896231cce9f",
   "channel": "ai-news",
-  "generated_at": "2026-08-09T15:31:03.828968Z",
+  "generated_at": "2026-08-09T15:58:34.130264Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 319,
+    "signals": 318,
     "high_priority": 14,
     "briefs": 20,
     "stories": 297
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 92,
+    "Buzzing": 95,
     "Info Flow": 86,
-    "Zeli": 48,
+    "Zeli": 47,
     "NewsNow": 29,
-    "TechURLs": 22,
+    "TechURLs": 21,
     "Curated Media": 13,
-    "Follow Builders": 10,
-    "Hacker News": 7
+    "Follow Builders": 9,
+    "AI HOT": 6
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "TechCrunch AI",
         "TechCrunch：AI（RSS）"
       ],
-      "importance_score": 0.811,
+      "importance_score": 0.8098,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +87,7 @@
       "source_names": [
         "公众号：卡尔的AI沃茨"
       ],
-      "importance_score": 0.7432,
+      "importance_score": 0.7421,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -119,7 +119,7 @@
       "source_names": [
         "MarkTechPost（RSS）"
       ],
-      "importance_score": 0.7414,
+      "importance_score": 0.7404,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
