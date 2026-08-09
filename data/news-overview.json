@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "4cbde5299d4540d3",
+  "snapshot_id": "29b5486c51088b49",
   "channel": "ai-news",
-  "generated_at": "2026-08-09T07:29:53.690216Z",
+  "generated_at": "2026-08-09T08:08:42.078706Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 322,
-    "high_priority": 19,
+    "signals": 325,
+    "high_priority": 20,
     "briefs": 20,
-    "stories": 295
+    "stories": 298
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 98,
+    "Buzzing": 97,
     "Info Flow": 86,
-    "Zeli": 49,
-    "TechURLs": 29,
-    "NewsNow": 19,
+    "Zeli": 51,
+    "TechURLs": 27,
+    "NewsNow": 21,
     "Follow Builders": 13,
     "Curated Media": 11,
-    "AI HOT": 7
+    "AI HOT": 8
   },
   "top_stories": [
     {
@@ -48,7 +48,7 @@
         "hackernews",
         "simonwillison.net"
       ],
-      "importance_score": 0.8617,
+      "importance_score": 0.8604,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -106,7 +106,7 @@
         },
         {
           "id": "29407e5727109cce76c77d1f73cb883e658a308f",
-          "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉 / Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+          "title": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线 / Now we have a timeline of the OpenAI accidental attack against Hugging Face",
           "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
           "source": "Hacker News",
           "source_name": "TechURLs",
@@ -115,7 +115,7 @@
         },
         {
           "id": "5f517648bf2c7bf6013bdff103610531a35b52c5",
-          "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉 / Timeline of the OpenAI accidental attack against Hugging Face",
+          "title": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线 / Timeline of the OpenAI accidental attack against Hugging Face",
           "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -137,7 +137,7 @@
         "The Decoder AI News",
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7634,
+      "importance_score": 0.7621,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -181,7 +181,7 @@
         "IT之家 (ITHome)",
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7607,
+      "importance_score": 0.7594,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
