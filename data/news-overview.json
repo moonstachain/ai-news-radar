@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "3dd63d389d3a1257",
+  "snapshot_id": "e312c0ead2fea917",
   "channel": "ai-news",
-  "generated_at": "2026-08-10T21:10:10.688058Z",
+  "generated_at": "2026-08-10T22:05:32.033337Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 533,
-    "high_priority": 33,
+    "signals": 541,
+    "high_priority": 34,
     "briefs": 20,
-    "stories": 480
+    "stories": 488
   },
   "coverage": {
     "successful": 16,
@@ -23,13 +23,13 @@
   ],
   "section_counts": {
     "Buzzing": 166,
-    "Info Flow": 131,
-    "Zeli": 72,
-    "TechURLs": 70,
+    "Info Flow": 133,
+    "Zeli": 74,
+    "TechURLs": 73,
     "NewsNow": 29,
     "Curated Media": 18,
     "Official AI Updates": 15,
-    "AI HOT": 13
+    "AI HOT": 14
   },
   "top_stories": [
     {
@@ -46,7 +46,7 @@
         "OpenAI News",
         "hackernews"
       ],
-      "importance_score": 0.9093,
+      "importance_score": 0.9071,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -112,7 +112,7 @@
         "bobdahacker.com",
         "hackernews"
       ],
-      "importance_score": 0.85,
+      "importance_score": 0.8479,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -182,7 +182,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8481,
+      "importance_score": 0.8459,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
