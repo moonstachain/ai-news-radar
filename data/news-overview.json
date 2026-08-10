@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "bfb0ada743f43930",
+  "snapshot_id": "83699fa594f2ebf4",
   "channel": "ai-news",
-  "generated_at": "2026-08-10T06:49:42.295968Z",
+  "generated_at": "2026-08-10T08:21:50.384476Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 385,
-    "high_priority": 22,
+    "signals": 388,
+    "high_priority": 21,
     "briefs": 20,
-    "stories": 345
+    "stories": 349
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 99,
-    "Buzzing": 96,
+    "Info Flow": 104,
+    "Buzzing": 99,
     "Zeli": 74,
-    "TechURLs": 37,
+    "TechURLs": 34,
     "NewsNow": 33,
     "Follow Builders": 14,
     "Curated Media": 13,
-    "AI HOT": 10
+    "AI HOT": 9
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "MarkTechPost Research",
         "MarkTechPost（RSS）"
       ],
-      "importance_score": 0.7846,
+      "importance_score": 0.7811,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -88,7 +88,7 @@
         "公众号：千问APP（阿里）",
         "公众号：数字生命卡兹克"
       ],
-      "importance_score": 0.7838,
+      "importance_score": 0.7801,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -132,7 +132,7 @@
         "TechCrunch AI",
         "TechCrunch：AI（RSS）"
       ],
-      "importance_score": 0.7758,
+      "importance_score": 0.7727,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
