@@ -1,42 +1,7 @@
 {
-  "generated_at": "2026-08-10T09:57:11.576830Z",
+  "generated_at": "2026-08-10T10:58:51.173056Z",
   "window_hours": 24,
   "items": [
-    {
-      "signal_id": "biz_65255f781daa",
-      "title": "I built a churn-prevention tool, then deleted the billing code and made it free",
-      "url": "https://www.indiehackers.com/post/i-built-a-churn-prevention-tool-then-deleted-the-billing-code-and-made-it-free-2fb1fc16d1",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-09T10:13:21.531000Z",
-      "captured_at": "2026-08-10T09:57:11.576830Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 8,
-      "total_score": 39,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "I built a churn-prevention tool, then deleted the billing code and made it free Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
     {
       "signal_id": "biz_6df37c446ce1",
       "title": "Indie Hackers, I’d love your advice on launching a SaaS.",
@@ -44,7 +9,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-09T17:19:20.147000Z",
-      "captured_at": "2026-08-10T09:57:11.576830Z",
+      "captured_at": "2026-08-10T10:58:51.173056Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -79,7 +44,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-09T15:33:07.808000Z",
-      "captured_at": "2026-08-10T09:57:11.576830Z",
+      "captured_at": "2026-08-10T10:58:51.173056Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -107,6 +72,43 @@
       "summary": "Your product doesn't have a distribution problem. It has a clarity problem. Tags: OPC.",
       "timestamp_basis": "page_structured_time",
       "transport_mode": "page_detail"
+    },
+    {
+      "signal_id": "biz_b7a4c1263e04",
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "source_id": "huggingface_blog",
+      "source_name": "Hugging Face Blog",
+      "published_at": "2026-08-10T00:00:00Z",
+      "captured_at": "2026-08-10T10:58:51.173056Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "Hugging Face Blog",
+        "Meta",
+        "Muse Glimmer"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 31,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 5,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source Tags: AI Business Model Innovation, Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
     }
   ]
 }
