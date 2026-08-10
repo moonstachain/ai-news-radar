@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c14d536cb8d2349a",
+  "snapshot_id": "bfb0ada743f43930",
   "channel": "ai-news",
-  "generated_at": "2026-08-10T05:02:50.882609Z",
+  "generated_at": "2026-08-10T06:49:42.295968Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 358,
-    "high_priority": 13,
+    "signals": 385,
+    "high_priority": 22,
     "briefs": 20,
-    "stories": 319
+    "stories": 345
   },
   "coverage": {
     "successful": 16,
@@ -22,70 +22,16 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 93,
-    "Info Flow": 92,
-    "Zeli": 73,
-    "NewsNow": 32,
-    "TechURLs": 32,
+    "Info Flow": 99,
+    "Buzzing": 96,
+    "Zeli": 74,
+    "TechURLs": 37,
+    "NewsNow": 33,
+    "Follow Builders": 14,
     "Curated Media": 13,
-    "AI HOT": 11,
-    "Hacker News": 7
+    "AI HOT": 10
   },
   "top_stories": [
-    {
-      "story_id": "story_6cbde97d8260",
-      "title": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
-      "source": "公众号：千问APP（阿里）",
-      "source_name": "AI HOT",
-      "source_count": 3,
-      "source_names": [
-        "公众号：千问APP（阿里）",
-        "公众号：卡尔的AI沃茨",
-        "公众号：数字生命卡兹克"
-      ],
-      "importance_score": 0.8132,
-      "importance_label": "多源热议",
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-10T02:07:18Z",
-      "earliest_at": "2026-08-09T05:25:02Z",
-      "sources": [
-        {
-          "id": "a175dd92c3c7d4e6925dbcffee3b6ef7a0d2b2d6",
-          "title": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
-          "source": "公众号：千问APP（阿里）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-10T02:07:18Z"
-        },
-        {
-          "id": "f3e6f771ee246bff51399a9dd2465c3bbb18b0db",
-          "title": "我花了54个小时，做了一个可能更公平的AI大模型排行榜。",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685059&idx=1&sn=a329fe9999ac2419470c7eca9a97acd3",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-10T00:52:19Z"
-        },
-        {
-          "id": "f457c769b1a1749686824ffbe42d7d4feaeb6009",
-          "title": "Seedance 2.5 上线一周新增六种创意玩法",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509275&idx=1&sn=48cc15b0f9b22173ce93350da61f15dc",
-          "source": "公众号：卡尔的AI沃茨",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-09T05:25:02Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
     {
       "story_id": "story_3c24ee12c06d",
       "title": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用",
@@ -98,7 +44,7 @@
         "MarkTechPost Research",
         "MarkTechPost（RSS）"
       ],
-      "importance_score": 0.7889,
+      "importance_score": 0.7846,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -131,6 +77,50 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_6cbde97d8260",
+      "title": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
+      "source": "公众号：千问APP（阿里）",
+      "source_name": "AI HOT",
+      "source_count": 2,
+      "source_names": [
+        "公众号：千问APP（阿里）",
+        "公众号：数字生命卡兹克"
+      ],
+      "importance_score": 0.7838,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-10T02:07:18Z",
+      "earliest_at": "2026-08-10T00:52:19Z",
+      "sources": [
+        {
+          "id": "a175dd92c3c7d4e6925dbcffee3b6ef7a0d2b2d6",
+          "title": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
+          "source": "公众号：千问APP（阿里）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-10T02:07:18Z"
+        },
+        {
+          "id": "f3e6f771ee246bff51399a9dd2465c3bbb18b0db",
+          "title": "我花了54个小时，做了一个可能更公平的AI大模型排行榜。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685059&idx=1&sn=a329fe9999ac2419470c7eca9a97acd3",
+          "source": "公众号：数字生命卡兹克",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-10T00:52:19Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
       "story_id": "story_4c5b2bdf1256",
       "title": "AI安全测试正成为安全风险",
       "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk",
@@ -142,7 +132,7 @@
         "TechCrunch AI",
         "TechCrunch：AI（RSS）"
       ],
-      "importance_score": 0.7795,
+      "importance_score": 0.7758,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
