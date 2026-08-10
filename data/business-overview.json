@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "83699fa594f2ebf4",
+  "snapshot_id": "bac1a71cb28c0aff",
   "channel": "ai-business",
-  "generated_at": "2026-08-10T08:23:06.112541Z",
+  "generated_at": "2026-08-10T09:57:11.576830Z",
   "window_hours": 24,
   "decision": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
   "metrics": {
-    "signals": 2,
+    "signals": 3,
     "briefs": 1,
     "clusters": 1,
-    "cases": 2
+    "cases": 3
   },
   "coverage": {
     "successful": 16,
@@ -20,17 +20,19 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_af13408591ea",
+      "brief_id": "biz_brief_092d14a20b8f",
       "rank": 1,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_65255f781daa",
-        "biz_6df37c446ce1"
+        "biz_6df37c446ce1",
+        "biz_2af8fb29c02b"
       ],
       "evidence_titles": [
         "I built a churn-prevention tool, then deleted the billing code and made it free",
-        "Indie Hackers, I’d love your advice on launching a SaaS."
+        "Indie Hackers, I’d love your advice on launching a SaaS.",
+        "Your product doesn't have a distribution problem. It has a clarity problem."
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -43,7 +45,7 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_af13408591ea",
+      "id": "biz_brief_092d14a20b8f",
       "label": "Brief #1",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
@@ -51,7 +53,7 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_9519259c99d0",
+      "cluster_id": "biz_cluster_fc969ed8cfdb",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
@@ -62,12 +64,13 @@
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
         "biz_65255f781daa",
-        "biz_6df37c446ce1"
+        "biz_6df37c446ce1",
+        "biz_2af8fb29c02b"
       ],
       "top_sources": [
         {
@@ -79,6 +82,11 @@
           "source": "Indie Hackers",
           "title": "Indie Hackers, I’d love your advice on launching a SaaS.",
           "url": "https://www.indiehackers.com/post/indie-hackers-i-d-love-your-advice-on-launching-a-saas-0bf3b6227d"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "Your product doesn't have a distribution problem. It has a clarity problem.",
+          "url": "https://www.indiehackers.com/post/your-product-doesnt-have-a-distribution-problem-it-has-a-clarity-problem-055053dd9c"
         }
       ]
     }
