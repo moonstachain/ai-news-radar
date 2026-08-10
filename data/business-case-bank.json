@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T20:09:48.637276Z",
+  "generated_at": "2026-08-10T21:11:16.615426Z",
   "cases": [
     {
       "case_id": "opc_case_10fca493a51d",
@@ -44,6 +44,27 @@
         "ftf_trust"
       ],
       "score": 53
+    },
+    {
+      "case_id": "opc_case_4da8a42c7588",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_22a67e7f3959"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-omnispay/",
+      "title": "CEO Interview: Omnispay",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     },
     {
       "case_id": "opc_case_8517e7bc5e82",
