@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T18:14:17.595887Z",
+  "generated_at": "2026-08-10T19:29:53.660064Z",
   "cases": [
     {
       "case_id": "opc_case_10fca493a51d",
@@ -46,6 +46,48 @@
       "score": 53
     },
     {
+      "case_id": "opc_case_9cb48c9114ab",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_22df44b201f2"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-creditchek/",
+      "title": "CEO Interview: CreditChek",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
+    },
+    {
+      "case_id": "opc_case_b81e04223b83",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_3b6e450aa009"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-lovie-co/",
+      "title": "CEO Interview: Lovie.co",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
+    },
+    {
       "case_id": "opc_case_d4fd6781399e",
       "company": "Executive Interview",
       "founder": "",
@@ -85,6 +127,28 @@
         "profit_container"
       ],
       "score": 38
+    },
+    {
+      "case_id": "opc_case_29d9bf8d0bfc",
+      "company": "Can Agents Use",
+      "founder": "",
+      "source_refs": [
+        "biz_46d216258e64"
+      ],
+      "url": "https://a16z.com/can-agents-use-a-computer-yet-weve-got-the-data/",
+      "title": "Can Agents Use a Computer Yet? We've Got the Data | Andreessen Horowitz",
+      "business_model": "Enterprise AI Workflow, Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "a16z",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "score": 40
     }
   ]
 }
