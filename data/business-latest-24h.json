@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T19:29:53.660064Z",
+  "generated_at": "2026-08-10T20:09:48.637276Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T16:28:37Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -47,7 +47,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T16:18:22Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -79,13 +79,50 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_ce2002b548d7",
+      "title": "Executive Interview: Turaco",
+      "url": "https://www.cbinsights.com/research/executive-interview-turaco/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-10T19:37:01Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "Turaco"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Niraj Varia, Chief Operating Officer at Turaco, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? The number one... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_22df44b201f2",
       "title": "CEO Interview: CreditChek",
       "url": "https://www.cbinsights.com/research/ceo-interview-creditchek/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T19:07:21Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -122,7 +159,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T18:19:35Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -159,7 +196,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T16:00:12Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -196,7 +233,7 @@
       "source_id": "a16z",
       "source_name": "a16z",
       "published_at": "2026-08-10T14:05:18Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "startup_vc",
       "entities": [
         "a16z",
@@ -238,7 +275,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-08-10T13:30:00Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
@@ -278,7 +315,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-10T12:01:44Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -307,13 +344,50 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_4c05660420a7",
+      "title": "Using the GitHub Copilot SDK for Java",
+      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "source_id": "github_blog",
+      "source_name": "GitHub Blog",
+      "published_at": "2026-08-10T19:30:00Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "GitHub Blog",
+        "Using",
+        "GitHub Copilot SDK",
+        "Java"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 36,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 5,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more. The post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog... Tags: Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_f3e5e0a3bf70",
       "title": "How to Avoid Innovation One-Hit Wonders",
       "url": "https://sloanreview.mit.edu/article/how-to-avoid-innovation-one-hit-wonders/",
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-10T11:00:41Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -350,7 +424,7 @@
       "source_id": "huggingface_blog",
       "source_name": "Hugging Face Blog",
       "published_at": "2026-08-10T00:00:00Z",
-      "captured_at": "2026-08-10T19:29:53.660064Z",
+      "captured_at": "2026-08-10T20:09:48.637276Z",
       "lane": "ai_commercialization",
       "entities": [
         "Hugging Face Blog",
