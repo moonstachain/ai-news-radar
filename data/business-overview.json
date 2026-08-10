@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e312c0ead2fea917",
+  "snapshot_id": "99522f1166bcdd48",
   "channel": "ai-business",
-  "generated_at": "2026-08-10T22:06:48.610033Z",
+  "generated_at": "2026-08-10T23:07:03.617580Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 13,
+    "signals": 14,
     "briefs": 3,
     "clusters": 3,
-    "cases": 9
+    "cases": 10
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_62e5e81c3187",
+      "brief_id": "biz_brief_bcf7fac5c2f0",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "8 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -45,19 +45,20 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_b01969677adf",
+      "brief_id": "biz_brief_984d632c3ed0",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "judgment": "4 English evidence items from 4 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
+        "biz_a3cd796c36c7",
         "biz_46d216258e64",
         "biz_4c05660420a7",
         "biz_b7a4c1263e04"
       ],
       "evidence_titles": [
+        "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
         "Can Agents Use a Computer Yet? We've Got the Data | Andreessen Horowitz",
-        "Using the GitHub Copilot SDK for Java",
-        "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source"
+        "Using the GitHub Copilot SDK for Java"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -67,7 +68,7 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_92ebd287aeb2",
+      "brief_id": "biz_brief_dcb0b80b6639",
       "rank": 3,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -90,19 +91,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_62e5e81c3187",
+      "id": "biz_brief_bcf7fac5c2f0",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_b01969677adf",
+      "id": "biz_brief_984d632c3ed0",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_92ebd287aeb2",
+      "id": "biz_brief_dcb0b80b6639",
       "label": "Brief #3",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
@@ -160,25 +161,31 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_b1f2f0d1c3ac",
+      "cluster_id": "biz_cluster_c89cb265090c",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
-      "source_count": 3,
-      "importance_score": 42,
-      "confidence": "medium",
+      "source_count": 4,
+      "importance_score": 45,
+      "confidence": "high",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "4 English evidence items from 4 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
+        "biz_a3cd796c36c7",
         "biz_46d216258e64",
         "biz_4c05660420a7",
         "biz_b7a4c1263e04"
       ],
       "top_sources": [
+        {
+          "source": "OpenAI News",
+          "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+          "url": "https://openai.com/index/virgin-atlantic/chatgpt-work"
+        },
         {
           "source": "a16z",
           "title": "Can Agents Use a Computer Yet? We've Got the Data | Andreessen Horowitz",

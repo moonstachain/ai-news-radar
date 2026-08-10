@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T22:06:48.610033Z",
+  "generated_at": "2026-08-10T23:07:03.617580Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T16:28:37Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -47,7 +47,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T16:18:22Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -85,7 +85,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T20:19:59Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -122,7 +122,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T19:37:01Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -159,7 +159,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T19:07:21Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -196,7 +196,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T18:19:35Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -233,7 +233,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T16:00:12Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -264,13 +264,50 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_a3cd796c36c7",
+      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "published_at": "2026-08-10T00:00:00Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "OpenAI News",
+        "Virgin Atlantic",
+        "ChatGPT Work"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 8,
+      "total_score": 41,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 0,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Virgin Atlantic sharpens customer journeys with ChatGPT Work Tags: Founder Case, Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_46d216258e64",
       "title": "Can Agents Use a Computer Yet? We've Got the Data | Andreessen Horowitz",
       "url": "https://a16z.com/can-agents-use-a-computer-yet-weve-got-the-data/",
       "source_id": "a16z",
       "source_name": "a16z",
       "published_at": "2026-08-10T14:05:18Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "startup_vc",
       "entities": [
         "a16z",
@@ -312,7 +349,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-08-10T13:30:00Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
@@ -352,7 +389,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-10T12:01:44Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -366,14 +403,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 8,
-      "total_score": 38,
+      "total_score": 37,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 3,
         "business_model_value": 3,
         "case_concreteness": 8,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Listen now | 🎙️ Grace Clarke rebuilt her service business in Claude, turning 20 hours of weekly admin into one automated pipeline for proposals, client tracking, and email Tags: Founder Case.",
@@ -387,7 +424,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-10T19:30:00Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -424,7 +461,7 @@
       "source_id": "huggingface_blog",
       "source_name": "Hugging Face Blog",
       "published_at": "2026-08-10T00:00:00Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "ai_commercialization",
       "entities": [
         "Hugging Face Blog",
@@ -461,7 +498,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-10T11:00:41Z",
-      "captured_at": "2026-08-10T22:06:48.610033Z",
+      "captured_at": "2026-08-10T23:07:03.617580Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",

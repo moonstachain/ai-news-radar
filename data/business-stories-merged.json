@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T22:06:48.610033Z",
+  "generated_at": "2026-08-10T23:07:03.617580Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_aab4ad682dd3",
@@ -62,30 +62,37 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_b1f2f0d1c3ac",
+      "cluster_id": "biz_cluster_c89cb265090c",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
+        "biz_a3cd796c36c7",
         "biz_46d216258e64",
         "biz_4c05660420a7",
         "biz_b7a4c1263e04"
       ],
-      "source_count": 3,
-      "importance_score": 42,
-      "confidence": "medium",
+      "source_count": 4,
+      "importance_score": 45,
+      "confidence": "high",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "4 English evidence items from 4 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
+        "biz_a3cd796c36c7",
         "biz_46d216258e64",
         "biz_4c05660420a7",
         "biz_b7a4c1263e04"
       ],
       "top_sources": [
+        {
+          "source": "OpenAI News",
+          "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+          "url": "https://openai.com/index/virgin-atlantic/chatgpt-work"
+        },
         {
           "source": "a16z",
           "title": "Can Agents Use a Computer Yet? We've Got the Data | Andreessen Horowitz",
