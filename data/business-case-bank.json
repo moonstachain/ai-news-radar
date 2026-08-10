@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-08-10T15:31:57.711016Z",
+  "generated_at": "2026-08-10T16:26:31.326012Z",
   "cases": [
+    {
+      "case_id": "opc_case_d4fd6781399e",
+      "company": "Executive Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_c64af49aa75e"
+      ],
+      "url": "https://www.cbinsights.com/research/executive-interview-tmrw/",
+      "title": "Executive Interview: TMRW",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
+    },
     {
       "case_id": "opc_case_011b32246cab",
       "company": "SaaS",
@@ -40,27 +61,6 @@
         "profit_container"
       ],
       "score": 38
-    },
-    {
-      "case_id": "opc_case_496d7f3006e6",
-      "company": "Your",
-      "founder": "",
-      "source_refs": [
-        "biz_2af8fb29c02b"
-      ],
-      "url": "https://www.indiehackers.com/post/your-product-doesnt-have-a-distribution-problem-it-has-a-clarity-problem-055053dd9c",
-      "title": "Your product doesn't have a distribution problem. It has a clarity problem.",
-      "business_model": "OPC",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "score": 34
     }
   ]
 }

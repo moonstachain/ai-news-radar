@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-08-10T15:31:57.711016Z",
+  "generated_at": "2026-08-10T16:26:31.326012Z",
   "window_hours": 24,
   "items": [
+    {
+      "signal_id": "biz_c64af49aa75e",
+      "title": "Executive Interview: TMRW",
+      "url": "https://www.cbinsights.com/research/executive-interview-tmrw/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-10T16:00:12Z",
+      "captured_at": "2026-08-10T16:26:31.326012Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "TMRW"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Melissa Circosta, Head of PR & Communications at TMRW, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? I defin... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
     {
       "signal_id": "biz_c08726c72d0c",
       "title": "AI Pricing: A Reality Check on Effort, Usage, and Outcomes",
@@ -9,7 +46,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-08-10T13:30:00Z",
-      "captured_at": "2026-08-10T15:31:57.711016Z",
+      "captured_at": "2026-08-10T16:26:31.326012Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
@@ -49,7 +86,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-10T12:01:44Z",
-      "captured_at": "2026-08-10T15:31:57.711016Z",
+      "captured_at": "2026-08-10T16:26:31.326012Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -84,7 +121,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-09T17:19:20.147000Z",
-      "captured_at": "2026-08-10T15:31:57.711016Z",
+      "captured_at": "2026-08-10T16:26:31.326012Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -113,49 +150,13 @@
       "transport_mode": "page_detail"
     },
     {
-      "signal_id": "biz_2af8fb29c02b",
-      "title": "Your product doesn't have a distribution problem. It has a clarity problem.",
-      "url": "https://www.indiehackers.com/post/your-product-doesnt-have-a-distribution-problem-it-has-a-clarity-problem-055053dd9c",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-09T15:33:07.808000Z",
-      "captured_at": "2026-08-10T15:31:57.711016Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "Your"
-      ],
-      "business_model_tags": [
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 0,
-      "total_score": 34,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 0,
-        "case_concreteness": 0,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Your product doesn't have a distribution problem. It has a clarity problem. Tags: OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
       "signal_id": "biz_f3e5e0a3bf70",
       "title": "How to Avoid Innovation One-Hit Wonders",
       "url": "https://sloanreview.mit.edu/article/how-to-avoid-innovation-one-hit-wonders/",
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-10T11:00:41Z",
-      "captured_at": "2026-08-10T15:31:57.711016Z",
+      "captured_at": "2026-08-10T16:26:31.326012Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -192,7 +193,7 @@
       "source_id": "huggingface_blog",
       "source_name": "Hugging Face Blog",
       "published_at": "2026-08-10T00:00:00Z",
-      "captured_at": "2026-08-10T15:31:57.711016Z",
+      "captured_at": "2026-08-10T16:26:31.326012Z",
       "lane": "ai_commercialization",
       "entities": [
         "Hugging Face Blog",

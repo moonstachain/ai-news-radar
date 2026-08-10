@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a0d2822f091ff70d",
+  "snapshot_id": "f30e25a85cc27ed9",
   "channel": "ai-business",
-  "generated_at": "2026-08-10T15:31:57.711016Z",
+  "generated_at": "2026-08-10T16:26:31.326012Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
@@ -20,14 +20,16 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_02b986e83c3b",
+      "brief_id": "biz_brief_0d82b81bb9fc",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
+        "biz_c64af49aa75e",
         "biz_f202279281aa"
       ],
       "evidence_titles": [
+        "Executive Interview: TMRW",
         "Claude Code for normal people: skills, voice mode, and how to collaborate with AI"
       ],
       "risk_level": "low",
@@ -39,7 +41,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_09a5774e7c16",
+      "brief_id": "biz_brief_97ef5aaf8f22",
       "rank": 2,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -60,17 +62,15 @@
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     },
     {
-      "brief_id": "biz_brief_16a97fc71b64",
+      "brief_id": "biz_brief_786271f3ff94",
       "rank": 3,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_6df37c446ce1",
-        "biz_2af8fb29c02b"
+        "biz_6df37c446ce1"
       ],
       "evidence_titles": [
-        "Indie Hackers, I’d love your advice on launching a SaaS.",
-        "Your product doesn't have a distribution problem. It has a clarity problem."
+        "Indie Hackers, I’d love your advice on launching a SaaS."
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -81,7 +81,7 @@
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_644db73ee2c1",
+      "brief_id": "biz_brief_eca6e3aa53e8",
       "rank": 4,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -101,19 +101,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_02b986e83c3b",
+      "id": "biz_brief_0d82b81bb9fc",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_09a5774e7c16",
+      "id": "biz_brief_97ef5aaf8f22",
       "label": "Brief #2",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
     },
     {
-      "id": "biz_brief_16a97fc71b64",
+      "id": "biz_brief_786271f3ff94",
       "label": "Brief #3",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
@@ -121,24 +121,30 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_86dd00ebb21a",
+      "cluster_id": "biz_cluster_2a1ba820fca4",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
-      "source_count": 1,
-      "importance_score": 40,
-      "confidence": "watch",
+      "source_count": 2,
+      "importance_score": 48,
+      "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
+        "biz_c64af49aa75e",
         "biz_f202279281aa"
       ],
       "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "Executive Interview: TMRW",
+          "url": "https://www.cbinsights.com/research/executive-interview-tmrw/"
+        },
         {
           "source": "Lenny's Newsletter",
           "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
@@ -179,7 +185,7 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_951f4b40cfb2",
+      "cluster_id": "biz_cluster_0c52713582a6",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
@@ -190,23 +196,17 @@
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_6df37c446ce1",
-        "biz_2af8fb29c02b"
+        "biz_6df37c446ce1"
       ],
       "top_sources": [
         {
           "source": "Indie Hackers",
           "title": "Indie Hackers, I’d love your advice on launching a SaaS.",
           "url": "https://www.indiehackers.com/post/indie-hackers-i-d-love-your-advice-on-launching-a-saas-0bf3b6227d"
-        },
-        {
-          "source": "Indie Hackers",
-          "title": "Your product doesn't have a distribution problem. It has a clarity problem.",
-          "url": "https://www.indiehackers.com/post/your-product-doesnt-have-a-distribution-problem-it-has-a-clarity-problem-055053dd9c"
         }
       ]
     },
