@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a840f97ec7d78e33",
+  "snapshot_id": "7f5ac8bed8e22c0c",
   "channel": "ai-news",
-  "generated_at": "2026-08-10T17:16:56.150258Z",
+  "generated_at": "2026-08-10T18:11:44.960489Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 508,
-    "high_priority": 34,
+    "signals": 522,
+    "high_priority": 35,
     "briefs": 20,
-    "stories": 458
+    "stories": 471
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 147,
-    "Info Flow": 132,
-    "Zeli": 73,
-    "TechURLs": 62,
+    "Buzzing": 158,
+    "Info Flow": 129,
+    "Zeli": 81,
+    "TechURLs": 58,
     "NewsNow": 29,
-    "Curated Media": 17,
+    "Curated Media": 18,
     "AI HOT": 14,
     "Official AI Updates": 12
   },
@@ -45,7 +45,7 @@
         "OpenAI News",
         "hackernews"
       ],
-      "importance_score": 0.8937,
+      "importance_score": 0.8914,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,6 +88,80 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_53e3f99448d4",
+      "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
+      "url": "https://bobdahacker.com/blog/tldv-hack",
+      "primary_url": "https://bobdahacker.com/blog/tldv-hack",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 5,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "bobdahacker.com",
+        "hackernews"
+      ],
+      "importance_score": 0.8572,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-10T14:03:26.804000Z",
+      "earliest_at": "2026-08-10T12:26:05Z",
+      "sources": [
+        {
+          "id": "7f5793dff6154f8b6bee4fdc7600a28a95bd1761",
+          "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
+          "url": "https://bobdahacker.com/blog/tldv-hack",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-10T14:03:26.804000Z"
+        },
+        {
+          "id": "4e5eb3a75e0ad5a54e603202b055e6bb59c42606",
+          "title": "笔记应用中逾18.1万段AI会议录音被公开暴露",
+          "url": "https://bobdahacker.com/blog/tldv-hack",
+          "source": "bobdahacker.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-10T14:03:26.804000Z"
+        },
+        {
+          "id": "c99f9a3940811591e93287967b698602795b59c6",
+          "title": "超过 181,000 份 AI 会议录音在笔记应用程序中完全开放 / Over 181,000 AI meeting recordings left wide open in note taking app",
+          "url": "https://news.ycombinator.com/item?id=49242739",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-10T13:44:18.429000Z"
+        },
+        {
+          "id": "8afc0f7a0b4b5c96efde6740ff5059df0d8dd58b",
+          "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话 / Over 181,000 AI meeting recordings left wide open in note taking app",
+          "url": "https://bobdahacker.com/blog/tldv-hack",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-10T12:26:05Z"
+        },
+        {
+          "id": "4ae64a11c74795c15417253f494f3182aaf55481",
+          "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话 / Tl;dv: Over 180k meetings left wide open",
+          "url": "https://bobdahacker.com/blog/tldv-hack",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-10T12:26:05Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
       "story_id": "story_e5b664a37aa3",
       "title": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制 / Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
       "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
@@ -98,7 +172,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8578,
+      "importance_score": 0.8555,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -117,40 +191,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-10T16:25:36Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_47efcab38b5c",
-      "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
-      "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-      "primary_url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.8448,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-10T14:27:04Z",
-      "earliest_at": "2026-08-10T14:27:04Z",
-      "sources": [
-        {
-          "id": "c9c9908049165f3c5eb8117cf0267a539caf65a5",
-          "title": "网络副驾驶扩展了对话控制 / Copilot on web expands conversation controls",
-          "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-10T14:27:04Z"
         }
       ],
       "confidence": "single-source"
