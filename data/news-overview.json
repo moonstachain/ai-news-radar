@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "6ed03a654d94dfc6",
+  "snapshot_id": "f5ca4987205a0a0b",
   "channel": "ai-news",
-  "generated_at": "2026-08-09T23:23:49.404173Z",
+  "generated_at": "2026-08-10T00:54:28.353605Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 349,
-    "high_priority": 10,
+    "signals": 358,
+    "high_priority": 11,
     "briefs": 20,
-    "stories": 319
+    "stories": 325
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,60 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 96,
-    "Info Flow": 86,
-    "Zeli": 73,
-    "NewsNow": 34,
-    "TechURLs": 27,
-    "Curated Media": 12,
-    "Hacker News": 8,
-    "AI HOT": 6
+    "Buzzing": 95,
+    "Info Flow": 90,
+    "Zeli": 75,
+    "NewsNow": 35,
+    "TechURLs": 28,
+    "Curated Media": 13,
+    "AI HOT": 7,
+    "Hacker News": 7
   },
   "top_stories": [
+    {
+      "story_id": "story_3c24ee12c06d",
+      "title": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用",
+      "url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+      "primary_url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 2,
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "importance_score": 0.7992,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-09T23:58:34Z",
+      "earliest_at": "2026-08-09T23:58:34Z",
+      "sources": [
+        {
+          "id": "aa483986fc4901ff2b1ba3e8fa8cfa5d6bf11e80",
+          "title": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用",
+          "url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-09T23:58:34Z"
+        },
+        {
+          "id": "b9b1454acf8d39a8829479ee1624a3959b0ce0f8",
+          "title": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用 / NVIDIA Releases NemotronLabs VoiceChat 11B: An Open Full-Duplex Speech-to-Speech Model with ~450 ms Turn-Taking and Live Tool Calling",
+          "url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-09T23:58:34Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_4c5b2bdf1256",
       "title": "AI安全测试正成为安全风险",
@@ -44,7 +88,7 @@
         "TechCrunch AI",
         "TechCrunch：AI（RSS）"
       ],
-      "importance_score": 0.7919,
+      "importance_score": 0.7885,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +131,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7639,
+      "importance_score": 0.76,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -105,38 +149,6 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-09T23:07:08Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_288a6664298c",
-      "title": "Anthropic 称已基本解决提示注入攻击",
-      "url": "https://x.com/bcherny/status/2086520950259118464",
-      "primary_url": "https://x.com/bcherny/status/2086520950259118464",
-      "source": "X：Boris Cherny (@bcherny)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "X：Boris Cherny (@bcherny)"
-      ],
-      "importance_score": 0.7494,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "latest_at": "2026-08-09T18:32:14Z",
-      "earliest_at": "2026-08-09T18:32:14Z",
-      "sources": [
-        {
-          "id": "5cedf1ddb5710f2162752589c9ba468802ecd56a",
-          "title": "Anthropic 称已基本解决提示注入攻击",
-          "url": "https://x.com/bcherny/status/2086520950259118464",
-          "source": "X：Boris Cherny (@bcherny)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-09T18:32:14Z"
         }
       ],
       "confidence": "single-source"
