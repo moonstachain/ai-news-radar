@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "59cf16cc4f76b6c5",
+  "snapshot_id": "d0f3339da5a57b02",
   "channel": "ai-news",
-  "generated_at": "2026-08-10T23:58:32.265368Z",
+  "generated_at": "2026-08-11T01:15:12.875837Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 565,
-    "high_priority": 35,
+    "signals": 566,
+    "high_priority": 29,
     "briefs": 20,
-    "stories": 510
+    "stories": 513
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 174,
-    "Info Flow": 134,
-    "TechURLs": 82,
-    "Zeli": 77,
-    "NewsNow": 30,
+    "Buzzing": 179,
+    "Info Flow": 138,
+    "TechURLs": 80,
+    "Zeli": 78,
+    "NewsNow": 29,
     "Curated Media": 20,
-    "Official AI Updates": 17,
-    "AI HOT": 13
+    "Official AI Updates": 12,
+    "AI HOT": 12
   },
   "top_stories": [
     {
@@ -46,7 +46,7 @@
         "OpenAI News",
         "hackernews"
       ],
-      "importance_score": 0.9029,
+      "importance_score": 0.9,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -112,7 +112,7 @@
         "bobdahacker.com",
         "hackernews"
       ],
-      "importance_score": 0.8436,
+      "importance_score": 0.8407,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -152,7 +152,7 @@
         },
         {
           "id": "8afc0f7a0b4b5c96efde6740ff5059df0d8dd58b",
-          "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话 / Over 181,000 AI meeting recordings left wide open in note taking app",
+          "title": "笔记应用中逾18.1万段AI会议录音被公开暴露 / Over 181,000 AI meeting recordings left wide open in note taking app",
           "url": "https://bobdahacker.com/blog/tldv-hack",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -161,7 +161,7 @@
         },
         {
           "id": "4ae64a11c74795c15417253f494f3182aaf55481",
-          "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话 / Tl;dv: Over 180k meetings left wide open",
+          "title": "笔记应用中逾18.1万段AI会议录音被公开暴露 / Tl;dv: Over 180k meetings left wide open",
           "url": "https://bobdahacker.com/blog/tldv-hack",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -182,7 +182,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8414,
+      "importance_score": 0.8385,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
