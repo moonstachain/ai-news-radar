@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "47ee968ac1941733",
+  "snapshot_id": "4440d2d7bded46f9",
   "channel": "ai-news",
-  "generated_at": "2026-08-11T14:50:58.031987Z",
+  "generated_at": "2026-08-11T15:50:21.333394Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 640,
-    "high_priority": 30,
+    "signals": 633,
+    "high_priority": 31,
     "briefs": 20,
-    "stories": 593
+    "stories": 588
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 201,
-    "Info Flow": 155,
+    "Buzzing": 200,
+    "Info Flow": 150,
     "TechURLs": 93,
-    "Zeli": 73,
+    "Zeli": 74,
     "NewsNow": 43,
-    "Curated Media": 25,
-    "AI HOT": 14,
-    "Follow Builders": 13
+    "Curated Media": 24,
+    "AI HOT": 15,
+    "Follow Builders": 12
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8568,
+      "importance_score": 0.8543,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -67,6 +67,40 @@
       "confidence": "single-source"
     },
     {
+      "story_id": "story_54600e33879d",
+      "title": "使用报告中按型号的令牌细分 / Per-model token breakdown in the usage report",
+      "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+      "primary_url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.8411,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-11T14:41:52Z",
+      "earliest_at": "2026-08-11T14:41:52Z",
+      "sources": [
+        {
+          "id": "361545eaea5b5eb01fee9d78ba476877bb902c4f",
+          "title": "使用报告中按型号的令牌细分 / Per-model token breakdown in the usage report",
+          "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-11T14:41:52Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_db6826b82650",
       "title": "使用适用于 Java 的 GitHub Copilot SDK / Using the GitHub Copilot SDK for Java",
       "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java",
@@ -77,7 +111,7 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "importance_score": 0.8081,
+      "importance_score": 0.8062,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -99,60 +133,6 @@
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_6cbde97d8260",
-      "title": "Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "source_name": "AI HOT",
-      "source_count": 3,
-      "source_names": [
-        "公众号：数字生命卡兹克",
-        "公众号：智谱（GLM）",
-        "公众号：蚂蚁百灵（Ling）"
-      ],
-      "importance_score": 0.8038,
-      "importance_label": "多源热议",
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-11T09:20:00Z",
-      "earliest_at": "2026-08-11T00:12:00Z",
-      "sources": [
-        {
-          "id": "f0a6eedb54f0fb1cb79de2bf700485192da8d8b8",
-          "title": "Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
-          "source": "公众号：蚂蚁百灵（Ling）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-11T09:20:00Z"
-        },
-        {
-          "id": "fcc1f787a8f50694d563e839c3a5df0f5b260040",
-          "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
-          "source": "公众号：智谱（GLM）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-11T05:52:25Z"
-        },
-        {
-          "id": "d29517a81457995e790278d11211679f24adbff8",
-          "title": "微信小微AI帮写与AI点评内测：朋友圈最后一点人味正在消失",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685081&idx=1&sn=13a05578a3959c047209c8e74b56fa48",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-11T00:12:00Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }
