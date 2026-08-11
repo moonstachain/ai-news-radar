@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "6f0ec32a733ff8d0",
+  "snapshot_id": "792859dccc025010",
   "channel": "ai-business",
-  "generated_at": "2026-08-11T11:13:54.414596Z",
+  "generated_at": "2026-08-11T12:06:59.986504Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 12,
+    "signals": 11,
     "briefs": 3,
     "clusters": 3,
-    "cases": 9
+    "cases": 8
   },
   "coverage": {
     "successful": 16,
@@ -20,10 +20,10 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_604ef115d5ad",
+      "brief_id": "biz_brief_ccc4079fbfb3",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "8 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "judgment": "7 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_29aa61b493eb",
         "biz_444f22d060c0",
@@ -45,7 +45,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_b690ce029a97",
+      "brief_id": "biz_brief_1a7c8df2a094",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -65,7 +65,7 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_72f5e88a89f4",
+      "brief_id": "biz_brief_4e338fb8adae",
       "rank": 3,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -88,19 +88,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_604ef115d5ad",
+      "id": "biz_brief_ccc4079fbfb3",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_b690ce029a97",
+      "id": "biz_brief_1a7c8df2a094",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_72f5e88a89f4",
+      "id": "biz_brief_4e338fb8adae",
       "label": "Brief #3",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
@@ -111,15 +111,15 @@
       "cluster_id": "biz_cluster_aab4ad682dd3",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
-      "source_count": 2,
-      "importance_score": 54,
-      "confidence": "medium",
+      "source_count": 1,
+      "importance_score": 52,
+      "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "8 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "7 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
