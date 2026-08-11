@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T13:51:49.081360Z",
+  "generated_at": "2026-08-11T14:52:17.506308Z",
   "cases": [
     {
       "case_id": "opc_case_10fca493a51d",
@@ -44,6 +44,27 @@
         "ftf_trust"
       ],
       "score": 52
+    },
+    {
+      "case_id": "opc_case_f609f9d89570",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_e1ff544887c0"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-uncovr/",
+      "title": "CEO Interview: Uncovr",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     },
     {
       "case_id": "opc_case_662d674303ed",
@@ -192,26 +213,24 @@
       "score": 49
     },
     {
-      "case_id": "opc_case_29d9bf8d0bfc",
-      "company": "Can Agents Use",
+      "case_id": "opc_case_173d6a44f9ef",
+      "company": "Maybe",
       "founder": "",
       "source_refs": [
-        "biz_46d216258e64"
+        "biz_36fd096d6c57"
       ],
-      "url": "https://a16z.com/can-agents-use-a-computer-yet-weve-got-the-data/",
-      "title": "Can Agents Use a Computer Yet? We've Got the Data | Andreessen Horowitz",
-      "business_model": "Enterprise AI Workflow, Founder Case",
+      "url": "https://www.indiehackers.com/post/maybe-we-don-t-have-a-productivity-problem-maybe-we-have-a-context-problem-6dc873feca",
+      "title": "Maybe we don’t have a productivity problem. Maybe we have a context problem.",
+      "business_model": "Enterprise AI Workflow, OPC",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
-      "distribution_channel": "a16z",
+      "distribution_channel": "Indie Hackers",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_os",
-        "ftf_trust"
+        "yuanli_startup"
       ],
-      "score": 39
+      "score": 32
     }
   ]
 }
