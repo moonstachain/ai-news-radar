@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T18:47:36.725528Z",
+  "generated_at": "2026-08-11T19:56:02.920071Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-11T13:33:14Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
+      "captured_at": "2026-08-11T19:56:02.920071Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-11T13:22:37Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
+      "captured_at": "2026-08-11T19:56:02.920071Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -82,7 +82,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-11T13:31:07Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
+      "captured_at": "2026-08-11T19:56:02.920071Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter"
@@ -116,7 +116,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-10T20:19:59Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
+      "captured_at": "2026-08-11T19:56:02.920071Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -147,87 +147,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_ce2002b548d7",
-      "title": "Executive Interview: Turaco",
-      "url": "https://www.cbinsights.com/research/executive-interview-turaco/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-10T19:37:01Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "Executive Interview",
-        "Turaco"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 49,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Niraj Varia, Chief Operating Officer at Turaco, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? The number one... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_22df44b201f2",
-      "title": "CEO Interview: CreditChek",
-      "url": "https://www.cbinsights.com/research/ceo-interview-creditchek/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-10T19:07:21Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "CEO Interview",
-        "CreditChek"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 49,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Kingsley Ibe, Chief Executive Officer at CreditChek, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Today, ov... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_01194c5d0342",
       "title": "From coder to orchestrator: How agents shift the role of a developer",
       "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-11T18:38:17Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
+      "captured_at": "2026-08-11T19:56:02.920071Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -256,86 +182,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_4c05660420a7",
-      "title": "Using the GitHub Copilot SDK for Java",
-      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-      "source_id": "github_blog",
-      "source_name": "GitHub Blog",
-      "published_at": "2026-08-10T19:30:00Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
-      "lane": "ai_commercialization",
-      "entities": [
-        "GitHub Blog",
-        "Using",
-        "GitHub Copilot SDK",
-        "Java"
-      ],
-      "business_model_tags": [
-        "Enterprise AI Workflow"
-      ],
-      "yuanli_tags": [
-        "yuanli_os"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 35,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 3,
-        "business_model_value": 5,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more. The post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog... Tags: Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_36fd096d6c57",
-      "title": "Maybe we don’t have a productivity problem. Maybe we have a context problem.",
-      "url": "https://www.indiehackers.com/post/maybe-we-don-t-have-a-productivity-problem-maybe-we-have-a-context-problem-6dc873feca",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-11T08:38:21.944000Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "Maybe"
-      ],
-      "business_model_tags": [
-        "Enterprise AI Workflow",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 0,
-      "total_score": 32,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 0,
-        "opc_fit": 5,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "Maybe we don’t have a productivity problem. Maybe we have a context problem. Tags: Enterprise AI Workflow, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
       "signal_id": "biz_1a9f34237e81",
       "title": "How to End Things Well",
       "url": "https://sloanreview.mit.edu/article/how-to-end-things-well/",
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-11T11:00:17Z",
-      "captured_at": "2026-08-11T18:47:36.725528Z",
+      "captured_at": "2026-08-11T19:56:02.920071Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -363,6 +216,42 @@
       "summary": "Aad Goudappel/theispot.com Most leadership advice is written for beginnings — how to launch initiatives, build momentum, scale ideas, and manage new projects. Far less attention is given to the work of ending something w... Tags: Enterprise AI Workflow, AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_36fd096d6c57",
+      "title": "Maybe we don’t have a productivity problem. Maybe we have a context problem.",
+      "url": "https://www.indiehackers.com/post/maybe-we-don-t-have-a-productivity-problem-maybe-we-have-a-context-problem-6dc873feca",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-11T08:38:21.944000Z",
+      "captured_at": "2026-08-11T19:56:02.920071Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Maybe"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 0,
+      "total_score": 31,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 0,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Maybe we don’t have a productivity problem. Maybe we have a context problem. Tags: Enterprise AI Workflow, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     }
   ]
 }

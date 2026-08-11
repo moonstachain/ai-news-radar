@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "666f3f55d1a86780",
+  "snapshot_id": "53d8827ba95364c0",
   "channel": "ai-news",
-  "generated_at": "2026-08-11T18:46:15.633233Z",
+  "generated_at": "2026-08-11T19:54:56.825609Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 641,
-    "high_priority": 35,
+    "signals": 654,
+    "high_priority": 39,
     "briefs": 20,
-    "stories": 592
+    "stories": 596
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,90 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 212,
-    "Info Flow": 153,
+    "Buzzing": 210,
+    "Info Flow": 152,
     "TechURLs": 91,
-    "Zeli": 66,
-    "NewsNow": 38,
-    "Curated Media": 27,
-    "AI HOT": 21,
-    "OPML RSS": 11
+    "Zeli": 74,
+    "NewsNow": 36,
+    "Curated Media": 31,
+    "AI HOT": 26,
+    "OPML RSS": 13
   },
   "top_stories": [
+    {
+      "story_id": "story_800ebb0d7846",
+      "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "primary_url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 5,
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "github.com",
+        "hackernews"
+      ],
+      "importance_score": 0.8624,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-11T16:41:17.281000Z",
+      "earliest_at": "2026-08-11T14:50:33Z",
+      "sources": [
+        {
+          "id": "36fd102d8ae2dbc2c3574f27cb5aad651b1af213",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T16:41:17.281000Z"
+        },
+        {
+          "id": "4b2102e403d9dec5881249532877b86614b3ef6f",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11–16 倍的 LLM 推理加速",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-11T16:41:17.281000Z"
+        },
+        {
+          "id": "6d1cfa2910e04a5058b726a06334be2164e1126a",
+          "title": "Apple Silicon 和 macOS VM：使用 Llama.cpp 将 LLM 推理速度提高 11–16 倍 / Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+          "url": "https://news.ycombinator.com/item?id=49259339",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-11T15:23:10.713000Z"
+        },
+        {
+          "id": "a9b3f1ef17a821b3975a91a795f6a120a6a5480c",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速 / Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-11T14:50:33Z"
+        },
+        {
+          "id": "13f4c60667f8b4b32f567dee9d8502109afc97d3",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速 / Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-11T14:50:33Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_9514940f045b",
       "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力 / AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
@@ -44,7 +118,7 @@
         "Google AI Blog",
         "Google Blog：AI（RSS）"
       ],
-      "importance_score": 0.8645,
+      "importance_score": 0.8616,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +162,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8506,
+      "importance_score": 0.8477,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -107,40 +181,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-11T18:13:56Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_5eb3c49c6262",
-      "title": "想到 ACE 了吗？我们可以用更少的代币做到这一点 / Thinking of ACE? We Can Do It with Fewer Tokens",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "primary_url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "importance_score": 0.8471,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-11T13:37:10Z",
-      "earliest_at": "2026-08-11T13:37:10Z",
-      "sources": [
-        {
-          "id": "8e9955ab6df244cfd9efefe5c5327a0a0c049557",
-          "title": "想到 ACE 了吗？我们可以用更少的代币做到这一点 / Thinking of ACE? We Can Do It with Fewer Tokens",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-11T13:37:10Z"
         }
       ],
       "confidence": "single-source"
