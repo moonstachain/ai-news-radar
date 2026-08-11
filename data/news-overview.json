@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "deb113a6f7244a7f",
+  "snapshot_id": "1cef2355e8bb7a4b",
   "channel": "ai-news",
-  "generated_at": "2026-08-11T03:15:46.772825Z",
+  "generated_at": "2026-08-11T04:47:32.789167Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 575,
+    "signals": 584,
     "high_priority": 25,
     "briefs": 20,
-    "stories": 520
+    "stories": 532
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 180,
-    "Info Flow": 145,
-    "Zeli": 81,
+    "Buzzing": 182,
+    "Info Flow": 150,
     "TechURLs": 81,
-    "NewsNow": 29,
+    "Zeli": 81,
+    "NewsNow": 33,
     "Curated Media": 20,
     "Official AI Updates": 12,
     "AI HOT": 11
@@ -34,19 +34,20 @@
   "top_stories": [
     {
       "story_id": "story_61282b7420ed",
-      "title": "OpenAI 致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信函 / OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施 / OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
       "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
       "primary_url": "https://openai.com/index/responsible-ai-infrastructure-texas",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
-      "source_count": 4,
+      "source_count": 5,
       "source_names": [
         "Hacker News (黑客新闻)",
         "Hacker News · 24h最热",
         "OpenAI News",
-        "hackernews"
+        "hackernews",
+        "openai.com"
       ],
-      "importance_score": 0.8956,
+      "importance_score": 0.9174,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -55,17 +56,26 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-10T15:14:36.716000Z",
+      "latest_at": "2026-08-11T04:26:13.750000Z",
       "earliest_at": "2026-08-10T14:00:00Z",
       "sources": [
         {
           "id": "0754ccb6465361f94f2e013cde380666cd80ded3",
-          "title": "OpenAI 致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信函 / OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+          "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施 / OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
           "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-10T14:00:00Z"
+        },
+        {
+          "id": "9e9eeda46c6f30aa3596f569079f260feced146c",
+          "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施",
+          "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-11T04:26:13.750000Z"
         },
         {
           "id": "c21217956e0d505714e8a4c082b597fef875feb4",
@@ -78,7 +88,7 @@
         },
         {
           "id": "e05568c26cf1f3a6a5f215f4dd05615e1d46056d",
-          "title": "致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信 / Letter to Governor Abbott on responsible AI infrastructure in Texas",
+          "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施 / Letter to Governor Abbott on responsible AI infrastructure in Texas",
           "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -87,7 +97,7 @@
         },
         {
           "id": "c5b1c9386311bd99eaa8beb0fabb4496aca0fe70",
-          "title": "OpenAI 致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信 / OpenAI's letter to Governor Abbott on responsible AI infrastructure in Texas",
+          "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施 / OpenAI's letter to Governor Abbott on responsible AI infrastructure in Texas",
           "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -112,7 +122,7 @@
         "bobdahacker.com",
         "hackernews"
       ],
-      "importance_score": 0.8363,
+      "importance_score": 0.8331,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -182,7 +192,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8339,
+      "importance_score": 0.8306,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
