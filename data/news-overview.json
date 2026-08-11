@@ -1,35 +1,36 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d5ac3b9a0e9d3237",
+  "snapshot_id": "338f214330f060df",
   "channel": "ai-news",
-  "generated_at": "2026-08-11T05:47:39.595194Z",
+  "generated_at": "2026-08-11T06:46:21.764003Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 592,
-    "high_priority": 26,
+    "signals": 601,
+    "high_priority": 38,
     "briefs": 20,
-    "stories": 536
+    "stories": 543
   },
   "coverage": {
-    "successful": 16,
+    "successful": 15,
     "total": 17,
-    "failed": 1,
-    "ratio": 0.9412,
+    "failed": 2,
+    "ratio": 0.8824,
     "status": "healthy"
   },
   "failed_sources": [
-    "aibreakfast"
+    "aibreakfast",
+    "iris"
   ],
   "section_counts": {
-    "Buzzing": 185,
-    "Info Flow": 153,
-    "Zeli": 84,
-    "TechURLs": 80,
+    "Buzzing": 183,
+    "Info Flow": 142,
+    "Zeli": 87,
+    "TechURLs": 83,
     "NewsNow": 31,
-    "Curated Media": 21,
-    "Official AI Updates": 12,
-    "AI HOT": 12
+    "Curated Media": 20,
+    "Follow Builders": 15,
+    "AI HOT": 14
   },
   "top_stories": [
     {
@@ -39,15 +40,14 @@
       "primary_url": "https://openai.com/index/responsible-ai-infrastructure-texas",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
-      "source_count": 5,
+      "source_count": 4,
       "source_names": [
-        "Hacker News (黑客新闻)",
         "Hacker News · 24h最热",
         "OpenAI News",
         "hackernews",
         "openai.com"
       ],
-      "importance_score": 0.9153,
+      "importance_score": 0.8883,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -87,17 +87,8 @@
           "published_at": "2026-08-10T15:14:36.716000Z"
         },
         {
-          "id": "e05568c26cf1f3a6a5f215f4dd05615e1d46056d",
+          "id": "cde69d2706bf4e3eecfebc8d78c3fd65a9655ba5",
           "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施 / Letter to Governor Abbott on responsible AI infrastructure in Texas",
-          "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-10T14:38:20Z"
-        },
-        {
-          "id": "c5b1c9386311bd99eaa8beb0fabb4496aca0fe70",
-          "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施 / OpenAI's letter to Governor Abbott on responsible AI infrastructure in Texas",
           "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -122,7 +113,7 @@
         "bobdahacker.com",
         "hackernews"
       ],
-      "importance_score": 0.831,
+      "importance_score": 0.829,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -192,7 +183,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8284,
+      "importance_score": 0.8263,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
