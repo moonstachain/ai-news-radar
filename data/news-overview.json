@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "53d8827ba95364c0",
+  "snapshot_id": "a450a7c8670d79e5",
   "channel": "ai-news",
-  "generated_at": "2026-08-11T19:54:56.825609Z",
+  "generated_at": "2026-08-11T20:34:20.879745Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 654,
-    "high_priority": 39,
+    "signals": 661,
+    "high_priority": 41,
     "briefs": 20,
-    "stories": 596
+    "stories": 599
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 210,
-    "Info Flow": 152,
+    "Buzzing": 211,
+    "Info Flow": 151,
     "TechURLs": 91,
-    "Zeli": 74,
-    "NewsNow": 36,
+    "Zeli": 79,
+    "NewsNow": 37,
     "Curated Media": 31,
     "AI HOT": 26,
     "OPML RSS": 13
@@ -47,7 +47,7 @@
         "github.com",
         "hackernews"
       ],
-      "importance_score": 0.8624,
+      "importance_score": 0.8608,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -118,7 +118,7 @@
         "Google AI Blog",
         "Google Blog：AI（RSS）"
       ],
-      "importance_score": 0.8616,
+      "importance_score": 0.8599,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -152,17 +152,17 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_824a73866601",
-      "title": "MAI-Code-1.1-Flash 可在 GitHub Copilot 中使用 / MAI-Code-1.1-Flash available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+      "story_id": "story_dad741422848",
+      "title": "GitHub Copilot for JetBrains 中的 Copilot 内存和 Ollama / Copilot memory and Ollama in GitHub Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+      "primary_url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8477,
+      "importance_score": 0.8512,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -170,17 +170,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-11T18:13:56Z",
-      "earliest_at": "2026-08-11T18:13:56Z",
+      "latest_at": "2026-08-11T20:15:55Z",
+      "earliest_at": "2026-08-11T20:15:55Z",
       "sources": [
         {
-          "id": "20b4d04d7ca16e68614fdf21c759a417df28eacb",
-          "title": "MAI-Code-1.1-Flash 可在 GitHub Copilot 中使用 / MAI-Code-1.1-Flash available in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+          "id": "ca6e0d7202fb1ebe8762e92b584b426237dda742",
+          "title": "GitHub Copilot for JetBrains 中的 Copilot 内存和 Ollama / Copilot memory and Ollama in GitHub Copilot for JetBrains",
+          "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-11T18:13:56Z"
+          "published_at": "2026-08-11T20:15:55Z"
         }
       ],
       "confidence": "single-source"
