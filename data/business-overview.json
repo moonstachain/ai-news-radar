@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "792859dccc025010",
+  "snapshot_id": "f8d3f54d07f1c046",
   "channel": "ai-business",
-  "generated_at": "2026-08-11T12:06:59.986504Z",
+  "generated_at": "2026-08-11T13:51:49.081360Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 11,
+    "signals": 12,
     "briefs": 3,
     "clusters": 3,
-    "cases": 8
+    "cases": 10
   },
   "coverage": {
     "successful": 16,
@@ -20,21 +20,21 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_ccc4079fbfb3",
+      "brief_id": "biz_brief_d2aa7ab9b7f5",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "7 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "9 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_29aa61b493eb",
         "biz_444f22d060c0",
-        "biz_22a67e7f3959",
-        "biz_ce2002b548d7",
-        "biz_22df44b201f2"
+        "biz_960410373491",
+        "biz_674453e3090c",
+        "biz_22a67e7f3959"
       ],
       "evidence_titles": [
         "Executive Interview: Covera Health",
         "Executive Interview: Blue J",
-        "CEO Interview: Omnispay"
+        "Executive Interview: arbiter.ai"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -45,7 +45,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_1a7c8df2a094",
+      "brief_id": "biz_brief_ed37f23338de",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -65,16 +65,14 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_4e338fb8adae",
+      "brief_id": "biz_brief_dccf30e576b8",
       "rank": 3,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_c08726c72d0c",
         "biz_1a9f34237e81"
       ],
       "evidence_titles": [
-        "AI Pricing: A Reality Check on Effort, Usage, and Outcomes",
         "How to End Things Well"
       ],
       "risk_level": "low",
@@ -88,19 +86,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_ccc4079fbfb3",
+      "id": "biz_brief_d2aa7ab9b7f5",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_1a7c8df2a094",
+      "id": "biz_brief_ed37f23338de",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_4e338fb8adae",
+      "id": "biz_brief_dccf30e576b8",
       "label": "Brief #3",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
@@ -108,26 +106,26 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_aab4ad682dd3",
+      "cluster_id": "biz_cluster_7ba7e5b73d3b",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
-      "source_count": 1,
-      "importance_score": 52,
-      "confidence": "watch",
+      "source_count": 2,
+      "importance_score": 54,
+      "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "7 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "9 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
         "biz_29aa61b493eb",
         "biz_444f22d060c0",
-        "biz_22a67e7f3959",
-        "biz_ce2002b548d7",
-        "biz_22df44b201f2"
+        "biz_960410373491",
+        "biz_674453e3090c",
+        "biz_22a67e7f3959"
       ],
       "top_sources": [
         {
@@ -142,18 +140,18 @@
         },
         {
           "source": "CB Insights",
+          "title": "Executive Interview: arbiter.ai",
+          "url": "https://www.cbinsights.com/research/executive-interview-arbiter-ai/"
+        },
+        {
+          "source": "Lenny's Newsletter",
+          "title": "How to make people care about your startup",
+          "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your"
+        },
+        {
+          "source": "CB Insights",
           "title": "CEO Interview: Omnispay",
           "url": "https://www.cbinsights.com/research/ceo-interview-omnispay/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: Turaco",
-          "url": "https://www.cbinsights.com/research/executive-interview-turaco/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: CreditChek",
-          "url": "https://www.cbinsights.com/research/ceo-interview-creditchek/"
         }
       ]
     },
@@ -189,30 +187,24 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_76ce03fad251",
+      "cluster_id": "biz_cluster_2cc81d3255d0",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
-      "source_count": 2,
-      "importance_score": 38,
-      "confidence": "medium",
+      "source_count": 1,
+      "importance_score": 33,
+      "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "yuanli_startup"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
-        "biz_c08726c72d0c",
         "biz_1a9f34237e81"
       ],
       "top_sources": [
-        {
-          "source": "Bain Insights",
-          "title": "AI Pricing: A Reality Check on Effort, Usage, and Outcomes",
-          "url": "https://www.bain.com/insights/ai-pricing-a-reality-check-on-effort-usage-and-outcomes/"
-        },
         {
           "source": "MIT Sloan Management Review",
           "title": "How to End Things Well",

@@ -1,36 +1,38 @@
 {
-  "generated_at": "2026-08-11T12:06:59.986504Z",
+  "generated_at": "2026-08-11T13:51:49.081360Z",
   "clusters": [
     {
-      "cluster_id": "biz_cluster_aab4ad682dd3",
+      "cluster_id": "biz_cluster_7ba7e5b73d3b",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "signal_ids": [
         "biz_29aa61b493eb",
         "biz_444f22d060c0",
+        "biz_960410373491",
+        "biz_674453e3090c",
         "biz_22a67e7f3959",
         "biz_ce2002b548d7",
         "biz_22df44b201f2",
         "biz_3b6e450aa009",
         "biz_c64af49aa75e"
       ],
-      "source_count": 1,
-      "importance_score": 52,
-      "confidence": "watch",
+      "source_count": 2,
+      "importance_score": 54,
+      "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "7 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "9 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
         "biz_29aa61b493eb",
         "biz_444f22d060c0",
-        "biz_22a67e7f3959",
-        "biz_ce2002b548d7",
-        "biz_22df44b201f2"
+        "biz_960410373491",
+        "biz_674453e3090c",
+        "biz_22a67e7f3959"
       ],
       "top_sources": [
         {
@@ -45,18 +47,18 @@
         },
         {
           "source": "CB Insights",
+          "title": "Executive Interview: arbiter.ai",
+          "url": "https://www.cbinsights.com/research/executive-interview-arbiter-ai/"
+        },
+        {
+          "source": "Lenny's Newsletter",
+          "title": "How to make people care about your startup",
+          "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your"
+        },
+        {
+          "source": "CB Insights",
           "title": "CEO Interview: Omnispay",
           "url": "https://www.cbinsights.com/research/ceo-interview-omnispay/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: Turaco",
-          "url": "https://www.cbinsights.com/research/executive-interview-turaco/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: CreditChek",
-          "url": "https://www.cbinsights.com/research/ceo-interview-creditchek/"
         }
       ]
     },
@@ -96,34 +98,27 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_76ce03fad251",
+      "cluster_id": "biz_cluster_2cc81d3255d0",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "signal_ids": [
-        "biz_c08726c72d0c",
         "biz_1a9f34237e81"
       ],
-      "source_count": 2,
-      "importance_score": 38,
-      "confidence": "medium",
+      "source_count": 1,
+      "importance_score": 33,
+      "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "yuanli_startup"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
-        "biz_c08726c72d0c",
         "biz_1a9f34237e81"
       ],
       "top_sources": [
-        {
-          "source": "Bain Insights",
-          "title": "AI Pricing: A Reality Check on Effort, Usage, and Outcomes",
-          "url": "https://www.bain.com/insights/ai-pricing-a-reality-check-on-effort-usage-and-outcomes/"
-        },
         {
           "source": "MIT Sloan Management Review",
           "title": "How to End Things Well",
