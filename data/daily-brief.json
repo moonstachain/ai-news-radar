@@ -1,8 +1,90 @@
 {
-  "generated_at": "2026-08-11T16:46:35.176609Z",
+  "generated_at": "2026-08-11T17:48:42.987288Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_9514940f045b",
+      "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力 / AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+      "primary_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "75b03ab3d29079ef7777ecfe34d715fd124b0e6f",
+          "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力 / AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-11T17:00:00Z"
+        },
+        {
+          "id": "ed80cc76f03944ad704e39a7ee20e3275fa1411c",
+          "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+          "source": "Google Blog：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T17:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Google AI Blog",
+        "Google Blog：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "75b03ab3d29079ef7777ecfe34d715fd124b0e6f",
+          "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力 / AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-11T17:00:00Z"
+        },
+        {
+          "id": "ed80cc76f03944ad704e39a7ee20e3275fa1411c",
+          "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+          "source": "Google Blog：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T17:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8669,
+      "importance": 0.8669,
+      "importance_score": 0.8669,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9883,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-11T17:00:00Z",
+      "latest_at": "2026-08-11T17:00:00Z",
+      "primary_item": {
+        "id": "75b03ab3d29079ef7777ecfe34d715fd124b0e6f",
+        "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力 / AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+        "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_5eb3c49c6262",
       "title": "想到 ACE 了吗？我们可以用更少的代币做到这一点 / Thinking of ACE? We Can Do It with Fewer Tokens",
@@ -38,15 +120,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.852,
-      "importance": 0.852,
-      "importance_score": 0.852,
+      "score": 0.8494,
+      "importance": 0.8494,
+      "importance_score": 0.8494,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9554,
+        "recency": 0.9413,
         "story_heat": 0.0
       },
       "category": "official",
@@ -63,6 +145,125 @@
         "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_800ebb0d7846",
+      "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "primary_url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "36fd102d8ae2dbc2c3574f27cb5aad651b1af213",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T16:41:17.281000Z"
+        },
+        {
+          "id": "4b2102e403d9dec5881249532877b86614b3ef6f",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11–16 倍的 LLM 推理加速",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-11T16:41:17.281000Z"
+        },
+        {
+          "id": "6d1cfa2910e04a5058b726a06334be2164e1126a",
+          "title": "Apple Silicon 和 macOS VM：使用 Llama.cpp 将 LLM 推理速度提高 11–16 倍 / Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+          "url": "https://news.ycombinator.com/item?id=49259339",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-11T15:23:10.713000Z"
+        },
+        {
+          "id": "a9b3f1ef17a821b3975a91a795f6a120a6a5480c",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速 / Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-11T14:50:33Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "github.com",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "36fd102d8ae2dbc2c3574f27cb5aad651b1af213",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T16:41:17.281000Z"
+        },
+        {
+          "id": "4b2102e403d9dec5881249532877b86614b3ef6f",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11–16 倍的 LLM 推理加速",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-11T16:41:17.281000Z"
+        },
+        {
+          "id": "6d1cfa2910e04a5058b726a06334be2164e1126a",
+          "title": "Apple Silicon 和 macOS VM：使用 Llama.cpp 将 LLM 推理速度提高 11–16 倍 / Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+          "url": "https://news.ycombinator.com/item?id=49259339",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-11T15:23:10.713000Z"
+        },
+        {
+          "id": "a9b3f1ef17a821b3975a91a795f6a120a6a5480c",
+          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速 / Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-11T14:50:33Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.8427,
+      "importance": 0.8427,
+      "importance_score": 0.8427,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9839,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-11T14:50:33Z",
+      "latest_at": "2026-08-11T16:41:17.281000Z",
+      "primary_item": {
+        "id": "36fd102d8ae2dbc2c3574f27cb5aad651b1af213",
+        "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+        "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -100,15 +301,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8432,
-      "importance": 0.8432,
-      "importance_score": 0.8432,
+      "score": 0.8408,
+      "importance": 0.8408,
+      "importance_score": 0.8408,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9068,
+        "recency": 0.8933,
         "story_heat": 0.0
       },
       "category": "official",
@@ -162,15 +363,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8387,
-      "importance": 0.8387,
-      "importance_score": 0.8387,
+      "score": 0.8361,
+      "importance": 0.8361,
+      "importance_score": 0.8361,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9704,
+        "recency": 0.956,
         "story_heat": 0.0
       },
       "category": "official",
@@ -224,15 +425,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8044,
-      "importance": 0.8044,
-      "importance_score": 0.8044,
+      "score": 0.8024,
+      "importance": 0.8024,
+      "importance_score": 0.8024,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7355,
+        "recency": 0.7246,
         "story_heat": 0.0
       },
       "category": "official",
@@ -324,15 +525,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7993,
-      "importance": 0.7993,
-      "importance_score": 0.7993,
+      "score": 0.7969,
+      "importance": 0.7969,
+      "importance_score": 0.7969,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8981,
+        "recency": 0.8848,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -405,15 +606,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7872,
-      "importance": 0.7872,
-      "importance_score": 0.7872,
+      "score": 0.7847,
+      "importance": 0.7847,
+      "importance_score": 0.7847,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.92,
+        "recency": 0.9063,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -429,6 +630,67 @@
         "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
         "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
         "source": "The Verge：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_26a2ec7a2abd",
+      "title": "Gemini月活破10亿，成谷歌增长最快产品",
+      "url": "https://x.com/sundarpichai/status/2087222656819241292",
+      "primary_url": "https://x.com/sundarpichai/status/2087222656819241292",
+      "source": "X：Sundar Pichai (@sundarpichai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6b3d2c7aa4ce095c39f5bef0e3bd8a8b80dfb7a4",
+          "title": "Gemini月活破10亿，成谷歌增长最快产品",
+          "url": "https://x.com/sundarpichai/status/2087222656819241292",
+          "source": "X：Sundar Pichai (@sundarpichai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T17:00:34Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Sundar Pichai (@sundarpichai)"
+      ],
+      "items": [
+        {
+          "id": "6b3d2c7aa4ce095c39f5bef0e3bd8a8b80dfb7a4",
+          "title": "Gemini月活破10亿，成谷歌增长最快产品",
+          "url": "https://x.com/sundarpichai/status/2087222656819241292",
+          "source": "X：Sundar Pichai (@sundarpichai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T17:00:34Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7805,
+      "importance": 0.7805,
+      "importance_score": 0.7805,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9885,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-11T17:00:34Z",
+      "latest_at": "2026-08-11T17:00:34Z",
+      "primary_item": {
+        "id": "6b3d2c7aa4ce095c39f5bef0e3bd8a8b80dfb7a4",
+        "title": "Gemini月活破10亿，成谷歌增长最快产品",
+        "url": "https://x.com/sundarpichai/status/2087222656819241292",
+        "source": "X：Sundar Pichai (@sundarpichai)",
         "source_name": "AI HOT"
       }
     },
@@ -467,15 +729,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7718,
-      "importance": 0.7718,
-      "importance_score": 0.7718,
+      "score": 0.7692,
+      "importance": 0.7692,
+      "importance_score": 0.7692,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9733,
+        "recency": 0.9589,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -528,15 +790,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7701,
-      "importance": 0.7701,
-      "importance_score": 0.7701,
+      "score": 0.7675,
+      "importance": 0.7675,
+      "importance_score": 0.7675,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.947,
+        "recency": 0.933,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -551,129 +813,6 @@
         "title": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
         "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron",
         "source": "NVIDIA Blog（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_7a678e9a26d7",
-      "title": "构建人工智能原生财务功能教会了我什么 / What building an AI-native finance function taught me",
-      "url": "https://openai.com/index/building-an-ai-native-finance-function",
-      "primary_url": "https://openai.com/index/building-an-ai-native-finance-function",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "c2a19441382dddabccade1f3a43bf687166ea0a8",
-          "title": "构建人工智能原生财务功能教会了我什么 / What building an AI-native finance function taught me",
-          "url": "https://openai.com/index/building-an-ai-native-finance-function",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-10T17:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "c2a19441382dddabccade1f3a43bf687166ea0a8",
-          "title": "构建人工智能原生财务功能教会了我什么 / What building an AI-native finance function taught me",
-          "url": "https://openai.com/index/building-an-ai-native-finance-function",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-10T17:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7997,
-      "importance": 0.7997,
-      "importance_score": 0.7997,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7094,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-10T17:00:00Z",
-      "latest_at": "2026-08-10T17:00:00Z",
-      "primary_item": {
-        "id": "c2a19441382dddabccade1f3a43bf687166ea0a8",
-        "title": "构建人工智能原生财务功能教会了我什么 / What building an AI-native finance function taught me",
-        "url": "https://openai.com/index/building-an-ai-native-finance-function",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_fd21c5f6a768",
-      "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
-      "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
-      "primary_url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "5ae76d17bf4b6d1e46f7bdc01e0426c820e5f126",
-          "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
-          "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-11T13:51:45.827000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "LMSYS：Blog（Chatbot Arena 团队）"
-      ],
-      "items": [
-        {
-          "id": "5ae76d17bf4b6d1e46f7bdc01e0426c820e5f126",
-          "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
-          "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
-          "source": "LMSYS：Blog（Chatbot Arena 团队）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-11T13:51:45.827000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7662,
-      "importance": 0.7662,
-      "importance_score": 0.7662,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9588,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-11T13:51:45.827000Z",
-      "latest_at": "2026-08-11T13:51:45.827000Z",
-      "primary_item": {
-        "id": "5ae76d17bf4b6d1e46f7bdc01e0426c820e5f126",
-        "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
-        "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
-        "source": "LMSYS：Blog（Chatbot Arena 团队）",
         "source_name": "AI HOT"
       }
     },
@@ -731,15 +870,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7661,
-      "importance": 0.7661,
-      "importance_score": 0.7661,
+      "score": 0.7638,
+      "importance": 0.7638,
+      "importance_score": 0.7638,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8527,
+        "recency": 0.8401,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -755,6 +894,128 @@
         "title": "用 ComfyUI API 实现 MiniMax-H3 多模态视频与音频生成流水线",
         "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
         "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_fd21c5f6a768",
+      "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
+      "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
+      "primary_url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "5ae76d17bf4b6d1e46f7bdc01e0426c820e5f126",
+          "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
+          "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T13:51:45.827000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LMSYS：Blog（Chatbot Arena 团队）"
+      ],
+      "items": [
+        {
+          "id": "5ae76d17bf4b6d1e46f7bdc01e0426c820e5f126",
+          "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
+          "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T13:51:45.827000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7636,
+      "importance": 0.7636,
+      "importance_score": 0.7636,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9446,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-11T13:51:45.827000Z",
+      "latest_at": "2026-08-11T13:51:45.827000Z",
+      "primary_item": {
+        "id": "5ae76d17bf4b6d1e46f7bdc01e0426c820e5f126",
+        "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
+        "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
+        "source": "LMSYS：Blog（Chatbot Arena 团队）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_3eae35082480",
+      "title": "Gemini 助力 Database Migration Service 加速 PostgreSQL 迁移",
+      "url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
+      "primary_url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
+      "source": "Google Cloud：Databases（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "db6f1ef40af01b8b8dba0ed032a5cd4df9c74394",
+          "title": "Gemini 助力 Database Migration Service 加速 PostgreSQL 迁移",
+          "url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
+          "source": "Google Cloud：Databases（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google Cloud：Databases（RSS）"
+      ],
+      "items": [
+        {
+          "id": "db6f1ef40af01b8b8dba0ed032a5cd4df9c74394",
+          "title": "Gemini 助力 Database Migration Service 加速 PostgreSQL 迁移",
+          "url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
+          "source": "Google Cloud：Databases（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.763,
+      "importance": 0.763,
+      "importance_score": 0.763,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9742,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-11T16:00:00Z",
+      "latest_at": "2026-08-11T16:00:00Z",
+      "primary_item": {
+        "id": "db6f1ef40af01b8b8dba0ed032a5cd4df9c74394",
+        "title": "Gemini 助力 Database Migration Service 加速 PostgreSQL 迁移",
+        "url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
+        "source": "Google Cloud：Databases（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -793,15 +1054,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7457,
-      "importance": 0.7457,
-      "importance_score": 0.7457,
+      "score": 0.7437,
+      "importance": 0.7437,
+      "importance_score": 0.7437,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7618,
+        "recency": 0.7505,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -819,62 +1080,62 @@
       }
     },
     {
-      "story_id": "story_d606c2d2ba98",
-      "title": "编写智能体时，哪种编程语言最合适？",
-      "url": "http://danluu.com/pl-tokens",
-      "primary_url": "http://danluu.com/pl-tokens",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_8c85a5e4c7a3",
+      "title": "Ryan Greenblatt：人类级AI或于2032年前通过递归自我改进催生失控超级智能",
+      "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+      "primary_url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "6c73822ce260fed8a308e92fcf71e96ceea5c8f6",
-          "title": "编写智能体时，哪种编程语言最合适？",
-          "url": "http://danluu.com/pl-tokens",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "6beecdb6a981fa0908fad902d332d55e43dcabd0",
+          "title": "Ryan Greenblatt：人类级AI或于2032年前通过递归自我改进催生失控超级智能",
+          "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-11T04:58:14.908000Z"
+          "published_at": "2026-08-11T16:31:23Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "Dwarkesh Patel：Podcast & Blog（RSS）"
       ],
       "items": [
         {
-          "id": "6c73822ce260fed8a308e92fcf71e96ceea5c8f6",
-          "title": "编写智能体时，哪种编程语言最合适？",
-          "url": "http://danluu.com/pl-tokens",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "6beecdb6a981fa0908fad902d332d55e43dcabd0",
+          "title": "Ryan Greenblatt：人类级AI或于2032年前通过递归自我改进催生失控超级智能",
+          "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-11T04:58:14.908000Z"
+          "published_at": "2026-08-11T16:31:23Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7334,
-      "importance": 0.7334,
-      "importance_score": 0.7334,
+      "score": 0.7283,
+      "importance": 0.7283,
+      "importance_score": 0.7283,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.7,
+        "editorial": 0.6,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8433,
+        "recency": 0.9816,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-11T04:58:14.908000Z",
-      "latest_at": "2026-08-11T04:58:14.908000Z",
+      "earliest_at": "2026-08-11T16:31:23Z",
+      "latest_at": "2026-08-11T16:31:23Z",
       "primary_item": {
-        "id": "6c73822ce260fed8a308e92fcf71e96ceea5c8f6",
-        "title": "编写智能体时，哪种编程语言最合适？",
-        "url": "http://danluu.com/pl-tokens",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "id": "6beecdb6a981fa0908fad902d332d55e43dcabd0",
+        "title": "Ryan Greenblatt：人类级AI或于2032年前通过递归自我改进催生失控超级智能",
+        "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+        "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
         "source_name": "AI HOT"
       }
     },
@@ -913,15 +1174,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7602,
-      "importance": 0.7602,
-      "importance_score": 0.7602,
+      "score": 0.7576,
+      "importance": 0.7576,
+      "importance_score": 0.7576,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9588,
+        "recency": 0.9446,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -974,15 +1235,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7582,
-      "importance": 0.7582,
-      "importance_score": 0.7582,
+      "score": 0.756,
+      "importance": 0.756,
+      "importance_score": 0.756,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8311,
+        "recency": 0.8188,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -997,6 +1258,66 @@
         "title": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化 AI 模型竞争等挑战",
         "url": "https://www.ithome.com/0/988/239.htm",
         "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_d606c2d2ba98",
+      "title": "编写智能体时，哪种编程语言最合适？",
+      "url": "http://danluu.com/pl-tokens",
+      "primary_url": "http://danluu.com/pl-tokens",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "6c73822ce260fed8a308e92fcf71e96ceea5c8f6",
+          "title": "编写智能体时，哪种编程语言最合适？",
+          "url": "http://danluu.com/pl-tokens",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T04:58:14.908000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "6c73822ce260fed8a308e92fcf71e96ceea5c8f6",
+          "title": "编写智能体时，哪种编程语言最合适？",
+          "url": "http://danluu.com/pl-tokens",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-11T04:58:14.908000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7311,
+      "importance": 0.7311,
+      "importance_score": 0.7311,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8307,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-11T04:58:14.908000Z",
+      "latest_at": "2026-08-11T04:58:14.908000Z",
+      "primary_item": {
+        "id": "6c73822ce260fed8a308e92fcf71e96ceea5c8f6",
+        "title": "编写智能体时，哪种编程语言最合适？",
+        "url": "http://danluu.com/pl-tokens",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -1035,15 +1356,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7273,
-      "importance": 0.7273,
-      "importance_score": 0.7273,
+      "score": 0.7252,
+      "importance": 0.7252,
+      "importance_score": 0.7252,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7927,
+        "recency": 0.781,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1058,452 +1379,6 @@
         "url": "https://www.ithome.com/0/988/104.htm",
         "source": "IT之家（RSS）",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_fba14a85c872",
-      "title": "Show HN：Mcptoon – 令牌高效的 MCP CLI 客户端 / Show HN: Mcptoon – Token-efficient MCP CLI client",
-      "url": "https://news.ycombinator.com/item?id=49253721",
-      "primary_url": "https://news.ycombinator.com/item?id=49253721",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "0ab469031c342d0ab4db6aca22c8e92ad6d523ff",
-          "title": "Show HN：Mcptoon – 令牌高效的 MCP CLI 客户端 / Show HN: Mcptoon – Token-efficient MCP CLI client",
-          "url": "https://news.ycombinator.com/item?id=49253721",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-11T06:48:44.749000Z"
-        },
-        {
-          "id": "10630e29d4f26c86507dd1caffc5e53e627722d0",
-          "title": "Show HN：Mcptoon – MCP CLI 客户端，可将工具发现令牌减少 97% / Show HN: Mcptoon – MCP CLI client that cuts tool discovery tokens by 97%",
-          "url": "https://news.ycombinator.com/item?id=49253721",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-11T05:36:37.205000Z"
-        },
-        {
-          "id": "997d1fe5a14753fe40650ff1e81706a03c62e160",
-          "title": "Show HN: Mcptoon——一款 MCP CLI 客户端，可将工具发现令牌数量减少 97%",
-          "url": "https://github.com/activeing123/mcptoon",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T05:30:08.185000Z"
-        },
-        {
-          "id": "855b392a4053aca4d0be6159a94883b982efb713",
-          "title": "Show HN: Mcptoon——一款 MCP CLI 客户端，可将工具发现令牌数量减少 97% / Show HN: Mcptoon – MCP CLI client that cuts tool discovery tokens by 97%",
-          "url": "https://github.com/activeing123/mcptoon",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-11T05:26:58Z"
-        },
-        {
-          "id": "a5284a471eff446dba3ac5f70bcc7634e8b5e49c",
-          "title": "Show HN: Mcptoon——一款 MCP CLI 客户端，可将工具发现令牌数量减少 97% / Show HN: Mcptoon – Token-efficient MCP CLI client",
-          "url": "https://github.com/activeing123/mcptoon",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-11T05:26:58Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "github.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "0ab469031c342d0ab4db6aca22c8e92ad6d523ff",
-          "title": "Show HN：Mcptoon – 令牌高效的 MCP CLI 客户端 / Show HN: Mcptoon – Token-efficient MCP CLI client",
-          "url": "https://news.ycombinator.com/item?id=49253721",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-11T06:48:44.749000Z"
-        },
-        {
-          "id": "10630e29d4f26c86507dd1caffc5e53e627722d0",
-          "title": "Show HN：Mcptoon – MCP CLI 客户端，可将工具发现令牌减少 97% / Show HN: Mcptoon – MCP CLI client that cuts tool discovery tokens by 97%",
-          "url": "https://news.ycombinator.com/item?id=49253721",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-11T05:36:37.205000Z"
-        },
-        {
-          "id": "997d1fe5a14753fe40650ff1e81706a03c62e160",
-          "title": "Show HN: Mcptoon——一款 MCP CLI 客户端，可将工具发现令牌数量减少 97%",
-          "url": "https://github.com/activeing123/mcptoon",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T05:30:08.185000Z"
-        },
-        {
-          "id": "855b392a4053aca4d0be6159a94883b982efb713",
-          "title": "Show HN: Mcptoon——一款 MCP CLI 客户端，可将工具发现令牌数量减少 97% / Show HN: Mcptoon – MCP CLI client that cuts tool discovery tokens by 97%",
-          "url": "https://github.com/activeing123/mcptoon",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-11T05:26:58Z"
-        },
-        {
-          "id": "a5284a471eff446dba3ac5f70bcc7634e8b5e49c",
-          "title": "Show HN: Mcptoon——一款 MCP CLI 客户端，可将工具发现令牌数量减少 97% / Show HN: Mcptoon – Token-efficient MCP CLI client",
-          "url": "https://github.com/activeing123/mcptoon",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-11T05:26:58Z"
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.5967,
-      "importance": 0.5967,
-      "importance_score": 0.5967,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.866,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-11T05:26:58Z",
-      "latest_at": "2026-08-11T06:48:44.749000Z",
-      "primary_item": {
-        "id": "0ab469031c342d0ab4db6aca22c8e92ad6d523ff",
-        "title": "Show HN：Mcptoon – 令牌高效的 MCP CLI 客户端 / Show HN: Mcptoon – Token-efficient MCP CLI client",
-        "url": "https://news.ycombinator.com/item?id=49253721",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_0b2744e224d2",
-      "title": "黎曼ζ函数的三分之二以上的零点位于临界线上",
-      "url": "https://www.anthropic.com/research/riemann-zeta",
-      "primary_url": "https://www.anthropic.com/research/riemann-zeta",
-      "source": "www.anthropic.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "61c14183cc4a57d9e1b8d730b0f6c973a4808aa2",
-          "title": "黎曼ζ函数的三分之二以上的零点位于临界线上",
-          "url": "https://www.anthropic.com/research/riemann-zeta",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T04:58:14.972000Z"
-        },
-        {
-          "id": "427659b5f9990e5bbf1a8b83e39fb2f1485c8bc4",
-          "title": "进一步了解克劳德的数学能力 / More than two thirds of the zeros of the Riemann zeta function lie on the critical line",
-          "url": "https://www.anthropic.com/research/riemann-zeta",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-11T01:49:16Z"
-        },
-        {
-          "id": "12173ad590578b11991d7b1d1b2842489544711d",
-          "title": "进一步了解克劳德的数学能力",
-          "url": "https://www.anthropic.com/research/riemann-zeta",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-10T19:54:08.696000Z"
-        },
-        {
-          "id": "3240bc91afd2def4fa0b271aa9c2dd313d133843",
-          "title": "进一步了解克劳德的数学能力 / Learning more about Claude's mathematical capabilities",
-          "url": "https://news.ycombinator.com/item?id=49247070",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-10T19:15:20.774000Z"
-        },
-        {
-          "id": "b3d7644a043d7c8122eee16ee3c38d119445ebd3",
-          "title": "进一步了解克劳德的数学能力 / Learning more about Claude's mathematical capabilities",
-          "url": "https://www.anthropic.com/research/riemann-zeta",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-10T17:41:13Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Lobsters (技术社区)",
-        "hackernews",
-        "www.anthropic.com"
-      ],
-      "items": [
-        {
-          "id": "61c14183cc4a57d9e1b8d730b0f6c973a4808aa2",
-          "title": "黎曼ζ函数的三分之二以上的零点位于临界线上",
-          "url": "https://www.anthropic.com/research/riemann-zeta",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T04:58:14.972000Z"
-        },
-        {
-          "id": "427659b5f9990e5bbf1a8b83e39fb2f1485c8bc4",
-          "title": "进一步了解克劳德的数学能力 / More than two thirds of the zeros of the Riemann zeta function lie on the critical line",
-          "url": "https://www.anthropic.com/research/riemann-zeta",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-11T01:49:16Z"
-        },
-        {
-          "id": "12173ad590578b11991d7b1d1b2842489544711d",
-          "title": "进一步了解克劳德的数学能力",
-          "url": "https://www.anthropic.com/research/riemann-zeta",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-10T19:54:08.696000Z"
-        },
-        {
-          "id": "3240bc91afd2def4fa0b271aa9c2dd313d133843",
-          "title": "进一步了解克劳德的数学能力 / Learning more about Claude's mathematical capabilities",
-          "url": "https://news.ycombinator.com/item?id=49247070",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-10T19:15:20.774000Z"
-        },
-        {
-          "id": "b3d7644a043d7c8122eee16ee3c38d119445ebd3",
-          "title": "进一步了解克劳德的数学能力 / Learning more about Claude's mathematical capabilities",
-          "url": "https://www.anthropic.com/research/riemann-zeta",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-10T17:41:13Z"
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.5926,
-      "importance": 0.5926,
-      "importance_score": 0.5926,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8433,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-10T17:41:13Z",
-      "latest_at": "2026-08-11T04:58:14.972000Z",
-      "primary_item": {
-        "id": "61c14183cc4a57d9e1b8d730b0f6c973a4808aa2",
-        "title": "黎曼ζ函数的三分之二以上的零点位于临界线上",
-        "url": "https://www.anthropic.com/research/riemann-zeta",
-        "source": "www.anthropic.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_5bec56c39765",
-      "title": "从专有大型语言模型（LLM）API中窃取推理轨迹",
-      "url": "https://stolen-thoughts.com",
-      "primary_url": "https://stolen-thoughts.com",
-      "source": "stolen-thoughts.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "752ef422eeb21c238519e0539122f47b266adc1f",
-          "title": "从专有大型语言模型（LLM）API中窃取推理轨迹",
-          "url": "https://stolen-thoughts.com",
-          "source": "stolen-thoughts.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T16:09:31.598000Z"
-        },
-        {
-          "id": "ebe7becf82728bab4803b6067bc5f254aeed25e8",
-          "title": "从专有的 LLM API 中窃取推理痕迹 / Stealing Reasoning Traces from Proprietary LLM APIs",
-          "url": "https://news.ycombinator.com/item?id=49257876",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-11T15:23:10.713000Z"
-        },
-        {
-          "id": "27c82884b98ae0f47c267ccd647211fcf57b1d49",
-          "title": "从专有大型语言模型（LLM）API中窃取推理轨迹 / Stealing Reasoning Traces from Proprietary LLM APIs",
-          "url": "https://stolen-thoughts.com",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-11T13:22:00Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "stolen-thoughts.com"
-      ],
-      "items": [
-        {
-          "id": "752ef422eeb21c238519e0539122f47b266adc1f",
-          "title": "从专有大型语言模型（LLM）API中窃取推理轨迹",
-          "url": "https://stolen-thoughts.com",
-          "source": "stolen-thoughts.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T16:09:31.598000Z"
-        },
-        {
-          "id": "ebe7becf82728bab4803b6067bc5f254aeed25e8",
-          "title": "从专有的 LLM API 中窃取推理痕迹 / Stealing Reasoning Traces from Proprietary LLM APIs",
-          "url": "https://news.ycombinator.com/item?id=49257876",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-11T15:23:10.713000Z"
-        },
-        {
-          "id": "27c82884b98ae0f47c267ccd647211fcf57b1d49",
-          "title": "从专有大型语言模型（LLM）API中窃取推理轨迹 / Stealing Reasoning Traces from Proprietary LLM APIs",
-          "url": "https://stolen-thoughts.com",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-11T13:22:00Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9911,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-11T13:22:00Z",
-      "latest_at": "2026-08-11T16:09:31.598000Z",
-      "primary_item": {
-        "id": "752ef422eeb21c238519e0539122f47b266adc1f",
-        "title": "从专有大型语言模型（LLM）API中窃取推理轨迹",
-        "url": "https://stolen-thoughts.com",
-        "source": "stolen-thoughts.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_452e2a5bc79e",
-      "title": "Spotify 要求艺术家说明自己是人类还是人工智能",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/spotify-asks-creators-to-label-songs-when-they-re-ai-generated",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-08-11/spotify-asks-creators-to-label-songs-when-they-re-ai-generated",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "e12150c6c02b07b2a33fa6041098d48e8a1b0548",
-          "title": "Spotify 要求艺术家说明自己是人类还是人工智能",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-11/spotify-asks-creators-to-label-songs-when-they-re-ai-generated",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T14:33:34.724000Z"
-        },
-        {
-          "id": "e3ffd8751e34a684ca43436e987bb39566ed5f1b",
-          "title": "Spotify 要求创作者对由人工智能生成的歌曲进行标注",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-11/spotify-asks-creators-to-label-songs-when-they-re-ai-generated",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T13:13:21.937000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "e12150c6c02b07b2a33fa6041098d48e8a1b0548",
-          "title": "Spotify 要求艺术家说明自己是人类还是人工智能",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-11/spotify-asks-creators-to-label-songs-when-they-re-ai-generated",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T14:33:34.724000Z"
-        },
-        {
-          "id": "e3ffd8751e34a684ca43436e987bb39566ed5f1b",
-          "title": "Spotify 要求创作者对由人工智能生成的歌曲进行标注",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-11/spotify-asks-creators-to-label-songs-when-they-re-ai-generated",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-11T13:13:21.937000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5401,
-      "importance": 0.5401,
-      "importance_score": 0.5401,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9685,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-11T13:13:21.937000Z",
-      "latest_at": "2026-08-11T14:33:34.724000Z",
-      "primary_item": {
-        "id": "e12150c6c02b07b2a33fa6041098d48e8a1b0548",
-        "title": "Spotify 要求艺术家说明自己是人类还是人工智能",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-11/spotify-asks-creators-to-label-songs-when-they-re-ai-generated",
-        "source": "www.bloomberg.com",
-        "source_name": "Buzzing"
       }
     }
   ]
