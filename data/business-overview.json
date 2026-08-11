@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a450a7c8670d79e5",
+  "snapshot_id": "52441607d001877d",
   "channel": "ai-business",
-  "generated_at": "2026-08-11T20:35:40.639976Z",
+  "generated_at": "2026-08-11T21:37:14.187281Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 6,
+    "signals": 7,
     "briefs": 4,
     "clusters": 4,
-    "cases": 4
+    "cases": 5
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_ff0f3a4fcef1",
+      "brief_id": "biz_brief_89263c45afde",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -43,14 +43,16 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_a2ea0ca4b368",
+      "brief_id": "biz_brief_581ad6459ae6",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
+        "biz_7c3275f9f60f",
         "biz_01194c5d0342"
       ],
       "evidence_titles": [
+        "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
         "From coder to orchestrator: How agents shift the role of a developer"
       ],
       "risk_level": "low",
@@ -61,7 +63,7 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_5085511e98e1",
+      "brief_id": "biz_brief_300b6e019b87",
       "rank": 3,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -80,7 +82,7 @@
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     },
     {
-      "brief_id": "biz_brief_f42ea9d5e965",
+      "brief_id": "biz_brief_4b23f6f9b95d",
       "rank": 4,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -101,19 +103,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_ff0f3a4fcef1",
+      "id": "biz_brief_89263c45afde",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_a2ea0ca4b368",
+      "id": "biz_brief_581ad6459ae6",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_5085511e98e1",
+      "id": "biz_brief_300b6e019b87",
       "label": "Brief #3",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
@@ -159,23 +161,29 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_42d53fb8ed84",
+      "cluster_id": "biz_cluster_3587f6230461",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
-      "source_count": 1,
-      "importance_score": 38,
-      "confidence": "watch",
+      "source_count": 2,
+      "importance_score": 41,
+      "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
+        "biz_7c3275f9f60f",
         "biz_01194c5d0342"
       ],
       "top_sources": [
+        {
+          "source": "Latent Space",
+          "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+          "url": "https://www.latent.space/p/chai-discovery"
+        },
         {
           "source": "GitHub Blog",
           "title": "From coder to orchestrator: How agents shift the role of a developer",
