@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T21:37:14.187281Z",
+  "generated_at": "2026-08-11T22:33:39.942186Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_d5a4629f57e2",
@@ -80,35 +80,6 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_2cc81d3255d0",
-      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "lane": "authority_trust",
-      "signal_ids": [
-        "biz_1a9f34237e81"
-      ],
-      "source_count": 1,
-      "importance_score": 33,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
-      "evidence_refs": [
-        "biz_1a9f34237e81"
-      ],
-      "top_sources": [
-        {
-          "source": "MIT Sloan Management Review",
-          "title": "How to End Things Well",
-          "url": "https://sloanreview.mit.edu/article/how-to-end-things-well/"
-        }
-      ]
-    },
-    {
       "cluster_id": "biz_cluster_af870f7c0857",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
@@ -134,6 +105,35 @@
           "source": "Indie Hackers",
           "title": "Maybe we don’t have a productivity problem. Maybe we have a context problem.",
           "url": "https://www.indiehackers.com/post/maybe-we-don-t-have-a-productivity-problem-maybe-we-have-a-context-problem-6dc873feca"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_2cc81d3255d0",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "signal_ids": [
+        "biz_1a9f34237e81"
+      ],
+      "source_count": 1,
+      "importance_score": 32,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_1a9f34237e81"
+      ],
+      "top_sources": [
+        {
+          "source": "MIT Sloan Management Review",
+          "title": "How to End Things Well",
+          "url": "https://sloanreview.mit.edu/article/how-to-end-things-well/"
         }
       ]
     }

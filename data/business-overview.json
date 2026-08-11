@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "52441607d001877d",
+  "snapshot_id": "9609b2582abc5fa4",
   "channel": "ai-business",
-  "generated_at": "2026-08-11T21:37:14.187281Z",
+  "generated_at": "2026-08-11T22:33:39.942186Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_89263c45afde",
+      "brief_id": "biz_brief_4fb061614a01",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -43,7 +43,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_581ad6459ae6",
+      "brief_id": "biz_brief_6c750786fded",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -63,27 +63,8 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_300b6e019b87",
+      "brief_id": "biz_brief_485dd38c488a",
       "rank": 3,
-      "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_1a9f34237e81"
-      ],
-      "evidence_titles": [
-        "How to End Things Well"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
-    },
-    {
-      "brief_id": "biz_brief_4b23f6f9b95d",
-      "rank": 4,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
@@ -99,26 +80,45 @@
         "profit_container"
       ],
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
+    },
+    {
+      "brief_id": "biz_brief_33e229d8b6e2",
+      "rank": 4,
+      "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_1a9f34237e81"
+      ],
+      "evidence_titles": [
+        "How to End Things Well"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_89263c45afde",
+      "id": "biz_brief_4fb061614a01",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_581ad6459ae6",
+      "id": "biz_brief_6c750786fded",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_300b6e019b87",
+      "id": "biz_brief_485dd38c488a",
       "label": "Brief #3",
-      "title": "Use these authority-backed signals as FTF proof points before making public claims.",
-      "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
+      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     }
   ],
   "clusters": [
@@ -192,32 +192,6 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_2cc81d3255d0",
-      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "lane": "authority_trust",
-      "source_count": 1,
-      "importance_score": 33,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
-      "evidence_refs": [
-        "biz_1a9f34237e81"
-      ],
-      "top_sources": [
-        {
-          "source": "MIT Sloan Management Review",
-          "title": "How to End Things Well",
-          "url": "https://sloanreview.mit.edu/article/how-to-end-things-well/"
-        }
-      ]
-    },
-    {
       "cluster_id": "biz_cluster_af870f7c0857",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
@@ -240,6 +214,32 @@
           "source": "Indie Hackers",
           "title": "Maybe we don’t have a productivity problem. Maybe we have a context problem.",
           "url": "https://www.indiehackers.com/post/maybe-we-don-t-have-a-productivity-problem-maybe-we-have-a-context-problem-6dc873feca"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_2cc81d3255d0",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "source_count": 1,
+      "importance_score": 32,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_1a9f34237e81"
+      ],
+      "top_sources": [
+        {
+          "source": "MIT Sloan Management Review",
+          "title": "How to End Things Well",
+          "url": "https://sloanreview.mit.edu/article/how-to-end-things-well/"
         }
       ]
     }
