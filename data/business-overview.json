@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2d014057fa180af2",
+  "snapshot_id": "64e337379c7ec456",
   "channel": "ai-business",
-  "generated_at": "2026-08-12T08:10:43.993245Z",
+  "generated_at": "2026-08-12T09:39:11.902626Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 7,
-    "briefs": 4,
-    "clusters": 4,
-    "cases": 5
+    "signals": 6,
+    "briefs": 3,
+    "clusters": 3,
+    "cases": 4
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_3ec8f1878442",
+      "brief_id": "biz_brief_d1ae0ba3b5a0",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -43,7 +43,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_d25ec0d609f5",
+      "brief_id": "biz_brief_38964932f1c6",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -63,27 +63,8 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_4b8277a35446",
+      "brief_id": "biz_brief_b5564f16cfa7",
       "rank": 3,
-      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_36fd096d6c57"
-      ],
-      "evidence_titles": [
-        "Maybe we don’t have a productivity problem. Maybe we have a context problem."
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
-    },
-    {
-      "brief_id": "biz_brief_d0c9791fcf5d",
-      "rank": 4,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
@@ -103,22 +84,22 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_3ec8f1878442",
+      "id": "biz_brief_d1ae0ba3b5a0",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_d25ec0d609f5",
+      "id": "biz_brief_38964932f1c6",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_4b8277a35446",
+      "id": "biz_brief_b5564f16cfa7",
       "label": "Brief #3",
-      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
+      "title": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
     }
   ],
   "clusters": [
@@ -188,32 +169,6 @@
           "source": "GitHub Blog",
           "title": "From coder to orchestrator: How agents shift the role of a developer",
           "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_af870f7c0857",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "source_count": 1,
-      "importance_score": 33,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_36fd096d6c57"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "Maybe we don’t have a productivity problem. Maybe we have a context problem.",
-          "url": "https://www.indiehackers.com/post/maybe-we-don-t-have-a-productivity-problem-maybe-we-have-a-context-problem-6dc873feca"
         }
       ]
     },
