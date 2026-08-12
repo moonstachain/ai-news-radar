@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "33d7397ee0d997ec",
+  "snapshot_id": "ef99e58081fe2410",
   "channel": "ai-news",
-  "generated_at": "2026-08-12T03:03:32.266176Z",
+  "generated_at": "2026-08-12T05:12:50.479969Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 640,
+    "signals": 638,
     "high_priority": 36,
     "briefs": 20,
-    "stories": 583
+    "stories": 579
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 213,
-    "Info Flow": 142,
-    "TechURLs": 91,
-    "Zeli": 73,
-    "NewsNow": 37,
+    "Buzzing": 215,
+    "Info Flow": 139,
+    "TechURLs": 87,
+    "Zeli": 75,
+    "NewsNow": 36,
     "Curated Media": 29,
     "AI HOT": 22,
-    "OPML RSS": 14
+    "OPML RSS": 16
   },
   "top_stories": [
     {
@@ -42,12 +42,12 @@
       "source_count": 5,
       "source_names": [
         "Hacker News",
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "github.com",
         "hackernews"
       ],
-      "importance_score": 0.8456,
+      "importance_score": 0.8408,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -95,12 +95,12 @@
           "published_at": "2026-08-11T14:50:33Z"
         },
         {
-          "id": "13f4c60667f8b4b32f567dee9d8502109afc97d3",
+          "id": "d2b7aec04594679734bd16690316a9172d0a10b8",
           "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速 / Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
           "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-11T14:50:33Z"
         }
       ],
@@ -118,7 +118,7 @@
         "Google AI Blog",
         "Google Blog：AI（RSS）"
       ],
-      "importance_score": 0.8447,
+      "importance_score": 0.8399,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -162,7 +162,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8352,
+      "importance_score": 0.8302,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
