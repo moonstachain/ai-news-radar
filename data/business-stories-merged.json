@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T21:36:46.641000Z",
+  "generated_at": "2026-08-12T22:32:18.417136Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_01ccb9133d9c",
@@ -38,26 +38,33 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_f830faab9553",
+      "cluster_id": "biz_cluster_4f803b88309f",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
+        "biz_8458ffed91fc",
         "biz_ab8f3f3c48f4"
       ],
       "source_count": 1,
-      "importance_score": 36,
+      "importance_score": 37,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
+        "biz_8458ffed91fc",
         "biz_ab8f3f3c48f4"
       ],
       "top_sources": [
+        {
+          "source": "GitHub Blog",
+          "title": "GitHub availability report: July 2026",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/"
+        },
         {
           "source": "GitHub Blog",
           "title": "Write your first prompt with the GitHub Copilot app",
