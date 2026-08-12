@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2f64c1cadb6ceda2",
+  "snapshot_id": "d47c31ce90e872d6",
   "channel": "ai-news",
-  "generated_at": "2026-08-12T12:42:54.048715Z",
+  "generated_at": "2026-08-12T14:13:56.717568Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 671,
-    "high_priority": 43,
+    "signals": 657,
+    "high_priority": 44,
     "briefs": 20,
-    "stories": 613
+    "stories": 604
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,84 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 223,
-    "Info Flow": 157,
-    "TechURLs": 93,
-    "Zeli": 78,
-    "NewsNow": 30,
-    "Curated Media": 27,
-    "AI HOT": 21,
+    "Buzzing": 213,
+    "Info Flow": 165,
+    "TechURLs": 89,
+    "Zeli": 76,
+    "NewsNow": 27,
+    "Curated Media": 26,
+    "AI HOT": 19,
     "Follow Builders": 15
   },
   "top_stories": [
+    {
+      "story_id": "story_ab799e9da743",
+      "title": "LFM2.5-VL-3B 为边缘提供更好、更快的视觉功能 / LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "primary_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "importance_score": 0.8654,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-12T14:00:51Z",
+      "earliest_at": "2026-08-12T14:00:51Z",
+      "sources": [
+        {
+          "id": "9cd8ef263d667b3a07058e7bc7dfb8dfed09aefe",
+          "title": "LFM2.5-VL-3B 为边缘提供更好、更快的视觉功能 / LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-12T14:00:51Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_9c2d2be8f210",
+      "title": "将手语人工智能交到用户手中 / Putting sign language AI into users’ hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+      "primary_url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+      "source": "Google DeepMind",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Google DeepMind"
+      ],
+      "importance_score": 0.8435,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-12T14:01:59Z",
+      "earliest_at": "2026-08-12T14:01:59Z",
+      "sources": [
+        {
+          "id": "f4b3d51450affd47eb9faf2cd2b42e2d79128492",
+          "title": "将手语人工智能交到用户手中 / Putting sign language AI into users’ hands",
+          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+          "source": "Google DeepMind",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-12T14:01:59Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_40f97f4ec864",
       "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动",
@@ -41,12 +109,12 @@
       "source_name": "AI HOT",
       "source_count": 4,
       "source_names": [
-        "Hacker News",
+        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "hackernews",
         "www.404media.co"
       ],
-      "importance_score": 0.8372,
+      "importance_score": 0.8337,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -85,95 +153,16 @@
           "published_at": "2026-08-12T05:02:33.250000Z"
         },
         {
-          "id": "89ae5bcf405610024be71dce015b500e864559e3",
+          "id": "789e8ddc12b5311d3469bfd194f4dd3a3241e874",
           "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动 / Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
           "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-12T02:05:42Z"
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_9514940f045b",
-      "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力 / AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
-      "primary_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
-      "source": "Google AI Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "Google AI Blog",
-        "Google Blog：AI（RSS）"
-      ],
-      "importance_score": 0.8244,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-11T17:00:00Z",
-      "earliest_at": "2026-08-11T17:00:00Z",
-      "sources": [
-        {
-          "id": "75b03ab3d29079ef7777ecfe34d715fd124b0e6f",
-          "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力 / AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-11T17:00:00Z"
-        },
-        {
-          "id": "ed80cc76f03944ad704e39a7ee20e3275fa1411c",
-          "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
-          "source": "Google Blog：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-11T17:00:00Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_dad741422848",
-      "title": "GitHub Copilot for JetBrains 中的 Copilot 内存和 Ollama / Copilot memory and Ollama in GitHub Copilot for JetBrains",
-      "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
-      "primary_url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.8139,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-11T20:15:55Z",
-      "earliest_at": "2026-08-11T20:15:55Z",
-      "sources": [
-        {
-          "id": "ca6e0d7202fb1ebe8762e92b584b426237dda742",
-          "title": "GitHub Copilot for JetBrains 中的 Copilot 内存和 Ollama / Copilot memory and Ollama in GitHub Copilot for JetBrains",
-          "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-11T20:15:55Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }
