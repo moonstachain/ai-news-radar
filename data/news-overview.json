@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ef99e58081fe2410",
+  "snapshot_id": "352ebc773d132b53",
   "channel": "ai-news",
-  "generated_at": "2026-08-12T05:12:50.479969Z",
+  "generated_at": "2026-08-12T06:51:33.153339Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 638,
-    "high_priority": 36,
+    "signals": 652,
+    "high_priority": 47,
     "briefs": 20,
-    "stories": 579
+    "stories": 594
   },
   "coverage": {
     "successful": 16,
@@ -22,32 +22,31 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 215,
-    "Info Flow": 139,
+    "Buzzing": 212,
+    "Info Flow": 147,
     "TechURLs": 87,
-    "Zeli": 75,
-    "NewsNow": 36,
-    "Curated Media": 29,
-    "AI HOT": 22,
-    "OPML RSS": 16
+    "Zeli": 76,
+    "NewsNow": 30,
+    "Curated Media": 27,
+    "AI HOT": 21,
+    "Follow Builders": 16
   },
   "top_stories": [
     {
-      "story_id": "story_800ebb0d7846",
-      "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
-      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-      "primary_url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "story_id": "story_40f97f4ec864",
+      "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动",
+      "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
+      "primary_url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
-      "source_count": 5,
+      "source_count": 4,
       "source_names": [
         "Hacker News",
-        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
-        "github.com",
-        "hackernews"
+        "hackernews",
+        "www.404media.co"
       ],
-      "importance_score": 0.8408,
+      "importance_score": 0.8516,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -55,53 +54,44 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-11T16:41:17.281000Z",
-      "earliest_at": "2026-08-11T14:50:33Z",
+      "latest_at": "2026-08-12T05:41:30.137000Z",
+      "earliest_at": "2026-08-12T02:05:42Z",
       "sources": [
         {
-          "id": "36fd102d8ae2dbc2c3574f27cb5aad651b1af213",
-          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
-          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "id": "569806d6cb20daf6aeb1260133527beaa03afeaf",
+          "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动",
+          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-11T16:41:17.281000Z"
+          "published_at": "2026-08-12T05:41:30.137000Z"
         },
         {
-          "id": "4b2102e403d9dec5881249532877b86614b3ef6f",
-          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11–16 倍的 LLM 推理加速",
-          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-          "source": "github.com",
+          "id": "6902298efece3c7b675fccd584b5df9579576535",
+          "title": "一家声称提供“100%由人类撰写、绝不使用AI”的医学研究的公司，其实100%由AI驱动",
+          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
+          "source": "www.404media.co",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-11T16:41:17.281000Z"
+          "published_at": "2026-08-12T05:41:30.137000Z"
         },
         {
-          "id": "6d1cfa2910e04a5058b726a06334be2164e1126a",
-          "title": "Apple Silicon 和 macOS VM：使用 Llama.cpp 将 LLM 推理速度提高 11–16 倍 / Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
-          "url": "https://news.ycombinator.com/item?id=49259339",
+          "id": "ccd39c0c5d6e3430ab3dd3919f7083c28a3db0ce",
+          "title": "公司提供“100% 人工编写，绝不人工智能” 医学研究是 100% 人工智能 / Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
+          "url": "https://news.ycombinator.com/item?id=49267057",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-11T15:23:10.713000Z"
+          "published_at": "2026-08-12T05:02:33.250000Z"
         },
         {
-          "id": "a9b3f1ef17a821b3975a91a795f6a120a6a5480c",
-          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速 / Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
-          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+          "id": "89ae5bcf405610024be71dce015b500e864559e3",
+          "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动 / Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
+          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-08-11T14:50:33Z"
-        },
-        {
-          "id": "d2b7aec04594679734bd16690316a9172d0a10b8",
-          "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速 / Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
-          "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-11T14:50:33Z"
+          "published_at": "2026-08-12T02:05:42Z"
         }
       ],
       "confidence": "multi-source"
@@ -118,7 +108,7 @@
         "Google AI Blog",
         "Google Blog：AI（RSS）"
       ],
-      "importance_score": 0.8399,
+      "importance_score": 0.8364,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -162,7 +152,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8302,
+      "importance_score": 0.8265,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [

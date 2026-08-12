@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ef99e58081fe2410",
+  "snapshot_id": "352ebc773d132b53",
   "channel": "ai-business",
-  "generated_at": "2026-08-12T05:14:07.244958Z",
+  "generated_at": "2026-08-12T06:54:16.098246Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 7,
+    "signals": 8,
     "briefs": 4,
     "clusters": 4,
-    "cases": 5
+    "cases": 6
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_83ec0299722d",
+      "brief_id": "biz_brief_0b5e4b906395",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -43,7 +43,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_874eeb88e0b9",
+      "brief_id": "biz_brief_20b38aa4b0d2",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -63,14 +63,16 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_9b808678d7fd",
+      "brief_id": "biz_brief_1dd1fec468cb",
       "rank": 3,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
+        "biz_73d340c05946",
         "biz_36fd096d6c57"
       ],
       "evidence_titles": [
+        "A $350K golf app gets 24% of its traffic from \"what is a calcutta.\" Rank for the question, not the product.",
         "Maybe we don’t have a productivity problem. Maybe we have a context problem."
       ],
       "risk_level": "low",
@@ -82,7 +84,7 @@
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_1794223ef67b",
+      "brief_id": "biz_brief_c341fb78d504",
       "rank": 4,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -103,19 +105,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_83ec0299722d",
+      "id": "biz_brief_0b5e4b906395",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_874eeb88e0b9",
+      "id": "biz_brief_20b38aa4b0d2",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_9b808678d7fd",
+      "id": "biz_brief_1dd1fec468cb",
       "label": "Brief #3",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
@@ -165,7 +167,7 @@
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "source_count": 2,
-      "importance_score": 41,
+      "importance_score": 40,
       "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
@@ -192,24 +194,30 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_af870f7c0857",
+      "cluster_id": "biz_cluster_3b83d1ca0261",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 33,
+      "importance_score": 34,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
+        "biz_73d340c05946",
         "biz_36fd096d6c57"
       ],
       "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "A $350K golf app gets 24% of its traffic from \"what is a calcutta.\" Rank for the question, not the product.",
+          "url": "https://www.indiehackers.com/post/a-350k-golf-app-gets-24-of-its-traffic-from-what-is-a-calcutta-rank-for-the-question-not-the-product-217c7b2919"
+        },
         {
           "source": "Indie Hackers",
           "title": "Maybe we don’t have a productivity problem. Maybe we have a context problem.",
