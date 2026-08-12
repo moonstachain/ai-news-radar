@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T10:53:30.409815Z",
+  "generated_at": "2026-08-12T11:40:53.571244Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-11T13:33:14Z",
-      "captured_at": "2026-08-12T10:53:30.409815Z",
+      "captured_at": "2026-08-12T11:40:53.571244Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-11T13:22:37Z",
-      "captured_at": "2026-08-12T10:53:30.409815Z",
+      "captured_at": "2026-08-12T11:40:53.571244Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -82,7 +82,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-11T13:31:07Z",
-      "captured_at": "2026-08-12T10:53:30.409815Z",
+      "captured_at": "2026-08-12T11:40:53.571244Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter"
@@ -116,7 +116,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-11T21:03:50Z",
-      "captured_at": "2026-08-12T10:53:30.409815Z",
+      "captured_at": "2026-08-12T11:40:53.571244Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -156,7 +156,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-11T18:38:17Z",
-      "captured_at": "2026-08-12T10:53:30.409815Z",
+      "captured_at": "2026-08-12T11:40:53.571244Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -181,42 +181,6 @@
         "counter_signal_value": 0
       },
       "summary": "Developers are owning more of the delivery system around code, not just code itself. Join us during GitHub Universe to meet other devs, learn something new, and explore what's next. The post From coder to orchestrator: H... Tags: Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_1a9f34237e81",
-      "title": "How to End Things Well",
-      "url": "https://sloanreview.mit.edu/article/how-to-end-things-well/",
-      "source_id": "mit_smr",
-      "source_name": "MIT Sloan Management Review",
-      "published_at": "2026-08-11T11:00:17Z",
-      "captured_at": "2026-08-12T10:53:30.409815Z",
-      "lane": "authority",
-      "entities": [
-        "MIT Sloan Management Review",
-        "End Things Well"
-      ],
-      "business_model_tags": [
-        "Enterprise AI Workflow",
-        "AI Business Model Innovation"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 30,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 0,
-        "business_model_value": 3,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Aad Goudappel/theispot.com Most leadership advice is written for beginnings — how to launch initiatives, build momentum, scale ideas, and manage new projects. Far less attention is given to the work of ending something w... Tags: Enterprise AI Workflow, AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     }
