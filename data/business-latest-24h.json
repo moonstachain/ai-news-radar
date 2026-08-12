@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T00:09:20.998481Z",
+  "generated_at": "2026-08-12T03:05:09.544391Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-11T13:33:14Z",
-      "captured_at": "2026-08-12T00:09:20.998481Z",
+      "captured_at": "2026-08-12T03:05:09.544391Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -25,14 +25,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 15,
-      "total_score": 50,
+      "total_score": 49,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 6,
         "business_model_value": 5,
         "case_concreteness": 15,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Ines Iraki, Chief Executive Officer (CEO) at Uncovr, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Uncovr op... Tags: Founder Case.",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-11T13:22:37Z",
-      "captured_at": "2026-08-12T00:09:20.998481Z",
+      "captured_at": "2026-08-12T03:05:09.544391Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -61,14 +61,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 15,
-      "total_score": 50,
+      "total_score": 49,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 6,
         "business_model_value": 5,
         "case_concreteness": 15,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Julian Nagler, Chief Strategy Officer (CSO) at Arbiter.ai, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Arb... Tags: Founder Case.",
@@ -82,7 +82,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-11T13:31:07Z",
-      "captured_at": "2026-08-12T00:09:20.998481Z",
+      "captured_at": "2026-08-12T03:05:09.544391Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter"
@@ -95,14 +95,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 15,
-      "total_score": 49,
+      "total_score": 48,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 5,
         "business_model_value": 5,
         "case_concreteness": 15,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Three founder archetypes—and how to turn your origin story into a communications strategy Tags: Founder Case.",
@@ -116,7 +116,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-11T21:03:50Z",
-      "captured_at": "2026-08-12T00:09:20.998481Z",
+      "captured_at": "2026-08-12T03:05:09.544391Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -156,7 +156,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-11T18:38:17Z",
-      "captured_at": "2026-08-12T00:09:20.998481Z",
+      "captured_at": "2026-08-12T03:05:09.544391Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -185,13 +185,52 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_e3686d417065",
+      "title": "Solo → Pre-Seed: The Tool Stack Decision That Will Either Save or Sink Your First 18 Months",
+      "url": "https://www.indiehackers.com/post/solo-pre-seed-the-tool-stack-decision-that-will-either-save-or-sink-your-first-18-months-987ce6cad8",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-11T03:36:14.559000Z",
+      "captured_at": "2026-08-12T03:05:09.544391Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Solo",
+        "Pre-Seed",
+        "The Tool Stack",
+        "Decision That Will",
+        "Either Save"
+      ],
+      "business_model_tags": [
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 32,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Solo → Pre-Seed: The Tool Stack Decision That Will Either Save or Sink Your First 18 Months Tags: OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_36fd096d6c57",
       "title": "Maybe we don’t have a productivity problem. Maybe we have a context problem.",
       "url": "https://www.indiehackers.com/post/maybe-we-don-t-have-a-productivity-problem-maybe-we-have-a-context-problem-6dc873feca",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-11T08:38:21.944000Z",
-      "captured_at": "2026-08-12T00:09:20.998481Z",
+      "captured_at": "2026-08-12T03:05:09.544391Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -227,7 +266,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-11T11:00:17Z",
-      "captured_at": "2026-08-12T00:09:20.998481Z",
+      "captured_at": "2026-08-12T03:05:09.544391Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
