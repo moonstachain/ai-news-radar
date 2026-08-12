@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "277cfa7ade64455d",
+  "snapshot_id": "ccac1d7390491515",
   "channel": "ai-news",
-  "generated_at": "2026-08-12T18:14:56.008268Z",
+  "generated_at": "2026-08-12T19:34:42.316947Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 690,
-    "high_priority": 37,
+    "signals": 689,
+    "high_priority": 32,
     "briefs": 20,
-    "stories": 637
+    "stories": 632
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,50 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 212,
-    "Info Flow": 182,
-    "TechURLs": 102,
+    "Buzzing": 211,
+    "Info Flow": 185,
+    "TechURLs": 104,
     "Zeli": 81,
-    "Curated Media": 32,
+    "Curated Media": 33,
     "NewsNow": 29,
     "AI HOT": 16,
     "OPML RSS": 13
   },
   "top_stories": [
+    {
+      "story_id": "story_d0656ae81e3d",
+      "title": "使用 GitHub Copilot 应用编写您的第一个提示 / Write your first prompt with the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "importance_score": 0.8585,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-12T19:00:00Z",
+      "earliest_at": "2026-08-12T19:00:00Z",
+      "sources": [
+        {
+          "id": "21521f8133745ac51cd608ae1879dee3c65d6668",
+          "title": "使用 GitHub Copilot 应用编写您的第一个提示 / Write your first prompt with the GitHub Copilot app",
+          "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-12T19:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_ab799e9da743",
       "title": "LFM2.5-VL-3B 为边缘提供更好、更快的视觉功能 / LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
@@ -43,7 +77,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8553,
+      "importance_score": 0.8521,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +111,7 @@
       "source_names": [
         "Google DeepMind"
       ],
-      "importance_score": 0.8334,
+      "importance_score": 0.8301,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -96,40 +130,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-12T14:01:59Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_e43158037a35",
-      "title": "OlmoEarth 嵌入简介：从 OlmoEarth Studio 导出的自定义嵌入用于下游分析 / Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "primary_url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "importance_score": 0.8549,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-12T16:14:36Z",
-      "earliest_at": "2026-08-12T16:14:36Z",
-      "sources": [
-        {
-          "id": "c040381a7f8f8b0de575ea54affbbfc6e27eda2d",
-          "title": "OlmoEarth 嵌入简介：从 OlmoEarth Studio 导出的自定义嵌入用于下游分析 / Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-          "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-12T16:14:36Z"
         }
       ],
       "confidence": "single-source"

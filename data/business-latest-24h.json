@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T18:16:12.402628Z",
+  "generated_at": "2026-08-12T19:35:55.573181Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-12T07:50:43.231000Z",
-      "captured_at": "2026-08-12T18:16:12.402628Z",
+      "captured_at": "2026-08-12T19:35:55.573181Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers"
@@ -23,14 +23,14 @@
       ],
       "opc_fit_score": 5,
       "case_concreteness_score": 8,
-      "total_score": 40,
+      "total_score": 39,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 0,
         "business_model_value": 3,
         "case_concreteness": 8,
         "opc_fit": 5,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "I built two websites before talking to users. I think I see the problem now. Tags: Founder Case, OPC.",
@@ -44,7 +44,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-11T21:03:50Z",
-      "captured_at": "2026-08-12T18:16:12.402628Z",
+      "captured_at": "2026-08-12T19:35:55.573181Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -78,17 +78,18 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_01194c5d0342",
-      "title": "From coder to orchestrator: How agents shift the role of a developer",
-      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
+      "signal_id": "biz_ab8f3f3c48f4",
+      "title": "Write your first prompt with the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
-      "published_at": "2026-08-11T18:38:17Z",
-      "captured_at": "2026-08-12T18:16:12.402628Z",
+      "published_at": "2026-08-12T19:00:00Z",
+      "captured_at": "2026-08-12T19:35:55.573181Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
-        "From"
+        "Write",
+        "GitHub Copilot"
       ],
       "business_model_tags": [
         "Enterprise AI Workflow"
@@ -98,54 +99,19 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 0,
-      "total_score": 35,
+      "total_score": 34,
       "score_breakdown": {
         "source_authority": 20,
-        "yuanli_relevance": 5,
+        "yuanli_relevance": 3,
         "business_model_value": 3,
         "case_concreteness": 0,
         "opc_fit": 0,
-        "freshness": 7,
+        "freshness": 8,
         "counter_signal_value": 0
       },
-      "summary": "Developers are owning more of the delivery system around code, not just code itself. Join us during GitHub Universe to meet other devs, learn something new, and explore what's next. The post From coder to orchestrator: H... Tags: Enterprise AI Workflow.",
+      "summary": "Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence. The post Write your first prompt with the GitHub Copilot app appeared first o... Tags: Enterprise AI Workflow.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_73d340c05946",
-      "title": "A $350K golf app gets 24% of its traffic from \"what is a calcutta.\" Rank for the question, not the product.",
-      "url": "https://www.indiehackers.com/post/a-350k-golf-app-gets-24-of-its-traffic-from-what-is-a-calcutta-rank-for-the-question-not-the-product-217c7b2919",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-11T19:17:33.584000Z",
-      "captured_at": "2026-08-12T18:16:12.402628Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "Rank"
-      ],
-      "business_model_tags": [
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 4,
-      "total_score": 32,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 0,
-        "case_concreteness": 4,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "A $350K golf app gets 24% of its traffic from \"what is a calcutta.\" Rank for the question, not the product. Tags: OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
     }
   ]
 }
