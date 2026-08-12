@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T06:54:16.098246Z",
+  "generated_at": "2026-08-12T08:10:43.993245Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-11T13:33:14Z",
-      "captured_at": "2026-08-12T06:54:16.098246Z",
+      "captured_at": "2026-08-12T08:10:43.993245Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-11T13:22:37Z",
-      "captured_at": "2026-08-12T06:54:16.098246Z",
+      "captured_at": "2026-08-12T08:10:43.993245Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -82,7 +82,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-11T13:31:07Z",
-      "captured_at": "2026-08-12T06:54:16.098246Z",
+      "captured_at": "2026-08-12T08:10:43.993245Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter"
@@ -116,7 +116,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-11T21:03:50Z",
-      "captured_at": "2026-08-12T06:54:16.098246Z",
+      "captured_at": "2026-08-12T08:10:43.993245Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -135,14 +135,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 8,
-      "total_score": 38,
+      "total_score": 37,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 3,
         "business_model_value": 3,
         "case_concreteness": 8,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Pharma is suddenly paying for Bio × AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why. Tags: Founder Case, Enterprise AI Workflow.",
@@ -156,7 +156,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-11T18:38:17Z",
-      "captured_at": "2026-08-12T06:54:16.098246Z",
+      "captured_at": "2026-08-12T08:10:43.993245Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -185,48 +185,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_73d340c05946",
-      "title": "A $350K golf app gets 24% of its traffic from \"what is a calcutta.\" Rank for the question, not the product.",
-      "url": "https://www.indiehackers.com/post/a-350k-golf-app-gets-24-of-its-traffic-from-what-is-a-calcutta-rank-for-the-question-not-the-product-217c7b2919",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-11T19:17:33.584000Z",
-      "captured_at": "2026-08-12T06:54:16.098246Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "Rank"
-      ],
-      "business_model_tags": [
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 4,
-      "total_score": 32,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 0,
-        "business_model_value": 0,
-        "case_concreteness": 4,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "A $350K golf app gets 24% of its traffic from \"what is a calcutta.\" Rank for the question, not the product. Tags: OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
       "signal_id": "biz_36fd096d6c57",
       "title": "Maybe we don’t have a productivity problem. Maybe we have a context problem.",
       "url": "https://www.indiehackers.com/post/maybe-we-don-t-have-a-productivity-problem-maybe-we-have-a-context-problem-6dc873feca",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-11T08:38:21.944000Z",
-      "captured_at": "2026-08-12T06:54:16.098246Z",
+      "captured_at": "2026-08-12T08:10:43.993245Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -262,7 +227,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-11T11:00:17Z",
-      "captured_at": "2026-08-12T06:54:16.098246Z",
+      "captured_at": "2026-08-12T08:10:43.993245Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
