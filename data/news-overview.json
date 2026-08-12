@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "be67d01238d3d714",
+  "snapshot_id": "33d7397ee0d997ec",
   "channel": "ai-news",
-  "generated_at": "2026-08-12T00:08:06.519365Z",
+  "generated_at": "2026-08-12T03:03:32.266176Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 655,
-    "high_priority": 39,
+    "signals": 640,
+    "high_priority": 36,
     "briefs": 20,
-    "stories": 596
+    "stories": 583
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 214,
-    "Info Flow": 146,
-    "TechURLs": 92,
-    "Zeli": 78,
+    "Buzzing": 213,
+    "Info Flow": 142,
+    "TechURLs": 91,
+    "Zeli": 73,
     "NewsNow": 37,
-    "Curated Media": 28,
-    "AI HOT": 23,
+    "Curated Media": 29,
+    "AI HOT": 22,
     "OPML RSS": 14
   },
   "top_stories": [
@@ -47,7 +47,7 @@
         "github.com",
         "hackernews"
       ],
-      "importance_score": 0.8522,
+      "importance_score": 0.8456,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -118,7 +118,7 @@
         "Google AI Blog",
         "Google Blog：AI（RSS）"
       ],
-      "importance_score": 0.8514,
+      "importance_score": 0.8447,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -162,7 +162,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8422,
+      "importance_score": 0.8352,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
