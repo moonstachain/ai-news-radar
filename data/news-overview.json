@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "31797e1befbe84b8",
+  "snapshot_id": "1e542ad9b6123d77",
   "channel": "ai-news",
-  "generated_at": "2026-08-12T15:27:54.404362Z",
+  "generated_at": "2026-08-12T16:25:07.478332Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 677,
-    "high_priority": 41,
+    "signals": 700,
+    "high_priority": 45,
     "briefs": 20,
-    "stories": 621
+    "stories": 641
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 216,
-    "Info Flow": 166,
-    "TechURLs": 102,
-    "Zeli": 81,
-    "NewsNow": 28,
-    "Curated Media": 25,
-    "AI HOT": 17,
+    "Buzzing": 215,
+    "Info Flow": 177,
+    "TechURLs": 104,
+    "Zeli": 85,
+    "Curated Media": 30,
+    "NewsNow": 27,
+    "AI HOT": 19,
     "Follow Builders": 15
   },
   "top_stories": [
@@ -43,7 +43,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8623,
+      "importance_score": 0.8599,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "Google DeepMind"
       ],
-      "importance_score": 0.8403,
+      "importance_score": 0.8379,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -101,68 +101,38 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_40f97f4ec864",
-      "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动",
-      "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
-      "primary_url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 4,
+      "story_id": "story_e43158037a35",
+      "title": "OlmoEarth 嵌入简介：从 OlmoEarth Studio 导出的自定义嵌入用于下游分析 / Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "primary_url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews",
-        "www.404media.co"
+        "Hugging Face Blog"
       ],
-      "importance_score": 0.8309,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.8595,
+      "importance_label": "官方更新",
+      "category": "official",
       "reasons": [
-        "multi_source",
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-12T05:41:30.137000Z",
-      "earliest_at": "2026-08-12T02:05:42Z",
+      "latest_at": "2026-08-12T16:14:36Z",
+      "earliest_at": "2026-08-12T16:14:36Z",
       "sources": [
         {
-          "id": "569806d6cb20daf6aeb1260133527beaa03afeaf",
-          "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动",
-          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-12T05:41:30.137000Z"
-        },
-        {
-          "id": "6902298efece3c7b675fccd584b5df9579576535",
-          "title": "一家声称提供“100%由人类撰写、绝不使用AI”的医学研究的公司，其实100%由AI驱动",
-          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
-          "source": "www.404media.co",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-12T05:41:30.137000Z"
-        },
-        {
-          "id": "ccd39c0c5d6e3430ab3dd3919f7083c28a3db0ce",
-          "title": "公司提供“100% 人工编写，绝不人工智能” 医学研究是 100% 人工智能 / Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-          "url": "https://news.ycombinator.com/item?id=49267057",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-12T05:02:33.250000Z"
-        },
-        {
-          "id": "789e8ddc12b5311d3469bfd194f4dd3a3241e874",
-          "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动 / Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-12T02:05:42Z"
+          "id": "c040381a7f8f8b0de575ea54affbbfc6e27eda2d",
+          "title": "OlmoEarth 嵌入简介：从 OlmoEarth Studio 导出的自定义嵌入用于下游分析 / Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-12T16:14:36Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     }
   ]
 }

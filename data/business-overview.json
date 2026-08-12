@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "31797e1befbe84b8",
+  "snapshot_id": "1e542ad9b6123d77",
   "channel": "ai-business",
-  "generated_at": "2026-08-12T15:32:53.331920Z",
+  "generated_at": "2026-08-12T16:28:36.979999Z",
   "window_hours": 24,
   "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
   "metrics": {
-    "signals": 3,
+    "signals": 4,
     "briefs": 2,
     "clusters": 2,
-    "cases": 2
+    "cases": 3
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_37705e5fbc42",
+      "brief_id": "biz_brief_d1afc81e59cf",
       "rank": 1,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -40,14 +40,16 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_9a5db430c197",
+      "brief_id": "biz_brief_8a52783013c7",
       "rank": 2,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
+        "biz_54a11cbca935",
         "biz_73d340c05946"
       ],
       "evidence_titles": [
+        "I built two websites before talking to users. I think I see the problem now.",
         "A $350K golf app gets 24% of its traffic from \"what is a calcutta.\" Rank for the question, not the product."
       ],
       "risk_level": "low",
@@ -61,13 +63,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_37705e5fbc42",
+      "id": "biz_brief_d1afc81e59cf",
       "label": "Brief #1",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_9a5db430c197",
+      "id": "biz_brief_8a52783013c7",
       "label": "Brief #2",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
@@ -106,24 +108,30 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_54e90c07978d",
+      "cluster_id": "biz_cluster_9e6acee71107",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 34,
+      "importance_score": 38,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
+        "biz_54a11cbca935",
         "biz_73d340c05946"
       ],
       "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "I built two websites before talking to users. I think I see the problem now.",
+          "url": "https://www.indiehackers.com/post/i-built-two-websites-before-talking-to-users-i-think-i-see-the-problem-now-05d712490c"
+        },
         {
           "source": "Indie Hackers",
           "title": "A $350K golf app gets 24% of its traffic from \"what is a calcutta.\" Rank for the question, not the product.",
