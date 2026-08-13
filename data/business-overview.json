@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "f83741cd260f5a5c",
+  "snapshot_id": "ead418b1ec5a15f3",
   "channel": "ai-business",
-  "generated_at": "2026-08-13T08:12:37.125606Z",
+  "generated_at": "2026-08-13T09:41:13.345516Z",
   "window_hours": 24,
-  "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+  "decision": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
   "metrics": {
-    "signals": 2,
-    "briefs": 1,
-    "clusters": 1,
-    "cases": 0
+    "signals": 3,
+    "briefs": 2,
+    "clusters": 2,
+    "cases": 1
   },
   "coverage": {
     "successful": 16,
@@ -20,8 +20,27 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_b8345fdaeb4b",
+      "brief_id": "biz_brief_06e1f417536d",
       "rank": 1,
+      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_a3a78b40d0a8"
+      ],
+      "evidence_titles": [
+        "I just launched RevPages – an SEO tool that finds your most profitable page opportunities - not just keywords"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
+    },
+    {
+      "brief_id": "biz_brief_5f1184ded64c",
+      "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
@@ -42,13 +61,45 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_b8345fdaeb4b",
+      "id": "biz_brief_06e1f417536d",
       "label": "Brief #1",
+      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
+    },
+    {
+      "id": "biz_brief_5f1184ded64c",
+      "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     }
   ],
   "clusters": [
+    {
+      "cluster_id": "biz_cluster_c96290876ee6",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "source_count": 1,
+      "importance_score": 41,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_a3a78b40d0a8"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "I just launched RevPages – an SEO tool that finds your most profitable page opportunities - not just keywords",
+          "url": "https://www.indiehackers.com/post/i-just-launched-revpages-an-seo-tool-that-finds-your-most-profitable-page-opportunities-not-just-keywords-5a5f758942"
+        }
+      ]
+    },
     {
       "cluster_id": "biz_cluster_4f803b88309f",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
