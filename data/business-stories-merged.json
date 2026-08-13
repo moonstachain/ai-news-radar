@@ -1,6 +1,35 @@
 {
-  "generated_at": "2026-08-13T19:34:43.117161Z",
+  "generated_at": "2026-08-13T20:32:43.827975Z",
   "clusters": [
+    {
+      "cluster_id": "biz_cluster_884f6f37dffe",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "signal_ids": [
+        "biz_70fde21cad69"
+      ],
+      "source_count": 1,
+      "importance_score": 54,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_70fde21cad69"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "I built an AI that answers support questions. Founders still hated it. Here's what I learned.",
+          "url": "https://www.indiehackers.com/post/i-built-an-ai-that-answers-support-questions-founders-still-hated-it-heres-what-i-learned-a2c1dd7970"
+        }
+      ]
+    },
     {
       "cluster_id": "biz_cluster_d876ab719220",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
@@ -83,35 +112,6 @@
           "source": "GitHub Blog",
           "title": "GitHub availability report: July 2026",
           "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_ddf117bb6284",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_0eaaf7c655d0"
-      ],
-      "source_count": 1,
-      "importance_score": 42,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_0eaaf7c655d0"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "Building a $2M ARR product after his $8M ARR product failed overnight",
-          "url": "https://www.indiehackers.com/post/tech/building-a-2m-arr-product-after-his-8m-arr-product-failed-overnight-UZm68xNgjDZBHH7Mvc54"
         }
       ]
     },
