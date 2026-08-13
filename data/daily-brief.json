@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-08-13T16:25:14.322037Z",
+  "generated_at": "2026-08-13T17:27:18.610261Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_9e022b7caa78",
-      "title": "OpenAI 任命 Dali Rajic 为首席营收官 / OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-      "primary_url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-      "source": "OpenAI News",
+      "story_id": "story_c1c988556190",
+      "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "primary_url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "a2ac044bd79bc5e88f856253f974a7d4adca77ea",
-          "title": "OpenAI 任命 Dali Rajic 为首席营收官 / OpenAI appoints Dali Rajic as Chief Revenue Officer",
-          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-          "source": "OpenAI News",
+          "id": "63aefbec18f0711d536c5b0bbc357bb07986eaf5",
+          "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-13T09:00:00Z"
+          "published_at": "2026-08-13T17:16:04Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "Hugging Face Blog"
       ],
       "items": [
         {
-          "id": "a2ac044bd79bc5e88f856253f974a7d4adca77ea",
-          "title": "OpenAI 任命 Dali Rajic 为首席营收官 / OpenAI appoints Dali Rajic as Chief Revenue Officer",
-          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-          "source": "OpenAI News",
+          "id": "63aefbec18f0711d536c5b0bbc357bb07986eaf5",
+          "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-13T09:00:00Z"
+          "published_at": "2026-08-13T17:16:04Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8337,
-      "importance": 0.8337,
-      "importance_score": 0.8337,
+      "score": 0.8655,
+      "importance": 0.8655,
+      "importance_score": 0.8655,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8984,
+        "ai_relevance": 0.98,
+        "recency": 0.9973,
         "story_heat": 0.0
       },
       "category": "official",
@@ -55,12 +55,198 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-13T09:00:00Z",
-      "latest_at": "2026-08-13T09:00:00Z",
+      "earliest_at": "2026-08-13T17:16:04Z",
+      "latest_at": "2026-08-13T17:16:04Z",
       "primary_item": {
-        "id": "a2ac044bd79bc5e88f856253f974a7d4adca77ea",
-        "title": "OpenAI 任命 Dali Rajic 为首席营收官 / OpenAI appoints Dali Rajic as Chief Revenue Officer",
-        "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+        "id": "63aefbec18f0711d536c5b0bbc357bb07986eaf5",
+        "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+        "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_e83d70611f6b",
+      "title": "Gemini 3.7 闪存简介 / Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "primary_url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "source": "Google DeepMind",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "6541800c8fc6716f162ab7ebc701f8883a0e9db5",
+          "title": "Gemini 3.7 闪存简介 / Introducing Gemini 3.7 Flash",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+          "source": "Google DeepMind",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T17:04:18Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google DeepMind"
+      ],
+      "items": [
+        {
+          "id": "6541800c8fc6716f162ab7ebc701f8883a0e9db5",
+          "title": "Gemini 3.7 闪存简介 / Introducing Gemini 3.7 Flash",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+          "source": "Google DeepMind",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T17:04:18Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.851,
+      "importance": 0.851,
+      "importance_score": 0.851,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9945,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-13T17:04:18Z",
+      "latest_at": "2026-08-13T17:04:18Z",
+      "primary_item": {
+        "id": "6541800c8fc6716f162ab7ebc701f8883a0e9db5",
+        "title": "Gemini 3.7 闪存简介 / Introducing Gemini 3.7 Flash",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+        "source": "Google DeepMind",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_76c77512e473",
+      "title": "使用表格画布让您的电子表格数据栩栩如生 / Bring your spreadsheet data to life with Sheets canvas",
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+      "primary_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "777014cd6f2be6787e73dcd64d3b79c4e131fa91",
+          "title": "使用表格画布让您的电子表格数据栩栩如生 / Bring your spreadsheet data to life with Sheets canvas",
+          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T16:45:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "items": [
+        {
+          "id": "777014cd6f2be6787e73dcd64d3b79c4e131fa91",
+          "title": "使用表格画布让您的电子表格数据栩栩如生 / Bring your spreadsheet data to life with Sheets canvas",
+          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T16:45:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8422,
+      "importance": 0.8422,
+      "importance_score": 0.8422,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9899,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-13T16:45:00Z",
+      "latest_at": "2026-08-13T16:45:00Z",
+      "primary_item": {
+        "id": "777014cd6f2be6787e73dcd64d3b79c4e131fa91",
+        "title": "使用表格画布让您的电子表格数据栩栩如生 / Bring your spreadsheet data to life with Sheets canvas",
+        "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+        "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6357d7795d21",
+      "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "primary_url": "https://openai.com/index/previewing-ultrafast",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "5175d87bcae80ab0d848d51674956034c540468a",
+          "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T10:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "5175d87bcae80ab0d848d51674956034c540468a",
+          "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T10:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8416,
+      "importance": 0.8416,
+      "importance_score": 0.8416,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8979,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-13T10:00:00Z",
+      "latest_at": "2026-08-13T10:00:00Z",
+      "primary_item": {
+        "id": "5175d87bcae80ab0d848d51674956034c540468a",
+        "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+        "url": "https://openai.com/index/previewing-ultrafast",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -100,15 +286,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8121,
-      "importance": 0.8121,
-      "importance_score": 0.8121,
+      "score": 0.8102,
+      "importance": 0.8102,
+      "importance_score": 0.8102,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7339,
+        "recency": 0.7231,
         "story_heat": 0.0
       },
       "category": "official",
@@ -199,15 +385,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8106,
-      "importance": 0.8106,
-      "importance_score": 0.8106,
+      "score": 0.8082,
+      "importance": 0.8082,
+      "importance_score": 0.8082,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9112,
+        "recency": 0.8977,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -261,15 +447,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8034,
-      "importance": 0.8034,
-      "importance_score": 0.8034,
+      "score": 0.8015,
+      "importance": 0.8015,
+      "importance_score": 0.8015,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7303,
+        "recency": 0.7194,
         "story_heat": 0.0
       },
       "category": "official",
@@ -285,6 +471,130 @@
         "title": "VS Code、Copilot CLI 和 Copilot 应用程序中的代理插件 1.0 / Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
         "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
         "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_9e022b7caa78",
+      "title": "OpenAI 任命 Dali Rajic 为首席营收官 / OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "primary_url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "a2ac044bd79bc5e88f856253f974a7d4adca77ea",
+          "title": "OpenAI 任命 Dali Rajic 为首席营收官 / OpenAI appoints Dali Rajic as Chief Revenue Officer",
+          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T09:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "a2ac044bd79bc5e88f856253f974a7d4adca77ea",
+          "title": "OpenAI 任命 Dali Rajic 为首席营收官 / OpenAI appoints Dali Rajic as Chief Revenue Officer",
+          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T09:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8313,
+      "importance": 0.8313,
+      "importance_score": 0.8313,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8851,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-13T09:00:00Z",
+      "latest_at": "2026-08-13T09:00:00Z",
+      "primary_item": {
+        "id": "a2ac044bd79bc5e88f856253f974a7d4adca77ea",
+        "title": "OpenAI 任命 Dali Rajic 为首席营收官 / OpenAI appoints Dali Rajic as Chief Revenue Officer",
+        "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_5fa28c256021",
+      "title": "通过复制 ICML 的 2,200 篇论文我们学到了什么 / What We Learned by Reproducing 2,200 papers from ICML",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "primary_url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "d873bd6e99bbc0a197e544ff33100002b89954b2",
+          "title": "通过复制 ICML 的 2,200 篇论文我们学到了什么 / What We Learned by Reproducing 2,200 papers from ICML",
+          "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "d873bd6e99bbc0a197e544ff33100002b89954b2",
+          "title": "通过复制 ICML 的 2,200 篇论文我们学到了什么 / What We Learned by Reproducing 2,200 papers from ICML",
+          "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8199,
+      "importance": 0.8199,
+      "importance_score": 0.8199,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7772,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-13T00:00:00Z",
+      "latest_at": "2026-08-13T00:00:00Z",
+      "primary_item": {
+        "id": "d873bd6e99bbc0a197e544ff33100002b89954b2",
+        "title": "通过复制 ICML 的 2,200 篇论文我们学到了什么 / What We Learned by Reproducing 2,200 papers from ICML",
+        "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -323,15 +633,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7817,
-      "importance": 0.7817,
-      "importance_score": 0.7817,
+      "score": 0.7792,
+      "importance": 0.7792,
+      "importance_score": 0.7792,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9284,
+        "recency": 0.9147,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -384,15 +694,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7952,
-      "importance": 0.7952,
-      "importance_score": 0.7952,
+      "score": 0.7932,
+      "importance": 0.7932,
+      "importance_score": 0.7932,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7287,
+        "recency": 0.7179,
         "story_heat": 0.0
       },
       "category": "official",
@@ -446,15 +756,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7534,
-      "importance": 0.7534,
-      "importance_score": 0.7534,
+      "score": 0.7512,
+      "importance": 0.7512,
+      "importance_score": 0.7512,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8044,
+        "recency": 0.7925,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -507,15 +817,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7466,
-      "importance": 0.7466,
-      "importance_score": 0.7466,
+      "score": 0.744,
+      "importance": 0.744,
+      "importance_score": 0.744,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9668,
+        "recency": 0.9525,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -529,6 +839,66 @@
         "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
         "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
         "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6b099c141599",
+      "title": "MiniMax Music 3.0 发布：新一代开源权重、生产级全能音乐模型",
+      "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+      "primary_url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+      "source": "MiniMax：Blog（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f94d4c49c0b799dcb408c88599ad4a5717dc391b",
+          "title": "MiniMax Music 3.0 发布：新一代开源权重、生产级全能音乐模型",
+          "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+          "source": "MiniMax：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-13T16:52:23.676000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "MiniMax：Blog（网页）"
+      ],
+      "items": [
+        {
+          "id": "f94d4c49c0b799dcb408c88599ad4a5717dc391b",
+          "title": "MiniMax Music 3.0 发布：新一代开源权重、生产级全能音乐模型",
+          "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+          "source": "MiniMax：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-13T16:52:23.676000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7391,
+      "importance": 0.7391,
+      "importance_score": 0.7391,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.63,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9916,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-13T16:52:23.676000Z",
+      "latest_at": "2026-08-13T16:52:23.676000Z",
+      "primary_item": {
+        "id": "f94d4c49c0b799dcb408c88599ad4a5717dc391b",
+        "title": "MiniMax Music 3.0 发布：新一代开源权重、生产级全能音乐模型",
+        "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+        "source": "MiniMax：Blog（网页）",
         "source_name": "AI HOT"
       }
     },
@@ -567,15 +937,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.741,
-      "importance": 0.741,
-      "importance_score": 0.741,
+      "score": 0.7385,
+      "importance": 0.7385,
+      "importance_score": 0.7385,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9523,
+        "recency": 0.9382,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -646,15 +1016,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6326,
-      "importance": 0.6326,
-      "importance_score": 0.6326,
+      "score": 0.6305,
+      "importance": 0.6305,
+      "importance_score": 0.6305,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5904,
         "source_tier": 0.58,
         "ai_relevance": 0.82,
-        "recency": 0.7714,
+        "recency": 0.7599,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -670,6 +1040,122 @@
         "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes",
         "source": "TechCrunch AI",
         "source_name": "Curated Media"
+      }
+    },
+    {
+      "story_id": "story_2199e00cfba7",
+      "title": "适用于 Linux 的 ChatGPT 桌面应用程序中的 Codex 现已提供预览版 / Codex in ChatGPT desktop app for Linux is now in preview",
+      "url": "https://news.ycombinator.com/item?id=49281916",
+      "primary_url": "https://news.ycombinator.com/item?id=49281916",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "d827ecf2bb383c97b342a925e299a9e5cdf84e0a",
+          "title": "适用于 Linux 的 ChatGPT 桌面应用程序中的 Codex 现已提供预览版 / Codex in ChatGPT desktop app for Linux is now in preview",
+          "url": "https://news.ycombinator.com/item?id=49281916",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-13T17:07:23.724000Z"
+        },
+        {
+          "id": "da1b19b0831b278168634ab5d45c9f860bd4616f",
+          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
+          "url": "https://openai.com/codex",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-13T09:24:06.692000Z"
+        },
+        {
+          "id": "b30533b725b3c7cf1f2f4743ea001a7f5784e69c",
+          "title": "适用于 Linux 的 ChatGPT 桌面（Codex 桌面） / ChatGPT Desktop (Codex Desktop) for Linux",
+          "url": "https://news.ycombinator.com/item?id=49281916",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-13T07:47:51.705000Z"
+        },
+        {
+          "id": "f34f0a0911484768845ba284f671a509a7c96b23",
+          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop） / ChatGPT Desktop (Codex Desktop) for Linux",
+          "url": "https://openai.com/codex",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-13T04:53:41Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "openai.com"
+      ],
+      "items": [
+        {
+          "id": "d827ecf2bb383c97b342a925e299a9e5cdf84e0a",
+          "title": "适用于 Linux 的 ChatGPT 桌面应用程序中的 Codex 现已提供预览版 / Codex in ChatGPT desktop app for Linux is now in preview",
+          "url": "https://news.ycombinator.com/item?id=49281916",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-13T17:07:23.724000Z"
+        },
+        {
+          "id": "da1b19b0831b278168634ab5d45c9f860bd4616f",
+          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
+          "url": "https://openai.com/codex",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-13T09:24:06.692000Z"
+        },
+        {
+          "id": "b30533b725b3c7cf1f2f4743ea001a7f5784e69c",
+          "title": "适用于 Linux 的 ChatGPT 桌面（Codex 桌面） / ChatGPT Desktop (Codex Desktop) for Linux",
+          "url": "https://news.ycombinator.com/item?id=49281916",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-13T07:47:51.705000Z"
+        },
+        {
+          "id": "f34f0a0911484768845ba284f671a509a7c96b23",
+          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop） / ChatGPT Desktop (Codex Desktop) for Linux",
+          "url": "https://openai.com/codex",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-13T04:53:41Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5949,
+      "importance": 0.5949,
+      "importance_score": 0.5949,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9952,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-13T04:53:41Z",
+      "latest_at": "2026-08-13T17:07:23.724000Z",
+      "primary_item": {
+        "id": "d827ecf2bb383c97b342a925e299a9e5cdf84e0a",
+        "title": "适用于 Linux 的 ChatGPT 桌面应用程序中的 Codex 现已提供预览版 / Codex in ChatGPT desktop app for Linux is now in preview",
+        "url": "https://news.ycombinator.com/item?id=49281916",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     },
     {
@@ -762,15 +1248,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5814,
-      "importance": 0.5814,
-      "importance_score": 0.5814,
+      "score": 0.579,
+      "importance": 0.579,
+      "importance_score": 0.579,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9201,
+        "recency": 0.9064,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -788,768 +1274,198 @@
       }
     },
     {
-      "story_id": "story_83ef0e78131d",
-      "title": "Anthropic正就以60亿美元收购AI初创公司Decart进行谈判",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-      "source": "www.bloomberg.com",
+      "story_id": "story_b315f2ded491",
+      "title": "DeepSeek API 定价更新",
+      "url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
+      "primary_url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
+      "source": "twitter.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "f51df70e13e518f25eb243a9761f06f553698a9f",
-          "title": "Anthropic正就以60亿美元收购AI初创公司Decart进行谈判",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-          "source": "www.bloomberg.com",
+          "id": "e6984c92460316a040b2b89970e513565f3c6d2f",
+          "title": "DeepSeek API 定价更新",
+          "url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
+          "source": "twitter.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-13T14:44:13.843000Z"
+          "published_at": "2026-08-13T17:08:21.101000Z"
         },
         {
-          "id": "52eb0e9e3a91a0c53a1dc826be2bc0f758c166f5",
-          "title": "Anthropic称正就以60亿美元收购初创公司Decart进行谈判",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T02:12:23.537000Z"
-        },
-        {
-          "id": "c814155293ee464fa3f0dbf6a69b8839aba2ad05",
-          "title": "Anthropic称正就以60亿美元收购初创公司Decart进行谈判 / Anthropic in Talks to Buy World Model AI Startup Decart for $6B",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-13T01:50:27Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "f51df70e13e518f25eb243a9761f06f553698a9f",
-          "title": "Anthropic正就以60亿美元收购AI初创公司Decart进行谈判",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T14:44:13.843000Z"
-        },
-        {
-          "id": "52eb0e9e3a91a0c53a1dc826be2bc0f758c166f5",
-          "title": "Anthropic称正就以60亿美元收购初创公司Decart进行谈判",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T02:12:23.537000Z"
-        },
-        {
-          "id": "c814155293ee464fa3f0dbf6a69b8839aba2ad05",
-          "title": "Anthropic称正就以60亿美元收购初创公司Decart进行谈判 / Anthropic in Talks to Buy World Model AI Startup Decart for $6B",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-13T01:50:27Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5665,
-      "importance": 0.5665,
-      "importance_score": 0.5665,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.976,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-13T01:50:27Z",
-      "latest_at": "2026-08-13T14:44:13.843000Z",
-      "primary_item": {
-        "id": "f51df70e13e518f25eb243a9761f06f553698a9f",
-        "title": "Anthropic正就以60亿美元收购AI初创公司Decart进行谈判",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-        "source": "www.bloomberg.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_dd53fcf32880",
-      "title": "显示 HN：MCP 内存 – 使用 Google 的 OKF 和 SQLite FTS5 的快速代理内存 / Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
-      "url": "https://news.ycombinator.com/item?id=49286073",
-      "primary_url": "https://news.ycombinator.com/item?id=49286073",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "5324b30212c2bc9b47d6c6cc8330c290564a9ece",
-          "title": "显示 HN：MCP 内存 – 使用 Google 的 OKF 和 SQLite FTS5 的快速代理内存 / Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
-          "url": "https://news.ycombinator.com/item?id=49286073",
+          "id": "0e13ba047ea7b77cb4a296e8ca2f1f57d49d062e",
+          "title": "DeepSeek API 定价更新 / DeepSeek API Pricing Update",
+          "url": "https://news.ycombinator.com/item?id=49285160",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-08-13T14:18:19.228000Z"
         },
         {
-          "id": "b0b31941fb4406c15cc580bc9cf5ff3ff24511d2",
-          "title": "Show HN: MCP 内存——利用 Google 的 OKF 和 SQLite FTS5 实现的高速代理内存",
-          "url": "https://github.com/fellowgeek/mcp-memory",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T14:12:09.001000Z"
-        },
-        {
-          "id": "27c11982e265c8e044c483b751ab50b1ef9cf5a9",
-          "title": "Show HN: MCP 内存——利用 Google 的 OKF 和 SQLite FTS5 实现的高速代理内存 / Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
-          "url": "https://github.com/fellowgeek/mcp-memory",
+          "id": "a4796fbcc3bbc2d0d517c04bc19d3d830c5e8829",
+          "title": "DeepSeek API 定价更新 / DeepSeek API Pricing Update",
+          "url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-08-13T13:57:47Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "github.com",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "5324b30212c2bc9b47d6c6cc8330c290564a9ece",
-          "title": "显示 HN：MCP 内存 – 使用 Google 的 OKF 和 SQLite FTS5 的快速代理内存 / Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
-          "url": "https://news.ycombinator.com/item?id=49286073",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-13T14:18:19.228000Z"
-        },
-        {
-          "id": "b0b31941fb4406c15cc580bc9cf5ff3ff24511d2",
-          "title": "Show HN: MCP 内存——利用 Google 的 OKF 和 SQLite FTS5 实现的高速代理内存",
-          "url": "https://github.com/fellowgeek/mcp-memory",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T14:12:09.001000Z"
-        },
-        {
-          "id": "27c11982e265c8e044c483b751ab50b1ef9cf5a9",
-          "title": "Show HN: MCP 内存——利用 Google 的 OKF 和 SQLite FTS5 实现的高速代理内存 / Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
-          "url": "https://github.com/fellowgeek/mcp-memory",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-13T13:57:47Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5654,
-      "importance": 0.5654,
-      "importance_score": 0.5654,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9699,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-13T13:57:47Z",
-      "latest_at": "2026-08-13T14:18:19.228000Z",
-      "primary_item": {
-        "id": "5324b30212c2bc9b47d6c6cc8330c290564a9ece",
-        "title": "显示 HN：MCP 内存 – 使用 Google 的 OKF 和 SQLite FTS5 的快速代理内存 / Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
-        "url": "https://news.ycombinator.com/item?id=49286073",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_2199e00cfba7",
-      "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
-      "url": "https://openai.com/codex",
-      "primary_url": "https://openai.com/codex",
-      "source": "openai.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "da1b19b0831b278168634ab5d45c9f860bd4616f",
-          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
-          "url": "https://openai.com/codex",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T09:24:06.692000Z"
-        },
-        {
-          "id": "b30533b725b3c7cf1f2f4743ea001a7f5784e69c",
-          "title": "适用于 Linux 的 ChatGPT 桌面（Codex 桌面） / ChatGPT Desktop (Codex Desktop) for Linux",
-          "url": "https://news.ycombinator.com/item?id=49281916",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-13T07:47:51.705000Z"
-        },
-        {
-          "id": "f34f0a0911484768845ba284f671a509a7c96b23",
-          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop） / ChatGPT Desktop (Codex Desktop) for Linux",
-          "url": "https://openai.com/codex",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-13T04:53:41Z"
+          "published_at": "2026-08-13T12:49:21Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "Hacker News (黑客新闻)",
         "hackernews",
-        "openai.com"
+        "twitter.com"
       ],
       "items": [
         {
-          "id": "da1b19b0831b278168634ab5d45c9f860bd4616f",
-          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
-          "url": "https://openai.com/codex",
-          "source": "openai.com",
+          "id": "e6984c92460316a040b2b89970e513565f3c6d2f",
+          "title": "DeepSeek API 定价更新",
+          "url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
+          "source": "twitter.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-13T09:24:06.692000Z"
+          "published_at": "2026-08-13T17:08:21.101000Z"
         },
         {
-          "id": "b30533b725b3c7cf1f2f4743ea001a7f5784e69c",
-          "title": "适用于 Linux 的 ChatGPT 桌面（Codex 桌面） / ChatGPT Desktop (Codex Desktop) for Linux",
-          "url": "https://news.ycombinator.com/item?id=49281916",
+          "id": "0e13ba047ea7b77cb4a296e8ca2f1f57d49d062e",
+          "title": "DeepSeek API 定价更新 / DeepSeek API Pricing Update",
+          "url": "https://news.ycombinator.com/item?id=49285160",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-13T07:47:51.705000Z"
+          "published_at": "2026-08-13T14:18:19.228000Z"
         },
         {
-          "id": "f34f0a0911484768845ba284f671a509a7c96b23",
-          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop） / ChatGPT Desktop (Codex Desktop) for Linux",
-          "url": "https://openai.com/codex",
+          "id": "a4796fbcc3bbc2d0d517c04bc19d3d830c5e8829",
+          "title": "DeepSeek API 定价更新 / DeepSeek API Pricing Update",
+          "url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-08-13T04:53:41Z"
+          "published_at": "2026-08-13T12:49:21Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5535,
-      "importance": 0.5535,
-      "importance_score": 0.5535,
+      "score": 0.57,
+      "importance": 0.57,
+      "importance_score": 0.57,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9036,
+        "recency": 0.9954,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-13T04:53:41Z",
-      "latest_at": "2026-08-13T09:24:06.692000Z",
+      "earliest_at": "2026-08-13T12:49:21Z",
+      "latest_at": "2026-08-13T17:08:21.101000Z",
       "primary_item": {
-        "id": "da1b19b0831b278168634ab5d45c9f860bd4616f",
-        "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
-        "url": "https://openai.com/codex",
-        "source": "openai.com",
+        "id": "e6984c92460316a040b2b89970e513565f3c6d2f",
+        "title": "DeepSeek API 定价更新",
+        "url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
+        "source": "twitter.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_718a2af0b340",
-      "title": "Anthropic 上市时市值可能达到 2 万亿美元",
-      "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-      "primary_url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-      "source": "arstechnica.com",
+      "story_id": "story_05e49fba8559",
+      "title": "选择人工智能模型：一个提示词，11个模型，不同的结果",
+      "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
+      "primary_url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
+      "source": "www.netlify.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "59a5edbd25e9becf3075311aface3fa5a7746ba3",
-          "title": "Anthropic 上市时市值可能达到 2 万亿美元",
-          "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "arstechnica.com",
+          "id": "2618b9906255f9caeb772658262c072afdfa16e7",
+          "title": "选择人工智能模型：一个提示词，11个模型，不同的结果",
+          "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
+          "source": "www.netlify.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-13T15:48:19.836000Z"
+          "published_at": "2026-08-13T16:52:08.720000Z"
         },
         {
-          "id": "b329f73dfada1b86ba26e70faa05497a7bd081ce",
-          "title": "Anthropic 上市时市值可能达到 2 万亿美元 / Anthropic could be worth $2 trillion when it goes public",
-          "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-13T13:58:56Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ars Technica",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "59a5edbd25e9becf3075311aface3fa5a7746ba3",
-          "title": "Anthropic 上市时市值可能达到 2 万亿美元",
-          "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T15:48:19.836000Z"
+          "id": "66d72d4abce5e4f7bfc7fe410ebf0d7a55351079",
+          "title": "选择AI模型：一个提示，11个模型，不同的结果 / Choosing an AI model: one prompt, 11 models, different results",
+          "url": "https://news.ycombinator.com/item?id=49285327",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-13T14:18:19.228000Z"
         },
         {
-          "id": "b329f73dfada1b86ba26e70faa05497a7bd081ce",
-          "title": "Anthropic 上市时市值可能达到 2 万亿美元 / Anthropic could be worth $2 trillion when it goes public",
-          "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-13T13:58:56Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5442,
-      "importance": 0.5442,
-      "importance_score": 0.5442,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9912,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-13T13:58:56Z",
-      "latest_at": "2026-08-13T15:48:19.836000Z",
-      "primary_item": {
-        "id": "59a5edbd25e9becf3075311aface3fa5a7746ba3",
-        "title": "Anthropic 上市时市值可能达到 2 万亿美元",
-        "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_8368765c4e00",
-      "title": "Show HN: 自ChatGPT推出以来，帖子数量增长了6倍，但成功率基本保持平稳 / Indie projects exploded after GPT/Claude Code, but traction stayed flat",
-      "url": "https://www.orangecrumbs.com/stories/show-hn",
-      "primary_url": "https://www.orangecrumbs.com/stories/show-hn",
-      "source": "HN Algolia · AI 24h",
-      "source_name": "Hacker News",
-      "sources": [
-        {
-          "id": "8c96d0b320ee1b02926307cf979261c39294a66f",
-          "title": "Show HN: 自ChatGPT推出以来，帖子数量增长了6倍，但成功率基本保持平稳 / Indie projects exploded after GPT/Claude Code, but traction stayed flat",
-          "url": "https://www.orangecrumbs.com/stories/show-hn",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-13T14:52:56Z"
-        },
-        {
-          "id": "bfadf38222f9106bee1931e59990cc329a7e0fed",
-          "title": "Show HN: 自ChatGPT推出以来，帖子数量增长了6倍，但成功率基本保持平稳",
-          "url": "https://www.orangecrumbs.com/stories/show-hn",
-          "source": "www.orangecrumbs.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-12T22:12:20.349000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "www.orangecrumbs.com"
-      ],
-      "items": [
-        {
-          "id": "8c96d0b320ee1b02926307cf979261c39294a66f",
-          "title": "Show HN: 自ChatGPT推出以来，帖子数量增长了6倍，但成功率基本保持平稳 / Indie projects exploded after GPT/Claude Code, but traction stayed flat",
-          "url": "https://www.orangecrumbs.com/stories/show-hn",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-13T14:52:56Z"
-        },
-        {
-          "id": "bfadf38222f9106bee1931e59990cc329a7e0fed",
-          "title": "Show HN: 自ChatGPT推出以来，帖子数量增长了6倍，但成功率基本保持平稳",
-          "url": "https://www.orangecrumbs.com/stories/show-hn",
-          "source": "www.orangecrumbs.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-12T22:12:20.349000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5418,
-      "importance": 0.5418,
-      "importance_score": 0.5418,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.978,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-12T22:12:20.349000Z",
-      "latest_at": "2026-08-13T14:52:56Z",
-      "primary_item": {
-        "id": "8c96d0b320ee1b02926307cf979261c39294a66f",
-        "title": "Show HN: 自ChatGPT推出以来，帖子数量增长了6倍，但成功率基本保持平稳 / Indie projects exploded after GPT/Claude Code, but traction stayed flat",
-        "url": "https://www.orangecrumbs.com/stories/show-hn",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "Hacker News"
-      }
-    },
-    {
-      "story_id": "story_60db869c2e99",
-      "title": "我向麦当劳忠诚度计划索取了我的数据副本 / I requested a copy of my data from McDonald’s loyalty program",
-      "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave",
-      "primary_url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "de0e3b648e4f39536e85b43dec02209cf970a878",
-          "title": "我向麦当劳忠诚度计划索取了我的数据副本 / I requested a copy of my data from McDonald’s loyalty program",
-          "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T14:37:51Z"
-        },
-        {
-          "id": "466b3cf3cba070956bf6b989f4ad9264071f136d",
-          "title": "麦当劳为我建立了一份 515 页的档案。它说我永远不会停止在那里吃饭 / McDonald's Built a 515-Page Dossier on Me. It Says I'll Never Stop Eating There",
-          "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T00:05:52Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "de0e3b648e4f39536e85b43dec02209cf970a878",
-          "title": "我向麦当劳忠诚度计划索取了我的数据副本 / I requested a copy of my data from McDonald’s loyalty program",
-          "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T14:37:51Z"
-        },
-        {
-          "id": "466b3cf3cba070956bf6b989f4ad9264071f136d",
-          "title": "麦当劳为我建立了一份 515 页的档案。它说我永远不会停止在那里吃饭 / McDonald's Built a 515-Page Dossier on Me. It Says I'll Never Stop Eating There",
-          "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T00:05:52Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5412,
-      "importance": 0.5412,
-      "importance_score": 0.5412,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9745,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-13T00:05:52Z",
-      "latest_at": "2026-08-13T14:37:51Z",
-      "primary_item": {
-        "id": "de0e3b648e4f39536e85b43dec02209cf970a878",
-        "title": "我向麦当劳忠诚度计划索取了我的数据副本 / I requested a copy of my data from McDonald’s loyalty program",
-        "url": "https://www.wired.com/story/mcdonalds-built-a-515-page-dossier-on-me-it-says-ill-never-leave",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_889ea1c117f1",
-      "title": "DeepSeek 线束",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "primary_url": "https://github.com/deepseek-ai/deepseek-harness",
-      "source": "github.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "de650e2a3c910ccce5f4c6d184db22927bb7a92f",
-          "title": "DeepSeek 线束",
-          "url": "https://github.com/deepseek-ai/deepseek-harness",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T14:28:06.058000Z"
-        },
-        {
-          "id": "be454d19b00e3b54c484c09c5ac479888790e8a0",
-          "title": "DeepSeek 线束 / DeepSeek Harness",
-          "url": "https://github.com/deepseek-ai/deepseek-harness",
+          "id": "c4720fbc9aba2541a507ed27391dab9a968575e9",
+          "title": "选择人工智能模型：一个提示词，11个模型，不同的结果 / Choosing an AI model: one prompt, 11 models, different results",
+          "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-08-13T12:58:02Z"
+          "published_at": "2026-08-13T13:05:29Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
         "Hacker News (黑客新闻)",
-        "github.com"
+        "hackernews",
+        "www.netlify.com"
       ],
       "items": [
         {
-          "id": "de650e2a3c910ccce5f4c6d184db22927bb7a92f",
-          "title": "DeepSeek 线束",
-          "url": "https://github.com/deepseek-ai/deepseek-harness",
-          "source": "github.com",
+          "id": "2618b9906255f9caeb772658262c072afdfa16e7",
+          "title": "选择人工智能模型：一个提示词，11个模型，不同的结果",
+          "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
+          "source": "www.netlify.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-13T14:28:06.058000Z"
+          "published_at": "2026-08-13T16:52:08.720000Z"
         },
         {
-          "id": "be454d19b00e3b54c484c09c5ac479888790e8a0",
-          "title": "DeepSeek 线束 / DeepSeek Harness",
-          "url": "https://github.com/deepseek-ai/deepseek-harness",
+          "id": "66d72d4abce5e4f7bfc7fe410ebf0d7a55351079",
+          "title": "选择AI模型：一个提示，11个模型，不同的结果 / Choosing an AI model: one prompt, 11 models, different results",
+          "url": "https://news.ycombinator.com/item?id=49285327",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-13T14:18:19.228000Z"
+        },
+        {
+          "id": "c4720fbc9aba2541a507ed27391dab9a968575e9",
+          "title": "选择人工智能模型：一个提示词，11个模型，不同的结果 / Choosing an AI model: one prompt, 11 models, different results",
+          "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-08-13T12:58:02Z"
+          "published_at": "2026-08-13T13:05:29Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5408,
-      "importance": 0.5408,
-      "importance_score": 0.5408,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5693,
+      "importance": 0.5693,
+      "importance_score": 0.5693,
+      "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9722,
-        "story_heat": 0.25
+        "recency": 0.9916,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-13T12:58:02Z",
-      "latest_at": "2026-08-13T14:28:06.058000Z",
+      "earliest_at": "2026-08-13T13:05:29Z",
+      "latest_at": "2026-08-13T16:52:08.720000Z",
       "primary_item": {
-        "id": "de650e2a3c910ccce5f4c6d184db22927bb7a92f",
-        "title": "DeepSeek 线束",
-        "url": "https://github.com/deepseek-ai/deepseek-harness",
-        "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_ae6ad57a9170",
-      "title": "人工智能代理会说谎、作弊和偷窃。这让用户望而却步。 / AI agents lie, cheat and steal. That is putting off users",
-      "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
-      "primary_url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "9077b30c338f6ab6025c4daa666fcc120f1f16ce",
-          "title": "人工智能代理会说谎、作弊和偷窃。这让用户望而却步。 / AI agents lie, cheat and steal. That is putting off users",
-          "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-13T13:28:45Z"
-        },
-        {
-          "id": "2cefd9b747f9e1290002e06aa4eb6ed699313e0b",
-          "title": "人工智能代理会说谎、作弊和偷窃。这让用户望而却步。",
-          "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
-          "source": "www.economist.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-12T21:40:08.699000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "www.economist.com"
-      ],
-      "items": [
-        {
-          "id": "9077b30c338f6ab6025c4daa666fcc120f1f16ce",
-          "title": "人工智能代理会说谎、作弊和偷窃。这让用户望而却步。 / AI agents lie, cheat and steal. That is putting off users",
-          "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-13T13:28:45Z"
-        },
-        {
-          "id": "2cefd9b747f9e1290002e06aa4eb6ed699313e0b",
-          "title": "人工智能代理会说谎、作弊和偷窃。这让用户望而却步。",
-          "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
-          "source": "www.economist.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-12T21:40:08.699000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5383,
-      "importance": 0.5383,
-      "importance_score": 0.5383,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9584,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-12T21:40:08.699000Z",
-      "latest_at": "2026-08-13T13:28:45Z",
-      "primary_item": {
-        "id": "9077b30c338f6ab6025c4daa666fcc120f1f16ce",
-        "title": "人工智能代理会说谎、作弊和偷窃。这让用户望而却步。 / AI agents lie, cheat and steal. That is putting off users",
-        "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
-      }
-    },
-    {
-      "story_id": "story_c0bab4de2e58",
-      "title": "DeepSeek上调了其V4模型的API定价",
-      "url": "https://reut.rs/4x4tkZK",
-      "primary_url": "https://reut.rs/4x4tkZK",
-      "source": "reut.rs",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "fcf88a1fb7155fe0763efcbc7af4adcda1dd32fa",
-          "title": "DeepSeek上调了其V4模型的API定价",
-          "url": "https://reut.rs/4x4tkZK",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T13:08:15.313000Z"
-        },
-        {
-          "id": "b1aad186152033b333cce59eb93552f7b97e6031",
-          "title": "DeepSeek下调了其V4模型API的价格",
-          "url": "https://www.reuters.com/es/tecnolog%C3%ADa/SJZHNRMZ6BOB3MDPATGA3FB5ZQ-2026-08-13",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T12:20:20.054000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "reut.rs",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "fcf88a1fb7155fe0763efcbc7af4adcda1dd32fa",
-          "title": "DeepSeek上调了其V4模型的API定价",
-          "url": "https://reut.rs/4x4tkZK",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T13:08:15.313000Z"
-        },
-        {
-          "id": "b1aad186152033b333cce59eb93552f7b97e6031",
-          "title": "DeepSeek下调了其V4模型API的价格",
-          "url": "https://www.reuters.com/es/tecnolog%C3%ADa/SJZHNRMZ6BOB3MDPATGA3FB5ZQ-2026-08-13",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T12:20:20.054000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5375,
-      "importance": 0.5375,
-      "importance_score": 0.5375,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9537,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-13T12:20:20.054000Z",
-      "latest_at": "2026-08-13T13:08:15.313000Z",
-      "primary_item": {
-        "id": "fcf88a1fb7155fe0763efcbc7af4adcda1dd32fa",
-        "title": "DeepSeek上调了其V4模型的API定价",
-        "url": "https://reut.rs/4x4tkZK",
-        "source": "reut.rs",
+        "id": "2618b9906255f9caeb772658262c072afdfa16e7",
+        "title": "选择人工智能模型：一个提示词，11个模型，不同的结果",
+        "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
+        "source": "www.netlify.com",
         "source_name": "Buzzing"
       }
     }
