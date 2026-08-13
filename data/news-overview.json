@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ecb9313e73752ad5",
+  "snapshot_id": "6e79eec64441a1e7",
   "channel": "ai-news",
-  "generated_at": "2026-08-13T17:27:18.610261Z",
+  "generated_at": "2026-08-13T18:15:39.846377Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 660,
-    "high_priority": 29,
+    "signals": 668,
+    "high_priority": 27,
     "briefs": 20,
-    "stories": 610
+    "stories": 612
   },
   "coverage": {
     "successful": 16,
@@ -23,65 +23,33 @@
   ],
   "section_counts": {
     "Buzzing": 248,
-    "Info Flow": 170,
-    "TechURLs": 91,
-    "Zeli": 58,
-    "Curated Media": 28,
-    "NewsNow": 26,
+    "Info Flow": 172,
+    "TechURLs": 92,
+    "Zeli": 65,
+    "NewsNow": 28,
+    "Curated Media": 24,
     "AI HOT": 11,
     "Official AI Updates": 9
   },
   "top_stories": [
     {
-      "story_id": "story_c1c988556190",
-      "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "primary_url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "importance_score": 0.8655,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-13T17:16:04Z",
-      "earliest_at": "2026-08-13T17:16:04Z",
-      "sources": [
-        {
-          "id": "63aefbec18f0711d536c5b0bbc357bb07986eaf5",
-          "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T17:16:04Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
       "story_id": "story_e83d70611f6b",
-      "title": "Gemini 3.7 闪存简介 / Introducing Gemini 3.7 Flash",
+      "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
       "primary_url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
       "source": "Google DeepMind",
       "source_name": "Official AI Updates",
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "Google DeepMind"
+        "Google DeepMind",
+        "Google DeepMind：Blog（RSS）"
       ],
-      "importance_score": 0.851,
+      "importance_score": 0.8739,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
@@ -90,32 +58,43 @@
       "sources": [
         {
           "id": "6541800c8fc6716f162ab7ebc701f8883a0e9db5",
-          "title": "Gemini 3.7 闪存简介 / Introducing Gemini 3.7 Flash",
+          "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
           "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
           "source": "Google DeepMind",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-13T17:04:18Z"
+        },
+        {
+          "id": "02675bae99f5356d65724bcde95733a4987e2c98",
+          "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+          "source": "Google DeepMind：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-13T17:04:18Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     },
     {
       "story_id": "story_76c77512e473",
-      "title": "使用表格画布让您的电子表格数据栩栩如生 / Bring your spreadsheet data to life with Sheets canvas",
+      "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
       "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
       "primary_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
       "source": "Google AI Blog",
       "source_name": "Official AI Updates",
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "Google AI Blog"
+        "Google AI Blog",
+        "Google Blog：AI（RSS）"
       ],
-      "importance_score": 0.8422,
+      "importance_score": 0.8651,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
@@ -124,15 +103,69 @@
       "sources": [
         {
           "id": "777014cd6f2be6787e73dcd64d3b79c4e131fa91",
-          "title": "使用表格画布让您的电子表格数据栩栩如生 / Bring your spreadsheet data to life with Sheets canvas",
+          "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
           "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
           "source": "Google AI Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-13T16:45:00Z"
+        },
+        {
+          "id": "b72ff7f4bd7ca0bacb42b3e69eccd854c132c104",
+          "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用",
+          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+          "source": "Google Blog：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-13T16:45:00Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_6357d7795d21",
+      "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "primary_url": "https://openai.com/index/previewing-ultrafast",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "OpenAI News"
+      ],
+      "importance_score": 0.8648,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-13T16:59:06Z",
+      "earliest_at": "2026-08-13T10:00:00Z",
+      "sources": [
+        {
+          "id": "5175d87bcae80ab0d848d51674956034c540468a",
+          "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T10:00:00Z"
+        },
+        {
+          "id": "0da95d0920a7077beace9b3340245448028dd120",
+          "title": "预览超快模式：GPT‑5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-13T16:59:06Z"
+        }
+      ],
+      "confidence": "multi-source"
     }
   ]
 }
