@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "4aaf141f16ab9400",
+  "snapshot_id": "2626969724392235",
   "channel": "ai-business",
-  "generated_at": "2026-08-13T10:54:28.137411Z",
+  "generated_at": "2026-08-13T11:41:16.227590Z",
   "window_hours": 24,
   "decision": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
   "metrics": {
     "signals": 4,
-    "briefs": 2,
-    "clusters": 2,
-    "cases": 2
+    "briefs": 3,
+    "clusters": 3,
+    "cases": 1
   },
   "coverage": {
     "successful": 16,
@@ -20,17 +20,15 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_ce4429e70f2d",
+      "brief_id": "biz_brief_2dcc4646a202",
       "rank": 1,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_57150e4fd0a6",
-        "biz_a3a78b40d0a8"
+        "biz_57150e4fd0a6"
       ],
       "evidence_titles": [
-        "I built Code Factory because I kept getting fooled by passing tests",
-        "I just launched RevPages – an SEO tool that finds your most profitable page opportunities - not just keywords"
+        "I built Code Factory because I kept getting fooled by passing tests"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -41,8 +39,26 @@
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_75088726c113",
+      "brief_id": "biz_brief_699539b6825f",
       "rank": 2,
+      "title": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_de607562aee4"
+      ],
+      "evidence_titles": [
+        "Why Water Management Is a Strategic Concern"
+      ],
+      "risk_level": "medium",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_os"
+      ],
+      "recommended_action": "Add these counter-signals to sales objections and content credibility checks."
+    },
+    {
+      "brief_id": "biz_brief_f964c146e38f",
+      "rank": 3,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
@@ -63,21 +79,27 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_ce4429e70f2d",
+      "id": "biz_brief_2dcc4646a202",
       "label": "Brief #1",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     },
     {
-      "id": "biz_brief_75088726c113",
+      "id": "biz_brief_699539b6825f",
       "label": "Brief #2",
+      "title": "Add these counter-signals to sales objections and content credibility checks.",
+      "context": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language."
+    },
+    {
+      "id": "biz_brief_f964c146e38f",
+      "label": "Brief #3",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     }
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_3872f3fd26ba",
+      "cluster_id": "biz_cluster_a809c20d5a3e",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
@@ -88,23 +110,42 @@
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_57150e4fd0a6",
-        "biz_a3a78b40d0a8"
+        "biz_57150e4fd0a6"
       ],
       "top_sources": [
         {
           "source": "Indie Hackers",
           "title": "I built Code Factory because I kept getting fooled by passing tests",
           "url": "https://www.indiehackers.com/post/i-built-code-factory-because-i-kept-getting-fooled-by-passing-tests-dbab368310"
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_daf03c021c6b",
+      "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
+      "lane": "counter_signal",
+      "source_count": 1,
+      "importance_score": 41,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_os"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "Counter-signals are the evidence, not a rejection of the thesis.",
+      "recommended_action": "Add these counter-signals to sales objections and content credibility checks.",
+      "evidence_refs": [
+        "biz_de607562aee4"
+      ],
+      "top_sources": [
         {
-          "source": "Indie Hackers",
-          "title": "I just launched RevPages – an SEO tool that finds your most profitable page opportunities - not just keywords",
-          "url": "https://www.indiehackers.com/post/i-just-launched-revpages-an-seo-tool-that-finds-your-most-profitable-page-opportunities-not-just-keywords-5a5f758942"
+          "source": "MIT Sloan Management Review",
+          "title": "Why Water Management Is a Strategic Concern",
+          "url": "https://sloanreview.mit.edu/article/why-water-management-is-a-strategic-concern/"
         }
       ]
     },
