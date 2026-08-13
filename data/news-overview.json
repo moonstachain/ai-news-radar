@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "6e79eec64441a1e7",
+  "snapshot_id": "08cb067afb50a70e",
   "channel": "ai-news",
-  "generated_at": "2026-08-13T18:15:39.846377Z",
+  "generated_at": "2026-08-13T19:33:27.768111Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 668,
-    "high_priority": 27,
+    "signals": 687,
+    "high_priority": 30,
     "briefs": 20,
-    "stories": 612
+    "stories": 629
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 248,
-    "Info Flow": 172,
-    "TechURLs": 92,
-    "Zeli": 65,
-    "NewsNow": 28,
-    "Curated Media": 24,
-    "AI HOT": 11,
+    "Buzzing": 254,
+    "Info Flow": 170,
+    "TechURLs": 99,
+    "Zeli": 69,
+    "NewsNow": 29,
+    "Curated Media": 27,
+    "AI HOT": 13,
     "Official AI Updates": 9
   },
   "top_stories": [
@@ -44,7 +44,7 @@
         "Google DeepMind",
         "Google DeepMind：Blog（RSS）"
       ],
-      "importance_score": 0.8739,
+      "importance_score": 0.8707,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,6 +78,51 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_855fa77e93e1",
+      "title": "GPT-5.6 构建者指南：如何以更低成本实现前沿智能体性能 / The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "primary_url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      ],
+      "importance_score": 0.8641,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-13T11:00:00Z",
+      "earliest_at": "2026-08-13T11:00:00Z",
+      "sources": [
+        {
+          "id": "4f7dedbe4a69766d646c14d32955cbaf6870a15c",
+          "title": "GPT-5.6 构建者指南：如何以更低成本实现前沿智能体性能 / The builder’s guide to GPT‑5.6",
+          "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T11:00:00Z"
+        },
+        {
+          "id": "864d3f33938ba9eb0280be7495fcd78fa2fd212b",
+          "title": "GPT-5.6 构建者指南：如何以更低成本实现前沿智能体性能",
+          "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-13T11:00:00Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
       "story_id": "story_76c77512e473",
       "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
       "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
@@ -89,7 +134,7 @@
         "Google AI Blog",
         "Google Blog：AI（RSS）"
       ],
-      "importance_score": 0.8651,
+      "importance_score": 0.8618,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -118,51 +163,6 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-13T16:45:00Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_6357d7795d21",
-      "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "url": "https://openai.com/index/previewing-ultrafast",
-      "primary_url": "https://openai.com/index/previewing-ultrafast",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "OpenAI News"
-      ],
-      "importance_score": 0.8648,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-13T16:59:06Z",
-      "earliest_at": "2026-08-13T10:00:00Z",
-      "sources": [
-        {
-          "id": "5175d87bcae80ab0d848d51674956034c540468a",
-          "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-          "url": "https://openai.com/index/previewing-ultrafast",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T10:00:00Z"
-        },
-        {
-          "id": "0da95d0920a7077beace9b3340245448028dd120",
-          "title": "预览超快模式：GPT‑5.6 Sol 速度高达 14 倍 / Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
-          "url": "https://openai.com/index/previewing-ultrafast",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T16:59:06Z"
         }
       ],
       "confidence": "multi-source"
