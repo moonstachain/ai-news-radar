@@ -1,7 +1,84 @@
 {
-  "generated_at": "2026-08-13T12:46:48.274446Z",
+  "generated_at": "2026-08-13T14:19:01.233570Z",
   "window_hours": 24,
   "items": [
+    {
+      "signal_id": "biz_00b06f6f6edb",
+      "title": "My AI agent leaked my API key — so I built the guardrail and launched it on Product Hunt today",
+      "url": "https://www.indiehackers.com/post/my-ai-agent-leaked-my-api-key-so-i-built-the-guardrail-and-launched-it-on-product-hunt-today-4b6ca9bf92",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-12T17:03:43.160000Z",
+      "captured_at": "2026-08-13T14:19:01.233570Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "My AI",
+        "API",
+        "Product Hunt"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Founder Case",
+        "Enterprise AI Workflow",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_os"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 15,
+      "total_score": 56,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 10,
+        "case_concreteness": 15,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "My AI agent leaked my API key — so I built the guardrail and launched it on Product Hunt today Tags: AI Business Model Innovation, Founder Case, Enterprise AI Workflow.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
+      "signal_id": "biz_0eaaf7c655d0",
+      "title": "Building a $2M ARR product after his $8M ARR product failed overnight",
+      "url": "https://www.indiehackers.com/post/tech/building-a-2m-arr-product-after-his-8m-arr-product-failed-overnight-UZm68xNgjDZBHH7Mvc54",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-13T13:09:27.665000Z",
+      "captured_at": "2026-08-13T14:19:01.233570Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Building",
+        "ARR"
+      ],
+      "business_model_tags": [
+        "Counter Signal",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 40,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 4
+      },
+      "summary": "Building a $2M ARR product after his $8M ARR product failed overnight Tags: Counter Signal, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
     {
       "signal_id": "biz_de607562aee4",
       "title": "Why Water Management Is a Strategic Concern",
@@ -9,7 +86,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-13T11:00:28Z",
-      "captured_at": "2026-08-13T12:46:48.274446Z",
+      "captured_at": "2026-08-13T14:19:01.233570Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -40,13 +117,48 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_aeb6903ca877",
+      "title": "“I have the data. I just don't know what it's telling me or what I should do next.”",
+      "url": "https://www.indiehackers.com/post/i-have-the-data-i-just-dont-know-what-it-s-telling-me-or-what-i-should-do-next-80aab5d1ae",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-13T07:23:38.369000Z",
+      "captured_at": "2026-08-13T14:19:01.233570Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers"
+      ],
+      "business_model_tags": [
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_asset",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 0,
+      "total_score": 35,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 0,
+        "case_concreteness": 0,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "“I have the data. I just don't know what it's telling me or what I should do next.” Tags: OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_8458ffed91fc",
       "title": "GitHub availability report: July 2026",
       "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-12T22:17:32Z",
-      "captured_at": "2026-08-13T12:46:48.274446Z",
+      "captured_at": "2026-08-13T14:19:01.233570Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -84,7 +196,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-12T19:00:00Z",
-      "captured_at": "2026-08-13T12:46:48.274446Z",
+      "captured_at": "2026-08-13T14:19:01.233570Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
