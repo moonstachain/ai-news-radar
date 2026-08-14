@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "0df1787a4114174f",
+  "snapshot_id": "a7086bde39914028",
   "channel": "ai-news",
-  "generated_at": "2026-08-14T17:25:07.464113Z",
+  "generated_at": "2026-08-14T18:13:55.128329Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 620,
-    "high_priority": 28,
+    "signals": 599,
+    "high_priority": 29,
     "briefs": 20,
-    "stories": 577
+    "stories": 559
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,50 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 187,
-    "Info Flow": 178,
-    "TechURLs": 76,
-    "Zeli": 70,
-    "NewsNow": 31,
-    "Curated Media": 29,
-    "OPML RSS": 19,
+    "Buzzing": 177,
+    "Info Flow": 174,
+    "TechURLs": 75,
+    "Zeli": 68,
+    "NewsNow": 29,
+    "Curated Media": 28,
+    "OPML RSS": 18,
     "AI HOT": 11
   },
   "top_stories": [
+    {
+      "story_id": "story_61fc6209c742",
+      "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.847,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-14T16:17:46Z",
+      "earliest_at": "2026-08-14T16:17:46Z",
+      "sources": [
+        {
+          "id": "62eb79284c5d7409c01110d7b88aa07e2089e1e8",
+          "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T16:17:46Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_6cbde97d8260",
       "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
@@ -46,7 +80,7 @@
         "公众号：智谱（GLM）",
         "公众号：蚂蚁百灵（Ling）"
       ],
-      "importance_score": 0.8487,
+      "importance_score": 0.8467,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -108,7 +142,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.845,
+      "importance_score": 0.8433,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -140,40 +174,6 @@
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_d9c115db9993",
-      "title": "如何使用代理应用程序将软件交付工作流程引入 GitHub / How to bring your software delivery workflow into GitHub with agent apps",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "importance_score": 0.8403,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-14T16:00:00Z",
-      "earliest_at": "2026-08-14T16:00:00Z",
-      "sources": [
-        {
-          "id": "b1a201456e76369f9a92aecd439f6395eb2e2c52",
-          "title": "如何使用代理应用程序将软件交付工作流程引入 GitHub / How to bring your software delivery workflow into GitHub with agent apps",
-          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-14T16:00:00Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }
