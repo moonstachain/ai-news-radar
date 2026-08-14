@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T18:15:02.180111Z",
+  "generated_at": "2026-08-14T19:29:09.959414Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-13T19:33:58Z",
-      "captured_at": "2026-08-14T18:15:02.180111Z",
+      "captured_at": "2026-08-14T19:29:09.959414Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-14T16:00:00Z",
-      "captured_at": "2026-08-14T18:15:02.180111Z",
+      "captured_at": "2026-08-14T19:29:09.959414Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -77,41 +77,39 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_b10db38ea0b2",
-      "title": "Your guide to GitHub Universe 2026 is here: The schedule just launched!",
-      "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
-      "source_id": "github_blog",
-      "source_name": "GitHub Blog",
-      "published_at": "2026-08-13T19:00:00Z",
-      "captured_at": "2026-08-14T18:15:02.180111Z",
-      "lane": "ai_commercialization",
+      "signal_id": "biz_db3f79e045f1",
+      "title": "I built a launch coach after my own product launch got 11 upvotes and 3 signups",
+      "url": "https://www.indiehackers.com/post/i-built-a-launch-coach-after-my-own-product-launch-got-11-upvotes-and-3-signups-0b24d149fc",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-14T15:00:24.904000Z",
+      "captured_at": "2026-08-14T19:29:09.959414Z",
+      "lane": "opc",
       "entities": [
-        "GitHub Blog",
-        "Your",
-        "GitHub Universe"
+        "Indie Hackers"
       ],
       "business_model_tags": [
         "Founder Case",
-        "Enterprise AI Workflow"
+        "OPC"
       ],
       "yuanli_tags": [
         "yuanli_startup"
       ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 12,
-      "total_score": 42,
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 40,
       "score_breakdown": {
-        "source_authority": 20,
+        "source_authority": 16,
         "yuanli_relevance": 0,
         "business_model_value": 3,
-        "case_concreteness": 12,
-        "opc_fit": 0,
-        "freshness": 7,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 8,
         "counter_signal_value": 0
       },
-      "summary": "The GitHub Universe session catalog is live. Explore interactive workshops, community talks, demos, and panels. Plus, register before August 19 to save $300. The post Your guide to GitHub Universe 2026 is here: The sched... Tags: Founder Case, Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
+      "summary": "I built a launch coach after my own product launch got 11 upvotes and 3 signups Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     },
     {
       "signal_id": "biz_12a3be96d263",
@@ -120,7 +118,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-13T23:16:31Z",
-      "captured_at": "2026-08-14T18:15:02.180111Z",
+      "captured_at": "2026-08-14T19:29:09.959414Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -156,7 +154,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-14T10:57:40.782000Z",
-      "captured_at": "2026-08-14T18:15:02.180111Z",
+      "captured_at": "2026-08-14T19:29:09.959414Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -195,7 +193,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-14T14:09:31.200000Z",
-      "captured_at": "2026-08-14T18:15:02.180111Z",
+      "captured_at": "2026-08-14T19:29:09.959414Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers"
