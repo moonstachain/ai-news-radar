@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a3bb00d5377056f0",
+  "snapshot_id": "f466c84d2e9ba547",
   "channel": "ai-news",
-  "generated_at": "2026-08-14T11:37:51.919247Z",
+  "generated_at": "2026-08-14T12:40:14.725208Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 653,
+    "signals": 659,
     "high_priority": 27,
     "briefs": 20,
-    "stories": 603
+    "stories": 608
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 210,
-    "Info Flow": 175,
-    "TechURLs": 82,
+    "Buzzing": 206,
+    "Info Flow": 171,
+    "TechURLs": 94,
     "Zeli": 81,
-    "NewsNow": 33,
-    "Curated Media": 28,
+    "NewsNow": 34,
+    "Curated Media": 29,
     "Follow Builders": 13,
-    "AI HOT": 12
+    "AI HOT": 11
   },
   "top_stories": [
     {
@@ -46,7 +46,7 @@
         "公众号：智谱（GLM）",
         "公众号：蚂蚁百灵（Ling）"
       ],
-      "importance_score": 0.8631,
+      "importance_score": 0.8604,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -108,7 +108,7 @@
         "Google DeepMind",
         "Google DeepMind：Blog（RSS）"
       ],
-      "importance_score": 0.8347,
+      "importance_score": 0.8326,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -153,7 +153,7 @@
         "Google AI Blog",
         "Google Blog：AI（RSS）"
       ],
-      "importance_score": 0.826,
+      "importance_score": 0.824,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
