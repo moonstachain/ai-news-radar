@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:40:14.725208Z",
+  "generated_at": "2026-08-14T15:14:27.184135Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8604,
-      "importance": 0.8604,
-      "importance_score": 0.8604,
+      "score": 0.8539,
+      "importance": 0.8539,
+      "importance_score": 0.8539,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9822,
+        "recency": 0.9464,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -176,15 +176,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8326,
-      "importance": 0.8326,
-      "importance_score": 0.8326,
+      "score": 0.8277,
+      "importance": 0.8277,
+      "importance_score": 0.8277,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7535,
+        "recency": 0.7261,
         "story_heat": 0.25
       },
       "category": "official",
@@ -201,6 +201,68 @@
         "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
         "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
         "source": "Google DeepMind",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_d556a48bace2",
+      "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+          "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "items": [
+        {
+          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+          "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8244,
+      "importance": 0.8244,
+      "importance_score": 0.8244,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8024,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-14T00:00:00Z",
+      "latest_at": "2026-08-14T00:00:00Z",
+      "primary_item": {
+        "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+        "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+        "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -258,15 +320,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.824,
-      "importance": 0.824,
-      "importance_score": 0.824,
+      "score": 0.8191,
+      "importance": 0.8191,
+      "importance_score": 0.8191,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.75,
+        "recency": 0.7227,
         "story_heat": 0.25
       },
       "category": "official",
@@ -283,6 +345,149 @@
         "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
         "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
         "source": "Google AI Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6c975d4feeb5",
+      "title": "随着中国人工智能竞争对手不断壮大，OpenAI与Anthropic展开价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+      "primary_url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+      "source": "Ars Technica：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e76762fbdbcf898d8d6ff82f016be8922778c6d6",
+          "title": "随着中国人工智能竞争对手不断壮大，OpenAI与Anthropic展开价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T14:27:14Z"
+        },
+        {
+          "id": "a786c99c1da395978108541dd202aa0f3dfd21ac",
+          "title": "随着中国人工智能竞争对手不断壮大，OpenAI与Anthropic展开价格战",
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T15:07:03.592000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Ars Technica：AI（RSS）",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "e76762fbdbcf898d8d6ff82f016be8922778c6d6",
+          "title": "随着中国人工智能竞争对手不断壮大，OpenAI与Anthropic展开价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T14:27:14Z"
+        },
+        {
+          "id": "a786c99c1da395978108541dd202aa0f3dfd21ac",
+          "title": "随着中国人工智能竞争对手不断壮大，OpenAI与Anthropic展开价格战",
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T15:07:03.592000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8026,
+      "importance": 0.8026,
+      "importance_score": 0.8026,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9887,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-14T14:27:14Z",
+      "latest_at": "2026-08-14T15:07:03.592000Z",
+      "primary_item": {
+        "id": "e76762fbdbcf898d8d6ff82f016be8922778c6d6",
+        "title": "随着中国人工智能竞争对手不断壮大，OpenAI与Anthropic展开价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+        "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+        "source": "Ars Technica：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_7b7795911104",
+      "title": "许可数据质量改进 / License data quality improvements",
+      "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+      "primary_url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "87dd2c8686ef4e741185768b45139d717de59f24",
+          "title": "许可数据质量改进 / License data quality improvements",
+          "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T19:14:12Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "87dd2c8686ef4e741185768b45139d717de59f24",
+          "title": "许可数据质量改进 / License data quality improvements",
+          "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T19:14:12Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7988,
+      "importance": 0.7988,
+      "importance_score": 0.7988,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7491,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-13T19:14:12Z",
+      "latest_at": "2026-08-13T19:14:12Z",
+      "primary_item": {
+        "id": "87dd2c8686ef4e741185768b45139d717de59f24",
+        "title": "许可数据质量改进 / License data quality improvements",
+        "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -321,15 +526,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.822,
-      "importance": 0.822,
-      "importance_score": 0.822,
+      "score": 0.8171,
+      "importance": 0.8171,
+      "importance_score": 0.8171,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.7556,
+        "recency": 0.7281,
         "story_heat": 0.0
       },
       "category": "official",
@@ -349,127 +554,64 @@
       }
     },
     {
-      "story_id": "story_3ce2b53f8ac8",
-      "title": "Gemini 3.7 Flash 现已在 GitHub Copilot 中提供 / Gemini 3.7 Flash is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_09af43cdb43c",
+      "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
+      "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+      "primary_url": "https://x.com/SpaceXAI/status/2088250109188608289",
+      "source": "X：SpaceXAI (@SpaceXAI)",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "e46a7969142d35bb9dcfae3c617c2830726c05bf",
-          "title": "Gemini 3.7 Flash 现已在 GitHub Copilot 中提供 / Gemini 3.7 Flash is now available in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T14:00:53Z"
+          "id": "2dd1ea11a8204f0c5fc0699f92dd3d4e2c3f812f",
+          "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
+          "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+          "source": "X：SpaceXAI (@SpaceXAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T13:03:18Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "X：SpaceXAI (@SpaceXAI)"
       ],
       "items": [
         {
-          "id": "e46a7969142d35bb9dcfae3c617c2830726c05bf",
-          "title": "Gemini 3.7 Flash 现已在 GitHub Copilot 中提供 / Gemini 3.7 Flash is now available in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T14:00:53Z"
+          "id": "2dd1ea11a8204f0c5fc0699f92dd3d4e2c3f812f",
+          "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
+          "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+          "source": "X：SpaceXAI (@SpaceXAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T13:03:18Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8098,
-      "importance": 0.8098,
-      "importance_score": 0.8098,
-      "importance_label": "官方更新",
+      "score": 0.777,
+      "importance": 0.777,
+      "importance_score": 0.777,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.721,
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9689,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-13T14:00:53Z",
-      "latest_at": "2026-08-13T14:00:53Z",
+      "earliest_at": "2026-08-14T13:03:18Z",
+      "latest_at": "2026-08-14T13:03:18Z",
       "primary_item": {
-        "id": "e46a7969142d35bb9dcfae3c617c2830726c05bf",
-        "title": "Gemini 3.7 Flash 现已在 GitHub Copilot 中提供 / Gemini 3.7 Flash is now available in GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_7b7795911104",
-      "title": "许可数据质量改进 / License data quality improvements",
-      "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-      "primary_url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "87dd2c8686ef4e741185768b45139d717de59f24",
-          "title": "许可数据质量改进 / License data quality improvements",
-          "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T19:14:12Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "87dd2c8686ef4e741185768b45139d717de59f24",
-          "title": "许可数据质量改进 / License data quality improvements",
-          "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T19:14:12Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8039,
-      "importance": 0.8039,
-      "importance_score": 0.8039,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7774,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-13T19:14:12Z",
-      "latest_at": "2026-08-13T19:14:12Z",
-      "primary_item": {
-        "id": "87dd2c8686ef4e741185768b45139d717de59f24",
-        "title": "许可数据质量改进 / License data quality improvements",
-        "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "2dd1ea11a8204f0c5fc0699f92dd3d4e2c3f812f",
+        "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
+        "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+        "source": "X：SpaceXAI (@SpaceXAI)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -507,15 +649,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8036,
-      "importance": 0.8036,
-      "importance_score": 0.8036,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7753,
+        "recency": 0.747,
         "story_heat": 0.0
       },
       "category": "official",
@@ -588,15 +730,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7391,
-      "importance": 0.7391,
-      "importance_score": 0.7391,
+      "score": 0.7338,
+      "importance": 0.7338,
+      "importance_score": 0.7338,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8027,
+        "recency": 0.7734,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -649,15 +791,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7276,
-      "importance": 0.7276,
-      "importance_score": 0.7276,
+      "score": 0.7217,
+      "importance": 0.7217,
+      "importance_score": 0.7217,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8943,
+        "recency": 0.8617,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -728,15 +870,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6071,
-      "importance": 0.6071,
-      "importance_score": 0.6071,
+      "score": 0.6008,
+      "importance": 0.6008,
+      "importance_score": 0.6008,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.9532,
+        "recency": 0.9185,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -845,15 +987,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5742,
-      "importance": 0.5742,
-      "importance_score": 0.5742,
+      "score": 0.5684,
+      "importance": 0.5684,
+      "importance_score": 0.5684,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8798,
+        "recency": 0.8478,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -943,15 +1085,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5591,
-      "importance": 0.5591,
-      "importance_score": 0.5591,
+      "score": 0.5529,
+      "importance": 0.5529,
+      "importance_score": 0.5529,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9348,
+        "recency": 0.9007,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -969,100 +1111,317 @@
       }
     },
     {
-      "story_id": "story_7b1a136099b5",
-      "title": "文本AI水印总是很容易去除的",
-      "url": "https://www.seangoedecke.com/text-ai-watermarks",
-      "primary_url": "https://www.seangoedecke.com/text-ai-watermarks",
-      "source": "www.seangoedecke.com",
+      "story_id": "story_232b5d487615",
+      "title": "不公平使用的证据：AI书籍将人类作者挤出市场",
+      "url": "https://www.businessinsider.com/ai-books-anthropic-training-human-authors-market-amazon-research-2026-8",
+      "primary_url": "https://www.businessinsider.com/ai-books-anthropic-training-human-authors-market-amazon-research-2026-8",
+      "source": "www.businessinsider.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "52ce908209c5e1a63e39d2ac0b4ae60912f562cf",
-          "title": "文本AI水印总是很容易去除的",
-          "url": "https://www.seangoedecke.com/text-ai-watermarks",
-          "source": "www.seangoedecke.com",
+          "id": "4474cf9e290263fdd20cf0d9667eb8855075fba0",
+          "title": "不公平使用的证据：AI书籍将人类作者挤出市场",
+          "url": "https://www.businessinsider.com/ai-books-anthropic-training-human-authors-market-amazon-research-2026-8",
+          "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-14T03:16:07.169000Z"
+          "published_at": "2026-08-14T14:35:18.641000Z"
         },
         {
-          "id": "2f1bafa839df4406df72d9580bc879466a1dd5f0",
-          "title": "文本 AI 水印总是很容易删除 / Text AI watermarks will always be trivial to remove",
-          "url": "https://news.ycombinator.com/item?id=49287153",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-13T16:07:17.152000Z"
-        },
-        {
-          "id": "289acf0d6e8bce57f59cbff2a0ac031387552605",
-          "title": "文本AI水印总是很容易去除的 / Text AI watermarks will always be trivial to remove",
-          "url": "https://www.seangoedecke.com/text-ai-watermarks",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T15:07:10Z"
+          "id": "79757f6e28f3a454ca8ecc8ae122935e3b63859a",
+          "title": "不公平使用的证据：AI书籍将人类作者挤出市场 / Evidence of unfair use: AI books squeeze human authors out of the market",
+          "url": "https://www.businessinsider.com/ai-books-anthropic-training-human-authors-market-amazon-research-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T14:19:19Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.seangoedecke.com"
+        "Business Insider",
+        "www.businessinsider.com"
       ],
       "items": [
         {
-          "id": "52ce908209c5e1a63e39d2ac0b4ae60912f562cf",
-          "title": "文本AI水印总是很容易去除的",
-          "url": "https://www.seangoedecke.com/text-ai-watermarks",
-          "source": "www.seangoedecke.com",
+          "id": "4474cf9e290263fdd20cf0d9667eb8855075fba0",
+          "title": "不公平使用的证据：AI书籍将人类作者挤出市场",
+          "url": "https://www.businessinsider.com/ai-books-anthropic-training-human-authors-market-amazon-research-2026-8",
+          "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-14T03:16:07.169000Z"
+          "published_at": "2026-08-14T14:35:18.641000Z"
         },
         {
-          "id": "2f1bafa839df4406df72d9580bc879466a1dd5f0",
-          "title": "文本 AI 水印总是很容易删除 / Text AI watermarks will always be trivial to remove",
-          "url": "https://news.ycombinator.com/item?id=49287153",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-13T16:07:17.152000Z"
-        },
-        {
-          "id": "289acf0d6e8bce57f59cbff2a0ac031387552605",
-          "title": "文本AI水印总是很容易去除的 / Text AI watermarks will always be trivial to remove",
-          "url": "https://www.seangoedecke.com/text-ai-watermarks",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T15:07:10Z"
+          "id": "79757f6e28f3a454ca8ecc8ae122935e3b63859a",
+          "title": "不公平使用的证据：AI书籍将人类作者挤出市场 / Evidence of unfair use: AI books squeeze human authors out of the market",
+          "url": "https://www.businessinsider.com/ai-books-anthropic-training-human-authors-market-amazon-research-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T14:19:19Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5479,
-      "importance": 0.5479,
-      "importance_score": 0.5479,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5441,
+      "importance": 0.5441,
+      "importance_score": 0.5441,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.873,
-        "story_heat": 0.5
+        "recency": 0.9906,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-13T15:07:10Z",
-      "latest_at": "2026-08-14T03:16:07.169000Z",
+      "earliest_at": "2026-08-14T14:19:19Z",
+      "latest_at": "2026-08-14T14:35:18.641000Z",
       "primary_item": {
-        "id": "52ce908209c5e1a63e39d2ac0b4ae60912f562cf",
-        "title": "文本AI水印总是很容易去除的",
-        "url": "https://www.seangoedecke.com/text-ai-watermarks",
-        "source": "www.seangoedecke.com",
+        "id": "4474cf9e290263fdd20cf0d9667eb8855075fba0",
+        "title": "不公平使用的证据：AI书籍将人类作者挤出市场",
+        "url": "https://www.businessinsider.com/ai-books-anthropic-training-human-authors-market-amazon-research-2026-8",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_fbbf5fbf132a",
+      "title": "Show HN: APIMart：提供 GPT-5、Sora 2 等 AI API 的优惠聚合平台",
+      "url": "https://apimart.ai/register?aff=yScTCM",
+      "primary_url": "https://apimart.ai/register?aff=yScTCM",
+      "source": "apimart.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "e490920bc53692b910fd143cafa8900f96861063",
+          "title": "Show HN: APIMart：提供 GPT-5、Sora 2 等 AI API 的优惠聚合平台",
+          "url": "https://apimart.ai/register?aff=yScTCM",
+          "source": "apimart.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T14:19:11.750000Z"
+        },
+        {
+          "id": "1a22949d81ebe63cb4b92f9fab930dab093326b2",
+          "title": "Show HN: APIMart：提供 GPT-5、Sora 2 等 AI API 的优惠聚合平台 / Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2",
+          "url": "https://apimart.ai/register?aff=yScTCM",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T14:14:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "apimart.ai"
+      ],
+      "items": [
+        {
+          "id": "e490920bc53692b910fd143cafa8900f96861063",
+          "title": "Show HN: APIMart：提供 GPT-5、Sora 2 等 AI API 的优惠聚合平台",
+          "url": "https://apimart.ai/register?aff=yScTCM",
+          "source": "apimart.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T14:19:11.750000Z"
+        },
+        {
+          "id": "1a22949d81ebe63cb4b92f9fab930dab093326b2",
+          "title": "Show HN: APIMart：提供 GPT-5、Sora 2 等 AI API 的优惠聚合平台 / Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2",
+          "url": "https://apimart.ai/register?aff=yScTCM",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T14:14:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5434,
+      "importance": 0.5434,
+      "importance_score": 0.5434,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9868,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T14:14:13Z",
+      "latest_at": "2026-08-14T14:19:11.750000Z",
+      "primary_item": {
+        "id": "e490920bc53692b910fd143cafa8900f96861063",
+        "title": "Show HN: APIMart：提供 GPT-5、Sora 2 等 AI API 的优惠聚合平台",
+        "url": "https://apimart.ai/register?aff=yScTCM",
+        "source": "apimart.ai",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_5e3557d3f517",
+      "title": "[Local LLM] local.ai 求接力",
+      "url": "https://www.v2ex.com/t/1234492",
+      "primary_url": "https://www.v2ex.com/t/1234492",
+      "source": "V2EX (创意工作者社区)",
+      "source_name": "Info Flow",
+      "sources": [
+        {
+          "id": "97712b1240c96205dc5bf6cf8c0571b132d2c024",
+          "title": "[Local LLM] local.ai 求接力",
+          "url": "https://www.v2ex.com/t/1234492",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T13:49:19Z"
+        },
+        {
+          "id": "a43bc7b7b8ee0b89f576b3b75674f7c2cc4cee7a",
+          "title": "[Local LLM] local.ai 有么有好心人接力",
+          "url": "https://www.v2ex.com/t/1234476",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T12:29:49Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "items": [
+        {
+          "id": "97712b1240c96205dc5bf6cf8c0571b132d2c024",
+          "title": "[Local LLM] local.ai 求接力",
+          "url": "https://www.v2ex.com/t/1234492",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T13:49:19Z"
+        },
+        {
+          "id": "a43bc7b7b8ee0b89f576b3b75674f7c2cc4cee7a",
+          "title": "[Local LLM] local.ai 有么有好心人接力",
+          "url": "https://www.v2ex.com/t/1234476",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T12:29:49Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5421,
+      "importance": 0.5421,
+      "importance_score": 0.5421,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9797,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T12:29:49Z",
+      "latest_at": "2026-08-14T13:49:19Z",
+      "primary_item": {
+        "id": "97712b1240c96205dc5bf6cf8c0571b132d2c024",
+        "title": "[Local LLM] local.ai 求接力",
+        "url": "https://www.v2ex.com/t/1234492",
+        "source": "V2EX (创意工作者社区)",
+        "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_343822196c2c",
+      "title": "DeepSeek 峰谷电价更新",
+      "url": "https://api-docs.deepseek.com/news/news260813",
+      "primary_url": "https://api-docs.deepseek.com/news/news260813",
+      "source": "api-docs.deepseek.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "c77cba701516586a9a2f25cd861b85d5acacb66d",
+          "title": "DeepSeek 峰谷电价更新",
+          "url": "https://api-docs.deepseek.com/news/news260813",
+          "source": "api-docs.deepseek.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T13:32:02.381000Z"
+        },
+        {
+          "id": "b5a0802a4dd3fa1ca17a41fee1dac3cf3e9fcbc4",
+          "title": "DeepSeek 峰谷电价更新 / DeepSeek peak/off-peak pricing update",
+          "url": "https://api-docs.deepseek.com/news/news260813",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T09:55:33Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "api-docs.deepseek.com"
+      ],
+      "items": [
+        {
+          "id": "c77cba701516586a9a2f25cd861b85d5acacb66d",
+          "title": "DeepSeek 峰谷电价更新",
+          "url": "https://api-docs.deepseek.com/news/news260813",
+          "source": "api-docs.deepseek.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T13:32:02.381000Z"
+        },
+        {
+          "id": "b5a0802a4dd3fa1ca17a41fee1dac3cf3e9fcbc4",
+          "title": "DeepSeek 峰谷电价更新 / DeepSeek peak/off-peak pricing update",
+          "url": "https://api-docs.deepseek.com/news/news260813",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T09:55:33Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5414,
+      "importance": 0.5414,
+      "importance_score": 0.5414,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9757,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T09:55:33Z",
+      "latest_at": "2026-08-14T13:32:02.381000Z",
+      "primary_item": {
+        "id": "c77cba701516586a9a2f25cd861b85d5acacb66d",
+        "title": "DeepSeek 峰谷电价更新",
+        "url": "https://api-docs.deepseek.com/news/news260813",
+        "source": "api-docs.deepseek.com",
         "source_name": "Buzzing"
       }
     },
@@ -1139,15 +1498,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5435,
-      "importance": 0.5435,
-      "importance_score": 0.5435,
+      "score": 0.5379,
+      "importance": 0.5379,
+      "importance_score": 0.5379,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8483,
+        "recency": 0.8174,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1162,259 +1521,6 @@
         "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
         "source": "www.cerebras.ai",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_6193a415655d",
-      "title": "[Local LLM] 胸弟、local.ai 接力，前 10 位有打赏‼️",
-      "url": "https://www.v2ex.com/t/1234469",
-      "primary_url": "https://www.v2ex.com/t/1234469",
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "0428455175971721af2a609614fd14382b5e0108",
-          "title": "[Local LLM] 胸弟、local.ai 接力，前 10 位有打赏‼️",
-          "url": "https://www.v2ex.com/t/1234469",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-14T11:11:43Z"
-        },
-        {
-          "id": "16f5eefcf14521d24224dfcfdcf258d69b1a508a",
-          "title": "[Local LLM] local.ai 求接力，前 5 位有打赏",
-          "url": "https://www.v2ex.com/t/1234343",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-14T05:18:08Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "V2EX (创意工作者社区)"
-      ],
-      "items": [
-        {
-          "id": "0428455175971721af2a609614fd14382b5e0108",
-          "title": "[Local LLM] 胸弟、local.ai 接力，前 10 位有打赏‼️",
-          "url": "https://www.v2ex.com/t/1234469",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-14T11:11:43Z"
-        },
-        {
-          "id": "16f5eefcf14521d24224dfcfdcf258d69b1a508a",
-          "title": "[Local LLM] local.ai 求接力，前 5 位有打赏",
-          "url": "https://www.v2ex.com/t/1234343",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-14T05:18:08Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.542,
-      "importance": 0.542,
-      "importance_score": 0.542,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9789,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-14T05:18:08Z",
-      "latest_at": "2026-08-14T11:11:43Z",
-      "primary_item": {
-        "id": "0428455175971721af2a609614fd14382b5e0108",
-        "title": "[Local LLM] 胸弟、local.ai 接力，前 10 位有打赏‼️",
-        "url": "https://www.v2ex.com/t/1234469",
-        "source": "V2EX (创意工作者社区)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_5cc9009a7c70",
-      "title": "《大空头》主演迈克尔·伯里表示，人们对人工智能坚定不移的乐观态度让他想起了互联网泡沫和房地产泡沫",
-      "url": "https://www.businessinsider.com/michael-burry-ai-tech-stocks-euphoria-internet-housing-bubbles-enron-2026-8",
-      "primary_url": "https://www.businessinsider.com/michael-burry-ai-tech-stocks-euphoria-internet-housing-bubbles-enron-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "840bb22670fd14f0075114b730f339c0c66c06a1",
-          "title": "《大空头》主演迈克尔·伯里表示，人们对人工智能坚定不移的乐观态度让他想起了互联网泡沫和房地产泡沫",
-          "url": "https://www.businessinsider.com/michael-burry-ai-tech-stocks-euphoria-internet-housing-bubbles-enron-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T10:20:58.452000Z"
-        },
-        {
-          "id": "5e372b152870e15b590d428a771b1ef61510afa7",
-          "title": "《大空头》主演迈克尔·伯里表示，人们对人工智能坚定不移的乐观态度让他想起了互联网泡沫和房地产泡沫 / 'Big Short' Michael Burry says the bulletproof AI narrative reminds him of the dot-com and housing bubbles",
-          "url": "https://www.businessinsider.com/michael-burry-ai-tech-stocks-euphoria-internet-housing-bubbles-enron-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-14T10:08:07Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "840bb22670fd14f0075114b730f339c0c66c06a1",
-          "title": "《大空头》主演迈克尔·伯里表示，人们对人工智能坚定不移的乐观态度让他想起了互联网泡沫和房地产泡沫",
-          "url": "https://www.businessinsider.com/michael-burry-ai-tech-stocks-euphoria-internet-housing-bubbles-enron-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T10:20:58.452000Z"
-        },
-        {
-          "id": "5e372b152870e15b590d428a771b1ef61510afa7",
-          "title": "《大空头》主演迈克尔·伯里表示，人们对人工智能坚定不移的乐观态度让他想起了互联网泡沫和房地产泡沫 / 'Big Short' Michael Burry says the bulletproof AI narrative reminds him of the dot-com and housing bubbles",
-          "url": "https://www.businessinsider.com/michael-burry-ai-tech-stocks-euphoria-internet-housing-bubbles-enron-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-14T10:08:07Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5399,
-      "importance": 0.5399,
-      "importance_score": 0.5399,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.967,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-14T10:08:07Z",
-      "latest_at": "2026-08-14T10:20:58.452000Z",
-      "primary_item": {
-        "id": "840bb22670fd14f0075114b730f339c0c66c06a1",
-        "title": "《大空头》主演迈克尔·伯里表示，人们对人工智能坚定不移的乐观态度让他想起了互联网泡沫和房地产泡沫",
-        "url": "https://www.businessinsider.com/michael-burry-ai-tech-stocks-euphoria-internet-housing-bubbles-enron-2026-8",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_763523653d07",
-      "title": "由于云服务供应商倒闭，Nine PBS 可能失去70年的档案资料 / PBS loses 70 years of TV history after cloud storage vendor goes defunct",
-      "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-      "primary_url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "4c1123bbeea8b0f882ce296cabdf3d11d4110b83",
-          "title": "由于云服务供应商倒闭，Nine PBS 可能失去70年的档案资料 / PBS loses 70 years of TV history after cloud storage vendor goes defunct",
-          "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T23:05:38Z"
-        },
-        {
-          "id": "c2c3ab53a5c4aae88aa66a6798a7b10c5e9e4f63",
-          "title": "由于云服务供应商倒闭，Nine PBS 可能失去70年的档案资料 / Nine PBS could lose 70 years of archives after cloud vendor goes defunct",
-          "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T13:14:12Z"
-        },
-        {
-          "id": "2ef4aafabb48e727562e4f3cd90863eaae349dac",
-          "title": "由于云服务供应商倒闭，Nine PBS 可能失去70年的档案资料 / PBS loses 50TB of data; 70 years of TV history after cloud vendor defunct",
-          "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T13:14:12Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "4c1123bbeea8b0f882ce296cabdf3d11d4110b83",
-          "title": "由于云服务供应商倒闭，Nine PBS 可能失去70年的档案资料 / PBS loses 70 years of TV history after cloud storage vendor goes defunct",
-          "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T23:05:38Z"
-        },
-        {
-          "id": "c2c3ab53a5c4aae88aa66a6798a7b10c5e9e4f63",
-          "title": "由于云服务供应商倒闭，Nine PBS 可能失去70年的档案资料 / Nine PBS could lose 70 years of archives after cloud vendor goes defunct",
-          "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T13:14:12Z"
-        },
-        {
-          "id": "2ef4aafabb48e727562e4f3cd90863eaae349dac",
-          "title": "由于云服务供应商倒闭，Nine PBS 可能失去70年的档案资料 / PBS loses 50TB of data; 70 years of TV history after cloud vendor defunct",
-          "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T13:14:12Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5388,
-      "importance": 0.5388,
-      "importance_score": 0.5388,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.822,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-13T13:14:12Z",
-      "latest_at": "2026-08-13T23:05:38Z",
-      "primary_item": {
-        "id": "4c1123bbeea8b0f882ce296cabdf3d11d4110b83",
-        "title": "由于云服务供应商倒闭，Nine PBS 可能失去70年的档案资料 / PBS loses 70 years of TV history after cloud storage vendor goes defunct",
-        "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
       }
     },
     {
@@ -1470,15 +1576,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5366,
-      "importance": 0.5366,
-      "importance_score": 0.5366,
+      "score": 0.5304,
+      "importance": 0.5304,
+      "importance_score": 0.5304,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9491,
+        "recency": 0.9145,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1493,182 +1599,6 @@
         "url": "https://www.bloomberg.com/news/articles/2026-08-14/em-assets-buoyed-by-easing-us-rate-worries-gains-in-ai-leaders",
         "source": "www.bloomberg.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_4044abc355a4",
-      "title": "如何用好AI Agent？",
-      "url": "https://www.huxiu.com/article/4883143.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4883143.html?f=rss",
-      "source": "虎嗅 (Huxiu)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "498ebaabc2af7e1cbbf6536082a3859ca73fc087",
-          "title": "如何用好AI Agent？",
-          "url": "https://www.huxiu.com/article/4883143.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-14T07:21:10Z"
-        },
-        {
-          "id": "9b73720716e391d1c029e56be5dc963d542cab43",
-          "title": "为什么信息喂得越多，AI越笨？",
-          "url": "https://www.huxiu.com/article/4883143.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-14T07:21:09Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "虎嗅 (Huxiu)"
-      ],
-      "items": [
-        {
-          "id": "498ebaabc2af7e1cbbf6536082a3859ca73fc087",
-          "title": "如何用好AI Agent？",
-          "url": "https://www.huxiu.com/article/4883143.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-14T07:21:10Z"
-        },
-        {
-          "id": "9b73720716e391d1c029e56be5dc963d542cab43",
-          "title": "为什么信息喂得越多，AI越笨？",
-          "url": "https://www.huxiu.com/article/4883143.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-14T07:21:09Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5325,
-      "importance": 0.5325,
-      "importance_score": 0.5325,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9261,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-14T07:21:09Z",
-      "latest_at": "2026-08-14T07:21:10Z",
-      "primary_item": {
-        "id": "498ebaabc2af7e1cbbf6536082a3859ca73fc087",
-        "title": "如何用好AI Agent？",
-        "url": "https://www.huxiu.com/article/4883143.html?f=rss",
-        "source": "虎嗅 (Huxiu)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_718a2af0b340",
-      "title": "Anthropic 上市后价值 2 万亿美元 / Anthropic Could Be Worth $2 Trillion When It Goes Public",
-      "url": "https://slashdot.org/story/26/08/13/1846256/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-      "primary_url": "https://slashdot.org/story/26/08/13/1846256/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-      "source": "Slashdot (科技资讯)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "e600ce82266d8b38025d54be702df81499fa1ee8",
-          "title": "Anthropic 上市后价值 2 万亿美元 / Anthropic Could Be Worth $2 Trillion When It Goes Public",
-          "url": "https://slashdot.org/story/26/08/13/1846256/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "Slashdot (科技资讯)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-13T19:00:00Z"
-        },
-        {
-          "id": "59a5edbd25e9becf3075311aface3fa5a7746ba3",
-          "title": "Anthropic 上市时市值可能达到 2 万亿美元",
-          "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T15:48:19.836000Z"
-        },
-        {
-          "id": "b329f73dfada1b86ba26e70faa05497a7bd081ce",
-          "title": "Anthropic 上市时市值可能达到 2 万亿美元 / Anthropic could be worth $2 trillion when it goes public",
-          "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-13T13:58:56Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Ars Technica",
-        "Slashdot (科技资讯)",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "e600ce82266d8b38025d54be702df81499fa1ee8",
-          "title": "Anthropic 上市后价值 2 万亿美元 / Anthropic Could Be Worth $2 Trillion When It Goes Public",
-          "url": "https://slashdot.org/story/26/08/13/1846256/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "Slashdot (科技资讯)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-13T19:00:00Z"
-        },
-        {
-          "id": "59a5edbd25e9becf3075311aface3fa5a7746ba3",
-          "title": "Anthropic 上市时市值可能达到 2 万亿美元",
-          "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-13T15:48:19.836000Z"
-        },
-        {
-          "id": "b329f73dfada1b86ba26e70faa05497a7bd081ce",
-          "title": "Anthropic 上市时市值可能达到 2 万亿美元 / Anthropic could be worth $2 trillion when it goes public",
-          "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-13T13:58:56Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5303,
-      "importance": 0.5303,
-      "importance_score": 0.5303,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7748,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-13T13:58:56Z",
-      "latest_at": "2026-08-13T19:00:00Z",
-      "primary_item": {
-        "id": "e600ce82266d8b38025d54be702df81499fa1ee8",
-        "title": "Anthropic 上市后价值 2 万亿美元 / Anthropic Could Be Worth $2 Trillion When It Goes Public",
-        "url": "https://slashdot.org/story/26/08/13/1846256/anthropic-could-be-worth-2-trillion-when-it-goes-public",
-        "source": "Slashdot (科技资讯)",
-        "source_name": "Info Flow"
       }
     }
   ]
