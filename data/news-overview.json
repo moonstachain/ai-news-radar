@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2528609d5a2c8343",
+  "snapshot_id": "0df1787a4114174f",
   "channel": "ai-news",
-  "generated_at": "2026-08-14T16:13:06.568864Z",
+  "generated_at": "2026-08-14T17:25:07.464113Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 627,
-    "high_priority": 31,
+    "signals": 620,
+    "high_priority": 28,
     "briefs": 20,
-    "stories": 584
+    "stories": 577
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 189,
-    "Info Flow": 174,
-    "TechURLs": 85,
-    "Zeli": 72,
-    "Curated Media": 27,
-    "NewsNow": 27,
+    "Buzzing": 187,
+    "Info Flow": 178,
+    "TechURLs": 76,
+    "Zeli": 70,
+    "NewsNow": 31,
+    "Curated Media": 29,
     "OPML RSS": 19,
-    "AI HOT": 13
+    "AI HOT": 11
   },
   "top_stories": [
     {
@@ -46,7 +46,7 @@
         "公众号：智谱（GLM）",
         "公众号：蚂蚁百灵（Ling）"
       ],
-      "importance_score": 0.8516,
+      "importance_score": 0.8487,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -97,6 +97,51 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_d556a48bace2",
+      "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
+      ],
+      "importance_score": 0.845,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-14T00:00:00Z",
+      "earliest_at": "2026-08-14T00:00:00Z",
+      "sources": [
+        {
+          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+          "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T00:00:00Z"
+        },
+        {
+          "id": "3bd97ce1581508d971c07b8c987612418a9afebd",
+          "title": "开放模型状况：2026 年夏季观察 / State of Open Models： Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T00:00:00Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
       "story_id": "story_d9c115db9993",
       "title": "如何使用代理应用程序将软件交付工作流程引入 GitHub / How to bring your software delivery workflow into GitHub with agent apps",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
@@ -107,7 +152,7 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "importance_score": 0.8434,
+      "importance_score": 0.8403,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -129,51 +174,6 @@
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_e83d70611f6b",
-      "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-      "primary_url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-      "source": "Google DeepMind",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "Google DeepMind",
-        "Google DeepMind：Blog（RSS）"
-      ],
-      "importance_score": 0.8259,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-13T17:04:18Z",
-      "earliest_at": "2026-08-13T17:04:18Z",
-      "sources": [
-        {
-          "id": "6541800c8fc6716f162ab7ebc701f8883a0e9db5",
-          "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T17:04:18Z"
-        },
-        {
-          "id": "02675bae99f5356d65724bcde95733a4987e2c98",
-          "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-          "source": "Google DeepMind：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T17:04:18Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }

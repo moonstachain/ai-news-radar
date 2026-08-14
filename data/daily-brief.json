@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T16:13:06.568864Z",
+  "generated_at": "2026-08-14T17:25:07.464113Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -95,15 +95,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.8516,
-      "importance": 0.8516,
-      "importance_score": 0.8516,
+      "score": 0.8487,
+      "importance": 0.8487,
+      "importance_score": 0.8487,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9331,
+        "recency": 0.9171,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -120,6 +120,88 @@
         "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
         "source": "公众号：小红书技术（dots.llm）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_d556a48bace2",
+      "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+          "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T00:00:00Z"
+        },
+        {
+          "id": "3bd97ce1581508d971c07b8c987612418a9afebd",
+          "title": "开放模型状况：2026 年夏季观察 / State of Open Models： Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T00:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+          "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T00:00:00Z"
+        },
+        {
+          "id": "3bd97ce1581508d971c07b8c987612418a9afebd",
+          "title": "开放模型状况：2026 年夏季观察 / State of Open Models： Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T00:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.845,
+      "importance": 0.845,
+      "importance_score": 0.845,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7776,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-14T00:00:00Z",
+      "latest_at": "2026-08-14T00:00:00Z",
+      "primary_item": {
+        "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+        "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+        "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -157,15 +239,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8434,
-      "importance": 0.8434,
-      "importance_score": 0.8434,
+      "score": 0.8403,
+      "importance": 0.8403,
+      "importance_score": 0.8403,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9968,
+        "recency": 0.9797,
         "story_heat": 0.0
       },
       "category": "official",
@@ -185,131 +267,49 @@
       }
     },
     {
-      "story_id": "story_e83d70611f6b",
-      "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-      "primary_url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-      "source": "Google DeepMind",
+      "story_id": "story_117194245eb4",
+      "title": "GitHub Copilot 每周发布 — 8 月 10 日 / GitHub Copilot weekly releases — August 10",
+      "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+      "primary_url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "6541800c8fc6716f162ab7ebc701f8883a0e9db5",
-          "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-          "source": "Google DeepMind",
+          "id": "6ed40aa477dd9941b36d3604cac82a96f82f5a16",
+          "title": "GitHub Copilot 每周发布 — 8 月 10 日 / GitHub Copilot weekly releases — August 10",
+          "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-13T17:04:18Z"
-        },
-        {
-          "id": "02675bae99f5356d65724bcde95733a4987e2c98",
-          "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-          "source": "Google DeepMind：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T17:04:18Z"
+          "published_at": "2026-08-14T03:15:56Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Google DeepMind",
-        "Google DeepMind：Blog（RSS）"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "6541800c8fc6716f162ab7ebc701f8883a0e9db5",
-          "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-          "source": "Google DeepMind",
+          "id": "6ed40aa477dd9941b36d3604cac82a96f82f5a16",
+          "title": "GitHub Copilot 每周发布 — 8 月 10 日 / GitHub Copilot weekly releases — August 10",
+          "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-13T17:04:18Z"
-        },
-        {
-          "id": "02675bae99f5356d65724bcde95733a4987e2c98",
-          "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-          "source": "Google DeepMind：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T17:04:18Z"
+          "published_at": "2026-08-14T03:15:56Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8259,
-      "importance": 0.8259,
-      "importance_score": 0.8259,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8187,
+      "importance": 0.8187,
+      "importance_score": 0.8187,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7159,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-13T17:04:18Z",
-      "latest_at": "2026-08-13T17:04:18Z",
-      "primary_item": {
-        "id": "6541800c8fc6716f162ab7ebc701f8883a0e9db5",
-        "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-        "source": "Google DeepMind",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_d556a48bace2",
-      "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
-          "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
-          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-14T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
-          "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
-          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-14T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8224,
-      "importance": 0.8224,
-      "importance_score": 0.8224,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7912,
+        "recency": 0.8152,
         "story_heat": 0.0
       },
       "category": "official",
@@ -318,95 +318,13 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-14T00:00:00Z",
-      "latest_at": "2026-08-14T00:00:00Z",
+      "earliest_at": "2026-08-14T03:15:56Z",
+      "latest_at": "2026-08-14T03:15:56Z",
       "primary_item": {
-        "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
-        "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
-        "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_76c77512e473",
-      "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-      "primary_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-      "source": "Google AI Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "777014cd6f2be6787e73dcd64d3b79c4e131fa91",
-          "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
-          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T16:45:00Z"
-        },
-        {
-          "id": "b72ff7f4bd7ca0bacb42b3e69eccd854c132c104",
-          "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用",
-          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-          "source": "Google Blog：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T16:45:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Google AI Blog",
-        "Google Blog：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "777014cd6f2be6787e73dcd64d3b79c4e131fa91",
-          "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
-          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-          "source": "Google AI Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T16:45:00Z"
-        },
-        {
-          "id": "b72ff7f4bd7ca0bacb42b3e69eccd854c132c104",
-          "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用",
-          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-          "source": "Google Blog：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T16:45:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8173,
-      "importance": 0.8173,
-      "importance_score": 0.8173,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7126,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-13T16:45:00Z",
-      "latest_at": "2026-08-13T16:45:00Z",
-      "primary_item": {
-        "id": "777014cd6f2be6787e73dcd64d3b79c4e131fa91",
-        "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
-        "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-        "source": "Google AI Blog",
+        "id": "6ed40aa477dd9941b36d3604cac82a96f82f5a16",
+        "title": "GitHub Copilot 每周发布 — 8 月 10 日 / GitHub Copilot weekly releases — August 10",
+        "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -464,15 +382,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8001,
-      "importance": 0.8001,
-      "importance_score": 0.8001,
+      "score": 0.7971,
+      "importance": 0.7971,
+      "importance_score": 0.7971,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9748,
+        "recency": 0.9581,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -488,6 +406,148 @@
         "title": "随着中国人工智能竞争对手不断壮大，OpenAI与Anthropic展开价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
         "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
         "source": "Ars Technica：AI（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_09af43cdb43c",
+      "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
+      "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+      "primary_url": "https://x.com/SpaceXAI/status/2088250109188608289",
+      "source": "X：SpaceXAI (@SpaceXAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2dd1ea11a8204f0c5fc0699f92dd3d4e2c3f812f",
+          "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
+          "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+          "source": "X：SpaceXAI (@SpaceXAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T13:03:18Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：SpaceXAI (@SpaceXAI)"
+      ],
+      "items": [
+        {
+          "id": "2dd1ea11a8204f0c5fc0699f92dd3d4e2c3f812f",
+          "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
+          "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+          "source": "X：SpaceXAI (@SpaceXAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T13:03:18Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7716,
+      "importance": 0.7716,
+      "importance_score": 0.7716,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9389,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-14T13:03:18Z",
+      "latest_at": "2026-08-14T13:03:18Z",
+      "primary_item": {
+        "id": "2dd1ea11a8204f0c5fc0699f92dd3d4e2c3f812f",
+        "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
+        "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+        "source": "X：SpaceXAI (@SpaceXAI)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_20b744e598ba",
+      "title": "Cursor 正式被 SpaceX 收购",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "primary_url": "https://cursor.com/blog/joining-spacex",
+      "source": "Cursor Blog",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "37be0084d39109564aa95e679db99447f43ba6a3",
+          "title": "Cursor 正式被 SpaceX 收购",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "Cursor Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T12:00:00Z"
+        },
+        {
+          "id": "e37cd83f96c4e5a36e5d09f3428b72e1f7f7f378",
+          "title": "Cursor 正式被 SpaceX 收购 / Cursor is now a part of SpaceX",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T13:10:12Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Cursor Blog",
+        "Hacker News (黑客新闻)"
+      ],
+      "items": [
+        {
+          "id": "37be0084d39109564aa95e679db99447f43ba6a3",
+          "title": "Cursor 正式被 SpaceX 收购",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "Cursor Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T12:00:00Z"
+        },
+        {
+          "id": "e37cd83f96c4e5a36e5d09f3428b72e1f7f7f378",
+          "title": "Cursor 正式被 SpaceX 收购 / Cursor is now a part of SpaceX",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T13:10:12Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7671,
+      "importance": 0.7671,
+      "importance_score": 0.7671,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.68,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9247,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-14T12:00:00Z",
+      "latest_at": "2026-08-14T13:10:12Z",
+      "primary_item": {
+        "id": "37be0084d39109564aa95e679db99447f43ba6a3",
+        "title": "Cursor 正式被 SpaceX 收购",
+        "url": "https://cursor.com/blog/joining-spacex",
+        "source": "Cursor Blog",
         "source_name": "AI HOT"
       }
     },
@@ -526,15 +586,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7969,
-      "importance": 0.7969,
-      "importance_score": 0.7969,
+      "score": 0.7947,
+      "importance": 0.7947,
+      "importance_score": 0.7947,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7386,
+        "recency": 0.7259,
         "story_heat": 0.0
       },
       "category": "official",
@@ -549,191 +609,6 @@
         "id": "87dd2c8686ef4e741185768b45139d717de59f24",
         "title": "许可数据质量改进 / License data quality improvements",
         "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_c1c988556190",
-      "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "primary_url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "63aefbec18f0711d536c5b0bbc357bb07986eaf5",
-          "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T17:16:04Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "63aefbec18f0711d536c5b0bbc357bb07986eaf5",
-          "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T17:16:04Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8152,
-      "importance": 0.8152,
-      "importance_score": 0.8152,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7179,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-13T17:16:04Z",
-      "latest_at": "2026-08-13T17:16:04Z",
-      "primary_item": {
-        "id": "63aefbec18f0711d536c5b0bbc357bb07986eaf5",
-        "title": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-        "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_09af43cdb43c",
-      "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
-      "url": "https://x.com/SpaceXAI/status/2088250109188608289",
-      "primary_url": "https://x.com/SpaceXAI/status/2088250109188608289",
-      "source": "X：SpaceXAI (@SpaceXAI)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "2dd1ea11a8204f0c5fc0699f92dd3d4e2c3f812f",
-          "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
-          "url": "https://x.com/SpaceXAI/status/2088250109188608289",
-          "source": "X：SpaceXAI (@SpaceXAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T13:03:18Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：SpaceXAI (@SpaceXAI)"
-      ],
-      "items": [
-        {
-          "id": "2dd1ea11a8204f0c5fc0699f92dd3d4e2c3f812f",
-          "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
-          "url": "https://x.com/SpaceXAI/status/2088250109188608289",
-          "source": "X：SpaceXAI (@SpaceXAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T13:03:18Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7746,
-      "importance": 0.7746,
-      "importance_score": 0.7746,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9553,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-14T13:03:18Z",
-      "latest_at": "2026-08-14T13:03:18Z",
-      "primary_item": {
-        "id": "2dd1ea11a8204f0c5fc0699f92dd3d4e2c3f812f",
-        "title": "Cursor 正式并入 SpaceXAI 助力 Grok",
-        "url": "https://x.com/SpaceXAI/status/2088250109188608289",
-        "source": "X：SpaceXAI (@SpaceXAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_968ad09332ea",
-      "title": "阻止用户在个人存储库中发表评论 / Block users from comments in personal repositories",
-      "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-      "primary_url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "60f355677cf4a09c3158662dda1f01d50413d142",
-          "title": "阻止用户在个人存储库中发表评论 / Block users from comments in personal repositories",
-          "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T19:02:46Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "60f355677cf4a09c3158662dda1f01d50413d142",
-          "title": "阻止用户在个人存储库中发表评论 / Block users from comments in personal repositories",
-          "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-13T19:02:46Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7966,
-      "importance": 0.7966,
-      "importance_score": 0.7966,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7366,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-13T19:02:46Z",
-      "latest_at": "2026-08-13T19:02:46Z",
-      "primary_item": {
-        "id": "60f355677cf4a09c3158662dda1f01d50413d142",
-        "title": "阻止用户在个人存储库中发表评论 / Block users from comments in personal repositories",
-        "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -773,15 +648,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7616,
-      "importance": 0.7616,
-      "importance_score": 0.7616,
+      "score": 0.7585,
+      "importance": 0.7585,
+      "importance_score": 0.7585,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9832,
+        "recency": 0.9663,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -800,63 +675,65 @@
       }
     },
     {
-      "story_id": "story_20b744e598ba",
-      "title": "Cursor 正式被 SpaceX 收购",
-      "url": "https://cursor.com/blog/joining-spacex",
-      "primary_url": "https://cursor.com/blog/joining-spacex",
-      "source": "Cursor Blog",
-      "source_name": "AI HOT",
+      "story_id": "story_968ad09332ea",
+      "title": "阻止用户在个人存储库中发表评论 / Block users from comments in personal repositories",
+      "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+      "primary_url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "37be0084d39109564aa95e679db99447f43ba6a3",
-          "title": "Cursor 正式被 SpaceX 收购",
-          "url": "https://cursor.com/blog/joining-spacex",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T12:00:00Z"
+          "id": "60f355677cf4a09c3158662dda1f01d50413d142",
+          "title": "阻止用户在个人存储库中发表评论 / Block users from comments in personal repositories",
+          "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T19:02:46Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Cursor Blog"
+        "GitHub Changelog"
       ],
       "items": [
         {
-          "id": "37be0084d39109564aa95e679db99447f43ba6a3",
-          "title": "Cursor 正式被 SpaceX 收购",
-          "url": "https://cursor.com/blog/joining-spacex",
-          "source": "Cursor Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T12:00:00Z"
+          "id": "60f355677cf4a09c3158662dda1f01d50413d142",
+          "title": "阻止用户在个人存储库中发表评论 / Block users from comments in personal repositories",
+          "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-13T19:02:46Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.745,
-      "importance": 0.745,
-      "importance_score": 0.745,
-      "importance_label": "行业动态",
+      "score": 0.7943,
+      "importance": 0.7943,
+      "importance_score": 0.7943,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9409,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7239,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
-        "high_ai_relevance"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-14T12:00:00Z",
-      "latest_at": "2026-08-14T12:00:00Z",
+      "earliest_at": "2026-08-13T19:02:46Z",
+      "latest_at": "2026-08-13T19:02:46Z",
       "primary_item": {
-        "id": "37be0084d39109564aa95e679db99447f43ba6a3",
-        "title": "Cursor 正式被 SpaceX 收购",
-        "url": "https://cursor.com/blog/joining-spacex",
-        "source": "Cursor Blog",
-        "source_name": "AI HOT"
+        "id": "60f355677cf4a09c3158662dda1f01d50413d142",
+        "title": "阻止用户在个人存储库中发表评论 / Block users from comments in personal repositories",
+        "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -913,15 +790,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7319,
-      "importance": 0.7319,
-      "importance_score": 0.7319,
+      "score": 0.7295,
+      "importance": 0.7295,
+      "importance_score": 0.7295,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7626,
+        "recency": 0.7495,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -993,15 +870,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5985,
-      "importance": 0.5985,
-      "importance_score": 0.5985,
+      "score": 0.5957,
+      "importance": 0.5957,
+      "importance_score": 0.5957,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.9056,
+        "recency": 0.8901,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1016,6 +893,104 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
         "source": "The Verge",
         "source_name": "Curated Media"
+      }
+    },
+    {
+      "story_id": "story_1beb1f37396c",
+      "title": "当天才失灵：人工智能实验室的智力傲慢",
+      "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+      "primary_url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+      "source": "weightythoughts.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "abb0dd9e623ffc1b8468057aec216f1a40c62611",
+          "title": "当天才失灵：人工智能实验室的智力傲慢",
+          "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+          "source": "weightythoughts.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T16:10:19.001000Z"
+        },
+        {
+          "id": "88da14f6fe324236413e4952b53842d93f2adce3",
+          "title": "当天才失败时：人工智能实验室的知识傲慢 / When Genius Fails: The Intellectual Arrogance of the AI Labs",
+          "url": "https://news.ycombinator.com/item?id=49299282",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-14T15:15:08.576000Z"
+        },
+        {
+          "id": "0b93cb6a54109aca6e5fa8e1cdbfd82d1cb9807f",
+          "title": "当天才失灵：人工智能实验室的智力傲慢 / When Genius Fails: The Intellectual Arrogance of the AI Labs",
+          "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T14:34:49Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "weightythoughts.com"
+      ],
+      "items": [
+        {
+          "id": "abb0dd9e623ffc1b8468057aec216f1a40c62611",
+          "title": "当天才失灵：人工智能实验室的智力傲慢",
+          "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+          "source": "weightythoughts.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T16:10:19.001000Z"
+        },
+        {
+          "id": "88da14f6fe324236413e4952b53842d93f2adce3",
+          "title": "当天才失败时：人工智能实验室的知识傲慢 / When Genius Fails: The Intellectual Arrogance of the AI Labs",
+          "url": "https://news.ycombinator.com/item?id=49299282",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-14T15:15:08.576000Z"
+        },
+        {
+          "id": "0b93cb6a54109aca6e5fa8e1cdbfd82d1cb9807f",
+          "title": "当天才失灵：人工智能实验室的智力傲慢 / When Genius Fails: The Intellectual Arrogance of the AI Labs",
+          "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T14:34:49Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5676,
+      "importance": 0.5676,
+      "importance_score": 0.5676,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9822,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T14:34:49Z",
+      "latest_at": "2026-08-14T16:10:19.001000Z",
+      "primary_item": {
+        "id": "abb0dd9e623ffc1b8468057aec216f1a40c62611",
+        "title": "当天才失灵：人工智能实验室的智力傲慢",
+        "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+        "source": "weightythoughts.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1045,18 +1020,18 @@
           "published_at": "2026-08-14T14:19:11.750000Z"
         },
         {
-          "id": "1a22949d81ebe63cb4b92f9fab930dab093326b2",
+          "id": "1a84def17a34eee83784318458791cdb855fa3a4",
           "title": "Show HN: APIMart：提供 GPT-5、Sora 2 等 AI API 的优惠聚合平台 / Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2",
           "url": "https://apimart.ai/register?aff=yScTCM",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
           "published_at": "2026-08-14T14:14:13Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "HN Algolia · AI 24h",
         "apimart.ai",
         "hackernews"
       ],
@@ -1080,26 +1055,26 @@
           "published_at": "2026-08-14T14:19:11.750000Z"
         },
         {
-          "id": "1a22949d81ebe63cb4b92f9fab930dab093326b2",
+          "id": "1a84def17a34eee83784318458791cdb855fa3a4",
           "title": "Show HN: APIMart：提供 GPT-5、Sora 2 等 AI API 的优惠聚合平台 / Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2",
           "url": "https://apimart.ai/register?aff=yScTCM",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
           "published_at": "2026-08-14T14:14:13Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5683,
-      "importance": 0.5683,
-      "importance_score": 0.5683,
+      "score": 0.5653,
+      "importance": 0.5653,
+      "importance_score": 0.5653,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9861,
+        "recency": 0.9692,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1114,123 +1089,6 @@
         "url": "https://news.ycombinator.com/item?id=49299000",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_8f4802b23876",
-      "title": "“AI在家”第一部分：一盒废料",
-      "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-      "primary_url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-      "source": "jdagostino.github.io",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "935e588ecf15106f528d77366a10119a18b3277c",
-          "title": "“AI在家”第一部分：一盒废料",
-          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-          "source": "jdagostino.github.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T03:48:12.621000Z"
-        },
-        {
-          "id": "b0a43f13d41a0f924975dd8aee988b49ff9c3853",
-          "title": "人工智能在家第 1 部分：一盒废料 / AI At Home Part 1: A Box Of Scraps",
-          "url": "https://news.ycombinator.com/item?id=49288293",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-13T18:07:28.447000Z"
-        },
-        {
-          "id": "9b0f928093399392e73df4edd25a10c455cb8d4b",
-          "title": "“AI在家”第一部分：一盒废料 / AI At Home Part 1: A Box Of Scraps",
-          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T16:22:05Z"
-        },
-        {
-          "id": "5a4ecc9cf3eb687adc19a47b67b2f51898789e59",
-          "title": "“AI在家”第一部分：一盒废料 / We Have AI at Home Chapter 1: A Box of Scraps",
-          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-13T16:22:05Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "hackernews",
-        "jdagostino.github.io"
-      ],
-      "items": [
-        {
-          "id": "935e588ecf15106f528d77366a10119a18b3277c",
-          "title": "“AI在家”第一部分：一盒废料",
-          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-          "source": "jdagostino.github.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T03:48:12.621000Z"
-        },
-        {
-          "id": "b0a43f13d41a0f924975dd8aee988b49ff9c3853",
-          "title": "人工智能在家第 1 部分：一盒废料 / AI At Home Part 1: A Box Of Scraps",
-          "url": "https://news.ycombinator.com/item?id=49288293",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-13T18:07:28.447000Z"
-        },
-        {
-          "id": "9b0f928093399392e73df4edd25a10c455cb8d4b",
-          "title": "“AI在家”第一部分：一盒废料 / AI At Home Part 1: A Box Of Scraps",
-          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-13T16:22:05Z"
-        },
-        {
-          "id": "5a4ecc9cf3eb687adc19a47b67b2f51898789e59",
-          "title": "“AI在家”第一部分：一盒废料 / We Have AI at Home Chapter 1: A Box of Scraps",
-          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-13T16:22:05Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5663,
-      "importance": 0.5663,
-      "importance_score": 0.5663,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8359,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-13T16:22:05Z",
-      "latest_at": "2026-08-14T03:48:12.621000Z",
-      "primary_item": {
-        "id": "935e588ecf15106f528d77366a10119a18b3277c",
-        "title": "“AI在家”第一部分：一盒废料",
-        "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-        "source": "jdagostino.github.io",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -1306,15 +1164,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5507,
-      "importance": 0.5507,
-      "importance_score": 0.5507,
+      "score": 0.5479,
+      "importance": 0.5479,
+      "importance_score": 0.5479,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8881,
+        "recency": 0.8728,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1328,6 +1186,85 @@
         "title": "组织如何使用人工智能：来自ChatGPT的证据 [pdf]",
         "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
         "source": "cdn.openai.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_afb6d0b82506",
+      "title": "Qwen 3.8 27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "primary_url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "source": "huggingface.co",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "7f94c9571ef00d749f312a2c3ed54a75481f41ba",
+          "title": "Qwen 3.8 27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+          "source": "huggingface.co",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T16:57:54.561000Z"
+        },
+        {
+          "id": "cfa9ae90a3618260b645ab9939040fbcbe232a00",
+          "title": "Qwen 3.8 27B 已发布：开放权重，迄今为止最好的局部密集模型 / Qwen 3.8 27B is out: open weights, best local dense model yet",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T15:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "huggingface.co"
+      ],
+      "items": [
+        {
+          "id": "7f94c9571ef00d749f312a2c3ed54a75481f41ba",
+          "title": "Qwen 3.8 27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+          "source": "huggingface.co",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T16:57:54.561000Z"
+        },
+        {
+          "id": "cfa9ae90a3618260b645ab9939040fbcbe232a00",
+          "title": "Qwen 3.8 27B 已发布：开放权重，迄今为止最好的局部密集模型 / Qwen 3.8 27B is out: open weights, best local dense model yet",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-14T15:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5446,
+      "importance": 0.5446,
+      "importance_score": 0.5446,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9935,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T15:00:00Z",
+      "latest_at": "2026-08-14T16:57:54.561000Z",
+      "primary_item": {
+        "id": "7f94c9571ef00d749f312a2c3ed54a75481f41ba",
+        "title": "Qwen 3.8 27B",
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+        "source": "huggingface.co",
         "source_name": "Buzzing"
       }
     },
@@ -1385,15 +1322,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5436,
-      "importance": 0.5436,
-      "importance_score": 0.5436,
+      "score": 0.5406,
+      "importance": 0.5406,
+      "importance_score": 0.5406,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.988,
+        "recency": 0.971,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1463,15 +1400,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5414,
-      "importance": 0.5414,
-      "importance_score": 0.5414,
+      "score": 0.5384,
+      "importance": 0.5384,
+      "importance_score": 0.5384,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9758,
+        "recency": 0.959,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1541,15 +1478,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5397,
-      "importance": 0.5397,
-      "importance_score": 0.5397,
+      "score": 0.5367,
+      "importance": 0.5367,
+      "importance_score": 0.5367,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.966,
+        "recency": 0.9494,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1564,6 +1501,85 @@
         "url": "https://www.v2ex.com/t/1234492",
         "source": "V2EX (创意工作者社区)",
         "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_343822196c2c",
+      "title": "DeepSeek 峰谷电价更新",
+      "url": "https://api-docs.deepseek.com/news/news260813",
+      "primary_url": "https://api-docs.deepseek.com/news/news260813",
+      "source": "api-docs.deepseek.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "c77cba701516586a9a2f25cd861b85d5acacb66d",
+          "title": "DeepSeek 峰谷电价更新",
+          "url": "https://api-docs.deepseek.com/news/news260813",
+          "source": "api-docs.deepseek.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T13:32:02.381000Z"
+        },
+        {
+          "id": "b5a0802a4dd3fa1ca17a41fee1dac3cf3e9fcbc4",
+          "title": "DeepSeek 峰谷电价更新 / DeepSeek peak/off-peak pricing update",
+          "url": "https://api-docs.deepseek.com/news/news260813",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T09:55:33Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "api-docs.deepseek.com"
+      ],
+      "items": [
+        {
+          "id": "c77cba701516586a9a2f25cd861b85d5acacb66d",
+          "title": "DeepSeek 峰谷电价更新",
+          "url": "https://api-docs.deepseek.com/news/news260813",
+          "source": "api-docs.deepseek.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T13:32:02.381000Z"
+        },
+        {
+          "id": "b5a0802a4dd3fa1ca17a41fee1dac3cf3e9fcbc4",
+          "title": "DeepSeek 峰谷电价更新 / DeepSeek peak/off-peak pricing update",
+          "url": "https://api-docs.deepseek.com/news/news260813",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T09:55:33Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.536,
+      "importance": 0.536,
+      "importance_score": 0.536,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9454,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T09:55:33Z",
+      "latest_at": "2026-08-14T13:32:02.381000Z",
+      "primary_item": {
+        "id": "c77cba701516586a9a2f25cd861b85d5acacb66d",
+        "title": "DeepSeek 峰谷电价更新",
+        "url": "https://api-docs.deepseek.com/news/news260813",
+        "source": "api-docs.deepseek.com",
+        "source_name": "Buzzing"
       }
     }
   ]
