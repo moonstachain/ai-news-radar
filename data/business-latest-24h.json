@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T11:39:00.778487Z",
+  "generated_at": "2026-08-14T12:43:10.324138Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-13T16:51:39.718000Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
+      "captured_at": "2026-08-14T12:43:10.324138Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-13T19:33:58Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
+      "captured_at": "2026-08-14T12:43:10.324138Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -83,7 +83,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-13T19:00:00Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
+      "captured_at": "2026-08-14T12:43:10.324138Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -120,7 +120,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-13T23:16:31Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
+      "captured_at": "2026-08-14T12:43:10.324138Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -156,7 +156,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-13T13:11:13.352000Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
+      "captured_at": "2026-08-14T12:43:10.324138Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -187,13 +187,48 @@
       "transport_mode": "page_detail"
     },
     {
+      "signal_id": "biz_fb89b77fecba",
+      "title": "I built a one-command home server setup tool because my friends kept saying \"I want one of those\"",
+      "url": "https://www.indiehackers.com/post/i-built-a-one-command-home-server-setup-tool-because-my-friends-kept-saying-i-want-one-of-those-9156fc4e5b",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-13T17:37:36.037000Z",
+      "captured_at": "2026-08-14T12:43:10.324138Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 39,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "I built a one-command home server setup tool because my friends kept saying \"I want one of those\" Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_0eaaf7c655d0",
       "title": "Building a $2M ARR product after his $8M ARR product failed overnight",
       "url": "https://www.indiehackers.com/post/tech/building-a-2m-arr-product-after-his-8m-arr-product-failed-overnight-UZm68xNgjDZBHH7Mvc54",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-13T13:09:27.665000Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
+      "captured_at": "2026-08-14T12:43:10.324138Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -230,7 +265,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-13T16:00:00Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
+      "captured_at": "2026-08-14T12:43:10.324138Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -267,7 +302,7 @@
       "source_id": "generalist",
       "source_name": "The Generalist",
       "published_at": "2026-08-13T16:21:22Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
+      "captured_at": "2026-08-14T12:43:10.324138Z",
       "lane": "startup_vc",
       "entities": [
         "The Generalist",
@@ -293,79 +328,6 @@
         "counter_signal_value": 0
       },
       "summary": "Part II, a study of founders’ home lives and parental patterns. Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_0a4f6ee97887",
-      "title": "The first AI-agent boundary you write will probably be wrong",
-      "url": "https://www.indiehackers.com/post/the-first-ai-agent-boundary-you-write-will-probably-be-wrong-54d4ea46bb",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-08-14T04:04:47.302000Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "AI-agent"
-      ],
-      "business_model_tags": [
-        "Enterprise AI Workflow",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "yuanli_os"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 0,
-      "total_score": 35,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 0,
-        "opc_fit": 5,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "The first AI-agent boundary you write will probably be wrong Tags: Enterprise AI Workflow, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
-    {
-      "signal_id": "biz_544b05b48ab1",
-      "title": "Why Agentic AI Could Transform Procurement",
-      "url": "https://hbr.org/2026/08/why-agentic-ai-could-transform-procurement",
-      "source_id": "hbr",
-      "source_name": "Harvard Business Review",
-      "published_at": "2026-08-13T12:15:56Z",
-      "captured_at": "2026-08-14T11:39:00.778487Z",
-      "lane": "authority",
-      "entities": [
-        "Harvard Business Review",
-        "Why Agentic AI",
-        "Could Transform Procurement"
-      ],
-      "business_model_tags": [
-        "AI Business Model Innovation",
-        "Enterprise AI Workflow"
-      ],
-      "yuanli_tags": [
-        "yuanli_os"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 35,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 3,
-        "business_model_value": 5,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Why Agentic AI Could Transform Procurement Tags: AI Business Model Innovation, Enterprise AI Workflow.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     }

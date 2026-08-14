@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a3bb00d5377056f0",
+  "snapshot_id": "f466c84d2e9ba547",
   "channel": "ai-business",
-  "generated_at": "2026-08-14T11:39:00.778487Z",
+  "generated_at": "2026-08-14T12:43:10.324138Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 10,
-    "briefs": 4,
-    "clusters": 4,
+    "signals": 9,
+    "briefs": 3,
+    "clusters": 3,
     "cases": 8
   },
   "coverage": {
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_252b1b80c230",
+      "brief_id": "biz_brief_dc8483f379d7",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -43,20 +43,20 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_3d2c3c1d96f2",
+      "brief_id": "biz_brief_ced4072163e3",
       "rank": 2,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "judgment": "4 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_70fde21cad69",
         "biz_31936c594007",
-        "biz_0eaaf7c655d0",
-        "biz_0a4f6ee97887"
+        "biz_fb89b77fecba",
+        "biz_0eaaf7c655d0"
       ],
       "evidence_titles": [
         "I built an AI that answers support questions. Founders still hated it. Here's what I learned.",
         "Onboarding benchmarks from real data across 464 SaaS products: median tour completion is 29%",
-        "Building a $2M ARR product after his $8M ARR product failed overnight"
+        "I built a one-command home server setup tool because my friends kept saying \"I want one of those\""
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -67,7 +67,7 @@
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_5934154da261",
+      "brief_id": "biz_brief_3af9086d903d",
       "rank": 3,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -85,42 +85,23 @@
         "ftf_trust"
       ],
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
-    },
-    {
-      "brief_id": "biz_brief_f91c006f0fa7",
-      "rank": 4,
-      "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_544b05b48ab1"
-      ],
-      "evidence_titles": [
-        "Why Agentic AI Could Transform Procurement"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_252b1b80c230",
+      "id": "biz_brief_dc8483f379d7",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_3d2c3c1d96f2",
+      "id": "biz_brief_ced4072163e3",
       "label": "Brief #2",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     },
     {
-      "id": "biz_brief_5934154da261",
+      "id": "biz_brief_3af9086d903d",
       "label": "Brief #3",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
@@ -166,11 +147,11 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_ede678fd4dd4",
+      "cluster_id": "biz_cluster_9dbddc1af08f",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 43,
+      "importance_score": 44,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
@@ -183,8 +164,8 @@
       "evidence_refs": [
         "biz_70fde21cad69",
         "biz_31936c594007",
-        "biz_0eaaf7c655d0",
-        "biz_0a4f6ee97887"
+        "biz_fb89b77fecba",
+        "biz_0eaaf7c655d0"
       ],
       "top_sources": [
         {
@@ -199,13 +180,13 @@
         },
         {
           "source": "Indie Hackers",
-          "title": "Building a $2M ARR product after his $8M ARR product failed overnight",
-          "url": "https://www.indiehackers.com/post/tech/building-a-2m-arr-product-after-his-8m-arr-product-failed-overnight-UZm68xNgjDZBHH7Mvc54"
+          "title": "I built a one-command home server setup tool because my friends kept saying \"I want one of those\"",
+          "url": "https://www.indiehackers.com/post/i-built-a-one-command-home-server-setup-tool-because-my-friends-kept-saying-i-want-one-of-those-9156fc4e5b"
         },
         {
           "source": "Indie Hackers",
-          "title": "The first AI-agent boundary you write will probably be wrong",
-          "url": "https://www.indiehackers.com/post/the-first-ai-agent-boundary-you-write-will-probably-be-wrong-54d4ea46bb"
+          "title": "Building a $2M ARR product after his $8M ARR product failed overnight",
+          "url": "https://www.indiehackers.com/post/tech/building-a-2m-arr-product-after-his-8m-arr-product-failed-overnight-UZm68xNgjDZBHH7Mvc54"
         }
       ]
     },
@@ -237,32 +218,6 @@
           "source": "GitHub Blog",
           "title": "What 50 open source projects taught us about security in the AI era",
           "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_17ef662984ff",
-      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "lane": "authority_trust",
-      "source_count": 1,
-      "importance_score": 37,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
-      "evidence_refs": [
-        "biz_544b05b48ab1"
-      ],
-      "top_sources": [
-        {
-          "source": "Harvard Business Review",
-          "title": "Why Agentic AI Could Transform Procurement",
-          "url": "https://hbr.org/2026/08/why-agentic-ai-could-transform-procurement"
         }
       ]
     }
