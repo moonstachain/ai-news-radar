@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T00:07:36.290820Z",
+  "generated_at": "2026-08-14T03:07:30.658090Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-13T19:33:58Z",
-      "captured_at": "2026-08-14T00:07:36.290820Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-13T19:00:00Z",
-      "captured_at": "2026-08-14T00:07:36.290820Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -77,13 +77,49 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_12a3be96d263",
+      "title": "Insurtech’s Q2 funding rise and the mega-rounds driving it",
+      "url": "https://www.cbinsights.com/research/newsletter-august-13-2026/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-13T23:16:31Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Insurtech"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 8,
+      "total_score": 41,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Below, we break down some of tech’s biggest stories, with analyst perspective on the moves that matter the most. Here’s what we’re watching this week: Q2’26 insurtech funding Another autonomous driving milestone Y Combin... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_fb89b77fecba",
       "title": "I built a one-command home server setup tool because my friends kept saying \"I want one of those\"",
       "url": "https://www.indiehackers.com/post/i-built-a-one-command-home-server-setup-tool-because-my-friends-kept-saying-i-want-one-of-those-9156fc4e5b",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-13T17:37:36.037000Z",
-      "captured_at": "2026-08-14T00:07:36.290820Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers"
@@ -112,41 +148,41 @@
       "transport_mode": "page_detail"
     },
     {
-      "signal_id": "biz_8fb56f722df8",
-      "title": "What 50 open source projects taught us about security in the AI era",
-      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-      "source_id": "github_blog",
-      "source_name": "GitHub Blog",
-      "published_at": "2026-08-13T16:00:00Z",
-      "captured_at": "2026-08-14T00:07:36.290820Z",
-      "lane": "ai_commercialization",
+      "signal_id": "biz_31936c594007",
+      "title": "Onboarding benchmarks from real data across 464 SaaS products: median tour completion is 29%",
+      "url": "https://www.indiehackers.com/post/onboarding-benchmarks-from-real-data-across-464-saas-products-median-tour-completion-is-29-6288651c93",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-13T13:11:13.352000Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
+      "lane": "opc",
       "entities": [
-        "GitHub Blog",
-        "What"
+        "Indie Hackers",
+        "Onboarding",
+        "SaaS"
       ],
       "business_model_tags": [
-        "AI Business Model Innovation",
-        "Enterprise AI Workflow"
+        "OPC"
       ],
       "yuanli_tags": [
         "yuanli_asset",
-        "yuanli_os"
+        "ftf_trust"
       ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 39,
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 40,
       "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 8,
+        "source_authority": 16,
+        "yuanli_relevance": 8,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 7,
         "counter_signal_value": 0
       },
-      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. T... Tags: AI Business Model Innovation, Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
+      "summary": "Onboarding benchmarks from real data across 464 SaaS products: median tour completion is 29% Tags: OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     },
     {
       "signal_id": "biz_0eaaf7c655d0",
@@ -155,7 +191,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-13T13:09:27.665000Z",
-      "captured_at": "2026-08-14T00:07:36.290820Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -186,13 +222,49 @@
       "transport_mode": "page_detail"
     },
     {
+      "signal_id": "biz_57150e4fd0a6",
+      "title": "I built Code Factory because I kept getting fooled by passing tests",
+      "url": "https://www.indiehackers.com/post/i-built-code-factory-because-i-kept-getting-fooled-by-passing-tests-dbab368310",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-13T05:49:14.674000Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Code Factory"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 39,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "I built Code Factory because I kept getting fooled by passing tests Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_781e5dc2265a",
       "title": "Saplings: Unstable Ground",
       "url": "https://www.generalist.com/p/saplings-unstable-ground",
       "source_id": "generalist",
       "source_name": "The Generalist",
       "published_at": "2026-08-13T16:21:22Z",
-      "captured_at": "2026-08-14T00:07:36.290820Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
       "lane": "startup_vc",
       "entities": [
         "The Generalist",
@@ -222,13 +294,50 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_8fb56f722df8",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source_id": "github_blog",
+      "source_name": "GitHub Blog",
+      "published_at": "2026-08-13T16:00:00Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "GitHub Blog",
+        "What"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_asset",
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 38,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. T... Tags: AI Business Model Innovation, Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_de607562aee4",
       "title": "Why Water Management Is a Strategic Concern",
       "url": "https://sloanreview.mit.edu/article/why-water-management-is-a-strategic-concern/",
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-13T11:00:28Z",
-      "captured_at": "2026-08-14T00:07:36.290820Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -265,7 +374,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-08-13T12:15:56Z",
-      "captured_at": "2026-08-14T00:07:36.290820Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -302,7 +411,7 @@
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "published_at": "2026-08-13T09:00:00Z",
-      "captured_at": "2026-08-14T00:07:36.290820Z",
+      "captured_at": "2026-08-14T03:07:30.658090Z",
       "lane": "ai_commercialization",
       "entities": [
         "OpenAI News",
