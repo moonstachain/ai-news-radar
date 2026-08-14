@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "f466c84d2e9ba547",
+  "snapshot_id": "96535654d791a078",
   "channel": "ai-news",
-  "generated_at": "2026-08-14T12:40:14.725208Z",
+  "generated_at": "2026-08-14T15:14:27.184135Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 659,
+    "signals": 628,
     "high_priority": 27,
     "briefs": 20,
-    "stories": 608
+    "stories": 590
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 206,
-    "Info Flow": 171,
-    "TechURLs": 94,
-    "Zeli": 81,
-    "NewsNow": 34,
-    "Curated Media": 29,
-    "Follow Builders": 13,
+    "Buzzing": 195,
+    "Info Flow": 172,
+    "TechURLs": 89,
+    "Zeli": 67,
+    "Curated Media": 28,
+    "NewsNow": 27,
+    "OPML RSS": 19,
     "AI HOT": 11
   },
   "top_stories": [
@@ -46,7 +46,7 @@
         "公众号：智谱（GLM）",
         "公众号：蚂蚁百灵（Ling）"
       ],
-      "importance_score": 0.8604,
+      "importance_score": 0.8539,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -108,7 +108,7 @@
         "Google DeepMind",
         "Google DeepMind：Blog（RSS）"
       ],
-      "importance_score": 0.8326,
+      "importance_score": 0.8277,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -142,49 +142,38 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_76c77512e473",
-      "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-      "primary_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-      "source": "Google AI Blog",
+      "story_id": "story_d556a48bace2",
+      "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Google AI Blog",
-        "Google Blog：AI（RSS）"
+        "Hugging Face Blog"
       ],
-      "importance_score": 0.824,
+      "importance_score": 0.8244,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-13T16:45:00Z",
-      "earliest_at": "2026-08-13T16:45:00Z",
+      "latest_at": "2026-08-14T00:00:00Z",
+      "earliest_at": "2026-08-14T00:00:00Z",
       "sources": [
         {
-          "id": "777014cd6f2be6787e73dcd64d3b79c4e131fa91",
-          "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
-          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-          "source": "Google AI Blog",
+          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+          "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-13T16:45:00Z"
-        },
-        {
-          "id": "b72ff7f4bd7ca0bacb42b3e69eccd854c132c104",
-          "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用",
-          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-          "source": "Google Blog：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T16:45:00Z"
+          "published_at": "2026-08-14T00:00:00Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     }
   ]
 }
