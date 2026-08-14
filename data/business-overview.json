@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2528609d5a2c8343",
+  "snapshot_id": "0df1787a4114174f",
   "channel": "ai-business",
-  "generated_at": "2026-08-14T16:14:20.226768Z",
+  "generated_at": "2026-08-14T17:26:18.087632Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
@@ -20,19 +20,17 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_9612b17044de",
+      "brief_id": "biz_brief_f6ae6305cbe0",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_3374bb0af7c3",
-        "biz_12a3be96d263",
-        "biz_781e5dc2265a"
+        "biz_12a3be96d263"
       ],
       "evidence_titles": [
         "CEO Interview: XO Life",
-        "Insurtech’s Q2 funding rise and the mega-rounds driving it",
-        "Saplings: Unstable Ground"
+        "Insurtech’s Q2 funding rise and the mega-rounds driving it"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -43,7 +41,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_df5f73430546",
+      "brief_id": "biz_brief_addcdc947f64",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -63,15 +61,17 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_93ebe80b525b",
+      "brief_id": "biz_brief_37933e806253",
       "rank": 3,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_e893ae285a68"
+        "biz_e893ae285a68",
+        "biz_ab1efa0b6c44"
       ],
       "evidence_titles": [
-        "Energy Revolution System Review: I Compared It to a $15,000 Solar Quote (Here's What Happened)"
+        "Energy Revolution System Review: I Compared It to a $15,000 Solar Quote (Here's What Happened)",
+        "My first paying user told me I was charging too little. It took me 4 months to listen."
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -84,19 +84,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_9612b17044de",
+      "id": "biz_brief_f6ae6305cbe0",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_df5f73430546",
+      "id": "biz_brief_addcdc947f64",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_93ebe80b525b",
+      "id": "biz_brief_37933e806253",
       "label": "Brief #3",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
@@ -104,24 +104,23 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_46e58a2c8297",
+      "cluster_id": "biz_cluster_7129ebe6196a",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
-      "source_count": 2,
+      "source_count": 1,
       "importance_score": 46,
-      "confidence": "medium",
+      "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
         "biz_3374bb0af7c3",
-        "biz_12a3be96d263",
-        "biz_781e5dc2265a"
+        "biz_12a3be96d263"
       ],
       "top_sources": [
         {
@@ -133,11 +132,6 @@
           "source": "CB Insights",
           "title": "Insurtech’s Q2 funding rise and the mega-rounds driving it",
           "url": "https://www.cbinsights.com/research/newsletter-august-13-2026/"
-        },
-        {
-          "source": "The Generalist",
-          "title": "Saplings: Unstable Ground",
-          "url": "https://www.generalist.com/p/saplings-unstable-ground"
         }
       ]
     },
@@ -173,28 +167,34 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_c5d7e632cb11",
+      "cluster_id": "biz_cluster_c7ba2ecc47ca",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 38,
+      "importance_score": 36,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_e893ae285a68"
+        "biz_e893ae285a68",
+        "biz_ab1efa0b6c44"
       ],
       "top_sources": [
         {
           "source": "Indie Hackers",
           "title": "Energy Revolution System Review: I Compared It to a $15,000 Solar Quote (Here's What Happened)",
           "url": "https://www.indiehackers.com/post/energy-revolution-system-review-i-compared-it-to-a-15-000-solar-quote-here-s-what-happened-337d03de7f"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "My first paying user told me I was charging too little. It took me 4 months to listen.",
+          "url": "https://www.indiehackers.com/post/my-first-paying-user-told-me-i-was-charging-too-little-it-took-me-4-months-to-listen-94797fabd6"
         }
       ]
     }

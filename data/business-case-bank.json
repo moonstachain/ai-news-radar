@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T16:14:20.226768Z",
+  "generated_at": "2026-08-14T17:26:18.087632Z",
   "cases": [
     {
       "case_id": "opc_case_c926857a8e2d",
@@ -63,6 +63,26 @@
       "score": 36
     },
     {
+      "case_id": "opc_case_a9d3a8fd8221",
+      "company": "Indie Hackers",
+      "founder": "",
+      "source_refs": [
+        "biz_ab1efa0b6c44"
+      ],
+      "url": "https://www.indiehackers.com/post/my-first-paying-user-told-me-i-was-charging-too-little-it-took-me-4-months-to-listen-94797fabd6",
+      "title": "My first paying user told me I was charging too little. It took me 4 months to listen.",
+      "business_model": "OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Indie Hackers",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup"
+      ],
+      "score": 33
+    },
+    {
       "case_id": "opc_case_0b63dab1da94",
       "company": "Insurtech",
       "founder": "",
@@ -82,26 +102,6 @@
         "ftf_trust"
       ],
       "score": 40
-    },
-    {
-      "case_id": "opc_case_db5846cdecb6",
-      "company": "Saplings",
-      "founder": "",
-      "source_refs": [
-        "biz_781e5dc2265a"
-      ],
-      "url": "https://www.generalist.com/p/saplings-unstable-ground",
-      "title": "Saplings: Unstable Ground",
-      "business_model": "Founder Case",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "The Generalist",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup"
-      ],
-      "score": 37
     }
   ]
 }
