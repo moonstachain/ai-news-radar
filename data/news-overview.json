@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d3b86705e43f0451",
+  "snapshot_id": "e741a565b8cf5036",
   "channel": "ai-news",
-  "generated_at": "2026-08-14T22:47:48.793326Z",
+  "generated_at": "2026-08-14T23:13:20.494770Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 620,
+    "signals": 621,
     "high_priority": 26,
     "briefs": 20,
-    "stories": 568
+    "stories": 569
   },
   "coverage": {
     "successful": 16,
@@ -22,9 +22,9 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 215,
-    "Info Flow": 161,
-    "TechURLs": 77,
+    "Buzzing": 218,
+    "Info Flow": 160,
+    "TechURLs": 76,
     "Zeli": 75,
     "NewsNow": 30,
     "Curated Media": 21,
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8595,
+      "importance_score": 0.8587,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -100,7 +100,7 @@
         "公众号：智谱（GLM）",
         "公众号：蚂蚁百灵（Ling）"
       ],
-      "importance_score": 0.8363,
+      "importance_score": 0.8354,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -161,7 +161,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8359,
+      "importance_score": 0.8349,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
