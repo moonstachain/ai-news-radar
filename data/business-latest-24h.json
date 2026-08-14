@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:14:28.065236Z",
+  "generated_at": "2026-08-14T22:49:04.755056Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-14T17:35:59.777000Z",
-      "captured_at": "2026-08-14T22:14:28.065236Z",
+      "captured_at": "2026-08-14T22:49:04.755056Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -47,7 +47,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-14T16:00:00Z",
-      "captured_at": "2026-08-14T22:14:28.065236Z",
+      "captured_at": "2026-08-14T22:49:04.755056Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -78,13 +78,50 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_7cf1455a584f",
+      "title": "I could not tell if Google's AI Overview was citing my sites, so I built a way to check",
+      "url": "https://www.indiehackers.com/post/i-could-not-tell-if-googles-ai-overview-was-citing-my-sites-so-i-built-a-way-to-check-c6bba799af",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-14T18:42:24.238000Z",
+      "captured_at": "2026-08-14T22:49:04.755056Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Google",
+        "AI Overview"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 40,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "I could not tell if Google's AI Overview was citing my sites, so I built a way to check Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_db3f79e045f1",
       "title": "I built a launch coach after my own product launch got 11 upvotes and 3 signups",
       "url": "https://www.indiehackers.com/post/i-built-a-launch-coach-after-my-own-product-launch-got-11-upvotes-and-3-signups-0b24d149fc",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-14T15:00:24.904000Z",
-      "captured_at": "2026-08-14T22:14:28.065236Z",
+      "captured_at": "2026-08-14T22:49:04.755056Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers"
@@ -119,7 +156,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-13T23:16:31Z",
-      "captured_at": "2026-08-14T22:14:28.065236Z",
+      "captured_at": "2026-08-14T22:49:04.755056Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -155,7 +192,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-14T14:09:31.200000Z",
-      "captured_at": "2026-08-14T22:14:28.065236Z",
+      "captured_at": "2026-08-14T22:49:04.755056Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers"

@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "705d3904f27585a3",
+  "snapshot_id": "d3b86705e43f0451",
   "channel": "ai-business",
-  "generated_at": "2026-08-14T22:14:28.065236Z",
+  "generated_at": "2026-08-14T22:49:04.755056Z",
   "window_hours": 24,
   "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
   "metrics": {
-    "signals": 5,
+    "signals": 6,
     "briefs": 3,
     "clusters": 3,
-    "cases": 4
+    "cases": 5
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_60e61d92968f",
+      "brief_id": "biz_brief_f71d5f5eb728",
       "rank": 1,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -38,19 +38,20 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_112683dd4a45",
+      "brief_id": "biz_brief_105f57899aac",
       "rank": 2,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "4 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_d58710637e78",
+        "biz_7cf1455a584f",
         "biz_db3f79e045f1",
         "biz_ab1efa0b6c44"
       ],
       "evidence_titles": [
         "Most AI browsers hide what the agent is doing. I wanted to see it happen live, and run it locally. So I built one.",
-        "I built a launch coach after my own product launch got 11 upvotes and 3 signups",
-        "My first paying user told me I was charging too little. It took me 4 months to listen."
+        "I could not tell if Google's AI Overview was citing my sites, so I built a way to check",
+        "I built a launch coach after my own product launch got 11 upvotes and 3 signups"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -61,7 +62,7 @@
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_c08bd121d615",
+      "brief_id": "biz_brief_9598ec99e285",
       "rank": 3,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -82,19 +83,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_60e61d92968f",
+      "id": "biz_brief_f71d5f5eb728",
       "label": "Brief #1",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_112683dd4a45",
+      "id": "biz_brief_105f57899aac",
       "label": "Brief #2",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     },
     {
-      "id": "biz_brief_c08bd121d615",
+      "id": "biz_brief_9598ec99e285",
       "label": "Brief #3",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
@@ -127,7 +128,7 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_710416cfe976",
+      "cluster_id": "biz_cluster_da53d50c6463",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
@@ -138,11 +139,12 @@
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "4 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
         "biz_d58710637e78",
+        "biz_7cf1455a584f",
         "biz_db3f79e045f1",
         "biz_ab1efa0b6c44"
       ],
@@ -151,6 +153,11 @@
           "source": "Indie Hackers",
           "title": "Most AI browsers hide what the agent is doing. I wanted to see it happen live, and run it locally. So I built one.",
           "url": "https://www.indiehackers.com/post/most-ai-browsers-hide-what-the-agent-is-doing-i-wanted-to-see-it-happen-live-and-run-it-locally-so-i-built-one-b637803640"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "I could not tell if Google's AI Overview was citing my sites, so I built a way to check",
+          "url": "https://www.indiehackers.com/post/i-could-not-tell-if-googles-ai-overview-was-citing-my-sites-so-i-built-a-way-to-check-c6bba799af"
         },
         {
           "source": "Indie Hackers",
