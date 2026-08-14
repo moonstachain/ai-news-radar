@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e741a565b8cf5036",
+  "snapshot_id": "644e58e19cef31d8",
   "channel": "ai-news",
-  "generated_at": "2026-08-14T23:13:20.494770Z",
+  "generated_at": "2026-08-14T23:45:24.388356Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 621,
-    "high_priority": 26,
+    "signals": 625,
+    "high_priority": 27,
     "briefs": 20,
-    "stories": 569
+    "stories": 574
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 218,
-    "Info Flow": 160,
-    "TechURLs": 76,
-    "Zeli": 75,
+    "Buzzing": 219,
+    "Info Flow": 162,
+    "TechURLs": 77,
+    "Zeli": 74,
     "NewsNow": 30,
-    "Curated Media": 21,
-    "OPML RSS": 15,
+    "Curated Media": 20,
+    "OPML RSS": 16,
     "AI HOT": 13
   },
   "top_stories": [
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8587,
+      "importance_score": 0.8577,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -87,6 +87,40 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_0cbdf9e190f0",
+      "title": "OAuth 应用程序的多个重定向 URI 和令牌刷新 / Multiple redirect URIs and token refresh for OAuth apps",
+      "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
+      "primary_url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.8413,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-14T22:43:44Z",
+      "earliest_at": "2026-08-14T22:43:44Z",
+      "sources": [
+        {
+          "id": "69e635cd9bd215d8df2bd1d96ef64c55b55df09e",
+          "title": "OAuth 应用程序的多个重定向 URI 和令牌刷新 / Multiple redirect URIs and token refresh for OAuth apps",
+          "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T22:43:44Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_6cbde97d8260",
       "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
       "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
@@ -100,7 +134,7 @@
         "公众号：智谱（GLM）",
         "公众号：蚂蚁百灵（Ling）"
       ],
-      "importance_score": 0.8354,
+      "importance_score": 0.8342,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -149,40 +183,6 @@
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_61fc6209c742",
-      "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.8349,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-14T16:17:46Z",
-      "earliest_at": "2026-08-14T16:17:46Z",
-      "sources": [
-        {
-          "id": "62eb79284c5d7409c01110d7b88aa07e2089e1e8",
-          "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-14T16:17:46Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }
