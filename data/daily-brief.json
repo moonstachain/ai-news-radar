@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T03:06:13.144139Z",
+  "generated_at": "2026-08-14T05:14:30.573668Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8527,
-      "importance": 0.8527,
-      "importance_score": 0.8527,
+      "score": 0.848,
+      "importance": 0.848,
+      "importance_score": 0.848,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8651,
+        "recency": 0.8388,
         "story_heat": 0.25
       },
       "category": "official",
@@ -139,15 +139,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8477,
-      "importance": 0.8477,
-      "importance_score": 0.8477,
+      "score": 0.8433,
+      "importance": 0.8433,
+      "importance_score": 0.8433,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7925,
+        "recency": 0.7684,
         "story_heat": 0.25
       },
       "category": "official",
@@ -221,15 +221,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.844,
-      "importance": 0.844,
-      "importance_score": 0.844,
+      "score": 0.8393,
+      "importance": 0.8393,
+      "importance_score": 0.8393,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8611,
+        "recency": 0.8349,
         "story_heat": 0.25
       },
       "category": "official",
@@ -284,15 +284,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8422,
-      "importance": 0.8422,
-      "importance_score": 0.8422,
+      "score": 0.8374,
+      "importance": 0.8374,
+      "importance_score": 0.8374,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8676,
+        "recency": 0.8412,
         "story_heat": 0.0
       },
       "category": "official",
@@ -346,15 +346,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.829,
-      "importance": 0.829,
-      "importance_score": 0.829,
+      "score": 0.8245,
+      "importance": 0.8245,
+      "importance_score": 0.8245,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8278,
+        "recency": 0.8026,
         "story_heat": 0.0
       },
       "category": "official",
@@ -427,15 +427,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8456,
-      "importance": 0.8456,
-      "importance_score": 0.8456,
+      "score": 0.8413,
+      "importance": 0.8413,
+      "importance_score": 0.8413,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7812,
+        "recency": 0.7574,
         "story_heat": 0.25
       },
       "category": "official",
@@ -464,6 +464,15 @@
       "source_name": "AI HOT",
       "sources": [
         {
+          "id": "123e827449941c9038e9125e572debf591dab2d8",
+          "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
+          "source": "公众号：蚂蚁百灵（Ling）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T04:00:00Z"
+        },
+        {
           "id": "83aae6eb5a48c3fd8639d24a45a92ce2c6dfe089",
           "title": "从0到1带你速通DeepSeek Harness。",
           "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2",
@@ -480,23 +489,24 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-13T09:59:00Z"
-        },
-        {
-          "id": "2571375dcadbbf520fa81aad5cc32df8f7fb48ff",
-          "title": "WorkBuddy上线远程控制，国内也有了最丝滑的Agent工作方式",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T04:32:24Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "公众号：小红书技术（dots.llm）",
-        "公众号：数字生命卡兹克"
+        "公众号：数字生命卡兹克",
+        "公众号：蚂蚁百灵（Ling）"
       ],
       "items": [
+        {
+          "id": "123e827449941c9038e9125e572debf591dab2d8",
+          "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
+          "source": "公众号：蚂蚁百灵（Ling）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T04:00:00Z"
+        },
         {
           "id": "83aae6eb5a48c3fd8639d24a45a92ce2c6dfe089",
           "title": "从0到1带你速通DeepSeek Harness。",
@@ -514,28 +524,19 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-13T09:59:00Z"
-        },
-        {
-          "id": "2571375dcadbbf520fa81aad5cc32df8f7fb48ff",
-          "title": "WorkBuddy上线远程控制，国内也有了最丝滑的Agent工作方式",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T04:32:24Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8006,
-      "importance": 0.8006,
-      "importance_score": 0.8006,
+      "score": 0.7954,
+      "importance": 0.7954,
+      "importance_score": 0.7954,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9557,
+        "recency": 0.9267,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -544,8 +545,8 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-13T04:32:24Z",
-      "latest_at": "2026-08-13T23:58:00Z",
+      "earliest_at": "2026-08-13T09:59:00Z",
+      "latest_at": "2026-08-14T04:00:00Z",
       "primary_item": {
         "id": "83aae6eb5a48c3fd8639d24a45a92ce2c6dfe089",
         "title": "从0到1带你速通DeepSeek Harness。",
@@ -589,15 +590,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8247,
-      "importance": 0.8247,
-      "importance_score": 0.8247,
+      "score": 0.8198,
+      "importance": 0.8198,
+      "importance_score": 0.8198,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8926,
+        "recency": 0.8655,
         "story_heat": 0.0
       },
       "category": "official",
@@ -651,15 +652,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8242,
-      "importance": 0.8242,
-      "importance_score": 0.8242,
+      "score": 0.8194,
+      "importance": 0.8194,
+      "importance_score": 0.8194,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8902,
+        "recency": 0.8631,
         "story_heat": 0.0
       },
       "category": "official",
@@ -713,15 +714,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7578,
-      "importance": 0.7578,
-      "importance_score": 0.7578,
+      "score": 0.7535,
+      "importance": 0.7535,
+      "importance_score": 0.7535,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7957,
+        "recency": 0.7715,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -774,15 +775,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8106,
-      "importance": 0.8106,
-      "importance_score": 0.8106,
+      "score": 0.8064,
+      "importance": 0.8064,
+      "importance_score": 0.8064,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.77,
+        "recency": 0.7465,
         "story_heat": 0.0
       },
       "category": "official",
@@ -836,15 +837,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7355,
-      "importance": 0.7355,
-      "importance_score": 0.7355,
+      "score": 0.7304,
+      "importance": 0.7304,
+      "importance_score": 0.7304,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9216,
+        "recency": 0.8936,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -862,179 +863,218 @@
       }
     },
     {
-      "story_id": "story_000c9efd5260",
-      "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
-      "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
-      "primary_url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "source_name": "AI HOT",
+      "story_id": "story_8f4802b23876",
+      "title": "“AI在家”第一部分：一盒废料",
+      "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+      "primary_url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+      "source": "jdagostino.github.io",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "57f7ab398e64890a13536741b20d63a15c0e39b7",
-          "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
-          "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
-          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T14:04:55Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：硅基流动 SiliconFlow (@SiliconFlowAI)"
-      ],
-      "items": [
-        {
-          "id": "57f7ab398e64890a13536741b20d63a15c0e39b7",
-          "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
-          "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
-          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T14:04:55Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7217,
-      "importance": 0.7217,
-      "importance_score": 0.7217,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8286,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-13T14:04:55Z",
-      "latest_at": "2026-08-13T14:04:55Z",
-      "primary_item": {
-        "id": "57f7ab398e64890a13536741b20d63a15c0e39b7",
-        "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
-        "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
-        "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_2199e00cfba7",
-      "title": "适用于 Linux 的 ChatGPT 桌面应用程序中的 Codex 现已提供预览版 / Codex in ChatGPT desktop app for Linux is now in preview",
-      "url": "https://news.ycombinator.com/item?id=49281916",
-      "primary_url": "https://news.ycombinator.com/item?id=49281916",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "d827ecf2bb383c97b342a925e299a9e5cdf84e0a",
-          "title": "适用于 Linux 的 ChatGPT 桌面应用程序中的 Codex 现已提供预览版 / Codex in ChatGPT desktop app for Linux is now in preview",
-          "url": "https://news.ycombinator.com/item?id=49281916",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-13T17:07:23.724000Z"
-        },
-        {
-          "id": "da1b19b0831b278168634ab5d45c9f860bd4616f",
-          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
-          "url": "https://openai.com/codex",
-          "source": "openai.com",
+          "id": "935e588ecf15106f528d77366a10119a18b3277c",
+          "title": "“AI在家”第一部分：一盒废料",
+          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+          "source": "jdagostino.github.io",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-13T09:24:06.692000Z"
+          "published_at": "2026-08-14T03:48:12.621000Z"
         },
         {
-          "id": "b30533b725b3c7cf1f2f4743ea001a7f5784e69c",
-          "title": "适用于 Linux 的 ChatGPT 桌面（Codex 桌面） / ChatGPT Desktop (Codex Desktop) for Linux",
-          "url": "https://news.ycombinator.com/item?id=49281916",
+          "id": "b0a43f13d41a0f924975dd8aee988b49ff9c3853",
+          "title": "人工智能在家第 1 部分：一盒废料 / AI At Home Part 1: A Box Of Scraps",
+          "url": "https://news.ycombinator.com/item?id=49288293",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-13T07:47:51.705000Z"
+          "published_at": "2026-08-13T18:07:28.447000Z"
         },
         {
-          "id": "f34f0a0911484768845ba284f671a509a7c96b23",
-          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop） / ChatGPT Desktop (Codex Desktop) for Linux",
-          "url": "https://openai.com/codex",
+          "id": "e034db1a72c4b365abd29525f559d5dffd567f88",
+          "title": "“AI在家”第一部分：一盒废料 / AI At Home Part 1: A Box Of Scraps",
+          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-08-13T04:53:41Z"
+          "published_at": "2026-08-13T16:22:05Z"
+        },
+        {
+          "id": "5a4ecc9cf3eb687adc19a47b67b2f51898789e59",
+          "title": "“AI在家”第一部分：一盒废料 / We Have AI at Home Chapter 1: A Box of Scraps",
+          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-13T16:22:05Z"
         }
       ],
       "source_count": 4,
       "source_names": [
+        "Hacker News",
         "Hacker News (黑客新闻)",
         "hackernews",
-        "openai.com"
+        "jdagostino.github.io"
       ],
       "items": [
         {
-          "id": "d827ecf2bb383c97b342a925e299a9e5cdf84e0a",
-          "title": "适用于 Linux 的 ChatGPT 桌面应用程序中的 Codex 现已提供预览版 / Codex in ChatGPT desktop app for Linux is now in preview",
-          "url": "https://news.ycombinator.com/item?id=49281916",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-13T17:07:23.724000Z"
-        },
-        {
-          "id": "da1b19b0831b278168634ab5d45c9f860bd4616f",
-          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
-          "url": "https://openai.com/codex",
-          "source": "openai.com",
+          "id": "935e588ecf15106f528d77366a10119a18b3277c",
+          "title": "“AI在家”第一部分：一盒废料",
+          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+          "source": "jdagostino.github.io",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-13T09:24:06.692000Z"
+          "published_at": "2026-08-14T03:48:12.621000Z"
         },
         {
-          "id": "b30533b725b3c7cf1f2f4743ea001a7f5784e69c",
-          "title": "适用于 Linux 的 ChatGPT 桌面（Codex 桌面） / ChatGPT Desktop (Codex Desktop) for Linux",
-          "url": "https://news.ycombinator.com/item?id=49281916",
+          "id": "b0a43f13d41a0f924975dd8aee988b49ff9c3853",
+          "title": "人工智能在家第 1 部分：一盒废料 / AI At Home Part 1: A Box Of Scraps",
+          "url": "https://news.ycombinator.com/item?id=49288293",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-13T07:47:51.705000Z"
+          "published_at": "2026-08-13T18:07:28.447000Z"
         },
         {
-          "id": "f34f0a0911484768845ba284f671a509a7c96b23",
-          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop） / ChatGPT Desktop (Codex Desktop) for Linux",
-          "url": "https://openai.com/codex",
+          "id": "e034db1a72c4b365abd29525f559d5dffd567f88",
+          "title": "“AI在家”第一部分：一盒废料 / AI At Home Part 1: A Box Of Scraps",
+          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-08-13T04:53:41Z"
+          "published_at": "2026-08-13T16:22:05Z"
+        },
+        {
+          "id": "5a4ecc9cf3eb687adc19a47b67b2f51898789e59",
+          "title": "“AI在家”第一部分：一盒废料 / We Have AI at Home Chapter 1: A Box of Scraps",
+          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-13T16:22:05Z"
         }
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5716,
-      "importance": 0.5716,
-      "importance_score": 0.5716,
+      "score": 0.5921,
+      "importance": 0.5921,
+      "importance_score": 0.5921,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8658,
+        "recency": 0.9794,
         "story_heat": 0.75
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-13T04:53:41Z",
-      "latest_at": "2026-08-13T17:07:23.724000Z",
+      "earliest_at": "2026-08-13T16:22:05Z",
+      "latest_at": "2026-08-14T03:48:12.621000Z",
       "primary_item": {
-        "id": "d827ecf2bb383c97b342a925e299a9e5cdf84e0a",
-        "title": "适用于 Linux 的 ChatGPT 桌面应用程序中的 Codex 现已提供预览版 / Codex in ChatGPT desktop app for Linux is now in preview",
-        "url": "https://news.ycombinator.com/item?id=49281916",
-        "source": "hackernews",
-        "source_name": "NewsNow"
+        "id": "935e588ecf15106f528d77366a10119a18b3277c",
+        "title": "“AI在家”第一部分：一盒废料",
+        "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+        "source": "jdagostino.github.io",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_7b1a136099b5",
+      "title": "文本AI水印总是很容易去除的",
+      "url": "https://www.seangoedecke.com/text-ai-watermarks",
+      "primary_url": "https://www.seangoedecke.com/text-ai-watermarks",
+      "source": "www.seangoedecke.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "52ce908209c5e1a63e39d2ac0b4ae60912f562cf",
+          "title": "文本AI水印总是很容易去除的",
+          "url": "https://www.seangoedecke.com/text-ai-watermarks",
+          "source": "www.seangoedecke.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T03:16:07.169000Z"
+        },
+        {
+          "id": "2f1bafa839df4406df72d9580bc879466a1dd5f0",
+          "title": "文本 AI 水印总是很容易删除 / Text AI watermarks will always be trivial to remove",
+          "url": "https://news.ycombinator.com/item?id=49287153",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-13T16:07:17.152000Z"
+        },
+        {
+          "id": "289acf0d6e8bce57f59cbff2a0ac031387552605",
+          "title": "文本AI水印总是很容易去除的 / Text AI watermarks will always be trivial to remove",
+          "url": "https://www.seangoedecke.com/text-ai-watermarks",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-13T15:07:10Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews",
+        "www.seangoedecke.com"
+      ],
+      "items": [
+        {
+          "id": "52ce908209c5e1a63e39d2ac0b4ae60912f562cf",
+          "title": "文本AI水印总是很容易去除的",
+          "url": "https://www.seangoedecke.com/text-ai-watermarks",
+          "source": "www.seangoedecke.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T03:16:07.169000Z"
+        },
+        {
+          "id": "2f1bafa839df4406df72d9580bc879466a1dd5f0",
+          "title": "文本 AI 水印总是很容易删除 / Text AI watermarks will always be trivial to remove",
+          "url": "https://news.ycombinator.com/item?id=49287153",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-13T16:07:17.152000Z"
+        },
+        {
+          "id": "289acf0d6e8bce57f59cbff2a0ac031387552605",
+          "title": "文本AI水印总是很容易去除的 / Text AI watermarks will always be trivial to remove",
+          "url": "https://www.seangoedecke.com/text-ai-watermarks",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-13T15:07:10Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5657,
+      "importance": 0.5657,
+      "importance_score": 0.5657,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9719,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-13T15:07:10Z",
+      "latest_at": "2026-08-14T03:16:07.169000Z",
+      "primary_item": {
+        "id": "52ce908209c5e1a63e39d2ac0b4ae60912f562cf",
+        "title": "文本AI水印总是很容易去除的",
+        "url": "https://www.seangoedecke.com/text-ai-watermarks",
+        "source": "www.seangoedecke.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1110,15 +1150,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5661,
-      "importance": 0.5661,
-      "importance_score": 0.5661,
+      "score": 0.5608,
+      "importance": 0.5608,
+      "importance_score": 0.5608,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.974,
+        "recency": 0.9443,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1206,15 +1246,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5607,
-      "importance": 0.5607,
-      "importance_score": 0.5607,
+      "score": 0.5555,
+      "importance": 0.5555,
+      "importance_score": 0.5555,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9437,
+        "recency": 0.915,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1304,15 +1344,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5509,
-      "importance": 0.5509,
-      "importance_score": 0.5509,
+      "score": 0.5461,
+      "importance": 0.5461,
+      "importance_score": 0.5461,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8896,
+        "recency": 0.8625,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1327,6 +1367,85 @@
         "url": "https://slashdot.org/story/26/08/13/1846256/anthropic-could-be-worth-2-trillion-when-it-goes-public",
         "source": "Slashdot (科技资讯)",
         "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_5f1da29a0d57",
+      "title": "AI文本水印技术的工作原理",
+      "url": "https://declaude.org/watermarking",
+      "primary_url": "https://declaude.org/watermarking",
+      "source": "declaude.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "99cc5a551fea1417aadd2627366c9c04001b7d35",
+          "title": "AI文本水印技术的工作原理",
+          "url": "https://declaude.org/watermarking",
+          "source": "declaude.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T05:08:06.537000Z"
+        },
+        {
+          "id": "79d9c2246d8ea838f4ff82a84d31ce78ffeaa8fa",
+          "title": "AI文本水印技术的工作原理 / How AI text watermarking works",
+          "url": "https://declaude.org/watermarking",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-13T23:16:55Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "declaude.org"
+      ],
+      "items": [
+        {
+          "id": "99cc5a551fea1417aadd2627366c9c04001b7d35",
+          "title": "AI文本水印技术的工作原理",
+          "url": "https://declaude.org/watermarking",
+          "source": "declaude.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T05:08:06.537000Z"
+        },
+        {
+          "id": "79d9c2246d8ea838f4ff82a84d31ce78ffeaa8fa",
+          "title": "AI文本水印技术的工作原理 / How AI text watermarking works",
+          "url": "https://declaude.org/watermarking",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-13T23:16:55Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5455,
+      "importance": 0.5455,
+      "importance_score": 0.5455,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9985,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-13T23:16:55Z",
+      "latest_at": "2026-08-14T05:08:06.537000Z",
+      "primary_item": {
+        "id": "99cc5a551fea1417aadd2627366c9c04001b7d35",
+        "title": "AI文本水印技术的工作原理",
+        "url": "https://declaude.org/watermarking",
+        "source": "declaude.org",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1402,15 +1521,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5467,
-      "importance": 0.5467,
-      "importance_score": 0.5467,
+      "score": 0.5419,
+      "importance": 0.5419,
+      "importance_score": 0.5419,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.866,
+        "recency": 0.8397,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1454,18 +1573,18 @@
           "published_at": "2026-08-13T14:18:19.228000Z"
         },
         {
-          "id": "c4720fbc9aba2541a507ed27391dab9a968575e9",
+          "id": "831b6f30ddfaee097223362c5757ebff4d846c23",
           "title": "选择人工智能模型：一个提示词，11个模型，不同的结果 / Choosing an AI model: one prompt, 11 models, different results",
           "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-13T13:05:29Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "hackernews",
         "www.netlify.com"
       ],
@@ -1489,26 +1608,26 @@
           "published_at": "2026-08-13T14:18:19.228000Z"
         },
         {
-          "id": "c4720fbc9aba2541a507ed27391dab9a968575e9",
+          "id": "831b6f30ddfaee097223362c5757ebff4d846c23",
           "title": "选择人工智能模型：一个提示词，11个模型，不同的结果 / Choosing an AI model: one prompt, 11 models, different results",
           "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-13T13:05:29Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5461,
-      "importance": 0.5461,
-      "importance_score": 0.5461,
+      "score": 0.5413,
+      "importance": 0.5413,
+      "importance_score": 0.5413,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8626,
+        "recency": 0.8364,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1522,85 +1641,6 @@
         "title": "选择人工智能模型：一个提示词，11个模型，不同的结果",
         "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results",
         "source": "www.netlify.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_107f3f21f2b3",
-      "title": "2026年离开OpenAI的12位高管",
-      "url": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
-      "primary_url": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "91f88c114093dd5ab2e25a6919eba5a166fb307b",
-          "title": "2026年离开OpenAI的12位高管",
-          "url": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T03:00:29.443000Z"
-        },
-        {
-          "id": "3b806c15067e2148292f15731f1964943a218a48",
-          "title": "2026年离开OpenAI的12位高管 / 12 executives who left OpenAI in 2026",
-          "url": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-14T02:28:16Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "91f88c114093dd5ab2e25a6919eba5a166fb307b",
-          "title": "2026年离开OpenAI的12位高管",
-          "url": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T03:00:29.443000Z"
-        },
-        {
-          "id": "3b806c15067e2148292f15731f1964943a218a48",
-          "title": "2026年离开OpenAI的12位高管 / 12 executives who left OpenAI in 2026",
-          "url": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-14T02:28:16Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5456,
-      "importance": 0.5456,
-      "importance_score": 0.5456,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9986,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-14T02:28:16Z",
-      "latest_at": "2026-08-14T03:00:29.443000Z",
-      "primary_item": {
-        "id": "91f88c114093dd5ab2e25a6919eba5a166fb307b",
-        "title": "2026年离开OpenAI的12位高管",
-        "url": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
-        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     }
