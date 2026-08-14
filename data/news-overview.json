@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a7086bde39914028",
+  "snapshot_id": "6b5093cbc0ff85b0",
   "channel": "ai-news",
-  "generated_at": "2026-08-14T18:13:55.128329Z",
+  "generated_at": "2026-08-14T19:27:23.238846Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 599,
+    "signals": 579,
     "high_priority": 29,
     "briefs": 20,
-    "stories": 559
+    "stories": 538
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,70 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 177,
-    "Info Flow": 174,
-    "TechURLs": 75,
-    "Zeli": 68,
+    "Buzzing": 179,
+    "Info Flow": 170,
+    "TechURLs": 71,
+    "Zeli": 58,
     "NewsNow": 29,
-    "Curated Media": 28,
-    "OPML RSS": 18,
-    "AI HOT": 11
+    "Curated Media": 24,
+    "OPML RSS": 17,
+    "AI HOT": 14
   },
   "top_stories": [
+    {
+      "story_id": "story_d556a48bace2",
+      "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 3,
+      "source_names": [
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
+      ],
+      "importance_score": 0.8659,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-14T00:00:00Z",
+      "earliest_at": "2026-08-14T00:00:00Z",
+      "sources": [
+        {
+          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+          "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models: Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T00:00:00Z"
+        },
+        {
+          "id": "030a229abe0fb0d1c5720cf82ffdce5bc90379c4",
+          "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T00:00:00Z"
+        },
+        {
+          "id": "3bd97ce1581508d971c07b8c987612418a9afebd",
+          "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models： Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T00:00:00Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_61fc6209c742",
       "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
@@ -43,7 +97,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.847,
+      "importance_score": 0.844,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -80,7 +134,7 @@
         "公众号：智谱（GLM）",
         "公众号：蚂蚁百灵（Ling）"
       ],
-      "importance_score": 0.8467,
+      "importance_score": 0.8439,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -126,51 +180,6 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-13T23:58:00Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_d556a48bace2",
-      "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "importance_score": 0.8433,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-14T00:00:00Z",
-      "earliest_at": "2026-08-14T00:00:00Z",
-      "sources": [
-        {
-          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
-          "title": "开放模型状况：2026 年夏季观察 / State of Open Models: Summer 2026 Observations",
-          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-14T00:00:00Z"
-        },
-        {
-          "id": "3bd97ce1581508d971c07b8c987612418a9afebd",
-          "title": "开放模型状况：2026 年夏季观察 / State of Open Models： Summer 2026 Observations",
-          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T00:00:00Z"
         }
       ],
       "confidence": "multi-source"
