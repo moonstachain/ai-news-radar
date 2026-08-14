@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ce6a499a5a5a3f9a",
+  "snapshot_id": "f144fe3d68eaefa9",
   "channel": "ai-business",
-  "generated_at": "2026-08-14T00:07:36.290820Z",
+  "generated_at": "2026-08-14T03:07:30.658090Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 9,
+    "signals": 12,
     "briefs": 5,
     "clusters": 5,
-    "cases": 5
+    "cases": 8
   },
   "coverage": {
     "successful": 16,
@@ -20,16 +20,18 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_c9a4fa6008a0",
+      "brief_id": "biz_brief_3e0f135ccb3f",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_3374bb0af7c3",
+        "biz_12a3be96d263",
         "biz_781e5dc2265a"
       ],
       "evidence_titles": [
         "CEO Interview: XO Life",
+        "Insurtech’s Q2 funding rise and the mega-rounds driving it",
         "Saplings: Unstable Ground"
       ],
       "risk_level": "low",
@@ -41,7 +43,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_8bbf4c64b07d",
+      "brief_id": "biz_brief_6c007ec14ed3",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -63,16 +65,19 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_021251edfec3",
+      "brief_id": "biz_brief_230ef52790f2",
       "rank": 3,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "4 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_fb89b77fecba",
-        "biz_0eaaf7c655d0"
+        "biz_31936c594007",
+        "biz_0eaaf7c655d0",
+        "biz_57150e4fd0a6"
       ],
       "evidence_titles": [
         "I built a one-command home server setup tool because my friends kept saying \"I want one of those\"",
+        "Onboarding benchmarks from real data across 464 SaaS products: median tour completion is 29%",
         "Building a $2M ARR product after his $8M ARR product failed overnight"
       ],
       "risk_level": "low",
@@ -84,7 +89,7 @@
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_3b874e97fb52",
+      "brief_id": "biz_brief_fe7f8ec25697",
       "rank": 4,
       "title": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -102,7 +107,7 @@
       "recommended_action": "Add these counter-signals to sales objections and content credibility checks."
     },
     {
-      "brief_id": "biz_brief_70d6a1b9a075",
+      "brief_id": "biz_brief_2b2cee3571a0",
       "rank": 5,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -123,19 +128,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_c9a4fa6008a0",
+      "id": "biz_brief_3e0f135ccb3f",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_8bbf4c64b07d",
+      "id": "biz_brief_6c007ec14ed3",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_021251edfec3",
+      "id": "biz_brief_230ef52790f2",
       "label": "Brief #3",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
@@ -143,22 +148,23 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_d876ab719220",
+      "cluster_id": "biz_cluster_46e58a2c8297",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "source_count": 2,
-      "importance_score": 48,
+      "importance_score": 47,
       "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
         "biz_3374bb0af7c3",
+        "biz_12a3be96d263",
         "biz_781e5dc2265a"
       ],
       "top_sources": [
@@ -166,6 +172,11 @@
           "source": "CB Insights",
           "title": "CEO Interview: XO Life",
           "url": "https://www.cbinsights.com/research/ceo-interview-xo-life-2/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "Insurtech’s Q2 funding rise and the mega-rounds driving it",
+          "url": "https://www.cbinsights.com/research/newsletter-august-13-2026/"
         },
         {
           "source": "The Generalist",
@@ -212,7 +223,7 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_ecf9ede3e771",
+      "cluster_id": "biz_cluster_b69d393426c0",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
@@ -223,12 +234,14 @@
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "4 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
         "biz_fb89b77fecba",
-        "biz_0eaaf7c655d0"
+        "biz_31936c594007",
+        "biz_0eaaf7c655d0",
+        "biz_57150e4fd0a6"
       ],
       "top_sources": [
         {
@@ -238,8 +251,18 @@
         },
         {
           "source": "Indie Hackers",
+          "title": "Onboarding benchmarks from real data across 464 SaaS products: median tour completion is 29%",
+          "url": "https://www.indiehackers.com/post/onboarding-benchmarks-from-real-data-across-464-saas-products-median-tour-completion-is-29-6288651c93"
+        },
+        {
+          "source": "Indie Hackers",
           "title": "Building a $2M ARR product after his $8M ARR product failed overnight",
           "url": "https://www.indiehackers.com/post/tech/building-a-2m-arr-product-after-his-8m-arr-product-failed-overnight-UZm68xNgjDZBHH7Mvc54"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "I built Code Factory because I kept getting fooled by passing tests",
+          "url": "https://www.indiehackers.com/post/i-built-code-factory-because-i-kept-getting-fooled-by-passing-tests-dbab368310"
         }
       ]
     },
