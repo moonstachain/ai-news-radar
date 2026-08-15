@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d033d5fab003ffd2",
+  "snapshot_id": "5e28f1a308616daa",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T22:11:28.927950Z",
+  "generated_at": "2026-08-15T22:46:03.297500Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 427,
-    "high_priority": 10,
+    "signals": 425,
+    "high_priority": 9,
     "briefs": 20,
-    "stories": 387
+    "stories": 383
   },
   "coverage": {
     "successful": 16,
@@ -22,50 +22,16 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 149,
-    "Info Flow": 108,
-    "Zeli": 59,
-    "TechURLs": 48,
-    "NewsNow": 37,
-    "Curated Media": 11,
+    "Buzzing": 145,
+    "Info Flow": 107,
+    "Zeli": 62,
+    "TechURLs": 49,
+    "NewsNow": 38,
+    "Curated Media": 10,
     "OPML RSS": 6,
     "Follow Builders": 5
   },
   "top_stories": [
-    {
-      "story_id": "story_0cbdf9e190f0",
-      "title": "OAuth 应用程序的多个重定向 URI 和令牌刷新 / Multiple redirect URIs and token refresh for OAuth apps",
-      "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
-      "primary_url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.7923,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-14T22:43:44Z",
-      "earliest_at": "2026-08-14T22:43:44Z",
-      "sources": [
-        {
-          "id": "69e635cd9bd215d8df2bd1d96ef64c55b55df09e",
-          "title": "OAuth 应用程序的多个重定向 URI 和令牌刷新 / Multiple redirect URIs and token refresh for OAuth apps",
-          "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-14T22:43:44Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
     {
       "story_id": "story_20b744e598ba",
       "title": "Cursor 正式被 SpaceX 收购",
@@ -78,7 +44,7 @@
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "cursor.com"
       ],
-      "importance_score": 0.7842,
+      "importance_score": 0.7828,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -121,7 +87,7 @@
       "source_names": [
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7598,
+      "importance_score": 0.7585,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -149,6 +115,77 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-15T11:00:50Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_627a59aedf96",
+      "title": "人工智能拥有比人脑大得多的工作记忆 / AI has access to a vastly larger working memory than the human brain",
+      "url": "https://news.ycombinator.com/item?id=49312845",
+      "primary_url": "https://news.ycombinator.com/item?id=49312845",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "source_count": 5,
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "davidepiffer.com",
+        "hackernews"
+      ],
+      "importance_score": 0.6193,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "latest_at": "2026-08-15T22:11:59.380000Z",
+      "earliest_at": "2026-08-15T18:13:02Z",
+      "sources": [
+        {
+          "id": "08906e6f1e9a21d97e4fad47f959d9beeacacd33",
+          "title": "人工智能拥有比人脑大得多的工作记忆 / AI has access to a vastly larger working memory than the human brain",
+          "url": "https://news.ycombinator.com/item?id=49312845",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T22:11:59.380000Z"
+        },
+        {
+          "id": "770e92996439c8cf792759006c44b0bd1224b1f7",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "davidepiffer.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T19:18:02.348000Z"
+        },
+        {
+          "id": "247028b738cd821f96f0574b414bfe8f3a3266b1",
+          "title": "人工智能并不比数学家聪明。它已经超出了记住他们的范围 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+          "url": "https://news.ycombinator.com/item?id=49312845",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-15T18:39:17.058000Z"
+        },
+        {
+          "id": "68b299a36a7875272b55a5ab05c39fb16965da31",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T18:13:02Z"
+        },
+        {
+          "id": "fd40ff95706cefac27949aa572fb7dbdef1e8880",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI has access to a vastly larger working memory than the human brain",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T18:13:02Z"
         }
       ],
       "confidence": "multi-source"
