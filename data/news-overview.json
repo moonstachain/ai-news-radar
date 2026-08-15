@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ead473bd07f5f430",
+  "snapshot_id": "1b5b6ef6f225db3f",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T03:11:48.932189Z",
+  "generated_at": "2026-08-15T04:01:53.302331Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 583,
-    "high_priority": 22,
+    "signals": 581,
+    "high_priority": 19,
     "briefs": 20,
-    "stories": 532
+    "stories": 531
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 200,
-    "Info Flow": 140,
-    "Zeli": 80,
+    "Buzzing": 199,
+    "Info Flow": 138,
+    "Zeli": 81,
     "TechURLs": 75,
-    "NewsNow": 30,
+    "NewsNow": 33,
     "Curated Media": 19,
     "OPML RSS": 18,
-    "AI HOT": 10
+    "AI HOT": 9
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8328,
+      "importance_score": 0.8307,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "importance_score": 0.8171,
+      "importance_score": 0.8153,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -101,58 +101,38 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_6cbde97d8260",
-      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-      "source": "公众号：小红书技术（dots.llm）",
-      "source_name": "AI HOT",
-      "source_count": 3,
+      "story_id": "story_61fc6209c742",
+      "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
       "source_names": [
-        "公众号：小红书技术（dots.llm）",
-        "公众号：智谱（GLM）",
-        "公众号：蚂蚁百灵（Ling）"
+        "GitHub Changelog"
       ],
-      "importance_score": 0.8019,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.8239,
+      "importance_label": "官方更新",
+      "category": "official",
       "reasons": [
-        "multi_source",
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-14T11:25:29Z",
-      "earliest_at": "2026-08-14T04:00:00Z",
+      "latest_at": "2026-08-14T16:17:46Z",
+      "earliest_at": "2026-08-14T16:17:46Z",
       "sources": [
         {
-          "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
-          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T11:25:29Z"
-        },
-        {
-          "id": "4f3b94ce9fded3971990d7f3bb1944d9e915a601",
-          "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
-          "source": "公众号：智谱（GLM）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T05:31:04Z"
-        },
-        {
-          "id": "123e827449941c9038e9125e572debf591dab2d8",
-          "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
-          "source": "公众号：蚂蚁百灵（Ling）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T04:00:00Z"
+          "id": "62eb79284c5d7409c01110d7b88aa07e2089e1e8",
+          "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T16:17:46Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     }
   ]
 }
