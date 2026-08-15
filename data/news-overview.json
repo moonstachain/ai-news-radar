@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "644e58e19cef31d8",
+  "snapshot_id": "fe8eceef29f06bb7",
   "channel": "ai-news",
-  "generated_at": "2026-08-14T23:45:24.388356Z",
+  "generated_at": "2026-08-15T00:37:49.451722Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 625,
-    "high_priority": 27,
+    "signals": 630,
+    "high_priority": 23,
     "briefs": 20,
-    "stories": 574
+    "stories": 580
   },
   "coverage": {
     "successful": 16,
@@ -22,70 +22,16 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 219,
-    "Info Flow": 162,
+    "Buzzing": 223,
+    "Info Flow": 163,
     "TechURLs": 77,
-    "Zeli": 74,
+    "Zeli": 76,
     "NewsNow": 30,
     "Curated Media": 20,
-    "OPML RSS": 16,
-    "AI HOT": 13
+    "OPML RSS": 18,
+    "AI HOT": 10
   },
   "top_stories": [
-    {
-      "story_id": "story_d556a48bace2",
-      "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 3,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "importance_score": 0.8577,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-14T00:00:00Z",
-      "earliest_at": "2026-08-14T00:00:00Z",
-      "sources": [
-        {
-          "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
-          "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models: Summer 2026 Observations",
-          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-14T00:00:00Z"
-        },
-        {
-          "id": "030a229abe0fb0d1c5720cf82ffdce5bc90379c4",
-          "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量",
-          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T00:00:00Z"
-        },
-        {
-          "id": "3bd97ce1581508d971c07b8c987612418a9afebd",
-          "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models： Summer 2026 Observations",
-          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T00:00:00Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
     {
       "story_id": "story_0cbdf9e190f0",
       "title": "OAuth 应用程序的多个重定向 URI 和令牌刷新 / Multiple redirect URIs and token refresh for OAuth apps",
@@ -97,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8413,
+      "importance_score": 0.8391,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -121,20 +67,53 @@
       "confidence": "single-source"
     },
     {
+      "story_id": "story_d9c115db9993",
+      "title": "如何使用代理应用程序将软件交付工作流程引入 GitHub / How to bring your software delivery workflow into GitHub with agent apps",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "importance_score": 0.8229,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-14T16:00:00Z",
+      "earliest_at": "2026-08-14T16:00:00Z",
+      "sources": [
+        {
+          "id": "b1a201456e76369f9a92aecd439f6395eb2e2c52",
+          "title": "如何使用代理应用程序将软件交付工作流程引入 GitHub / How to bring your software delivery workflow into GitHub with agent apps",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T16:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_6cbde97d8260",
       "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
       "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
       "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
       "source": "公众号：小红书技术（dots.llm）",
       "source_name": "AI HOT",
-      "source_count": 4,
+      "source_count": 3,
       "source_names": [
         "公众号：小红书技术（dots.llm）",
-        "公众号：数字生命卡兹克",
         "公众号：智谱（GLM）",
         "公众号：蚂蚁百灵（Ling）"
       ],
-      "importance_score": 0.8342,
+      "importance_score": 0.8073,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -143,7 +122,7 @@
         "high_importance"
       ],
       "latest_at": "2026-08-14T11:25:29Z",
-      "earliest_at": "2026-08-13T23:58:00Z",
+      "earliest_at": "2026-08-14T04:00:00Z",
       "sources": [
         {
           "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
@@ -171,15 +150,6 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-14T04:00:00Z"
-        },
-        {
-          "id": "83aae6eb5a48c3fd8639d24a45a92ce2c6dfe089",
-          "title": "从0到1带你速通DeepSeek Harness。",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-13T23:58:00Z"
         }
       ],
       "confidence": "multi-source"
