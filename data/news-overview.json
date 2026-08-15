@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "1e1fabc402bbef78",
+  "snapshot_id": "533f036f873db2e4",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T19:15:40.198548Z",
+  "generated_at": "2026-08-15T19:43:45.645544Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 432,
-    "high_priority": 13,
+    "signals": 423,
+    "high_priority": 11,
     "briefs": 20,
-    "stories": 399
+    "stories": 393
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 155,
-    "Info Flow": 102,
-    "Zeli": 60,
-    "TechURLs": 54,
-    "NewsNow": 34,
+    "Buzzing": 153,
+    "Info Flow": 104,
+    "TechURLs": 55,
+    "Zeli": 51,
+    "NewsNow": 35,
     "Curated Media": 10,
-    "Follow Builders": 7,
+    "Follow Builders": 6,
     "OPML RSS": 6
   },
   "top_stories": [
@@ -43,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.7978,
+      "importance_score": 0.7969,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7664,
+      "importance_score": 0.7653,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -110,54 +110,53 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_8a4a811ddfc4",
-      "title": "Claude 文本水印机制如何运作",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "primary_url": "https://www.anthropic.com/news/claude-text-watermark",
-      "source": "Anthropic：Newsroom（网页）",
-      "source_name": "AI HOT",
+      "story_id": "story_627a59aedf96",
+      "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "primary_url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "source": "davidepiffer.com",
+      "source_name": "Buzzing",
       "source_count": 3,
       "source_names": [
-        "Anthropic：Newsroom（网页）",
-        "Hacker News · 24h最热",
+        "Hacker News (黑客新闻)",
+        "davidepiffer.com",
         "hackernews"
       ],
-      "importance_score": 0.7441,
+      "importance_score": 0.5697,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "latest_at": "2026-08-14T20:36:23.700000Z",
-      "earliest_at": "2026-08-14T19:15:51Z",
+      "latest_at": "2026-08-15T19:18:02.348000Z",
+      "earliest_at": "2026-08-15T18:13:02Z",
       "sources": [
         {
-          "id": "68cb2a8a92118d1fe106cd90cb8041ad02b60b28",
-          "title": "Claude 文本水印机制如何运作",
-          "url": "https://www.anthropic.com/news/claude-text-watermark",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T19:22:48.546000Z"
+          "id": "770e92996439c8cf792759006c44b0bd1224b1f7",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "davidepiffer.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T19:18:02.348000Z"
         },
         {
-          "id": "fe86574ca496c3a94e40f1684926fedb63bf2118",
-          "title": "克劳德的文本水印如何工作 / How Claude's text watermarking works",
-          "url": "https://news.ycombinator.com/item?id=49303350",
+          "id": "247028b738cd821f96f0574b414bfe8f3a3266b1",
+          "title": "人工智能并不比数学家聪明。它已经超出了记住他们的范围 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+          "url": "https://news.ycombinator.com/item?id=49312845",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-14T20:36:23.700000Z"
+          "published_at": "2026-08-15T18:39:17.058000Z"
         },
         {
-          "id": "7b946844ac98669709ef2245347e4b36c2a4534c",
-          "title": "Claude 文本水印机制如何运作 / How Claude's text watermarking works",
-          "url": "https://www.anthropic.com/news/claude-text-watermark",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-14T19:15:51Z"
+          "id": "d96f5b708b46a172781224ee52287d992d3b751f",
+          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-15T18:13:02Z"
         }
       ],
       "confidence": "multi-source"
