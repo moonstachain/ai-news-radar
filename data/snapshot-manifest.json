@@ -1,97 +1,97 @@
 {
   "schema_version": 1,
-  "snapshot_id": "3f9ffa98d9d4af6d",
-  "generated_at": "2026-08-15T04:36:08.437991Z",
+  "snapshot_id": "df7356e6f23f39f3",
+  "generated_at": "2026-08-15T05:18:16.512602Z",
   "channel_generated_at": {
-    "ai-news": "2026-08-15T04:34:55.586524Z",
-    "ai-business": "2026-08-15T04:36:08.437991Z"
+    "ai-news": "2026-08-15T05:17:01.736259Z",
+    "ai-business": "2026-08-15T05:18:16.512602Z"
   },
   "files": {
     "latest-24h.json": {
-      "sha256": "2d919edc76a4d3e1f2b951140ae63b4ab9a24b26c36775bb25def1a3abb256b3",
-      "bytes": 1404524,
-      "generated_at": "2026-08-15T04:34:55.586524Z"
+      "sha256": "051659b5680307508ea9d0ce7ac505a1e59dc8e15efac064fbc50501ba1e1f1e",
+      "bytes": 1376486,
+      "generated_at": "2026-08-15T05:17:01.736259Z"
     },
     "latest-24h-all.json": {
-      "sha256": "c783606200e3510201aba3001cda0234d2f22ebc226e1e33864142f3da965e53",
-      "bytes": 6957738,
-      "generated_at": "2026-08-15T04:34:55.586524Z"
+      "sha256": "c3cafae463b99e35c9cfe0d85b461b870e3c15e905906a1b6274e743687ba93f",
+      "bytes": 6915348,
+      "generated_at": "2026-08-15T05:17:01.736259Z"
     },
     "daily-brief.json": {
-      "sha256": "c635077fb879f34ce813ccffc569082527dd3c2617b8c61f7b97d19209398cac",
-      "bytes": 68088,
-      "generated_at": "2026-08-15T04:34:55.586524Z"
+      "sha256": "cce85ce5acdcfa43031a409dd246e455d235bea489edf9e355be7a56991265eb",
+      "bytes": 68220,
+      "generated_at": "2026-08-15T05:17:01.736259Z"
     },
     "stories-merged.json": {
-      "sha256": "874363051c47255d20204e9d12468034357640fc8316fabfdabcb39d00935773",
-      "bytes": 1019445,
-      "generated_at": "2026-08-15T04:34:55.586524Z"
+      "sha256": "5c752f1efacc1b3de93a6a3803ea755fe0274b40e32fba424998ad86e6820c40",
+      "bytes": 998883,
+      "generated_at": "2026-08-15T05:17:01.736259Z"
     },
     "source-status.json": {
-      "sha256": "32b44ff070c44b4f29e412fc954dc88f081f21e1949ea41fd48731470c2a8f19",
-      "bytes": 10810,
-      "generated_at": "2026-08-15T04:34:55.586524Z"
+      "sha256": "a99f38aa4e568d255d6de8db6a7b8a1eeb557492ef217b26da16204238af9caa",
+      "bytes": 10824,
+      "generated_at": "2026-08-15T05:17:01.736259Z"
     },
     "waytoagi-7d.json": {
-      "sha256": "9937800cab2e9247f2649644d6146293cce1b4e89af5fcb01c9ed026a2e94da0",
+      "sha256": "1be8f476064de6db1c63b659c9458b803b1ebef3b65d65bcd0d33c4f157184fe",
       "bytes": 16464,
-      "generated_at": "2026-08-15T04:34:55.586524Z"
+      "generated_at": "2026-08-15T05:17:01.736259Z"
     },
     "business-latest-24h.json": {
-      "sha256": "daafb7a510852274a9ad96305d679e3f412de1d27b63e6258254d664966367d4",
+      "sha256": "f4bc308856f428b0a629146c5a3cc65868a814f3bf319326abf76b2dd5837dc6",
       "bytes": 6675,
-      "generated_at": "2026-08-15T04:36:08.437991Z"
+      "generated_at": "2026-08-15T05:18:16.512602Z"
     },
     "business-daily-brief.json": {
-      "sha256": "8838d8746848111230ca9aacb0f101e02c56b42270f56c79cc8e2c06b07ad172",
+      "sha256": "49018afa36d424b257830d98f5022f42f8156be0192c9b1b273dbf2f458c5125",
       "bytes": 1913,
-      "generated_at": "2026-08-15T04:36:08.437991Z"
+      "generated_at": "2026-08-15T05:18:16.512602Z"
     },
     "business-stories-merged.json": {
-      "sha256": "f546bca5cb66e8a8094c12853e4e2846a9042220b020dcbee22f667a992e03bb",
+      "sha256": "59b33cd55067b327af5151da005e4b5e8b90b8649bc5cd739a9de8357826104c",
       "bytes": 3543,
-      "generated_at": "2026-08-15T04:36:08.437991Z"
+      "generated_at": "2026-08-15T05:18:16.512602Z"
     },
     "business-source-status.json": {
-      "sha256": "4a2e28193a4662d8debe0dd5b12a9497221cd8dd82b95d8f819ba81273f5ba78",
-      "bytes": 30099,
-      "generated_at": "2026-08-15T04:36:08.437991Z"
+      "sha256": "e301005e518ec67fd0c159827459fc5b809197d53d7eb0fb8c3695dbc3fd8b1b",
+      "bytes": 30101,
+      "generated_at": "2026-08-15T05:18:16.512602Z"
     },
     "business-case-bank.json": {
-      "sha256": "e77d7ead54112715f51c7cca96bb157b1ae2a3b332b87a8aa33fa6200e74d82c",
+      "sha256": "981051d6ef74f359ae0bbe5489a7c20e50ae45dcce240cd929cb440802983116",
       "bytes": 3893,
-      "generated_at": "2026-08-15T04:36:08.437991Z"
+      "generated_at": "2026-08-15T05:18:16.512602Z"
     },
     "business-source-catalog.json": {
-      "sha256": "1e4917865dc7eb513effe58bdf9805312c6ad51bb28f6bc6378ae9d953ca2467",
+      "sha256": "55596d3def14c4683907c9029a9e6e7aa6f3a5919beb36846287519da710824b",
       "bytes": 26860,
       "generated_at": null
     },
     "news-overview.json": {
-      "sha256": "e2176ad14ccb7c602f9617be7470fe2e2b3e6a3b6e57dcc837301744fb0b1072",
+      "sha256": "a9a20a4a20881d41b38d296a755b2ad4656c10c2957ee9a5c3656fa09329a3b4",
       "bytes": 5177,
-      "generated_at": "2026-08-15T04:34:55.586524Z"
+      "generated_at": "2026-08-15T05:17:01.736259Z"
     },
     "business-overview.json": {
-      "sha256": "39b4e9cf03a449c72ec0e33e2dded6feb717eb499d0927d56d9f20d9e34685fe",
+      "sha256": "abd818deaf0f3d545b290a1126c3d417dc2de857ca5c6a63f67de0869002af20",
       "bytes": 6163,
-      "generated_at": "2026-08-15T04:36:08.437991Z"
+      "generated_at": "2026-08-15T05:18:16.512602Z"
     }
   },
   "checksums": {
-    "latest-24h.json": "2d919edc76a4d3e1f2b951140ae63b4ab9a24b26c36775bb25def1a3abb256b3",
-    "latest-24h-all.json": "c783606200e3510201aba3001cda0234d2f22ebc226e1e33864142f3da965e53",
-    "daily-brief.json": "c635077fb879f34ce813ccffc569082527dd3c2617b8c61f7b97d19209398cac",
-    "stories-merged.json": "874363051c47255d20204e9d12468034357640fc8316fabfdabcb39d00935773",
-    "source-status.json": "32b44ff070c44b4f29e412fc954dc88f081f21e1949ea41fd48731470c2a8f19",
-    "waytoagi-7d.json": "9937800cab2e9247f2649644d6146293cce1b4e89af5fcb01c9ed026a2e94da0",
-    "business-latest-24h.json": "daafb7a510852274a9ad96305d679e3f412de1d27b63e6258254d664966367d4",
-    "business-daily-brief.json": "8838d8746848111230ca9aacb0f101e02c56b42270f56c79cc8e2c06b07ad172",
-    "business-stories-merged.json": "f546bca5cb66e8a8094c12853e4e2846a9042220b020dcbee22f667a992e03bb",
-    "business-source-status.json": "4a2e28193a4662d8debe0dd5b12a9497221cd8dd82b95d8f819ba81273f5ba78",
-    "business-case-bank.json": "e77d7ead54112715f51c7cca96bb157b1ae2a3b332b87a8aa33fa6200e74d82c",
-    "business-source-catalog.json": "1e4917865dc7eb513effe58bdf9805312c6ad51bb28f6bc6378ae9d953ca2467",
-    "news-overview.json": "e2176ad14ccb7c602f9617be7470fe2e2b3e6a3b6e57dcc837301744fb0b1072",
-    "business-overview.json": "39b4e9cf03a449c72ec0e33e2dded6feb717eb499d0927d56d9f20d9e34685fe"
+    "latest-24h.json": "051659b5680307508ea9d0ce7ac505a1e59dc8e15efac064fbc50501ba1e1f1e",
+    "latest-24h-all.json": "c3cafae463b99e35c9cfe0d85b461b870e3c15e905906a1b6274e743687ba93f",
+    "daily-brief.json": "cce85ce5acdcfa43031a409dd246e455d235bea489edf9e355be7a56991265eb",
+    "stories-merged.json": "5c752f1efacc1b3de93a6a3803ea755fe0274b40e32fba424998ad86e6820c40",
+    "source-status.json": "a99f38aa4e568d255d6de8db6a7b8a1eeb557492ef217b26da16204238af9caa",
+    "waytoagi-7d.json": "1be8f476064de6db1c63b659c9458b803b1ebef3b65d65bcd0d33c4f157184fe",
+    "business-latest-24h.json": "f4bc308856f428b0a629146c5a3cc65868a814f3bf319326abf76b2dd5837dc6",
+    "business-daily-brief.json": "49018afa36d424b257830d98f5022f42f8156be0192c9b1b273dbf2f458c5125",
+    "business-stories-merged.json": "59b33cd55067b327af5151da005e4b5e8b90b8649bc5cd739a9de8357826104c",
+    "business-source-status.json": "e301005e518ec67fd0c159827459fc5b809197d53d7eb0fb8c3695dbc3fd8b1b",
+    "business-case-bank.json": "981051d6ef74f359ae0bbe5489a7c20e50ae45dcce240cd929cb440802983116",
+    "business-source-catalog.json": "55596d3def14c4683907c9029a9e6e7aa6f3a5919beb36846287519da710824b",
+    "news-overview.json": "a9a20a4a20881d41b38d296a755b2ad4656c10c2957ee9a5c3656fa09329a3b4",
+    "business-overview.json": "abd818deaf0f3d545b290a1126c3d417dc2de857ca5c6a63f67de0869002af20"
   }
 }
