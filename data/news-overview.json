@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "469b890f869db9ca",
+  "snapshot_id": "72a3467fb9abebb3",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T16:13:10.350771Z",
+  "generated_at": "2026-08-15T16:49:11.300863Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 457,
-    "high_priority": 15,
+    "signals": 451,
+    "high_priority": 13,
     "briefs": 20,
-    "stories": 419
+    "stories": 414
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 166,
-    "Info Flow": 103,
+    "Buzzing": 167,
+    "Info Flow": 102,
     "Zeli": 59,
     "TechURLs": 54,
     "NewsNow": 38,
-    "Curated Media": 12,
-    "Follow Builders": 12,
+    "Follow Builders": 11,
+    "Curated Media": 9,
     "OPML RSS": 6
   },
   "top_stories": [
@@ -43,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8038,
+      "importance_score": 0.8026,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7736,
+      "importance_score": 0.7721,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -110,38 +110,57 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_61fc6209c742",
-      "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
+      "story_id": "story_8a4a811ddfc4",
+      "title": "Claude 文本水印机制如何运作",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "primary_url": "https://www.anthropic.com/news/claude-text-watermark",
+      "source": "Anthropic：Newsroom（网页）",
+      "source_name": "AI HOT",
+      "source_count": 3,
       "source_names": [
-        "GitHub Changelog"
+        "Anthropic：Newsroom（网页）",
+        "Hacker News · 24h最热",
+        "hackernews"
       ],
-      "importance_score": 0.7994,
-      "importance_label": "官方更新",
-      "category": "official",
+      "importance_score": 0.7487,
+      "importance_label": "多源热议",
+      "category": "multi_source",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "multi_source",
+        "high_ai_relevance"
       ],
-      "latest_at": "2026-08-14T16:17:46Z",
-      "earliest_at": "2026-08-14T16:17:46Z",
+      "latest_at": "2026-08-14T20:36:23.700000Z",
+      "earliest_at": "2026-08-14T19:15:51Z",
       "sources": [
         {
-          "id": "62eb79284c5d7409c01110d7b88aa07e2089e1e8",
-          "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-14T16:17:46Z"
+          "id": "68cb2a8a92118d1fe106cd90cb8041ad02b60b28",
+          "title": "Claude 文本水印机制如何运作",
+          "url": "https://www.anthropic.com/news/claude-text-watermark",
+          "source": "Anthropic：Newsroom（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T19:22:48.546000Z"
+        },
+        {
+          "id": "fe86574ca496c3a94e40f1684926fedb63bf2118",
+          "title": "克劳德的文本水印如何工作 / How Claude's text watermarking works",
+          "url": "https://news.ycombinator.com/item?id=49303350",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-14T20:36:23.700000Z"
+        },
+        {
+          "id": "7b946844ac98669709ef2245347e4b36c2a4534c",
+          "title": "Claude 文本水印机制如何运作 / How Claude's text watermarking works",
+          "url": "https://www.anthropic.com/news/claude-text-watermark",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-14T19:15:51Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }
