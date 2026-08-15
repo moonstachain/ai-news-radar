@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "904bb59fc2ff775f",
+  "snapshot_id": "3b2f0448dc9eda0f",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T08:53:20.982724Z",
+  "generated_at": "2026-08-15T09:16:57.016561Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 562,
+    "signals": 557,
     "high_priority": 21,
     "briefs": 20,
-    "stories": 514
+    "stories": 512
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 188,
-    "Info Flow": 126,
+    "Buzzing": 187,
+    "Info Flow": 123,
     "Zeli": 83,
-    "TechURLs": 66,
-    "NewsNow": 33,
+    "TechURLs": 61,
+    "NewsNow": 36,
     "Curated Media": 21,
-    "OPML RSS": 18,
+    "OPML RSS": 19,
     "Follow Builders": 14
   },
   "top_stories": [
@@ -43,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8194,
+      "importance_score": 0.8186,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "importance_score": 0.805,
+      "importance_score": 0.8042,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -111,7 +111,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8136,
+      "importance_score": 0.8128,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
