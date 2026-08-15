@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T04:34:55.586524Z",
+  "generated_at": "2026-08-15T05:17:01.736259Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8294,
-      "importance": 0.8294,
-      "importance_score": 0.8294,
+      "score": 0.8277,
+      "importance": 0.8277,
+      "importance_score": 0.8277,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9189,
+        "recency": 0.9097,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8141,
-      "importance": 0.8141,
-      "importance_score": 0.8141,
+      "score": 0.8126,
+      "importance": 0.8126,
+      "importance_score": 0.8126,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8339,
+        "recency": 0.8255,
         "story_heat": 0.0
       },
       "category": "official",
@@ -162,15 +162,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8227,
-      "importance": 0.8227,
-      "importance_score": 0.8227,
+      "score": 0.8212,
+      "importance": 0.8212,
+      "importance_score": 0.8212,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8374,
+        "recency": 0.829,
         "story_heat": 0.0
       },
       "category": "official",
@@ -187,6 +187,87 @@
         "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6cbde97d8260",
+      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+      "source": "公众号：小红书技术（dots.llm）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
+          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+          "source": "公众号：小红书技术（dots.llm）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T11:25:29Z"
+        },
+        {
+          "id": "4f3b94ce9fded3971990d7f3bb1944d9e915a601",
+          "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
+          "source": "公众号：智谱（GLM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T05:31:04Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "公众号：小红书技术（dots.llm）",
+        "公众号：智谱（GLM）"
+      ],
+      "items": [
+        {
+          "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
+          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+          "source": "公众号：小红书技术（dots.llm）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T11:25:29Z"
+        },
+        {
+          "id": "4f3b94ce9fded3971990d7f3bb1944d9e915a601",
+          "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
+          "source": "公众号：智谱（GLM）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-14T05:31:04Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7727,
+      "importance": 0.7727,
+      "importance_score": 0.7727,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7727,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-14T05:31:04Z",
+      "latest_at": "2026-08-14T11:25:29Z",
+      "primary_item": {
+        "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
+        "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+        "source": "公众号：小红书技术（dots.llm）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -262,15 +343,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.7742,
-      "importance": 0.7742,
-      "importance_score": 0.7742,
+      "score": 0.7726,
+      "importance": 0.7726,
+      "importance_score": 0.7726,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8756,
+        "recency": 0.8667,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -286,87 +367,6 @@
         "title": "Claude 文本水印机制如何运作",
         "url": "https://www.anthropic.com/news/claude-text-watermark",
         "source": "Anthropic：Newsroom（网页）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6cbde97d8260",
-      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-      "source": "公众号：小红书技术（dots.llm）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
-          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T11:25:29Z"
-        },
-        {
-          "id": "4f3b94ce9fded3971990d7f3bb1944d9e915a601",
-          "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
-          "source": "公众号：智谱（GLM）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T05:31:04Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "公众号：小红书技术（dots.llm）",
-        "公众号：智谱（GLM）"
-      ],
-      "items": [
-        {
-          "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
-          "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T11:25:29Z"
-        },
-        {
-          "id": "4f3b94ce9fded3971990d7f3bb1944d9e915a601",
-          "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
-          "source": "公众号：智谱（GLM）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-14T05:31:04Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7741,
-      "importance": 0.7741,
-      "importance_score": 0.7741,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7805,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-14T05:31:04Z",
-      "latest_at": "2026-08-14T11:25:29Z",
-      "primary_item": {
-        "id": "a059b7702912fcb0e95b0fff5d2a7da4864b1da9",
-        "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-        "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-        "source": "公众号：小红书技术（dots.llm）",
         "source_name": "AI HOT"
       }
     },
@@ -424,15 +424,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7714,
-      "importance": 0.7714,
-      "importance_score": 0.7714,
+      "score": 0.7699,
+      "importance": 0.7699,
+      "importance_score": 0.7699,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8154,
+        "recency": 0.8072,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -486,15 +486,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7464,
-      "importance": 0.7464,
-      "importance_score": 0.7464,
+      "score": 0.745,
+      "importance": 0.745,
+      "importance_score": 0.745,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7991,
+        "recency": 0.7911,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -565,15 +565,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7423,
-      "importance": 0.7423,
-      "importance_score": 0.7423,
+      "score": 0.7408,
+      "importance": 0.7408,
+      "importance_score": 0.7408,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7871,
+        "recency": 0.7791,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -626,15 +626,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7326,
-      "importance": 0.7326,
-      "importance_score": 0.7326,
+      "score": 0.7311,
+      "importance": 0.7311,
+      "importance_score": 0.7311,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8225,
+        "recency": 0.8142,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -686,15 +686,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7243,
-      "importance": 0.7243,
-      "importance_score": 0.7243,
+      "score": 0.7228,
+      "importance": 0.7228,
+      "importance_score": 0.7228,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8596,
+        "recency": 0.851,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -765,15 +765,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6193,
-      "importance": 0.6193,
-      "importance_score": 0.6193,
+      "score": 0.6178,
+      "importance": 0.6178,
+      "importance_score": 0.6178,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.8366,
+        "recency": 0.8282,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -843,15 +843,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5995,
-      "importance": 0.5995,
-      "importance_score": 0.5995,
+      "score": 0.598,
+      "importance": 0.598,
+      "importance_score": 0.598,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.58,
         "ai_relevance": 0.71,
-        "recency": 0.8418,
+        "recency": 0.8333,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -941,15 +941,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5551,
-      "importance": 0.5551,
-      "importance_score": 0.5551,
+      "score": 0.5535,
+      "importance": 0.5535,
+      "importance_score": 0.5535,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9129,
+        "recency": 0.9037,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1039,15 +1039,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5484,
-      "importance": 0.5484,
-      "importance_score": 0.5484,
+      "score": 0.5468,
+      "importance": 0.5468,
+      "importance_score": 0.5468,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8755,
+        "recency": 0.8666,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1061,6 +1061,85 @@
         "title": "谷歌正借助同态加密让私有化人工智能成为现实",
         "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
         "source": "blog.google",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_00919b8d9073",
+      "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈”",
+      "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+      "primary_url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "567a42de418e027ec744d2d10a73a59355f6ba08",
+          "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈”",
+          "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T04:38:14.548000Z"
+        },
+        {
+          "id": "48661ac72aaed84de09fcda71b355eff995ed202",
+          "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈” / Coinbase CTO says he's getting 'the best feedback' of his career from an AI agent",
+          "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T09:23:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "567a42de418e027ec744d2d10a73a59355f6ba08",
+          "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈”",
+          "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T04:38:14.548000Z"
+        },
+        {
+          "id": "48661ac72aaed84de09fcda71b355eff995ed202",
+          "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈” / Coinbase CTO says he's getting 'the best feedback' of his career from an AI agent",
+          "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-14T09:23:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5441,
+      "importance": 0.5441,
+      "importance_score": 0.5441,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9907,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T09:23:01Z",
+      "latest_at": "2026-08-15T04:38:14.548000Z",
+      "primary_item": {
+        "id": "567a42de418e027ec744d2d10a73a59355f6ba08",
+        "title": "Coinbase首席技术官表示，该公司的AI教练为他提供了职业生涯中“最棒的反馈”",
+        "url": "https://www.businessinsider.com/coinbases-cto-ai-coach-gives-him-best-career-feedback-2026-8",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -1118,15 +1197,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5718,
-      "importance": 0.5718,
-      "importance_score": 0.5718,
+      "score": 0.5705,
+      "importance": 0.5705,
+      "importance_score": 0.5705,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.7576,
+        "recency": 0.7499,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1216,15 +1295,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5413,
-      "importance": 0.5413,
-      "importance_score": 0.5413,
+      "score": 0.5398,
+      "importance": 0.5398,
+      "importance_score": 0.5398,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8359,
+        "recency": 0.8275,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1295,15 +1374,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5398,
-      "importance": 0.5398,
-      "importance_score": 0.5398,
+      "score": 0.538,
+      "importance": 0.538,
+      "importance_score": 0.538,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9666,
+        "recency": 0.9569,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1393,15 +1472,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5393,
-      "importance": 0.5393,
-      "importance_score": 0.5393,
+      "score": 0.5378,
+      "importance": 0.5378,
+      "importance_score": 0.5378,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8249,
+        "recency": 0.8166,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1471,15 +1550,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5359,
-      "importance": 0.5359,
-      "importance_score": 0.5359,
+      "score": 0.5342,
+      "importance": 0.5342,
+      "importance_score": 0.5342,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9449,
+        "recency": 0.9353,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1493,85 +1572,6 @@
         "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
         "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
         "source": "www.reuters.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_c1d0e5ad0c79",
-      "title": "Anthropic 为其人工智能水印功能进行辩护并作出解释",
-      "url": "https://www.businessinsider.com/anthropic-reveals-more-about-ai-watermarking-plans-amid-eu-regulations-2026-8",
-      "primary_url": "https://www.businessinsider.com/anthropic-reveals-more-about-ai-watermarking-plans-amid-eu-regulations-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "4491f507ae140ae6c1d401164f4a6716aec445d9",
-          "title": "Anthropic 为其人工智能水印功能进行辩护并作出解释",
-          "url": "https://www.businessinsider.com/anthropic-reveals-more-about-ai-watermarking-plans-amid-eu-regulations-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T21:43:58.808000Z"
-        },
-        {
-          "id": "9368bb5310b3090f653f80f947a43d6b73d49630",
-          "title": "Anthropic 为其人工智能水印功能进行辩护并作出解释 / Anthropic defends and explains its AI watermarking feature",
-          "url": "https://www.businessinsider.com/anthropic-reveals-more-about-ai-watermarking-plans-amid-eu-regulations-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-14T21:25:44Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "4491f507ae140ae6c1d401164f4a6716aec445d9",
-          "title": "Anthropic 为其人工智能水印功能进行辩护并作出解释",
-          "url": "https://www.businessinsider.com/anthropic-reveals-more-about-ai-watermarking-plans-amid-eu-regulations-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T21:43:58.808000Z"
-        },
-        {
-          "id": "9368bb5310b3090f653f80f947a43d6b73d49630",
-          "title": "Anthropic 为其人工智能水印功能进行辩护并作出解释 / Anthropic defends and explains its AI watermarking feature",
-          "url": "https://www.businessinsider.com/anthropic-reveals-more-about-ai-watermarking-plans-amid-eu-regulations-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-14T21:25:44Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5288,
-      "importance": 0.5288,
-      "importance_score": 0.5288,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9058,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-14T21:25:44Z",
-      "latest_at": "2026-08-14T21:43:58.808000Z",
-      "primary_item": {
-        "id": "4491f507ae140ae6c1d401164f4a6716aec445d9",
-        "title": "Anthropic 为其人工智能水印功能进行辩护并作出解释",
-        "url": "https://www.businessinsider.com/anthropic-reveals-more-about-ai-watermarking-plans-amid-eu-regulations-2026-8",
-        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     }
