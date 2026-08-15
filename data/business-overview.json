@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a852f91129e0bb42",
+  "snapshot_id": "b4222db924e7cf81",
   "channel": "ai-business",
-  "generated_at": "2026-08-15T07:07:24.598603Z",
+  "generated_at": "2026-08-15T07:53:42.915234Z",
   "window_hours": 24,
   "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
   "metrics": {
-    "signals": 4,
+    "signals": 5,
     "briefs": 2,
     "clusters": 2,
-    "cases": 3
+    "cases": 4
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_85548f9360df",
+      "brief_id": "biz_brief_73fe2da0b148",
       "rank": 1,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -38,14 +38,15 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_22a2f10626c9",
+      "brief_id": "biz_brief_6134e047cc8c",
       "rank": 2,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "4 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_d58710637e78",
         "biz_7cf1455a584f",
-        "biz_db3f79e045f1"
+        "biz_db3f79e045f1",
+        "biz_ab1efa0b6c44"
       ],
       "evidence_titles": [
         "Most AI browsers hide what the agent is doing. I wanted to see it happen live, and run it locally. So I built one.",
@@ -63,13 +64,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_85548f9360df",
+      "id": "biz_brief_73fe2da0b148",
       "label": "Brief #1",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_22a2f10626c9",
+      "id": "biz_brief_6134e047cc8c",
       "label": "Brief #2",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
@@ -102,24 +103,25 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_235e1db5fae2",
+      "cluster_id": "biz_cluster_da53d50c6463",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 43,
+      "importance_score": 41,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "4 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
         "biz_d58710637e78",
         "biz_7cf1455a584f",
-        "biz_db3f79e045f1"
+        "biz_db3f79e045f1",
+        "biz_ab1efa0b6c44"
       ],
       "top_sources": [
         {
@@ -136,6 +138,11 @@
           "source": "Indie Hackers",
           "title": "I built a launch coach after my own product launch got 11 upvotes and 3 signups",
           "url": "https://www.indiehackers.com/post/i-built-a-launch-coach-after-my-own-product-launch-got-11-upvotes-and-3-signups-0b24d149fc"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "My first paying user told me I was charging too little. It took me 4 months to listen.",
+          "url": "https://www.indiehackers.com/post/my-first-paying-user-told-me-i-was-charging-too-little-it-took-me-4-months-to-listen-94797fabd6"
         }
       ]
     }
