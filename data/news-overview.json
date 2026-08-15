@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "5e28f1a308616daa",
+  "snapshot_id": "115f72f526f142f9",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T22:46:03.297500Z",
+  "generated_at": "2026-08-15T23:12:55.530940Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 425,
+    "signals": 427,
     "high_priority": 9,
     "briefs": 20,
-    "stories": 383
+    "stories": 384
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 145,
+    "Buzzing": 143,
     "Info Flow": 107,
-    "Zeli": 62,
-    "TechURLs": 49,
-    "NewsNow": 38,
+    "Zeli": 66,
+    "TechURLs": 47,
+    "NewsNow": 39,
     "Curated Media": 10,
     "OPML RSS": 6,
     "Follow Builders": 5
@@ -44,7 +44,7 @@
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "cursor.com"
       ],
-      "importance_score": 0.7828,
+      "importance_score": 0.7817,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +87,7 @@
       "source_names": [
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7585,
+      "importance_score": 0.7575,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -120,72 +120,44 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_627a59aedf96",
-      "title": "人工智能拥有比人脑大得多的工作记忆 / AI has access to a vastly larger working memory than the human brain",
-      "url": "https://news.ycombinator.com/item?id=49312845",
-      "primary_url": "https://news.ycombinator.com/item?id=49312845",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "source_count": 5,
+      "story_id": "story_7086513972fc",
+      "title": "Anthropic 分享了有关克劳德新水印如何运作的更多细节 / Anthropic shares more details about how Claude’s new watermarks will work",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "primary_url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
+      "source_count": 2,
       "source_names": [
-        "Hacker News",
-        "Hacker News (黑客新闻)",
-        "davidepiffer.com",
-        "hackernews"
+        "HN Algolia · AI 24h",
+        "TechCrunch AI"
       ],
-      "importance_score": 0.6193,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.663,
+      "importance_label": "值得关注",
+      "category": "watch",
       "reasons": [
-        "multi_source"
+        "multi_source",
+        "high_ai_relevance"
       ],
-      "latest_at": "2026-08-15T22:11:59.380000Z",
-      "earliest_at": "2026-08-15T18:13:02Z",
+      "latest_at": "2026-08-15T22:07:08Z",
+      "earliest_at": "2026-08-15T18:58:39Z",
       "sources": [
         {
-          "id": "08906e6f1e9a21d97e4fad47f959d9beeacacd33",
-          "title": "人工智能拥有比人脑大得多的工作记忆 / AI has access to a vastly larger working memory than the human brain",
-          "url": "https://news.ycombinator.com/item?id=49312845",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T22:11:59.380000Z"
+          "id": "ec86a32dff4fd6dbb4f2436446fbeb7445e157c3",
+          "title": "Anthropic 分享了有关克劳德新水印如何运作的更多细节 / Anthropic shares more details about how Claude’s new watermarks will work",
+          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-15T18:58:39Z"
         },
         {
-          "id": "770e92996439c8cf792759006c44b0bd1224b1f7",
-          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "source": "davidepiffer.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T19:18:02.348000Z"
-        },
-        {
-          "id": "247028b738cd821f96f0574b414bfe8f3a3266b1",
-          "title": "人工智能并不比数学家聪明。它已经超出了记住他们的范围 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
-          "url": "https://news.ycombinator.com/item?id=49312845",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T18:39:17.058000Z"
-        },
-        {
-          "id": "68b299a36a7875272b55a5ab05c39fb16965da31",
-          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T18:13:02Z"
-        },
-        {
-          "id": "fd40ff95706cefac27949aa572fb7dbdef1e8880",
-          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI has access to a vastly larger working memory than the human brain",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T18:13:02Z"
+          "id": "af7117a7926ff54dcf1993c6b0c5f9b9eda4927d",
+          "title": "Anthropic 分享了有关克劳德的新水印如何工作的详细信息 / Anthropic shares details about how Claude's new watermarks will work",
+          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-08-15T22:07:08Z"
         }
       ],
       "confidence": "multi-source"
