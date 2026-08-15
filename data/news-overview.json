@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "07f73c9de00be9c4",
+  "snapshot_id": "469b890f869db9ca",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T15:43:52.700367Z",
+  "generated_at": "2026-08-15T16:13:10.350771Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 459,
-    "high_priority": 17,
+    "signals": 457,
+    "high_priority": 15,
     "briefs": 20,
-    "stories": 420
+    "stories": 419
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 163,
-    "Info Flow": 102,
-    "Zeli": 63,
-    "TechURLs": 55,
-    "NewsNow": 37,
-    "Curated Media": 13,
+    "Buzzing": 166,
+    "Info Flow": 103,
+    "Zeli": 59,
+    "TechURLs": 54,
+    "NewsNow": 38,
+    "Curated Media": 12,
     "Follow Builders": 12,
     "OPML RSS": 6
   },
@@ -43,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8048,
+      "importance_score": 0.8038,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -67,40 +67,6 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_d9c115db9993",
-      "title": "如何使用代理应用程序将软件交付工作流程引入 GitHub / How to bring your software delivery workflow into GitHub with agent apps",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "importance_score": 0.7918,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-14T16:00:00Z",
-      "earliest_at": "2026-08-14T16:00:00Z",
-      "sources": [
-        {
-          "id": "b1a201456e76369f9a92aecd439f6395eb2e2c52",
-          "title": "如何使用代理应用程序将软件交付工作流程引入 GitHub / How to bring your software delivery workflow into GitHub with agent apps",
-          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-14T16:00:00Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
       "story_id": "story_2deeef90fc1a",
       "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入 / AI-generated books are flooding Amazon and tanking sales for human authors",
       "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
@@ -111,7 +77,7 @@
       "source_names": [
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7747,
+      "importance_score": 0.7736,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -142,6 +108,40 @@
         }
       ],
       "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_61fc6209c742",
+      "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.7994,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-14T16:17:46Z",
+      "earliest_at": "2026-08-14T16:17:46Z",
+      "sources": [
+        {
+          "id": "62eb79284c5d7409c01110d7b88aa07e2089e1e8",
+          "title": "Grok 4.6 现已在 GitHub Copilot 中提供 / Grok 4.6 is now available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-14T16:17:46Z"
+        }
+      ],
+      "confidence": "single-source"
     }
   ]
 }
