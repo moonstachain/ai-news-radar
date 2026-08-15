@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "533f036f873db2e4",
+  "snapshot_id": "7b5e59ac5c0bd033",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T19:43:45.645544Z",
+  "generated_at": "2026-08-15T20:12:36.528231Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 423,
+    "signals": 426,
     "high_priority": 11,
     "briefs": 20,
-    "stories": 393
+    "stories": 394
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 153,
-    "Info Flow": 104,
-    "TechURLs": 55,
-    "Zeli": 51,
-    "NewsNow": 35,
+    "Buzzing": 158,
+    "Info Flow": 105,
+    "Zeli": 54,
+    "TechURLs": 48,
+    "NewsNow": 36,
     "Curated Media": 10,
     "Follow Builders": 6,
     "OPML RSS": 6
@@ -43,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.7969,
+      "importance_score": 0.796,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7653,
+      "importance_score": 0.7642,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -110,53 +110,63 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_627a59aedf96",
-      "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
-      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-      "primary_url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-      "source": "davidepiffer.com",
-      "source_name": "Buzzing",
-      "source_count": 3,
+      "story_id": "story_0b73ad404776",
+      "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+      "url": "https://news.ycombinator.com/item?id=49310725",
+      "primary_url": "https://news.ycombinator.com/item?id=49310725",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "source_count": 4,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "davidepiffer.com",
-        "hackernews"
+        "BBC News",
+        "Hacker News · 24h最热",
+        "hackernews",
+        "www.bbc.co.uk"
       ],
-      "importance_score": 0.5697,
+      "importance_score": 0.5822,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "latest_at": "2026-08-15T19:18:02.348000Z",
-      "earliest_at": "2026-08-15T18:13:02Z",
+      "latest_at": "2026-08-15T14:47:15.498000Z",
+      "earliest_at": "2026-08-15T11:25:32Z",
       "sources": [
         {
-          "id": "770e92996439c8cf792759006c44b0bd1224b1f7",
-          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "source": "davidepiffer.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T19:18:02.348000Z"
-        },
-        {
-          "id": "247028b738cd821f96f0574b414bfe8f3a3266b1",
-          "title": "人工智能并不比数学家聪明。它已经超出了记住他们的范围 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
-          "url": "https://news.ycombinator.com/item?id=49312845",
+          "id": "f50f85b755a8871c36dc1a3f17ad231bac4f5f7e",
+          "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://news.ycombinator.com/item?id=49310725",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-08-15T18:39:17.058000Z"
+          "published_at": "2026-08-15T14:47:15.498000Z"
         },
         {
-          "id": "d96f5b708b46a172781224ee52287d992d3b751f",
-          "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们 / AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T18:13:02Z"
+          "id": "df4e0999ddfe3441c499f1ff2a561e8a81fc55e7",
+          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？",
+          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.co.uk",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T14:30:12.217000Z"
+        },
+        {
+          "id": "f9db1e50aae4565b43f99f9b9e7aacbbebab7100",
+          "title": "二手书销售蓬勃发展。是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T14:08:55Z"
+        },
+        {
+          "id": "dcc8a19034a29524320fe1cf922bc36524fb4b37",
+          "title": "二手书销售正蓬勃发展。这是因为人工智能吗？ / Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-15T11:25:32Z"
         }
       ],
       "confidence": "multi-source"
