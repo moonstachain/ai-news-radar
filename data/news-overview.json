@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "fe8eceef29f06bb7",
+  "snapshot_id": "e565047a0df89eb5",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T00:37:49.451722Z",
+  "generated_at": "2026-08-15T02:09:35.780793Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 630,
-    "high_priority": 23,
+    "signals": 607,
+    "high_priority": 22,
     "briefs": 20,
-    "stories": 580
+    "stories": 556
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 223,
-    "Info Flow": 163,
-    "TechURLs": 77,
-    "Zeli": 76,
-    "NewsNow": 30,
+    "Buzzing": 203,
+    "Info Flow": 157,
+    "Zeli": 78,
+    "TechURLs": 78,
+    "NewsNow": 31,
     "Curated Media": 20,
     "OPML RSS": 18,
     "AI HOT": 10
@@ -43,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8391,
+      "importance_score": 0.8353,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "importance_score": 0.8229,
+      "importance_score": 0.8194,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -113,7 +113,7 @@
         "公众号：智谱（GLM）",
         "公众号：蚂蚁百灵（Ling）"
       ],
-      "importance_score": 0.8073,
+      "importance_score": 0.8041,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
