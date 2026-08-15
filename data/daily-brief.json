@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T20:12:36.528231Z",
+  "generated_at": "2026-08-15T20:46:58.929685Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.796,
-      "importance": 0.796,
-      "importance_score": 0.796,
+      "score": 0.7949,
+      "importance": 0.7949,
+      "importance_score": 0.7949,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7333,
+        "recency": 0.7273,
         "story_heat": 0.0
       },
       "category": "official",
@@ -63,6 +63,87 @@
         "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_20b744e598ba",
+      "title": "Cursor 正式被 SpaceX 收购",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "primary_url": "https://cursor.com/blog/joining-spacex",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "381d3c56c3c3f15c2c5b031f0dc679588e6f701a",
+          "title": "Cursor 正式被 SpaceX 收购",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-15T20:05:54.703000Z"
+        },
+        {
+          "id": "7a50d104b08c9f2172194c60466aa260cc885830",
+          "title": "Cursor 现已成为 SpaceX 的一部分",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "cursor.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T20:05:54.703000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "cursor.com"
+      ],
+      "items": [
+        {
+          "id": "381d3c56c3c3f15c2c5b031f0dc679588e6f701a",
+          "title": "Cursor 正式被 SpaceX 收购",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-15T20:05:54.703000Z"
+        },
+        {
+          "id": "7a50d104b08c9f2172194c60466aa260cc885830",
+          "title": "Cursor 现已成为 SpaceX 的一部分",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "source": "cursor.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T20:05:54.703000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7878,
+      "importance": 0.7878,
+      "importance_score": 0.7878,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9902,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-15T20:05:54.703000Z",
+      "latest_at": "2026-08-15T20:05:54.703000Z",
+      "primary_item": {
+        "id": "381d3c56c3c3f15c2c5b031f0dc679588e6f701a",
+        "title": "Cursor 正式被 SpaceX 收购",
+        "url": "https://cursor.com/blog/joining-spacex",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -118,15 +199,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7642,
-      "importance": 0.7642,
-      "importance_score": 0.7642,
+      "score": 0.7629,
+      "importance": 0.7629,
+      "importance_score": 0.7629,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8756,
+        "recency": 0.8684,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -237,15 +318,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5822,
-      "importance": 0.5822,
-      "importance_score": 0.5822,
+      "score": 0.5809,
+      "importance": 0.5809,
+      "importance_score": 0.5809,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9247,
+        "recency": 0.9171,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -335,15 +416,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5685,
-      "importance": 0.5685,
-      "importance_score": 0.5685,
+      "score": 0.567,
+      "importance": 0.567,
+      "importance_score": 0.567,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.987,
+        "recency": 0.9788,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -433,15 +514,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5617,
-      "importance": 0.5617,
-      "importance_score": 0.5617,
+      "score": 0.5603,
+      "importance": 0.5603,
+      "importance_score": 0.5603,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9497,
+        "recency": 0.9418,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -531,15 +612,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5553,
-      "importance": 0.5553,
-      "importance_score": 0.5553,
+      "score": 0.5539,
+      "importance": 0.5539,
+      "importance_score": 0.5539,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9138,
+        "recency": 0.9063,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -553,6 +634,163 @@
         "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
         "url": "https://sankalp.bearblog.dev/autoresearch",
         "source": "sankalp.bearblog.dev",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_b9d46b0c65a9",
+      "title": "Cloudflare的AI精神错乱",
+      "url": "https://opensauce.it/cloudflare-ai-psychosis",
+      "primary_url": "https://opensauce.it/cloudflare-ai-psychosis",
+      "source": "opensauce.it",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "9de85b60c61e7ae7ae01c3fb807c4559569a43d5",
+          "title": "Cloudflare的AI精神错乱",
+          "url": "https://opensauce.it/cloudflare-ai-psychosis",
+          "source": "opensauce.it",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T20:37:59.382000Z"
+        },
+        {
+          "id": "fe382c3fbfc045b074356e5dd29309fa1ec74f5a",
+          "title": "Cloudflare的AI精神错乱 / Cloudflare's AI Psychosis",
+          "url": "https://opensauce.it/cloudflare-ai-psychosis",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T14:08:40Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "opensauce.it"
+      ],
+      "items": [
+        {
+          "id": "9de85b60c61e7ae7ae01c3fb807c4559569a43d5",
+          "title": "Cloudflare的AI精神错乱",
+          "url": "https://opensauce.it/cloudflare-ai-psychosis",
+          "source": "opensauce.it",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T20:37:59.382000Z"
+        },
+        {
+          "id": "fe382c3fbfc045b074356e5dd29309fa1ec74f5a",
+          "title": "Cloudflare的AI精神错乱 / Cloudflare's AI Psychosis",
+          "url": "https://opensauce.it/cloudflare-ai-psychosis",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-15T14:08:40Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5454,
+      "importance": 0.5454,
+      "importance_score": 0.5454,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9978,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T14:08:40Z",
+      "latest_at": "2026-08-15T20:37:59.382000Z",
+      "primary_item": {
+        "id": "9de85b60c61e7ae7ae01c3fb807c4559569a43d5",
+        "title": "Cloudflare的AI精神错乱",
+        "url": "https://opensauce.it/cloudflare-ai-psychosis",
+        "source": "opensauce.it",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_d555dfa280b8",
+      "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
+      "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+      "primary_url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+      "source": "www.reuters.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "e23c5f4436bf46537732294ca2df9734da05cf9d",
+          "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T20:38:00.813000Z"
+        },
+        {
+          "id": "d1ca0dad4433f35492e832594ea3d9fd9e4d088b",
+          "title": "据《The Information》报道，英伟达正就向SB Energy投资30亿美元进行谈判，此举是OpenAI数据中心交易的一部分",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T19:50:12.744000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "e23c5f4436bf46537732294ca2df9734da05cf9d",
+          "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T20:38:00.813000Z"
+        },
+        {
+          "id": "d1ca0dad4433f35492e832594ea3d9fd9e4d088b",
+          "title": "据《The Information》报道，英伟达正就向SB Energy投资30亿美元进行谈判，此举是OpenAI数据中心交易的一部分",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T19:50:12.744000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5454,
+      "importance": 0.5454,
+      "importance_score": 0.5454,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9978,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-15T19:50:12.744000Z",
+      "latest_at": "2026-08-15T20:38:00.813000Z",
+      "primary_item": {
+        "id": "e23c5f4436bf46537732294ca2df9734da05cf9d",
+        "title": "据《Information》报道，英伟达计划在与OpenAI达成的数据中心合作协议框架下，向SB Energy投资30亿美元",
+        "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15",
+        "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
     },
@@ -629,15 +867,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5379,
-      "importance": 0.5379,
-      "importance_score": 0.5379,
+      "score": 0.5367,
+      "importance": 0.5367,
+      "importance_score": 0.5367,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8173,
+        "recency": 0.8105,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -708,15 +946,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5229,
-      "importance": 0.5229,
-      "importance_score": 0.5229,
+      "score": 0.5216,
+      "importance": 0.5216,
+      "importance_score": 0.5216,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8725,
+        "recency": 0.8653,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -787,15 +1025,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5229,
-      "importance": 0.5229,
-      "importance_score": 0.5229,
+      "score": 0.5216,
+      "importance": 0.5216,
+      "importance_score": 0.5216,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8725,
+        "recency": 0.8653,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -866,15 +1104,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5446,
-      "importance": 0.5446,
-      "importance_score": 0.5446,
+      "score": 0.5431,
+      "importance": 0.5431,
+      "importance_score": 0.5431,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9932,
+        "recency": 0.985,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -945,15 +1183,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5046,
-      "importance": 0.5046,
-      "importance_score": 0.5046,
+      "score": 0.5035,
+      "importance": 0.5035,
+      "importance_score": 0.5035,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7714,
+        "recency": 0.765,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -967,84 +1205,6 @@
         "title": "独家：消息人士称，Anthropic的IPO估值取决于2028年1900亿至2000亿美元的营收预测 - Reuters",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
         "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a5eaeb028e06",
-      "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-      "primary_url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-      "source": "www.reuters.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
-          "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
-          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T00:39:17.549000Z"
-        },
-        {
-          "id": "253a25bcf7c62b09a817c9d210fb19b99efff2a9",
-          "title": "据《华尔街日报》报道，英伟达缩减了对OpenAI数据中心的2500亿美元担保额度",
-          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T23:51:59.730000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
-          "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
-          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T00:39:17.549000Z"
-        },
-        {
-          "id": "253a25bcf7c62b09a817c9d210fb19b99efff2a9",
-          "title": "据《华尔街日报》报道，英伟达缩减了对OpenAI数据中心的2500亿美元担保额度",
-          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-14T23:51:59.730000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5015,
-      "importance": 0.5015,
-      "importance_score": 0.5015,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.754,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-14T23:51:59.730000Z",
-      "latest_at": "2026-08-15T00:39:17.549000Z",
-      "primary_item": {
-        "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
-        "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
-        "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
-        "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
     },
@@ -1101,15 +1261,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4943,
-      "importance": 0.4943,
-      "importance_score": 0.4943,
+      "score": 0.4933,
+      "importance": 0.4933,
+      "importance_score": 0.4933,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.714,
+        "recency": 0.7081,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1180,15 +1340,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5223,
-      "importance": 0.5223,
-      "importance_score": 0.5223,
+      "score": 0.521,
+      "importance": 0.521,
+      "importance_score": 0.521,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8692,
+        "recency": 0.862,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1278,15 +1438,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5382,
-      "importance": 0.5382,
-      "importance_score": 0.5382,
+      "score": 0.537,
+      "importance": 0.537,
+      "importance_score": 0.537,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8187,
+        "recency": 0.812,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1301,6 +1461,84 @@
         "url": "https://news.ycombinator.com/item?id=49307700",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_a5eaeb028e06",
+      "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+      "primary_url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+      "source": "www.reuters.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
+          "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T00:39:17.549000Z"
+        },
+        {
+          "id": "253a25bcf7c62b09a817c9d210fb19b99efff2a9",
+          "title": "据《华尔街日报》报道，英伟达缩减了对OpenAI数据中心的2500亿美元担保额度",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T23:51:59.730000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
+          "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-15T00:39:17.549000Z"
+        },
+        {
+          "id": "253a25bcf7c62b09a817c9d210fb19b99efff2a9",
+          "title": "据《华尔街日报》报道，英伟达缩减了对OpenAI数据中心的2500亿美元担保额度",
+          "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-14T23:51:59.730000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5004,
+      "importance": 0.5004,
+      "importance_score": 0.5004,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7478,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-14T23:51:59.730000Z",
+      "latest_at": "2026-08-15T00:39:17.549000Z",
+      "primary_item": {
+        "id": "96266f4e030691dcbf2f8a02a551b8a875f9743f",
+        "title": "据《华尔街日报》报道，英伟达缩减了对俄亥俄州OpenAI数据中心的资金担保",
+        "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+        "source": "www.reuters.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1357,15 +1595,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5217,
-      "importance": 0.5217,
-      "importance_score": 0.5217,
+      "score": 0.5204,
+      "importance": 0.5204,
+      "importance_score": 0.5204,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8659,
+        "recency": 0.8587,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1436,15 +1674,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5357,
-      "importance": 0.5357,
-      "importance_score": 0.5357,
+      "score": 0.5343,
+      "importance": 0.5343,
+      "importance_score": 0.5343,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9441,
+        "recency": 0.9363,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1457,243 +1695,6 @@
         "id": "9275bde78f1db83d1ec2a6ae94089898062b8bc7",
         "title": "人工智能现在可以设计功能性病毒。我们应该担心吗？ / AI Can Now Design Functional Viruses. Should We Worry?",
         "url": "https://news.ycombinator.com/item?id=49311445",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_c71ab223e5c0",
-      "title": "旧金山一家商店的AI主管刚刚解雇了第一位人类员工",
-      "url": "https://www.businessinsider.com/ai-running-sf-store-fired-employee-for-the-first-time-2026-8",
-      "primary_url": "https://www.businessinsider.com/ai-running-sf-store-fired-employee-for-the-first-time-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "dbcc639113a67c34be4b15783c590acda889f65c",
-          "title": "旧金山一家商店的AI主管刚刚解雇了第一位人类员工",
-          "url": "https://www.businessinsider.com/ai-running-sf-store-fired-employee-for-the-first-time-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T08:22:17.069000Z"
-        },
-        {
-          "id": "89c6527e6dbde2f93b0b21e76861baaadbc7d955",
-          "title": "旧金山一家商店的AI主管刚刚解雇了第一位人类员工 / The AI boss at a San Francisco store just fired its first human",
-          "url": "https://www.businessinsider.com/ai-running-sf-store-fired-employee-for-the-first-time-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T08:11:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "dbcc639113a67c34be4b15783c590acda889f65c",
-          "title": "旧金山一家商店的AI主管刚刚解雇了第一位人类员工",
-          "url": "https://www.businessinsider.com/ai-running-sf-store-fired-employee-for-the-first-time-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-15T08:22:17.069000Z"
-        },
-        {
-          "id": "89c6527e6dbde2f93b0b21e76861baaadbc7d955",
-          "title": "旧金山一家商店的AI主管刚刚解雇了第一位人类员工 / The AI boss at a San Francisco store just fired its first human",
-          "url": "https://www.businessinsider.com/ai-running-sf-store-fired-employee-for-the-first-time-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-15T08:11:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5175,
-      "importance": 0.5175,
-      "importance_score": 0.5175,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8429,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T08:11:01Z",
-      "latest_at": "2026-08-15T08:22:17.069000Z",
-      "primary_item": {
-        "id": "dbcc639113a67c34be4b15783c590acda889f65c",
-        "title": "旧金山一家商店的AI主管刚刚解雇了第一位人类员工",
-        "url": "https://www.businessinsider.com/ai-running-sf-store-fired-employee-for-the-first-time-2026-8",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_31e1fb4663ab",
-      "title": "软件开发中的人工智能现状 / The AI Situation in Software Development",
-      "url": "https://news.ycombinator.com/item?id=49310755",
-      "primary_url": "https://news.ycombinator.com/item?id=49310755",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "b69f22b0fea2154dedef501019cccae418782581",
-          "title": "软件开发中的人工智能现状 / The AI Situation in Software Development",
-          "url": "https://news.ycombinator.com/item?id=49310755",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T16:13:39.328000Z"
-        },
-        {
-          "id": "5c229e7adb0d83c400ca76018c382dd2a9516a89",
-          "title": "软件开发中的人工智能现状 / The AI Situation in Software Development",
-          "url": "https://srikanth.ch/posts/the-ai-situation",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-15T14:12:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "b69f22b0fea2154dedef501019cccae418782581",
-          "title": "软件开发中的人工智能现状 / The AI Situation in Software Development",
-          "url": "https://news.ycombinator.com/item?id=49310755",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T16:13:39.328000Z"
-        },
-        {
-          "id": "5c229e7adb0d83c400ca76018c382dd2a9516a89",
-          "title": "软件开发中的人工智能现状 / The AI Situation in Software Development",
-          "url": "https://srikanth.ch/posts/the-ai-situation",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-15T14:12:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5357,
-      "importance": 0.5357,
-      "importance_score": 0.5357,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9441,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T14:12:27Z",
-      "latest_at": "2026-08-15T16:13:39.328000Z",
-      "primary_item": {
-        "id": "b69f22b0fea2154dedef501019cccae418782581",
-        "title": "软件开发中的人工智能现状 / The AI Situation in Software Development",
-        "url": "https://news.ycombinator.com/item?id=49310755",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_3e34ba37fa70",
-      "title": "Yadda 3.0.0：人工智能代理时代的 BDD / Yadda 3.0.0: BDD in the Age of AI Agents",
-      "url": "https://news.ycombinator.com/item?id=49310495",
-      "primary_url": "https://news.ycombinator.com/item?id=49310495",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "f6b38b4dde366310ef65c6d8455cfeda8e83552c",
-          "title": "Yadda 3.0.0：人工智能代理时代的 BDD / Yadda 3.0.0: BDD in the Age of AI Agents",
-          "url": "https://news.ycombinator.com/item?id=49310495",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T14:47:15.498000Z"
-        },
-        {
-          "id": "6798338c29b45497deb2f55f717a29ab9fe91ec2",
-          "title": "Yadda 3.0.0：人工智能代理时代的 BDD / Yadda 3.0.0: BDD in the Age of AI Agents",
-          "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T13:43:46Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "f6b38b4dde366310ef65c6d8455cfeda8e83552c",
-          "title": "Yadda 3.0.0：人工智能代理时代的 BDD / Yadda 3.0.0: BDD in the Age of AI Agents",
-          "url": "https://news.ycombinator.com/item?id=49310495",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-15T14:47:15.498000Z"
-        },
-        {
-          "id": "6798338c29b45497deb2f55f717a29ab9fe91ec2",
-          "title": "Yadda 3.0.0：人工智能代理时代的 BDD / Yadda 3.0.0: BDD in the Age of AI Agents",
-          "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-15T13:43:46Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5322,
-      "importance": 0.5322,
-      "importance_score": 0.5322,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9247,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-15T13:43:46Z",
-      "latest_at": "2026-08-15T14:47:15.498000Z",
-      "primary_item": {
-        "id": "f6b38b4dde366310ef65c6d8455cfeda8e83552c",
-        "title": "Yadda 3.0.0：人工智能代理时代的 BDD / Yadda 3.0.0: BDD in the Age of AI Agents",
-        "url": "https://news.ycombinator.com/item?id=49310495",
         "source": "hackernews",
         "source_name": "NewsNow"
       }
