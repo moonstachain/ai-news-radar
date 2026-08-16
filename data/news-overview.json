@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "snapshot_id": "0dcd786633398021",
+  "snapshot_id": "d797cfc3cc003874",
   "channel": "ai-news",
-  "generated_at": "2026-08-16T10:14:49.653934Z",
+  "generated_at": "2026-08-16T11:12:39.214470Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 382,
-    "high_priority": 11,
+    "signals": 375,
+    "high_priority": 9,
     "briefs": 20,
     "stories": 344
   },
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 129,
-    "Info Flow": 74,
+    "Buzzing": 128,
     "Zeli": 74,
-    "TechURLs": 41,
-    "NewsNow": 38,
+    "Info Flow": 73,
+    "TechURLs": 39,
+    "NewsNow": 37,
     "Curated Media": 10,
     "Follow Builders": 8,
-    "AI HOT": 3
+    "OPML RSS": 3
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "cursor.com"
       ],
-      "importance_score": 0.7563,
+      "importance_score": 0.7543,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,12 +87,11 @@
       "source_names": [
         "Daily Digest"
       ],
-      "importance_score": 0.7503,
+      "importance_score": 0.7481,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "latest_at": "2026-08-16T03:15:09Z",
       "earliest_at": "2026-08-16T03:15:09Z",
@@ -110,43 +109,44 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_2deeef90fc1a",
-      "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入 / AI-generated books are flooding Amazon and tanking sales for human authors",
-      "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
-      "primary_url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_7086513972fc",
+      "title": "Anthropic 分享了有关克劳德新水印如何运作的更多细节 / Anthropic shares more details about how Claude’s new watermarks will work",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "primary_url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
       "source_count": 2,
       "source_names": [
-        "The Decoder：AI News（RSS）"
+        "HN Algolia · AI 24h",
+        "TechCrunch AI"
       ],
-      "importance_score": 0.7353,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.6361,
+      "importance_label": "值得关注",
+      "category": "watch",
       "reasons": [
         "multi_source",
         "high_ai_relevance"
       ],
-      "latest_at": "2026-08-15T11:00:50Z",
-      "earliest_at": "2026-08-15T11:00:50Z",
+      "latest_at": "2026-08-15T22:07:08Z",
+      "earliest_at": "2026-08-15T18:58:39Z",
       "sources": [
         {
-          "id": "d7799803fcf09767f5fac7c966f8170274cdec44",
-          "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入 / AI-generated books are flooding Amazon and tanking sales for human authors",
-          "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-15T11:00:50Z"
+          "id": "ec86a32dff4fd6dbb4f2436446fbeb7445e157c3",
+          "title": "Anthropic 分享了有关克劳德新水印如何运作的更多细节 / Anthropic shares more details about how Claude’s new watermarks will work",
+          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-15T18:58:39Z"
         },
         {
-          "id": "237f5929662e76d04e6158b8f564028e5c415071",
-          "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
-          "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-15T11:00:50Z"
+          "id": "af7117a7926ff54dcf1993c6b0c5f9b9eda4927d",
+          "title": "Anthropic 分享了有关克劳德的新水印如何工作的详细信息 / Anthropic shares details about how Claude's new watermarks will work",
+          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "site_id": "hackernews",
+          "published_at": "2026-08-15T22:07:08Z"
         }
       ],
       "confidence": "multi-source"
