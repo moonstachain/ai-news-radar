@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "0a2ff3802472d40c",
+  "snapshot_id": "be13df5f97f8e9aa",
   "channel": "ai-news",
-  "generated_at": "2026-08-15T23:43:14.643035Z",
+  "generated_at": "2026-08-16T00:39:10.437435Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 425,
+    "signals": 420,
     "high_priority": 9,
     "briefs": 20,
-    "stories": 382
+    "stories": 379
   },
   "coverage": {
     "successful": 16,
@@ -23,13 +23,13 @@
   ],
   "section_counts": {
     "Buzzing": 143,
-    "Info Flow": 106,
-    "Zeli": 66,
-    "TechURLs": 47,
-    "NewsNow": 39,
+    "Info Flow": 105,
+    "Zeli": 67,
+    "TechURLs": 46,
+    "NewsNow": 37,
     "Curated Media": 10,
     "Follow Builders": 5,
-    "OPML RSS": 5
+    "AI HOT": 3
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "cursor.com"
       ],
-      "importance_score": 0.7804,
+      "importance_score": 0.7781,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +87,7 @@
       "source_names": [
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7564,
+      "importance_score": 0.7544,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -131,7 +131,7 @@
         "HN Algolia · AI 24h",
         "TechCrunch AI"
       ],
-      "importance_score": 0.6618,
+      "importance_score": 0.6596,
       "importance_label": "值得关注",
       "category": "watch",
       "reasons": [
