@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a0a0c3f6a3a9eb2f",
+  "snapshot_id": "125b79c138f0ba60",
   "channel": "ai-news",
-  "generated_at": "2026-08-16T02:16:35.328548Z",
+  "generated_at": "2026-08-16T03:26:40.605314Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 406,
-    "high_priority": 9,
+    "signals": 416,
+    "high_priority": 10,
     "briefs": 20,
-    "stories": 365
+    "stories": 374
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 136,
-    "Info Flow": 100,
-    "Zeli": 67,
-    "TechURLs": 45,
-    "NewsNow": 37,
+    "Buzzing": 139,
+    "Info Flow": 99,
+    "Zeli": 70,
+    "TechURLs": 46,
+    "NewsNow": 40,
     "Curated Media": 10,
     "Follow Builders": 4,
     "AI HOT": 3
@@ -44,7 +44,7 @@
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "cursor.com"
       ],
-      "importance_score": 0.7742,
+      "importance_score": 0.7715,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -77,6 +77,39 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_c64728df94ac",
+      "title": "何夕2077 AI 深度信号周报 (2026-W33) | 智能体失控危机与开源大模型百团大战",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-16-hexi-2077-ai-weekly-2026-w33",
+      "primary_url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-16-hexi-2077-ai-weekly-2026-w33",
+      "source": "Daily Digest",
+      "source_name": "AI HubToday",
+      "source_count": 1,
+      "source_names": [
+        "Daily Digest"
+      ],
+      "importance_score": 0.7671,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-16T03:15:09Z",
+      "earliest_at": "2026-08-16T03:15:09Z",
+      "sources": [
+        {
+          "id": "e6801d6dd08bb56c57b6a26c7913167eca79f86e",
+          "title": "何夕2077 AI 深度信号周报 (2026-W33) | 智能体失控危机与开源大模型百团大战",
+          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-16-hexi-2077-ai-weekly-2026-w33",
+          "source": "Daily Digest",
+          "source_name": "AI HubToday",
+          "site_id": "aihubtoday",
+          "published_at": "2026-08-16T03:15:09Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_2deeef90fc1a",
       "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入 / AI-generated books are flooding Amazon and tanking sales for human authors",
       "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
@@ -87,13 +120,12 @@
       "source_names": [
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.751,
+      "importance_score": 0.7486,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
         "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "latest_at": "2026-08-15T11:00:50Z",
       "earliest_at": "2026-08-15T11:00:50Z",
@@ -115,49 +147,6 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-15T11:00:50Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_7086513972fc",
-      "title": "Anthropic 分享了有关克劳德新水印如何运作的更多细节 / Anthropic shares more details about how Claude’s new watermarks will work",
-      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
-      "primary_url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "source_count": 2,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "TechCrunch AI"
-      ],
-      "importance_score": 0.6557,
-      "importance_label": "值得关注",
-      "category": "watch",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "latest_at": "2026-08-15T22:07:08Z",
-      "earliest_at": "2026-08-15T18:58:39Z",
-      "sources": [
-        {
-          "id": "ec86a32dff4fd6dbb4f2436446fbeb7445e157c3",
-          "title": "Anthropic 分享了有关克劳德新水印如何运作的更多细节 / Anthropic shares more details about how Claude’s new watermarks will work",
-          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-15T18:58:39Z"
-        },
-        {
-          "id": "af7117a7926ff54dcf1993c6b0c5f9b9eda4927d",
-          "title": "Anthropic 分享了有关克劳德的新水印如何工作的详细信息 / Anthropic shares details about how Claude's new watermarks will work",
-          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-15T22:07:08Z"
         }
       ],
       "confidence": "multi-source"
