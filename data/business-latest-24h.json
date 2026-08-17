@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T12:23:19.643611Z",
+  "generated_at": "2026-08-17T13:16:45.174593Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-17T08:19:12.151000Z",
-      "captured_at": "2026-08-17T12:23:19.643611Z",
+      "captured_at": "2026-08-17T13:16:45.174593Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -48,7 +48,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-17T12:04:02Z",
-      "captured_at": "2026-08-17T12:23:19.643611Z",
+      "captured_at": "2026-08-17T13:16:45.174593Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -81,13 +81,51 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_51215856cd3f",
+      "title": "An Analysis of 1,000 Meetings Shows How the Best Leaders Shape Conversations",
+      "url": "https://hbr.org/2026/08/an-analysis-of-1000-meetings-shows-how-the-best-leaders-shape-conversations",
+      "source_id": "hbr",
+      "source_name": "Harvard Business Review",
+      "published_at": "2026-08-17T12:05:33Z",
+      "captured_at": "2026-08-17T13:16:45.174593Z",
+      "lane": "authority",
+      "entities": [
+        "Harvard Business Review",
+        "An Analysis",
+        "Meetings Shows How",
+        "Best Leaders Shape",
+        "Conversations"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 4,
+      "total_score": 32,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 0,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "An Analysis of 1,000 Meetings Shows How the Best Leaders Shape Conversations Tags: AI Business Model Innovation.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_b68425c34a06",
       "title": "The Power of Opportunity Mindset in Hiring",
       "url": "https://sloanreview.mit.edu/article/the-power-of-opportunity-mindset-in-hiring/",
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-17T11:00:28Z",
-      "captured_at": "2026-08-17T12:23:19.643611Z",
+      "captured_at": "2026-08-17T13:16:45.174593Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
