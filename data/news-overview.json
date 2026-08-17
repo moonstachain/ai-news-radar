@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c320b64fc90b25f6",
+  "snapshot_id": "95d967c8d6cba0aa",
   "channel": "ai-news",
-  "generated_at": "2026-08-17T07:44:41.899856Z",
+  "generated_at": "2026-08-17T08:32:40.346746Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 302,
-    "high_priority": 6,
-    "briefs": 18,
-    "stories": 282
+    "signals": 315,
+    "high_priority": 7,
+    "briefs": 20,
+    "stories": 294
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,50 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 92,
-    "Buzzing": 84,
-    "Zeli": 50,
-    "TechURLs": 29,
+    "Info Flow": 105,
+    "Buzzing": 80,
+    "Zeli": 53,
+    "TechURLs": 30,
     "NewsNow": 22,
     "Curated Media": 10,
     "Follow Builders": 7,
     "Hacker News": 4
   },
   "top_stories": [
+    {
+      "story_id": "story_cfb1ad6d5c2e",
+      "title": "与 Gemini 和 Pixel 一起近距离接触游戏 / Get closer to the game with Gemini and Pixel",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships",
+      "primary_url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships",
+      "source": "Google AI Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "importance_score": 0.8506,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-17T08:00:00Z",
+      "earliest_at": "2026-08-17T08:00:00Z",
+      "sources": [
+        {
+          "id": "a91b14668f19e9c4b49f9e20ab96e03d79f7e084",
+          "title": "与 Gemini 和 Pixel 一起近距离接触游戏 / Get closer to the game with Gemini and Pixel",
+          "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships",
+          "source": "Google AI Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-17T08:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_81603460e983",
       "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
@@ -44,7 +78,7 @@
         "Hacker News · 24h最热",
         "Simon Willison 博客"
       ],
-      "importance_score": 0.772,
+      "importance_score": 0.7702,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +121,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7246,
+      "importance_score": 0.723,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -107,48 +141,6 @@
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_943d4b7d862e",
-      "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-      "primary_url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "TechCrunch AI"
-      ],
-      "importance_score": 0.6228,
-      "importance_label": "值得关注",
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "latest_at": "2026-08-16T20:57:04Z",
-      "earliest_at": "2026-08-16T20:31:16Z",
-      "sources": [
-        {
-          "id": "a36cccd05f2b13d1fbf4f33de6e728bbf53aa3dd",
-          "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-16T20:57:04Z"
-        },
-        {
-          "id": "b978d69a084c5e082723c8d3b796855d23fb4f5d",
-          "title": "据报道 Stripe 将以 7B+ 美元收购 OpenRouter / Stripe will reportedly acquire OpenRouter for $7B+",
-          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T20:31:16Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }
