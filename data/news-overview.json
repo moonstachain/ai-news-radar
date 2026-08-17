@@ -1,33 +1,34 @@
 {
   "schema_version": 1,
-  "snapshot_id": "77f571d8cf3ad1f9",
+  "snapshot_id": "40f816d64a60d6cf",
   "channel": "ai-news",
-  "generated_at": "2026-08-17T12:22:08.904212Z",
+  "generated_at": "2026-08-17T13:15:33.528917Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 385,
-    "high_priority": 8,
+    "signals": 397,
+    "high_priority": 12,
     "briefs": 20,
-    "stories": 361
+    "stories": 373
   },
   "coverage": {
-    "successful": 16,
+    "successful": 15,
     "total": 17,
-    "failed": 1,
-    "ratio": 0.9412,
+    "failed": 2,
+    "ratio": 0.8824,
     "status": "healthy"
   },
   "failed_sources": [
-    "aibreakfast"
+    "aibreakfast",
+    "newsnow"
   ],
   "section_counts": {
-    "Info Flow": 122,
-    "Buzzing": 98,
-    "Zeli": 55,
-    "TechURLs": 50,
+    "Info Flow": 129,
+    "Buzzing": 102,
+    "Zeli": 51,
+    "TechURLs": 51,
     "NewsNow": 28,
-    "Curated Media": 12,
+    "Curated Media": 13,
     "Follow Builders": 7,
     "OPML RSS": 7
   },
@@ -43,7 +44,7 @@
       "source_names": [
         "Google AI Blog"
       ],
-      "importance_score": 0.841,
+      "importance_score": 0.8388,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -67,17 +68,17 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_96670aeff66e",
-      "title": "情报时代的新政策理念 / New policy ideas for the Intelligence Age",
-      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-      "primary_url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "story_id": "story_f137d9ea2f9f",
+      "title": "防守者之窗 / The Defender’s Window",
+      "url": "https://openai.com/index/the-defenders-window",
+      "primary_url": "https://openai.com/index/the-defenders-window",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "OpenAI News"
       ],
-      "importance_score": 0.8298,
+      "importance_score": 0.8329,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -85,64 +86,54 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-17T03:15:00Z",
-      "earliest_at": "2026-08-17T03:15:00Z",
+      "latest_at": "2026-08-17T05:30:00Z",
+      "earliest_at": "2026-08-17T05:30:00Z",
       "sources": [
         {
-          "id": "98012ec2d34b31c122d53ffafb6e0cbb292bd317",
-          "title": "情报时代的新政策理念 / New policy ideas for the Intelligence Age",
-          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "id": "9163f70edad4cc1828e92c7e823a607aad5512f0",
+          "title": "防守者之窗 / The Defender’s Window",
+          "url": "https://openai.com/index/the-defenders-window",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-17T03:15:00Z"
+          "published_at": "2026-08-17T05:30:00Z"
         }
       ],
       "confidence": "single-source"
     },
     {
-      "story_id": "story_81603460e983",
-      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
-      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
-      "primary_url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
-      "source": "Simon Willison 博客",
-      "source_name": "AI HOT",
-      "source_count": 2,
+      "story_id": "story_ad5623d5cc70",
+      "title": "OpenAI 加入 PORTS-Pike 项目 / OpenAI joins PORTS-Pike project",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "primary_url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Simon Willison 博客"
+        "OpenAI News"
       ],
-      "importance_score": 0.7619,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.8318,
+      "importance_label": "官方更新",
+      "category": "official",
       "reasons": [
-        "multi_source",
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-16T23:45:09Z",
-      "earliest_at": "2026-08-16T22:00:39Z",
+      "latest_at": "2026-08-17T05:00:00Z",
+      "earliest_at": "2026-08-17T05:00:00Z",
       "sources": [
         {
-          "id": "e37a636db32579233e4e64ee024855a5030f5857",
-          "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
-          "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
-          "source": "Simon Willison 博客",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-16T22:00:39Z"
-        },
-        {
-          "id": "a8f7dd520c79805babb8f9bba229b4ceb8c79656",
-          "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考 / Qwen 3.8 27B is excellent, but it defaults to overthinking things",
-          "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T23:45:09Z"
+          "id": "56b86347d148780724bfa2fb4adea8f45cdf3e76",
+          "title": "OpenAI 加入 PORTS-Pike 项目 / OpenAI joins PORTS-Pike project",
+          "url": "https://openai.com/index/openai-joins-ports-pike-project",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-17T05:00:00Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     }
   ]
 }
