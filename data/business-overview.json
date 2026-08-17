@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "9f863370da54cee3",
+  "snapshot_id": "dc94728bd659f725",
   "channel": "ai-business",
-  "generated_at": "2026-08-17T10:57:42.819002Z",
+  "generated_at": "2026-08-17T11:19:06.826455Z",
   "window_hours": 24,
-  "decision": "Prioritize evidence with concrete economics, repeatable distribution, and explicit counter-signals.",
+  "decision": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
   "metrics": {
-    "signals": 0,
-    "briefs": 0,
-    "clusters": 0,
-    "cases": 0
+    "signals": 2,
+    "briefs": 2,
+    "clusters": 2,
+    "cases": 1
   },
   "coverage": {
     "successful": 17,
@@ -18,7 +18,112 @@
     "ratio": 0.6538,
     "status": "limited"
   },
-  "brief": [],
-  "actions": [],
-  "clusters": []
+  "brief": [
+    {
+      "brief_id": "biz_brief_d82ff9cb54f1",
+      "rank": 1,
+      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_22676975c6d9"
+      ],
+      "evidence_titles": [
+        "Most platforms treat founders as data. We're trying something uncomfortably human."
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
+    },
+    {
+      "brief_id": "biz_brief_6e9a16e160b9",
+      "rank": 2,
+      "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_b68425c34a06"
+      ],
+      "evidence_titles": [
+        "The Power of Opportunity Mindset in Hiring"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
+    }
+  ],
+  "actions": [
+    {
+      "id": "biz_brief_d82ff9cb54f1",
+      "label": "Brief #1",
+      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
+    },
+    {
+      "id": "biz_brief_6e9a16e160b9",
+      "label": "Brief #2",
+      "title": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": "biz_cluster_7fcc3543eaa4",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "source_count": 1,
+      "importance_score": 53,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_22676975c6d9"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "Most platforms treat founders as data. We're trying something uncomfortably human.",
+          "url": "https://www.indiehackers.com/post/most-platforms-treat-founders-as-data-were-trying-something-uncomfortably-human-d731289806"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_5e8407b00246",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "source_count": 1,
+      "importance_score": 33,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_b68425c34a06"
+      ],
+      "top_sources": [
+        {
+          "source": "MIT Sloan Management Review",
+          "title": "The Power of Opportunity Mindset in Hiring",
+          "url": "https://sloanreview.mit.edu/article/the-power-of-opportunity-mindset-in-hiring/"
+        }
+      ]
+    }
+  ]
 }
