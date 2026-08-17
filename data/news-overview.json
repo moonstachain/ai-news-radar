@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "0c1fb4335474f3a6",
+  "snapshot_id": "09002ff05245846f",
   "channel": "ai-news",
-  "generated_at": "2026-08-17T05:59:30.781437Z",
+  "generated_at": "2026-08-17T06:41:50.989138Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 273,
-    "high_priority": 2,
+    "signals": 283,
+    "high_priority": 6,
     "briefs": 18,
-    "stories": 253
+    "stories": 262
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 81,
-    "Info Flow": 72,
-    "Zeli": 48,
-    "TechURLs": 32,
-    "NewsNow": 22,
+    "Buzzing": 79,
+    "Info Flow": 76,
+    "Zeli": 50,
+    "TechURLs": 29,
+    "NewsNow": 24,
     "Curated Media": 10,
-    "Hacker News": 4,
-    "AI HOT": 2
+    "Follow Builders": 7,
+    "Hacker News": 4
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "Hacker News · 24h最热",
         "Simon Willison 博客"
       ],
-      "importance_score": 0.776,
+      "importance_score": 0.7744,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +87,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.728,
+      "importance_score": 0.7266,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -120,7 +120,7 @@
         "Hacker News · 24h最热",
         "TechCrunch AI"
       ],
-      "importance_score": 0.6267,
+      "importance_score": 0.6251,
       "importance_label": "值得关注",
       "category": "watch",
       "reasons": [
