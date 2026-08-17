@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "b838d922411e4be5",
+  "snapshot_id": "c977b68e4e531f1c",
   "channel": "ai-news",
-  "generated_at": "2026-08-16T13:09:06.563464Z",
+  "generated_at": "2026-08-17T05:06:56.935299Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 363,
-    "high_priority": 10,
-    "briefs": 20,
-    "stories": 331
+    "signals": 266,
+    "high_priority": 3,
+    "briefs": 16,
+    "stories": 248
   },
   "coverage": {
     "successful": 16,
@@ -22,29 +22,29 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 119,
-    "Info Flow": 75,
-    "Zeli": 70,
-    "NewsNow": 37,
-    "TechURLs": 36,
+    "Buzzing": 78,
+    "Info Flow": 67,
+    "Zeli": 45,
+    "TechURLs": 33,
+    "NewsNow": 23,
     "Curated Media": 11,
-    "Follow Builders": 8,
-    "OPML RSS": 3
+    "Hacker News": 3,
+    "AI HOT": 2
   },
   "top_stories": [
     {
-      "story_id": "story_af863cb3b215",
-      "title": "新兴多智能体系统的模式与问题",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "primary_url": "https://www.anthropic.com/research/multiagent-systems",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_81603460e983",
+      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "primary_url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "source": "Simon Willison 博客",
       "source_name": "AI HOT",
       "source_count": 2,
       "source_names": [
-        "Hacker News",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "Hacker News · 24h最热",
+        "Simon Willison 博客"
       ],
-      "importance_score": 0.7908,
+      "importance_score": 0.778,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -52,8 +52,49 @@
         "high_ai_relevance",
         "high_importance"
       ],
+      "latest_at": "2026-08-16T23:45:09Z",
+      "earliest_at": "2026-08-16T22:00:39Z",
+      "sources": [
+        {
+          "id": "e37a636db32579233e4e64ee024855a5030f5857",
+          "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+          "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+          "source": "Simon Willison 博客",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-16T22:00:39Z"
+        },
+        {
+          "id": "a8f7dd520c79805babb8f9bba229b4ceb8c79656",
+          "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考 / Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+          "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T23:45:09Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_af863cb3b215",
+      "title": "新兴多智能体系统的模式与问题",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "primary_url": "https://www.anthropic.com/research/multiagent-systems",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "importance_score": 0.7298,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
       "latest_at": "2026-08-16T11:17:57.393000Z",
-      "earliest_at": "2026-08-16T02:12:53Z",
+      "earliest_at": "2026-08-16T11:17:57.393000Z",
       "sources": [
         {
           "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
@@ -63,91 +104,68 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-16T11:17:57.393000Z"
-        },
-        {
-          "id": "27b9f4089f8085a15aae2a3d357f5462459861f1",
-          "title": "新兴多智能体系统的模式与问题 / Patterns and problems in emerging multi-agent systems",
-          "url": "https://www.anthropic.com/research/multiagent-systems",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-16T02:12:53Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_c64728df94ac",
-      "title": "何夕2077 AI 深度信号周报 (2026-W33) | 智能体失控危机与开源大模型百团大战",
-      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-16-hexi-2077-ai-weekly-2026-w33",
-      "primary_url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-16-hexi-2077-ai-weekly-2026-w33",
-      "source": "Daily Digest",
-      "source_name": "AI HubToday",
-      "source_count": 1,
-      "source_names": [
-        "Daily Digest"
-      ],
-      "importance_score": 0.7436,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "latest_at": "2026-08-16T03:15:09Z",
-      "earliest_at": "2026-08-16T03:15:09Z",
-      "sources": [
-        {
-          "id": "e6801d6dd08bb56c57b6a26c7913167eca79f86e",
-          "title": "何夕2077 AI 深度信号周报 (2026-W33) | 智能体失控危机与开源大模型百团大战",
-          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-16-hexi-2077-ai-weekly-2026-w33",
-          "source": "Daily Digest",
-          "source_name": "AI HubToday",
-          "site_id": "aihubtoday",
-          "published_at": "2026-08-16T03:15:09Z"
         }
       ],
       "confidence": "single-source"
     },
     {
-      "story_id": "story_20b744e598ba",
-      "title": "Cursor 正式被 SpaceX 收购",
-      "url": "https://cursor.com/blog/joining-spacex",
-      "primary_url": "https://cursor.com/blog/joining-spacex",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 2,
+      "story_id": "story_7b2c05cb77f7",
+      "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO says the way for AI to win over the public is to cure cancer",
+      "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+      "primary_url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "source_count": 4,
       "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "cursor.com"
+        "Business Insider",
+        "Hacker News · 24h最热",
+        "Reddit (热门)",
+        "www.businessinsider.com"
       ],
-      "importance_score": 0.7503,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.5802,
+      "importance_label": "多源热议",
+      "category": "multi_source",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "multi_source"
       ],
-      "latest_at": "2026-08-15T20:05:54.703000Z",
-      "earliest_at": "2026-08-15T20:05:54.703000Z",
+      "latest_at": "2026-08-16T22:50:38Z",
+      "earliest_at": "2026-08-16T16:30:38Z",
       "sources": [
         {
-          "id": "381d3c56c3c3f15c2c5b031f0dc679588e6f701a",
-          "title": "Cursor 正式被 SpaceX 收购",
-          "url": "https://cursor.com/blog/joining-spacex",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-15T20:05:54.703000Z"
+          "id": "6268ff9620c08a5d516fcf2a63fe7c8e8047a6e3",
+          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO says the way for AI to win over the public is to cure cancer",
+          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T22:50:38Z"
         },
         {
-          "id": "7a50d104b08c9f2172194c60466aa260cc885830",
-          "title": "Cursor 现已成为 SpaceX 的一部分",
-          "url": "https://cursor.com/blog/joining-spacex",
-          "source": "cursor.com",
+          "id": "4b4fdc768257e83bb3fecdbb54a3c9651d99720f",
+          "title": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，人工智能赢得公众的方式是“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
+          "url": "https://www.reddit.com/r/technology/comments/1vq3dh3/anthropic_ceo_dario_amodei_says_the_way_for_ai_to",
+          "source": "Reddit (热门)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-16T17:41:11Z"
+        },
+        {
+          "id": "6b7f817511c20eb80d840e5f520413ad9e366270",
+          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症",
+          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-15T20:05:54.703000Z"
+          "published_at": "2026-08-16T17:26:40.217000Z"
+        },
+        {
+          "id": "b3f6977b46a76bd87884fd151cb205504f398853",
+          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
+          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-16T16:30:38Z"
         }
       ],
       "confidence": "multi-source"
