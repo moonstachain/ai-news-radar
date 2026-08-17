@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "f907ffe50585e4d4",
+  "snapshot_id": "9f863370da54cee3",
   "channel": "ai-news",
-  "generated_at": "2026-08-17T10:05:15.767661Z",
+  "generated_at": "2026-08-17T10:56:33.919309Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 341,
+    "signals": 361,
     "high_priority": 7,
-    "briefs": 20,
-    "stories": 320
+    "briefs": 18,
+    "stories": 341
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 114,
-    "Buzzing": 82,
+    "Info Flow": 123,
+    "Buzzing": 86,
     "Zeli": 55,
-    "TechURLs": 38,
-    "NewsNow": 25,
+    "TechURLs": 45,
+    "NewsNow": 24,
     "Curated Media": 11,
     "Follow Builders": 7,
-    "OPML RSS": 3
+    "OPML RSS": 4
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "Google AI Blog"
       ],
-      "importance_score": 0.8467,
+      "importance_score": 0.8445,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,7 +78,7 @@
         "Hacker News · 24h最热",
         "Simon Willison 博客"
       ],
-      "importance_score": 0.7668,
+      "importance_score": 0.7649,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -111,36 +111,46 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_af863cb3b215",
-      "title": "新兴多智能体系统的模式与问题",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "primary_url": "https://www.anthropic.com/research/multiagent-systems",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 1,
+      "story_id": "story_943d4b7d862e",
+      "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+      "primary_url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
+      "source_count": 2,
       "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "Hacker News · 24h最热",
+        "TechCrunch AI"
       ],
-      "importance_score": 0.7201,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.6158,
+      "importance_label": "值得关注",
+      "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "latest_at": "2026-08-16T11:17:57.393000Z",
-      "earliest_at": "2026-08-16T11:17:57.393000Z",
+      "latest_at": "2026-08-16T20:57:04Z",
+      "earliest_at": "2026-08-16T20:31:16Z",
       "sources": [
         {
-          "id": "28c4fbc3d457eb7921e4d9a800e6bf7e40561eaf",
-          "title": "新兴多智能体系统的模式与问题",
-          "url": "https://www.anthropic.com/research/multiagent-systems",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-16T11:17:57.393000Z"
+          "id": "a36cccd05f2b13d1fbf4f33de6e728bbf53aa3dd",
+          "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-16T20:57:04Z"
+        },
+        {
+          "id": "b978d69a084c5e082723c8d3b796855d23fb4f5d",
+          "title": "据报道 Stripe 将以 7B+ 美元收购 OpenRouter / Stripe will reportedly acquire OpenRouter for $7B+",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T20:31:16Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }
