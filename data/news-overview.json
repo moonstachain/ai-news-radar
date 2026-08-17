@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a5a91a48493893f9",
+  "snapshot_id": "49f8aa1887b38dc8",
   "channel": "ai-news",
-  "generated_at": "2026-08-17T19:07:32.083743Z",
+  "generated_at": "2026-08-17T19:50:59.973195Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 537,
-    "high_priority": 21,
+    "signals": 556,
+    "high_priority": 22,
     "briefs": 20,
-    "stories": 489
+    "stories": 503
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 148,
-    "Buzzing": 143,
-    "TechURLs": 85,
-    "Zeli": 70,
-    "NewsNow": 36,
+    "Buzzing": 153,
+    "Info Flow": 149,
+    "TechURLs": 87,
+    "Zeli": 73,
+    "NewsNow": 38,
     "Curated Media": 19,
     "OPML RSS": 13,
     "AI HOT": 9
@@ -47,7 +47,7 @@
         "Simon Willison",
         "www.404media.co"
       ],
-      "importance_score": 0.8637,
+      "importance_score": 0.8618,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,6 +107,40 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_b597a3d03ee7",
+      "title": "相同的集群，利用率增加了 33 个点：改变的是顺序 / Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "primary_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "importance_score": 0.8598,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-17T19:46:21Z",
+      "earliest_at": "2026-08-17T19:46:21Z",
+      "sources": [
+        {
+          "id": "4f25f81b303f8e33d4c266b4ceef6fee39e8f9da",
+          "title": "相同的集群，利用率增加了 33 个点：改变的是顺序 / Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+          "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-17T19:46:21Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_f137d9ea2f9f",
       "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window / The Defender’s Window",
       "url": "https://openai.com/index/the-defenders-window",
@@ -118,7 +152,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8448,
+      "importance_score": 0.8433,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -150,40 +184,6 @@
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_3b2aba282400",
-      "title": "画布如何使代理工作流程可见、可操纵且经济高效 / How canvases make agentic workflows visible, steerable, and cost-efficient",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "importance_score": 0.8361,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-17T16:00:00Z",
-      "earliest_at": "2026-08-17T16:00:00Z",
-      "sources": [
-        {
-          "id": "9906b46475e583e00b16574efb087d7c6a44e46f",
-          "title": "画布如何使代理工作流程可见、可操纵且经济高效 / How canvases make agentic workflows visible, steerable, and cost-efficient",
-          "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-17T16:00:00Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }
