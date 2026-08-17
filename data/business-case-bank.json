@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T21:50:13.787724Z",
+  "generated_at": "2026-08-17T22:15:33.611064Z",
   "cases": [
     {
       "case_id": "opc_case_95901879e4e6",
@@ -44,6 +44,27 @@
         "ftf_trust"
       ],
       "score": 55
+    },
+    {
+      "case_id": "opc_case_bc1607d29b90",
+      "company": "Executive Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_449e080b7f6b"
+      ],
+      "url": "https://www.cbinsights.com/research/executive-interview-mea/",
+      "title": "Executive Interview: mea",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     },
     {
       "case_id": "opc_case_83cc3790ed62",
@@ -234,26 +255,6 @@
         "yuanli_startup"
       ],
       "score": 47
-    },
-    {
-      "case_id": "opc_case_3edf4e12ef2a",
-      "company": "Indie Hackers",
-      "founder": "",
-      "source_refs": [
-        "biz_10d8f430a3f6"
-      ],
-      "url": "https://www.indiehackers.com/post/i-kept-losing-deals-to-timing-so-i-built-a-daily-signal-monitor-for-my-own-market-931c5b67f9",
-      "title": "I kept losing deals to timing, so I built a daily signal monitor for my own market",
-      "business_model": "Founder Case, OPC",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup"
-      ],
-      "score": 39
     }
   ]
 }
