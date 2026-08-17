@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T11:17:54.764051Z",
+  "generated_at": "2026-08-17T11:48:51.434962Z",
   "window_hours": 24,
-  "total_items": 18,
+  "total_items": 20,
   "items": [
     {
       "story_id": "story_cfb1ad6d5c2e",
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8436,
-      "importance": 0.8436,
-      "importance_score": 0.8436,
+      "score": 0.8424,
+      "importance": 0.8424,
+      "importance_score": 0.8424,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9535,
+        "recency": 0.9464,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8322,
-      "importance": 0.8322,
-      "importance_score": 0.8322,
+      "score": 0.8311,
+      "importance": 0.8311,
+      "importance_score": 0.8311,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8903,
+        "recency": 0.8837,
         "story_heat": 0.0
       },
       "category": "official",
@@ -181,15 +181,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7642,
-      "importance": 0.7642,
-      "importance_score": 0.7642,
+      "score": 0.7631,
+      "importance": 0.7631,
+      "importance_score": 0.7631,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8254,
+        "recency": 0.8193,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -206,6 +206,84 @@
         "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
         "source": "Simon Willison 博客",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e6c585a846b4",
+      "title": "Anthropic 解释了克劳德的隐形文本水印的工作原理 / Anthropic explains how Claude&#8217;s invisible text watermarks will work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "source": "The Verge",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "e4a1fa384e7dfe47c175c93347eded816acc40c2",
+          "title": "Anthropic 解释了克劳德的隐形文本水印的工作原理 / Anthropic explains how Claude&#8217;s invisible text watermarks will work",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-17T10:57:13Z"
+        },
+        {
+          "id": "7496fe78bb23935a420d21bbf52934a97a65e42b",
+          "title": "Anthropic 解释了克劳德的隐形文本水印的工作原理 / Anthropic explains how Claude’s invisible text watermarks will work",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-17T10:57:13Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Verge"
+      ],
+      "items": [
+        {
+          "id": "e4a1fa384e7dfe47c175c93347eded816acc40c2",
+          "title": "Anthropic 解释了克劳德的隐形文本水印的工作原理 / Anthropic explains how Claude&#8217;s invisible text watermarks will work",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-17T10:57:13Z"
+        },
+        {
+          "id": "7496fe78bb23935a420d21bbf52934a97a65e42b",
+          "title": "Anthropic 解释了克劳德的隐形文本水印的工作原理 / Anthropic explains how Claude’s invisible text watermarks will work",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-17T10:57:13Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6382,
+      "importance": 0.6382,
+      "importance_score": 0.6382,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5328,
+        "source_tier": 0.58,
+        "ai_relevance": 0.74,
+        "recency": 0.9876,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-17T10:57:13Z",
+      "latest_at": "2026-08-17T10:57:13Z",
+      "primary_item": {
+        "id": "e4a1fa384e7dfe47c175c93347eded816acc40c2",
+        "title": "Anthropic 解释了克劳德的隐形文本水印的工作原理 / Anthropic explains how Claude&#8217;s invisible text watermarks will work",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+        "source": "The Verge",
+        "source_name": "Curated Media"
       }
     },
     {
@@ -262,15 +340,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.6151,
-      "importance": 0.6151,
-      "importance_score": 0.6151,
+      "score": 0.614,
+      "importance": 0.614,
+      "importance_score": 0.614,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.8129,
+        "recency": 0.8068,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -379,15 +457,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5662,
-      "importance": 0.5662,
-      "importance_score": 0.5662,
+      "score": 0.5651,
+      "importance": 0.5651,
+      "importance_score": 0.5651,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8354,
+        "recency": 0.8292,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -402,6 +480,321 @@
         "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
+      }
+    },
+    {
+      "story_id": "story_ece8532ba7a9",
+      "title": "MathCode，数学编码代理",
+      "url": "https://math-ai-org.github.io/mathcode",
+      "primary_url": "https://math-ai-org.github.io/mathcode",
+      "source": "math-ai-org.github.io",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "07f75fa673c4968c9d2b523fb141e4a52f712710",
+          "title": "MathCode，数学编码代理",
+          "url": "https://math-ai-org.github.io/mathcode",
+          "source": "math-ai-org.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T11:33:59.048000Z"
+        },
+        {
+          "id": "94ba1d06854a30f0b2933918dd421418881390cc",
+          "title": "MathCode，数学编码代理 / MathCode, Mathematical Coding Agent",
+          "url": "https://math-ai-org.github.io/mathcode",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-16T18:17:10Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "math-ai-org.github.io"
+      ],
+      "items": [
+        {
+          "id": "07f75fa673c4968c9d2b523fb141e4a52f712710",
+          "title": "MathCode，数学编码代理",
+          "url": "https://math-ai-org.github.io/mathcode",
+          "source": "math-ai-org.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T11:33:59.048000Z"
+        },
+        {
+          "id": "94ba1d06854a30f0b2933918dd421418881390cc",
+          "title": "MathCode，数学编码代理 / MathCode, Mathematical Coding Agent",
+          "url": "https://math-ai-org.github.io/mathcode",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-16T18:17:10Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5452,
+      "importance": 0.5452,
+      "importance_score": 0.5452,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9964,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-16T18:17:10Z",
+      "latest_at": "2026-08-17T11:33:59.048000Z",
+      "primary_item": {
+        "id": "07f75fa673c4968c9d2b523fb141e4a52f712710",
+        "title": "MathCode，数学编码代理",
+        "url": "https://math-ai-org.github.io/mathcode",
+        "source": "math-ai-org.github.io",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_e01442918e19",
+      "title": "最热门的AI模型并不是开发者实际使用的那些",
+      "url": "https://www.businessinsider.com/top-ai-models-usage-data-hugging-face-2026-8",
+      "primary_url": "https://www.businessinsider.com/top-ai-models-usage-data-hugging-face-2026-8",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "494cd8b2dcc85ec02246d146406ca2bfbf8eda96",
+          "title": "最热门的AI模型并不是开发者实际使用的那些",
+          "url": "https://www.businessinsider.com/top-ai-models-usage-data-hugging-face-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T11:33:59.847000Z"
+        },
+        {
+          "id": "583c5c6e53828b1e3834cfe92d525f566c721e86",
+          "title": "最热门的AI模型并不是开发者实际使用的那些 / The hottest AI models aren’t the ones developers actually use",
+          "url": "https://www.businessinsider.com/top-ai-models-usage-data-hugging-face-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-17T09:19:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "494cd8b2dcc85ec02246d146406ca2bfbf8eda96",
+          "title": "最热门的AI模型并不是开发者实际使用的那些",
+          "url": "https://www.businessinsider.com/top-ai-models-usage-data-hugging-face-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T11:33:59.847000Z"
+        },
+        {
+          "id": "583c5c6e53828b1e3834cfe92d525f566c721e86",
+          "title": "最热门的AI模型并不是开发者实际使用的那些 / The hottest AI models aren’t the ones developers actually use",
+          "url": "https://www.businessinsider.com/top-ai-models-usage-data-hugging-face-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-17T09:19:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5452,
+      "importance": 0.5452,
+      "importance_score": 0.5452,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9964,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-17T09:19:01Z",
+      "latest_at": "2026-08-17T11:33:59.847000Z",
+      "primary_item": {
+        "id": "494cd8b2dcc85ec02246d146406ca2bfbf8eda96",
+        "title": "最热门的AI模型并不是开发者实际使用的那些",
+        "url": "https://www.businessinsider.com/top-ai-models-usage-data-hugging-face-2026-8",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_75f9598bdf63",
+      "title": "Anthropic提振人工智能市场乐观情绪，股指期货上涨：市场综述",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "7ffda4e00c3e83d4ae28e3fc1c35218725382fb6",
+          "title": "Anthropic提振人工智能市场乐观情绪，股指期货上涨：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T11:18:16.359000Z"
+        },
+        {
+          "id": "80279b20f716b91c569c8b21ab04746443bea4b1",
+          "title": "Anthropic推动AI概念股上涨，美股期货走高：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T10:30:07.168000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.bloomberg.com"
+      ],
+      "items": [
+        {
+          "id": "7ffda4e00c3e83d4ae28e3fc1c35218725382fb6",
+          "title": "Anthropic提振人工智能市场乐观情绪，股指期货上涨：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T11:18:16.359000Z"
+        },
+        {
+          "id": "80279b20f716b91c569c8b21ab04746443bea4b1",
+          "title": "Anthropic推动AI概念股上涨，美股期货走高：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T10:30:07.168000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9927,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-17T10:30:07.168000Z",
+      "latest_at": "2026-08-17T11:18:16.359000Z",
+      "primary_item": {
+        "id": "7ffda4e00c3e83d4ae28e3fc1c35218725382fb6",
+        "title": "Anthropic提振人工智能市场乐观情绪，股指期货上涨：市场综述",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
+        "source": "www.bloomberg.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_a3cd8d082831",
+      "title": "对经过审核的AI代码很难给出合理的解释",
+      "url": "https://amoffat.github.io/blog/vetting-burnout.html",
+      "primary_url": "https://amoffat.github.io/blog/vetting-burnout.html",
+      "source": "amoffat.github.io",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "1a15f27d65766ad33c840987ac2228fcc0e1191b",
+          "title": "对经过审核的AI代码很难给出合理的解释",
+          "url": "https://amoffat.github.io/blog/vetting-burnout.html",
+          "source": "amoffat.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T11:18:15.372000Z"
+        },
+        {
+          "id": "34f991b2011af583b8328e5d48a7cfb815dcb82e",
+          "title": "对经过审核的AI代码很难给出合理的解释 / Vetted AI code is hard to justify",
+          "url": "https://amoffat.github.io/blog/vetting-burnout.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-17T11:11:39Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "amoffat.github.io"
+      ],
+      "items": [
+        {
+          "id": "1a15f27d65766ad33c840987ac2228fcc0e1191b",
+          "title": "对经过审核的AI代码很难给出合理的解释",
+          "url": "https://amoffat.github.io/blog/vetting-burnout.html",
+          "source": "amoffat.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T11:18:15.372000Z"
+        },
+        {
+          "id": "34f991b2011af583b8328e5d48a7cfb815dcb82e",
+          "title": "对经过审核的AI代码很难给出合理的解释 / Vetted AI code is hard to justify",
+          "url": "https://amoffat.github.io/blog/vetting-burnout.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-17T11:11:39Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9927,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-17T11:11:39Z",
+      "latest_at": "2026-08-17T11:18:15.372000Z",
+      "primary_item": {
+        "id": "1a15f27d65766ad33c840987ac2228fcc0e1191b",
+        "title": "对经过审核的AI代码很难给出合理的解释",
+        "url": "https://amoffat.github.io/blog/vetting-burnout.html",
+        "source": "amoffat.github.io",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -477,15 +870,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5451,
-      "importance": 0.5451,
-      "importance_score": 0.5451,
+      "score": 0.544,
+      "importance": 0.544,
+      "importance_score": 0.544,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8573,
+        "recency": 0.8509,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -556,15 +949,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5405,
-      "importance": 0.5405,
-      "importance_score": 0.5405,
+      "score": 0.5392,
+      "importance": 0.5392,
+      "importance_score": 0.5392,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9704,
+        "recency": 0.9632,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -635,15 +1028,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5357,
-      "importance": 0.5357,
-      "importance_score": 0.5357,
+      "score": 0.5344,
+      "importance": 0.5344,
+      "importance_score": 0.5344,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9439,
+        "recency": 0.9369,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -714,15 +1107,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5268,
-      "importance": 0.5268,
-      "importance_score": 0.5268,
+      "score": 0.5256,
+      "importance": 0.5256,
+      "importance_score": 0.5256,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8944,
+        "recency": 0.8878,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -793,15 +1186,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5195,
-      "importance": 0.5195,
-      "importance_score": 0.5195,
+      "score": 0.5184,
+      "importance": 0.5184,
+      "importance_score": 0.5184,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.854,
+        "recency": 0.8477,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -872,15 +1265,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5189,
-      "importance": 0.5189,
-      "importance_score": 0.5189,
+      "score": 0.5178,
+      "importance": 0.5178,
+      "importance_score": 0.5178,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8507,
+        "recency": 0.8444,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -894,85 +1287,6 @@
         "title": "Anthropic在Claude中对“Watermark”文本的篡改是对写作的扭曲",
         "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
         "source": "daringfireball.net",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_46d4c1f7a618",
-      "title": "Stripe敲定一笔超过70亿美元的交易，收购人工智能公司OpenRouter",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "606e2da905768ff4c91e5705070cb5ae9b37d3b4",
-          "title": "Stripe敲定一笔超过70亿美元的交易，收购人工智能公司OpenRouter",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-16T23:17:59.746000Z"
-        },
-        {
-          "id": "2f2157fe5087e46db86f48926fe42ddb8cf585f7",
-          "title": "Stripe敲定一笔超过70亿美元的交易，收购人工智能公司OpenRouter / Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-16T20:31:16Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "606e2da905768ff4c91e5705070cb5ae9b37d3b4",
-          "title": "Stripe敲定一笔超过70亿美元的交易，收购人工智能公司OpenRouter",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-16T23:17:59.746000Z"
-        },
-        {
-          "id": "2f2157fe5087e46db86f48926fe42ddb8cf585f7",
-          "title": "Stripe敲定一笔超过70亿美元的交易，收购人工智能公司OpenRouter / Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-16T20:31:16Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5172,
-      "importance": 0.5172,
-      "importance_score": 0.5172,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8409,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-16T20:31:16Z",
-      "latest_at": "2026-08-16T23:17:59.746000Z",
-      "primary_item": {
-        "id": "606e2da905768ff4c91e5705070cb5ae9b37d3b4",
-        "title": "Stripe敲定一笔超过70亿美元的交易，收购人工智能公司OpenRouter",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-        "source": "www.bloomberg.com",
         "source_name": "Buzzing"
       }
     },
@@ -1030,15 +1344,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5049,
-      "importance": 0.5049,
-      "importance_score": 0.5049,
+      "score": 0.5039,
+      "importance": 0.5039,
+      "importance_score": 0.5039,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7727,
+        "recency": 0.767,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1057,7 +1371,7 @@
     },
     {
       "story_id": "story_3c85fc2aebb2",
-      "title": "正确的线性代数 – Sheldon Axler / Linear Algebra Done Right – Sheldon Axler",
+      "title": "《线性代数》的正确打开方式 / Linear Algebra Done Right – Sheldon Axler",
       "url": "https://linear.axler.net",
       "primary_url": "https://linear.axler.net",
       "source": "Hacker News · 24h最热",
@@ -1065,7 +1379,7 @@
       "sources": [
         {
           "id": "0bac851ac29cdfe48f828d200169801068a40f48",
-          "title": "正确的线性代数 – Sheldon Axler / Linear Algebra Done Right – Sheldon Axler",
+          "title": "《线性代数》的正确打开方式 / Linear Algebra Done Right – Sheldon Axler",
           "url": "https://linear.axler.net",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -1074,7 +1388,7 @@
         },
         {
           "id": "a1f796dc84443a060540076363e94228f126d318",
-          "title": "线性代数做得对 / Linear algebra done right",
+          "title": "《线性代数》的正确打开方式 / Linear algebra done right",
           "url": "https://linear.axler.net",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -1089,7 +1403,7 @@
       "items": [
         {
           "id": "0bac851ac29cdfe48f828d200169801068a40f48",
-          "title": "正确的线性代数 – Sheldon Axler / Linear Algebra Done Right – Sheldon Axler",
+          "title": "《线性代数》的正确打开方式 / Linear Algebra Done Right – Sheldon Axler",
           "url": "https://linear.axler.net",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -1098,7 +1412,7 @@
         },
         {
           "id": "a1f796dc84443a060540076363e94228f126d318",
-          "title": "线性代数做得对 / Linear algebra done right",
+          "title": "《线性代数》的正确打开方式 / Linear algebra done right",
           "url": "https://linear.axler.net",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -1108,15 +1422,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.531,
-      "importance": 0.531,
-      "importance_score": 0.531,
+      "score": 0.5298,
+      "importance": 0.5298,
+      "importance_score": 0.5298,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9178,
+        "recency": 0.911,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1127,7 +1441,7 @@
       "latest_at": "2026-08-17T05:21:34Z",
       "primary_item": {
         "id": "0bac851ac29cdfe48f828d200169801068a40f48",
-        "title": "正确的线性代数 – Sheldon Axler / Linear Algebra Done Right – Sheldon Axler",
+        "title": "《线性代数》的正确打开方式 / Linear Algebra Done Right – Sheldon Axler",
         "url": "https://linear.axler.net",
         "source": "Hacker News · 24h最热",
         "source_name": "Zeli"
@@ -1187,15 +1501,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4991,
-      "importance": 0.4991,
-      "importance_score": 0.4991,
+      "score": 0.4981,
+      "importance": 0.4981,
+      "importance_score": 0.4981,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7406,
+        "recency": 0.7351,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1266,15 +1580,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5231,
-      "importance": 0.5231,
-      "importance_score": 0.5231,
+      "score": 0.5219,
+      "importance": 0.5219,
+      "importance_score": 0.5219,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8739,
+        "recency": 0.8674,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1289,162 +1603,6 @@
         "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
         "source": "www.reuters.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_0202f3829626",
-      "title": "Protobuf 支持 LSP。不客气 / Protobuf has LSP support",
-      "url": "https://buf.build/blog/protobuf-lsp",
-      "primary_url": "https://buf.build/blog/protobuf-lsp",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "6b98827c4fcf1b92b2786d60540c38697b16c8f2",
-          "title": "Protobuf 支持 LSP。不客气 / Protobuf has LSP support",
-          "url": "https://buf.build/blog/protobuf-lsp",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T18:48:27Z"
-        },
-        {
-          "id": "7d523764e429b0d06fd060c297e11322db6cc991",
-          "title": "Protobuf 支持 LSP。不客气 / Protobuf has LSP support. You're welcome",
-          "url": "https://buf.build/blog/protobuf-lsp",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T18:48:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "6b98827c4fcf1b92b2786d60540c38697b16c8f2",
-          "title": "Protobuf 支持 LSP。不客气 / Protobuf has LSP support",
-          "url": "https://buf.build/blog/protobuf-lsp",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T18:48:27Z"
-        },
-        {
-          "id": "7d523764e429b0d06fd060c297e11322db6cc991",
-          "title": "Protobuf 支持 LSP。不客气 / Protobuf has LSP support. You're welcome",
-          "url": "https://buf.build/blog/protobuf-lsp",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T18:48:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5077,
-      "importance": 0.5077,
-      "importance_score": 0.5077,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7881,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-16T18:48:27Z",
-      "latest_at": "2026-08-16T18:48:27Z",
-      "primary_item": {
-        "id": "6b98827c4fcf1b92b2786d60540c38697b16c8f2",
-        "title": "Protobuf 支持 LSP。不客气 / Protobuf has LSP support",
-        "url": "https://buf.build/blog/protobuf-lsp",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_17a82793e234",
-      "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
-      "url": "https://rvembedded.com/blog_post/12",
-      "primary_url": "https://rvembedded.com/blog_post/12",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "10acebf6805133aca4312010382c0a5aee3a54b5",
-          "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
-          "url": "https://rvembedded.com/blog_post/12",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T17:01:07Z"
-        },
-        {
-          "id": "b732e124b4c7af4fe219a907f64a1ddfcec45222",
-          "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A third world engineer responds to “RISC-V: They should have known better”",
-          "url": "https://rvembedded.com/blog_post/12",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T17:01:07Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "10acebf6805133aca4312010382c0a5aee3a54b5",
-          "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
-          "url": "https://rvembedded.com/blog_post/12",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T17:01:07Z"
-        },
-        {
-          "id": "b732e124b4c7af4fe219a907f64a1ddfcec45222",
-          "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A third world engineer responds to “RISC-V: They should have known better”",
-          "url": "https://rvembedded.com/blog_post/12",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T17:01:07Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.504,
-      "importance": 0.504,
-      "importance_score": 0.504,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.768,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-16T17:01:07Z",
-      "latest_at": "2026-08-16T17:01:07Z",
-      "primary_item": {
-        "id": "10acebf6805133aca4312010382c0a5aee3a54b5",
-        "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
-        "url": "https://rvembedded.com/blog_post/12",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
       }
     }
   ]
