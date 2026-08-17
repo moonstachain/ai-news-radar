@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "95d967c8d6cba0aa",
+  "snapshot_id": "2f8a700b0c1089d5",
   "channel": "ai-news",
-  "generated_at": "2026-08-17T08:32:40.346746Z",
+  "generated_at": "2026-08-17T09:12:37.381738Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 315,
+    "signals": 325,
     "high_priority": 7,
     "briefs": 20,
-    "stories": 294
+    "stories": 304
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 105,
-    "Buzzing": 80,
+    "Info Flow": 111,
+    "Buzzing": 78,
     "Zeli": 53,
-    "TechURLs": 30,
-    "NewsNow": 22,
-    "Curated Media": 10,
+    "TechURLs": 32,
+    "NewsNow": 25,
+    "Curated Media": 11,
     "Follow Builders": 7,
     "Hacker News": 4
   },
@@ -43,7 +43,7 @@
       "source_names": [
         "Google AI Blog"
       ],
-      "importance_score": 0.8506,
+      "importance_score": 0.8489,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,7 +78,7 @@
         "Hacker News · 24h最热",
         "Simon Willison 博客"
       ],
-      "importance_score": 0.7702,
+      "importance_score": 0.7687,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -121,7 +121,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.723,
+      "importance_score": 0.7218,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
