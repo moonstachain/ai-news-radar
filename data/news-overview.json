@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "074172dbcd94c3fe",
+  "snapshot_id": "f12e9e79781efcc9",
   "channel": "ai-news",
-  "generated_at": "2026-08-17T21:17:59.369280Z",
+  "generated_at": "2026-08-17T21:48:58.836011Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 569,
+    "signals": 574,
     "high_priority": 21,
     "briefs": 20,
-    "stories": 516
+    "stories": 520
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 166,
+    "Buzzing": 169,
     "Info Flow": 151,
     "TechURLs": 86,
     "Zeli": 74,
-    "NewsNow": 40,
+    "NewsNow": 42,
     "Curated Media": 18,
     "OPML RSS": 13,
     "AI HOT": 9
@@ -39,15 +39,16 @@
       "primary_url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
-      "source_count": 5,
+      "source_count": 6,
       "source_names": [
         "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "Reddit (热门)",
         "Simon Willison",
+        "simonwillison.net",
         "www.404media.co"
       ],
-      "importance_score": 0.8581,
+      "importance_score": 0.8568,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -55,7 +56,7 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-17T18:46:04.518000Z",
+      "latest_at": "2026-08-17T21:26:04.206000Z",
       "earliest_at": "2026-08-17T13:19:25Z",
       "sources": [
         {
@@ -69,12 +70,21 @@
         },
         {
           "id": "8254d99f5de9f88ad47e8882d89f60a514c96a4a",
-          "title": "我们追踪了一批善本书籍。它在亚马逊人工智能培训设施结束 / We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+          "title": "我们追踪了一批珍本图书的运输过程。最终，这些书被送到了亚马逊的一处人工智能训练中心 / We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
           "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra",
           "source": "Simon Willison",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-08-17T15:21:29Z"
+        },
+        {
+          "id": "6aa1111996d386b22cb036431ad68d70b8aedffe",
+          "title": "我们追踪了一批珍本图书的运输过程。最终，这些书被送到了亚马逊的一处人工智能训练中心",
+          "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra",
+          "source": "simonwillison.net",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-17T21:26:04.206000Z"
         },
         {
           "id": "e93451a4241de1ea3225f404c98bc7301751b7e6",
@@ -117,7 +127,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8561,
+      "importance_score": 0.8548,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -152,7 +162,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8403,
+      "importance_score": 0.8392,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [

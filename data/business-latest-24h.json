@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T21:20:39.076674Z",
+  "generated_at": "2026-08-17T21:50:13.787724Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T20:24:28Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -48,7 +48,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T20:42:11Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -80,13 +80,50 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_29a9b9a6fdbf",
+      "title": "Executive Interview: Lightning AI",
+      "url": "https://www.cbinsights.com/research/executive-interview-lightning-ai/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-17T20:51:50Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "Lightning AI"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Peter Bershatsky, Chief Strategy Officer (CSO) at Lightning AI, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_ab9eae7fee45",
       "title": "CEO Interview: Weeve",
       "url": "https://www.cbinsights.com/research/ceo-interview-weeve/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T20:30:42Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -123,7 +160,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T20:09:30Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -160,7 +197,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T19:57:44Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -196,7 +233,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T19:30:40Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -233,7 +270,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T19:20:09Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -270,7 +307,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T19:06:04Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -307,7 +344,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-17T15:03:16Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -347,7 +384,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-17T12:04:02Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -386,7 +423,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-17T16:00:00Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog"
@@ -416,13 +453,48 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_10d8f430a3f6",
+      "title": "I kept losing deals to timing, so I built a daily signal monitor for my own market",
+      "url": "https://www.indiehackers.com/post/i-kept-losing-deals-to-timing-so-i-built-a-daily-signal-monitor-for-my-own-market-931c5b67f9",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-17T06:39:41.168000Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 39,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "I kept losing deals to timing, so I built a daily signal monitor for my own market Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_51215856cd3f",
       "title": "An Analysis of 1,000 Meetings Shows How the Best Leaders Shape Conversations",
       "url": "https://hbr.org/2026/08/an-analysis-of-1000-meetings-shows-how-the-best-leaders-shape-conversations",
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-08-17T12:05:33Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -460,7 +532,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-17T11:00:28Z",
-      "captured_at": "2026-08-17T21:20:39.076674Z",
+      "captured_at": "2026-08-17T21:50:13.787724Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
