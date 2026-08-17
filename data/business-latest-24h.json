@@ -1,5 +1,83 @@
 {
-  "generated_at": "2026-08-17T10:57:42.819002Z",
+  "generated_at": "2026-08-17T11:19:06.826455Z",
   "window_hours": 24,
-  "items": []
+  "items": [
+    {
+      "signal_id": "biz_22676975c6d9",
+      "title": "Most platforms treat founders as data. We're trying something uncomfortably human.",
+      "url": "https://www.indiehackers.com/post/most-platforms-treat-founders-as-data-were-trying-something-uncomfortably-human-d731289806",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-17T08:19:12.151000Z",
+      "captured_at": "2026-08-17T11:19:06.826455Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Most"
+      ],
+      "business_model_tags": [
+        "AI Business Model Innovation",
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 51,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 9,
+        "business_model_value": 5,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Most platforms treat founders as data. We're trying something uncomfortably human. Tags: AI Business Model Innovation, Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
+      "signal_id": "biz_b68425c34a06",
+      "title": "The Power of Opportunity Mindset in Hiring",
+      "url": "https://sloanreview.mit.edu/article/the-power-of-opportunity-mindset-in-hiring/",
+      "source_id": "mit_smr",
+      "source_name": "MIT Sloan Management Review",
+      "published_at": "2026-08-17T11:00:28Z",
+      "captured_at": "2026-08-17T11:19:06.826455Z",
+      "lane": "authority",
+      "entities": [
+        "MIT Sloan Management Review",
+        "The Power",
+        "Opportunity Mindset",
+        "Hiring"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow",
+        "AI Business Model Innovation"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 31,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Patrick George/Ikon Images Every organization, and every hiring manager, wants to know how to hire the best people. And every company wants to feel like it has an edge over its competitors. But let me ask you a personal... Tags: Enterprise AI Workflow, AI Business Model Innovation.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    }
+  ]
 }

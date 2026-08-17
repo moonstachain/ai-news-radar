@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "9f863370da54cee3",
+  "snapshot_id": "dc94728bd659f725",
   "channel": "ai-news",
-  "generated_at": "2026-08-17T10:56:33.919309Z",
+  "generated_at": "2026-08-17T11:17:54.764051Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 361,
-    "high_priority": 7,
+    "signals": 373,
+    "high_priority": 8,
     "briefs": 18,
-    "stories": 341
+    "stories": 354
   },
   "coverage": {
     "successful": 16,
@@ -23,13 +23,13 @@
   ],
   "section_counts": {
     "Info Flow": 123,
-    "Buzzing": 86,
+    "Buzzing": 90,
     "Zeli": 55,
-    "TechURLs": 45,
-    "NewsNow": 24,
-    "Curated Media": 11,
+    "TechURLs": 46,
+    "NewsNow": 27,
+    "Curated Media": 13,
     "Follow Builders": 7,
-    "OPML RSS": 4
+    "OPML RSS": 5
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "Google AI Blog"
       ],
-      "importance_score": 0.8445,
+      "importance_score": 0.8436,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -67,6 +67,40 @@
       "confidence": "single-source"
     },
     {
+      "story_id": "story_96670aeff66e",
+      "title": "情报时代的新政策理念 / New policy ideas for the Intelligence Age",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "primary_url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "importance_score": 0.8322,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-17T03:15:00Z",
+      "earliest_at": "2026-08-17T03:15:00Z",
+      "sources": [
+        {
+          "id": "98012ec2d34b31c122d53ffafb6e0cbb292bd317",
+          "title": "情报时代的新政策理念 / New policy ideas for the Intelligence Age",
+          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-17T03:15:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_81603460e983",
       "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
       "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
@@ -78,7 +112,7 @@
         "Hacker News · 24h最热",
         "Simon Willison 博客"
       ],
-      "importance_score": 0.7649,
+      "importance_score": 0.7642,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -106,48 +140,6 @@
           "source_name": "Zeli",
           "site_id": "zeli",
           "published_at": "2026-08-16T23:45:09Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_943d4b7d862e",
-      "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-      "primary_url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "TechCrunch AI"
-      ],
-      "importance_score": 0.6158,
-      "importance_label": "值得关注",
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "latest_at": "2026-08-16T20:57:04Z",
-      "earliest_at": "2026-08-16T20:31:16Z",
-      "sources": [
-        {
-          "id": "a36cccd05f2b13d1fbf4f33de6e728bbf53aa3dd",
-          "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-16T20:57:04Z"
-        },
-        {
-          "id": "b978d69a084c5e082723c8d3b796855d23fb4f5d",
-          "title": "据报道 Stripe 将以 7B+ 美元收购 OpenRouter / Stripe will reportedly acquire OpenRouter for $7B+",
-          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-16T20:31:16Z"
         }
       ],
       "confidence": "multi-source"
