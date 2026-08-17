@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c977b68e4e531f1c",
+  "snapshot_id": "0c1fb4335474f3a6",
   "channel": "ai-news",
-  "generated_at": "2026-08-17T05:06:56.935299Z",
+  "generated_at": "2026-08-17T05:59:30.781437Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 266,
-    "high_priority": 3,
-    "briefs": 16,
-    "stories": 248
+    "signals": 273,
+    "high_priority": 2,
+    "briefs": 18,
+    "stories": 253
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 78,
-    "Info Flow": 67,
-    "Zeli": 45,
-    "TechURLs": 33,
-    "NewsNow": 23,
-    "Curated Media": 11,
-    "Hacker News": 3,
+    "Buzzing": 81,
+    "Info Flow": 72,
+    "Zeli": 48,
+    "TechURLs": 32,
+    "NewsNow": 22,
+    "Curated Media": 10,
+    "Hacker News": 4,
     "AI HOT": 2
   },
   "top_stories": [
@@ -44,7 +44,7 @@
         "Hacker News · 24h最热",
         "Simon Willison 博客"
       ],
-      "importance_score": 0.778,
+      "importance_score": 0.776,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +87,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7298,
+      "importance_score": 0.728,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -109,63 +109,43 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_7b2c05cb77f7",
-      "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO says the way for AI to win over the public is to cure cancer",
-      "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-      "primary_url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "source_count": 4,
+      "story_id": "story_943d4b7d862e",
+      "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+      "primary_url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
+      "source_count": 2,
       "source_names": [
-        "Business Insider",
         "Hacker News · 24h最热",
-        "Reddit (热门)",
-        "www.businessinsider.com"
+        "TechCrunch AI"
       ],
-      "importance_score": 0.5802,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.6267,
+      "importance_label": "值得关注",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "latest_at": "2026-08-16T22:50:38Z",
-      "earliest_at": "2026-08-16T16:30:38Z",
+      "latest_at": "2026-08-16T20:57:04Z",
+      "earliest_at": "2026-08-16T20:31:16Z",
       "sources": [
         {
-          "id": "6268ff9620c08a5d516fcf2a63fe7c8e8047a6e3",
-          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO says the way for AI to win over the public is to cure cancer",
-          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+          "id": "a36cccd05f2b13d1fbf4f33de6e728bbf53aa3dd",
+          "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-16T20:57:04Z"
+        },
+        {
+          "id": "b978d69a084c5e082723c8d3b796855d23fb4f5d",
+          "title": "据报道 Stripe 将以 7B+ 美元收购 OpenRouter / Stripe will reportedly acquire OpenRouter for $7B+",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-08-16T22:50:38Z"
-        },
-        {
-          "id": "4b4fdc768257e83bb3fecdbb54a3c9651d99720f",
-          "title": "Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，人工智能赢得公众的方式是“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-          "url": "https://www.reddit.com/r/technology/comments/1vq3dh3/anthropic_ceo_dario_amodei_says_the_way_for_ai_to",
-          "source": "Reddit (热门)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-16T17:41:11Z"
-        },
-        {
-          "id": "6b7f817511c20eb80d840e5f520413ad9e366270",
-          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症",
-          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-16T17:26:40.217000Z"
-        },
-        {
-          "id": "b3f6977b46a76bd87884fd151cb205504f398853",
-          "title": "Anthropic首席执行官达里奥·阿莫德伊表示，人工智能要赢得公众认可，就必须“真正”治愈癌症 / Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-          "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-16T16:30:38Z"
+          "published_at": "2026-08-16T20:31:16Z"
         }
       ],
       "confidence": "multi-source"
