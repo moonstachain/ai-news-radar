@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T05:06:56.935299Z",
+  "generated_at": "2026-08-17T05:59:30.781437Z",
   "window_hours": 24,
-  "total_items": 16,
+  "total_items": 18,
   "items": [
     {
       "story_id": "story_81603460e983",
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.778,
-      "importance": 0.778,
-      "importance_score": 0.778,
+      "score": 0.776,
+      "importance": 0.776,
+      "importance_score": 0.776,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9025,
+        "recency": 0.8911,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -119,15 +119,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7298,
-      "importance": 0.7298,
-      "importance_score": 0.7298,
+      "score": 0.728,
+      "importance": 0.728,
+      "importance_score": 0.728,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7732,
+        "recency": 0.7634,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -142,6 +142,85 @@
         "url": "https://www.anthropic.com/research/multiagent-systems",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_943d4b7d862e",
+      "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+      "primary_url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
+      "sources": [
+        {
+          "id": "a36cccd05f2b13d1fbf4f33de6e728bbf53aa3dd",
+          "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-16T20:57:04Z"
+        },
+        {
+          "id": "b978d69a084c5e082723c8d3b796855d23fb4f5d",
+          "title": "据报道 Stripe 将以 7B+ 美元收购 OpenRouter / Stripe will reportedly acquire OpenRouter for $7B+",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T20:31:16Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "TechCrunch AI"
+      ],
+      "items": [
+        {
+          "id": "a36cccd05f2b13d1fbf4f33de6e728bbf53aa3dd",
+          "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-08-16T20:57:04Z"
+        },
+        {
+          "id": "b978d69a084c5e082723c8d3b796855d23fb4f5d",
+          "title": "据报道 Stripe 将以 7B+ 美元收购 OpenRouter / Stripe will reportedly acquire OpenRouter for $7B+",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T20:31:16Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6267,
+      "importance": 0.6267,
+      "importance_score": 0.6267,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.8776,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-16T20:31:16Z",
+      "latest_at": "2026-08-16T20:57:04Z",
+      "primary_item": {
+        "id": "a36cccd05f2b13d1fbf4f33de6e728bbf53aa3dd",
+        "title": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter / Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+        "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
       }
     },
     {
@@ -236,15 +315,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5802,
-      "importance": 0.5802,
-      "importance_score": 0.5802,
+      "score": 0.5781,
+      "importance": 0.5781,
+      "importance_score": 0.5781,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9134,
+        "recency": 0.9019,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -315,15 +394,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5418,
-      "importance": 0.5418,
-      "importance_score": 0.5418,
+      "score": 0.5396,
+      "importance": 0.5396,
+      "importance_score": 0.5396,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9779,
+        "recency": 0.9656,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -394,15 +473,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5378,
-      "importance": 0.5378,
-      "importance_score": 0.5378,
+      "score": 0.5356,
+      "importance": 0.5356,
+      "importance_score": 0.5356,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9555,
+        "recency": 0.9435,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -473,15 +552,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5345,
-      "importance": 0.5345,
-      "importance_score": 0.5345,
+      "score": 0.5324,
+      "importance": 0.5324,
+      "importance_score": 0.5324,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9373,
+        "recency": 0.9255,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -552,15 +631,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5339,
-      "importance": 0.5339,
-      "importance_score": 0.5339,
+      "score": 0.5318,
+      "importance": 0.5318,
+      "importance_score": 0.5318,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9338,
+        "recency": 0.922,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -631,15 +710,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5332,
-      "importance": 0.5332,
-      "importance_score": 0.5332,
+      "score": 0.5311,
+      "importance": 0.5311,
+      "importance_score": 0.5311,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9301,
+        "recency": 0.9184,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -710,15 +789,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5313,
-      "importance": 0.5313,
-      "importance_score": 0.5313,
+      "score": 0.5292,
+      "importance": 0.5292,
+      "importance_score": 0.5292,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9194,
+        "recency": 0.9079,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -762,18 +841,18 @@
           "published_at": "2026-08-16T08:20:02.331000Z"
         },
         {
-          "id": "cc6db7886f6a22d4816eca7c199301e3776f089c",
+          "id": "ab4d7fd4d10f46e1fd135490112c3e62f61b2774",
           "title": "如果一个大型语言模型（LLM）从未接触过五年级以上的学习资料，会发生什么情况？ / What happens when an LLM never sees material beyond fifth grade?",
           "url": "https://littlelearner-ll.github.io",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-16T07:37:53Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "hackernews",
         "littlelearner-ll.github.io"
       ],
@@ -797,26 +876,26 @@
           "published_at": "2026-08-16T08:20:02.331000Z"
         },
         {
-          "id": "cc6db7886f6a22d4816eca7c199301e3776f089c",
+          "id": "ab4d7fd4d10f46e1fd135490112c3e62f61b2774",
           "title": "如果一个大型语言模型（LLM）从未接触过五年级以上的学习资料，会发生什么情况？ / What happens when an LLM never sees material beyond fifth grade?",
           "url": "https://littlelearner-ll.github.io",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-08-16T07:37:53Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5268,
-      "importance": 0.5268,
-      "importance_score": 0.5268,
+      "score": 0.5251,
+      "importance": 0.5251,
+      "importance_score": 0.5251,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7555,
+        "recency": 0.746,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -887,15 +966,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5179,
-      "importance": 0.5179,
-      "importance_score": 0.5179,
+      "score": 0.516,
+      "importance": 0.516,
+      "importance_score": 0.516,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8449,
+        "recency": 0.8343,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -966,15 +1045,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5116,
-      "importance": 0.5116,
-      "importance_score": 0.5116,
+      "score": 0.5097,
+      "importance": 0.5097,
+      "importance_score": 0.5097,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8098,
+        "recency": 0.7996,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1045,15 +1124,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5071,
-      "importance": 0.5071,
-      "importance_score": 0.5071,
+      "score": 0.5054,
+      "importance": 0.5054,
+      "importance_score": 0.5054,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7852,
+        "recency": 0.7753,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1123,15 +1202,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5045,
-      "importance": 0.5045,
-      "importance_score": 0.5045,
+      "score": 0.5028,
+      "importance": 0.5028,
+      "importance_score": 0.5028,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7708,
+        "recency": 0.7611,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1202,15 +1281,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4982,
-      "importance": 0.4982,
-      "importance_score": 0.4982,
+      "score": 0.4965,
+      "importance": 0.4965,
+      "importance_score": 0.4965,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7354,
+        "recency": 0.7262,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1225,6 +1304,84 @@
         "url": "https://github.com/mldsveda/PyScrappy",
         "source": "github.com",
         "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_17a82793e234",
+      "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+      "url": "https://rvembedded.com/blog_post/12",
+      "primary_url": "https://rvembedded.com/blog_post/12",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "10acebf6805133aca4312010382c0a5aee3a54b5",
+          "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+          "url": "https://rvembedded.com/blog_post/12",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T17:01:07Z"
+        },
+        {
+          "id": "d52278d07b67efdcddc1e8785b039c0f5368b351",
+          "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A third world engineer responds to ”RISC-V: They should have known better“",
+          "url": "https://rvembedded.com/blog_post/12",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T17:01:07Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "10acebf6805133aca4312010382c0a5aee3a54b5",
+          "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+          "url": "https://rvembedded.com/blog_post/12",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T17:01:07Z"
+        },
+        {
+          "id": "d52278d07b67efdcddc1e8785b039c0f5368b351",
+          "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A third world engineer responds to ”RISC-V: They should have known better“",
+          "url": "https://rvembedded.com/blog_post/12",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-16T17:01:07Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.515,
+      "importance": 0.515,
+      "importance_score": 0.515,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8292,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-16T17:01:07Z",
+      "latest_at": "2026-08-16T17:01:07Z",
+      "primary_item": {
+        "id": "10acebf6805133aca4312010382c0a5aee3a54b5",
+        "title": "一位第三世界嵌入式工程师对《RISC-V：他们本该更明智》一文作出回应 / A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+        "url": "https://rvembedded.com/blog_post/12",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -1281,15 +1438,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5039,
-      "importance": 0.5039,
-      "importance_score": 0.5039,
+      "score": 0.5022,
+      "importance": 0.5022,
+      "importance_score": 0.5022,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7672,
+        "recency": 0.7576,
         "story_heat": 0.25
       },
       "category": "watch",
