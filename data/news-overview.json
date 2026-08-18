@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "aab1ef353b936dda",
+  "snapshot_id": "b47e300a7d0e1971",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T08:02:18.806639Z",
+  "generated_at": "2026-08-18T08:40:06.388607Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 613,
+    "signals": 606,
     "high_priority": 24,
     "briefs": 20,
-    "stories": 553
+    "stories": 548
   },
   "coverage": {
     "successful": 16,
@@ -23,11 +23,11 @@
   ],
   "section_counts": {
     "Buzzing": 184,
-    "Info Flow": 180,
-    "TechURLs": 76,
-    "Zeli": 73,
-    "NewsNow": 39,
-    "Curated Media": 21,
+    "Info Flow": 177,
+    "Zeli": 74,
+    "TechURLs": 72,
+    "NewsNow": 37,
+    "Curated Media": 22,
     "Follow Builders": 13,
     "OPML RSS": 13
   },
@@ -46,7 +46,7 @@
         "cursor.com",
         "hackernews"
       ],
-      "importance_score": 0.8458,
+      "importance_score": 0.8444,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,7 +107,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8308,
+      "importance_score": 0.8294,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -141,7 +141,7 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "importance_score": 0.8068,
+      "importance_score": 0.8055,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
