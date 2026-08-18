@@ -1,36 +1,35 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2bf61d01cfc148f4",
+  "snapshot_id": "3e7f2c759c8e41b4",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T15:59:35.284609Z",
+  "generated_at": "2026-08-18T16:24:53.071875Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 598,
-    "high_priority": 28,
+    "signals": 584,
+    "high_priority": 26,
     "briefs": 20,
-    "stories": 551
+    "stories": 537
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 17,
-    "failed": 2,
-    "ratio": 0.8824,
+    "failed": 1,
+    "ratio": 0.9412,
     "status": "healthy"
   },
   "failed_sources": [
-    "aibreakfast",
-    "newsnow"
+    "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 221,
-    "Info Flow": 163,
-    "Zeli": 75,
-    "NewsNow": 45,
+    "Buzzing": 211,
+    "Info Flow": 161,
+    "Zeli": 76,
+    "NewsNow": 42,
     "Curated Media": 29,
     "TechURLs": 25,
     "Follow Builders": 13,
-    "OPML RSS": 10
+    "OPML RSS": 11
   },
   "top_stories": [
     {
@@ -45,7 +44,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8725,
+      "importance_score": 0.8715,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -90,7 +89,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8559,
+      "importance_score": 0.855,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -137,7 +136,7 @@
         "cursor.com",
         "hackernews"
       ],
-      "importance_score": 0.8289,
+      "importance_score": 0.828,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
