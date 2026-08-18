@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "b7ddd78666faa94d",
+  "snapshot_id": "f4e5dbbff59ce1c4",
   "channel": "ai-business",
-  "generated_at": "2026-08-18T17:54:17.019632Z",
+  "generated_at": "2026-08-18T18:27:56.223802Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
@@ -20,21 +20,21 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_127d3888aad4",
+      "brief_id": "biz_brief_4e3db52c0cf0",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "11 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
+        "biz_f3eff26c1cba",
         "biz_41cc25796ee3",
         "biz_e3f2e04ad0b1",
-        "biz_c82eed6d34b6",
-        "biz_4a4ea52bcc60",
-        "biz_449e080b7f6b"
+        "biz_e4c349780aa8",
+        "biz_c82eed6d34b6"
       ],
       "evidence_titles": [
+        "Executive Interview: Covecta",
         "Executive Interview: New Use Energy",
-        "Executive Interview: Indico Data",
-        "CEO Interview: A.D.A.M. Innovations"
+        "Executive Interview: Indico Data"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -45,7 +45,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_647c74423bbf",
+      "brief_id": "biz_brief_935cad3f784d",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -65,7 +65,7 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_6694dc96e83a",
+      "brief_id": "biz_brief_576a8b36c59b",
       "rank": 3,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -88,19 +88,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_127d3888aad4",
+      "id": "biz_brief_4e3db52c0cf0",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_647c74423bbf",
+      "id": "biz_brief_935cad3f784d",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_6694dc96e83a",
+      "id": "biz_brief_576a8b36c59b",
       "label": "Brief #3",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
@@ -108,11 +108,11 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_2ca859b17e56",
+      "cluster_id": "biz_cluster_4b7b6cb341ee",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "source_count": 2,
-      "importance_score": 56,
+      "importance_score": 57,
       "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
@@ -123,13 +123,18 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
+        "biz_f3eff26c1cba",
         "biz_41cc25796ee3",
         "biz_e3f2e04ad0b1",
-        "biz_c82eed6d34b6",
-        "biz_4a4ea52bcc60",
-        "biz_449e080b7f6b"
+        "biz_e4c349780aa8",
+        "biz_c82eed6d34b6"
       ],
       "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "Executive Interview: Covecta",
+          "url": "https://www.cbinsights.com/research/executive-interview-covecta/"
+        },
         {
           "source": "CB Insights",
           "title": "Executive Interview: New Use Energy",
@@ -142,18 +147,13 @@
         },
         {
           "source": "CB Insights",
+          "title": "CEO Interview: RAAPID INC",
+          "url": "https://www.cbinsights.com/research/ceo-interview-raapid-inc/"
+        },
+        {
+          "source": "CB Insights",
           "title": "CEO Interview: A.D.A.M. Innovations",
           "url": "https://www.cbinsights.com/research/ceo-interview-a-d-a-m-innovations/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: Vouched",
-          "url": "https://www.cbinsights.com/research/ceo-interview-vouched/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: mea",
-          "url": "https://www.cbinsights.com/research/executive-interview-mea/"
         }
       ]
     },
