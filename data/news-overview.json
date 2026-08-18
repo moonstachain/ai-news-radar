@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "4e9278ce8a898667",
+  "snapshot_id": "72020aff0286c809",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T13:18:15.436107Z",
+  "generated_at": "2026-08-18T14:05:26.366568Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 572,
-    "high_priority": 26,
+    "signals": 598,
+    "high_priority": 28,
     "briefs": 20,
-    "stories": 520
+    "stories": 545
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 181,
-    "Info Flow": 167,
-    "Zeli": 72,
-    "TechURLs": 44,
-    "NewsNow": 41,
-    "Curated Media": 28,
+    "Buzzing": 202,
+    "Info Flow": 165,
+    "Zeli": 74,
+    "NewsNow": 44,
+    "TechURLs": 42,
+    "Curated Media": 31,
     "Follow Builders": 13,
     "OPML RSS": 12
   },
@@ -44,7 +44,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8791,
+      "importance_score": 0.8771,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,6 +78,40 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_e520424e436f",
+      "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "primary_url": "https://huggingface.co/blog/multi-vector-encoder",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "importance_score": 0.8349,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-18T00:00:00Z",
+      "earliest_at": "2026-08-18T00:00:00Z",
+      "sources": [
+        {
+          "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
+          "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+          "url": "https://huggingface.co/blog/multi-vector-encoder",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T00:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_39d537a07acb",
       "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
       "url": "https://cursor.com/changelog/origin-code-hosting",
@@ -91,7 +125,7 @@
         "cursor.com",
         "hackernews"
       ],
-      "importance_score": 0.8344,
+      "importance_score": 0.8328,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -140,40 +174,6 @@
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_b597a3d03ee7",
-      "title": "相同的集群，利用率增加了 33 个点：改变的是顺序 / Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "primary_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "importance_score": 0.8197,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-17T19:46:21Z",
-      "earliest_at": "2026-08-17T19:46:21Z",
-      "sources": [
-        {
-          "id": "4f25f81b303f8e33d4c266b4ceef6fee39e8f9da",
-          "title": "相同的集群，利用率增加了 33 个点：改变的是顺序 / Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-          "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-17T19:46:21Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }
