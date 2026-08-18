@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:24:53.071875Z",
+  "generated_at": "2026-08-18T16:57:04.220970Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8715,
-      "importance": 0.8715,
-      "importance_score": 0.8715,
+      "score": 0.8702,
+      "importance": 0.8702,
+      "importance_score": 0.8702,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9248,
+        "recency": 0.9177,
         "story_heat": 0.25
       },
       "category": "official",
@@ -139,15 +139,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.855,
-      "importance": 0.855,
-      "importance_score": 0.855,
+      "score": 0.8539,
+      "importance": 0.8539,
+      "importance_score": 0.8539,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.789,
+        "recency": 0.7829,
         "story_heat": 0.25
       },
       "category": "official",
@@ -259,15 +259,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.828,
-      "importance": 0.828,
-      "importance_score": 0.828,
+      "score": 0.827,
+      "importance": 0.827,
+      "importance_score": 0.827,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7691,
+        "recency": 0.7632,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -321,15 +321,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8385,
-      "importance": 0.8385,
-      "importance_score": 0.8385,
+      "score": 0.8372,
+      "importance": 0.8372,
+      "importance_score": 0.8372,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9248,
+        "recency": 0.9177,
         "story_heat": 0.0
       },
       "category": "official",
@@ -383,15 +383,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8136,
-      "importance": 0.8136,
-      "importance_score": 0.8136,
+      "score": 0.8126,
+      "importance": 0.8126,
+      "importance_score": 0.8126,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7422,
+        "recency": 0.7365,
         "story_heat": 0.0
       },
       "category": "official",
@@ -407,6 +407,68 @@
         "title": "相同的集群，利用率增加了 33 个点：改变的是顺序 / Same Cluster, 33 Points More Utilization: What Changed Was the Order",
         "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
         "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_7d7eacff40aa",
+      "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "url": "https://openai.com/index/asana",
+      "primary_url": "https://openai.com/index/asana",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "2202f2b59ff8d878e47df300dc1567311e52d90b",
+          "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+          "url": "https://openai.com/index/asana",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T07:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "2202f2b59ff8d878e47df300dc1567311e52d90b",
+          "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+          "url": "https://openai.com/index/asana",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T07:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8359,
+      "importance": 0.8359,
+      "importance_score": 0.8359,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8661,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-18T07:00:00Z",
+      "latest_at": "2026-08-18T07:00:00Z",
+      "primary_item": {
+        "id": "2202f2b59ff8d878e47df300dc1567311e52d90b",
+        "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+        "url": "https://openai.com/index/asana",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -445,15 +507,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7297,
-      "importance": 0.7297,
-      "importance_score": 0.7297,
+      "score": 0.7285,
+      "importance": 0.7285,
+      "importance_score": 0.7285,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8729,
+        "recency": 0.8661,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -505,15 +567,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7265,
-      "importance": 0.7265,
-      "importance_score": 0.7265,
+      "score": 0.7254,
+      "importance": 0.7254,
+      "importance_score": 0.7254,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7886,
+        "recency": 0.7825,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -584,15 +646,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7413,
-      "importance": 0.7413,
-      "importance_score": 0.7413,
+      "score": 0.7403,
+      "importance": 0.7403,
+      "importance_score": 0.7403,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7315,
+        "recency": 0.7259,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -664,15 +726,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7368,
-      "importance": 0.7368,
-      "importance_score": 0.7368,
+      "score": 0.7358,
+      "importance": 0.7358,
+      "importance_score": 0.7358,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7232,
+        "recency": 0.7176,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -800,15 +862,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6099,
-      "importance": 0.6099,
-      "importance_score": 0.6099,
+      "score": 0.6086,
+      "importance": 0.6086,
+      "importance_score": 0.6086,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9396,
+        "recency": 0.9324,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -823,84 +885,6 @@
         "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
         "source": "www.theregister.com",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_966ff312c3d3",
-      "title": "曾经的在线书商亚马逊正在销毁善本书籍来训练人工智能模型 / Amazon, once an online bookseller, is destroying rare books to train AI models",
-      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
-      "primary_url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "sources": [
-        {
-          "id": "846b0663801ceaeeba96afe7775721d1e81e2b8e",
-          "title": "曾经的在线书商亚马逊正在销毁善本书籍来训练人工智能模型 / Amazon, once an online bookseller, is destroying rare books to train AI models",
-          "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-17T16:38:44Z"
-        },
-        {
-          "id": "1c138b79f233ab1079997c5ec2f6ed94d65025ac",
-          "title": "以销售书籍起家的亚马逊正在销毁稀有文本来训练人工智能 / Amazon, which started off selling books, is destroying rare texts to train AI",
-          "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-17T16:38:44Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI"
-      ],
-      "items": [
-        {
-          "id": "846b0663801ceaeeba96afe7775721d1e81e2b8e",
-          "title": "曾经的在线书商亚马逊正在销毁善本书籍来训练人工智能模型 / Amazon, once an online bookseller, is destroying rare books to train AI models",
-          "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-17T16:38:44Z"
-        },
-        {
-          "id": "1c138b79f233ab1079997c5ec2f6ed94d65025ac",
-          "title": "以销售书籍起家的亚马逊正在销毁稀有文本来训练人工智能 / Amazon, which started off selling books, is destroying rare texts to train AI",
-          "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-17T16:38:44Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5965,
-      "importance": 0.5965,
-      "importance_score": 0.5965,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5472,
-        "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.7095,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-17T16:38:44Z",
-      "latest_at": "2026-08-17T16:38:44Z",
-      "primary_item": {
-        "id": "846b0663801ceaeeba96afe7775721d1e81e2b8e",
-        "title": "曾经的在线书商亚马逊正在销毁善本书籍来训练人工智能模型 / Amazon, once an online bookseller, is destroying rare books to train AI models",
-        "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
       }
     },
     {
@@ -956,15 +940,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5754,
-      "importance": 0.5754,
-      "importance_score": 0.5754,
+      "score": 0.5742,
+      "importance": 0.5742,
+      "importance_score": 0.5742,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.5,
         "ai_relevance": 0.67,
-        "recency": 0.8985,
+        "recency": 0.8915,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1054,15 +1038,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5645,
-      "importance": 0.5645,
-      "importance_score": 0.5645,
+      "score": 0.5631,
+      "importance": 0.5631,
+      "importance_score": 0.5631,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9649,
+        "recency": 0.9574,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1170,15 +1154,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5511,
-      "importance": 0.5511,
-      "importance_score": 0.5511,
+      "score": 0.55,
+      "importance": 0.55,
+      "importance_score": 0.55,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7516,
+        "recency": 0.7458,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1287,15 +1271,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5506,
-      "importance": 0.5506,
-      "importance_score": 0.5506,
+      "score": 0.5495,
+      "importance": 0.5495,
+      "importance_score": 0.5495,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7486,
+        "recency": 0.7429,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1383,15 +1367,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5479,
-      "importance": 0.5479,
-      "importance_score": 0.5479,
+      "score": 0.5467,
+      "importance": 0.5467,
+      "importance_score": 0.5467,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8727,
+        "recency": 0.8659,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1409,30 +1393,30 @@
       }
     },
     {
-      "story_id": "story_170fcb15533b",
-      "title": "百度CEO誓言让“小尔尼”重返AI前沿，因营收未达预期导致股价下跌",
-      "url": "https://www.reuters.com/world/asia-pacific/chinas-baidu-misses-second-quarter-revenue-estimates-2026-08-18",
-      "primary_url": "https://www.reuters.com/world/asia-pacific/chinas-baidu-misses-second-quarter-revenue-estimates-2026-08-18",
+      "story_id": "story_2879481e7047",
+      "title": "芯片设计公司Velaura AI在完成融资后估值超过10亿美元",
+      "url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
+      "primary_url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
       "source": "www.reuters.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "e43b3d461bfc37085bd8cdc687e72de83b2f20f0",
-          "title": "百度CEO誓言让“小尔尼”重返AI前沿，因营收未达预期导致股价下跌",
-          "url": "https://www.reuters.com/world/asia-pacific/chinas-baidu-misses-second-quarter-revenue-estimates-2026-08-18",
+          "id": "7e853ac2bdaaccd2c4d544e155d066b560fdfd00",
+          "title": "芯片设计公司Velaura AI在完成融资后估值超过10亿美元",
+          "url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
           "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-18T15:02:08.007000Z"
+          "published_at": "2026-08-18T16:38:06.661000Z"
         },
         {
-          "id": "fa8c9ae474bb10e8076af2787ff95e8aba731cc9",
-          "title": "百度营收未达预期，广告业务下滑抵消了人工智能和云计算业务的增长",
-          "url": "https://www.reuters.com/world/asia-pacific/chinas-baidu-misses-second-quarter-revenue-estimates-2026-08-18",
+          "id": "6df5c450a2c3e6d2d0c0f48ebb5f8dc2356bbd24",
+          "title": "芯片设计公司Velaura AI在完成本轮融资后估值超过10亿美元",
+          "url": "https://www.reuters.com/legal/transactional/chip-designer-velaura-ai-valued-more-than-1-billion-after-funding-round-2026-08-18",
           "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-18T09:58:03.775000Z"
+          "published_at": "2026-08-18T12:06:17.426000Z"
         }
       ],
       "source_count": 2,
@@ -1441,47 +1425,47 @@
       ],
       "items": [
         {
-          "id": "e43b3d461bfc37085bd8cdc687e72de83b2f20f0",
-          "title": "百度CEO誓言让“小尔尼”重返AI前沿，因营收未达预期导致股价下跌",
-          "url": "https://www.reuters.com/world/asia-pacific/chinas-baidu-misses-second-quarter-revenue-estimates-2026-08-18",
+          "id": "7e853ac2bdaaccd2c4d544e155d066b560fdfd00",
+          "title": "芯片设计公司Velaura AI在完成融资后估值超过10亿美元",
+          "url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
           "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-18T15:02:08.007000Z"
+          "published_at": "2026-08-18T16:38:06.661000Z"
         },
         {
-          "id": "fa8c9ae474bb10e8076af2787ff95e8aba731cc9",
-          "title": "百度营收未达预期，广告业务下滑抵消了人工智能和云计算业务的增长",
-          "url": "https://www.reuters.com/world/asia-pacific/chinas-baidu-misses-second-quarter-revenue-estimates-2026-08-18",
+          "id": "6df5c450a2c3e6d2d0c0f48ebb5f8dc2356bbd24",
+          "title": "芯片设计公司Velaura AI在完成本轮融资后估值超过10亿美元",
+          "url": "https://www.reuters.com/legal/transactional/chip-designer-velaura-ai-valued-more-than-1-billion-after-funding-round-2026-08-18",
           "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-18T09:58:03.775000Z"
+          "published_at": "2026-08-18T12:06:17.426000Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5423,
-      "importance": 0.5423,
-      "importance_score": 0.5423,
+      "score": 0.545,
+      "importance": 0.545,
+      "importance_score": 0.545,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9803,
+        "recency": 0.9954,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-18T09:58:03.775000Z",
-      "latest_at": "2026-08-18T15:02:08.007000Z",
+      "earliest_at": "2026-08-18T12:06:17.426000Z",
+      "latest_at": "2026-08-18T16:38:06.661000Z",
       "primary_item": {
-        "id": "e43b3d461bfc37085bd8cdc687e72de83b2f20f0",
-        "title": "百度CEO誓言让“小尔尼”重返AI前沿，因营收未达预期导致股价下跌",
-        "url": "https://www.reuters.com/world/asia-pacific/chinas-baidu-misses-second-quarter-revenue-estimates-2026-08-18",
+        "id": "7e853ac2bdaaccd2c4d544e155d066b560fdfd00",
+        "title": "芯片设计公司Velaura AI在完成融资后估值超过10亿美元",
+        "url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
         "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
@@ -1539,15 +1523,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5409,
-      "importance": 0.5409,
-      "importance_score": 0.5409,
+      "score": 0.5395,
+      "importance": 0.5395,
+      "importance_score": 0.5395,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9727,
+        "recency": 0.9652,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1637,15 +1621,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.538,
-      "importance": 0.538,
-      "importance_score": 0.538,
+      "score": 0.5369,
+      "importance": 0.5369,
+      "importance_score": 0.5369,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.818,
+        "recency": 0.8117,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1735,15 +1719,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5363,
-      "importance": 0.5363,
-      "importance_score": 0.5363,
+      "score": 0.5352,
+      "importance": 0.5352,
+      "importance_score": 0.5352,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8086,
+        "recency": 0.8024,
         "story_heat": 0.5
       },
       "category": "multi_source",
