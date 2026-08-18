@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "960317bd29eaa810",
+  "snapshot_id": "7dd7249a12d1abfd",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T21:47:32.349540Z",
+  "generated_at": "2026-08-18T22:14:20.920610Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 595,
-    "high_priority": 29,
+    "signals": 594,
+    "high_priority": 30,
     "briefs": 20,
-    "stories": 556
+    "stories": 554
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 246,
+    "Buzzing": 242,
     "Info Flow": 158,
     "Zeli": 77,
-    "NewsNow": 38,
-    "Curated Media": 30,
+    "NewsNow": 39,
+    "Curated Media": 31,
     "OPML RSS": 13,
     "AI HOT": 11,
     "Follow Builders": 9
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8758,
+      "importance_score": 0.8747,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -89,7 +89,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.859,
+      "importance_score": 0.858,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -123,58 +123,38 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_e520424e436f",
-      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "primary_url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face Blog",
+      "story_id": "story_2fa84a60a1c6",
+      "title": "按令牌类型撤销凭证和取消授权 / Credential revocation and deauthorization by token type",
+      "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
+      "primary_url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
+        "GitHub Changelog"
       ],
-      "importance_score": 0.8694,
+      "importance_score": 0.8433,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-18T00:00:00Z",
-      "earliest_at": "2026-08-18T00:00:00Z",
+      "latest_at": "2026-08-18T21:57:30Z",
+      "earliest_at": "2026-08-18T21:57:30Z",
       "sources": [
         {
-          "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
-          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face Blog",
+          "id": "f4aa758ec0506c171d08b8864e8dfbcca8b1c2d5",
+          "title": "按令牌类型撤销凭证和取消授权 / Credential revocation and deauthorization by token type",
+          "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
-        },
-        {
-          "id": "3a5f22e406027a5eb26beb9570e669a3730e1990",
-          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T00:00:00Z"
-        },
-        {
-          "id": "6ca5c30dbd2e6a9230a0309dbe3c3aba90134770",
-          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T00:00:00Z"
+          "published_at": "2026-08-18T21:57:30Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     }
   ]
 }
