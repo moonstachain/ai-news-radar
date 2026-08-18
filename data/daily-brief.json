@@ -1,8 +1,90 @@
 {
-  "generated_at": "2026-08-18T19:08:03.004591Z",
+  "generated_at": "2026-08-18T19:49:09.862235Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_5ce8103476b1",
+      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准 / How Much Memory Does Your Agent Actually Need?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "primary_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "4c7e6d7987f8435623b872c1349860e73b991e53",
+          "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准 / How Much Memory Does Your Agent Actually Need?",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T18:09:38Z"
+        },
+        {
+          "id": "ed0f0ca83fed5aa8ae6ec56cfdfbee39b0782b0e",
+          "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T18:09:38Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
+      ],
+      "items": [
+        {
+          "id": "4c7e6d7987f8435623b872c1349860e73b991e53",
+          "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准 / How Much Memory Does Your Agent Actually Need?",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T18:09:38Z"
+        },
+        {
+          "id": "ed0f0ca83fed5aa8ae6ec56cfdfbee39b0782b0e",
+          "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T18:09:38Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8807,
+      "importance": 0.8807,
+      "importance_score": 0.8807,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.9763,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-18T18:09:38Z",
+      "latest_at": "2026-08-18T18:09:38Z",
+      "primary_item": {
+        "id": "4c7e6d7987f8435623b872c1349860e73b991e53",
+        "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准 / How Much Memory Does Your Agent Actually Need?",
+        "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
     {
       "story_id": "story_01003c6680bc",
       "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护 / Introducing ChatGPT for Teens: Built for learning, backed by protections",
@@ -57,15 +139,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8651,
-      "importance": 0.8651,
-      "importance_score": 0.8651,
+      "score": 0.8635,
+      "importance": 0.8635,
+      "importance_score": 0.8635,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8892,
+        "recency": 0.8804,
         "story_heat": 0.25
       },
       "category": "official",
@@ -86,63 +168,101 @@
       }
     },
     {
-      "story_id": "story_5ce8103476b1",
-      "title": "您的代理实际需要多少内存？ / How Much Memory Does Your Agent Actually Need?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "primary_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "story_id": "story_e520424e436f",
+      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "primary_url": "https://huggingface.co/blog/multi-vector-encoder",
       "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "4c7e6d7987f8435623b872c1349860e73b991e53",
-          "title": "您的代理实际需要多少内存？ / How Much Memory Does Your Agent Actually Need?",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
+          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+          "url": "https://huggingface.co/blog/multi-vector-encoder",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-18T18:09:38Z"
+          "published_at": "2026-08-18T00:00:00Z"
+        },
+        {
+          "id": "3a5f22e406027a5eb26beb9570e669a3730e1990",
+          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
+          "url": "https://huggingface.co/blog/multi-vector-encoder",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T00:00:00Z"
+        },
+        {
+          "id": "6ca5c30dbd2e6a9230a0309dbe3c3aba90134770",
+          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+          "url": "https://huggingface.co/blog/multi-vector-encoder",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T00:00:00Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 3,
       "source_names": [
-        "Hugging Face Blog"
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
       ],
       "items": [
         {
-          "id": "4c7e6d7987f8435623b872c1349860e73b991e53",
-          "title": "您的代理实际需要多少内存？ / How Much Memory Does Your Agent Actually Need?",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
+          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+          "url": "https://huggingface.co/blog/multi-vector-encoder",
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-18T18:09:38Z"
+          "published_at": "2026-08-18T00:00:00Z"
+        },
+        {
+          "id": "3a5f22e406027a5eb26beb9570e669a3730e1990",
+          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
+          "url": "https://huggingface.co/blog/multi-vector-encoder",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T00:00:00Z"
+        },
+        {
+          "id": "6ca5c30dbd2e6a9230a0309dbe3c3aba90134770",
+          "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+          "url": "https://huggingface.co/blog/multi-vector-encoder",
+          "source": "Hugging Face：Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T00:00:00Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8575,
-      "importance": 0.8575,
-      "importance_score": 0.8575,
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8732,
+      "importance": 0.8732,
+      "importance_score": 0.8732,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.986,
-        "story_heat": 0.0
+        "ai_relevance": 0.99,
+        "recency": 0.7511,
+        "story_heat": 0.5
       },
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-18T18:09:38Z",
-      "latest_at": "2026-08-18T18:09:38Z",
+      "earliest_at": "2026-08-18T00:00:00Z",
+      "latest_at": "2026-08-18T00:00:00Z",
       "primary_item": {
-        "id": "4c7e6d7987f8435623b872c1349860e73b991e53",
-        "title": "您的代理实际需要多少内存？ / How Much Memory Does Your Agent Actually Need?",
-        "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+        "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
+        "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+        "url": "https://huggingface.co/blog/multi-vector-encoder",
         "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
@@ -201,15 +321,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8571,
-      "importance": 0.8571,
-      "importance_score": 0.8571,
+      "score": 0.8555,
+      "importance": 0.8555,
+      "importance_score": 0.8555,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8892,
+        "recency": 0.8804,
         "story_heat": 0.25
       },
       "category": "official",
@@ -226,88 +346,6 @@
         "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏 / Pacing model development in an era of cyber-critical capabilities",
         "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
         "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_e520424e436f",
-      "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "primary_url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
-          "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
-        },
-        {
-          "id": "3a5f22e406027a5eb26beb9570e669a3730e1990",
-          "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T00:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
-          "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
-        },
-        {
-          "id": "3a5f22e406027a5eb26beb9570e669a3730e1990",
-          "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T00:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8495,
-      "importance": 0.8495,
-      "importance_score": 0.8495,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.99,
-        "recency": 0.7586,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T00:00:00Z",
-      "latest_at": "2026-08-18T00:00:00Z",
-      "primary_item": {
-        "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
-        "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-        "url": "https://huggingface.co/blog/multi-vector-encoder",
-        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -365,15 +403,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7727,
-      "importance": 0.7727,
-      "importance_score": 0.7727,
+      "score": 0.7714,
+      "importance": 0.7714,
+      "importance_score": 0.7714,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7395,
+        "recency": 0.7322,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -427,15 +465,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8321,
-      "importance": 0.8321,
-      "importance_score": 0.8321,
+      "score": 0.8305,
+      "importance": 0.8305,
+      "importance_score": 0.8305,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8892,
+        "recency": 0.8804,
         "story_heat": 0.0
       },
       "category": "official",
@@ -451,68 +489,6 @@
         "title": "与 CodeAI 合作，准备第一代 AI / Partnering with CodeAI to prepare the first AI generation",
         "url": "https://openai.com/index/partnering-with-codeai",
         "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_b597a3d03ee7",
-      "title": "相同的集群，利用率增加了 33 个点：改变的是顺序 / Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "primary_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "4f25f81b303f8e33d4c266b4ceef6fee39e8f9da",
-          "title": "相同的集群，利用率增加了 33 个点：改变的是顺序 / Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-          "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-17T19:46:21Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "4f25f81b303f8e33d4c266b4ceef6fee39e8f9da",
-          "title": "相同的集群，利用率增加了 33 个点：改变的是顺序 / Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-          "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-17T19:46:21Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8085,
-      "importance": 0.8085,
-      "importance_score": 0.8085,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7137,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-17T19:46:21Z",
-      "latest_at": "2026-08-17T19:46:21Z",
-      "primary_item": {
-        "id": "4f25f81b303f8e33d4c266b4ceef6fee39e8f9da",
-        "title": "相同的集群，利用率增加了 33 个点：改变的是顺序 / Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-        "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       }
     },
@@ -551,15 +527,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8311,
-      "importance": 0.8311,
-      "importance_score": 0.8311,
+      "score": 0.8296,
+      "importance": 0.8296,
+      "importance_score": 0.8296,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8393,
+        "recency": 0.831,
         "story_heat": 0.0
       },
       "category": "official",
@@ -576,6 +552,66 @@
         "url": "https://openai.com/index/asana",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_73978d10d0d5",
+      "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+      "url": "https://claude.com/blog/ai-ci-cd-on-call",
+      "primary_url": "https://claude.com/blog/ai-ci-cd-on-call",
+      "source": "Claude：Blog（网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "fb736f80d9d45402ef56b84bfa18c92744ec4b36",
+          "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+          "url": "https://claude.com/blog/ai-ci-cd-on-call",
+          "source": "Claude：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T19:26:08.389000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Claude：Blog（网页）"
+      ],
+      "items": [
+        {
+          "id": "fb736f80d9d45402ef56b84bfa18c92744ec4b36",
+          "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+          "url": "https://claude.com/blog/ai-ci-cd-on-call",
+          "source": "Claude：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T19:26:08.389000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7396,
+      "importance": 0.7396,
+      "importance_score": 0.7396,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.63,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9945,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-18T19:26:08.389000Z",
+      "latest_at": "2026-08-18T19:26:08.389000Z",
+      "primary_item": {
+        "id": "fb736f80d9d45402ef56b84bfa18c92744ec4b36",
+        "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+        "url": "https://claude.com/blog/ai-ci-cd-on-call",
+        "source": "Claude：Blog（网页）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -613,15 +649,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7237,
-      "importance": 0.7237,
-      "importance_score": 0.7237,
+      "score": 0.7222,
+      "importance": 0.7222,
+      "importance_score": 0.7222,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8393,
+        "recency": 0.831,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -635,66 +671,6 @@
         "title": "设计 AI 评测：先求清晰，再谈可视化",
         "url": "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
         "source": "Google AI：DEV 作者专属（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_6cbde97d8260",
-      "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
-      "source": "公众号：数字生命卡兹克",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4e8bc7ca3e901e63222da3f6d87a6be1bb0f20b3",
-          "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-17T23:58:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：数字生命卡兹克"
-      ],
-      "items": [
-        {
-          "id": "4e8bc7ca3e901e63222da3f6d87a6be1bb0f20b3",
-          "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-17T23:58:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7211,
-      "importance": 0.7211,
-      "importance_score": 0.7211,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7582,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-17T23:58:00Z",
-      "latest_at": "2026-08-17T23:58:00Z",
-      "primary_item": {
-        "id": "4e8bc7ca3e901e63222da3f6d87a6be1bb0f20b3",
-        "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
-        "source": "公众号：数字生命卡兹克",
         "source_name": "AI HOT"
       }
     },
@@ -808,15 +784,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6034,
-      "importance": 0.6034,
-      "importance_score": 0.6034,
+      "score": 0.6018,
+      "importance": 0.6018,
+      "importance_score": 0.6018,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9035,
+        "recency": 0.8946,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -925,15 +901,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5908,
-      "importance": 0.5908,
-      "importance_score": 0.5908,
+      "score": 0.589,
+      "importance": 0.589,
+      "importance_score": 0.589,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.972,
+        "recency": 0.9624,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1003,15 +979,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
+      "score": 0.5677,
+      "importance": 0.5677,
+      "importance_score": 0.5677,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.5,
         "ai_relevance": 0.67,
-        "recency": 0.8639,
+        "recency": 0.8554,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1100,15 +1076,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5685,
-      "importance": 0.5685,
-      "importance_score": 0.5685,
+      "score": 0.5667,
+      "importance": 0.5667,
+      "importance_score": 0.5667,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9871,
+        "recency": 0.9774,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1198,15 +1174,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5578,
-      "importance": 0.5578,
-      "importance_score": 0.5578,
+      "score": 0.5561,
+      "importance": 0.5561,
+      "importance_score": 0.5561,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9277,
+        "recency": 0.9186,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1314,15 +1290,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5557,
-      "importance": 0.5557,
-      "importance_score": 0.5557,
+      "score": 0.5544,
+      "importance": 0.5544,
+      "importance_score": 0.5544,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7775,
+        "recency": 0.7698,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1340,119 +1316,159 @@
       }
     },
     {
-      "story_id": "story_c76018e68d72",
-      "title": "AI;DR（AI；没读）",
-      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "primary_url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-      "source": "www.rickmanelius.com",
+      "story_id": "story_bcd0921a0774",
+      "title": "Hugging Face遭遇黑客攻击后，OpenAI放缓模型训练速度以加强安全防护",
+      "url": "https://www.reuters.com/technology/openai-slows-model-training-bolster-security-after-hugging-face-hack-2026-08-18",
+      "primary_url": "https://www.reuters.com/technology/openai-slows-model-training-bolster-security-after-hugging-face-hack-2026-08-18",
+      "source": "www.reuters.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "45ea62484878f8b3ce9fde538538b8a2885359c2",
-          "title": "AI;DR（AI；没读）",
-          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-          "source": "www.rickmanelius.com",
+          "id": "5a5e27f1365582cb109b308a9cf528139fe3db2b",
+          "title": "Hugging Face遭遇黑客攻击后，OpenAI放缓模型训练速度以加强安全防护",
+          "url": "https://www.reuters.com/technology/openai-slows-model-training-bolster-security-after-hugging-face-hack-2026-08-18",
+          "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-17T20:22:04.245000Z"
+          "published_at": "2026-08-18T19:18:05.537000Z"
         },
         {
-          "id": "1693180253aaaa0059164b4f962e90cc10a4f048",
-          "title": "AI;DR（AI；未读） / AI;DR (AI; Didn't Read)",
-          "url": "https://news.ycombinator.com/item?id=49336573",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-17T20:19:47.656000Z"
-        },
-        {
-          "id": "d3f3ff2d2a094fadba87db8887dd740a008edd7a",
-          "title": "AI;DR（AI；没读） / AI;DR (AI; Didn’t Read)",
-          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-17T20:14:47Z"
-        },
-        {
-          "id": "03167f81bc912d33de87bb93ddd870c72d96f3ab",
-          "title": "AI;DR（AI；没读） / AI;DR (AI; Didn't Read)",
-          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-17T19:47:15Z"
+          "id": "46cef1a7d12aee074688d7178c3452aecf79d258",
+          "title": "在Hugging Face遭受攻击后，OpenAI放缓模型训练速度以加强安全措施",
+          "url": "https://www.reuters.com/es/tecnolog%C3%ADa/IPZJGQ6RVBNYDHNZEKYO3KMT74-2026-08-18",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-18T18:30:13.144000Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Lobsters (技术社区)",
-        "hackernews",
-        "www.rickmanelius.com"
+        "www.reuters.com"
       ],
       "items": [
         {
-          "id": "45ea62484878f8b3ce9fde538538b8a2885359c2",
-          "title": "AI;DR（AI；没读）",
-          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-          "source": "www.rickmanelius.com",
+          "id": "5a5e27f1365582cb109b308a9cf528139fe3db2b",
+          "title": "Hugging Face遭遇黑客攻击后，OpenAI放缓模型训练速度以加强安全防护",
+          "url": "https://www.reuters.com/technology/openai-slows-model-training-bolster-security-after-hugging-face-hack-2026-08-18",
+          "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-17T20:22:04.245000Z"
+          "published_at": "2026-08-18T19:18:05.537000Z"
         },
         {
-          "id": "1693180253aaaa0059164b4f962e90cc10a4f048",
-          "title": "AI;DR（AI；未读） / AI;DR (AI; Didn't Read)",
-          "url": "https://news.ycombinator.com/item?id=49336573",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-17T20:19:47.656000Z"
-        },
-        {
-          "id": "d3f3ff2d2a094fadba87db8887dd740a008edd7a",
-          "title": "AI;DR（AI；没读） / AI;DR (AI; Didn’t Read)",
-          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-17T20:14:47Z"
-        },
-        {
-          "id": "03167f81bc912d33de87bb93ddd870c72d96f3ab",
-          "title": "AI;DR（AI；没读） / AI;DR (AI; Didn't Read)",
-          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-17T19:47:15Z"
+          "id": "46cef1a7d12aee074688d7178c3452aecf79d258",
+          "title": "在Hugging Face遭受攻击后，OpenAI放缓模型训练速度以加强安全措施",
+          "url": "https://www.reuters.com/es/tecnolog%C3%ADa/IPZJGQ6RVBNYDHNZEKYO3KMT74-2026-08-18",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-18T18:30:13.144000Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5454,
-      "importance": 0.5454,
-      "importance_score": 0.5454,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7198,
-        "story_heat": 0.75
+        "recency": 0.9925,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-17T19:47:15Z",
-      "latest_at": "2026-08-17T20:22:04.245000Z",
+      "earliest_at": "2026-08-18T18:30:13.144000Z",
+      "latest_at": "2026-08-18T19:18:05.537000Z",
       "primary_item": {
-        "id": "45ea62484878f8b3ce9fde538538b8a2885359c2",
-        "title": "AI;DR（AI；没读）",
-        "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-        "source": "www.rickmanelius.com",
+        "id": "5a5e27f1365582cb109b308a9cf528139fe3db2b",
+        "title": "Hugging Face遭遇黑客攻击后，OpenAI放缓模型训练速度以加强安全防护",
+        "url": "https://www.reuters.com/technology/openai-slows-model-training-bolster-security-after-hugging-face-hack-2026-08-18",
+        "source": "www.reuters.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_6ec340ba37b3",
+      "title": "Show HN: PantheonGPU – GPU 健康状况测试与 AI 工作负载基准测试",
+      "url": "https://pantheongpu.com",
+      "primary_url": "https://pantheongpu.com",
+      "source": "pantheongpu.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "38b7bf9e5fe3a4f8783a16f2492b8bb6c1e73e90",
+          "title": "Show HN: PantheonGPU – GPU 健康状况测试与 AI 工作负载基准测试",
+          "url": "https://pantheongpu.com",
+          "source": "pantheongpu.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-18T19:02:25.055000Z"
+        },
+        {
+          "id": "61a827316731ed601f9989ce4e035ef216ab6212",
+          "title": "Show HN: PantheonGPU – GPU 健康状况测试与 AI 工作负载基准测试 / Show HN: PantheonGPU – GPU health testing and AI workload benchmarking",
+          "url": "https://pantheongpu.com",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-18T18:47:51Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "pantheongpu.com"
+      ],
+      "items": [
+        {
+          "id": "38b7bf9e5fe3a4f8783a16f2492b8bb6c1e73e90",
+          "title": "Show HN: PantheonGPU – GPU 健康状况测试与 AI 工作负载基准测试",
+          "url": "https://pantheongpu.com",
+          "source": "pantheongpu.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-18T19:02:25.055000Z"
+        },
+        {
+          "id": "61a827316731ed601f9989ce4e035ef216ab6212",
+          "title": "Show HN: PantheonGPU – GPU 健康状况测试与 AI 工作负载基准测试 / Show HN: PantheonGPU – GPU health testing and AI workload benchmarking",
+          "url": "https://pantheongpu.com",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-18T18:47:51Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5438,
+      "importance": 0.5438,
+      "importance_score": 0.5438,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9888,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-18T18:47:51Z",
+      "latest_at": "2026-08-18T19:02:25.055000Z",
+      "primary_item": {
+        "id": "38b7bf9e5fe3a4f8783a16f2492b8bb6c1e73e90",
+        "title": "Show HN: PantheonGPU – GPU 健康状况测试与 AI 工作负载基准测试",
+        "url": "https://pantheongpu.com",
+        "source": "pantheongpu.com",
         "source_name": "Buzzing"
       }
     },
@@ -1527,15 +1543,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5418,
-      "importance": 0.5418,
-      "importance_score": 0.5418,
+      "score": 0.5403,
+      "importance": 0.5403,
+      "importance_score": 0.5403,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.839,
+        "recency": 0.8308,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1553,160 +1569,179 @@
       }
     },
     {
-      "story_id": "story_2879481e7047",
-      "title": "芯片设计公司Velaura AI在完成融资后估值超过10亿美元",
-      "url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
-      "primary_url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
-      "source": "www.reuters.com",
+      "story_id": "story_b8166a124774",
+      "title": "百度营收连续第五次下滑，AI业务差距进一步扩大",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
+      "source": "www.bloomberg.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "7e853ac2bdaaccd2c4d544e155d066b560fdfd00",
-          "title": "芯片设计公司Velaura AI在完成融资后估值超过10亿美元",
-          "url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
-          "source": "www.reuters.com",
+          "id": "8945d827399c63eccd86713e56a618b3294fdcaf",
+          "title": "百度营收连续第五次下滑，AI业务差距进一步扩大",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
+          "source": "www.bloomberg.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-18T16:38:06.661000Z"
+          "published_at": "2026-08-18T14:30:01.438000Z"
         },
         {
-          "id": "6df5c450a2c3e6d2d0c0f48ebb5f8dc2356bbd24",
-          "title": "芯片设计公司Velaura AI在完成本轮融资后估值超过10亿美元",
-          "url": "https://www.reuters.com/legal/transactional/chip-designer-velaura-ai-valued-more-than-1-billion-after-funding-round-2026-08-18",
-          "source": "www.reuters.com",
+          "id": "c42773161d94b86a222b5fa696cc8059fe95a0ee",
+          "title": "百度因AI业务落后加剧，营收连续第五次下滑",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
+          "source": "www.bloomberg.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-18T12:06:17.426000Z"
+          "published_at": "2026-08-18T10:14:12.704000Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "www.reuters.com"
+        "www.bloomberg.com"
       ],
       "items": [
         {
-          "id": "7e853ac2bdaaccd2c4d544e155d066b560fdfd00",
-          "title": "芯片设计公司Velaura AI在完成融资后估值超过10亿美元",
-          "url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
-          "source": "www.reuters.com",
+          "id": "8945d827399c63eccd86713e56a618b3294fdcaf",
+          "title": "百度营收连续第五次下滑，AI业务差距进一步扩大",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
+          "source": "www.bloomberg.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-18T16:38:06.661000Z"
+          "published_at": "2026-08-18T14:30:01.438000Z"
         },
         {
-          "id": "6df5c450a2c3e6d2d0c0f48ebb5f8dc2356bbd24",
-          "title": "芯片设计公司Velaura AI在完成本轮融资后估值超过10亿美元",
-          "url": "https://www.reuters.com/legal/transactional/chip-designer-velaura-ai-valued-more-than-1-billion-after-funding-round-2026-08-18",
-          "source": "www.reuters.com",
+          "id": "c42773161d94b86a222b5fa696cc8059fe95a0ee",
+          "title": "百度因AI业务落后加剧，营收连续第五次下滑",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
+          "source": "www.bloomberg.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-18T12:06:17.426000Z"
+          "published_at": "2026-08-18T10:14:12.704000Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5394,
-      "importance": 0.5394,
-      "importance_score": 0.5394,
+      "score": 0.5325,
+      "importance": 0.5325,
+      "importance_score": 0.5325,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9646,
+        "recency": 0.9261,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-18T12:06:17.426000Z",
-      "latest_at": "2026-08-18T16:38:06.661000Z",
+      "earliest_at": "2026-08-18T10:14:12.704000Z",
+      "latest_at": "2026-08-18T14:30:01.438000Z",
       "primary_item": {
-        "id": "7e853ac2bdaaccd2c4d544e155d066b560fdfd00",
-        "title": "芯片设计公司Velaura AI在完成融资后估值超过10亿美元",
-        "url": "https://www.reuters.com/pt/tecnologia/BSMLHQXMCZNQNCRL7PGLQHOHQM-2026-08-18",
-        "source": "www.reuters.com",
+        "id": "8945d827399c63eccd86713e56a618b3294fdcaf",
+        "title": "百度营收连续第五次下滑，AI业务差距进一步扩大",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
+        "source": "www.bloomberg.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_b75c95d99346",
-      "title": "Show HN: Cronloop，按计划运行 Claude Code 或 Codex / Show HN: Cronloop, run Claude Code or Codex on a schedule",
-      "url": "https://cronloop.ai",
-      "primary_url": "https://cronloop.ai",
-      "source": "HN Algolia · AI 24h",
-      "source_name": "Hacker News",
+      "story_id": "story_4b340e692b03",
+      "title": "以色列设立了一个虚假智库，此举很可能是为了欺骗AI聊天机器人",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+      "primary_url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+      "source": "responsiblestatecraft.org",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "c9e9a420dd856f97b420534ba415ae1fce363bc2",
-          "title": "Show HN: Cronloop，按计划运行 Claude Code 或 Codex / Show HN: Cronloop, run Claude Code or Codex on a schedule",
-          "url": "https://cronloop.ai",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-18T16:31:41Z"
-        },
-        {
-          "id": "30c29879b76caf6a6b99cc5edccfc34773c35e0b",
-          "title": "Show HN: Cronloop，按计划运行 Claude Code 或 Codex",
-          "url": "https://cronloop.ai",
-          "source": "cronloop.ai",
+          "id": "3c3be855f30f06d3a83f3e4ebd222f982fd98ec0",
+          "title": "以色列设立了一个虚假智库，此举很可能是为了欺骗AI聊天机器人",
+          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+          "source": "responsiblestatecraft.org",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-17T19:17:55.684000Z"
+          "published_at": "2026-08-18T02:30:02.549000Z"
+        },
+        {
+          "id": "a93341765557aee7e3916e2287c5666927361494",
+          "title": "以色列创建假智囊团可能试图欺骗人工智能聊天机器人 / Israel creates fake think tank in likely attempt to dupe AI chatbots",
+          "url": "https://news.ycombinator.com/item?id=49337392",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-18T01:57:34.763000Z"
+        },
+        {
+          "id": "29238fb7a9b0754218933360ccd6b3cd19477b13",
+          "title": "以色列设立了一个虚假智库，此举很可能是为了欺骗AI聊天机器人 / Israel creates fake think tank in likely attempt to dupe AI chatbots",
+          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-17T20:46:10Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
-        "HN Algolia · AI 24h",
-        "cronloop.ai"
+        "Hacker News · 24h最热",
+        "hackernews",
+        "responsiblestatecraft.org"
       ],
       "items": [
         {
-          "id": "c9e9a420dd856f97b420534ba415ae1fce363bc2",
-          "title": "Show HN: Cronloop，按计划运行 Claude Code 或 Codex / Show HN: Cronloop, run Claude Code or Codex on a schedule",
-          "url": "https://cronloop.ai",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "site_id": "hackernews",
-          "published_at": "2026-08-18T16:31:41Z"
-        },
-        {
-          "id": "30c29879b76caf6a6b99cc5edccfc34773c35e0b",
-          "title": "Show HN: Cronloop，按计划运行 Claude Code 或 Codex",
-          "url": "https://cronloop.ai",
-          "source": "cronloop.ai",
+          "id": "3c3be855f30f06d3a83f3e4ebd222f982fd98ec0",
+          "title": "以色列设立了一个虚假智库，此举很可能是为了欺骗AI聊天机器人",
+          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+          "source": "responsiblestatecraft.org",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-17T19:17:55.684000Z"
+          "published_at": "2026-08-18T02:30:02.549000Z"
+        },
+        {
+          "id": "a93341765557aee7e3916e2287c5666927361494",
+          "title": "以色列创建假智囊团可能试图欺骗人工智能聊天机器人 / Israel creates fake think tank in likely attempt to dupe AI chatbots",
+          "url": "https://news.ycombinator.com/item?id=49337392",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-18T01:57:34.763000Z"
+        },
+        {
+          "id": "29238fb7a9b0754218933360ccd6b3cd19477b13",
+          "title": "以色列设立了一个虚假智库，此举很可能是为了欺骗AI聊天机器人 / Israel creates fake think tank in likely attempt to dupe AI chatbots",
+          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-17T20:46:10Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5392,
-      "importance": 0.5392,
-      "importance_score": 0.5392,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.531,
+      "importance": 0.531,
+      "importance_score": 0.531,
+      "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9631,
-        "story_heat": 0.25
+        "recency": 0.7787,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-17T19:17:55.684000Z",
-      "latest_at": "2026-08-18T16:31:41Z",
+      "earliest_at": "2026-08-17T20:46:10Z",
+      "latest_at": "2026-08-18T02:30:02.549000Z",
       "primary_item": {
-        "id": "c9e9a420dd856f97b420534ba415ae1fce363bc2",
-        "title": "Show HN: Cronloop，按计划运行 Claude Code 或 Codex / Show HN: Cronloop, run Claude Code or Codex on a schedule",
-        "url": "https://cronloop.ai",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "Hacker News"
+        "id": "3c3be855f30f06d3a83f3e4ebd222f982fd98ec0",
+        "title": "以色列设立了一个虚假智库，此举很可能是为了欺骗AI聊天机器人",
+        "url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+        "source": "responsiblestatecraft.org",
+        "source_name": "Buzzing"
       }
     }
   ]
