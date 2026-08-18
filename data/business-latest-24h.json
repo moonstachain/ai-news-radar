@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T20:50:41.410337Z",
+  "generated_at": "2026-08-18T21:18:33.109844Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T17:42:56Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -42,13 +42,88 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_6195a6426c00",
+      "title": "Executive Interview: Miter",
+      "url": "https://www.cbinsights.com/research/executive-interview-miter/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-18T20:41:20Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "Miter"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust",
+        "wealth_flywheel"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 53,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 9,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Miter’s Head of Growth, Olivia DePass, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We define our category... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_0b69e539ea6d",
+      "title": "CEO Interview: Blue Onion",
+      "url": "https://www.cbinsights.com/research/ceo-interview-blue-onion/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-18T20:49:14Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "CEO Interview",
+        "Blue Onion"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Lyndsey Bunting, CEO of Blue Onion, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? The way I define our marke... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_8d18e8254188",
       "title": "CEO Interview: Vertigenius",
       "url": "https://www.cbinsights.com/research/ceo-interview-vertigenius/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T18:40:01Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -85,7 +160,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T18:05:13Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -122,7 +197,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T16:33:48Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -159,7 +234,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T15:36:54Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -196,7 +271,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T21:35:27Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -226,50 +301,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_29a9b9a6fdbf",
-      "title": "Executive Interview: Lightning AI",
-      "url": "https://www.cbinsights.com/research/executive-interview-lightning-ai/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-17T20:51:50Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "Executive Interview",
-        "Lightning AI"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 49,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Peter Bershatsky, Chief Strategy Officer (CSO) at Lightning AI, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_3bbfae2808d8",
       "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
       "url": "https://openai.com/index/chatgpt-for-teens",
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "published_at": "2026-08-18T11:00:00Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "ai_commercialization",
       "entities": [
         "OpenAI News",
@@ -307,7 +345,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-17T23:13:41Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -346,7 +384,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-18T15:40:06Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -382,7 +420,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-18T11:00:26Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -419,7 +457,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-08-18T13:01:00Z",
-      "captured_at": "2026-08-18T20:50:41.410337Z",
+      "captured_at": "2026-08-18T21:18:33.109844Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
