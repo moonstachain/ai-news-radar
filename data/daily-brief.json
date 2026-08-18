@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:14:20.920610Z",
+  "generated_at": "2026-08-18T22:49:04.133013Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8747,
-      "importance": 0.8747,
-      "importance_score": 0.8747,
+      "score": 0.8733,
+      "importance": 0.8733,
+      "importance_score": 0.8733,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9428,
+        "recency": 0.935,
         "story_heat": 0.25
       },
       "category": "official",
@@ -139,15 +139,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.858,
-      "importance": 0.858,
-      "importance_score": 0.858,
+      "score": 0.8568,
+      "importance": 0.8568,
+      "importance_score": 0.8568,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8502,
+        "recency": 0.8431,
         "story_heat": 0.25
       },
       "category": "official",
@@ -202,15 +202,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8433,
-      "importance": 0.8433,
-      "importance_score": 0.8433,
+      "score": 0.8418,
+      "importance": 0.8418,
+      "importance_score": 0.8418,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.996,
+        "recency": 0.9877,
         "story_heat": 0.0
       },
       "category": "official",
@@ -301,15 +301,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8686,
-      "importance": 0.8686,
-      "importance_score": 0.8686,
+      "score": 0.8675,
+      "importance": 0.8675,
+      "importance_score": 0.8675,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.7253,
+        "recency": 0.7193,
         "story_heat": 0.5
       },
       "category": "official",
@@ -383,15 +383,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.85,
-      "importance": 0.85,
-      "importance_score": 0.85,
+      "score": 0.8488,
+      "importance": 0.8488,
+      "importance_score": 0.8488,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8502,
+        "recency": 0.8431,
         "story_heat": 0.25
       },
       "category": "official",
@@ -408,6 +408,68 @@
         "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏 / Pacing model development in an era of cyber-critical capabilities",
         "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
         "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_91992ed9f82d",
+      "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "628d16ca26e4ea18a33764992457d12726bd5db4",
+          "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "items": [
+        {
+          "id": "628d16ca26e4ea18a33764992457d12726bd5db4",
+          "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8155,
+      "importance": 0.8155,
+      "importance_score": 0.8155,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.7193,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-18T00:00:00Z",
+      "latest_at": "2026-08-18T00:00:00Z",
+      "primary_item": {
+        "id": "628d16ca26e4ea18a33764992457d12726bd5db4",
+        "title": "法典 CLI 0.148.0 / Codex CLI 0.148.0",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -465,15 +527,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7965,
-      "importance": 0.7965,
-      "importance_score": 0.7965,
+      "score": 0.795,
+      "importance": 0.795,
+      "importance_score": 0.795,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9884,
+        "recency": 0.9802,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -527,15 +589,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8438,
-      "importance": 0.8438,
-      "importance_score": 0.8438,
+      "score": 0.8423,
+      "importance": 0.8423,
+      "importance_score": 0.8423,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9543,
+        "recency": 0.9464,
         "story_heat": 0.0
       },
       "category": "official",
@@ -552,6 +614,67 @@
         "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_56d0c9a18268",
+      "title": "Claude 如何加速蛋白质设计与分析化学研究",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "primary_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
+          "title": "Claude 如何加速蛋白质设计与分析化学研究",
+          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T22:27:16.191000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Anthropic：Research（发表成果 · 网页）"
+      ],
+      "items": [
+        {
+          "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
+          "title": "Claude 如何加速蛋白质设计与分析化学研究",
+          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T22:27:16.191000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7697,
+      "importance": 0.7697,
+      "importance_score": 0.7697,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9948,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-18T22:27:16.191000Z",
+      "latest_at": "2026-08-18T22:27:16.191000Z",
+      "primary_item": {
+        "id": "2d445d4711836fe1d6d56e649860541e33eb624e",
+        "title": "Claude 如何加速蛋白质设计与分析化学研究",
+        "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+        "source": "Anthropic：Research（发表成果 · 网页）",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -589,15 +712,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7411,
-      "importance": 0.7411,
-      "importance_score": 0.7411,
+      "score": 0.7397,
+      "importance": 0.7397,
+      "importance_score": 0.7397,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9696,
+        "recency": 0.9615,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -649,15 +772,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.825,
-      "importance": 0.825,
-      "importance_score": 0.825,
+      "score": 0.8238,
+      "importance": 0.8238,
+      "importance_score": 0.8238,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8502,
+        "recency": 0.8431,
         "story_heat": 0.0
       },
       "category": "official",
@@ -711,15 +834,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7335,
-      "importance": 0.7335,
-      "importance_score": 0.7335,
+      "score": 0.732,
+      "importance": 0.732,
+      "importance_score": 0.732,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.63,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9603,
+        "recency": 0.9523,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -771,15 +894,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8244,
-      "importance": 0.8244,
-      "importance_score": 0.8244,
+      "score": 0.8232,
+      "importance": 0.8232,
+      "importance_score": 0.8232,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8025,
+        "recency": 0.7958,
         "story_heat": 0.0
       },
       "category": "official",
@@ -908,15 +1031,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.5963,
-      "importance": 0.5963,
-      "importance_score": 0.5963,
+      "score": 0.595,
+      "importance": 0.595,
+      "importance_score": 0.595,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8638,
+        "recency": 0.8567,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -930,6 +1053,123 @@
         "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能",
         "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
         "source": "www.theregister.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_2cd0ffaa42a1",
+      "title": "挪威应该收购OpenAI",
+      "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+      "primary_url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+      "source": "www.onethousandmeans.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "50f934aeccf99d5cf8b7561cc288e285b1766e3b",
+          "title": "挪威应该收购OpenAI",
+          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+          "source": "www.onethousandmeans.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-18T20:22:24.343000Z"
+        },
+        {
+          "id": "1e73a9714656d6c8fd2bfdf6bcced4fed2c85ae2",
+          "title": "挪威应该收购 OpenAI / Norway Should Buy OpenAI",
+          "url": "https://news.ycombinator.com/item?id=49351330",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-18T19:49:40.977000Z"
+        },
+        {
+          "id": "755f977396514cc0c78244d8f8e4eae390bc3ee3",
+          "title": "挪威应该收购OpenAI / Norway Should Buy OpenAI",
+          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-18T19:30:29Z"
+        },
+        {
+          "id": "5ef3db72052308ab90798f4a43d0efa541c60c1a",
+          "title": "挪威应该收购OpenAI / The Norwegian Government Pension Fund Global ought to purchase OpenAI",
+          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-18T19:30:29Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "hackernews",
+        "www.onethousandmeans.com"
+      ],
+      "items": [
+        {
+          "id": "50f934aeccf99d5cf8b7561cc288e285b1766e3b",
+          "title": "挪威应该收购OpenAI",
+          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+          "source": "www.onethousandmeans.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-18T20:22:24.343000Z"
+        },
+        {
+          "id": "1e73a9714656d6c8fd2bfdf6bcced4fed2c85ae2",
+          "title": "挪威应该收购 OpenAI / Norway Should Buy OpenAI",
+          "url": "https://news.ycombinator.com/item?id=49351330",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-18T19:49:40.977000Z"
+        },
+        {
+          "id": "755f977396514cc0c78244d8f8e4eae390bc3ee3",
+          "title": "挪威应该收购OpenAI / Norway Should Buy OpenAI",
+          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-18T19:30:29Z"
+        },
+        {
+          "id": "5ef3db72052308ab90798f4a43d0efa541c60c1a",
+          "title": "挪威应该收购OpenAI / The Norwegian Government Pension Fund Global ought to purchase OpenAI",
+          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-18T19:30:29Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.5896,
+      "importance": 0.5896,
+      "importance_score": 0.5896,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9653,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-18T19:30:29Z",
+      "latest_at": "2026-08-18T20:22:24.343000Z",
+      "primary_item": {
+        "id": "50f934aeccf99d5cf8b7561cc288e285b1766e3b",
+        "title": "挪威应该收购OpenAI",
+        "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
+        "source": "www.onethousandmeans.com",
         "source_name": "Buzzing"
       }
     },
@@ -1025,15 +1265,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5831,
-      "importance": 0.5831,
-      "importance_score": 0.5831,
+      "score": 0.5817,
+      "importance": 0.5817,
+      "importance_score": 0.5817,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9294,
+        "recency": 0.9216,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1047,104 +1287,6 @@
         "title": "克劳德：多种模型的性能下降",
         "url": "https://status.claude.com/incidents/q7txxvbsftgq",
         "source": "status.claude.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_2cd0ffaa42a1",
-      "title": "挪威应该收购OpenAI",
-      "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-      "primary_url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-      "source": "www.onethousandmeans.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "50f934aeccf99d5cf8b7561cc288e285b1766e3b",
-          "title": "挪威应该收购OpenAI",
-          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-          "source": "www.onethousandmeans.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-18T20:22:24.343000Z"
-        },
-        {
-          "id": "1e73a9714656d6c8fd2bfdf6bcced4fed2c85ae2",
-          "title": "挪威应该收购 OpenAI / Norway Should Buy OpenAI",
-          "url": "https://news.ycombinator.com/item?id=49351330",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-18T19:49:40.977000Z"
-        },
-        {
-          "id": "755f977396514cc0c78244d8f8e4eae390bc3ee3",
-          "title": "挪威应该收购OpenAI / Norway Should Buy OpenAI",
-          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T19:30:29Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "www.onethousandmeans.com"
-      ],
-      "items": [
-        {
-          "id": "50f934aeccf99d5cf8b7561cc288e285b1766e3b",
-          "title": "挪威应该收购OpenAI",
-          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-          "source": "www.onethousandmeans.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-18T20:22:24.343000Z"
-        },
-        {
-          "id": "1e73a9714656d6c8fd2bfdf6bcced4fed2c85ae2",
-          "title": "挪威应该收购 OpenAI / Norway Should Buy OpenAI",
-          "url": "https://news.ycombinator.com/item?id=49351330",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-18T19:49:40.977000Z"
-        },
-        {
-          "id": "755f977396514cc0c78244d8f8e4eae390bc3ee3",
-          "title": "挪威应该收购OpenAI / Norway Should Buy OpenAI",
-          "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T19:30:29Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.566,
-      "importance": 0.566,
-      "importance_score": 0.566,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9734,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-18T19:30:29Z",
-      "latest_at": "2026-08-18T20:22:24.343000Z",
-      "primary_item": {
-        "id": "50f934aeccf99d5cf8b7561cc288e285b1766e3b",
-        "title": "挪威应该收购OpenAI",
-        "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-        "source": "www.onethousandmeans.com",
         "source_name": "Buzzing"
       }
     },
@@ -1221,15 +1363,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5646,
-      "importance": 0.5646,
-      "importance_score": 0.5646,
+      "score": 0.5632,
+      "importance": 0.5632,
+      "importance_score": 0.5632,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9658,
+        "recency": 0.9577,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1299,15 +1441,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5624,
-      "importance": 0.5624,
-      "importance_score": 0.5624,
+      "score": 0.5612,
+      "importance": 0.5612,
+      "importance_score": 0.5612,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4824,
         "source_tier": 0.5,
         "ai_relevance": 0.67,
-        "recency": 0.826,
+        "recency": 0.8191,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1397,15 +1539,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5607,
-      "importance": 0.5607,
-      "importance_score": 0.5607,
+      "score": 0.5593,
+      "importance": 0.5593,
+      "importance_score": 0.5593,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9438,
+        "recency": 0.936,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1475,15 +1617,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5437,
-      "importance": 0.5437,
-      "importance_score": 0.5437,
+      "score": 0.5422,
+      "importance": 0.5422,
+      "importance_score": 0.5422,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9884,
+        "recency": 0.9802,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1497,180 +1639,6 @@
         "title": "据《The Information》报道，Anthropic计划在IPO前为创始人设立特别投票权",
         "url": "https://www.reuters.com/pt/tecnologia/ITXKLLI3X5MUFDUTJ3AT3HPVBA-2026-08-18",
         "source": "www.reuters.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f1bd29958d33",
-      "title": "[Codex] 原来我也有 Codex 1000 额度邀请，有需要的留邮箱吧",
-      "url": "https://www.v2ex.com/t/1235299",
-      "primary_url": "https://www.v2ex.com/t/1235299",
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "190c061d642a3671e8509b69ef48a3ff94470d0c",
-          "title": "[Codex] 原来我也有 Codex 1000 额度邀请，有需要的留邮箱吧",
-          "url": "https://www.v2ex.com/t/1235299",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T06:58:54Z"
-        },
-        {
-          "id": "69fcf6d07e6fb41482ec66eeee62f1bd8169ef6d",
-          "title": "[Codex] Codex 1000 额度的邀请,有需要留邮箱",
-          "url": "https://www.v2ex.com/t/1235298",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T06:54:39Z"
-        },
-        {
-          "id": "57e367419fc0a711d0f9df67f592cacd45b07aca",
-          "title": "[Codex] Codex 1000 额度邀请，有需要的留邮箱吧，三个",
-          "url": "https://www.v2ex.com/t/1235276",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T05:49:02Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "V2EX (创意工作者社区)"
-      ],
-      "items": [
-        {
-          "id": "190c061d642a3671e8509b69ef48a3ff94470d0c",
-          "title": "[Codex] 原来我也有 Codex 1000 额度邀请，有需要的留邮箱吧",
-          "url": "https://www.v2ex.com/t/1235299",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T06:58:54Z"
-        },
-        {
-          "id": "69fcf6d07e6fb41482ec66eeee62f1bd8169ef6d",
-          "title": "[Codex] Codex 1000 额度的邀请,有需要留邮箱",
-          "url": "https://www.v2ex.com/t/1235298",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T06:54:39Z"
-        },
-        {
-          "id": "57e367419fc0a711d0f9df67f592cacd45b07aca",
-          "title": "[Codex] Codex 1000 额度邀请，有需要的留邮箱吧，三个",
-          "url": "https://www.v2ex.com/t/1235276",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-18T05:49:02Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5352,
-      "importance": 0.5352,
-      "importance_score": 0.5352,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8023,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-18T05:49:02Z",
-      "latest_at": "2026-08-18T06:58:54Z",
-      "primary_item": {
-        "id": "190c061d642a3671e8509b69ef48a3ff94470d0c",
-        "title": "[Codex] 原来我也有 Codex 1000 额度邀请，有需要的留邮箱吧",
-        "url": "https://www.v2ex.com/t/1235299",
-        "source": "V2EX (创意工作者社区)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_b8166a124774",
-      "title": "百度营收连续第五次下滑，AI业务差距进一步扩大",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "8945d827399c63eccd86713e56a618b3294fdcaf",
-          "title": "百度营收连续第五次下滑，AI业务差距进一步扩大",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-18T14:30:01.438000Z"
-        },
-        {
-          "id": "c42773161d94b86a222b5fa696cc8059fe95a0ee",
-          "title": "百度因AI业务落后加剧，营收连续第五次下滑",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-18T10:14:12.704000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "8945d827399c63eccd86713e56a618b3294fdcaf",
-          "title": "百度营收连续第五次下滑，AI业务差距进一步扩大",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-18T14:30:01.438000Z"
-        },
-        {
-          "id": "c42773161d94b86a222b5fa696cc8059fe95a0ee",
-          "title": "百度因AI业务落后加剧，营收连续第五次下滑",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-18T10:14:12.704000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5268,
-      "importance": 0.5268,
-      "importance_score": 0.5268,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8943,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-18T10:14:12.704000Z",
-      "latest_at": "2026-08-18T14:30:01.438000Z",
-      "primary_item": {
-        "id": "8945d827399c63eccd86713e56a618b3294fdcaf",
-        "title": "百度营收连续第五次下滑，AI业务差距进一步扩大",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-18/baidu-posts-fifth-straight-sales-drop-after-ai-lags-rivals",
-        "source": "www.bloomberg.com",
         "source_name": "Buzzing"
       }
     }
