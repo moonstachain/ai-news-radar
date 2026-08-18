@@ -1,32 +1,33 @@
 {
   "schema_version": 1,
-  "snapshot_id": "9bd2ed85acccaadd",
+  "snapshot_id": "46d492b3e59fb424",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T05:56:42.707601Z",
+  "generated_at": "2026-08-18T06:25:55.736698Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 602,
+    "signals": 600,
     "high_priority": 16,
     "briefs": 20,
-    "stories": 544
+    "stories": 542
   },
   "coverage": {
-    "successful": 16,
+    "successful": 15,
     "total": 17,
-    "failed": 1,
-    "ratio": 0.9412,
+    "failed": 2,
+    "ratio": 0.8824,
     "status": "healthy"
   },
   "failed_sources": [
-    "aibreakfast"
+    "aibreakfast",
+    "waytoagi"
   ],
   "section_counts": {
-    "Buzzing": 182,
-    "Info Flow": 179,
+    "Buzzing": 183,
+    "Info Flow": 178,
     "TechURLs": 80,
     "Zeli": 73,
-    "NewsNow": 38,
+    "NewsNow": 36,
     "Curated Media": 22,
     "OPML RSS": 13,
     "AI HOT": 10
@@ -46,7 +47,7 @@
         "cursor.com",
         "hackernews"
       ],
-      "importance_score": 0.8506,
+      "importance_score": 0.8495,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,7 +108,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8354,
+      "importance_score": 0.8343,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -141,7 +142,7 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "importance_score": 0.8112,
+      "importance_score": 0.8101,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
