@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:58:08.095201Z",
+  "generated_at": "2026-08-18T17:20:52.740271Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T20:24:28Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -48,7 +48,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T20:42:11Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -80,13 +80,50 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_c82eed6d34b6",
+      "title": "CEO Interview: A.D.A.M. Innovations",
+      "url": "https://www.cbinsights.com/research/ceo-interview-a-d-a-m-innovations/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-18T16:33:48Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "CEO Interview",
+        "A.D.A.M. Innovations"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Michel Mommejat, Chief Executive Officer of A.D.A.M. Innovation, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that spac... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_4a4ea52bcc60",
       "title": "CEO Interview: Vouched",
       "url": "https://www.cbinsights.com/research/ceo-interview-vouched/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T15:36:54Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -123,7 +160,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T21:35:27Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -159,7 +196,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T20:51:50Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -196,7 +233,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T20:30:42Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -233,7 +270,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T20:09:30Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -270,7 +307,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T19:57:44Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -306,7 +343,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-17T19:30:40Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -337,50 +374,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_4b1d92b6d298",
-      "title": "Executive Interview: Niantic Spatial",
-      "url": "https://www.cbinsights.com/research/executive-interview-niantic-spatial/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-17T19:20:09Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "Executive Interview",
-        "Niantic Spatial"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 49,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Jonathan Thaw, SVP, Communications at Niantic Spatial, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? We help... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_3bbfae2808d8",
       "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
       "url": "https://openai.com/index/chatgpt-for-teens",
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "published_at": "2026-08-18T11:00:00Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "ai_commercialization",
       "entities": [
         "OpenAI News",
@@ -418,7 +418,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-17T23:13:41Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -457,7 +457,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-18T15:40:06Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -493,7 +493,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-18T11:00:26Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -530,7 +530,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-08-18T13:01:00Z",
-      "captured_at": "2026-08-18T16:58:08.095201Z",
+      "captured_at": "2026-08-18T17:20:52.740271Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
