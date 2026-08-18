@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "b7ddd78666faa94d",
+  "snapshot_id": "f4e5dbbff59ce1c4",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T17:53:04.751012Z",
+  "generated_at": "2026-08-18T18:25:18.181713Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 599,
+    "signals": 602,
     "high_priority": 26,
     "briefs": 20,
-    "stories": 553
+    "stories": 557
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 236,
-    "Info Flow": 158,
-    "Zeli": 80,
-    "NewsNow": 42,
-    "Curated Media": 27,
+    "Buzzing": 238,
+    "Info Flow": 159,
+    "Zeli": 81,
+    "NewsNow": 43,
+    "Curated Media": 29,
     "OPML RSS": 13,
-    "TechURLs": 13,
-    "Follow Builders": 12
+    "Follow Builders": 11,
+    "TechURLs": 10
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.868,
+      "importance_score": 0.8667,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,6 +78,40 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_5ce8103476b1",
+      "title": "您的代理实际需要多少内存？ / How Much Memory Does Your Agent Actually Need?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "primary_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "importance_score": 0.8593,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-18T18:09:38Z",
+      "earliest_at": "2026-08-18T18:09:38Z",
+      "sources": [
+        {
+          "id": "4c7e6d7987f8435623b872c1349860e73b991e53",
+          "title": "您的代理实际需要多少内存？ / How Much Memory Does Your Agent Actually Need?",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T18:09:38Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_e520424e436f",
       "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
       "url": "https://huggingface.co/blog/multi-vector-encoder",
@@ -89,7 +123,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.852,
+      "importance_score": 0.851,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -121,40 +155,6 @@
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_9765648ad527",
-      "title": "与 CodeAI 合作，准备第一代 AI / Partnering with CodeAI to prepare the first AI generation",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "primary_url": "https://openai.com/index/partnering-with-codeai",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "importance_score": 0.835,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-18T11:00:00Z",
-      "earliest_at": "2026-08-18T11:00:00Z",
-      "sources": [
-        {
-          "id": "8c23f9c3a3a5054ca38390d052850998cb9e1e25",
-          "title": "与 CodeAI 合作，准备第一代 AI / Partnering with CodeAI to prepare the first AI generation",
-          "url": "https://openai.com/index/partnering-with-codeai",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T11:00:00Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }
