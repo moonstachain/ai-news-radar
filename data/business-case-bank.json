@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:58:08.095201Z",
+  "generated_at": "2026-08-18T17:20:52.740271Z",
   "cases": [
     {
       "case_id": "opc_case_95901879e4e6",
@@ -44,6 +44,27 @@
         "ftf_trust"
       ],
       "score": 54
+    },
+    {
+      "case_id": "opc_case_c3f969fb47ba",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_c82eed6d34b6"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-a-d-a-m-innovations/",
+      "title": "CEO Interview: A.D.A.M. Innovations",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     },
     {
       "case_id": "opc_case_01190b079526",
@@ -180,27 +201,6 @@
       ],
       "url": "https://www.cbinsights.com/research/ceo-interview-mutuus/",
       "title": "CEO Interview: Mutuus",
-      "business_model": "Founder Case",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "CB Insights",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "score": 49
-    },
-    {
-      "case_id": "opc_case_d2a38317bbef",
-      "company": "Executive Interview",
-      "founder": "",
-      "source_refs": [
-        "biz_4b1d92b6d298"
-      ],
-      "url": "https://www.cbinsights.com/research/executive-interview-niantic-spatial/",
-      "title": "Executive Interview: Niantic Spatial",
       "business_model": "Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",

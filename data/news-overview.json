@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "20db605b0ec1367b",
+  "snapshot_id": "5fe2b3eb3b5af126",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T16:57:04.220970Z",
+  "generated_at": "2026-08-18T17:19:51.488528Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 587,
+    "signals": 597,
     "high_priority": 27,
     "briefs": 20,
-    "stories": 540
+    "stories": 550
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 219,
-    "Info Flow": 159,
-    "Zeli": 78,
-    "NewsNow": 41,
+    "Buzzing": 230,
+    "Info Flow": 158,
+    "Zeli": 81,
+    "NewsNow": 42,
     "Curated Media": 27,
-    "TechURLs": 21,
+    "TechURLs": 17,
     "Follow Builders": 13,
     "OPML RSS": 12
   },
@@ -44,7 +44,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8702,
+      "importance_score": 0.8693,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -89,7 +89,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8539,
+      "importance_score": 0.8531,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -123,68 +123,38 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_39d537a07acb",
-      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
-      "url": "https://cursor.com/changelog/origin-code-hosting",
-      "primary_url": "https://cursor.com/changelog/origin-code-hosting",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 4,
+      "story_id": "story_9765648ad527",
+      "title": "与 CodeAI 合作，准备第一代 AI / Partnering with CodeAI to prepare the first AI generation",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "primary_url": "https://openai.com/index/partnering-with-codeai",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "cursor.com",
-        "hackernews"
+        "OpenAI News"
       ],
-      "importance_score": 0.827,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.8363,
+      "importance_label": "官方更新",
+      "category": "official",
       "reasons": [
-        "multi_source",
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-17T22:14:00.748000Z",
-      "earliest_at": "2026-08-17T17:02:44Z",
+      "latest_at": "2026-08-18T11:00:00Z",
+      "earliest_at": "2026-08-18T11:00:00Z",
       "sources": [
         {
-          "id": "5a4dff0995a2f95891c6c7ac5b66e04e4c21fe92",
-          "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
-          "url": "https://cursor.com/changelog/origin-code-hosting",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-17T22:14:00.748000Z"
-        },
-        {
-          "id": "24bf32d9e6fbc3c8e01bfe0ca6b287a3cb352f35",
-          "title": "Cursor 推出 Origin，作为 GitHub 的替代方案",
-          "url": "https://cursor.com/changelog/origin-code-hosting",
-          "source": "cursor.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-17T22:14:00.748000Z"
-        },
-        {
-          "id": "431f3a483f7a160512b15bf12fc1baab56d904bd",
-          "title": "Cursor 推出 Origin、GitHub 替代品 / Cursor launches Origin, GitHub alternative",
-          "url": "https://news.ycombinator.com/item?id=49334209",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-17T21:19:57.507000Z"
-        },
-        {
-          "id": "0179251da1b8d80b95ec64d8de5982683835fea4",
-          "title": "Cursor 推出 Origin，作为 GitHub 的替代方案 / Cursor launches Origin, GitHub alternative",
-          "url": "https://cursor.com/changelog/origin-code-hosting",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-17T17:02:44Z"
+          "id": "8c23f9c3a3a5054ca38390d052850998cb9e1e25",
+          "title": "与 CodeAI 合作，准备第一代 AI / Partnering with CodeAI to prepare the first AI generation",
+          "url": "https://openai.com/index/partnering-with-codeai",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T11:00:00Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     }
   ]
 }
