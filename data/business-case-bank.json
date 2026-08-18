@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:27:56.223802Z",
+  "generated_at": "2026-08-18T19:09:14.015528Z",
   "cases": [
     {
       "case_id": "opc_case_d2a613baf372",
@@ -66,6 +66,27 @@
         "ftf_trust"
       ],
       "score": 54
+    },
+    {
+      "case_id": "opc_case_6e0ffb17c133",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_8d18e8254188"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-vertigenius/",
+      "title": "CEO Interview: Vertigenius",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     },
     {
       "case_id": "opc_case_58be27e2262a",
@@ -181,27 +202,6 @@
       ],
       "url": "https://www.cbinsights.com/research/ceo-interview-weeve/",
       "title": "CEO Interview: Weeve",
-      "business_model": "Founder Case",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "CB Insights",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "score": 49
-    },
-    {
-      "case_id": "opc_case_5e7124e69164",
-      "company": "Executive Interview",
-      "founder": "",
-      "source_refs": [
-        "biz_23b7abeff11b"
-      ],
-      "url": "https://www.cbinsights.com/research/executive-interview-devlane/",
-      "title": "Executive Interview: Devlane",
       "business_model": "Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",

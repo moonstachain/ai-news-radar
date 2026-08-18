@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "f4e5dbbff59ce1c4",
+  "snapshot_id": "7fc6ae2e260e0906",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T18:25:18.181713Z",
+  "generated_at": "2026-08-18T19:08:03.004591Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 602,
+    "signals": 594,
     "high_priority": 26,
     "briefs": 20,
-    "stories": 557
+    "stories": 550
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 238,
-    "Info Flow": 159,
-    "Zeli": 81,
-    "NewsNow": 43,
+    "Buzzing": 234,
+    "Info Flow": 160,
+    "Zeli": 82,
+    "NewsNow": 41,
     "Curated Media": 29,
     "OPML RSS": 13,
-    "Follow Builders": 11,
-    "TechURLs": 10
+    "Follow Builders": 10,
+    "Official AI Updates": 7
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8667,
+      "importance_score": 0.8651,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +88,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8593,
+      "importance_score": 0.8575,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -112,18 +112,18 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_e520424e436f",
-      "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "primary_url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face Blog",
+      "story_id": "story_68c52c81310f",
+      "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏 / Pacing model development in an era of cyber-critical capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "primary_url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "source_count": 2,
       "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.851,
+      "importance_score": 0.8571,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -132,26 +132,26 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-18T00:00:00Z",
-      "earliest_at": "2026-08-18T00:00:00Z",
+      "latest_at": "2026-08-18T11:00:00Z",
+      "earliest_at": "2026-08-18T11:00:00Z",
       "sources": [
         {
-          "id": "fc2527d839553090ffa83437277c7d1cc2cb53fc",
-          "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face Blog",
+          "id": "cdd10bf9920f60b5be7322fa5b0eaa62e04932f0",
+          "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏 / Pacing model development in an era of cyber-critical capabilities",
+          "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-18T00:00:00Z"
+          "published_at": "2026-08-18T11:00:00Z"
         },
         {
-          "id": "3a5f22e406027a5eb26beb9570e669a3730e1990",
-          "title": "带有句子变压器的多向量（后期交互）嵌入模型 / Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "source": "Hugging Face：Blog（RSS）",
+          "id": "e01e83f5cdde3eff139d1f4a294426e48ca69e7d",
+          "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏",
+          "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-18T00:00:00Z"
+          "published_at": "2026-08-18T11:00:00Z"
         }
       ],
       "confidence": "multi-source"
