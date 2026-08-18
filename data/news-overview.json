@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "snapshot_id": "3c462f1e2ebff270",
+  "snapshot_id": "9c1714e08756ce9e",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T05:02:01.334967Z",
+  "generated_at": "2026-08-18T05:31:09.439483Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 600,
-    "high_priority": 17,
+    "signals": 598,
+    "high_priority": 15,
     "briefs": 20,
     "stories": 540
   },
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 185,
-    "Info Flow": 173,
-    "TechURLs": 81,
-    "Zeli": 72,
+    "Buzzing": 183,
+    "Info Flow": 177,
+    "TechURLs": 80,
+    "Zeli": 71,
     "NewsNow": 39,
     "Curated Media": 22,
     "OPML RSS": 13,
-    "AI HOT": 10
+    "AI HOT": 9
   },
   "top_stories": [
     {
@@ -46,7 +46,7 @@
         "cursor.com",
         "hackernews"
       ],
-      "importance_score": 0.8528,
+      "importance_score": 0.8516,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,7 +107,7 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "importance_score": 0.8375,
+      "importance_score": 0.8364,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -131,49 +131,38 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_f137d9ea2f9f",
-      "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window / The Defender’s Window",
-      "url": "https://openai.com/index/the-defenders-window",
-      "primary_url": "https://openai.com/index/the-defenders-window",
-      "source": "OpenAI News",
+      "story_id": "story_3b2aba282400",
+      "title": "画布如何使代理工作流程可见、可操纵且经济高效 / How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
+      "source": "GitHub AI & ML",
       "source_name": "Official AI Updates",
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        "GitHub AI & ML"
       ],
-      "importance_score": 0.8251,
+      "importance_score": 0.8121,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-17T05:30:00Z",
-      "earliest_at": "2026-08-17T05:30:00Z",
+      "latest_at": "2026-08-17T16:00:00Z",
+      "earliest_at": "2026-08-17T16:00:00Z",
       "sources": [
         {
-          "id": "9163f70edad4cc1828e92c7e823a607aad5512f0",
-          "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window / The Defender’s Window",
-          "url": "https://openai.com/index/the-defenders-window",
-          "source": "OpenAI News",
+          "id": "9906b46475e583e00b16574efb087d7c6a44e46f",
+          "title": "画布如何使代理工作流程可见、可操纵且经济高效 / How canvases make agentic workflows visible, steerable, and cost-efficient",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
+          "source": "GitHub AI & ML",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-17T05:30:00Z"
-        },
-        {
-          "id": "9575a034f19954426ba1d1e0ddeff1f6cab41ea5",
-          "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
-          "url": "https://openai.com/index/the-defenders-window",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-17T05:30:00Z"
+          "published_at": "2026-08-17T16:00:00Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     }
   ]
 }
