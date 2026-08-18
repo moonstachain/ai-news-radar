@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:57:03.246237Z",
+  "generated_at": "2026-08-18T11:19:01.448177Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_45cc55f1c3a1",
@@ -107,25 +107,27 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_5376e7b16fa8",
+      "cluster_id": "biz_cluster_fbbaccbc3036",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
         "biz_bcf68154907d",
+        "biz_3bbfae2808d8",
         "biz_5a5e5c9547de"
       ],
-      "source_count": 2,
-      "importance_score": 46,
+      "source_count": 3,
+      "importance_score": 47,
       "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
         "biz_bcf68154907d",
+        "biz_3bbfae2808d8",
         "biz_5a5e5c9547de"
       ],
       "top_sources": [
@@ -135,6 +137,11 @@
           "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/"
         },
         {
+          "source": "OpenAI News",
+          "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+          "url": "https://openai.com/index/chatgpt-for-teens"
+        },
+        {
           "source": "Latent Space",
           "title": "[AINews] Stripe buys OpenRouter for $7B",
           "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for"
@@ -142,14 +149,14 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_5e8407b00246",
+      "cluster_id": "biz_cluster_2f67641e354f",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "signal_ids": [
-        "biz_b68425c34a06"
+        "biz_8995af3102a8"
       ],
       "source_count": 1,
-      "importance_score": 32,
+      "importance_score": 37,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
@@ -160,13 +167,13 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
-        "biz_b68425c34a06"
+        "biz_8995af3102a8"
       ],
       "top_sources": [
         {
           "source": "MIT Sloan Management Review",
-          "title": "The Power of Opportunity Mindset in Hiring",
-          "url": "https://sloanreview.mit.edu/article/the-power-of-opportunity-mindset-in-hiring/"
+          "title": "What Gets Your Best Employees to Stay",
+          "url": "https://sloanreview.mit.edu/article/what-gets-your-best-employees-to-stay/"
         }
       ]
     }
