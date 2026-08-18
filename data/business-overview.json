@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "5e0ebd4499e7ef27",
+  "snapshot_id": "2bf61d01cfc148f4",
   "channel": "ai-business",
-  "generated_at": "2026-08-18T15:32:41.696592Z",
+  "generated_at": "2026-08-18T16:01:26.666126Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
     "signals": 15,
     "briefs": 3,
     "clusters": 3,
-    "cases": 11
+    "cases": 12
   },
   "coverage": {
     "successful": 16,
@@ -20,21 +20,21 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_97cc72026142",
+      "brief_id": "biz_brief_c97296d5692a",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "10 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "11 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_41cc25796ee3",
         "biz_e3f2e04ad0b1",
+        "biz_4a4ea52bcc60",
         "biz_449e080b7f6b",
-        "biz_29a9b9a6fdbf",
-        "biz_ab9eae7fee45"
+        "biz_29a9b9a6fdbf"
       ],
       "evidence_titles": [
         "Executive Interview: New Use Energy",
         "Executive Interview: Indico Data",
-        "Executive Interview: mea"
+        "CEO Interview: Vouched"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -45,17 +45,15 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_ca4c40fd17f6",
+      "brief_id": "biz_brief_726934a65749",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_bcf68154907d",
         "biz_3bbfae2808d8",
         "biz_5a5e5c9547de"
       ],
       "evidence_titles": [
-        "How canvases make agentic workflows visible, steerable, and cost-efficient",
         "Introducing ChatGPT for Teens: Built for learning, backed by protections",
         "[AINews] Stripe buys OpenRouter for $7B"
       ],
@@ -67,7 +65,7 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_59df2bc5a14f",
+      "brief_id": "biz_brief_116238f32cf7",
       "rank": 3,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -90,19 +88,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_97cc72026142",
+      "id": "biz_brief_c97296d5692a",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_ca4c40fd17f6",
+      "id": "biz_brief_726934a65749",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_59df2bc5a14f",
+      "id": "biz_brief_116238f32cf7",
       "label": "Brief #3",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
@@ -110,26 +108,26 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_45cc55f1c3a1",
+      "cluster_id": "biz_cluster_7d55c12214ba",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
-      "source_count": 1,
-      "importance_score": 53,
-      "confidence": "watch",
+      "source_count": 2,
+      "importance_score": 56,
+      "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "10 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "11 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
         "biz_41cc25796ee3",
         "biz_e3f2e04ad0b1",
+        "biz_4a4ea52bcc60",
         "biz_449e080b7f6b",
-        "biz_29a9b9a6fdbf",
-        "biz_ab9eae7fee45"
+        "biz_29a9b9a6fdbf"
       ],
       "top_sources": [
         {
@@ -144,6 +142,11 @@
         },
         {
           "source": "CB Insights",
+          "title": "CEO Interview: Vouched",
+          "url": "https://www.cbinsights.com/research/ceo-interview-vouched/"
+        },
+        {
+          "source": "CB Insights",
           "title": "Executive Interview: mea",
           "url": "https://www.cbinsights.com/research/executive-interview-mea/"
         },
@@ -151,39 +154,28 @@
           "source": "CB Insights",
           "title": "Executive Interview: Lightning AI",
           "url": "https://www.cbinsights.com/research/executive-interview-lightning-ai/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: Weeve",
-          "url": "https://www.cbinsights.com/research/ceo-interview-weeve/"
         }
       ]
     },
     {
-      "cluster_id": "biz_cluster_fbbaccbc3036",
+      "cluster_id": "biz_cluster_9e60855eaa8c",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
-      "source_count": 3,
-      "importance_score": 47,
+      "source_count": 2,
+      "importance_score": 43,
       "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
-        "biz_bcf68154907d",
         "biz_3bbfae2808d8",
         "biz_5a5e5c9547de"
       ],
       "top_sources": [
-        {
-          "source": "GitHub Blog",
-          "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
-          "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/"
-        },
         {
           "source": "OpenAI News",
           "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
