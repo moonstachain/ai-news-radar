@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "60d9ca80c66d1b40",
+  "snapshot_id": "ca1ee15210f75219",
   "channel": "ai-news",
-  "generated_at": "2026-08-19T13:25:41.209578Z",
+  "generated_at": "2026-08-19T14:06:45.120498Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 613,
-    "high_priority": 20,
+    "signals": 601,
+    "high_priority": 21,
     "briefs": 20,
-    "stories": 575
+    "stories": 564
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,84 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 282,
+    "Buzzing": 275,
     "Info Flow": 159,
     "Zeli": 81,
-    "NewsNow": 37,
-    "Curated Media": 20,
+    "NewsNow": 33,
+    "Curated Media": 18,
+    "Official AI Updates": 8,
     "Follow Builders": 8,
-    "OPML RSS": 8,
-    "Official AI Updates": 6
+    "OPML RSS": 8
   },
   "top_stories": [
+    {
+      "story_id": "story_22e214c52569",
+      "title": "LFM2.5 Q4\\_0 量化感知蒸馏的检查点 / LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "primary_url": "https://huggingface.co/blog/LiquidAI/qad",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "importance_score": 0.8592,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-19T13:48:49Z",
+      "earliest_at": "2026-08-19T13:48:49Z",
+      "sources": [
+        {
+          "id": "62faba33f1940cf562ff65cd39d1d90d837fd659",
+          "title": "LFM2.5 Q4\\_0 量化感知蒸馏的检查点 / LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+          "url": "https://huggingface.co/blog/LiquidAI/qad",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-19T13:48:49Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_9ac0643f2427",
+      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "primary_url": "https://openai.com/index/replit",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "importance_score": 0.8424,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-19T07:00:00Z",
+      "earliest_at": "2026-08-19T07:00:00Z",
+      "sources": [
+        {
+          "id": "d71879ede3f1afde8a969f61c2b4f4fabe2c6ba5",
+          "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
+          "url": "https://openai.com/index/replit",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-19T07:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_f65a703c4519",
       "title": "跟踪组织代码质量趋势 / Track organization code quality trends",
@@ -43,7 +111,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8428,
+      "importance_score": 0.841,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -62,85 +130,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-19T12:56:57Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_5ce8103476b1",
-      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准 / How Much Memory Does Your Agent Actually Need?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "primary_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "importance_score": 0.8413,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-18T18:09:38Z",
-      "earliest_at": "2026-08-18T18:09:38Z",
-      "sources": [
-        {
-          "id": "4c7e6d7987f8435623b872c1349860e73b991e53",
-          "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准 / How Much Memory Does Your Agent Actually Need?",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T18:09:38Z"
-        },
-        {
-          "id": "ed0f0ca83fed5aa8ae6ec56cfdfbee39b0782b0e",
-          "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T18:09:38Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_e4563871866d",
-      "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "primary_url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "importance_score": 0.8241,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-18T22:00:00Z",
-      "earliest_at": "2026-08-18T22:00:00Z",
-      "sources": [
-        {
-          "id": "3373e5b71d44d2fb2c9adfe68ac3d16edc5d3a01",
-          "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
-          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T22:00:00Z"
         }
       ],
       "confidence": "single-source"

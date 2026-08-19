@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:26:49.480729Z",
+  "generated_at": "2026-08-19T14:08:00.942557Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T17:42:56Z",
-      "captured_at": "2026-08-19T13:26:49.480729Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -48,7 +48,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T20:41:20Z",
-      "captured_at": "2026-08-19T13:26:49.480729Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -86,7 +86,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T20:49:14Z",
-      "captured_at": "2026-08-19T13:26:49.480729Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -123,7 +123,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T18:40:01Z",
-      "captured_at": "2026-08-19T13:26:49.480729Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -160,7 +160,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T18:05:13Z",
-      "captured_at": "2026-08-19T13:26:49.480729Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -197,7 +197,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T16:33:48Z",
-      "captured_at": "2026-08-19T13:26:49.480729Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -234,7 +234,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T15:36:54Z",
-      "captured_at": "2026-08-19T13:26:49.480729Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -271,7 +271,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-18T15:40:06Z",
-      "captured_at": "2026-08-19T13:26:49.480729Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -297,6 +297,82 @@
         "counter_signal_value": 0
       },
       "summary": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_2d527fb58e22",
+      "title": "70% of SMBs Cancelled a SaaS Over Price This Year - 5 Products to Disrupt, 3 Demands to Build",
+      "url": "https://www.indiehackers.com/post/70-of-smbs-cancelled-a-saas-over-price-this-year-5-products-to-disrupt-3-demands-to-build-80e6a2941f",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-19T05:59:49.997000Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "SMBs Cancelled",
+        "SaaS Over Price",
+        "This Year",
+        "Products",
+        "Disrupt"
+      ],
+      "business_model_tags": [
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 33,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "70% of SMBs Cancelled a SaaS Over Price This Year - 5 Products to Disrupt, 3 Demands to Build Tags: OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
+      "signal_id": "biz_baf53c222f4b",
+      "title": "Is Your Organizational Culture Too Nice?",
+      "url": "https://hbr.org/2026/08/is-your-organizational-culture-too-nice",
+      "source_id": "hbr",
+      "source_name": "Harvard Business Review",
+      "published_at": "2026-08-19T12:15:08Z",
+      "captured_at": "2026-08-19T14:08:00.942557Z",
+      "lane": "authority",
+      "entities": [
+        "Harvard Business Review",
+        "Is Your Organizational",
+        "Culture Too Nice"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow",
+        "AI Business Model Innovation"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 31,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Is Your Organizational Culture Too Nice? Tags: Enterprise AI Workflow, AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     }
