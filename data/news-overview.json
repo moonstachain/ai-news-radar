@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c98d1bf86028f965",
+  "snapshot_id": "d1facb43e31b6986",
   "channel": "ai-news",
-  "generated_at": "2026-08-18T23:45:45.410143Z",
+  "generated_at": "2026-08-19T00:38:32.021816Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 607,
-    "high_priority": 30,
+    "signals": 603,
+    "high_priority": 24,
     "briefs": 20,
-    "stories": 563
+    "stories": 558
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 244,
-    "Info Flow": 166,
-    "Zeli": 78,
-    "NewsNow": 38,
-    "Curated Media": 32,
+    "Buzzing": 250,
+    "Info Flow": 167,
+    "Zeli": 75,
+    "NewsNow": 39,
+    "Curated Media": 30,
     "OPML RSS": 13,
-    "AI HOT": 11,
-    "Official AI Updates": 10
+    "Official AI Updates": 8,
+    "AI HOT": 8
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.871,
+      "importance_score": 0.8689,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -89,7 +89,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8547,
+      "importance_score": 0.8528,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -123,17 +123,17 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_2fa84a60a1c6",
-      "title": "按令牌类型撤销凭证和取消授权 / Credential revocation and deauthorization by token type",
-      "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
-      "primary_url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
+      "story_id": "story_1572a951af05",
+      "title": "GitHub Copilot for JetBrains 中的企业托管设置 / Enterprise managed settings in GitHub Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+      "primary_url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8394,
+      "importance_score": 0.8492,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -141,17 +141,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-18T21:57:30Z",
-      "earliest_at": "2026-08-18T21:57:30Z",
+      "latest_at": "2026-08-18T23:33:07Z",
+      "earliest_at": "2026-08-18T23:33:07Z",
       "sources": [
         {
-          "id": "f4aa758ec0506c171d08b8864e8dfbcca8b1c2d5",
-          "title": "按令牌类型撤销凭证和取消授权 / Credential revocation and deauthorization by token type",
-          "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
+          "id": "e5e1085091baa53949af0e4d8e8df886fa77616d",
+          "title": "GitHub Copilot for JetBrains 中的企业托管设置 / Enterprise managed settings in GitHub Copilot for JetBrains",
+          "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-18T21:57:30Z"
+          "published_at": "2026-08-18T23:33:07Z"
         }
       ],
       "confidence": "single-source"
