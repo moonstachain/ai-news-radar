@@ -1,62 +1,92 @@
 {
-  "generated_at": "2026-08-19T19:50:52.638693Z",
+  "generated_at": "2026-08-19T20:18:32.492983Z",
   "clusters": [
     {
-      "cluster_id": "biz_cluster_e9a7ea026d00",
+      "cluster_id": "biz_cluster_32b34b0ce870",
+      "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
+      "lane": "counter_signal",
+      "signal_ids": [
+        "biz_4803b51e9952"
+      ],
+      "source_count": 1,
+      "importance_score": 59,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_os"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "Counter-signals are the evidence, not a rejection of the thesis.",
+      "recommended_action": "Add these counter-signals to sales objections and content credibility checks.",
+      "evidence_refs": [
+        "biz_4803b51e9952"
+      ],
+      "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: ResiQuant",
+          "url": "https://www.cbinsights.com/research/ceo-interview-resiquant/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_3ffde7a198b3",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "signal_ids": [
-        "biz_664a785e99dc",
-        "biz_6195a6426c00",
-        "biz_995ab8a12b75",
-        "biz_ccdab0d0b519",
-        "biz_c32bc87b2aa1",
-        "biz_b23737240b83",
-        "biz_0b69e539ea6d"
+        "biz_e8eb82a3fc3e",
+        "biz_6723f60d5396",
+        "biz_830aecc65a6a",
+        "biz_b01d3d575439",
+        "biz_fadb7fb1c612",
+        "biz_6b8cad46875a",
+        "biz_a7b3755d0c5f",
+        "biz_e5ef425d6141",
+        "biz_995ab8a12b75"
       ],
       "source_count": 1,
-      "importance_score": 54,
+      "importance_score": 52,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "7 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "9 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
-        "biz_664a785e99dc",
-        "biz_6195a6426c00",
-        "biz_995ab8a12b75",
-        "biz_ccdab0d0b519",
-        "biz_c32bc87b2aa1"
+        "biz_e8eb82a3fc3e",
+        "biz_6723f60d5396",
+        "biz_830aecc65a6a",
+        "biz_b01d3d575439",
+        "biz_fadb7fb1c612"
       ],
       "top_sources": [
         {
           "source": "CB Insights",
-          "title": "Executive Interview: WISPR Systems",
-          "url": "https://www.cbinsights.com/research/executive-interview-wispr-systems/"
+          "title": "CEO Interview: Butter Money",
+          "url": "https://www.cbinsights.com/research/ceo-interview-butter-money/"
         },
         {
           "source": "CB Insights",
-          "title": "Executive Interview: Miter",
-          "url": "https://www.cbinsights.com/research/executive-interview-miter/"
+          "title": "CEO Interview: Paldo",
+          "url": "https://www.cbinsights.com/research/ceo-interview-paldo/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: General Sense",
-          "url": "https://www.cbinsights.com/research/ceo-interview-general-sense/"
+          "title": "CEO Interview: Kouper Inc.",
+          "url": "https://www.cbinsights.com/research/ceo-interview-kouper-inc/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: MindGuard",
-          "url": "https://www.cbinsights.com/research/ceo-interview-mindguard/"
+          "title": "Executive Interview: Qanapi",
+          "url": "https://www.cbinsights.com/research/executive-interview-qanapi/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: TelePaws",
-          "url": "https://www.cbinsights.com/research/ceo-interview-telepaws/"
+          "title": "CEO Interview: Verc",
+          "url": "https://www.cbinsights.com/research/ceo-interview-verc/"
         }
       ]
     },
@@ -97,11 +127,11 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_8f6d9e434d62",
+      "cluster_id": "biz_cluster_41104410173b",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
-        "biz_e74bfefc6811",
+        "biz_3947ff041b7a",
         "biz_2848ddaf5b47"
       ],
       "source_count": 2,
@@ -115,14 +145,14 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
-        "biz_e74bfefc6811",
+        "biz_3947ff041b7a",
         "biz_2848ddaf5b47"
       ],
       "top_sources": [
         {
           "source": "OpenAI News",
           "title": "Offering Zero Data Retention for frontier models",
-          "url": "https://openai.com/index/our-commitment-to-zero-data-retention"
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
         },
         {
           "source": "GitHub Blog",
