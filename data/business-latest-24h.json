@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T06:31:45.309617Z",
+  "generated_at": "2026-08-19T07:18:50.168342Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T17:42:56Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -48,7 +48,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T20:41:20Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -86,7 +86,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T20:49:14Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -123,7 +123,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T18:40:01Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -160,7 +160,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T18:05:13Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -197,7 +197,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T16:33:48Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -234,7 +234,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T15:36:54Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -265,13 +265,51 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_ac130a4a1832",
+      "title": "Launched BrandScope AI on Product Hunt today — it tracks how 6 AIs mention your brand",
+      "url": "https://www.indiehackers.com/post/launched-brandscope-ai-on-product-hunt-today-it-tracks-how-6-ais-mention-your-brand-f4d5dce5e0",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-18T10:44:58.655000Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Launched BrandScope AI",
+        "Product Hunt",
+        "AIs"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_asset"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 42,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Launched BrandScope AI on Product Hunt today — it tracks how 6 AIs mention your brand Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_3bbfae2808d8",
       "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
       "url": "https://openai.com/index/chatgpt-for-teens",
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "published_at": "2026-08-18T11:00:00Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "ai_commercialization",
       "entities": [
         "OpenAI News",
@@ -309,7 +347,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-18T15:40:06Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -345,7 +383,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-18T11:00:26Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -382,7 +420,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-08-18T13:01:00Z",
-      "captured_at": "2026-08-19T06:31:45.309617Z",
+      "captured_at": "2026-08-19T07:18:50.168342Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
