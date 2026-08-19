@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:03:05.753241Z",
+  "generated_at": "2026-08-19T15:35:02.391338Z",
   "cases": [
     {
       "case_id": "opc_case_d2a613baf372",
@@ -44,6 +44,27 @@
         "wealth_flywheel"
       ],
       "score": 52
+    },
+    {
+      "case_id": "opc_case_6f79c36a63fb",
+      "company": "Executive Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_b23737240b83"
+      ],
+      "url": "https://www.cbinsights.com/research/executive-interview-airis-labs/",
+      "title": "Executive Interview: Airis Labs",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     },
     {
       "case_id": "opc_case_58f42312f5e0",
@@ -149,6 +170,26 @@
         "ftf_trust"
       ],
       "score": 49
+    },
+    {
+      "case_id": "opc_case_bd3a83c5243c",
+      "company": "Indie Hackers",
+      "founder": "",
+      "source_refs": [
+        "biz_575c56fe90af"
+      ],
+      "url": "https://www.indiehackers.com/post/4-founders-told-me-the-same-thing-about-launch-platforms-so-i-m-changing-what-i-m-building-7424714b3b",
+      "title": "4 founders told me the same thing about launch platforms — so I’m changing what I’m building",
+      "business_model": "AI Business Model Innovation, Founder Case, OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Indie Hackers",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup"
+      ],
+      "score": 45
     },
     {
       "case_id": "opc_case_325832de0e97",
