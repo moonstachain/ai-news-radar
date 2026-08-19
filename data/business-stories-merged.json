@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-08-19T17:21:34.230133Z",
+  "generated_at": "2026-08-19T17:53:17.045211Z",
   "clusters": [
     {
-      "cluster_id": "biz_cluster_739991f6f576",
+      "cluster_id": "biz_cluster_e9a7ea026d00",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "signal_ids": [
         "biz_664a785e99dc",
-        "biz_f3eff26c1cba",
         "biz_6195a6426c00",
         "biz_995ab8a12b75",
         "biz_ccdab0d0b519",
@@ -18,33 +17,28 @@
         "biz_e4c349780aa8"
       ],
       "source_count": 1,
-      "importance_score": 56,
+      "importance_score": 54,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "10 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "9 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
         "biz_664a785e99dc",
-        "biz_f3eff26c1cba",
         "biz_6195a6426c00",
         "biz_995ab8a12b75",
-        "biz_ccdab0d0b519"
+        "biz_ccdab0d0b519",
+        "biz_c32bc87b2aa1"
       ],
       "top_sources": [
         {
           "source": "CB Insights",
           "title": "Executive Interview: WISPR Systems",
           "url": "https://www.cbinsights.com/research/executive-interview-wispr-systems/"
-        },
-        {
-          "source": "CB Insights",
-          "title": "Executive Interview: Covecta",
-          "url": "https://www.cbinsights.com/research/executive-interview-covecta/"
         },
         {
           "source": "CB Insights",
@@ -60,6 +54,11 @@
           "source": "CB Insights",
           "title": "CEO Interview: MindGuard",
           "url": "https://www.cbinsights.com/research/ceo-interview-mindguard/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: TelePaws",
+          "url": "https://www.cbinsights.com/research/ceo-interview-telepaws/"
         }
       ]
     },
@@ -89,6 +88,34 @@
           "source": "Indie Hackers",
           "title": "4 founders told me the same thing about launch platforms — so I’m changing what I’m building",
           "url": "https://www.indiehackers.com/post/4-founders-told-me-the-same-thing-about-launch-platforms-so-i-m-changing-what-i-m-building-7424714b3b"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_f3e80a5704aa",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "signal_ids": [
+        "biz_2848ddaf5b47"
+      ],
+      "source_count": 1,
+      "importance_score": 36,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_2848ddaf5b47"
+      ],
+      "top_sources": [
+        {
+          "source": "GitHub Blog",
+          "title": "GitHub Copilot app for Beginners: Managing your work",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/"
         }
       ]
     },
