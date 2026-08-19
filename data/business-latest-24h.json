@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:18:32.492983Z",
+  "generated_at": "2026-08-19T20:56:20.648406Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:00:58Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -47,7 +47,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T19:54:10Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -78,13 +78,124 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_03424d9d22c0",
+      "title": "CEO Interview : Lateral",
+      "url": "https://www.cbinsights.com/research/ceo-interview-lateral/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-19T20:29:57Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "CEO Interview",
+        "Lateral"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Laura Ashforth , CEO of Lateral, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Lateral is reimagining health... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_cfdaea2bc61b",
+      "title": "CEO Interview : Seapoint",
+      "url": "https://www.cbinsights.com/research/ceo-interview-seapoint/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-19T20:26:07Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "CEO Interview",
+        "Seapoint"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Sean Mullaney, CEO of Seapoint, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? The total addressable market w... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_36ed85620895",
+      "title": "CEO Interview: PillarLab.ai",
+      "url": "https://www.cbinsights.com/research/ceo-interview-pillarlab-ai/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-08-19T20:19:11Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "CEO Interview",
+        "PillarLab.ai"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Ilya Kravtsov, CEO of PillarLab.ai, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? The total addressable mark... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_6723f60d5396",
       "title": "CEO Interview: Paldo",
       "url": "https://www.cbinsights.com/research/ceo-interview-paldo/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:08:44Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -121,7 +232,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T19:46:12Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -158,7 +269,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T19:41:00Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -195,7 +306,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T19:40:50Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -232,7 +343,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T19:32:07Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -263,124 +374,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_a7b3755d0c5f",
-      "title": "CEO Interview: Weecover",
-      "url": "https://www.cbinsights.com/research/ceo-interview-weecover/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-19T19:29:59Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "CEO Interview",
-        "Weecover"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 50,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "Jordi Pages, CEO of Weecover, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Our market is definitely the ins... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_e5ef425d6141",
-      "title": "CEO Interview: Sleep.ai",
-      "url": "https://www.cbinsights.com/research/ceo-interview-sleep-ai/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-19T19:28:28Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "CEO Interview",
-        "Sleep.ai"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 50,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "Colin Lawlor, CEO of Sleep.ai, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? McKinsey estimates that the glo... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_995ab8a12b75",
-      "title": "CEO Interview: General Sense",
-      "url": "https://www.cbinsights.com/research/ceo-interview-general-sense/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-19T16:14:46Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "CEO Interview",
-        "General Sense"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 50,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "Westley Dang, Chief Executive Officer (CEO) at General Sense, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space?... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_575c56fe90af",
       "title": "4 founders told me the same thing about launch platforms — so I’m changing what I’m building",
       "url": "https://www.indiehackers.com/post/4-founders-told-me-the-same-thing-about-launch-platforms-so-i-m-changing-what-i-m-building-7424714b3b",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-19T09:45:17.466000Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers"
@@ -395,14 +395,14 @@
       ],
       "opc_fit_score": 5,
       "case_concreteness_score": 8,
-      "total_score": 45,
+      "total_score": 44,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 3,
         "business_model_value": 5,
         "case_concreteness": 8,
         "opc_fit": 5,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "4 founders told me the same thing about launch platforms — so I’m changing what I’m building Tags: AI Business Model Innovation, Founder Case, OPC.",
@@ -416,7 +416,7 @@
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "published_at": "2026-08-19T19:00:00Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "ai_commercialization",
       "entities": [
         "OpenAI News",
@@ -454,7 +454,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-19T17:50:23Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -491,7 +491,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-19T17:47:53.329000Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -527,7 +527,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-08-19T12:15:08Z",
-      "captured_at": "2026-08-19T20:18:32.492983Z",
+      "captured_at": "2026-08-19T20:56:20.648406Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
