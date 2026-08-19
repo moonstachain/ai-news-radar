@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "60d9ca80c66d1b40",
+  "snapshot_id": "ca1ee15210f75219",
   "channel": "ai-business",
-  "generated_at": "2026-08-19T13:26:49.480729Z",
+  "generated_at": "2026-08-19T14:08:00.942557Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 8,
-    "briefs": 1,
-    "clusters": 1,
-    "cases": 8
+    "signals": 10,
+    "briefs": 3,
+    "clusters": 3,
+    "cases": 9
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_15ef23c4adff",
+      "brief_id": "biz_brief_915854a473b2",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "8 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -43,14 +43,64 @@
         "wealth_flywheel"
       ],
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
+    },
+    {
+      "brief_id": "biz_brief_1abc45df9c10",
+      "rank": 2,
+      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_2d527fb58e22"
+      ],
+      "evidence_titles": [
+        "70% of SMBs Cancelled a SaaS Over Price This Year - 5 Products to Disrupt, 3 Demands to Build"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
+    },
+    {
+      "brief_id": "biz_brief_3bde2fccdabd",
+      "rank": 3,
+      "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_baf53c222f4b"
+      ],
+      "evidence_titles": [
+        "Is Your Organizational Culture Too Nice?"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_15ef23c4adff",
+      "id": "biz_brief_915854a473b2",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
+    },
+    {
+      "id": "biz_brief_1abc45df9c10",
+      "label": "Brief #2",
+      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
+    },
+    {
+      "id": "biz_brief_3bde2fccdabd",
+      "label": "Brief #3",
+      "title": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
     }
   ],
   "clusters": [
@@ -101,6 +151,58 @@
           "source": "CB Insights",
           "title": "CEO Interview: RAAPID INC",
           "url": "https://www.cbinsights.com/research/ceo-interview-raapid-inc/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_e424dbc07a8b",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "source_count": 1,
+      "importance_score": 35,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_2d527fb58e22"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "70% of SMBs Cancelled a SaaS Over Price This Year - 5 Products to Disrupt, 3 Demands to Build",
+          "url": "https://www.indiehackers.com/post/70-of-smbs-cancelled-a-saas-over-price-this-year-5-products-to-disrupt-3-demands-to-build-80e6a2941f"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_df6e0bd5c9e0",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "source_count": 1,
+      "importance_score": 33,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_baf53c222f4b"
+      ],
+      "top_sources": [
+        {
+          "source": "Harvard Business Review",
+          "title": "Is Your Organizational Culture Too Nice?",
+          "url": "https://hbr.org/2026/08/is-your-organizational-culture-too-nice"
         }
       ]
     }
