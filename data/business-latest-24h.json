@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T02:15:16.758727Z",
+  "generated_at": "2026-08-19T03:27:02.448375Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T17:42:56Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -48,7 +48,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T20:41:20Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -86,7 +86,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T20:49:14Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -123,7 +123,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T18:40:01Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -160,7 +160,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T18:05:13Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -197,7 +197,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T16:33:48Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -213,14 +213,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 15,
-      "total_score": 50,
+      "total_score": 49,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 6,
         "business_model_value": 5,
         "case_concreteness": 15,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Michel Mommejat, Chief Executive Officer of A.D.A.M. Innovation, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that spac... Tags: Founder Case.",
@@ -234,7 +234,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T15:36:54Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -250,14 +250,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 15,
-      "total_score": 50,
+      "total_score": 49,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 6,
         "business_model_value": 5,
         "case_concreteness": 15,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Peter Horadan, CEO of Vouched, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? I’m the CEO of Vouched. We offe... Tags: Founder Case.",
@@ -265,40 +265,42 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_7a7b11f5feb3",
-      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
-      "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
-      "source_id": "lenny",
-      "source_name": "Lenny's Newsletter",
-      "published_at": "2026-08-18T15:40:06Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
-      "lane": "startup_vc",
+      "signal_id": "biz_ac130a4a1832",
+      "title": "Launched BrandScope AI on Product Hunt today — it tracks how 6 AIs mention your brand",
+      "url": "https://www.indiehackers.com/post/launched-brandscope-ai-on-product-hunt-today-it-tracks-how-6-ais-mention-your-brand-f4d5dce5e0",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-18T10:44:58.655000Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
+      "lane": "opc",
       "entities": [
-        "Lenny's Newsletter",
-        "Announcing Lenny",
-        "Jobs"
+        "Indie Hackers",
+        "Launched BrandScope AI",
+        "Product Hunt",
+        "AIs"
       ],
       "business_model_tags": [
-        "Founder Case"
+        "Founder Case",
+        "OPC"
       ],
       "yuanli_tags": [
-        "wealth_flywheel"
+        "yuanli_asset"
       ],
-      "opc_fit_score": 0,
+      "opc_fit_score": 5,
       "case_concreteness_score": 8,
-      "total_score": 38,
+      "total_score": 42,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 3,
         "business_model_value": 3,
         "case_concreteness": 8,
-        "opc_fit": 0,
-        "freshness": 8,
+        "opc_fit": 5,
+        "freshness": 7,
         "counter_signal_value": 0
       },
-      "summary": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
+      "summary": "Launched BrandScope AI on Product Hunt today — it tracks how 6 AIs mention your brand Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     },
     {
       "signal_id": "biz_3bbfae2808d8",
@@ -307,7 +309,7 @@
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "published_at": "2026-08-18T11:00:00Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "ai_commercialization",
       "entities": [
         "OpenAI News",
@@ -339,13 +341,49 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_7a7b11f5feb3",
+      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+      "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
+      "source_id": "lenny",
+      "source_name": "Lenny's Newsletter",
+      "published_at": "2026-08-18T15:40:06Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
+      "lane": "startup_vc",
+      "entities": [
+        "Lenny's Newsletter",
+        "Announcing Lenny",
+        "Jobs"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "wealth_flywheel"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 8,
+      "total_score": 37,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 0,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_8995af3102a8",
       "title": "What Gets Your Best Employees to Stay",
       "url": "https://sloanreview.mit.edu/article/what-gets-your-best-employees-to-stay/",
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-18T11:00:26Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -382,7 +420,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-08-18T13:01:00Z",
-      "captured_at": "2026-08-19T02:15:16.758727Z",
+      "captured_at": "2026-08-19T03:27:02.448375Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",

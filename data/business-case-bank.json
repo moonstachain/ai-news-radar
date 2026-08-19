@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T02:15:16.758727Z",
+  "generated_at": "2026-08-19T03:27:02.448375Z",
   "cases": [
     {
       "case_id": "opc_case_d2a613baf372",
@@ -127,7 +127,7 @@
         "yuanli_startup",
         "ftf_trust"
       ],
-      "score": 50
+      "score": 49
     },
     {
       "case_id": "opc_case_01190b079526",
@@ -148,27 +148,27 @@
         "yuanli_startup",
         "ftf_trust"
       ],
-      "score": 50
+      "score": 49
     },
     {
-      "case_id": "opc_case_ddd2bc056b2e",
-      "company": "Announcing Lenny",
+      "case_id": "opc_case_cfc4b98dec22",
+      "company": "Launched BrandScope AI",
       "founder": "",
       "source_refs": [
-        "biz_7a7b11f5feb3"
+        "biz_ac130a4a1832"
       ],
-      "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
-      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
-      "business_model": "Founder Case",
+      "url": "https://www.indiehackers.com/post/launched-brandscope-ai-on-product-hunt-today-it-tracks-how-6-ais-mention-your-brand-f4d5dce5e0",
+      "title": "Launched BrandScope AI on Product Hunt today — it tracks how 6 AIs mention your brand",
+      "business_model": "Founder Case, OPC",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
-      "distribution_channel": "Lenny's Newsletter",
+      "distribution_channel": "Indie Hackers",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
-        "wealth_flywheel"
+        "yuanli_asset"
       ],
-      "score": 38
+      "score": 42
     },
     {
       "case_id": "opc_case_65b634113795",
@@ -189,6 +189,26 @@
         "yuanli_startup"
       ],
       "score": 38
+    },
+    {
+      "case_id": "opc_case_ddd2bc056b2e",
+      "company": "Announcing Lenny",
+      "founder": "",
+      "source_refs": [
+        "biz_7a7b11f5feb3"
+      ],
+      "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
+      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Lenny's Newsletter",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "wealth_flywheel"
+      ],
+      "score": 37
     }
   ]
 }
