@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:25:42.819936Z",
+  "generated_at": "2026-08-19T19:04:19.705462Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T15:40:37Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -49,7 +49,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T20:41:20Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -87,7 +87,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T16:14:46Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -124,7 +124,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T15:36:27Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -161,7 +161,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T15:28:34Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -198,7 +198,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T15:18:04Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -235,7 +235,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-18T20:49:14Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -266,50 +266,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_8d18e8254188",
-      "title": "CEO Interview: Vertigenius",
-      "url": "https://www.cbinsights.com/research/ceo-interview-vertigenius/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-18T18:40:01Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "CEO Interview",
-        "Vertigenius"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 49,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Mark Barry , CEO of Vertigenius, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? The market for Vertigenius is... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_575c56fe90af",
       "title": "4 founders told me the same thing about launch platforms — so I’m changing what I’m building",
       "url": "https://www.indiehackers.com/post/4-founders-told-me-the-same-thing-about-launch-platforms-so-i-m-changing-what-i-m-building-7424714b3b",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-19T09:45:17.466000Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers"
@@ -339,13 +302,51 @@
       "transport_mode": "page_detail"
     },
     {
+      "signal_id": "biz_e74bfefc6811",
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "source_id": "openai_news",
+      "source_name": "OpenAI News",
+      "published_at": "2026-08-19T19:00:00Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "OpenAI News",
+        "Offering Zero Data",
+        "Retention"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_asset",
+        "ftf_trust",
+        "wealth_flywheel"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 37,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 9,
+        "business_model_value": 0,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Offering Zero Data Retention for frontier models Tags: Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_2848ddaf5b47",
       "title": "GitHub Copilot app for Beginners: Managing your work",
       "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-19T17:50:23Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -382,7 +383,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-19T17:47:53.329000Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -418,7 +419,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-08-19T12:15:08Z",
-      "captured_at": "2026-08-19T18:25:42.819936Z",
+      "captured_at": "2026-08-19T19:04:19.705462Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
