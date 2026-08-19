@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:24:34.570785Z",
+  "generated_at": "2026-08-19T19:03:08.426874Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8734,
-      "importance": 0.8734,
-      "importance_score": 0.8734,
+      "score": 0.8719,
+      "importance": 0.8719,
+      "importance_score": 0.8719,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9358,
+        "recency": 0.9271,
         "story_heat": 0.25
       },
       "category": "official",
@@ -82,6 +82,68 @@
         "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失 / LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
         "url": "https://huggingface.co/blog/LiquidAI/qad",
         "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_e396b6baa03e",
+      "title": "为前沿模型提供零数据保留 / Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "primary_url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "46965e823de9b7acb79bd178929f626ff0a15306",
+          "title": "为前沿模型提供零数据保留 / Offering Zero Data Retention for frontier models",
+          "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-19T19:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "46965e823de9b7acb79bd178929f626ff0a15306",
+          "title": "为前沿模型提供零数据保留 / Offering Zero Data Retention for frontier models",
+          "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-19T19:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8519,
+      "importance": 0.8519,
+      "importance_score": 0.8519,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9992,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-19T19:00:00Z",
+      "latest_at": "2026-08-19T19:00:00Z",
+      "primary_item": {
+        "id": "46965e823de9b7acb79bd178929f626ff0a15306",
+        "title": "为前沿模型提供零数据保留 / Offering Zero Data Retention for frontier models",
+        "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -120,15 +182,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8505,
-      "importance": 0.8505,
-      "importance_score": 0.8505,
+      "score": 0.8489,
+      "importance": 0.8489,
+      "importance_score": 0.8489,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9918,
+        "recency": 0.9826,
         "story_heat": 0.0
       },
       "category": "official",
@@ -144,68 +206,6 @@
         "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作 / GitHub Copilot app for Beginners: Managing your work",
         "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
         "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_9ac0643f2427",
-      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
-      "url": "https://openai.com/index/replit",
-      "primary_url": "https://openai.com/index/replit",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "d71879ede3f1afde8a969f61c2b4f4fabe2c6ba5",
-          "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
-          "url": "https://openai.com/index/replit",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-19T07:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "d71879ede3f1afde8a969f61c2b4f4fabe2c6ba5",
-          "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
-          "url": "https://openai.com/index/replit",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-19T07:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8327,
-      "importance": 0.8327,
-      "importance_score": 0.8327,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.8481,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-19T07:00:00Z",
-      "latest_at": "2026-08-19T07:00:00Z",
-      "primary_item": {
-        "id": "d71879ede3f1afde8a969f61c2b4f4fabe2c6ba5",
-        "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
-        "url": "https://openai.com/index/replit",
-        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -244,15 +244,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8304,
-      "importance": 0.8304,
-      "importance_score": 0.8304,
+      "score": 0.8288,
+      "importance": 0.8288,
+      "importance_score": 0.8288,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9242,
+        "recency": 0.9156,
         "story_heat": 0.0
       },
       "category": "official",
@@ -272,21 +272,121 @@
       }
     },
     {
-      "story_id": "story_e4563871866d",
-      "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "primary_url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "story_id": "story_f9b6fc261a9c",
+      "title": "OpenRouter 宣布加入 Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "primary_url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ef8b413ddb995ccc0a5766917d1e57fec28bf264",
+          "title": "OpenRouter 宣布加入 Stripe",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-19T18:46:11.132000Z"
+        },
+        {
+          "id": "c2fb73126ef7a99ebcb70604f5e5e69717e4bc72",
+          "title": "OpenRouter 将加入 Stripe",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+          "source": "openrouter.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-19T18:46:11.132000Z"
+        },
+        {
+          "id": "37aa4c68e1c595a9fb0179dcb56ed271d31d3658",
+          "title": "OpenRouter 宣布加入 Stripe / OpenRouter is joining Stripe",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-19T17:32:38Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "openrouter.ai"
+      ],
+      "items": [
+        {
+          "id": "ef8b413ddb995ccc0a5766917d1e57fec28bf264",
+          "title": "OpenRouter 宣布加入 Stripe",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-19T18:46:11.132000Z"
+        },
+        {
+          "id": "c2fb73126ef7a99ebcb70604f5e5e69717e4bc72",
+          "title": "OpenRouter 将加入 Stripe",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+          "source": "openrouter.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-19T18:46:11.132000Z"
+        },
+        {
+          "id": "37aa4c68e1c595a9fb0179dcb56ed271d31d3658",
+          "title": "OpenRouter 宣布加入 Stripe / OpenRouter is joining Stripe",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-19T17:32:38Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8199,
+      "importance": 0.8199,
+      "importance_score": 0.8199,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9959,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-19T17:32:38Z",
+      "latest_at": "2026-08-19T18:46:11.132000Z",
+      "primary_item": {
+        "id": "ef8b413ddb995ccc0a5766917d1e57fec28bf264",
+        "title": "OpenRouter 宣布加入 Stripe",
+        "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_9ac0643f2427",
+      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "primary_url": "https://openai.com/index/replit",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "3373e5b71d44d2fb2c9adfe68ac3d16edc5d3a01",
-          "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
-          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+          "id": "d71879ede3f1afde8a969f61c2b4f4fabe2c6ba5",
+          "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
+          "url": "https://openai.com/index/replit",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-18T22:00:00Z"
+          "published_at": "2026-08-19T07:00:00Z"
         }
       ],
       "source_count": 1,
@@ -295,26 +395,26 @@
       ],
       "items": [
         {
-          "id": "3373e5b71d44d2fb2c9adfe68ac3d16edc5d3a01",
-          "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
-          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+          "id": "d71879ede3f1afde8a969f61c2b4f4fabe2c6ba5",
+          "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
+          "url": "https://openai.com/index/replit",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-18T22:00:00Z"
+          "published_at": "2026-08-19T07:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8141,
-      "importance": 0.8141,
-      "importance_score": 0.8141,
+      "score": 0.8312,
+      "importance": 0.8312,
+      "importance_score": 0.8312,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7447,
+        "recency": 0.8403,
         "story_heat": 0.0
       },
       "category": "official",
@@ -323,12 +423,12 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-18T22:00:00Z",
-      "latest_at": "2026-08-18T22:00:00Z",
+      "earliest_at": "2026-08-19T07:00:00Z",
+      "latest_at": "2026-08-19T07:00:00Z",
       "primary_item": {
-        "id": "3373e5b71d44d2fb2c9adfe68ac3d16edc5d3a01",
-        "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
-        "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+        "id": "d71879ede3f1afde8a969f61c2b4f4fabe2c6ba5",
+        "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
+        "url": "https://openai.com/index/replit",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
@@ -368,15 +468,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8091,
-      "importance": 0.8091,
-      "importance_score": 0.8091,
+      "score": 0.8078,
+      "importance": 0.8078,
+      "importance_score": 0.8078,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7616,
+        "recency": 0.7546,
         "story_heat": 0.0
       },
       "category": "official",
@@ -430,15 +530,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7694,
-      "importance": 0.7694,
-      "importance_score": 0.7694,
+      "score": 0.7677,
+      "importance": 0.7677,
+      "importance_score": 0.7677,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9932,
+        "recency": 0.984,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -457,84 +557,65 @@
       }
     },
     {
-      "story_id": "story_f9b6fc261a9c",
-      "title": "OpenRouter 宣布加入 Stripe",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-      "primary_url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-      "source": "OpenRouter：Announcements（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_e4563871866d",
+      "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "primary_url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "8732726468509cd30f5eab7dae15d780f21dcdde",
-          "title": "OpenRouter 宣布加入 Stripe",
-          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-19T00:00:00Z"
-        },
-        {
-          "id": "5f828a6b51ecaa737e9be91990d058bb2d54344d",
-          "title": "OpenRouter 宣布加入 Stripe / OpenRouter Is Joining Stripe",
-          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-19T17:32:38Z"
+          "id": "3373e5b71d44d2fb2c9adfe68ac3d16edc5d3a01",
+          "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T22:00:00Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "OpenRouter：Announcements（RSS）"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "8732726468509cd30f5eab7dae15d780f21dcdde",
-          "title": "OpenRouter 宣布加入 Stripe",
-          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-          "source": "OpenRouter：Announcements（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-19T00:00:00Z"
-        },
-        {
-          "id": "5f828a6b51ecaa737e9be91990d058bb2d54344d",
-          "title": "OpenRouter 宣布加入 Stripe / OpenRouter Is Joining Stripe",
-          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-19T17:32:38Z"
+          "id": "3373e5b71d44d2fb2c9adfe68ac3d16edc5d3a01",
+          "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-18T22:00:00Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7506,
-      "importance": 0.7506,
-      "importance_score": 0.7506,
-      "importance_label": "行业动态",
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8128,
+      "importance": 0.8128,
+      "importance_score": 0.8128,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7666,
-        "story_heat": 0.25
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7379,
+        "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
-        "multi_source",
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-19T00:00:00Z",
-      "latest_at": "2026-08-19T17:32:38Z",
+      "earliest_at": "2026-08-18T22:00:00Z",
+      "latest_at": "2026-08-18T22:00:00Z",
       "primary_item": {
-        "id": "8732726468509cd30f5eab7dae15d780f21dcdde",
-        "title": "OpenRouter 宣布加入 Stripe",
-        "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-        "source": "OpenRouter：Announcements（RSS）",
-        "source_name": "AI HOT"
+        "id": "3373e5b71d44d2fb2c9adfe68ac3d16edc5d3a01",
+        "title": "ChatGPT 广告扩展到整个欧洲 / ChatGPT Ads expands across Europe",
+        "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       }
     },
     {
@@ -572,15 +653,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7487,
-      "importance": 0.7487,
-      "importance_score": 0.7487,
+      "score": 0.7474,
+      "importance": 0.7474,
+      "importance_score": 0.7474,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7784,
+        "recency": 0.7712,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -632,15 +713,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7439,
-      "importance": 0.7439,
-      "importance_score": 0.7439,
+      "score": 0.7423,
+      "importance": 0.7423,
+      "importance_score": 0.7423,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9851,
+        "recency": 0.976,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -655,68 +736,6 @@
         "url": "https://x.com/OpenRouter/status/2090127246430216403",
         "source": "X：OpenRouter (@OpenRouter)",
         "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_67f37d861d34",
-      "title": "加强国家安全民主监督 / Strengthening democratic oversight in national security",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "primary_url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "0c27098fe00776484fc7428d7541fc78ed2ed378",
-          "title": "加强国家安全民主监督 / Strengthening democratic oversight in national security",
-          "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T19:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "0c27098fe00776484fc7428d7541fc78ed2ed378",
-          "title": "加强国家安全民主监督 / Strengthening democratic oversight in national security",
-          "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T19:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8004,
-      "importance": 0.8004,
-      "importance_score": 0.8004,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7132,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-18T19:00:00Z",
-      "latest_at": "2026-08-18T19:00:00Z",
-      "primary_item": {
-        "id": "0c27098fe00776484fc7428d7541fc78ed2ed378",
-        "title": "加强国家安全民主监督 / Strengthening democratic oversight in national security",
-        "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
       }
     },
     {
@@ -754,15 +773,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.798,
-      "importance": 0.798,
-      "importance_score": 0.798,
+      "score": 0.7967,
+      "importance": 0.7967,
+      "importance_score": 0.7967,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7443,
+        "recency": 0.7374,
         "story_heat": 0.0
       },
       "category": "official",
@@ -779,66 +798,6 @@
         "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_5874235fe6b1",
-      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
-      "url": "https://www.modular.com/blog/mojo-open-source",
-      "primary_url": "https://www.modular.com/blog/mojo-open-source",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "c85095d8dff46e7cff0dc8d8bf8ffa15d1d29acf",
-          "title": "Mojo 语言正式开源，编译器与工具链全面开放",
-          "url": "https://www.modular.com/blog/mojo-open-source",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T21:26:01.095000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "c85095d8dff46e7cff0dc8d8bf8ffa15d1d29acf",
-          "title": "Mojo 语言正式开源，编译器与工具链全面开放",
-          "url": "https://www.modular.com/blog/mojo-open-source",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-18T21:26:01.095000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7266,
-      "importance": 0.7266,
-      "importance_score": 0.7266,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7387,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-18T21:26:01.095000Z",
-      "latest_at": "2026-08-18T21:26:01.095000Z",
-      "primary_item": {
-        "id": "c85095d8dff46e7cff0dc8d8bf8ffa15d1d29acf",
-        "title": "Mojo 语言正式开源，编译器与工具链全面开放",
-        "url": "https://www.modular.com/blog/mojo-open-source",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
       }
     },
     {
@@ -876,15 +835,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7255,
-      "importance": 0.7255,
-      "importance_score": 0.7255,
+      "score": 0.7243,
+      "importance": 0.7243,
+      "importance_score": 0.7243,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7496,
+        "recency": 0.7427,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -955,15 +914,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.722,
-      "importance": 0.722,
-      "importance_score": 0.722,
+      "score": 0.7208,
+      "importance": 0.7208,
+      "importance_score": 0.7208,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7246,
+        "recency": 0.7179,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -978,6 +937,66 @@
         "title": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理",
         "url": "https://x.com/claudeai/status/2089806039088517356",
         "source": "X：Claude (@claudeai)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_5874235fe6b1",
+      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+      "url": "https://www.modular.com/blog/mojo-open-source",
+      "primary_url": "https://www.modular.com/blog/mojo-open-source",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "c85095d8dff46e7cff0dc8d8bf8ffa15d1d29acf",
+          "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+          "url": "https://www.modular.com/blog/mojo-open-source",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T21:26:01.095000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "c85095d8dff46e7cff0dc8d8bf8ffa15d1d29acf",
+          "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+          "url": "https://www.modular.com/blog/mojo-open-source",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-18T21:26:01.095000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7253,
+      "importance": 0.7253,
+      "importance_score": 0.7253,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7318,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-18T21:26:01.095000Z",
+      "latest_at": "2026-08-18T21:26:01.095000Z",
+      "primary_item": {
+        "id": "c85095d8dff46e7cff0dc8d8bf8ffa15d1d29acf",
+        "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+        "url": "https://www.modular.com/blog/mojo-open-source",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       }
     },
@@ -1072,15 +1091,15 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5467,
-      "importance": 0.5467,
-      "importance_score": 0.5467,
+      "score": 0.5455,
+      "importance": 0.5455,
+      "importance_score": 0.5455,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7274,
+        "recency": 0.7207,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -1094,6 +1113,163 @@
         "title": "挪威应该收购OpenAI",
         "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
         "source": "www.onethousandmeans.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_e78845aaefd8",
+      "title": "Ornith-1.5：从自我构建到自我优化",
+      "url": "https://ornith.ai/ornith_1_5.html",
+      "primary_url": "https://ornith.ai/ornith_1_5.html",
+      "source": "ornith.ai",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "76b183b4b6b56d4cf5b59c4b8453f445ad94b73f",
+          "title": "Ornith-1.5：从自我构建到自我优化",
+          "url": "https://ornith.ai/ornith_1_5.html",
+          "source": "ornith.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-19T18:46:11.128000Z"
+        },
+        {
+          "id": "913db90a4d40530a3471c1adab0d5ed5689675ff",
+          "title": "Ornith-1.5：从自我构建到自我优化 / Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+          "url": "https://ornith.ai/ornith_1_5.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-19T14:48:39Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "ornith.ai"
+      ],
+      "items": [
+        {
+          "id": "76b183b4b6b56d4cf5b59c4b8453f445ad94b73f",
+          "title": "Ornith-1.5：从自我构建到自我优化",
+          "url": "https://ornith.ai/ornith_1_5.html",
+          "source": "ornith.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-19T18:46:11.128000Z"
+        },
+        {
+          "id": "913db90a4d40530a3471c1adab0d5ed5689675ff",
+          "title": "Ornith-1.5：从自我构建到自我优化 / Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+          "url": "https://ornith.ai/ornith_1_5.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-19T14:48:39Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5451,
+      "importance": 0.5451,
+      "importance_score": 0.5451,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9959,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-19T14:48:39Z",
+      "latest_at": "2026-08-19T18:46:11.128000Z",
+      "primary_item": {
+        "id": "76b183b4b6b56d4cf5b59c4b8453f445ad94b73f",
+        "title": "Ornith-1.5：从自我构建到自我优化",
+        "url": "https://ornith.ai/ornith_1_5.html",
+        "source": "ornith.ai",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_7b5b835385d1",
+      "title": "支付公司Stripe将收购电商平台OpenRouter，以推进人工智能业务",
+      "url": "https://www.reuters.com/technology/payments-firm-stripe-buy-ai-developer-platform-openrouter-2026-08-19",
+      "primary_url": "https://www.reuters.com/technology/payments-firm-stripe-buy-ai-developer-platform-openrouter-2026-08-19",
+      "source": "www.reuters.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "6243b9b26b730e22ce9d1c62c84d7ade727acc92",
+          "title": "支付公司Stripe将收购电商平台OpenRouter，以推进人工智能业务",
+          "url": "https://www.reuters.com/technology/payments-firm-stripe-buy-ai-developer-platform-openrouter-2026-08-19",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-19T18:46:12.850000Z"
+        },
+        {
+          "id": "2374eaaef8e7233f73af62207e7c1d148847b915",
+          "title": "支付公司Stripe将收购人工智能开发平台OpenRouter",
+          "url": "https://www.reuters.com/technology/payments-firm-stripe-buy-ai-developer-platform-openrouter-2026-08-19",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-19T17:58:13.313000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "6243b9b26b730e22ce9d1c62c84d7ade727acc92",
+          "title": "支付公司Stripe将收购电商平台OpenRouter，以推进人工智能业务",
+          "url": "https://www.reuters.com/technology/payments-firm-stripe-buy-ai-developer-platform-openrouter-2026-08-19",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-19T18:46:12.850000Z"
+        },
+        {
+          "id": "2374eaaef8e7233f73af62207e7c1d148847b915",
+          "title": "支付公司Stripe将收购人工智能开发平台OpenRouter",
+          "url": "https://www.reuters.com/technology/payments-firm-stripe-buy-ai-developer-platform-openrouter-2026-08-19",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-19T17:58:13.313000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5451,
+      "importance": 0.5451,
+      "importance_score": 0.5451,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9959,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-19T17:58:13.313000Z",
+      "latest_at": "2026-08-19T18:46:12.850000Z",
+      "primary_item": {
+        "id": "6243b9b26b730e22ce9d1c62c84d7ade727acc92",
+        "title": "支付公司Stripe将收购电商平台OpenRouter，以推进人工智能业务",
+        "url": "https://www.reuters.com/technology/payments-firm-stripe-buy-ai-developer-platform-openrouter-2026-08-19",
+        "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
     },
@@ -1168,15 +1344,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5459,
-      "importance": 0.5459,
-      "importance_score": 0.5459,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8617,
+        "recency": 0.8537,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1266,15 +1442,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5424,
-      "importance": 0.5424,
-      "importance_score": 0.5424,
+      "score": 0.541,
+      "importance": 0.541,
+      "importance_score": 0.541,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8421,
+        "recency": 0.8343,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1289,163 +1465,6 @@
         "url": "https://linear.app/data",
         "source": "linear.app",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_11b62d30a274",
-      "title": "推出 HN：OneCLI (YC S26) – 适用于团队的 OSS 沙盒代理工具 / Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-      "url": "https://news.ycombinator.com/item?id=49363710",
-      "primary_url": "https://news.ycombinator.com/item?id=49363710",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "f4dcc76ad7d34c89f46e2d9abe85f2fec0170314",
-          "title": "推出 HN：OneCLI (YC S26) – 适用于团队的 OSS 沙盒代理工具 / Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-          "url": "https://news.ycombinator.com/item?id=49363710",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-19T17:01:55.811000Z"
-        },
-        {
-          "id": "c66b442e5f092966da908ae91a62dc819bf64b7b",
-          "title": "推出 HN：OneCLI (YC S26) – 适用于团队的 OSS 沙盒代理工具 / Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-          "url": "https://github.com/onecli/onecli",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-19T16:29:02Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "f4dcc76ad7d34c89f46e2d9abe85f2fec0170314",
-          "title": "推出 HN：OneCLI (YC S26) – 适用于团队的 OSS 沙盒代理工具 / Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-          "url": "https://news.ycombinator.com/item?id=49363710",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-19T17:01:55.811000Z"
-        },
-        {
-          "id": "c66b442e5f092966da908ae91a62dc819bf64b7b",
-          "title": "推出 HN：OneCLI (YC S26) – 适用于团队的 OSS 沙盒代理工具 / Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-          "url": "https://github.com/onecli/onecli",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-19T16:29:02Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5423,
-      "importance": 0.5423,
-      "importance_score": 0.5423,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9803,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-19T16:29:02Z",
-      "latest_at": "2026-08-19T17:01:55.811000Z",
-      "primary_item": {
-        "id": "f4dcc76ad7d34c89f46e2d9abe85f2fec0170314",
-        "title": "推出 HN：OneCLI (YC S26) – 适用于团队的 OSS 沙盒代理工具 / Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-        "url": "https://news.ycombinator.com/item?id=49363710",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_ab34aba0bc80",
-      "title": "克劳德水印去除剂 / Claude Watermark Remover",
-      "url": "https://www.producthunt.com/products/claude-watermark",
-      "primary_url": "https://www.producthunt.com/products/claude-watermark",
-      "source": "producthunt",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "6e5f95ab21eeeb61fbe58d21129930ab6a4f3ed9",
-          "title": "克劳德水印去除剂 / Claude Watermark Remover",
-          "url": "https://www.producthunt.com/products/claude-watermark",
-          "source": "producthunt",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-19T14:07:21.327000Z"
-        },
-        {
-          "id": "3f1602c8a90bd3e73b6838cf6bf836bb77de4761",
-          "title": "克劳德·沃特马克 / Claude Watermark",
-          "url": "https://www.producthunt.com/products/claude-watermark",
-          "source": "producthunt",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-19T07:06:36.723000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "producthunt"
-      ],
-      "items": [
-        {
-          "id": "6e5f95ab21eeeb61fbe58d21129930ab6a4f3ed9",
-          "title": "克劳德水印去除剂 / Claude Watermark Remover",
-          "url": "https://www.producthunt.com/products/claude-watermark",
-          "source": "producthunt",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-19T14:07:21.327000Z"
-        },
-        {
-          "id": "3f1602c8a90bd3e73b6838cf6bf836bb77de4761",
-          "title": "克劳德·沃特马克 / Claude Watermark",
-          "url": "https://www.producthunt.com/products/claude-watermark",
-          "source": "producthunt",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-19T07:06:36.723000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.535,
-      "importance": 0.535,
-      "importance_score": 0.535,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.94,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-19T07:06:36.723000Z",
-      "latest_at": "2026-08-19T14:07:21.327000Z",
-      "primary_item": {
-        "id": "6e5f95ab21eeeb61fbe58d21129930ab6a4f3ed9",
-        "title": "克劳德水印去除剂 / Claude Watermark Remover",
-        "url": "https://www.producthunt.com/products/claude-watermark",
-        "source": "producthunt",
-        "source_name": "NewsNow"
       }
     }
   ]
