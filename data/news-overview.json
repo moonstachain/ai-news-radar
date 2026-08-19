@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2917c70b8eccd5a4",
+  "snapshot_id": "60d9ca80c66d1b40",
   "channel": "ai-news",
-  "generated_at": "2026-08-19T12:24:05.074620Z",
+  "generated_at": "2026-08-19T13:25:41.209578Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 617,
-    "high_priority": 19,
+    "signals": 613,
+    "high_priority": 20,
     "briefs": 20,
-    "stories": 576
+    "stories": 575
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,50 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 279,
-    "Info Flow": 163,
-    "Zeli": 84,
-    "NewsNow": 38,
-    "Curated Media": 18,
-    "OPML RSS": 10,
+    "Buzzing": 282,
+    "Info Flow": 159,
+    "Zeli": 81,
+    "NewsNow": 37,
+    "Curated Media": 20,
     "Follow Builders": 8,
-    "AI HOT": 6
+    "OPML RSS": 8,
+    "Official AI Updates": 6
   },
   "top_stories": [
+    {
+      "story_id": "story_f65a703c4519",
+      "title": "跟踪组织代码质量趋势 / Track organization code quality trends",
+      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
+      "primary_url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.8428,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-19T12:56:57Z",
+      "earliest_at": "2026-08-19T12:56:57Z",
+      "sources": [
+        {
+          "id": "52ef45c1784e20e142910f5a0f3a0f9f9bc3454f",
+          "title": "跟踪组织代码质量趋势 / Track organization code quality trends",
+          "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-19T12:56:57Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_5ce8103476b1",
       "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准 / How Much Memory Does Your Agent Actually Need?",
@@ -44,7 +78,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8433,
+      "importance_score": 0.8413,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +122,7 @@
       "source_names": [
         "OpenAI News"
       ],
-      "importance_score": 0.8262,
+      "importance_score": 0.8241,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -107,40 +141,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-18T22:00:00Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_1572a951af05",
-      "title": "GitHub Copilot for JetBrains 中的企业托管设置 / Enterprise managed settings in GitHub Copilot for JetBrains",
-      "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
-      "primary_url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.8215,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-18T23:33:07Z",
-      "earliest_at": "2026-08-18T23:33:07Z",
-      "sources": [
-        {
-          "id": "e5e1085091baa53949af0e4d8e8df886fa77616d",
-          "title": "GitHub Copilot for JetBrains 中的企业托管设置 / Enterprise managed settings in GitHub Copilot for JetBrains",
-          "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-18T23:33:07Z"
         }
       ],
       "confidence": "single-source"
