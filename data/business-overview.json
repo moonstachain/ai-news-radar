@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c98d1bf86028f965",
+  "snapshot_id": "d1facb43e31b6986",
   "channel": "ai-business",
-  "generated_at": "2026-08-18T23:46:51.443368Z",
+  "generated_at": "2026-08-19T00:39:32.021248Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_d8637b753e6d",
+      "brief_id": "biz_brief_4ad1960e2138",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "8 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -45,7 +45,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_0e047ae41a4b",
+      "brief_id": "biz_brief_a0d415f66599",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -63,17 +63,17 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_c4df37d11ea8",
+      "brief_id": "biz_brief_4b9339d6b582",
       "rank": 3,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_5b965339cdab",
-        "biz_8995af3102a8"
+        "biz_8995af3102a8",
+        "biz_5b965339cdab"
       ],
       "evidence_titles": [
-        "Game Distribution: Half Your Players Already Buy Direct",
-        "What Gets Your Best Employees to Stay"
+        "What Gets Your Best Employees to Stay",
+        "Game Distribution: Half Your Players Already Buy Direct"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -86,19 +86,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_d8637b753e6d",
+      "id": "biz_brief_4ad1960e2138",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_0e047ae41a4b",
+      "id": "biz_brief_a0d415f66599",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_c4df37d11ea8",
+      "id": "biz_brief_4b9339d6b582",
       "label": "Brief #3",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_226d29a79ce2",
+      "cluster_id": "biz_cluster_9895fee3a2cd",
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "source_count": 2,
@@ -196,19 +196,19 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
-        "biz_5b965339cdab",
-        "biz_8995af3102a8"
+        "biz_8995af3102a8",
+        "biz_5b965339cdab"
       ],
       "top_sources": [
-        {
-          "source": "Bain Insights",
-          "title": "Game Distribution: Half Your Players Already Buy Direct",
-          "url": "https://www.bain.com/insights/game-distribution-half-your-players-already-buy-direct-gaming-report-2026/"
-        },
         {
           "source": "MIT Sloan Management Review",
           "title": "What Gets Your Best Employees to Stay",
           "url": "https://sloanreview.mit.edu/article/what-gets-your-best-employees-to-stay/"
+        },
+        {
+          "source": "Bain Insights",
+          "title": "Game Distribution: Half Your Players Already Buy Direct",
+          "url": "https://www.bain.com/insights/game-distribution-half-your-players-already-buy-direct-gaming-report-2026/"
         }
       ]
     }
