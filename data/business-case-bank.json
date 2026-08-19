@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:53:17.045211Z",
+  "generated_at": "2026-08-19T18:25:42.819936Z",
   "cases": [
     {
       "case_id": "opc_case_fb6ee49db0c1",
@@ -173,27 +173,6 @@
       "score": 49
     },
     {
-      "case_id": "opc_case_58be27e2262a",
-      "company": "CEO Interview",
-      "founder": "",
-      "source_refs": [
-        "biz_e4c349780aa8"
-      ],
-      "url": "https://www.cbinsights.com/research/ceo-interview-raapid-inc/",
-      "title": "CEO Interview: RAAPID INC",
-      "business_model": "Founder Case",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "CB Insights",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "score": 49
-    },
-    {
       "case_id": "opc_case_bd3a83c5243c",
       "company": "Indie Hackers",
       "founder": "",
@@ -212,6 +191,26 @@
         "yuanli_startup"
       ],
       "score": 45
+    },
+    {
+      "case_id": "opc_case_86765551fe2e",
+      "company": "Hitting",
+      "founder": "",
+      "source_refs": [
+        "biz_06b194ceed2c"
+      ],
+      "url": "https://www.indiehackers.com/post/tech/hitting-1m-arr-in-two-years-and-working-four-hours-per-day-Ts5M7PyFHRD6aeKmSXY1",
+      "title": "Hitting $1M ARR in two years and working four hours per day",
+      "business_model": "OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Indie Hackers",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup"
+      ],
+      "score": 33
     }
   ]
 }
