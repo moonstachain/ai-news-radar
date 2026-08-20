@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a333a1b7628c60ae",
+  "snapshot_id": "a1d4751e143adb89",
   "channel": "ai-news",
-  "generated_at": "2026-08-20T00:38:53.577255Z",
+  "generated_at": "2026-08-20T02:12:26.901217Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 551,
-    "high_priority": 20,
+    "signals": 537,
+    "high_priority": 18,
     "briefs": 20,
-    "stories": 523
+    "stories": 513
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 229,
-    "Info Flow": 154,
-    "Zeli": 76,
+    "Buzzing": 228,
+    "Info Flow": 150,
+    "Zeli": 70,
     "NewsNow": 32,
-    "Curated Media": 26,
+    "Curated Media": 27,
     "OPML RSS": 13,
-    "AI HOT": 8,
-    "Official AI Updates": 7
+    "Official AI Updates": 7,
+    "AI HOT": 7
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8589,
+      "importance_score": 0.8555,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +88,7 @@
       "source_names": [
         "OpenAI News"
       ],
-      "importance_score": 0.8379,
+      "importance_score": 0.8342,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -112,17 +112,17 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_9c847fb68fda",
-      "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模 / CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-      "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-      "primary_url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-      "source": "GitHub Changelog",
+      "story_id": "story_bf6c17b1a987",
+      "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作 / GitHub Copilot app for Beginners: Managing your work",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
+      "source": "GitHub AI & ML",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "GitHub AI & ML"
       ],
-      "importance_score": 0.8352,
+      "importance_score": 0.8315,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -130,17 +130,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-19T21:09:30Z",
-      "earliest_at": "2026-08-19T21:09:30Z",
+      "latest_at": "2026-08-19T17:50:23Z",
+      "earliest_at": "2026-08-19T17:50:23Z",
       "sources": [
         {
-          "id": "33dd888158164d0c0121116d57a69affc7df6950",
-          "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模 / CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-          "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-          "source": "GitHub Changelog",
+          "id": "b9db6e949ee8eb8a7ffc8c1b6c3687e407eca048",
+          "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作 / GitHub Copilot app for Beginners: Managing your work",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
+          "source": "GitHub AI & ML",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-19T21:09:30Z"
+          "published_at": "2026-08-19T17:50:23Z"
         }
       ],
       "confidence": "single-source"
