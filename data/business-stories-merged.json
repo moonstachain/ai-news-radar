@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T22:19:29.804973Z",
+  "generated_at": "2026-08-20T22:55:15.711275Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_01eb34b0b9f2",
@@ -64,6 +64,42 @@
       ]
     },
     {
+      "cluster_id": "biz_cluster_a3a99941459f",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "signal_ids": [
+        "biz_79badbd4fc4c",
+        "biz_8890fc95027e"
+      ],
+      "source_count": 1,
+      "importance_score": 42,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_79badbd4fc4c",
+        "biz_8890fc95027e"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "Ditching the Multi-Tool Tax: Why Founders Are Switching From Mixpanel to PostHog",
+          "url": "https://www.indiehackers.com/post/ditching-the-multi-tool-tax-why-founders-are-switching-from-mixpanel-to-posthog-f3af79b50d"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?",
+          "url": "https://www.indiehackers.com/post/show-ih-i-built-18-industry-pages-for-the-small-businesses-ai-search-ignores-which-one-did-i-leave-out-7aa6b73dbb"
+        }
+      ]
+    },
+    {
       "cluster_id": "biz_cluster_7fcef47cf8f1",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "lane": "counter_signal",
@@ -88,35 +124,6 @@
           "source": "MIT Sloan Management Review",
           "title": "Algorithms Trap Us in the Familiar. Can They Also Spark Breakthroughs?",
           "url": "https://sloanreview.mit.edu/article/algorithms-trap-us-in-the-familiar-can-they-also-spark-breakthroughs/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_f74b3bff18aa",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_8890fc95027e"
-      ],
-      "source_count": 1,
-      "importance_score": 41,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_8890fc95027e"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?",
-          "url": "https://www.indiehackers.com/post/show-ih-i-built-18-industry-pages-for-the-small-businesses-ai-search-ignores-which-one-did-i-leave-out-7aa6b73dbb"
         }
       ]
     }
