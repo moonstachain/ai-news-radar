@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "fcc11b883077e5ce",
+  "snapshot_id": "588d655b3c5adbcd",
   "channel": "ai-news",
-  "generated_at": "2026-08-20T21:20:12.479811Z",
+  "generated_at": "2026-08-20T21:52:38.184139Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 531,
+    "signals": 529,
     "high_priority": 21,
     "briefs": 20,
-    "stories": 501
+    "stories": 500
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 202,
+    "Buzzing": 200,
     "Info Flow": 151,
-    "Zeli": 77,
+    "Zeli": 78,
     "Curated Media": 36,
     "NewsNow": 30,
+    "Official AI Updates": 10,
     "OPML RSS": 10,
-    "Official AI Updates": 9,
-    "AI HOT": 9
+    "AI HOT": 8
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8738,
+      "importance_score": 0.8725,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +88,7 @@
       "source_names": [
         "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8473,
+      "importance_score": 0.8462,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -122,38 +122,48 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_b9b1ecfd122f",
-      "title": "Windows 11 arm64 VS2026 镜像正式发布 / Windows 11 arm64 VS2026 image generally available",
-      "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
-      "primary_url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
-      "source": "GitHub Changelog",
+      "story_id": "story_cb030de2dd94",
+      "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
+      "url": "https://openai.com/index/stampli",
+      "primary_url": "https://openai.com/index/stampli",
+      "source": "OpenAI News",
       "source_name": "Official AI Updates",
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "GitHub Changelog"
+        "OpenAI News"
       ],
-      "importance_score": 0.8352,
+      "importance_score": 0.8362,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-20T17:52:38Z",
-      "earliest_at": "2026-08-20T17:52:38Z",
+      "latest_at": "2026-08-20T00:00:00Z",
+      "earliest_at": "2026-08-20T00:00:00Z",
       "sources": [
         {
-          "id": "e3d7b1a7c89459a1e7f611544f5024ba1b88f489",
-          "title": "Windows 11 arm64 VS2026 镜像正式发布 / Windows 11 arm64 VS2026 image generally available",
-          "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
-          "source": "GitHub Changelog",
+          "id": "3ae845494efe7827db0e55ad56f2b2ac370dd597",
+          "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
+          "url": "https://openai.com/index/stampli",
+          "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-20T17:52:38Z"
+          "published_at": "2026-08-20T00:00:00Z"
+        },
+        {
+          "id": "7fd91e6585094da5bbdeb7314d65d39fd379e452",
+          "title": "Stampli 使用 ChatGPT Work 将启动时间缩短了 68% / Stampli cuts launch hours by 68% using ChatGPT Work",
+          "url": "https://openai.com/index/stampli",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-20T00:00:00Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }
