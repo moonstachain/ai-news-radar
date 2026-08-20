@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d9c752af9b469863",
+  "snapshot_id": "141c5314b9c82cbf",
   "channel": "ai-news",
-  "generated_at": "2026-08-20T17:27:51.887319Z",
+  "generated_at": "2026-08-20T17:56:04.368051Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 536,
+    "signals": 535,
     "high_priority": 24,
     "briefs": 20,
-    "stories": 507
+    "stories": 508
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 196,
+    "Buzzing": 198,
     "Info Flow": 154,
-    "Zeli": 85,
-    "Curated Media": 35,
+    "Zeli": 81,
+    "Curated Media": 37,
     "NewsNow": 28,
-    "OPML RSS": 11,
     "AI HOT": 10,
+    "OPML RSS": 10,
     "Official AI Updates": 9
   },
   "top_stories": [
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8835,
+      "importance_score": 0.8823,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +88,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8383,
+      "importance_score": 0.8371,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -112,17 +112,17 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_cb030de2dd94",
-      "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
-      "url": "https://openai.com/index/stampli",
-      "primary_url": "https://openai.com/index/stampli",
-      "source": "OpenAI News",
+      "story_id": "story_91992ed9f82d",
+      "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8199,
+      "importance_score": 0.8289,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -134,10 +134,10 @@
       "earliest_at": "2026-08-20T00:00:00Z",
       "sources": [
         {
-          "id": "3ae845494efe7827db0e55ad56f2b2ac370dd597",
-          "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
-          "url": "https://openai.com/index/stampli",
-          "source": "OpenAI News",
+          "id": "848b61992c147b8bfa1de6ee297eb16eca68debc",
+          "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-20T00:00:00Z"
