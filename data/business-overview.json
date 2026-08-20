@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "ceff14e073a65425",
+  "snapshot_id": "d9c752af9b469863",
   "channel": "ai-business",
-  "generated_at": "2026-08-20T17:02:12.560590Z",
+  "generated_at": "2026-08-20T17:28:58.372142Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 16,
+    "signals": 17,
     "briefs": 4,
     "clusters": 4,
-    "cases": 13
+    "cases": 14
   },
   "coverage": {
     "successful": 16,
@@ -20,21 +20,21 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_06b48ca74666",
+      "brief_id": "biz_brief_118d2c56fd16",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "11 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "judgment": "12 English evidence items from 3 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_b742a6c976d3",
-        "biz_0b31b8c95a74",
-        "biz_70bab7bf25af",
-        "biz_f7fbf9f91bdd",
-        "biz_7d8daecfa534"
+        "biz_8a1eb147f56f",
+        "biz_6213657bd1a3",
+        "biz_fa7326df2477",
+        "biz_86862fdd7a58",
+        "biz_718d508c8421"
       ],
       "evidence_titles": [
-        "CEO Interview : Personr",
-        "Executive Interview: Vivox AI",
-        "CEO Interview: Chameleon Semiconductor"
+        "CEO Interview: Tangible",
+        "Executive Interview: AMLYZE",
+        "Executive Interview : Moniepoint Inc"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -45,29 +45,28 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_733b79f13167",
+      "brief_id": "biz_brief_37698b5f91e7",
       "rank": 2,
-      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_2f9f6352230b",
-        "biz_3947ff041b7a",
-        "biz_2848ddaf5b47"
+        "biz_c3858330dac1",
+        "biz_8890fc95027e"
       ],
       "evidence_titles": [
-        "CEO Interview : Glint",
-        "Offering Zero Data Retention for frontier models",
-        "GitHub Copilot app for Beginners: Managing your work"
+        "Making $9k/mo with a mobile app until platform risk took its toll",
+        "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
       ],
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_e4a45926a5ab",
+      "brief_id": "biz_brief_7902f4f074b0",
       "rank": 3,
       "title": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -85,40 +84,41 @@
       "recommended_action": "Add these counter-signals to sales objections and content credibility checks."
     },
     {
-      "brief_id": "biz_brief_cf77f4786247",
+      "brief_id": "biz_brief_e826882dfe09",
       "rank": 4,
-      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_8890fc95027e"
+        "biz_3947ff041b7a",
+        "biz_2848ddaf5b47"
       ],
       "evidence_titles": [
-        "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?"
+        "Offering Zero Data Retention for frontier models",
+        "GitHub Copilot app for Beginners: Managing your work"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
+        "yuanli_os",
+        "ftf_trust"
       ],
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_06b48ca74666",
+      "id": "biz_brief_118d2c56fd16",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_733b79f13167",
+      "id": "biz_brief_37698b5f91e7",
       "label": "Brief #2",
-      "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
+      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     },
     {
-      "id": "biz_brief_e4a45926a5ab",
+      "id": "biz_brief_7902f4f074b0",
       "label": "Brief #3",
       "title": "Add these counter-signals to sales objections and content credibility checks.",
       "context": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language."
@@ -126,89 +126,84 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_992bc63bb255",
+      "cluster_id": "biz_cluster_609c0739959a",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "source_count": 3,
-      "importance_score": 55,
+      "importance_score": 56,
       "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "11 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "12 English evidence items from 3 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
-        "biz_b742a6c976d3",
-        "biz_0b31b8c95a74",
-        "biz_70bab7bf25af",
-        "biz_f7fbf9f91bdd",
-        "biz_7d8daecfa534"
+        "biz_8a1eb147f56f",
+        "biz_6213657bd1a3",
+        "biz_fa7326df2477",
+        "biz_86862fdd7a58",
+        "biz_718d508c8421"
       ],
       "top_sources": [
         {
           "source": "CB Insights",
-          "title": "CEO Interview : Personr",
-          "url": "https://www.cbinsights.com/research/ceo-interview-personr/"
+          "title": "CEO Interview: Tangible",
+          "url": "https://www.cbinsights.com/research/ceo-interview-tangible/"
         },
         {
           "source": "CB Insights",
-          "title": "Executive Interview: Vivox AI",
-          "url": "https://www.cbinsights.com/research/executive-interview-vivox-ai/"
+          "title": "Executive Interview: AMLYZE",
+          "url": "https://www.cbinsights.com/research/executive-interview-amlyze/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Chameleon Semiconductor",
-          "url": "https://www.cbinsights.com/research/ceo-interview-chameleon-semiconductor/"
+          "title": "Executive Interview : Moniepoint Inc",
+          "url": "https://www.cbinsights.com/research/executive-interview-moniepoint-inc/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: REACH",
-          "url": "https://www.cbinsights.com/research/ceo-interview-reach/"
+          "title": "CEO Interview : Inspectform",
+          "url": "https://www.cbinsights.com/research/ceo-interview-inspectform/"
         },
         {
           "source": "CB Insights",
-          "title": "Executive Interview: Quantum Bridge",
-          "url": "https://www.cbinsights.com/research/executive-interview-quantum-bridge/"
+          "title": "CEO Interview: Azos",
+          "url": "https://www.cbinsights.com/research/ceo-interview-azos/"
         }
       ]
     },
     {
-      "cluster_id": "biz_cluster_c137a6daa0bb",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "source_count": 3,
-      "importance_score": 46,
-      "confidence": "medium",
+      "cluster_id": "biz_cluster_ae2318876542",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "source_count": 1,
+      "importance_score": 43,
+      "confidence": "watch",
       "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
       ],
-      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_2f9f6352230b",
-        "biz_3947ff041b7a",
-        "biz_2848ddaf5b47"
+        "biz_c3858330dac1",
+        "biz_8890fc95027e"
       ],
       "top_sources": [
         {
-          "source": "CB Insights",
-          "title": "CEO Interview : Glint",
-          "url": "https://www.cbinsights.com/research/ceo-interview-glint/"
+          "source": "Indie Hackers",
+          "title": "Making $9k/mo with a mobile app until platform risk took its toll",
+          "url": "https://www.indiehackers.com/post/tech/making-9k-mo-with-a-mobile-app-until-platform-risk-took-its-toll-jChJ6O2CpPMaLCa4NypB"
         },
         {
-          "source": "OpenAI News",
-          "title": "Offering Zero Data Retention for frontier models",
-          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
-        },
-        {
-          "source": "GitHub Blog",
-          "title": "GitHub Copilot app for Beginners: Managing your work",
-          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/"
+          "source": "Indie Hackers",
+          "title": "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?",
+          "url": "https://www.indiehackers.com/post/show-ih-i-built-18-industry-pages-for-the-small-businesses-ai-search-ignores-which-one-did-i-leave-out-7aa6b73dbb"
         }
       ]
     },
@@ -238,28 +233,33 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_f74b3bff18aa",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "source_count": 1,
-      "importance_score": 42,
-      "confidence": "watch",
+      "cluster_id": "biz_cluster_41104410173b",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "source_count": 2,
+      "importance_score": 38,
+      "confidence": "medium",
       "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
+        "yuanli_os",
+        "ftf_trust"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
-        "biz_8890fc95027e"
+        "biz_3947ff041b7a",
+        "biz_2848ddaf5b47"
       ],
       "top_sources": [
         {
-          "source": "Indie Hackers",
-          "title": "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?",
-          "url": "https://www.indiehackers.com/post/show-ih-i-built-18-industry-pages-for-the-small-businesses-ai-search-ignores-which-one-did-i-leave-out-7aa6b73dbb"
+          "source": "OpenAI News",
+          "title": "Offering Zero Data Retention for frontier models",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+        },
+        {
+          "source": "GitHub Blog",
+          "title": "GitHub Copilot app for Beginners: Managing your work",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/"
         }
       ]
     }
