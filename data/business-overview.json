@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "aee4922a13976a38",
+  "snapshot_id": "b91587510536e7f9",
   "channel": "ai-business",
-  "generated_at": "2026-08-20T18:26:24.635583Z",
+  "generated_at": "2026-08-20T19:12:17.046743Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 16,
-    "briefs": 4,
-    "clusters": 4,
-    "cases": 14
+    "signals": 14,
+    "briefs": 3,
+    "clusters": 3,
+    "cases": 13
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_d44cfc1548f7",
+      "brief_id": "biz_brief_03aa4f335e17",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "12 English evidence items from 3 sources connect this pattern to Yuanli IP.",
@@ -45,29 +45,8 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_3860b8ca04bd",
+      "brief_id": "biz_brief_00d79ee6611a",
       "rank": 2,
-      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_c3858330dac1",
-        "biz_8890fc95027e"
-      ],
-      "evidence_titles": [
-        "Making $9k/mo with a mobile app until platform risk took its toll",
-        "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
-    },
-    {
-      "brief_id": "biz_brief_9ce21bbfe75c",
-      "rank": 3,
       "title": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
@@ -84,42 +63,43 @@
       "recommended_action": "Add these counter-signals to sales objections and content credibility checks."
     },
     {
-      "brief_id": "biz_brief_eb385c76759c",
-      "rank": 4,
-      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "brief_id": "biz_brief_a814c380a04d",
+      "rank": 3,
+      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_3947ff041b7a"
+        "biz_8890fc95027e"
       ],
       "evidence_titles": [
-        "Offering Zero Data Retention for frontier models"
+        "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
       ],
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_d44cfc1548f7",
+      "id": "biz_brief_03aa4f335e17",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_3860b8ca04bd",
+      "id": "biz_brief_00d79ee6611a",
       "label": "Brief #2",
-      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
-    },
-    {
-      "id": "biz_brief_9ce21bbfe75c",
-      "label": "Brief #3",
       "title": "Add these counter-signals to sales objections and content credibility checks.",
       "context": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language."
+    },
+    {
+      "id": "biz_brief_a814c380a04d",
+      "label": "Brief #3",
+      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     }
   ],
   "clusters": [
@@ -174,38 +154,6 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_ae2318876542",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "source_count": 1,
-      "importance_score": 43,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_c3858330dac1",
-        "biz_8890fc95027e"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "Making $9k/mo with a mobile app until platform risk took its toll",
-          "url": "https://www.indiehackers.com/post/tech/making-9k-mo-with-a-mobile-app-until-platform-risk-took-its-toll-jChJ6O2CpPMaLCa4NypB"
-        },
-        {
-          "source": "Indie Hackers",
-          "title": "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?",
-          "url": "https://www.indiehackers.com/post/show-ih-i-built-18-industry-pages-for-the-small-businesses-ai-search-ignores-which-one-did-i-leave-out-7aa6b73dbb"
-        }
-      ]
-    },
-    {
       "cluster_id": "biz_cluster_7fcef47cf8f1",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "lane": "counter_signal",
@@ -231,27 +179,28 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_34797c19d28c",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
+      "cluster_id": "biz_cluster_f74b3bff18aa",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
       "source_count": 1,
-      "importance_score": 38,
+      "importance_score": 42,
       "confidence": "watch",
       "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
       ],
       "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_3947ff041b7a"
+        "biz_8890fc95027e"
       ],
       "top_sources": [
         {
-          "source": "OpenAI News",
-          "title": "Offering Zero Data Retention for frontier models",
-          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+          "source": "Indie Hackers",
+          "title": "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?",
+          "url": "https://www.indiehackers.com/post/show-ih-i-built-18-industry-pages-for-the-small-businesses-ai-search-ignores-which-one-did-i-leave-out-7aa6b73dbb"
         }
       ]
     }
