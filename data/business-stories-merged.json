@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T12:27:37.992321Z",
+  "generated_at": "2026-08-20T13:28:43.102842Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_00a747e915b6",
@@ -106,6 +106,42 @@
       ]
     },
     {
+      "cluster_id": "biz_cluster_ae2318876542",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "signal_ids": [
+        "biz_c3858330dac1",
+        "biz_8890fc95027e"
+      ],
+      "source_count": 1,
+      "importance_score": 43,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_c3858330dac1",
+        "biz_8890fc95027e"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "Making $9k/mo with a mobile app until platform risk took its toll",
+          "url": "https://www.indiehackers.com/post/tech/making-9k-mo-with-a-mobile-app-until-platform-risk-took-its-toll-jChJ6O2CpPMaLCa4NypB"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?",
+          "url": "https://www.indiehackers.com/post/show-ih-i-built-18-industry-pages-for-the-small-businesses-ai-search-ignores-which-one-did-i-leave-out-7aa6b73dbb"
+        }
+      ]
+    },
+    {
       "cluster_id": "biz_cluster_7fcef47cf8f1",
       "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "lane": "counter_signal",
@@ -130,42 +166,6 @@
           "source": "MIT Sloan Management Review",
           "title": "Algorithms Trap Us in the Familiar. Can They Also Spark Breakthroughs?",
           "url": "https://sloanreview.mit.edu/article/algorithms-trap-us-in-the-familiar-can-they-also-spark-breakthroughs/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_dc9289f99c18",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_8890fc95027e",
-        "biz_e4a7d23d69f4"
-      ],
-      "source_count": 1,
-      "importance_score": 42,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_8890fc95027e",
-        "biz_e4a7d23d69f4"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?",
-          "url": "https://www.indiehackers.com/post/show-ih-i-built-18-industry-pages-for-the-small-businesses-ai-search-ignores-which-one-did-i-leave-out-7aa6b73dbb"
-        },
-        {
-          "source": "Indie Hackers",
-          "title": "Why we launched a paid affiliate program before touching Google Ads",
-          "url": "https://www.indiehackers.com/post/why-we-launched-a-paid-affiliate-program-before-touching-google-ads-280dd9a247"
         }
       ]
     }
