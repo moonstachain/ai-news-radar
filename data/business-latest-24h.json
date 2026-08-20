@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:57:57.718299Z",
+  "generated_at": "2026-08-20T11:22:30.975644Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:41:26Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -47,7 +47,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T21:07:49Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -84,7 +84,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:56:23Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -121,7 +121,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:49:34Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -158,7 +158,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:38:51Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -195,7 +195,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:38:38Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -232,7 +232,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:36:07Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -269,7 +269,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:29:57Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -306,7 +306,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:26:07Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -343,7 +343,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-19T20:19:11Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -380,7 +380,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-20T05:57:54.710000Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -414,13 +414,52 @@
       "transport_mode": "page_detail"
     },
     {
+      "signal_id": "biz_1d8ccf05977b",
+      "title": "Algorithms Trap Us in the Familiar. Can They Also Spark Breakthroughs?",
+      "url": "https://sloanreview.mit.edu/article/algorithms-trap-us-in-the-familiar-can-they-also-spark-breakthroughs/",
+      "source_id": "mit_smr",
+      "source_name": "MIT Sloan Management Review",
+      "published_at": "2026-08-20T11:00:25Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
+      "lane": "authority",
+      "entities": [
+        "MIT Sloan Management Review",
+        "Algorithms Trap Us",
+        "Familiar. Can They",
+        "Also Spark Breakthroughs"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow",
+        "Counter Signal",
+        "AI Business Model Innovation"
+      ],
+      "yuanli_tags": [
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 0,
+      "total_score": 41,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 6,
+        "case_concreteness": 0,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 4
+      },
+      "summary": "Gary Waters/Ikon Images Algorithmic tools promise to democratize access to knowledge and thus spark creativity and innovation, but research we conducted revealed a hidden risk: Those tools may be silently narrowing organ... Tags: Enterprise AI Workflow, Counter Signal, AI Business Model Innovation.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_e4a7d23d69f4",
       "title": "Why we launched a paid affiliate program before touching Google Ads",
       "url": "https://www.indiehackers.com/post/why-we-launched-a-paid-affiliate-program-before-touching-google-ads-280dd9a247",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-20T05:31:20.120000Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -456,7 +495,7 @@
       "source_id": "openai_news",
       "source_name": "OpenAI News",
       "published_at": "2026-08-19T19:00:00Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "ai_commercialization",
       "entities": [
         "OpenAI News",
@@ -494,7 +533,7 @@
       "source_id": "github_blog",
       "source_name": "GitHub Blog",
       "published_at": "2026-08-19T17:50:23Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "ai_commercialization",
       "entities": [
         "GitHub Blog",
@@ -531,7 +570,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-08-19T12:15:08Z",
-      "captured_at": "2026-08-20T10:57:57.718299Z",
+      "captured_at": "2026-08-20T11:22:30.975644Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
