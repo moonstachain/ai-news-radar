@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T06:28:52.407001Z",
+  "generated_at": "2026-08-20T07:18:47.353416Z",
   "cases": [
     {
       "case_id": "opc_case_08dd3bc7fa2d",
@@ -188,7 +188,7 @@
         "yuanli_startup",
         "ftf_trust"
       ],
-      "score": 50
+      "score": 49
     },
     {
       "case_id": "opc_case_9d5fd9ea8a3c",
@@ -209,7 +209,7 @@
         "yuanli_startup",
         "ftf_trust"
       ],
-      "score": 50
+      "score": 49
     },
     {
       "case_id": "opc_case_bd3a83c5243c",
@@ -230,6 +230,26 @@
         "yuanli_startup"
       ],
       "score": 44
+    },
+    {
+      "case_id": "opc_case_412f42515cd6",
+      "company": "Ditching",
+      "founder": "",
+      "source_refs": [
+        "biz_79badbd4fc4c"
+      ],
+      "url": "https://www.indiehackers.com/post/ditching-the-multi-tool-tax-why-founders-are-switching-from-mixpanel-to-posthog-f3af79b50d",
+      "title": "Ditching the Multi-Tool Tax: Why Founders Are Switching From Mixpanel to PostHog",
+      "business_model": "Founder Case, OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Indie Hackers",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup"
+      ],
+      "score": 43
     }
   ]
 }
