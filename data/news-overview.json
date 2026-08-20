@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e190db6612c53ab3",
+  "snapshot_id": "fcc11b883077e5ce",
   "channel": "ai-news",
-  "generated_at": "2026-08-20T20:55:44.389412Z",
+  "generated_at": "2026-08-20T21:20:12.479811Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 197,
+    "Buzzing": 202,
     "Info Flow": 151,
-    "Zeli": 82,
+    "Zeli": 77,
     "Curated Media": 36,
-    "NewsNow": 29,
+    "NewsNow": 30,
     "OPML RSS": 10,
     "Official AI Updates": 9,
     "AI HOT": 9
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8748,
+      "importance_score": 0.8738,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,6 +78,50 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_91992ed9f82d",
+      "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "importance_score": 0.8473,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-20T00:00:00Z",
+      "earliest_at": "2026-08-20T00:00:00Z",
+      "sources": [
+        {
+          "id": "92750e7a46945c96a19d170ab8950057fd9cc578",
+          "title": "法典 CLI 0.149.0 / Codex CLI 0.149.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-20T00:00:00Z"
+        },
+        {
+          "id": "848b61992c147b8bfa1de6ee297eb16eca68debc",
+          "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-20T00:00:00Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
       "story_id": "story_b9b1ecfd122f",
       "title": "Windows 11 arm64 VS2026 镜像正式发布 / Windows 11 arm64 VS2026 image generally available",
       "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
@@ -88,7 +132,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8362,
+      "importance_score": 0.8352,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -107,40 +151,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-20T17:52:38Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "importance_score": 0.8231,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-20T00:00:00Z",
-      "earliest_at": "2026-08-20T00:00:00Z",
-      "sources": [
-        {
-          "id": "848b61992c147b8bfa1de6ee297eb16eca68debc",
-          "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T00:00:00Z"
         }
       ],
       "confidence": "single-source"
