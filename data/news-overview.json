@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "939ad5fb298c7be2",
+  "snapshot_id": "9419d1c73a19c07e",
   "channel": "ai-news",
-  "generated_at": "2026-08-20T15:04:26.220537Z",
+  "generated_at": "2026-08-20T16:01:14.754331Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 533,
-    "high_priority": 21,
+    "signals": 539,
+    "high_priority": 22,
     "briefs": 20,
-    "stories": 503
+    "stories": 508
   },
   "coverage": {
     "successful": 16,
@@ -22,28 +22,28 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 194,
-    "Info Flow": 151,
-    "Zeli": 83,
+    "Buzzing": 196,
+    "Info Flow": 155,
+    "Zeli": 85,
     "Curated Media": 34,
-    "NewsNow": 30,
-    "OPML RSS": 13,
-    "Follow Builders": 12,
-    "AI HOT": 8
+    "NewsNow": 31,
+    "OPML RSS": 11,
+    "Follow Builders": 9,
+    "Official AI Updates": 8
   },
   "top_stories": [
     {
-      "story_id": "story_c23e436699dc",
-      "title": "在审核日志中跟踪 GitHub 代码质量启用更改 / Track GitHub Code Quality enablement changes in the audit log",
-      "url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
-      "primary_url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
+      "story_id": "story_f67290731017",
+      "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
+      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+      "primary_url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8425,
+      "importance_score": 0.842,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -51,17 +51,51 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-20T14:28:41Z",
-      "earliest_at": "2026-08-20T14:28:41Z",
+      "latest_at": "2026-08-20T15:14:31Z",
+      "earliest_at": "2026-08-20T15:14:31Z",
       "sources": [
         {
-          "id": "1cc18a7327743210494631f42c24107a27ce2aff",
-          "title": "在审核日志中跟踪 GitHub 代码质量启用更改 / Track GitHub Code Quality enablement changes in the audit log",
-          "url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
+          "id": "f4c17395c04a766662eb04284b415ce431dd4390",
+          "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
+          "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-20T14:28:41Z"
+          "published_at": "2026-08-20T15:14:31Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_cb030de2dd94",
+      "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
+      "url": "https://openai.com/index/stampli",
+      "primary_url": "https://openai.com/index/stampli",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "importance_score": 0.8228,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-20T00:00:00Z",
+      "earliest_at": "2026-08-20T00:00:00Z",
+      "sources": [
+        {
+          "id": "3ae845494efe7827db0e55ad56f2b2ac370dd597",
+          "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
+          "url": "https://openai.com/index/stampli",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-20T00:00:00Z"
         }
       ],
       "confidence": "single-source"
@@ -77,7 +111,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8425,
+      "importance_score": 0.8401,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -96,40 +130,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-20T14:29:27Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_ef913e9fdabc",
-      "title": "为前沿模型提供零数据保留 / Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "primary_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "importance_score": 0.8067,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-19T19:00:00Z",
-      "earliest_at": "2026-08-19T19:00:00Z",
-      "sources": [
-        {
-          "id": "1748b6a463c8de58fdb4ab7ec667c1548f30e9f4",
-          "title": "为前沿模型提供零数据保留 / Offering Zero Data Retention for frontier models",
-          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-19T19:00:00Z"
         }
       ],
       "confidence": "single-source"
