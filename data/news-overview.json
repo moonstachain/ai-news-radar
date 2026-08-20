@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "9f4d382067adadb4",
+  "snapshot_id": "ff8d031cb8288406",
   "channel": "ai-news",
-  "generated_at": "2026-08-20T09:06:03.690494Z",
+  "generated_at": "2026-08-20T09:59:44.251820Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 525,
+    "signals": 531,
     "high_priority": 22,
     "briefs": 20,
-    "stories": 498
+    "stories": 502
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 211,
-    "Info Flow": 135,
-    "Zeli": 73,
-    "Curated Media": 34,
-    "NewsNow": 31,
+    "Buzzing": 210,
+    "Info Flow": 137,
+    "Zeli": 74,
+    "Curated Media": 36,
+    "NewsNow": 32,
     "Follow Builders": 15,
-    "OPML RSS": 12,
+    "OPML RSS": 13,
     "AI HOT": 7
   },
   "top_stories": [
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8412,
+      "importance_score": 0.8395,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +88,7 @@
       "source_names": [
         "OpenAI News"
       ],
-      "importance_score": 0.8188,
+      "importance_score": 0.817,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -122,7 +122,7 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "importance_score": 0.8164,
+      "importance_score": 0.8145,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
