@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "b91587510536e7f9",
+  "snapshot_id": "6d5b24c4ce8ce7d2",
   "channel": "ai-business",
-  "generated_at": "2026-08-20T19:12:17.046743Z",
+  "generated_at": "2026-08-20T19:56:09.308788Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 14,
+    "signals": 15,
     "briefs": 3,
     "clusters": 3,
-    "cases": 13
+    "cases": 14
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_03aa4f335e17",
+      "brief_id": "biz_brief_f34a5b5d42b5",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "12 English evidence items from 3 sources connect this pattern to Yuanli IP.",
@@ -45,7 +45,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_00d79ee6611a",
+      "brief_id": "biz_brief_4ae43d13832f",
       "rank": 2,
       "title": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -63,14 +63,16 @@
       "recommended_action": "Add these counter-signals to sales objections and content credibility checks."
     },
     {
-      "brief_id": "biz_brief_a814c380a04d",
+      "brief_id": "biz_brief_9d1a375f7102",
       "rank": 3,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
+        "biz_791fae1ba036",
         "biz_8890fc95027e"
       ],
       "evidence_titles": [
+        "I built a portfolio recovery tool because “I need my coins to come back” is the wrong math",
         "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?"
       ],
       "risk_level": "low",
@@ -84,19 +86,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_03aa4f335e17",
+      "id": "biz_brief_f34a5b5d42b5",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_00d79ee6611a",
+      "id": "biz_brief_4ae43d13832f",
       "label": "Brief #2",
       "title": "Add these counter-signals to sales objections and content credibility checks.",
       "context": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language."
     },
     {
-      "id": "biz_brief_a814c380a04d",
+      "id": "biz_brief_9d1a375f7102",
       "label": "Brief #3",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
@@ -179,7 +181,7 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_f74b3bff18aa",
+      "cluster_id": "biz_cluster_3ff2316c6e0f",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
@@ -190,13 +192,19 @@
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
+        "biz_791fae1ba036",
         "biz_8890fc95027e"
       ],
       "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "I built a portfolio recovery tool because “I need my coins to come back” is the wrong math",
+          "url": "https://www.indiehackers.com/post/i-built-a-portfolio-recovery-tool-because-i-need-my-coins-to-come-back-is-the-wrong-math-2f1136f3fb"
+        },
         {
           "source": "Indie Hackers",
           "title": "Show IH: I built 18 industry pages for the small businesses AI search ignores — which one did I leave out?",
