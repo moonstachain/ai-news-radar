@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T14:09:39.081300Z",
+  "generated_at": "2026-08-21T15:04:06.582816Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T17:13:05Z",
-      "captured_at": "2026-08-21T14:09:39.081300Z",
+      "captured_at": "2026-08-21T15:04:06.582816Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:54:17Z",
-      "captured_at": "2026-08-21T14:09:39.081300Z",
+      "captured_at": "2026-08-21T15:04:06.582816Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -83,7 +83,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:46:41Z",
-      "captured_at": "2026-08-21T14:09:39.081300Z",
+      "captured_at": "2026-08-21T15:04:06.582816Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -120,7 +120,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:37:26Z",
-      "captured_at": "2026-08-21T14:09:39.081300Z",
+      "captured_at": "2026-08-21T15:04:06.582816Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -157,7 +157,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:33:27Z",
-      "captured_at": "2026-08-21T14:09:39.081300Z",
+      "captured_at": "2026-08-21T15:04:06.582816Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -194,7 +194,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:31:28Z",
-      "captured_at": "2026-08-21T14:09:39.081300Z",
+      "captured_at": "2026-08-21T15:04:06.582816Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -225,87 +225,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_b742a6c976d3",
-      "title": "CEO Interview : Personr",
-      "url": "https://www.cbinsights.com/research/ceo-interview-personr/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-20T15:00:25Z",
-      "captured_at": "2026-08-21T14:09:39.081300Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "CEO Interview",
-        "Personr"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 49,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Nicholas Ahrens, Chief Executive Officer (CEO), at Personr, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Co... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_0b31b8c95a74",
-      "title": "Executive Interview: Vivox AI",
-      "url": "https://www.cbinsights.com/research/executive-interview-vivox-ai/",
-      "source_id": "cbinsights",
-      "source_name": "CB Insights",
-      "published_at": "2026-08-20T14:54:51Z",
-      "captured_at": "2026-08-21T14:09:39.081300Z",
-      "lane": "startup_vc",
-      "entities": [
-        "CB Insights",
-        "Executive Interview",
-        "Vivox AI"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup",
-        "ftf_trust"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 15,
-      "total_score": 49,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 5,
-        "case_concreteness": 15,
-        "opc_fit": 0,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "Anna Antimiichuk, the Head of Marketing at Vivox AI, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? At Vivox... Tags: Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
       "signal_id": "biz_31adbc782e54",
       "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
       "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-21T05:45:21Z",
-      "captured_at": "2026-08-21T14:09:39.081300Z",
+      "captured_at": "2026-08-21T15:04:06.582816Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
