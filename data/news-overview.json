@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "bced966d370e7f07",
+  "snapshot_id": "94f6a25ef41b184c",
   "channel": "ai-news",
-  "generated_at": "2026-08-21T10:57:09.851690Z",
+  "generated_at": "2026-08-21T11:19:07.558234Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 589,
-    "high_priority": 28,
+    "signals": 588,
+    "high_priority": 29,
     "briefs": 20,
-    "stories": 552
+    "stories": 548
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 195,
-    "Info Flow": 159,
+    "Buzzing": 194,
+    "Info Flow": 158,
     "Zeli": 88,
-    "TechURLs": 41,
-    "NewsNow": 35,
-    "Curated Media": 31,
+    "TechURLs": 40,
+    "NewsNow": 34,
+    "Curated Media": 32,
     "Follow Builders": 15,
-    "OPML RSS": 10
+    "OPML RSS": 12
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8437,
+      "importance_score": 0.8429,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +88,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8165,
+      "importance_score": 0.8157,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -112,45 +112,55 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_2bf314b17c2a",
-      "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
-      "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
-      "primary_url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_cf9e7f8b7e08",
+      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "primary_url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "source": "DeepSeek：API 更新日志",
       "source_name": "AI HOT",
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "DeepSeek：API 更新日志",
+        "Hacker News (黑客新闻)",
+        "hackernews"
       ],
-      "importance_score": 0.7977,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.7978,
+      "importance_label": "多源热议",
+      "category": "multi_source",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-21T09:25:43.682000Z",
-      "earliest_at": "2026-08-20T13:56:59Z",
+      "latest_at": "2026-08-21T11:01:25.274000Z",
+      "earliest_at": "2026-08-21T09:26:04.727000Z",
       "sources": [
         {
-          "id": "181c6a56f41efd88894f1d69f86ca477fcfcae74",
-          "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
-          "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "3292523df0d3dc1a19bfb08fadf619c3e5dabd12",
+          "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+          "url": "https://api-docs.deepseek.com/zh-cn/updates",
+          "source": "DeepSeek：API 更新日志",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-21T09:25:43.682000Z"
+          "published_at": "2026-08-21T09:26:04.727000Z"
         },
         {
-          "id": "0b941d0c757d1527748bfac2a7610554d1bdb8fd",
-          "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究 / Every Model Cheats",
-          "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-20T13:56:59Z"
+          "id": "c0e5aa36939a18104f0fbf98078d162328862503",
+          "title": "DeepSeek-v4-flash-vision-exp",
+          "url": "https://news.ycombinator.com/item?id=49386163",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-21T11:01:25.274000Z"
+        },
+        {
+          "id": "ba08e946e7231b07ae090980b0904a842725c102",
+          "title": "DeepSeek-v4-flash-vision-exp",
+          "url": "https://api-docs.deepseek.com/guides/vision",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-21T10:33:56Z"
         }
       ],
       "confidence": "multi-source"
