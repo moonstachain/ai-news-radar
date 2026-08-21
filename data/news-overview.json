@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c3e7a1d2c9570129",
+  "snapshot_id": "8f2ea546885ab1fc",
   "channel": "ai-news",
-  "generated_at": "2026-08-21T16:23:33.256271Z",
+  "generated_at": "2026-08-21T17:00:40.902711Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 578,
+    "signals": 588,
     "high_priority": 27,
     "briefs": 20,
-    "stories": 542
+    "stories": 552
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 193,
-    "Info Flow": 155,
-    "Zeli": 80,
-    "TechURLs": 50,
+    "Buzzing": 197,
+    "Info Flow": 156,
+    "Zeli": 81,
+    "TechURLs": 54,
     "NewsNow": 34,
-    "Curated Media": 27,
-    "Follow Builders": 13,
-    "OPML RSS": 13
+    "Curated Media": 26,
+    "OPML RSS": 15,
+    "Follow Builders": 12
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8531,
+      "importance_score": 0.8518,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,6 +78,40 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_87fedaf94c82",
+      "title": "Slack 中的全新 GitHub Copilot 体验 / The new GitHub Copilot experience in Slack",
+      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+      "primary_url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.8497,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-21T16:07:15Z",
+      "earliest_at": "2026-08-21T16:07:15Z",
+      "sources": [
+        {
+          "id": "95be4d894cfb7732cd86896767c25f43138d9629",
+          "title": "Slack 中的全新 GitHub Copilot 体验 / The new GitHub Copilot experience in Slack",
+          "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-21T16:07:15Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_e42b7af4138c",
       "title": "从 Atari 到 EVE Online：基于 15 年游戏人工智能研究 / From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
@@ -88,7 +122,7 @@
       "source_names": [
         "Google DeepMind"
       ],
-      "importance_score": 0.8329,
+      "importance_score": 0.8314,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -107,40 +141,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-21T11:59:48Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_8049599f3b1e",
-      "title": "将保存的视图固定到存储库问题侧边栏通常是可用的等等 / Pinning saved views to the repository issues sidebar is generally available and more",
-      "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-      "primary_url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.805,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-20T23:29:34Z",
-      "earliest_at": "2026-08-20T23:29:34Z",
-      "sources": [
-        {
-          "id": "2c4fc71547d52e8375f29f8ac4898b98edf8d7c5",
-          "title": "将保存的视图固定到存储库问题侧边栏通常是可用的等等 / Pinning saved views to the repository issues sidebar is generally available and more",
-          "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T23:29:34Z"
         }
       ],
       "confidence": "single-source"
