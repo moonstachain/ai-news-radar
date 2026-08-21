@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T11:52:30.679169Z",
+  "generated_at": "2026-08-21T12:27:25.216359Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T17:13:05Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:54:17Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -83,7 +83,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:46:41Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -120,7 +120,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:37:26Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -157,7 +157,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:33:27Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -194,7 +194,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:31:28Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -231,7 +231,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T15:00:25Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -268,7 +268,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T14:54:51Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -299,13 +299,48 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_39f9acbfad22",
+      "title": "I asked founders what they actually want after launch. The answer wasn’t more traffic.",
+      "url": "https://www.indiehackers.com/post/i-asked-founders-what-they-actually-want-after-launch-the-answer-wasn-t-more-traffic-8737e93a22",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-21T04:55:27.013000Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 43,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "I asked founders what they actually want after launch. The answer wasn’t more traffic. Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_31adbc782e54",
       "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
       "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-21T05:45:21Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -344,7 +379,7 @@
       "source_id": "a16z",
       "source_name": "a16z",
       "published_at": "2026-08-20T13:15:55Z",
-      "captured_at": "2026-08-21T11:52:30.679169Z",
+      "captured_at": "2026-08-21T12:27:25.216359Z",
       "lane": "startup_vc",
       "entities": [
         "a16z",
