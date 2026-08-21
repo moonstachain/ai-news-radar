@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "50806554d5fd8e73",
+  "snapshot_id": "8ce9b5c55ba9fd87",
   "channel": "ai-news",
-  "generated_at": "2026-08-21T20:48:34.067844Z",
+  "generated_at": "2026-08-21T21:15:48.252209Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 589,
+    "signals": 583,
     "high_priority": 27,
     "briefs": 20,
-    "stories": 544
+    "stories": 538
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 196,
+    "Buzzing": 192,
     "Info Flow": 160,
-    "Zeli": 74,
-    "TechURLs": 58,
-    "NewsNow": 41,
-    "Curated Media": 21,
-    "OPML RSS": 14,
+    "Zeli": 73,
+    "TechURLs": 57,
+    "NewsNow": 40,
+    "Curated Media": 20,
+    "OPML RSS": 16,
     "Follow Builders": 9
   },
   "top_stories": [
@@ -44,7 +44,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8443,
+      "importance_score": 0.8434,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +88,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8402,
+      "importance_score": 0.8391,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -122,7 +122,7 @@
       "source_names": [
         "Google DeepMind"
       ],
-      "importance_score": 0.8225,
+      "importance_score": 0.8215,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
