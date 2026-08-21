@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "8f2ea546885ab1fc",
+  "snapshot_id": "da8d01115b2bc49e",
   "channel": "ai-business",
-  "generated_at": "2026-08-21T17:01:57.370260Z",
+  "generated_at": "2026-08-21T17:28:37.258103Z",
   "window_hours": 24,
   "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
   "metrics": {
@@ -12,15 +12,15 @@
     "cases": 11
   },
   "coverage": {
-    "successful": 16,
+    "successful": 15,
     "total": 26,
-    "failed": 10,
-    "ratio": 0.6154,
+    "failed": 11,
+    "ratio": 0.5769,
     "status": "limited"
   },
   "brief": [
     {
-      "brief_id": "biz_brief_245b7cccceda",
+      "brief_id": "biz_brief_0fd9e93052c5",
       "rank": 1,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -40,7 +40,7 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_3b8a43a23ea3",
+      "brief_id": "biz_brief_6d154ad2f1f0",
       "rank": 2,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "9 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -67,13 +67,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_245b7cccceda",
+      "id": "biz_brief_0fd9e93052c5",
       "label": "Brief #1",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_3b8a43a23ea3",
+      "id": "biz_brief_6d154ad2f1f0",
       "label": "Brief #2",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
