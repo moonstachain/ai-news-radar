@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T23:51:11.816518Z",
+  "generated_at": "2026-08-21T00:41:31.218229Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T17:13:05Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -46,7 +46,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:54:17Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -83,7 +83,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:46:41Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -120,7 +120,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:37:26Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -157,7 +157,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:33:27Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -194,7 +194,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T16:31:28Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -231,7 +231,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T15:00:25Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -268,7 +268,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-20T14:54:51Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -299,50 +299,13 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_a9f4356bf115",
-      "title": "Rise of the Borderless Founder | Andreessen Horowitz",
-      "url": "https://a16z.com/rise-of-the-borderless-founder/",
-      "source_id": "a16z",
-      "source_name": "a16z",
-      "published_at": "2026-08-20T13:15:55Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
-      "lane": "startup_vc",
-      "entities": [
-        "a16z",
-        "Rise",
-        "Borderless Founder",
-        "Andreessen Horowitz"
-      ],
-      "business_model_tags": [
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 8,
-      "total_score": 42,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 0,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "Rise of the Borderless Founder | Andreessen Horowitz Tags: Founder Case.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "sitemap_page"
-    },
-    {
       "signal_id": "biz_79badbd4fc4c",
       "title": "Ditching the Multi-Tool Tax: Why Founders Are Switching From Mixpanel to PostHog",
       "url": "https://www.indiehackers.com/post/ditching-the-multi-tool-tax-why-founders-are-switching-from-mixpanel-to-posthog-f3af79b50d",
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-20T05:57:54.710000Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -376,13 +339,50 @@
       "transport_mode": "page_detail"
     },
     {
+      "signal_id": "biz_a9f4356bf115",
+      "title": "Rise of the Borderless Founder | Andreessen Horowitz",
+      "url": "https://a16z.com/rise-of-the-borderless-founder/",
+      "source_id": "a16z",
+      "source_name": "a16z",
+      "published_at": "2026-08-20T13:15:55Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
+      "lane": "startup_vc",
+      "entities": [
+        "a16z",
+        "Rise",
+        "Borderless Founder",
+        "Andreessen Horowitz"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 8,
+      "total_score": 41,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 0,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Rise of the Borderless Founder | Andreessen Horowitz Tags: Founder Case.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "sitemap_page"
+    },
+    {
       "signal_id": "biz_1915bf1abd33",
       "title": "Firsthand: How I Built a Brand with Heart at Lovable",
       "url": "https://review.firstround.com/firsthand-lovable/",
       "source_id": "first_round",
       "source_name": "First Round Review",
       "published_at": "2026-08-20T11:35:07Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "startup_vc",
       "entities": [
         "First Round Review",
@@ -421,7 +421,7 @@
       "source_id": "mit_smr",
       "source_name": "MIT Sloan Management Review",
       "published_at": "2026-08-20T11:00:25Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "authority",
       "entities": [
         "MIT Sloan Management Review",
@@ -460,7 +460,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-08-20T08:43:11.519000Z",
-      "captured_at": "2026-08-20T23:51:11.816518Z",
+      "captured_at": "2026-08-21T00:41:31.218229Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
