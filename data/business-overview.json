@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "495c72d4dc286a9a",
+  "snapshot_id": "c3e7a1d2c9570129",
   "channel": "ai-business",
-  "generated_at": "2026-08-21T15:38:44.179292Z",
+  "generated_at": "2026-08-21T16:24:47.846826Z",
   "window_hours": 24,
-  "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+  "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
   "metrics": {
-    "signals": 7,
+    "signals": 11,
     "briefs": 2,
     "clusters": 2,
-    "cases": 7
+    "cases": 11
   },
   "coverage": {
     "successful": 16,
@@ -20,39 +20,16 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_159c378cf555",
+      "brief_id": "biz_brief_a6ff7de6ef9b",
       "rank": 1,
-      "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "6 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_33948a5bd0b3",
-        "biz_8a1eb147f56f",
-        "biz_6213657bd1a3",
-        "biz_fa7326df2477",
-        "biz_86862fdd7a58"
-      ],
-      "evidence_titles": [
-        "Executive Interview: PROMEDIUS",
-        "CEO Interview: Tangible",
-        "Executive Interview: AMLYZE"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "wealth_flywheel"
-      ],
-      "recommended_action": "Convert high-score founder cases into FTF credible story assets."
-    },
-    {
-      "brief_id": "biz_brief_dcb9e35e675f",
-      "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
+        "biz_0c17253a8de9",
         "biz_31adbc782e54"
       ],
       "evidence_titles": [
+        "CEO Interview: Cache",
         "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud"
       ],
       "risk_level": "low",
@@ -61,95 +38,126 @@
         "ftf_trust"
       ],
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
+    },
+    {
+      "brief_id": "biz_brief_7eb95c5368fb",
+      "rank": 2,
+      "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
+      "judgment": "9 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_a421da1a1600",
+        "biz_51f60ecac707",
+        "biz_7bceb318ded4",
+        "biz_1a3dd5c96c63",
+        "biz_9ec14b24cf3b"
+      ],
+      "evidence_titles": [
+        "CEO Interview: Flexvelop",
+        "CEO Interview: Funding Societies | Modalku | CardUp",
+        "Executive Interview: Tinubu"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "wealth_flywheel"
+      ],
+      "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_159c378cf555",
+      "id": "biz_brief_a6ff7de6ef9b",
       "label": "Brief #1",
-      "title": "Convert high-score founder cases into FTF credible story assets.",
-      "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
-    },
-    {
-      "id": "biz_brief_dcb9e35e675f",
-      "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
+    },
+    {
+      "id": "biz_brief_7eb95c5368fb",
+      "label": "Brief #2",
+      "title": "Convert high-score founder cases into FTF credible story assets.",
+      "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     }
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_01eb34b0b9f2",
+      "cluster_id": "biz_cluster_acca30492754",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "source_count": 2,
+      "importance_score": 54,
+      "confidence": "medium",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_0c17253a8de9",
+        "biz_31adbc782e54"
+      ],
+      "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: Cache",
+          "url": "https://www.cbinsights.com/research/ceo-interview-cache/"
+        },
+        {
+          "source": "Latent Space",
+          "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+          "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_2cd3221c50b0",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "source_count": 1,
-      "importance_score": 51,
+      "importance_score": 53,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "6 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "9 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
-        "biz_33948a5bd0b3",
-        "biz_8a1eb147f56f",
-        "biz_6213657bd1a3",
-        "biz_fa7326df2477",
-        "biz_86862fdd7a58"
+        "biz_a421da1a1600",
+        "biz_51f60ecac707",
+        "biz_7bceb318ded4",
+        "biz_1a3dd5c96c63",
+        "biz_9ec14b24cf3b"
       ],
       "top_sources": [
         {
           "source": "CB Insights",
-          "title": "Executive Interview: PROMEDIUS",
-          "url": "https://www.cbinsights.com/research/executive-interview-promedius/"
+          "title": "CEO Interview: Flexvelop",
+          "url": "https://www.cbinsights.com/research/ceo-interview-flexvelop/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Tangible",
-          "url": "https://www.cbinsights.com/research/ceo-interview-tangible/"
+          "title": "CEO Interview: Funding Societies | Modalku | CardUp",
+          "url": "https://www.cbinsights.com/research/ceo-interview-funding-societies-modalku-cardup/"
         },
         {
           "source": "CB Insights",
-          "title": "Executive Interview: AMLYZE",
-          "url": "https://www.cbinsights.com/research/executive-interview-amlyze/"
+          "title": "Executive Interview: Tinubu",
+          "url": "https://www.cbinsights.com/research/executive-interview-tinubu/"
         },
         {
           "source": "CB Insights",
-          "title": "Executive Interview : Moniepoint Inc",
-          "url": "https://www.cbinsights.com/research/executive-interview-moniepoint-inc/"
+          "title": "CEO Interview: StitchStudio",
+          "url": "https://www.cbinsights.com/research/ceo-interview-stitchstudio/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview : Inspectform",
-          "url": "https://www.cbinsights.com/research/ceo-interview-inspectform/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_2aab0fd6dd79",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "source_count": 1,
-      "importance_score": 44,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "evidence_refs": [
-        "biz_31adbc782e54"
-      ],
-      "top_sources": [
-        {
-          "source": "Latent Space",
-          "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-          "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
+          "title": "CEO Interview: Record",
+          "url": "https://www.cbinsights.com/research/ceo-interview-record/"
         }
       ]
     }
