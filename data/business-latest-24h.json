@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:18:50.079032Z",
+  "generated_at": "2026-08-21T20:51:04.064332Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:38:06Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -49,7 +49,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:56:38Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -87,7 +87,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T16:06:29Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -125,7 +125,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T16:01:52Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -162,7 +162,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T16:00:25Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -199,7 +199,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:54:38Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -236,7 +236,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:53:21Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -274,7 +274,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:49:15Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -311,7 +311,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:41:32Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -348,7 +348,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:31:38Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -385,7 +385,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-21T05:45:21Z",
-      "captured_at": "2026-08-21T20:18:50.079032Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -416,6 +416,42 @@
       "summary": "Yes, we’re confused too. Tags: Founder Case, Enterprise AI Workflow.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_75425572a227",
+      "title": "An AI-agent boundary is only a hypothesis until a live run leaves a receipt",
+      "url": "https://www.indiehackers.com/post/an-ai-agent-boundary-is-only-a-hypothesis-until-a-live-run-leaves-a-receipt-dc9c537e6e",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-21T15:55:57.712000Z",
+      "captured_at": "2026-08-21T20:51:04.064332Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "An AI-agent"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_os"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 0,
+      "total_score": 35,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 0,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "An AI-agent boundary is only a hypothesis until a live run leaves a receipt Tags: Enterprise AI Workflow, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     }
   ]
 }
