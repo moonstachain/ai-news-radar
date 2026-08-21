@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T11:20:27.487544Z",
+  "generated_at": "2026-08-21T11:52:30.679169Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_01eb34b0b9f2",
@@ -14,18 +14,17 @@
         "biz_718d508c8421",
         "biz_b742a6c976d3",
         "biz_0b31b8c95a74",
-        "biz_a9f4356bf115",
-        "biz_1915bf1abd33"
+        "biz_a9f4356bf115"
       ],
-      "source_count": 3,
-      "importance_score": 55,
+      "source_count": 2,
+      "importance_score": 53,
       "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "10 English evidence items from 3 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "9 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
@@ -88,42 +87,6 @@
           "source": "Latent Space",
           "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
           "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_2f46b92ed39c",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_39f9acbfad22",
-        "biz_84adec9a91c0"
-      ],
-      "source_count": 1,
-      "importance_score": 43,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_39f9acbfad22",
-        "biz_84adec9a91c0"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "I asked founders what they actually want after launch. The answer wasn’t more traffic.",
-          "url": "https://www.indiehackers.com/post/i-asked-founders-what-they-actually-want-after-launch-the-answer-wasn-t-more-traffic-8737e93a22"
-        },
-        {
-          "source": "Indie Hackers",
-          "title": "I just taught my app to talk to Claude — and it made me rethink the whole \"flat list vs. messy whiteboard\" problem I built UluP Spaces to so",
-          "url": "https://www.indiehackers.com/post/i-just-taught-my-app-to-talk-to-claude-and-it-made-me-rethink-the-whole-flat-list-vs-messy-whiteboard-problem-i-built-ulup-spaces-to-so-2027ea2059"
         }
       ]
     }
