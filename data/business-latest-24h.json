@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T23:16:25.817667Z",
+  "generated_at": "2026-08-21T23:48:33.400533Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:38:06Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -49,7 +49,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:56:38Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -87,7 +87,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T16:06:29Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -125,7 +125,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T16:01:52Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -162,7 +162,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T16:00:25Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -199,7 +199,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:54:38Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -236,7 +236,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:53:21Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -274,7 +274,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:49:15Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -311,7 +311,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:41:32Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -348,7 +348,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:31:38Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -385,7 +385,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-21T05:45:21Z",
-      "captured_at": "2026-08-21T23:16:25.817667Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -414,6 +414,44 @@
         "counter_signal_value": 0
       },
       "summary": "Yes, we’re confused too. Tags: Founder Case, Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_931e76766b02",
+      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+      "url": "https://www.latent.space/p/simile",
+      "source_id": "latent_space",
+      "source_name": "Latent Space",
+      "published_at": "2026-08-21T23:37:38Z",
+      "captured_at": "2026-08-21T23:48:33.400533Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "Latent Space",
+        "Simulation",
+        "Scaling Law",
+        "Joon Sung Park",
+        "Simile AI"
+      ],
+      "business_model_tags": [
+        "Enterprise AI Workflow"
+      ],
+      "yuanli_tags": [
+        "yuanli_os"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 4,
+      "total_score": 34,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 4,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business. Tags: Enterprise AI Workflow.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     }

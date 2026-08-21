@@ -1,47 +1,27 @@
 {
   "schema_version": 1,
-  "snapshot_id": "b3dfb0f3eac1419c",
+  "snapshot_id": "21ff3880fca7f11d",
   "channel": "ai-business",
-  "generated_at": "2026-08-21T23:16:25.817667Z",
+  "generated_at": "2026-08-21T23:48:33.400533Z",
   "window_hours": 24,
-  "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+  "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 11,
+    "signals": 12,
     "briefs": 2,
     "clusters": 2,
     "cases": 11
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 26,
-    "failed": 11,
-    "ratio": 0.5769,
+    "failed": 10,
+    "ratio": 0.6154,
     "status": "limited"
   },
   "brief": [
     {
-      "brief_id": "biz_brief_93a0350680a5",
+      "brief_id": "biz_brief_0576353589b4",
       "rank": 1,
-      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_0c17253a8de9",
-        "biz_31adbc782e54"
-      ],
-      "evidence_titles": [
-        "CEO Interview: Cache",
-        "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
-    },
-    {
-      "brief_id": "biz_brief_99ff8dcc8b71",
-      "rank": 2,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "9 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
@@ -63,54 +43,45 @@
         "wealth_flywheel"
       ],
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
-    }
-  ],
-  "actions": [
-    {
-      "id": "biz_brief_93a0350680a5",
-      "label": "Brief #1",
-      "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_99ff8dcc8b71",
-      "label": "Brief #2",
-      "title": "Convert high-score founder cases into FTF credible story assets.",
-      "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
-    }
-  ],
-  "clusters": [
-    {
-      "cluster_id": "biz_cluster_acca30492754",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "source_count": 2,
-      "importance_score": 54,
-      "confidence": "medium",
+      "brief_id": "biz_brief_c609779ee677",
+      "rank": 2,
+      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_0c17253a8de9",
+        "biz_31adbc782e54",
+        "biz_931e76766b02"
+      ],
+      "evidence_titles": [
+        "CEO Interview: Cache",
+        "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+        "Simulation: the new Scaling Law — Joon Sung Park, Simile AI"
+      ],
+      "risk_level": "low",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "evidence_refs": [
-        "biz_0c17253a8de9",
-        "biz_31adbc782e54"
-      ],
-      "top_sources": [
-        {
-          "source": "CB Insights",
-          "title": "CEO Interview: Cache",
-          "url": "https://www.cbinsights.com/research/ceo-interview-cache/"
-        },
-        {
-          "source": "Latent Space",
-          "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-          "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
-        }
-      ]
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
+    }
+  ],
+  "actions": [
+    {
+      "id": "biz_brief_0576353589b4",
+      "label": "Brief #1",
+      "title": "Convert high-score founder cases into FTF credible story assets.",
+      "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
+    {
+      "id": "biz_brief_c609779ee677",
+      "label": "Brief #2",
+      "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
+    }
+  ],
+  "clusters": [
     {
       "cluster_id": "biz_cluster_2cd3221c50b0",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
@@ -158,6 +129,43 @@
           "source": "CB Insights",
           "title": "CEO Interview: Record",
           "url": "https://www.cbinsights.com/research/ceo-interview-record/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_6cce1d26a721",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "source_count": 2,
+      "importance_score": 48,
+      "confidence": "medium",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_0c17253a8de9",
+        "biz_31adbc782e54",
+        "biz_931e76766b02"
+      ],
+      "top_sources": [
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: Cache",
+          "url": "https://www.cbinsights.com/research/ceo-interview-cache/"
+        },
+        {
+          "source": "Latent Space",
+          "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+          "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
+        },
+        {
+          "source": "Latent Space",
+          "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+          "url": "https://www.latent.space/p/simile"
         }
       ]
     }
