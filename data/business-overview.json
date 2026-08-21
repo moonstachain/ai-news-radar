@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "f12cceadf57a2534",
+  "snapshot_id": "495c72d4dc286a9a",
   "channel": "ai-business",
-  "generated_at": "2026-08-21T15:04:06.582816Z",
+  "generated_at": "2026-08-21T15:38:44.179292Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
@@ -12,15 +12,15 @@
     "cases": 7
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 26,
-    "failed": 11,
-    "ratio": 0.5769,
+    "failed": 10,
+    "ratio": 0.6154,
     "status": "limited"
   },
   "brief": [
     {
-      "brief_id": "biz_brief_c29502c624ac",
+      "brief_id": "biz_brief_159c378cf555",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "6 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -45,7 +45,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_8eb15fc94115",
+      "brief_id": "biz_brief_dcb9e35e675f",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -65,13 +65,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_c29502c624ac",
+      "id": "biz_brief_159c378cf555",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_8eb15fc94115",
+      "id": "biz_brief_dcb9e35e675f",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
