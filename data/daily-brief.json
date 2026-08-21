@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T23:49:59.240497Z",
+  "generated_at": "2026-08-21T00:40:15.838523Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -57,15 +57,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8678,
-      "importance": 0.8678,
-      "importance_score": 0.8678,
+      "score": 0.8659,
+      "importance": 0.8659,
+      "importance_score": 0.8659,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9045,
+        "recency": 0.8936,
         "story_heat": 0.25
       },
       "category": "official",
@@ -82,168 +82,6 @@
         "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍 / Up to 3.2x Faster Inference with LFM2.5-DSpark",
         "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
         "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "92750e7a46945c96a19d170ab8950057fd9cc578",
-          "title": "法典 CLI 0.149.0 / Codex CLI 0.149.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T00:00:00Z"
-        },
-        {
-          "id": "848b61992c147b8bfa1de6ee297eb16eca68debc",
-          "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T00:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "92750e7a46945c96a19d170ab8950057fd9cc578",
-          "title": "法典 CLI 0.149.0 / Codex CLI 0.149.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T00:00:00Z"
-        },
-        {
-          "id": "848b61992c147b8bfa1de6ee297eb16eca68debc",
-          "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T00:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8426,
-      "importance": 0.8426,
-      "importance_score": 0.8426,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.7088,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-20T00:00:00Z",
-      "latest_at": "2026-08-20T00:00:00Z",
-      "primary_item": {
-        "id": "848b61992c147b8bfa1de6ee297eb16eca68debc",
-        "title": "Codex 和 ChatGPT 更新 / Codex and ChatGPT updates",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_cb030de2dd94",
-      "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
-      "url": "https://openai.com/index/stampli",
-      "primary_url": "https://openai.com/index/stampli",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "3ae845494efe7827db0e55ad56f2b2ac370dd597",
-          "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
-          "url": "https://openai.com/index/stampli",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T00:00:00Z"
-        },
-        {
-          "id": "7fd91e6585094da5bbdeb7314d65d39fd379e452",
-          "title": "Stampli 使用 ChatGPT Work 将启动时间缩短了 68% / Stampli cuts launch hours by 68% using ChatGPT Work",
-          "url": "https://openai.com/index/stampli",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T00:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "items": [
-        {
-          "id": "3ae845494efe7827db0e55ad56f2b2ac370dd597",
-          "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
-          "url": "https://openai.com/index/stampli",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T00:00:00Z"
-        },
-        {
-          "id": "7fd91e6585094da5bbdeb7314d65d39fd379e452",
-          "title": "Stampli 使用 ChatGPT Work 将启动时间缩短了 68% / Stampli cuts launch hours by 68% using ChatGPT Work",
-          "url": "https://openai.com/index/stampli",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T00:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8326,
-      "importance": 0.8326,
-      "importance_score": 0.8326,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7088,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-20T00:00:00Z",
-      "latest_at": "2026-08-20T00:00:00Z",
-      "primary_item": {
-        "id": "3ae845494efe7827db0e55ad56f2b2ac370dd597",
-        "title": "ChatGPT 如何帮助 Stampli 将创意推向市场 / How ChatGPT Work helps Stampli move ideas to market",
-        "url": "https://openai.com/index/stampli",
-        "source": "OpenAI News",
         "source_name": "Official AI Updates"
       }
     },
@@ -282,15 +120,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8292,
-      "importance": 0.8292,
-      "importance_score": 0.8292,
+      "score": 0.8272,
+      "importance": 0.8272,
+      "importance_score": 0.8272,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9176,
+        "recency": 0.9066,
         "story_heat": 0.0
       },
       "category": "official",
@@ -305,68 +143,6 @@
         "id": "e3d7b1a7c89459a1e7f611544f5024ba1b88f489",
         "title": "Windows 11 arm64 VS2026 镜像正式发布 / Windows 11 arm64 VS2026 image generally available",
         "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_f67290731017",
-      "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
-      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
-      "primary_url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "f4c17395c04a766662eb04284b415ce431dd4390",
-          "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
-          "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T15:14:31Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "f4c17395c04a766662eb04284b415ce431dd4390",
-          "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
-          "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-20T15:14:31Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.823,
-      "importance": 0.823,
-      "importance_score": 0.823,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8833,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-20T15:14:31Z",
-      "latest_at": "2026-08-20T15:14:31Z",
-      "primary_item": {
-        "id": "f4c17395c04a766662eb04284b415ce431dd4390",
-        "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
-        "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
@@ -406,15 +182,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8132,
-      "importance": 0.8132,
-      "importance_score": 0.8132,
+      "score": 0.8115,
+      "importance": 0.8115,
+      "importance_score": 0.8115,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7842,
+        "recency": 0.7748,
         "story_heat": 0.0
       },
       "category": "official",
@@ -430,6 +206,68 @@
         "title": "介绍人工智能期货 / Introducing AI Futures",
         "url": "https://openai.com/index/introducing-ai-futures",
         "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_f67290731017",
+      "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
+      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+      "primary_url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "f4c17395c04a766662eb04284b415ce431dd4390",
+          "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
+          "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-20T15:14:31Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "f4c17395c04a766662eb04284b415ce431dd4390",
+          "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
+          "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-20T15:14:31Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8211,
+      "importance": 0.8211,
+      "importance_score": 0.8211,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8727,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-20T15:14:31Z",
+      "latest_at": "2026-08-20T15:14:31Z",
+      "primary_item": {
+        "id": "f4c17395c04a766662eb04284b415ce431dd4390",
+        "title": "代码扫描添加了缓解警报解除原因 / Code scanning adds a mitigated alert dismissal reason",
+        "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       }
     },
@@ -468,15 +306,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8213,
-      "importance": 0.8213,
-      "importance_score": 0.8213,
+      "score": 0.8194,
+      "importance": 0.8194,
+      "importance_score": 0.8194,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8736,
+        "recency": 0.8631,
         "story_heat": 0.0
       },
       "category": "official",
@@ -530,15 +368,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7345,
-      "importance": 0.7345,
-      "importance_score": 0.7345,
+      "score": 0.7327,
+      "importance": 0.7327,
+      "importance_score": 0.7327,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8161,
+        "recency": 0.8063,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -590,15 +428,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7334,
-      "importance": 0.7334,
-      "importance_score": 0.7334,
+      "score": 0.7315,
+      "importance": 0.7315,
+      "importance_score": 0.7315,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8935,
+        "recency": 0.8828,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -650,15 +488,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.732,
-      "importance": 0.732,
-      "importance_score": 0.732,
+      "score": 0.73,
+      "importance": 0.73,
+      "importance_score": 0.73,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.63,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9523,
+        "recency": 0.9409,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -710,15 +548,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8213,
-      "importance": 0.8213,
-      "importance_score": 0.8213,
+      "score": 0.8194,
+      "importance": 0.8194,
+      "importance_score": 0.8194,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8738,
+        "recency": 0.8633,
         "story_heat": 0.0
       },
       "category": "official",
@@ -772,15 +610,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7273,
-      "importance": 0.7273,
-      "importance_score": 0.7273,
+      "score": 0.7254,
+      "importance": 0.7254,
+      "importance_score": 0.7254,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.893,
+        "recency": 0.8823,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -794,66 +632,6 @@
         "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
         "url": "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search",
         "source": "Google Cloud：Databases（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_1dd95696a4fe",
-      "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
-      "url": "https://claude.com/blog/claude-code-guide-for-startups",
-      "primary_url": "https://claude.com/blog/claude-code-guide-for-startups",
-      "source": "Claude：Blog（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "6d1ec869caa4430d86f28505a4278b9a849b78b3",
-          "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
-          "url": "https://claude.com/blog/claude-code-guide-for-startups",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-20T13:26:53.704000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Claude：Blog（网页）"
-      ],
-      "items": [
-        {
-          "id": "6d1ec869caa4430d86f28505a4278b9a849b78b3",
-          "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
-          "url": "https://claude.com/blog/claude-code-guide-for-startups",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-20T13:26:53.704000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7215,
-      "importance": 0.7215,
-      "importance_score": 0.7215,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8607,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-20T13:26:53.704000Z",
-      "latest_at": "2026-08-20T13:26:53.704000Z",
-      "primary_item": {
-        "id": "6d1ec869caa4430d86f28505a4278b9a849b78b3",
-        "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
-        "url": "https://claude.com/blog/claude-code-guide-for-startups",
-        "source": "Claude：Blog（网页）",
         "source_name": "AI HOT"
       }
     },
@@ -967,15 +745,15 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.614,
-      "importance": 0.614,
-      "importance_score": 0.614,
+      "score": 0.6119,
+      "importance": 0.6119,
+      "importance_score": 0.6119,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9622,
+        "recency": 0.9507,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -990,6 +768,104 @@
         "url": "https://news.ycombinator.com/item?id=49375996",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_157e2ca74123",
+      "title": "反AI字体既无用又有害",
+      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
+      "primary_url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
+      "source": "blog.yaros.ae",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "33807334c251cc8719f261b04ead884c13a6752d",
+          "title": "反AI字体既无用又有害",
+          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
+          "source": "blog.yaros.ae",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-21T00:05:58.204000Z"
+        },
+        {
+          "id": "15981836d05a99d6f263bd097735060e17cdbac9",
+          "title": "抗AI字体无用且有害 / Anti-AI fonts are useless and harmful",
+          "url": "https://news.ycombinator.com/item?id=49375719",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-20T15:39:15.824000Z"
+        },
+        {
+          "id": "9790711c0876f6de125a2911a4f6213eba62288f",
+          "title": "反AI字体既无用又有害 / Anti-AI fonts are useless and harmful",
+          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-20T15:06:53Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "blog.yaros.ae",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "33807334c251cc8719f261b04ead884c13a6752d",
+          "title": "反AI字体既无用又有害",
+          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
+          "source": "blog.yaros.ae",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-21T00:05:58.204000Z"
+        },
+        {
+          "id": "15981836d05a99d6f263bd097735060e17cdbac9",
+          "title": "抗AI字体无用且有害 / Anti-AI fonts are useless and harmful",
+          "url": "https://news.ycombinator.com/item?id=49375719",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-20T15:39:15.824000Z"
+        },
+        {
+          "id": "9790711c0876f6de125a2911a4f6213eba62288f",
+          "title": "反AI字体既无用又有害 / Anti-AI fonts are useless and harmful",
+          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-20T15:06:53Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5693,
+      "importance": 0.5693,
+      "importance_score": 0.5693,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9918,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-20T15:06:53Z",
+      "latest_at": "2026-08-21T00:05:58.204000Z",
+      "primary_item": {
+        "id": "33807334c251cc8719f261b04ead884c13a6752d",
+        "title": "反AI字体既无用又有害",
+        "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
+        "source": "blog.yaros.ae",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -1065,15 +941,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5445,
-      "importance": 0.5445,
-      "importance_score": 0.5445,
+      "score": 0.5427,
+      "importance": 0.5427,
+      "importance_score": 0.5427,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.854,
+        "recency": 0.8437,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1091,160 +967,81 @@
       }
     },
     {
-      "story_id": "story_933c9735a2b3",
-      "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意",
-      "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
-      "primary_url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
+      "story_id": "story_9d814d6d7afc",
+      "title": "公民开发者：现在人人都是工程师 / Citizen Devs: Everyone is an engineer now",
+      "url": "https://www.massdriver.cloud/blogs/the-citizen-developer",
+      "primary_url": "https://www.massdriver.cloud/blogs/the-citizen-developer",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
       "sources": [
         {
-          "id": "458a4f2aa971d5f1679750bb7eba4e1db93aead2",
-          "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意",
-          "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-20T20:22:02.705000Z"
+          "id": "f585d5bd5a5483cb1c30b625b0dcc13de45f7193",
+          "title": "公民开发者：现在人人都是工程师 / Citizen Devs: Everyone is an engineer now",
+          "url": "https://www.massdriver.cloud/blogs/the-citizen-developer",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-20T21:25:48Z"
         },
         {
-          "id": "21efca43734743a6179bd5c4c01d6d74693f32f9",
-          "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意 / Burning Man tells AI glasses wearers: Don't be a creep, get permission to record",
-          "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-20T20:13:53Z"
+          "id": "4283158fb711047e2a247819d4f712d74dbde2b4",
+          "title": "公民开发商 / The Citizen Developer",
+          "url": "https://www.massdriver.cloud/blogs/the-citizen-developer",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-20T21:25:48Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
+        "Hacker News · 24h最热"
       ],
       "items": [
         {
-          "id": "458a4f2aa971d5f1679750bb7eba4e1db93aead2",
-          "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意",
-          "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-20T20:22:02.705000Z"
+          "id": "f585d5bd5a5483cb1c30b625b0dcc13de45f7193",
+          "title": "公民开发者：现在人人都是工程师 / Citizen Devs: Everyone is an engineer now",
+          "url": "https://www.massdriver.cloud/blogs/the-citizen-developer",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-20T21:25:48Z"
         },
         {
-          "id": "21efca43734743a6179bd5c4c01d6d74693f32f9",
-          "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意 / Burning Man tells AI glasses wearers: Don't be a creep, get permission to record",
-          "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-20T20:13:53Z"
+          "id": "4283158fb711047e2a247819d4f712d74dbde2b4",
+          "title": "公民开发商 / The Citizen Developer",
+          "url": "https://www.massdriver.cloud/blogs/the-citizen-developer",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-20T21:25:48Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.537,
-      "importance": 0.537,
-      "importance_score": 0.537,
+      "score": 0.5376,
+      "importance": 0.5376,
+      "importance_score": 0.5376,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9512,
+        "recency": 0.9543,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-20T20:13:53Z",
-      "latest_at": "2026-08-20T20:22:02.705000Z",
+      "earliest_at": "2026-08-20T21:25:48Z",
+      "latest_at": "2026-08-20T21:25:48Z",
       "primary_item": {
-        "id": "458a4f2aa971d5f1679750bb7eba4e1db93aead2",
-        "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意",
-        "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_af5bbfb93e66",
-      "title": "英伟达否认了关于其将在年底前推出中国版AI芯片的报道",
-      "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
-      "primary_url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
-      "source": "www.reuters.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c5021e5084bdf7f7b4f5c6e3d4fc9d707ed468e6",
-          "title": "英伟达否认了关于其将在年底前推出中国版AI芯片的报道",
-          "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-20T20:22:02.904000Z"
-        },
-        {
-          "id": "e835c35fe975d0bdcb7723fc63c5f83e2a56d016",
-          "title": "据《The Information》报道，英伟达将于年底前向中国市场推出一款AI芯片",
-          "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-20T17:26:25.449000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "c5021e5084bdf7f7b4f5c6e3d4fc9d707ed468e6",
-          "title": "英伟达否认了关于其将在年底前推出中国版AI芯片的报道",
-          "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-20T20:22:02.904000Z"
-        },
-        {
-          "id": "e835c35fe975d0bdcb7723fc63c5f83e2a56d016",
-          "title": "据《The Information》报道，英伟达将于年底前向中国市场推出一款AI芯片",
-          "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-20T17:26:25.449000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.537,
-      "importance": 0.537,
-      "importance_score": 0.537,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9512,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-20T17:26:25.449000Z",
-      "latest_at": "2026-08-20T20:22:02.904000Z",
-      "primary_item": {
-        "id": "c5021e5084bdf7f7b4f5c6e3d4fc9d707ed468e6",
-        "title": "英伟达否认了关于其将在年底前推出中国版AI芯片的报道",
-        "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
-        "source": "www.reuters.com",
-        "source_name": "Buzzing"
+        "id": "f585d5bd5a5483cb1c30b625b0dcc13de45f7193",
+        "title": "公民开发者：现在人人都是工程师 / Citizen Devs: Everyone is an engineer now",
+        "url": "https://www.massdriver.cloud/blogs/the-citizen-developer",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -1320,15 +1117,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.537,
-      "importance": 0.537,
-      "importance_score": 0.537,
+      "score": 0.5353,
+      "importance": 0.5353,
+      "importance_score": 0.5353,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8123,
+        "recency": 0.8025,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1342,6 +1139,163 @@
         "title": "请不要粘贴AI生成的内容",
         "url": "https://dontpastetheai.com",
         "source": "dontpastetheai.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_933c9735a2b3",
+      "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意",
+      "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
+      "primary_url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "458a4f2aa971d5f1679750bb7eba4e1db93aead2",
+          "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意",
+          "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T20:22:02.705000Z"
+        },
+        {
+          "id": "21efca43734743a6179bd5c4c01d6d74693f32f9",
+          "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意 / Burning Man tells AI glasses wearers: Don't be a creep, get permission to record",
+          "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-20T20:13:53Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "458a4f2aa971d5f1679750bb7eba4e1db93aead2",
+          "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意",
+          "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T20:22:02.705000Z"
+        },
+        {
+          "id": "21efca43734743a6179bd5c4c01d6d74693f32f9",
+          "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意 / Burning Man tells AI glasses wearers: Don't be a creep, get permission to record",
+          "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-20T20:13:53Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.535,
+      "importance": 0.535,
+      "importance_score": 0.535,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9397,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-20T20:13:53Z",
+      "latest_at": "2026-08-20T20:22:02.705000Z",
+      "primary_item": {
+        "id": "458a4f2aa971d5f1679750bb7eba4e1db93aead2",
+        "title": "“火人节”提醒AI眼镜佩戴者：别当怪人，录像前请征得同意",
+        "url": "https://www.businessinsider.com/burning-man-meta-ray-ban-smart-glasses-recording-policy-guidelines-2026-8",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_af5bbfb93e66",
+      "title": "英伟达否认了关于其将在年底前推出中国版AI芯片的报道",
+      "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
+      "primary_url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
+      "source": "www.reuters.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "c5021e5084bdf7f7b4f5c6e3d4fc9d707ed468e6",
+          "title": "英伟达否认了关于其将在年底前推出中国版AI芯片的报道",
+          "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T20:22:02.904000Z"
+        },
+        {
+          "id": "e835c35fe975d0bdcb7723fc63c5f83e2a56d016",
+          "title": "据《The Information》报道，英伟达将于年底前向中国市场推出一款AI芯片",
+          "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T17:26:25.449000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "c5021e5084bdf7f7b4f5c6e3d4fc9d707ed468e6",
+          "title": "英伟达否认了关于其将在年底前推出中国版AI芯片的报道",
+          "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T20:22:02.904000Z"
+        },
+        {
+          "id": "e835c35fe975d0bdcb7723fc63c5f83e2a56d016",
+          "title": "据《The Information》报道，英伟达将于年底前向中国市场推出一款AI芯片",
+          "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T17:26:25.449000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.535,
+      "importance": 0.535,
+      "importance_score": 0.535,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9397,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-20T17:26:25.449000Z",
+      "latest_at": "2026-08-20T20:22:02.904000Z",
+      "primary_item": {
+        "id": "c5021e5084bdf7f7b4f5c6e3d4fc9d707ed468e6",
+        "title": "英伟达否认了关于其将在年底前推出中国版AI芯片的报道",
+        "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20",
+        "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
     },
@@ -1398,15 +1352,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.535,
-      "importance": 0.535,
-      "importance_score": 0.535,
+      "score": 0.533,
+      "importance": 0.533,
+      "importance_score": 0.533,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9403,
+        "recency": 0.9289,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1424,81 +1378,180 @@
       }
     },
     {
-      "story_id": "story_ba8852028c06",
-      "title": "科学研究表明，TikTok视频会使大脑中关键的认知区域停止活动 / Scientific study reveals TikTok videos deactivate key cognitive brain regions",
-      "url": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions",
-      "primary_url": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
+      "story_id": "story_3e8fc6cea2b1",
+      "title": "DiffusionGemma 技术报告",
+      "url": "https://arxiv.org/abs/2608.00146",
+      "primary_url": "https://arxiv.org/abs/2608.00146",
+      "source": "arxiv.org",
+      "source_name": "Buzzing",
       "sources": [
         {
-          "id": "f9bc18570ce616f92a1ca6f01a6ae128ef60de14",
-          "title": "科学研究表明，TikTok视频会使大脑中关键的认知区域停止活动 / Scientific study reveals TikTok videos deactivate key cognitive brain regions",
-          "url": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-20T18:54:32Z"
+          "id": "88bb0113384a0a2e1b4e4348b299cb06f6ea0b5e",
+          "title": "DiffusionGemma 技术报告",
+          "url": "https://arxiv.org/abs/2608.00146",
+          "source": "arxiv.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T18:14:18.037000Z"
         },
         {
-          "id": "1024fea72431b5e4c8bb7a89f6c1443da47387b1",
-          "title": "科学研究表明，TikTok视频会使大脑中关键的认知区域停止活动 / Watching TikTok and Instagram deactivates the cognitive control network: Study",
-          "url": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-20T18:54:32Z"
+          "id": "33741b0ad204bbf9f8abf0c05863101ab0f5318a",
+          "title": "DiffusionGemma 技术报告 / DiffusionGemma Technical Report",
+          "url": "https://arxiv.org/abs/2608.00146",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-20T13:24:32Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News · 24h最热"
+        "Hacker News (黑客新闻)",
+        "arxiv.org"
       ],
       "items": [
         {
-          "id": "f9bc18570ce616f92a1ca6f01a6ae128ef60de14",
-          "title": "科学研究表明，TikTok视频会使大脑中关键的认知区域停止活动 / Scientific study reveals TikTok videos deactivate key cognitive brain regions",
-          "url": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-20T18:54:32Z"
+          "id": "88bb0113384a0a2e1b4e4348b299cb06f6ea0b5e",
+          "title": "DiffusionGemma 技术报告",
+          "url": "https://arxiv.org/abs/2608.00146",
+          "source": "arxiv.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T18:14:18.037000Z"
         },
         {
-          "id": "1024fea72431b5e4c8bb7a89f6c1443da47387b1",
-          "title": "科学研究表明，TikTok视频会使大脑中关键的认知区域停止活动 / Watching TikTok and Instagram deactivates the cognitive control network: Study",
-          "url": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-20T18:54:32Z"
+          "id": "33741b0ad204bbf9f8abf0c05863101ab0f5318a",
+          "title": "DiffusionGemma 技术报告 / DiffusionGemma Technical Report",
+          "url": "https://arxiv.org/abs/2608.00146",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-20T13:24:32Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5334,
-      "importance": 0.5334,
-      "importance_score": 0.5334,
+      "score": 0.5298,
+      "importance": 0.5298,
+      "importance_score": 0.5298,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9314,
+        "recency": 0.9113,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-20T18:54:32Z",
-      "latest_at": "2026-08-20T18:54:32Z",
+      "earliest_at": "2026-08-20T13:24:32Z",
+      "latest_at": "2026-08-20T18:14:18.037000Z",
       "primary_item": {
-        "id": "f9bc18570ce616f92a1ca6f01a6ae128ef60de14",
-        "title": "科学研究表明，TikTok视频会使大脑中关键的认知区域停止活动 / Scientific study reveals TikTok videos deactivate key cognitive brain regions",
-        "url": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
+        "id": "88bb0113384a0a2e1b4e4348b299cb06f6ea0b5e",
+        "title": "DiffusionGemma 技术报告",
+        "url": "https://arxiv.org/abs/2608.00146",
+        "source": "arxiv.org",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_2fbfd12f8918",
+      "title": "Show HN：Huzzah——一种利用人工智能进行编码的新颖方法 / Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://news.ycombinator.com/item?id=49378768",
+      "primary_url": "https://news.ycombinator.com/item?id=49378768",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "58d5030655071466d34f216ca4cccb4d742365de",
+          "title": "Show HN：Huzzah——一种利用人工智能进行编码的新颖方法 / Show HN: Huzzah – a novel approach to coding with AI",
+          "url": "https://news.ycombinator.com/item?id=49378768",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-20T19:39:49.095000Z"
+        },
+        {
+          "id": "dd25289d8014c4af330a18ed9747e331e3d8c1bd",
+          "title": "Show HN: 太棒了——一种利用人工智能进行编程的新方法",
+          "url": "https://www.danielvaughn.dev/posts/huzzah",
+          "source": "www.danielvaughn.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T19:18:02.450000Z"
+        },
+        {
+          "id": "d1228089491d21db3f5633bff383b76fa7f9e748",
+          "title": "Show HN: 太棒了——一种利用人工智能进行编程的新方法 / Show HN: Huzzah – a novel approach to coding with AI",
+          "url": "https://www.danielvaughn.dev/posts/huzzah",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-20T19:05:36Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "www.danielvaughn.dev"
+      ],
+      "items": [
+        {
+          "id": "58d5030655071466d34f216ca4cccb4d742365de",
+          "title": "Show HN：Huzzah——一种利用人工智能进行编码的新颖方法 / Show HN: Huzzah – a novel approach to coding with AI",
+          "url": "https://news.ycombinator.com/item?id=49378768",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-20T19:39:49.095000Z"
+        },
+        {
+          "id": "dd25289d8014c4af330a18ed9747e331e3d8c1bd",
+          "title": "Show HN: 太棒了——一种利用人工智能进行编程的新方法",
+          "url": "https://www.danielvaughn.dev/posts/huzzah",
+          "source": "www.danielvaughn.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-20T19:18:02.450000Z"
+        },
+        {
+          "id": "d1228089491d21db3f5633bff383b76fa7f9e748",
+          "title": "Show HN: 太棒了——一种利用人工智能进行编程的新方法 / Show HN: Huzzah – a novel approach to coding with AI",
+          "url": "https://www.danielvaughn.dev/posts/huzzah",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-20T19:05:36Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5582,
+      "importance": 0.5582,
+      "importance_score": 0.5582,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9302,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-20T19:05:36Z",
+      "latest_at": "2026-08-20T19:39:49.095000Z",
+      "primary_item": {
+        "id": "58d5030655071466d34f216ca4cccb4d742365de",
+        "title": "Show HN：Huzzah——一种利用人工智能进行编码的新颖方法 / Show HN: Huzzah – a novel approach to coding with AI",
+        "url": "https://news.ycombinator.com/item?id=49378768",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     }
   ]
