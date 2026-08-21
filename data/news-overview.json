@@ -1,35 +1,36 @@
 {
   "schema_version": 1,
-  "snapshot_id": "7b09fd38b49c7844",
+  "snapshot_id": "ecd074a1ee728f67",
   "channel": "ai-news",
-  "generated_at": "2026-08-21T06:28:28.645416Z",
+  "generated_at": "2026-08-21T07:17:53.160280Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 563,
-    "high_priority": 15,
+    "signals": 572,
+    "high_priority": 25,
     "briefs": 20,
-    "stories": 527
+    "stories": 535
   },
   "coverage": {
-    "successful": 16,
+    "successful": 15,
     "total": 17,
-    "failed": 1,
-    "ratio": 0.9412,
+    "failed": 2,
+    "ratio": 0.8824,
     "status": "healthy"
   },
   "failed_sources": [
-    "aibreakfast"
+    "aibreakfast",
+    "zeli"
   ],
   "section_counts": {
-    "Buzzing": 205,
-    "Info Flow": 152,
+    "Buzzing": 202,
+    "Info Flow": 149,
     "Zeli": 84,
     "Curated Media": 36,
-    "TechURLs": 31,
+    "TechURLs": 32,
     "NewsNow": 29,
-    "OPML RSS": 11,
-    "Official AI Updates": 7
+    "Follow Builders": 15,
+    "OPML RSS": 11
   },
   "top_stories": [
     {
@@ -44,7 +45,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8529,
+      "importance_score": 0.8512,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +89,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8267,
+      "importance_score": 0.8248,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -112,17 +113,17 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_027379c08484",
-      "title": "介绍人工智能期货 / Introducing AI Futures",
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "primary_url": "https://openai.com/index/introducing-ai-futures",
-      "source": "OpenAI News",
+      "story_id": "story_b9b1ecfd122f",
+      "title": "Windows 11 arm64 VS2026 镜像正式发布 / Windows 11 arm64 VS2026 image generally available",
+      "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "GitHub Changelog"
       ],
-      "importance_score": 0.8002,
+      "importance_score": 0.8123,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -130,17 +131,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-20T07:00:00Z",
-      "earliest_at": "2026-08-20T07:00:00Z",
+      "latest_at": "2026-08-20T17:52:38Z",
+      "earliest_at": "2026-08-20T17:52:38Z",
       "sources": [
         {
-          "id": "bd145d40d86f467dd6a10beed7263e931c9e17f1",
-          "title": "介绍人工智能期货 / Introducing AI Futures",
-          "url": "https://openai.com/index/introducing-ai-futures",
-          "source": "OpenAI News",
+          "id": "e3d7b1a7c89459a1e7f611544f5024ba1b88f489",
+          "title": "Windows 11 arm64 VS2026 镜像正式发布 / Windows 11 arm64 VS2026 image generally available",
+          "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-20T07:00:00Z"
+          "published_at": "2026-08-20T17:52:38Z"
         }
       ],
       "confidence": "single-source"
