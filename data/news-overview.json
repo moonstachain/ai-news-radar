@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "434332436d77a35b",
+  "snapshot_id": "bd235f2fdf88ac36",
   "channel": "ai-news",
-  "generated_at": "2026-08-21T11:50:54.579965Z",
+  "generated_at": "2026-08-21T12:26:11.277980Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 595,
-    "high_priority": 28,
+    "signals": 598,
+    "high_priority": 29,
     "briefs": 20,
-    "stories": 557
+    "stories": 559
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,50 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 197,
-    "Info Flow": 159,
-    "Zeli": 86,
+    "Buzzing": 201,
+    "Info Flow": 162,
+    "Zeli": 83,
     "TechURLs": 46,
     "NewsNow": 34,
-    "Curated Media": 32,
+    "Curated Media": 30,
     "Follow Builders": 14,
     "OPML RSS": 12
   },
   "top_stories": [
+    {
+      "story_id": "story_e42b7af4138c",
+      "title": "从 Atari 到 EVE Online：基于 15 年游戏人工智能研究 / From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "primary_url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "source": "Google DeepMind",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Google DeepMind"
+      ],
+      "importance_score": 0.8429,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-21T11:59:48Z",
+      "earliest_at": "2026-08-21T11:59:48Z",
+      "sources": [
+        {
+          "id": "170a12f11c9a3347096780bfa4e659b0e9daca01",
+          "title": "从 Atari 到 EVE Online：基于 15 年游戏人工智能研究 / From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+          "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+          "source": "Google DeepMind",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-21T11:59:48Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_c7cdb6722fd8",
       "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍 / Up to 3.2x Faster Inference with LFM2.5-DSpark",
@@ -44,7 +78,7 @@
         "Hugging Face Blog",
         "Hugging Face：Blog（RSS）"
       ],
-      "importance_score": 0.8419,
+      "importance_score": 0.8407,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -88,7 +122,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8146,
+      "importance_score": 0.8133,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -110,60 +144,6 @@
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_cf9e7f8b7e08",
-      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "primary_url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "source": "DeepSeek：API 更新日志",
-      "source_name": "AI HOT",
-      "source_count": 3,
-      "source_names": [
-        "DeepSeek：API 更新日志",
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "importance_score": 0.7964,
-      "importance_label": "多源热议",
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-21T11:01:25.274000Z",
-      "earliest_at": "2026-08-21T09:26:04.727000Z",
-      "sources": [
-        {
-          "id": "3292523df0d3dc1a19bfb08fadf619c3e5dabd12",
-          "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
-          "url": "https://api-docs.deepseek.com/zh-cn/updates",
-          "source": "DeepSeek：API 更新日志",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-21T09:26:04.727000Z"
-        },
-        {
-          "id": "c0e5aa36939a18104f0fbf98078d162328862503",
-          "title": "DeepSeek-v4-flash-vision-exp",
-          "url": "https://news.ycombinator.com/item?id=49386163",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-21T11:01:25.274000Z"
-        },
-        {
-          "id": "ba08e946e7231b07ae090980b0904a842725c102",
-          "title": "DeepSeek-v4-flash-vision-exp",
-          "url": "https://api-docs.deepseek.com/guides/vision",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-21T10:33:56Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }
