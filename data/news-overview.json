@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "cef07ad9f2b2d828",
+  "snapshot_id": "820b3361c75edff8",
   "channel": "ai-news",
-  "generated_at": "2026-08-22T19:16:55.613659Z",
+  "generated_at": "2026-08-22T19:44:28.433247Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 335,
-    "high_priority": 10,
+    "signals": 330,
+    "high_priority": 6,
     "briefs": 16,
-    "stories": 318
+    "stories": 313
   },
   "coverage": {
     "successful": 16,
@@ -24,12 +24,12 @@
   "section_counts": {
     "Buzzing": 111,
     "Info Flow": 87,
-    "TechURLs": 44,
+    "TechURLs": 47,
     "Zeli": 37,
     "NewsNow": 21,
-    "Curated Media": 18,
-    "Follow Builders": 8,
-    "OPML RSS": 6
+    "Curated Media": 16,
+    "Follow Builders": 5,
+    "OPML RSS": 4
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7519,
+      "importance_score": 0.7508,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -78,7 +78,7 @@
         "Hacker News (黑客新闻)",
         "blog.modelcontextprotocol.io"
       ],
-      "importance_score": 0.5654,
+      "importance_score": 0.5642,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -130,7 +130,7 @@
         "Hacker News (黑客新闻)",
         "www.theguardian.com"
       ],
-      "importance_score": 0.5581,
+      "importance_score": 0.557,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
