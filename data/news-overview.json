@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "21ff3880fca7f11d",
+  "snapshot_id": "f833324255cf9a32",
   "channel": "ai-news",
-  "generated_at": "2026-08-21T23:47:24.377865Z",
+  "generated_at": "2026-08-22T00:37:41.557976Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 583,
-    "high_priority": 21,
+    "signals": 571,
+    "high_priority": 18,
     "briefs": 20,
-    "stories": 539
+    "stories": 531
   },
   "coverage": {
     "successful": 16,
@@ -22,61 +22,16 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 187,
-    "Info Flow": 157,
-    "Zeli": 76,
-    "TechURLs": 63,
+    "Buzzing": 181,
+    "Info Flow": 156,
+    "Zeli": 78,
+    "TechURLs": 62,
     "NewsNow": 41,
-    "Curated Media": 22,
-    "OPML RSS": 17,
-    "AI HOT": 8
+    "Curated Media": 21,
+    "OPML RSS": 16,
+    "AI HOT": 7
   },
   "top_stories": [
-    {
-      "story_id": "story_68e9fb1705e1",
-      "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象 / Measuring benchmark optimization in speech recognition",
-      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "primary_url": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
-      ],
-      "importance_score": 0.8387,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-21T00:00:00Z",
-      "earliest_at": "2026-08-21T00:00:00Z",
-      "sources": [
-        {
-          "id": "fe77e56bac5251db7491d1afe78e9985f9471676",
-          "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象 / Measuring benchmark optimization in speech recognition",
-          "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-21T00:00:00Z"
-        },
-        {
-          "id": "493c8b81cfff826f97728e31cfe21843e90355b0",
-          "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
-          "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-          "source": "Hugging Face：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-21T00:00:00Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
     {
       "story_id": "story_87fedaf94c82",
       "title": "Slack 中的全新 GitHub Copilot 体验 / The new GitHub Copilot experience in Slack",
@@ -88,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8331,
+      "importance_score": 0.8312,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -122,7 +77,7 @@
       "source_names": [
         "Google DeepMind"
       ],
-      "importance_score": 0.8158,
+      "importance_score": 0.814,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -141,6 +96,40 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-08-21T11:59:48Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_eb308b8c2b22",
+      "title": "在 Microsoft Teams 中与 GitHub Copilot 共享代理工作 / Shared agentic work with GitHub Copilot in Microsoft Teams",
+      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "primary_url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.8311,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-21T16:03:36Z",
+      "earliest_at": "2026-08-21T16:03:36Z",
+      "sources": [
+        {
+          "id": "decada2ec28c4f5c3a53da129b04075e40cc546e",
+          "title": "在 Microsoft Teams 中与 GitHub Copilot 共享代理工作 / Shared agentic work with GitHub Copilot in Microsoft Teams",
+          "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-21T16:03:36Z"
         }
       ],
       "confidence": "single-source"
