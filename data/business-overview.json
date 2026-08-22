@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "8b04b00ea2d8526a",
+  "snapshot_id": "61f5115e25159dc8",
   "channel": "ai-business",
-  "generated_at": "2026-08-22T02:12:22.541116Z",
+  "generated_at": "2026-08-22T03:16:27.530093Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
@@ -12,15 +12,15 @@
     "cases": 11
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 26,
-    "failed": 11,
-    "ratio": 0.5769,
+    "failed": 10,
+    "ratio": 0.6154,
     "status": "limited"
   },
   "brief": [
     {
-      "brief_id": "biz_brief_89c92e068899",
+      "brief_id": "biz_brief_162d6e83076c",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "9 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -45,7 +45,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_829a7e2f9271",
+      "brief_id": "biz_brief_74195ae9ce4c",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -69,13 +69,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_89c92e068899",
+      "id": "biz_brief_162d6e83076c",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_829a7e2f9271",
+      "id": "biz_brief_74195ae9ce4c",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
@@ -87,7 +87,7 @@
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "source_count": 1,
-      "importance_score": 53,
+      "importance_score": 52,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
