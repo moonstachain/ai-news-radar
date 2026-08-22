@@ -1,6 +1,42 @@
 {
-  "generated_at": "2026-08-22T16:13:18.259446Z",
+  "generated_at": "2026-08-22T16:49:04.500412Z",
   "clusters": [
+    {
+      "cluster_id": "biz_cluster_bc4a2034380f",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "signal_ids": [
+        "biz_08cf33c8f6a1",
+        "biz_6b6c6e8e53b0"
+      ],
+      "source_count": 2,
+      "importance_score": 41,
+      "confidence": "medium",
+      "yuanli_mapping": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
+      ],
+      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "evidence_refs": [
+        "biz_08cf33c8f6a1",
+        "biz_6b6c6e8e53b0"
+      ],
+      "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "I think founders misunderstand what Reddit is actually useful for.",
+          "url": "https://www.indiehackers.com/post/i-think-founders-misunderstand-what-reddit-is-actually-useful-for-be3db3f7af"
+        },
+        {
+          "source": "levels.io",
+          "title": "Germany does not take 50% of everything you make, they take 49.3%",
+          "url": "https://levels.io/germany-does-not-take-50-percent"
+        }
+      ]
+    },
     {
       "cluster_id": "biz_cluster_3848cffa91f5",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
@@ -26,35 +62,6 @@
           "source": "Latent Space",
           "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
           "url": "https://www.latent.space/p/simile"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_ec1bd80193bd",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_6b6c6e8e53b0"
-      ],
-      "source_count": 1,
-      "importance_score": 34,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_6b6c6e8e53b0"
-      ],
-      "top_sources": [
-        {
-          "source": "levels.io",
-          "title": "Germany does not take 50% of everything you make, they take 49.3%",
-          "url": "https://levels.io/germany-does-not-take-50-percent"
         }
       ]
     }
