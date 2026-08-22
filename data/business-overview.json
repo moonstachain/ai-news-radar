@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c54021f092e8165a",
+  "snapshot_id": "160311b3994fd53d",
   "channel": "ai-business",
-  "generated_at": "2026-08-22T20:14:22.385086Z",
+  "generated_at": "2026-08-22T20:49:37.971328Z",
   "window_hours": 24,
   "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
   "metrics": {
@@ -12,15 +12,15 @@
     "cases": 1
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 26,
-    "failed": 11,
-    "ratio": 0.5769,
+    "failed": 10,
+    "ratio": 0.6154,
     "status": "limited"
   },
   "brief": [
     {
-      "brief_id": "biz_brief_aab62fbbb8b0",
+      "brief_id": "biz_brief_3248a426d5d8",
       "rank": 1,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -38,7 +38,7 @@
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
     },
     {
-      "brief_id": "biz_brief_04657c0f357b",
+      "brief_id": "biz_brief_08091395ef45",
       "rank": 2,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -59,13 +59,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_aab62fbbb8b0",
+      "id": "biz_brief_3248a426d5d8",
       "label": "Brief #1",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
     },
     {
-      "id": "biz_brief_04657c0f357b",
+      "id": "biz_brief_08091395ef45",
       "label": "Brief #2",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
