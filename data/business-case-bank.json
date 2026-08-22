@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:52:16.629601Z",
+  "generated_at": "2026-08-22T14:13:45.169643Z",
   "cases": [
     {
       "case_id": "opc_case_6e0be16cc792",
@@ -212,6 +212,26 @@
         "ftf_trust"
       ],
       "score": 49
+    },
+    {
+      "case_id": "opc_case_45b5c440d786",
+      "company": "Germany",
+      "founder": "",
+      "source_refs": [
+        "biz_6b6c6e8e53b0"
+      ],
+      "url": "https://levels.io/germany-does-not-take-50-percent",
+      "title": "Germany does not take 50% of everything you make, they take 49.3%",
+      "business_model": "OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "levels.io",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup"
+      ],
+      "score": 32
     }
   ]
 }

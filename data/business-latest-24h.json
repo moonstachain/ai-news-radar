@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:52:16.629601Z",
+  "generated_at": "2026-08-22T14:13:45.169643Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:38:06Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -49,7 +49,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:56:38Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -87,7 +87,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T16:06:29Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -125,7 +125,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T16:01:52Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -162,7 +162,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T16:00:25Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -199,7 +199,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:54:38Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -236,7 +236,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:53:21Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -274,7 +274,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:49:15Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -311,7 +311,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:41:32Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -348,7 +348,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-08-21T15:31:38Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -385,7 +385,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-08-21T23:37:38Z",
-      "captured_at": "2026-08-22T13:52:16.629601Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -413,6 +413,41 @@
         "counter_signal_value": 0
       },
       "summary": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business. Tags: Enterprise AI Workflow.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_6b6c6e8e53b0",
+      "title": "Germany does not take 50% of everything you make, they take 49.3%",
+      "url": "https://levels.io/germany-does-not-take-50-percent",
+      "source_id": "levelsio",
+      "source_name": "levels.io",
+      "published_at": "2026-08-22T00:00:00Z",
+      "captured_at": "2026-08-22T14:13:45.169643Z",
+      "lane": "opc",
+      "entities": [
+        "levels.io",
+        "Germany"
+      ],
+      "business_model_tags": [
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 32,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Germany does not take 50% of everything you make, they take 49.3% Tags: OPC.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     }
