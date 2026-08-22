@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "14f6ae7b1b1bdd73",
+  "snapshot_id": "1eb8b55ed82fd3f0",
   "channel": "ai-news",
-  "generated_at": "2026-08-22T15:43:37.773944Z",
+  "generated_at": "2026-08-22T16:12:06.953515Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 395,
-    "high_priority": 19,
-    "briefs": 20,
-    "stories": 374
+    "signals": 387,
+    "high_priority": 17,
+    "briefs": 19,
+    "stories": 367
   },
   "coverage": {
     "successful": 16,
@@ -22,28 +22,28 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 130,
-    "Info Flow": 86,
-    "Zeli": 57,
-    "TechURLs": 50,
-    "NewsNow": 24,
-    "Curated Media": 17,
+    "Buzzing": 127,
+    "Info Flow": 90,
+    "Zeli": 53,
+    "TechURLs": 48,
+    "NewsNow": 22,
+    "Curated Media": 18,
     "Follow Builders": 11,
     "OPML RSS": 10
   },
   "top_stories": [
     {
-      "story_id": "story_87fedaf94c82",
-      "title": "Slack 中的全新 GitHub Copilot 体验 / The new GitHub Copilot experience in Slack",
-      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
-      "primary_url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+      "story_id": "story_6a6b96aef3de",
+      "title": "用于管理被阻止用户的更好工具 / Better tools for managing blocked users",
+      "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
+      "primary_url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8,
+      "importance_score": 0.7936,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -51,51 +51,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-21T16:07:15Z",
-      "earliest_at": "2026-08-21T16:07:15Z",
+      "latest_at": "2026-08-21T17:28:36Z",
+      "earliest_at": "2026-08-21T17:28:36Z",
       "sources": [
         {
-          "id": "95be4d894cfb7732cd86896767c25f43138d9629",
-          "title": "Slack 中的全新 GitHub Copilot 体验 / The new GitHub Copilot experience in Slack",
-          "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+          "id": "cc44bb73c911c9a40dc2229a9e642db5b83bc00f",
+          "title": "用于管理被阻止用户的更好工具 / Better tools for managing blocked users",
+          "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-21T16:07:15Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_eb308b8c2b22",
-      "title": "在 Microsoft Teams 中与 GitHub Copilot 共享代理工作 / Shared agentic work with GitHub Copilot in Microsoft Teams",
-      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "primary_url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.7999,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-21T16:03:36Z",
-      "earliest_at": "2026-08-21T16:03:36Z",
-      "sources": [
-        {
-          "id": "decada2ec28c4f5c3a53da129b04075e40cc546e",
-          "title": "在 Microsoft Teams 中与 GitHub Copilot 共享代理工作 / Shared agentic work with GitHub Copilot in Microsoft Teams",
-          "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-21T16:03:36Z"
+          "published_at": "2026-08-21T17:28:36Z"
         }
       ],
       "confidence": "single-source"
@@ -111,7 +77,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7608,
+      "importance_score": 0.7595,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -132,6 +98,49 @@
         }
       ],
       "confidence": "single-source"
+    },
+    {
+      "story_id": "story_62928a839319",
+      "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "primary_url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "source": "Claude：Blog（网页）",
+      "source_name": "AI HOT",
+      "source_count": 2,
+      "source_names": [
+        "Claude：Blog（网页）",
+        "Hacker News · 24h最热"
+      ],
+      "importance_score": 0.7102,
+      "importance_label": "值得关注",
+      "category": "watch",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "latest_at": "2026-08-21T18:48:28Z",
+      "earliest_at": "2026-08-21T17:58:29.461000Z",
+      "sources": [
+        {
+          "id": "dfc628933c54c7064a20996ac1c3d860e718d025",
+          "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
+          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+          "source": "Claude：Blog（网页）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-21T17:58:29.461000Z"
+        },
+        {
+          "id": "331265edd529fd98aac44fbe554e59c57cd04594",
+          "title": "Claude Mythos 5 网络安全能力扩展至更多防御者 / Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-21T18:48:28Z"
+        }
+      ],
+      "confidence": "multi-source"
     }
   ]
 }
