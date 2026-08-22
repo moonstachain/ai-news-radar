@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c509707dc10e3e8d",
+  "snapshot_id": "2ebb220d6b113451",
   "channel": "ai-business",
-  "generated_at": "2026-08-22T07:10:52.316704Z",
+  "generated_at": "2026-08-22T07:57:11.226807Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 12,
-    "briefs": 3,
-    "clusters": 3,
-    "cases": 11
+    "signals": 11,
+    "briefs": 2,
+    "clusters": 2,
+    "cases": 10
   },
   "coverage": {
-    "successful": 16,
+    "successful": 15,
     "total": 26,
-    "failed": 10,
-    "ratio": 0.6154,
+    "failed": 11,
+    "ratio": 0.5769,
     "status": "limited"
   },
   "brief": [
     {
-      "brief_id": "biz_brief_933aa8e4689a",
+      "brief_id": "biz_brief_734d59e449f0",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "9 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -45,7 +45,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_100117cd1b2b",
+      "brief_id": "biz_brief_8a5ac55a87ab",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -63,45 +63,20 @@
         "ftf_trust"
       ],
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
-    },
-    {
-      "brief_id": "biz_brief_4a983670b1a4",
-      "rank": 3,
-      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_7d5f9a0e46cb"
-      ],
-      "evidence_titles": [
-        "We built practice for a test we can't see"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_933aa8e4689a",
+      "id": "biz_brief_734d59e449f0",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_100117cd1b2b",
+      "id": "biz_brief_8a5ac55a87ab",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
-    },
-    {
-      "id": "biz_brief_4a983670b1a4",
-      "label": "Brief #3",
-      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     }
   ],
   "clusters": [
@@ -183,32 +158,6 @@
           "source": "Latent Space",
           "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
           "url": "https://www.latent.space/p/simile"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_f7fb18d41a31",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "source_count": 1,
-      "importance_score": 41,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_7d5f9a0e46cb"
-      ],
-      "top_sources": [
-        {
-          "source": "Indie Hackers",
-          "title": "We built practice for a test we can't see",
-          "url": "https://www.indiehackers.com/post/we-built-practice-for-a-test-we-cant-see-75c5219b5b"
         }
       ]
     }
