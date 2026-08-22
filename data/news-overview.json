@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "b9c087d7a670fcf5",
+  "snapshot_id": "14f6ae7b1b1bdd73",
   "channel": "ai-news",
-  "generated_at": "2026-08-22T15:12:06.412448Z",
+  "generated_at": "2026-08-22T15:43:37.773944Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 390,
+    "signals": 395,
     "high_priority": 19,
     "briefs": 20,
-    "stories": 364
+    "stories": 374
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 116,
-    "Info Flow": 87,
-    "Zeli": 64,
-    "TechURLs": 51,
+    "Buzzing": 130,
+    "Info Flow": 86,
+    "Zeli": 57,
+    "TechURLs": 50,
     "NewsNow": 24,
-    "Curated Media": 18,
+    "Curated Media": 17,
     "Follow Builders": 11,
-    "OPML RSS": 9
+    "OPML RSS": 10
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.801,
+      "importance_score": 0.8,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8009,
+      "importance_score": 0.7999,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -111,7 +111,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7621,
+      "importance_score": 0.7608,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
