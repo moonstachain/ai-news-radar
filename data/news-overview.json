@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "83d9830c33f933ef",
+  "snapshot_id": "9d9b1abb1b15f23d",
   "channel": "ai-news",
-  "generated_at": "2026-08-22T18:15:17.643341Z",
+  "generated_at": "2026-08-22T18:56:38.175112Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 343,
+    "signals": 335,
     "high_priority": 10,
-    "briefs": 16,
-    "stories": 326
+    "briefs": 15,
+    "stories": 319
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 113,
-    "Info Flow": 91,
-    "TechURLs": 47,
-    "Zeli": 38,
-    "Curated Media": 19,
-    "NewsNow": 18,
+    "Buzzing": 110,
+    "Info Flow": 88,
+    "TechURLs": 46,
+    "Zeli": 37,
+    "NewsNow": 19,
+    "Curated Media": 18,
     "Follow Builders": 8,
     "OPML RSS": 6
   },
@@ -43,7 +43,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7544,
+      "importance_score": 0.7528,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -74,10 +74,11 @@
       "source_name": "Buzzing",
       "source_count": 3,
       "source_names": [
+        "Hacker News",
         "Hacker News (黑客新闻)",
         "blog.modelcontextprotocol.io"
       ],
-      "importance_score": 0.568,
+      "importance_score": 0.5662,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -105,12 +106,12 @@
           "published_at": "2026-08-22T13:31:34Z"
         },
         {
-          "id": "2c1e9731c14806fd8df67cf5fe114b79125c2987",
+          "id": "9e684754ff065321bb00f0fbac4c424271f909be",
           "title": "新的MCP路线图 / The New MCP Roadmap",
           "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
           "published_at": "2026-08-22T13:31:34Z"
         }
       ],
@@ -129,7 +130,7 @@
         "Hacker News (黑客新闻)",
         "www.theguardian.com"
       ],
-      "importance_score": 0.5606,
+      "importance_score": 0.5589,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
