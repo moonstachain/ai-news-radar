@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "da9f3c40cce5bfac",
+  "snapshot_id": "83d9830c33f933ef",
   "channel": "ai-news",
-  "generated_at": "2026-08-22T17:44:23.941270Z",
+  "generated_at": "2026-08-22T18:15:17.643341Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 352,
-    "high_priority": 13,
-    "briefs": 17,
-    "stories": 335
+    "signals": 343,
+    "high_priority": 10,
+    "briefs": 16,
+    "stories": 326
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 114,
+    "Buzzing": 113,
     "Info Flow": 91,
     "TechURLs": 47,
-    "Zeli": 42,
-    "NewsNow": 20,
+    "Zeli": 38,
     "Curated Media": 19,
+    "NewsNow": 18,
     "Follow Builders": 8,
-    "OPML RSS": 5
+    "OPML RSS": 6
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7557,
+      "importance_score": 0.7544,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -66,44 +66,52 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_62928a839319",
-      "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
-      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-      "primary_url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-      "source": "Claude：Blog（网页）",
-      "source_name": "AI HOT",
-      "source_count": 2,
+      "story_id": "story_80d4d98280b4",
+      "title": "新的MCP路线图",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
+      "primary_url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
+      "source": "blog.modelcontextprotocol.io",
+      "source_name": "Buzzing",
+      "source_count": 3,
       "source_names": [
-        "Claude：Blog（网页）",
-        "Hacker News · 24h最热"
+        "Hacker News (黑客新闻)",
+        "blog.modelcontextprotocol.io"
       ],
-      "importance_score": 0.7073,
-      "importance_label": "值得关注",
-      "category": "watch",
+      "importance_score": 0.568,
+      "importance_label": "多源热议",
+      "category": "multi_source",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "latest_at": "2026-08-21T18:48:28Z",
-      "earliest_at": "2026-08-21T17:58:29.461000Z",
+      "latest_at": "2026-08-22T17:09:20.269000Z",
+      "earliest_at": "2026-08-22T13:31:34Z",
       "sources": [
         {
-          "id": "dfc628933c54c7064a20996ac1c3d860e718d025",
-          "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
-          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-21T17:58:29.461000Z"
+          "id": "4a6634b6d5a9ea7db1689332343baee2481ebb88",
+          "title": "新的MCP路线图",
+          "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
+          "source": "blog.modelcontextprotocol.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-22T17:09:20.269000Z"
         },
         {
-          "id": "331265edd529fd98aac44fbe554e59c57cd04594",
-          "title": "Claude Mythos 5 网络安全能力扩展至更多防御者 / Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-08-21T18:48:28Z"
+          "id": "a35f67c1e673bf06079df9d1a4aac299036b2ebf",
+          "title": "新的MCP路线图 / New MCP Roadmap",
+          "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-22T13:31:34Z"
+        },
+        {
+          "id": "2c1e9731c14806fd8df67cf5fe114b79125c2987",
+          "title": "新的MCP路线图 / The New MCP Roadmap",
+          "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-22T13:31:34Z"
         }
       ],
       "confidence": "multi-source"
@@ -121,7 +129,7 @@
         "Hacker News (黑客新闻)",
         "www.theguardian.com"
       ],
-      "importance_score": 0.5619,
+      "importance_score": 0.5606,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
