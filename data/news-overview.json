@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2ebb220d6b113451",
+  "snapshot_id": "940d5f5522041b59",
   "channel": "ai-news",
-  "generated_at": "2026-08-22T07:54:36.181857Z",
+  "generated_at": "2026-08-22T08:19:15.724191Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 529,
+    "signals": 521,
     "high_priority": 26,
     "briefs": 20,
-    "stories": 492
+    "stories": 484
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 179,
-    "Info Flow": 116,
+    "Buzzing": 177,
+    "Info Flow": 108,
     "Zeli": 83,
-    "TechURLs": 58,
+    "TechURLs": 59,
     "NewsNow": 30,
-    "Curated Media": 22,
+    "Curated Media": 23,
     "OPML RSS": 15,
     "Follow Builders": 12
   },
@@ -43,7 +43,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8153,
+      "importance_score": 0.8145,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "Google DeepMind"
       ],
-      "importance_score": 0.799,
+      "importance_score": 0.7982,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -111,7 +111,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8152,
+      "importance_score": 0.8143,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
