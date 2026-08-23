@@ -1,24 +1,76 @@
 {
   "schema_version": 1,
-  "snapshot_id": "122659c846f26b50",
+  "snapshot_id": "20546ff4e01274d9",
   "channel": "ai-business",
-  "generated_at": "2026-08-23T12:29:07.327715Z",
+  "generated_at": "2026-08-23T14:03:39.634038Z",
   "window_hours": 24,
-  "decision": "Prioritize evidence with concrete economics, repeatable distribution, and explicit counter-signals.",
+  "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
   "metrics": {
-    "signals": 0,
-    "briefs": 0,
-    "clusters": 0,
-    "cases": 0
+    "signals": 1,
+    "briefs": 1,
+    "clusters": 1,
+    "cases": 1
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 26,
-    "failed": 11,
-    "ratio": 0.5769,
+    "failed": 10,
+    "ratio": 0.6154,
     "status": "limited"
   },
-  "brief": [],
-  "actions": [],
-  "clusters": []
+  "brief": [
+    {
+      "brief_id": "biz_brief_d93355686332",
+      "rank": 1,
+      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_f535c33dd179"
+      ],
+      "evidence_titles": [
+        "How to close $100K+ enterprise deals, step by step | Jen Abel"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
+    }
+  ],
+  "actions": [
+    {
+      "id": "biz_brief_d93355686332",
+      "label": "Brief #1",
+      "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": "biz_cluster_5fb55c9d06a5",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "source_count": 1,
+      "importance_score": 36,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_f535c33dd179"
+      ],
+      "top_sources": [
+        {
+          "source": "Lenny's Newsletter",
+          "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+          "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by"
+        }
+      ]
+    }
+  ]
 }
