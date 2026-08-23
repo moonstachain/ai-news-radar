@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "417f214f55a0b208",
+  "snapshot_id": "f40a0647e569bc8f",
   "channel": "ai-news",
-  "generated_at": "2026-08-23T08:56:42.709802Z",
+  "generated_at": "2026-08-23T09:19:05.401824Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 349,
+    "signals": 346,
     "high_priority": 7,
     "briefs": 20,
-    "stories": 327
+    "stories": 324
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 111,
-    "Info Flow": 85,
+    "Buzzing": 110,
+    "Info Flow": 87,
     "Zeli": 52,
-    "NewsNow": 39,
-    "TechURLs": 37,
+    "NewsNow": 38,
+    "TechURLs": 35,
     "Curated Media": 12,
     "Follow Builders": 7,
-    "OPML RSS": 3
+    "AI HOT": 2
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "Daily Digest"
       ],
-      "importance_score": 0.7554,
+      "importance_score": 0.7544,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -76,7 +76,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7508,
+      "importance_score": 0.75,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -109,7 +109,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.722,
+      "importance_score": 0.7212,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
