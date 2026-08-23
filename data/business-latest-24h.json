@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-08-23T14:25:00.528931Z",
+  "generated_at": "2026-08-23T23:55:13.705506Z",
   "window_hours": 24,
   "items": [
+    {
+      "signal_id": "biz_dd83e4081442",
+      "title": "I built a Stripe analytics tool for SaaS founders. Remetry is live.",
+      "url": "https://www.indiehackers.com/post/i-built-a-stripe-analytics-tool-for-saas-founders-remetry-is-live-abc60038f6",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-23T17:36:04.090000Z",
+      "captured_at": "2026-08-23T23:55:13.705506Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "Stripe",
+        "SaaS",
+        "Remetry"
+      ],
+      "business_model_tags": [
+        "Founder Case",
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 15,
+      "total_score": 52,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "I built a Stripe analytics tool for SaaS founders. Remetry is live. Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
     {
       "signal_id": "biz_f535c33dd179",
       "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
@@ -9,7 +47,7 @@
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-08-23T12:31:43Z",
-      "captured_at": "2026-08-23T14:25:00.528931Z",
+      "captured_at": "2026-08-23T23:55:13.705506Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
@@ -24,14 +62,14 @@
       ],
       "opc_fit_score": 0,
       "case_concreteness_score": 4,
-      "total_score": 34,
+      "total_score": 33,
       "score_breakdown": {
         "source_authority": 16,
         "yuanli_relevance": 3,
         "business_model_value": 3,
         "case_concreteness": 4,
         "opc_fit": 0,
-        "freshness": 8,
+        "freshness": 7,
         "counter_signal_value": 0
       },
       "summary": "Listen now | Jen Abel returns for a third time to walk us through every step of the enterprise sales cycle—from the first cold outreach to the final contract signature Tags: Enterprise AI Workflow, Founder Case.",

@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "76ef3dd1b275d735",
+  "snapshot_id": "e799006af6cefb13",
   "channel": "ai-news",
-  "generated_at": "2026-08-23T14:14:15.874825Z",
+  "generated_at": "2026-08-23T23:43:20.423488Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 374,
+    "signals": 306,
     "high_priority": 6,
-    "briefs": 16,
-    "stories": 359
+    "briefs": 15,
+    "stories": 293
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,48 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 139,
-    "Info Flow": 87,
-    "Zeli": 50,
-    "TechURLs": 37,
-    "NewsNow": 36,
-    "Curated Media": 12,
-    "Follow Builders": 7,
+    "Buzzing": 99,
+    "Info Flow": 85,
+    "TechURLs": 36,
+    "Zeli": 32,
+    "NewsNow": 31,
+    "Curated Media": 11,
+    "Follow Builders": 6,
     "OPML RSS": 3
   },
   "top_stories": [
+    {
+      "story_id": "story_ff91e2bb7753",
+      "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
+      "url": "https://www.ithome.com/0/993/305.htm",
+      "primary_url": "https://www.ithome.com/0/993/305.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "importance_score": 0.7415,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "latest_at": "2026-08-23T14:13:31Z",
+      "earliest_at": "2026-08-23T14:13:31Z",
+      "sources": [
+        {
+          "id": "0dccdb3aa56045c33d61181d209ffb5347cf430b",
+          "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
+          "url": "https://www.ithome.com/0/993/305.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-23T14:13:31Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_c3477d4b1486",
       "title": "何夕2077 AI 深度信号周报 (2026 W34) | 算力基建金融化与安全治理退潮",
@@ -43,7 +75,7 @@
       "source_names": [
         "Daily Digest"
       ],
-      "importance_score": 0.743,
+      "importance_score": 0.7231,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -75,7 +107,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7391,
+      "importance_score": 0.72,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -95,48 +127,6 @@
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_6f7310105200",
-      "title": "我开发了一款爆红的人工智能水印去除工具。我完全没料到会引起这么大的关注。",
-      "url": "https://www.businessinsider.com/created-viral-ai-watermark-remover-after-anthropics-announcement-2026-8",
-      "primary_url": "https://www.businessinsider.com/created-viral-ai-watermark-remover-after-anthropics-announcement-2026-8",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "importance_score": 0.5417,
-      "importance_label": "值得关注",
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "latest_at": "2026-08-23T12:37:23.718000Z",
-      "earliest_at": "2026-08-23T11:32:01Z",
-      "sources": [
-        {
-          "id": "f73172ea7aa3069754f2187d4ebaf10cb4c60408",
-          "title": "我开发了一款爆红的人工智能水印去除工具。我完全没料到会引起这么大的关注。",
-          "url": "https://www.businessinsider.com/created-viral-ai-watermark-remover-after-anthropics-announcement-2026-8",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T12:37:23.718000Z"
-        },
-        {
-          "id": "d06a604967901d0064f9d28c567f9223cd8fb92c",
-          "title": "我开发了一款爆红的人工智能水印去除工具。我完全没料到会引起这么大的关注。 / I created a viral AI watermark remover. I wasn't ready for all the attention.",
-          "url": "https://www.businessinsider.com/created-viral-ai-watermark-remover-after-anthropics-announcement-2026-8",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-23T11:32:01Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }
