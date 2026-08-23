@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "12ec3a800632a5a1",
+  "snapshot_id": "1010e8a5c4ff3052",
   "channel": "ai-news",
-  "generated_at": "2026-08-23T02:19:50.138514Z",
+  "generated_at": "2026-08-23T03:28:43.741703Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 318,
+    "signals": 320,
     "high_priority": 4,
     "briefs": 20,
-    "stories": 297
+    "stories": 299
   },
   "coverage": {
     "successful": 16,
@@ -24,9 +24,9 @@
   "section_counts": {
     "Buzzing": 112,
     "Info Flow": 86,
-    "Zeli": 40,
     "TechURLs": 39,
-    "NewsNow": 22,
+    "Zeli": 39,
+    "NewsNow": 25,
     "Curated Media": 12,
     "OPML RSS": 3,
     "AI HOT": 2
@@ -43,7 +43,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7669,
+      "importance_score": 0.764,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -76,7 +76,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7357,
+      "importance_score": 0.7333,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -110,7 +110,7 @@
         "forum.level1techs.com",
         "hackernews"
       ],
-      "importance_score": 0.5611,
+      "importance_score": 0.5583,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
