@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "437d894e9cb2b634",
+  "snapshot_id": "34c1a4863066ed09",
   "channel": "ai-news",
-  "generated_at": "2026-08-23T10:48:45.689535Z",
+  "generated_at": "2026-08-23T11:13:18.212476Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 347,
+    "signals": 351,
     "high_priority": 7,
     "briefs": 18,
-    "stories": 328
+    "stories": 332
   },
   "coverage": {
     "successful": 16,
@@ -22,10 +22,10 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 115,
-    "Info Flow": 85,
-    "Zeli": 49,
-    "NewsNow": 38,
+    "Buzzing": 116,
+    "Info Flow": 86,
+    "Zeli": 50,
+    "NewsNow": 39,
     "TechURLs": 35,
     "Curated Media": 13,
     "Follow Builders": 7,
@@ -43,12 +43,11 @@
       "source_names": [
         "Daily Digest"
       ],
-      "importance_score": 0.7509,
+      "importance_score": 0.7499,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "latest_at": "2026-08-23T04:03:52Z",
       "earliest_at": "2026-08-23T04:03:52Z",
@@ -76,7 +75,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7466,
+      "importance_score": 0.7457,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -109,7 +108,7 @@
         "Hacker News",
         "www.primeintellect.ai"
       ],
-      "importance_score": 0.5443,
+      "importance_score": 0.5432,
       "importance_label": "值得关注",
       "category": "watch",
       "reasons": [
