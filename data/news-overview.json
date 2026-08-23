@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "34c1a4863066ed09",
+  "snapshot_id": "122659c846f26b50",
   "channel": "ai-news",
-  "generated_at": "2026-08-23T11:13:18.212476Z",
+  "generated_at": "2026-08-23T12:19:15.798938Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 351,
+    "signals": 359,
     "high_priority": 7,
-    "briefs": 18,
-    "stories": 332
+    "briefs": 19,
+    "stories": 339
   },
   "coverage": {
     "successful": 16,
@@ -22,12 +22,12 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 116,
-    "Info Flow": 86,
-    "Zeli": 50,
-    "NewsNow": 39,
-    "TechURLs": 35,
-    "Curated Media": 13,
+    "Buzzing": 126,
+    "Info Flow": 87,
+    "Zeli": 51,
+    "NewsNow": 38,
+    "TechURLs": 33,
+    "Curated Media": 12,
     "Follow Builders": 7,
     "AI HOT": 2
   },
@@ -43,7 +43,7 @@
       "source_names": [
         "Daily Digest"
       ],
-      "importance_score": 0.7499,
+      "importance_score": 0.7474,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -75,7 +75,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7457,
+      "importance_score": 0.7432,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -97,43 +97,42 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_3377c27b081e",
-      "title": "NanoGPT 速通前沿",
-      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-      "primary_url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-      "source": "www.primeintellect.ai",
+      "story_id": "story_8351ddcedbab",
+      "title": "阿里巴巴推出100亿美元香港配售计划，以筹集人工智能领域投资资金",
+      "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
+      "primary_url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
+      "source": "www.reuters.com",
       "source_name": "Buzzing",
       "source_count": 2,
       "source_names": [
-        "Hacker News",
-        "www.primeintellect.ai"
+        "www.reuters.com"
       ],
-      "importance_score": 0.5432,
+      "importance_score": 0.5445,
       "importance_label": "值得关注",
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "latest_at": "2026-08-23T10:13:35.301000Z",
-      "earliest_at": "2026-08-22T22:14:27Z",
+      "latest_at": "2026-08-23T11:49:13.726000Z",
+      "earliest_at": "2026-08-23T06:45:30.468000Z",
       "sources": [
         {
-          "id": "7eb97b3424f169de3f9e46179d95a3fb005bb70e",
-          "title": "NanoGPT 速通前沿",
-          "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-          "source": "www.primeintellect.ai",
+          "id": "dc73bdc80f056742cc675ed0ab6774b54d8aeda9",
+          "title": "阿里巴巴推出100亿美元香港配售计划，以筹集人工智能领域投资资金",
+          "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
+          "source": "www.reuters.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-23T10:13:35.301000Z"
+          "published_at": "2026-08-23T11:49:13.726000Z"
         },
         {
-          "id": "3291aaf956e9cbcb033e44cafd5ab83aebfae696",
-          "title": "NanoGPT 速通前沿 / NanoGPT Speedrun Frontier",
-          "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-08-22T22:14:27Z"
+          "id": "0838aaa50b80c51bcae2f702ae27bb0364e8d993",
+          "title": "阿里巴巴计划在香港配售100亿美元股票，以筹集资金用于人工智能领域的支出",
+          "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-08-23T06:45:30.468000Z"
         }
       ],
       "confidence": "multi-source"
