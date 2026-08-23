@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "880a03539468b4b9",
+  "snapshot_id": "437d894e9cb2b634",
   "channel": "ai-news",
-  "generated_at": "2026-08-23T10:14:21.869847Z",
+  "generated_at": "2026-08-23T10:48:45.689535Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 348,
+    "signals": 347,
     "high_priority": 7,
     "briefs": 18,
-    "stories": 329
+    "stories": 328
   },
   "coverage": {
     "successful": 16,
@@ -22,9 +22,9 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 113,
-    "Info Flow": 86,
-    "Zeli": 51,
+    "Buzzing": 115,
+    "Info Flow": 85,
+    "Zeli": 49,
     "NewsNow": 38,
     "TechURLs": 35,
     "Curated Media": 13,
@@ -43,7 +43,7 @@
       "source_names": [
         "Daily Digest"
       ],
-      "importance_score": 0.7522,
+      "importance_score": 0.7509,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -76,7 +76,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7479,
+      "importance_score": 0.7466,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -98,53 +98,43 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_c0f9d10986f5",
-      "title": "为什么你身边的LLM看起来比实际更“笨”",
-      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-      "primary_url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-      "source": "forum.level1techs.com",
+      "story_id": "story_3377c27b081e",
+      "title": "NanoGPT 速通前沿",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "primary_url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "source": "www.primeintellect.ai",
       "source_name": "Buzzing",
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "forum.level1techs.com",
-        "hackernews"
+        "Hacker News",
+        "www.primeintellect.ai"
       ],
-      "importance_score": 0.5427,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.5443,
+      "importance_label": "值得关注",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "latest_at": "2026-08-22T22:29:26.810000Z",
-      "earliest_at": "2026-08-22T18:14:16Z",
+      "latest_at": "2026-08-23T10:13:35.301000Z",
+      "earliest_at": "2026-08-22T22:14:27Z",
       "sources": [
         {
-          "id": "3bdc741a631b5a9943ec9c441290a79bdf5e22e7",
-          "title": "为什么你身边的LLM看起来比实际更“笨”",
-          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-          "source": "forum.level1techs.com",
+          "id": "7eb97b3424f169de3f9e46179d95a3fb005bb70e",
+          "title": "NanoGPT 速通前沿",
+          "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+          "source": "www.primeintellect.ai",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-08-22T22:29:26.810000Z"
+          "published_at": "2026-08-23T10:13:35.301000Z"
         },
         {
-          "id": "599a31a9650c619bc4ceceb56bd012aa1be1e2fd",
-          "title": "Why your local LLM feels dumber than it is",
-          "url": "https://news.ycombinator.com/item?id=49402232",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-08-22T20:35:58.501000Z"
-        },
-        {
-          "id": "cafbec0119e2633de9b8e8e8aab370f5777c4b6b",
-          "title": "为什么你身边的LLM看起来比实际更“笨” / Why your local LLM feels dumber than it is",
-          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-08-22T18:14:16Z"
+          "id": "3291aaf956e9cbcb033e44cafd5ab83aebfae696",
+          "title": "NanoGPT 速通前沿 / NanoGPT Speedrun Frontier",
+          "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-08-22T22:14:27Z"
         }
       ],
       "confidence": "multi-source"
