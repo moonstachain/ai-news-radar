@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "20546ff4e01274d9",
+  "snapshot_id": "76ef3dd1b275d735",
   "channel": "ai-news",
-  "generated_at": "2026-08-23T13:52:34.984238Z",
+  "generated_at": "2026-08-23T14:14:15.874825Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 376,
-    "high_priority": 7,
-    "briefs": 19,
-    "stories": 357
+    "signals": 374,
+    "high_priority": 6,
+    "briefs": 16,
+    "stories": 359
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 137,
-    "Info Flow": 86,
-    "Zeli": 52,
-    "TechURLs": 38,
-    "NewsNow": 38,
+    "Buzzing": 139,
+    "Info Flow": 87,
+    "Zeli": 50,
+    "TechURLs": 37,
+    "NewsNow": 36,
     "Curated Media": 12,
     "Follow Builders": 7,
-    "AI HOT": 2
+    "OPML RSS": 3
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "Daily Digest"
       ],
-      "importance_score": 0.7438,
+      "importance_score": 0.743,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -75,7 +75,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7398,
+      "importance_score": 0.7391,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -108,7 +108,7 @@
         "Business Insider",
         "www.businessinsider.com"
       ],
-      "importance_score": 0.5426,
+      "importance_score": 0.5417,
       "importance_label": "值得关注",
       "category": "watch",
       "reasons": [
