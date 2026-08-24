@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "c11ae03e3dfdcd58",
+  "snapshot_id": "109c762a2a7243b3",
   "channel": "ai-news",
-  "generated_at": "2026-08-24T03:31:05.442386Z",
+  "generated_at": "2026-08-24T04:15:37.768841Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 299,
-    "high_priority": 4,
+    "signals": 298,
+    "high_priority": 3,
     "briefs": 14,
-    "stories": 286
+    "stories": 285
   },
   "coverage": {
     "successful": 16,
@@ -22,11 +22,11 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 99,
-    "Buzzing": 90,
-    "TechURLs": 36,
-    "NewsNow": 29,
-    "Zeli": 26,
+    "Info Flow": 102,
+    "Buzzing": 88,
+    "TechURLs": 38,
+    "NewsNow": 30,
+    "Zeli": 22,
     "Curated Media": 11,
     "OPML RSS": 3,
     "Follow Builders": 2
@@ -43,7 +43,7 @@
       "source_names": [
         "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8571,
+      "importance_score": 0.8553,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -77,7 +77,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7332,
+      "importance_score": 0.7316,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -110,7 +110,7 @@
         "Simon Willison",
         "hackernews"
       ],
-      "importance_score": 0.5928,
+      "importance_score": 0.5911,
       "importance_label": "值得关注",
       "category": "watch",
       "reasons": [
