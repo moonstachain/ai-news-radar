@@ -1,41 +1,48 @@
 {
-  "generated_at": "2026-08-24T09:23:17.568946Z",
+  "generated_at": "2026-08-24T12:38:32.272900Z",
   "clusters": [
     {
-      "cluster_id": "biz_cluster_7dd571409d54",
+      "cluster_id": "biz_cluster_71941e00a744",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "signal_ids": [
-        "biz_4a3fb2d5606f",
+        "biz_eed51a89c98c",
         "biz_ab9ac4ad61b5",
+        "biz_5f84af6fc821",
         "biz_1c602ed9207c"
       ],
-      "source_count": 1,
-      "importance_score": 40,
-      "confidence": "watch",
+      "source_count": 2,
+      "importance_score": 46,
+      "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_asset",
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "4 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_4a3fb2d5606f",
+        "biz_eed51a89c98c",
         "biz_ab9ac4ad61b5",
+        "biz_5f84af6fc821",
         "biz_1c602ed9207c"
       ],
       "top_sources": [
         {
-          "source": "Indie Hackers",
-          "title": "How would you get your first customers for an AI reliability product?",
-          "url": "https://www.indiehackers.com/post/how-would-you-get-your-first-customers-for-an-ai-reliability-product-891c58c018"
+          "source": "Lenny's Newsletter",
+          "title": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
+          "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month"
         },
         {
           "source": "Indie Hackers",
           "title": "I launched Ceztrix — a simple invoicing tool for freelancers and small businesses",
           "url": "https://www.indiehackers.com/post/i-launched-ceztrix-a-simple-invoicing-tool-for-freelancers-and-small-businesses-2fcd979a7c"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "How I plan to get my first 6 subscribers with a <$300/mo budget and no ads",
+          "url": "https://www.indiehackers.com/post/how-i-plan-to-get-my-first-6-subscribers-with-a-300-mo-budget-and-no-ads-48595851f0"
         },
         {
           "source": "Indie Hackers",
@@ -45,30 +52,31 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_5fb55c9d06a5",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
+      "cluster_id": "biz_cluster_0014a5eac5c4",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
       "signal_ids": [
-        "biz_f535c33dd179"
+        "biz_c90bc395c2d1"
       ],
       "source_count": 1,
-      "importance_score": 35,
+      "importance_score": 33,
       "confidence": "watch",
       "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
       ],
       "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
       "evidence_refs": [
-        "biz_f535c33dd179"
+        "biz_c90bc395c2d1"
       ],
       "top_sources": [
         {
-          "source": "Lenny's Newsletter",
-          "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
-          "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by"
+          "source": "MIT Sloan Management Review",
+          "title": "Develop Your Team’s Social Capital, Not Just Their Skills",
+          "url": "https://sloanreview.mit.edu/article/develop-your-teams-social-capital-not-just-their-skills/"
         }
       ]
     }

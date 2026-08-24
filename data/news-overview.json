@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "97bc39dba74fdea6",
+  "snapshot_id": "78d5a1cf366a54df",
   "channel": "ai-news",
-  "generated_at": "2026-08-24T09:12:01.464583Z",
+  "generated_at": "2026-08-24T12:26:06.847339Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 299,
+    "signals": 333,
     "high_priority": 7,
-    "briefs": 13,
-    "stories": 287
+    "briefs": 18,
+    "stories": 315
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Info Flow": 132,
-    "Buzzing": 75,
-    "TechURLs": 43,
-    "NewsNow": 16,
-    "Zeli": 13,
-    "Curated Media": 8,
+    "Info Flow": 141,
+    "Buzzing": 81,
+    "TechURLs": 55,
+    "NewsNow": 26,
+    "Curated Media": 9,
+    "OPML RSS": 8,
     "Follow Builders": 6,
-    "OPML RSS": 4
+    "Zeli": 5
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8436,
+      "importance_score": 0.8364,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -67,38 +67,6 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_ff91e2bb7753",
-      "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
-      "url": "https://www.ithome.com/0/993/305.htm",
-      "primary_url": "https://www.ithome.com/0/993/305.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "importance_score": 0.7215,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "latest_at": "2026-08-23T14:13:31Z",
-      "earliest_at": "2026-08-23T14:13:31Z",
-      "sources": [
-        {
-          "id": "0dccdb3aa56045c33d61181d209ffb5347cf430b",
-          "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
-          "url": "https://www.ithome.com/0/993/305.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-23T14:13:31Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
       "story_id": "story_75a73f0d5f53",
       "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
       "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
@@ -111,7 +79,7 @@
         "Simon Willison",
         "hackernews"
       ],
-      "importance_score": 0.605,
+      "importance_score": 0.5982,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -146,6 +114,48 @@
           "source_name": "Info Flow",
           "site_id": "iris",
           "published_at": "2026-08-23T18:16:37Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_b7e6095e59c7",
+      "title": "Anthropic candidates face blunt money question",
+      "url": "https://news.ycombinator.com/item?id=49418449",
+      "primary_url": "https://news.ycombinator.com/item?id=49418449",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews"
+      ],
+      "importance_score": 0.545,
+      "importance_label": "值得关注",
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "latest_at": "2026-08-24T12:06:41.331000Z",
+      "earliest_at": "2026-08-24T11:55:46Z",
+      "sources": [
+        {
+          "id": "a0be46abf8c136e684f82e6c85205dc739b0d441",
+          "title": "Anthropic candidates face blunt money question",
+          "url": "https://news.ycombinator.com/item?id=49418449",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-24T12:06:41.331000Z"
+        },
+        {
+          "id": "4f61c7af5bf8780c62f8360887ea561721593030",
+          "title": "Anthropic candidates face blunt money question",
+          "url": "https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-24T11:55:46Z"
         }
       ],
       "confidence": "multi-source"
