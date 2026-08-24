@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T06:02:25.414346Z",
+  "generated_at": "2026-08-24T09:12:01.464583Z",
   "window_hours": 24,
-  "total_items": 15,
+  "total_items": 13,
   "items": [
     {
       "story_id": "story_91992ed9f82d",
@@ -38,15 +38,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.851,
-      "importance": 0.851,
-      "importance_score": 0.851,
+      "score": 0.8436,
+      "importance": 0.8436,
+      "importance_score": 0.8436,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.9165,
+        "recency": 0.8756,
         "story_heat": 0.0
       },
       "category": "official",
@@ -100,15 +100,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7278,
-      "importance": 0.7278,
-      "importance_score": 0.7278,
+      "score": 0.7215,
+      "importance": 0.7215,
+      "importance_score": 0.7215,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7958,
+        "recency": 0.7603,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "story_id": "story_d6c0f7eda20e",
+      "story_id": "story_75a73f0d5f53",
       "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
       "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
       "primary_url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
@@ -150,10 +150,20 @@
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-08-23T23:29:40.385000Z"
+        },
+        {
+          "id": "cb84d279c38f2590e04746bc34eedcbc7a6ebefb",
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:16:37Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
+        "Hacker News (黑客新闻)",
         "Simon Willison",
         "hackernews"
       ],
@@ -175,26 +185,35 @@
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-08-23T23:29:40.385000Z"
+        },
+        {
+          "id": "cb84d279c38f2590e04746bc34eedcbc7a6ebefb",
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-08-23T18:16:37Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.587,
-      "importance": 0.587,
-      "importance_score": 0.587,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.605,
+      "importance": 0.605,
+      "importance_score": 0.605,
+      "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.5,
         "ai_relevance": 0.71,
-        "recency": 0.8702,
-        "story_heat": 0.25
+        "recency": 0.8314,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-08-23T20:24:52Z",
+      "earliest_at": "2026-08-23T18:16:37Z",
       "latest_at": "2026-08-23T23:29:40.385000Z",
       "primary_item": {
         "id": "d3c2687ef5cbb7c713f6e46494069851be37dbbd",
@@ -257,15 +276,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5442,
-      "importance": 0.5442,
-      "importance_score": 0.5442,
+      "score": 0.5362,
+      "importance": 0.5362,
+      "importance_score": 0.5362,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9911,
+        "recency": 0.9469,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -336,15 +355,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5429,
-      "importance": 0.5429,
-      "importance_score": 0.5429,
+      "score": 0.535,
+      "importance": 0.535,
+      "importance_score": 0.535,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9841,
+        "recency": 0.9402,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -415,15 +434,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.526,
-      "importance": 0.526,
-      "importance_score": 0.526,
+      "score": 0.5188,
+      "importance": 0.5188,
+      "importance_score": 0.5188,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8898,
+        "recency": 0.8501,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -494,15 +513,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5199,
-      "importance": 0.5199,
-      "importance_score": 0.5199,
+      "score": 0.513,
+      "importance": 0.513,
+      "importance_score": 0.513,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8562,
+        "recency": 0.818,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -573,15 +592,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5124,
-      "importance": 0.5124,
-      "importance_score": 0.5124,
+      "score": 0.5058,
+      "importance": 0.5058,
+      "importance_score": 0.5058,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8144,
+        "recency": 0.7781,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -652,15 +671,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5296,
-      "importance": 0.5296,
-      "importance_score": 0.5296,
+      "score": 0.5223,
+      "importance": 0.5223,
+      "importance_score": 0.5223,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9098,
+        "recency": 0.8692,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -675,84 +694,6 @@
         "url": "https://news.ycombinator.com/item?id=49412909",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_c6ae66e74b15",
-      "title": "阿里巴巴计划通过股票发行筹集100亿美元，用于人工智能业务扩张",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "9608de9b2128503b859c9d9a4e196f7dd8de5e8e",
-          "title": "阿里巴巴计划通过股票发行筹集100亿美元，用于人工智能业务扩张",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T07:49:36.987000Z"
-        },
-        {
-          "id": "e7712836b2b7772e955227ba5264912a0f50faae",
-          "title": "阿里巴巴将通过出售股份筹集100亿美元，用于人工智能业务扩张",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T06:29:17.399000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "9608de9b2128503b859c9d9a4e196f7dd8de5e8e",
-          "title": "阿里巴巴计划通过股票发行筹集100亿美元，用于人工智能业务扩张",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T07:49:36.987000Z"
-        },
-        {
-          "id": "e7712836b2b7772e955227ba5264912a0f50faae",
-          "title": "阿里巴巴将通过出售股份筹集100亿美元，用于人工智能业务扩张",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T06:29:17.399000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4964,
-      "importance": 0.4964,
-      "importance_score": 0.4964,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7256,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-23T06:29:17.399000Z",
-      "latest_at": "2026-08-23T07:49:36.987000Z",
-      "primary_item": {
-        "id": "9608de9b2128503b859c9d9a4e196f7dd8de5e8e",
-        "title": "阿里巴巴计划通过股票发行筹集100亿美元，用于人工智能业务扩张",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion",
-        "source": "www.bloomberg.com",
-        "source_name": "Buzzing"
       }
     },
     {
@@ -809,15 +750,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5199,
-      "importance": 0.5199,
-      "importance_score": 0.5199,
+      "score": 0.513,
+      "importance": 0.513,
+      "importance_score": 0.513,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8562,
+        "recency": 0.818,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -831,84 +772,6 @@
         "title": "Hugging Face 一直在接洽有关一笔价值至少 130 亿美元的并购交易的意向",
         "url": "https://www.businessinsider.com/hugging-face-could-be-acquired-13-billion-2026-8",
         "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_8351ddcedbab",
-      "title": "阿里巴巴推出100亿美元香港配售计划，以筹集人工智能领域投资资金",
-      "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
-      "primary_url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
-      "source": "www.reuters.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "dc73bdc80f056742cc675ed0ab6774b54d8aeda9",
-          "title": "阿里巴巴推出100亿美元香港配售计划，以筹集人工智能领域投资资金",
-          "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T11:49:13.726000Z"
-        },
-        {
-          "id": "0838aaa50b80c51bcae2f702ae27bb0364e8d993",
-          "title": "阿里巴巴计划在香港配售100亿美元股票，以筹集资金用于人工智能领域的支出",
-          "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T06:45:30.468000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "dc73bdc80f056742cc675ed0ab6774b54d8aeda9",
-          "title": "阿里巴巴推出100亿美元香港配售计划，以筹集人工智能领域投资资金",
-          "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T11:49:13.726000Z"
-        },
-        {
-          "id": "0838aaa50b80c51bcae2f702ae27bb0364e8d993",
-          "title": "阿里巴巴计划在香港配售100亿美元股票，以筹集资金用于人工智能领域的支出",
-          "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-08-23T06:45:30.468000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5042,
-      "importance": 0.5042,
-      "importance_score": 0.5042,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7687,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-23T06:45:30.468000Z",
-      "latest_at": "2026-08-23T11:49:13.726000Z",
-      "primary_item": {
-        "id": "dc73bdc80f056742cc675ed0ab6774b54d8aeda9",
-        "title": "阿里巴巴推出100亿美元香港配售计划，以筹集人工智能领域投资资金",
-        "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23",
-        "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
     },
@@ -966,15 +829,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5296,
-      "importance": 0.5296,
-      "importance_score": 0.5296,
+      "score": 0.5223,
+      "importance": 0.5223,
+      "importance_score": 0.5223,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9098,
+        "recency": 0.8692,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1045,15 +908,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5058,
-      "importance": 0.5058,
-      "importance_score": 0.5058,
+      "score": 0.4995,
+      "importance": 0.4995,
+      "importance_score": 0.4995,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7776,
+        "recency": 0.7429,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1124,15 +987,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5296,
-      "importance": 0.5296,
-      "importance_score": 0.5296,
+      "score": 0.5223,
+      "importance": 0.5223,
+      "importance_score": 0.5223,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9098,
+        "recency": 0.8692,
         "story_heat": 0.25
       },
       "category": "watch",
