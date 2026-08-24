@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e799006af6cefb13",
+  "snapshot_id": "c11ae03e3dfdcd58",
   "channel": "ai-business",
-  "generated_at": "2026-08-23T23:55:13.705506Z",
+  "generated_at": "2026-08-24T03:42:33.110200Z",
   "window_hours": 24,
   "decision": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
   "metrics": {
@@ -20,15 +20,15 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_ce1a5791b375",
+      "brief_id": "biz_brief_a87ab133241a",
       "rank": 1,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_dd83e4081442"
+        "biz_4a3fb2d5606f"
       ],
       "evidence_titles": [
-        "I built a Stripe analytics tool for SaaS founders. Remetry is live."
+        "How would you get your first customers for an AI reliability product?"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -39,7 +39,7 @@
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_4638486daf85",
+      "brief_id": "biz_brief_59f6fbb6524d",
       "rank": 2,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -59,13 +59,13 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_ce1a5791b375",
+      "id": "biz_brief_a87ab133241a",
       "label": "Brief #1",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     },
     {
-      "id": "biz_brief_4638486daf85",
+      "id": "biz_brief_59f6fbb6524d",
       "label": "Brief #2",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
@@ -73,11 +73,11 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_71822eb939f1",
+      "cluster_id": "biz_cluster_327b0af2c71b",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 54,
+      "importance_score": 44,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
@@ -88,13 +88,13 @@
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_dd83e4081442"
+        "biz_4a3fb2d5606f"
       ],
       "top_sources": [
         {
           "source": "Indie Hackers",
-          "title": "I built a Stripe analytics tool for SaaS founders. Remetry is live.",
-          "url": "https://www.indiehackers.com/post/i-built-a-stripe-analytics-tool-for-saas-founders-remetry-is-live-abc60038f6"
+          "title": "How would you get your first customers for an AI reliability product?",
+          "url": "https://www.indiehackers.com/post/how-would-you-get-your-first-customers-for-an-ai-reliability-product-891c58c018"
         }
       ]
     },

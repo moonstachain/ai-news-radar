@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e799006af6cefb13",
+  "snapshot_id": "c11ae03e3dfdcd58",
   "channel": "ai-news",
-  "generated_at": "2026-08-23T23:43:20.423488Z",
+  "generated_at": "2026-08-24T03:31:05.442386Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 306,
-    "high_priority": 6,
-    "briefs": 15,
-    "stories": 293
+    "signals": 299,
+    "high_priority": 4,
+    "briefs": 14,
+    "stories": 286
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,50 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 99,
-    "Info Flow": 85,
+    "Info Flow": 99,
+    "Buzzing": 90,
     "TechURLs": 36,
-    "Zeli": 32,
-    "NewsNow": 31,
+    "NewsNow": 29,
+    "Zeli": 26,
     "Curated Media": 11,
-    "Follow Builders": 6,
-    "OPML RSS": 3
+    "OPML RSS": 3,
+    "Follow Builders": 2
   },
   "top_stories": [
+    {
+      "story_id": "story_91992ed9f82d",
+      "title": "Codex CLI 0.149.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "importance_score": 0.8571,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-24T00:00:00Z",
+      "earliest_at": "2026-08-24T00:00:00Z",
+      "sources": [
+        {
+          "id": "6986cd90498eb6d2f2240556fbddd0fbab755c6b",
+          "title": "Codex CLI 0.149.1",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-08-24T00:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_ff91e2bb7753",
       "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
@@ -43,7 +77,7 @@
       "source_names": [
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7415,
+      "importance_score": 0.7332,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -65,68 +99,46 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_c3477d4b1486",
-      "title": "何夕2077 AI 深度信号周报 (2026 W34) | 算力基建金融化与安全治理退潮",
-      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-23-hexi-2077-ai-weekly-2026-w34",
-      "primary_url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-23-hexi-2077-ai-weekly-2026-w34",
-      "source": "Daily Digest",
-      "source_name": "AI HubToday",
-      "source_count": 1,
+      "story_id": "story_d6c0f7eda20e",
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+      "primary_url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+      "source": "Simon Willison",
+      "source_name": "OPML RSS",
+      "source_count": 2,
       "source_names": [
-        "Daily Digest"
+        "Simon Willison",
+        "hackernews"
       ],
-      "importance_score": 0.7231,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.5928,
+      "importance_label": "值得关注",
+      "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source"
       ],
-      "latest_at": "2026-08-23T04:03:52Z",
-      "earliest_at": "2026-08-23T04:03:52Z",
+      "latest_at": "2026-08-23T23:29:40.385000Z",
+      "earliest_at": "2026-08-23T20:24:52Z",
       "sources": [
         {
-          "id": "85009006fffe3911d67a638c58319557b700e017",
-          "title": "何夕2077 AI 深度信号周报 (2026 W34) | 算力基建金融化与安全治理退潮",
-          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-23-hexi-2077-ai-weekly-2026-w34",
-          "source": "Daily Digest",
-          "source_name": "AI HubToday",
-          "site_id": "aihubtoday",
-          "published_at": "2026-08-23T04:03:52Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_dd5736dec723",
-      "title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
-      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20",
-      "primary_url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "importance_score": 0.72,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "latest_at": "2026-08-23T00:53:34.184000Z",
-      "earliest_at": "2026-08-23T00:53:34.184000Z",
-      "sources": [
+          "id": "d3c2687ef5cbb7c713f6e46494069851be37dbbd",
+          "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+          "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+          "source": "Simon Willison",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-23T20:24:52Z"
+        },
         {
-          "id": "c403826ba017a8d7758a532d0e40783cf37a8e7d",
-          "title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
-          "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-23T00:53:34.184000Z"
+          "id": "eb5dd0c6315fbd6eaaf61c5b0ffffe7e9b3aa6d5",
+          "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+          "url": "https://news.ycombinator.com/item?id=49411102",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-08-23T23:29:40.385000Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }
