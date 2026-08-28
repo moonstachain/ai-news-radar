@@ -1,55 +1,15 @@
 {
-  "generated_at": "2026-08-24T09:23:17.568946Z",
+  "generated_at": "2026-08-28T01:36:20.777952Z",
   "cases": [
     {
-      "case_id": "opc_case_b8d76b5d43f2",
+      "case_id": "opc_case_7c4b5a324d7b",
       "company": "Indie Hackers",
       "founder": "",
       "source_refs": [
-        "biz_4a3fb2d5606f"
+        "biz_83fe7215e410"
       ],
-      "url": "https://www.indiehackers.com/post/how-would-you-get-your-first-customers-for-an-ai-reliability-product-891c58c018",
-      "title": "How would you get your first customers for an AI reliability product?",
-      "business_model": "Founder Case, OPC",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup"
-      ],
-      "score": 42
-    },
-    {
-      "case_id": "opc_case_76f0951a2a8c",
-      "company": "Ceztrix",
-      "founder": "",
-      "source_refs": [
-        "biz_ab9ac4ad61b5"
-      ],
-      "url": "https://www.indiehackers.com/post/i-launched-ceztrix-a-simple-invoicing-tool-for-freelancers-and-small-businesses-2fcd979a7c",
-      "title": "I launched Ceztrix — a simple invoicing tool for freelancers and small businesses",
-      "business_model": "Founder Case, OPC",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_startup"
-      ],
-      "score": 39
-    },
-    {
-      "case_id": "opc_case_98a4e4635505",
-      "company": "Day",
-      "founder": "",
-      "source_refs": [
-        "biz_1c602ed9207c"
-      ],
-      "url": "https://www.indiehackers.com/post/day-4-of-a-pay-to-rank-board-leftover-bid-gets-spent-as-it-delivers-1-is-9-ee56285e45",
-      "title": "Day 4 of a pay-to-rank board. leftover bid gets spent as it delivers. #1 is $9",
+      "url": "https://www.indiehackers.com/post/15-days-after-launching-to-zero-audience-0-1-follower-0-stars-the-full-numbers-c14435be6c",
+      "title": "15 days after launching to zero audience: $0, 1 follower, 0 stars. The full numbers.",
       "business_model": "OPC",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
@@ -57,29 +17,53 @@
       "distribution_channel": "Indie Hackers",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
-        "yuanli_startup"
+        "yuanli_asset"
       ],
-      "score": 33
+      "score": 35
     },
     {
-      "case_id": "opc_case_f086ac65a3de",
-      "company": "Jen Abel",
+      "case_id": "opc_case_6dc6f68436b0",
+      "company": "Spot New Tech",
       "founder": "",
       "source_refs": [
-        "biz_f535c33dd179"
+        "biz_38f429a0b5c5"
       ],
-      "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
-      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
-      "business_model": "Enterprise AI Workflow, Founder Case",
+      "url": "https://sloanreview.mit.edu/article/spot-new-tech-skills-emerging-from-the-workforce/",
+      "title": "Spot New Tech Skills Emerging From the Workforce",
+      "business_model": "Founder Case, AI Business Model Innovation",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
-      "distribution_channel": "Lenny's Newsletter",
+      "distribution_channel": "MIT Sloan Management Review",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
-        "yuanli_startup"
+        "yuanli_asset",
+        "yuanli_os",
+        "ftf_trust"
       ],
-      "score": 33
+      "score": 47
+    },
+    {
+      "case_id": "opc_case_c950a2e6f920",
+      "company": "Nvidia",
+      "founder": "",
+      "source_refs": [
+        "biz_97302d51de04"
+      ],
+      "url": "https://www.cbinsights.com/research/newsletter-august-27/",
+      "title": "Nvidia acquires Hugging Face and the SpaceX mafia",
+      "business_model": "AI Business Model Innovation, Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust",
+        "profit_container"
+      ],
+      "score": 35
     }
   ]
 }
