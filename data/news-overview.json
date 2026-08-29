@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "10c0a3ac4f234507",
+  "snapshot_id": "a09f9b614998f9ad",
   "channel": "ai-news",
-  "generated_at": "2026-08-28T01:34:52.166532Z",
+  "generated_at": "2026-08-29T21:33:08.185087Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 355,
-    "high_priority": 42,
-    "briefs": 20,
-    "stories": 326
+    "signals": 206,
+    "high_priority": 28,
+    "briefs": 18,
+    "stories": 189
   },
   "coverage": {
     "successful": 16,
@@ -22,128 +22,124 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 81,
-    "TechURLs": 68,
-    "Zeli": 66,
-    "Info Flow": 31,
-    "Curated Media": 27,
-    "NewsNow": 26,
-    "AIbase": 15,
-    "OPML RSS": 15
+    "Buzzing": 51,
+    "Zeli": 37,
+    "Info Flow": 32,
+    "TechURLs": 28,
+    "AIbase": 16,
+    "Curated Media": 11,
+    "NewsNow": 9,
+    "Follow Builders": 8
   },
   "top_stories": [
     {
-      "story_id": "story_5b132fba12b8",
-      "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制 / Gemini Omni 1.1 Flash lets you build with more control",
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-      "primary_url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-      "source": "Google DeepMind",
+      "story_id": "story_91992ed9f82d",
+      "title": "Codex CLI 0.151.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "source_name": "Official AI Updates",
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Google DeepMind",
-        "Google DeepMind：Blog（RSS）"
+        "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8542,
+      "importance_score": 0.8179,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-27T16:11:32Z",
-      "earliest_at": "2026-08-27T16:11:32Z",
+      "latest_at": "2026-08-29T00:00:00Z",
+      "earliest_at": "2026-08-29T00:00:00Z",
       "sources": [
         {
-          "id": "34ace61f8fa44bd10ff4df670ccf03ed0c686101",
-          "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制 / Gemini Omni 1.1 Flash lets you build with more control",
-          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-          "source": "Google DeepMind",
+          "id": "f98e6d3f28314f72c32272040c8ebf3ac854f556",
+          "title": "Codex CLI 0.151.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-27T16:11:32Z"
-        },
+          "published_at": "2026-08-29T00:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_7e896a4b3791",
+      "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+      "primary_url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "importance_score": 0.7425,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "latest_at": "2026-08-29T07:00:22.003000Z",
+      "earliest_at": "2026-08-29T07:00:22.003000Z",
+      "sources": [
         {
-          "id": "a169c6b581d9ff4983701869765d46f9d9d8f117",
-          "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
-          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-          "source": "Google DeepMind：Blog（RSS）",
+          "id": "d8d0fc7e9d682fb59b806837b4fba07f487f2821",
+          "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+          "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-27T16:11:32Z"
+          "published_at": "2026-08-29T07:00:22.003000Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_7c7e4270511d",
+      "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "primary_url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "source": "X：Tibo (@thsottiaux)",
+      "source_name": "AI HOT",
+      "source_count": 2,
+      "source_names": [
+        "Follow Builders · X · Thibault Sottiaux",
+        "X：Tibo (@thsottiaux)"
+      ],
+      "importance_score": 0.7389,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "latest_at": "2026-08-29T01:47:44Z",
+      "earliest_at": "2026-08-29T01:47:44Z",
+      "sources": [
+        {
+          "id": "24c8fd94adc5e6f2753bdcf0b50fab34b0cb29a6",
+          "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+          "url": "https://x.com/thsottiaux/status/2093515916076343774",
+          "source": "X：Tibo (@thsottiaux)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-29T01:47:44Z"
+        },
+        {
+          "id": "7de24c53f12a0a52660f29653e167e01812b4c21",
+          "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效 / We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils down to trust and we’ve asked that this takes effect on November 12 to give...",
+          "url": "https://x.com/thsottiaux/status/2093515916076343774",
+          "source": "Follow Builders · X · Thibault Sottiaux",
+          "source_name": "Follow Builders",
+          "site_id": "followbuilders",
+          "published_at": "2026-08-29T01:47:44Z"
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_88fb30e60ef3",
-      "title": "Copilot 代码审查：解决原因和扩展功能 / Copilot code review: Resolution reasons and expanded capabilities",
-      "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-      "primary_url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.8448,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-27T22:46:04Z",
-      "earliest_at": "2026-08-27T22:46:04Z",
-      "sources": [
-        {
-          "id": "c88a0babf03e3a8ca31ad774f33e877e8e7c4e37",
-          "title": "Copilot 代码审查：解决原因和扩展功能 / Copilot code review: Resolution reasons and expanded capabilities",
-          "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-27T22:46:04Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_3062d8cdad5f",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "primary_url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "importance_score": 0.8217,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-08-27T09:00:00Z",
-      "earliest_at": "2026-08-27T09:00:00Z",
-      "sources": [
-        {
-          "id": "e7bf5ac20c49365d04b1724e1d531f47f73c3dc4",
-          "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-27T09:00:00Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }
