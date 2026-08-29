@@ -1,57 +1,38 @@
 {
-  "generated_at": "2026-08-28T01:36:20.777952Z",
+  "generated_at": "2026-08-29T15:55:11.492624Z",
   "cases": [
     {
-      "case_id": "opc_case_7c4b5a324d7b",
-      "company": "Indie Hackers",
+      "case_id": "opc_case_9e53990439ac",
+      "company": "Executive Interview",
       "founder": "",
       "source_refs": [
-        "biz_83fe7215e410"
+        "biz_3d5ae979805e"
       ],
-      "url": "https://www.indiehackers.com/post/15-days-after-launching-to-zero-audience-0-1-follower-0-stars-the-full-numbers-c14435be6c",
-      "title": "15 days after launching to zero audience: $0, 1 follower, 0 stars. The full numbers.",
-      "business_model": "OPC",
+      "url": "https://www.cbinsights.com/research/executive-interview-afori/",
+      "title": "Executive Interview : Afori",
+      "business_model": "Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "yuanli_asset"
-      ],
-      "score": 35
-    },
-    {
-      "case_id": "opc_case_6dc6f68436b0",
-      "company": "Spot New Tech",
-      "founder": "",
-      "source_refs": [
-        "biz_38f429a0b5c5"
-      ],
-      "url": "https://sloanreview.mit.edu/article/spot-new-tech-skills-emerging-from-the-workforce/",
-      "title": "Spot New Tech Skills Emerging From the Workforce",
-      "business_model": "Founder Case, AI Business Model Innovation",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "MIT Sloan Management Review",
+      "distribution_channel": "CB Insights",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
         "yuanli_asset",
-        "yuanli_os",
-        "ftf_trust"
+        "yuanli_startup",
+        "ftf_trust",
+        "wealth_flywheel"
       ],
-      "score": 47
+      "score": 55
     },
     {
-      "case_id": "opc_case_c950a2e6f920",
-      "company": "Nvidia",
+      "case_id": "opc_case_ceb889cc8931",
+      "company": "CEO Interview",
       "founder": "",
       "source_refs": [
-        "biz_97302d51de04"
+        "biz_be106671f06d"
       ],
-      "url": "https://www.cbinsights.com/research/newsletter-august-27/",
-      "title": "Nvidia acquires Hugging Face and the SpaceX mafia",
+      "url": "https://www.cbinsights.com/research/ceo-interview-elphi/",
+      "title": "CEO Interview: Elphi",
       "business_model": "AI Business Model Innovation, Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
@@ -60,10 +41,51 @@
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
         "yuanli_startup",
-        "ftf_trust",
-        "profit_container"
+        "ftf_trust"
       ],
-      "score": 35
+      "score": 51
+    },
+    {
+      "case_id": "opc_case_953501d00c5f",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_89c9a1597572"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-compliantchatgpt/",
+      "title": "CEO Interview : CompliantChatGpt",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 49
+    },
+    {
+      "case_id": "opc_case_51ca0dc3bbc5",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_82e8100e8591"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-12x-ai/",
+      "title": "CEO Interview: 12x AI",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 49
     }
   ]
 }
