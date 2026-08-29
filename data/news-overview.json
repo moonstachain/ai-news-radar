@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a09f9b614998f9ad",
+  "snapshot_id": "94560101c41860c7",
   "channel": "ai-news",
-  "generated_at": "2026-08-29T21:33:08.185087Z",
+  "generated_at": "2026-08-29T23:42:59.724316Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 206,
-    "high_priority": 28,
-    "briefs": 18,
-    "stories": 189
+    "signals": 200,
+    "high_priority": 12,
+    "briefs": 19,
+    "stories": 183
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 51,
+    "Buzzing": 55,
+    "Info Flow": 38,
     "Zeli": 37,
-    "Info Flow": 32,
     "TechURLs": 28,
-    "AIbase": 16,
     "Curated Media": 11,
     "NewsNow": 9,
-    "Follow Builders": 8
+    "Hacker News": 7,
+    "Follow Builders": 6
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8179,
+      "importance_score": 0.8138,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -67,6 +67,38 @@
       "confidence": "single-source"
     },
     {
+      "story_id": "story_dab2710a3e78",
+      "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
+      "url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "primary_url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "Dwarkesh Patel：Podcast & Blog（RSS）"
+      ],
+      "importance_score": 0.7442,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "latest_at": "2026-08-29T22:47:53Z",
+      "earliest_at": "2026-08-29T22:47:53Z",
+      "sources": [
+        {
+          "id": "013f4b8574ae634dbbbd8920f79f60fc1a6e19fa",
+          "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
+          "url": "https://www.dwarkesh.com/p/openai-huggingface",
+          "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-29T22:47:53Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_7e896a4b3791",
       "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
       "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
@@ -77,7 +109,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.7425,
+      "importance_score": 0.738,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -97,49 +129,6 @@
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_7c7e4270511d",
-      "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
-      "url": "https://x.com/thsottiaux/status/2093515916076343774",
-      "primary_url": "https://x.com/thsottiaux/status/2093515916076343774",
-      "source": "X：Tibo (@thsottiaux)",
-      "source_name": "AI HOT",
-      "source_count": 2,
-      "source_names": [
-        "Follow Builders · X · Thibault Sottiaux",
-        "X：Tibo (@thsottiaux)"
-      ],
-      "importance_score": 0.7389,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "latest_at": "2026-08-29T01:47:44Z",
-      "earliest_at": "2026-08-29T01:47:44Z",
-      "sources": [
-        {
-          "id": "24c8fd94adc5e6f2753bdcf0b50fab34b0cb29a6",
-          "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
-          "url": "https://x.com/thsottiaux/status/2093515916076343774",
-          "source": "X：Tibo (@thsottiaux)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-29T01:47:44Z"
-        },
-        {
-          "id": "7de24c53f12a0a52660f29653e167e01812b4c21",
-          "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效 / We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils down to trust and we’ve asked that this takes effect on November 12 to give...",
-          "url": "https://x.com/thsottiaux/status/2093515916076343774",
-          "source": "Follow Builders · X · Thibault Sottiaux",
-          "source_name": "Follow Builders",
-          "site_id": "followbuilders",
-          "published_at": "2026-08-29T01:47:44Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }
