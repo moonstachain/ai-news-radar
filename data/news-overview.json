@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "10c0a3ac4f234507",
+  "snapshot_id": "4cea3af27a598446",
   "channel": "ai-news",
-  "generated_at": "2026-08-28T01:34:52.166532Z",
+  "generated_at": "2026-08-29T15:43:27.781595Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 355,
-    "high_priority": 42,
+    "signals": 256,
+    "high_priority": 36,
     "briefs": 20,
-    "stories": 326
+    "stories": 237
   },
   "coverage": {
     "successful": 16,
@@ -22,73 +22,62 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 81,
-    "TechURLs": 68,
-    "Zeli": 66,
-    "Info Flow": 31,
-    "Curated Media": 27,
-    "NewsNow": 26,
-    "AIbase": 15,
-    "OPML RSS": 15
+    "Buzzing": 66,
+    "Info Flow": 48,
+    "Zeli": 44,
+    "TechURLs": 24,
+    "Curated Media": 17,
+    "AIbase": 16,
+    "Follow Builders": 14,
+    "AI HOT": 7
   },
   "top_stories": [
     {
-      "story_id": "story_5b132fba12b8",
-      "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制 / Gemini Omni 1.1 Flash lets you build with more control",
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-      "primary_url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-      "source": "Google DeepMind",
+      "story_id": "story_91992ed9f82d",
+      "title": "Codex CLI 0.151.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "source_name": "Official AI Updates",
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "Google DeepMind",
-        "Google DeepMind：Blog（RSS）"
+        "OpenAI Codex Changelog"
       ],
-      "importance_score": 0.8542,
+      "importance_score": 0.8294,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-27T16:11:32Z",
-      "earliest_at": "2026-08-27T16:11:32Z",
+      "latest_at": "2026-08-29T00:00:00Z",
+      "earliest_at": "2026-08-29T00:00:00Z",
       "sources": [
         {
-          "id": "34ace61f8fa44bd10ff4df670ccf03ed0c686101",
-          "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制 / Gemini Omni 1.1 Flash lets you build with more control",
-          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-          "source": "Google DeepMind",
+          "id": "f98e6d3f28314f72c32272040c8ebf3ac854f556",
+          "title": "Codex CLI 0.151.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-27T16:11:32Z"
-        },
-        {
-          "id": "a169c6b581d9ff4983701869765d46f9d9d8f117",
-          "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
-          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-          "source": "Google DeepMind：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-27T16:11:32Z"
+          "published_at": "2026-08-29T00:00:00Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     },
     {
-      "story_id": "story_88fb30e60ef3",
-      "title": "Copilot 代码审查：解决原因和扩展功能 / Copilot code review: Resolution reasons and expanded capabilities",
-      "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-      "primary_url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+      "story_id": "story_362e2edecbfb",
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+      "primary_url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8448,
+      "importance_score": 0.8082,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -96,54 +85,64 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-27T22:46:04Z",
-      "earliest_at": "2026-08-27T22:46:04Z",
+      "latest_at": "2026-08-28T20:24:20Z",
+      "earliest_at": "2026-08-28T20:24:20Z",
       "sources": [
         {
-          "id": "c88a0babf03e3a8ca31ad774f33e877e8e7c4e37",
-          "title": "Copilot 代码审查：解决原因和扩展功能 / Copilot code review: Resolution reasons and expanded capabilities",
-          "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+          "id": "08c629be590a72ce351fda9be6ffef7e3de27b6f",
+          "title": "GitHub Copilot in Visual Studio — August update",
+          "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-08-27T22:46:04Z"
+          "published_at": "2026-08-28T20:24:20Z"
         }
       ],
       "confidence": "single-source"
     },
     {
-      "story_id": "story_3062d8cdad5f",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "primary_url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
+      "story_id": "story_fb769fc67e24",
+      "title": "开放世界多智能体环境中的自主数学发现",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "primary_url": "https://arxiv.org/abs/2608.23691",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 2,
       "source_names": [
-        "OpenAI News"
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.8217,
-      "importance_label": "官方更新",
-      "category": "official",
+      "importance_score": 0.7785,
+      "importance_label": "行业动态",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-27T09:00:00Z",
-      "earliest_at": "2026-08-27T09:00:00Z",
+      "latest_at": "2026-08-29T07:32:16.981000Z",
+      "earliest_at": "2026-08-28T17:01:12Z",
       "sources": [
         {
-          "id": "e7bf5ac20c49365d04b1724e1d531f47f73c3dc4",
-          "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-27T09:00:00Z"
+          "id": "0c77a82075a7f7c8872fd8532664947c92702747",
+          "title": "开放世界多智能体环境中的自主数学发现",
+          "url": "https://arxiv.org/abs/2608.23691",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-29T07:32:16.981000Z"
+        },
+        {
+          "id": "a25ac6e0ed4e7b73b5dcd8df9eab5bf1dd3d650c",
+          "title": "开放世界多智能体环境中的自主数学发现 / Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+          "url": "https://arxiv.org/abs/2608.23691",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-28T17:01:12Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }

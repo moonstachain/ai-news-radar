@@ -1,118 +1,53 @@
 {
-  "generated_at": "2026-08-28T01:36:20.777952Z",
+  "generated_at": "2026-08-29T15:55:11.492624Z",
   "clusters": [
     {
-      "cluster_id": "biz_cluster_53222a7ed1b0",
-      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
-      "lane": "authority_trust",
-      "signal_ids": [
-        "biz_38f429a0b5c5"
-      ],
-      "source_count": 1,
-      "importance_score": 49,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_asset",
-        "yuanli_startup"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
-      "evidence_refs": [
-        "biz_38f429a0b5c5"
-      ],
-      "top_sources": [
-        {
-          "source": "MIT Sloan Management Review",
-          "title": "Spot New Tech Skills Emerging From the Workforce",
-          "url": "https://sloanreview.mit.edu/article/spot-new-tech-skills-emerging-from-the-workforce/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_a66093f864fb",
+      "cluster_id": "biz_cluster_13fa585e47ff",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "signal_ids": [
-        "biz_97302d51de04"
+        "biz_3d5ae979805e",
+        "biz_be106671f06d",
+        "biz_89c9a1597572",
+        "biz_82e8100e8591"
       ],
       "source_count": 1,
-      "importance_score": 37,
+      "importance_score": 53,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "4 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
-        "biz_97302d51de04"
+        "biz_3d5ae979805e",
+        "biz_be106671f06d",
+        "biz_89c9a1597572",
+        "biz_82e8100e8591"
       ],
       "top_sources": [
         {
           "source": "CB Insights",
-          "title": "Nvidia acquires Hugging Face and the SpaceX mafia",
-          "url": "https://www.cbinsights.com/research/newsletter-august-27/"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_e0a5dbfb001d",
-      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "lane": "opc",
-      "signal_ids": [
-        "biz_83fe7215e410"
-      ],
-      "source_count": 1,
-      "importance_score": 37,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_asset",
-        "yuanli_startup",
-        "profit_container"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
-      "evidence_refs": [
-        "biz_83fe7215e410"
-      ],
-      "top_sources": [
+          "title": "Executive Interview : Afori",
+          "url": "https://www.cbinsights.com/research/executive-interview-afori/"
+        },
         {
-          "source": "Indie Hackers",
-          "title": "15 days after launching to zero audience: $0, 1 follower, 0 stars. The full numbers.",
-          "url": "https://www.indiehackers.com/post/15-days-after-launching-to-zero-audience-0-1-follower-0-stars-the-full-numbers-c14435be6c"
-        }
-      ]
-    },
-    {
-      "cluster_id": "biz_cluster_8db9030624de",
-      "thesis": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
-      "lane": "counter_signal",
-      "signal_ids": [
-        "biz_3ea9cc75ddda"
-      ],
-      "source_count": 1,
-      "importance_score": 36,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "ftf_trust",
-        "yuanli_os"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "Counter-signals are the evidence, not a rejection of the thesis.",
-      "recommended_action": "Add these counter-signals to sales objections and content credibility checks.",
-      "evidence_refs": [
-        "biz_3ea9cc75ddda"
-      ],
-      "top_sources": [
+          "source": "CB Insights",
+          "title": "CEO Interview: Elphi",
+          "url": "https://www.cbinsights.com/research/ceo-interview-elphi/"
+        },
         {
-          "source": "Harvard Business Review",
-          "title": "Our Favorite Management Tips on Learning from Failure",
-          "url": "https://hbr.org/2026/08/our-favorite-management-tips-on-learning-from-failure"
+          "source": "CB Insights",
+          "title": "CEO Interview : CompliantChatGpt",
+          "url": "https://www.cbinsights.com/research/ceo-interview-compliantchatgpt/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: 12x AI",
+          "url": "https://www.cbinsights.com/research/ceo-interview-12x-ai/"
         }
       ]
     }
