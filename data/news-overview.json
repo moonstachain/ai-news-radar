@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "dafd89ea8160bf59",
+  "snapshot_id": "65c96dbf195764cf",
   "channel": "ai-news",
-  "generated_at": "2026-08-30T02:15:23.920794Z",
+  "generated_at": "2026-08-30T08:27:12.038927Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 210,
-    "high_priority": 10,
+    "signals": 242,
+    "high_priority": 6,
     "briefs": 14,
-    "stories": 197
+    "stories": 228
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 55,
-    "Info Flow": 41,
-    "Zeli": 41,
-    "TechURLs": 28,
+    "Buzzing": 61,
+    "Info Flow": 60,
+    "Zeli": 46,
+    "TechURLs": 30,
+    "NewsNow": 18,
     "Curated Media": 12,
-    "NewsNow": 12,
-    "Hacker News": 8,
-    "AI HOT": 5
+    "Hacker News": 5,
+    "Follow Builders": 4
   },
   "top_stories": [
     {
@@ -43,7 +43,7 @@
       "source_names": [
         "X：阿易 AI Notes (@AYi_AInotes)"
       ],
-      "importance_score": 0.7761,
+      "importance_score": 0.761,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -66,23 +66,58 @@
       "confidence": "single-source"
     },
     {
+      "story_id": "story_c71bc92556e6",
+      "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
+      "primary_url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
+      "source": "Daily Digest",
+      "source_name": "AI HubToday",
+      "source_count": 1,
+      "source_names": [
+        "Daily Digest"
+      ],
+      "importance_score": 0.7572,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-08-30T04:21:04Z",
+      "earliest_at": "2026-08-30T04:21:04Z",
+      "sources": [
+        {
+          "id": "7ff7bf5d7d7068f4125735362fa01a896621d53d",
+          "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
+          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
+          "source": "Daily Digest",
+          "source_name": "AI HubToday",
+          "site_id": "aihubtoday",
+          "published_at": "2026-08-30T04:21:04Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
       "story_id": "story_dab2710a3e78",
       "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
       "url": "https://www.dwarkesh.com/p/openai-huggingface",
       "primary_url": "https://www.dwarkesh.com/p/openai-huggingface",
       "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
       "source_name": "AI HOT",
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "Dwarkesh Patel：Podcast & Blog（RSS）"
+        "Dwarkesh Patel：Podcast & Blog（RSS）",
+        "Hacker News · 24h最热"
       ],
-      "importance_score": 0.7378,
+      "importance_score": 0.7482,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
+        "multi_source",
         "high_ai_relevance"
       ],
-      "latest_at": "2026-08-29T22:47:53Z",
+      "latest_at": "2026-08-29T23:43:24Z",
       "earliest_at": "2026-08-29T22:47:53Z",
       "sources": [
         {
@@ -93,41 +128,18 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-08-29T22:47:53Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_7e896a4b3791",
-      "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
-      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
-      "primary_url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "importance_score": 0.7329,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "latest_at": "2026-08-29T07:00:22.003000Z",
-      "earliest_at": "2026-08-29T07:00:22.003000Z",
-      "sources": [
+        },
         {
-          "id": "d8d0fc7e9d682fb59b806837b4fba07f487f2821",
-          "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
-          "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-08-29T07:00:22.003000Z"
+          "id": "4d8c24c946bcdd03d855c22a3c348c052c175460",
+          "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除 / The Rise and Fall of Agent Civilizations",
+          "url": "https://www.dwarkesh.com/p/openai-huggingface",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-08-29T23:43:24Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }
