@@ -1,45 +1,42 @@
 {
-  "generated_at": "2026-08-30T18:03:03.172646Z",
+  "generated_at": "2026-08-30T20:26:10.027426Z",
   "window_hours": 24,
   "items": [
     {
-      "signal_id": "biz_d77718bc3d1e",
-      "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
-      "source_id": "lenny",
-      "source_name": "Lenny's Newsletter",
-      "published_at": "2026-08-29T18:59:48Z",
-      "captured_at": "2026-08-30T18:03:03.172646Z",
-      "lane": "startup_vc",
+      "signal_id": "biz_4551775a8368",
+      "title": "2,000 upvotes on Reddit, 0 signups. I stopped launching and started commenting. 11 customers later.",
+      "url": "https://www.indiehackers.com/post/2-000-upvotes-on-reddit-0-signups-i-stopped-launching-and-started-commenting-11-customers-later-67518d8aa1",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-08-30T14:13:05.648000Z",
+      "captured_at": "2026-08-30T20:26:10.027426Z",
+      "lane": "opc",
       "entities": [
-        "Lenny's Newsletter",
-        "Community Wisdom",
-        "Building",
-        "B2B SaaS"
+        "Indie Hackers",
+        "Reddit"
       ],
       "business_model_tags": [
-        "AI Business Model Innovation",
-        "Founder Case"
+        "Founder Case",
+        "OPC"
       ],
       "yuanli_tags": [
-        "yuanli_startup",
-        "profit_container"
+        "yuanli_startup"
       ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 31,
+      "opc_fit_score": 5,
+      "case_concreteness_score": 12,
+      "total_score": 47,
       "score_breakdown": {
         "source_authority": 16,
-        "yuanli_relevance": 6,
-        "business_model_value": 2,
-        "case_concreteness": 0,
-        "opc_fit": 0,
-        "freshness": 7,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 12,
+        "opc_fit": 5,
+        "freshness": 8,
         "counter_signal_value": 0
       },
-      "summary": "Community Wisdom 199 Tags: AI Business Model Innovation, Founder Case.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
+      "summary": "2,000 upvotes on Reddit, 0 signups. I stopped launching and started commenting. 11 customers later. Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     }
   ]
 }
