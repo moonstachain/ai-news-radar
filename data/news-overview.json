@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a7af015d2bf75d19",
+  "snapshot_id": "38b9ac3bb9e67fa4",
   "channel": "ai-news",
-  "generated_at": "2026-08-30T20:16:03.254394Z",
+  "generated_at": "2026-08-30T22:53:03.750124Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
     "signals": 254,
-    "high_priority": 5,
-    "briefs": 11,
-    "stories": 242
+    "high_priority": 4,
+    "briefs": 9,
+    "stories": 244
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 70,
+    "Buzzing": 68,
     "Info Flow": 58,
-    "Zeli": 52,
-    "NewsNow": 31,
-    "TechURLs": 25,
-    "Curated Media": 9,
-    "AI HOT": 3,
-    "Hacker News": 3
+    "Zeli": 58,
+    "TechURLs": 28,
+    "NewsNow": 24,
+    "Curated Media": 11,
+    "AI HOT": 2,
+    "Hacker News": 2
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "The Decoder AI News",
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7772,
+      "importance_score": 0.7716,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +87,7 @@
       "source_names": [
         "X：阿易 AI Notes (@AYi_AInotes)"
       ],
-      "importance_score": 0.7357,
+      "importance_score": 0.7306,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -119,7 +119,7 @@
       "source_names": [
         "Daily Digest"
       ],
-      "importance_score": 0.7306,
+      "importance_score": 0.7253,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
