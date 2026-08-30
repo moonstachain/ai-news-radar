@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "94560101c41860c7",
+  "snapshot_id": "dafd89ea8160bf59",
   "channel": "ai-news",
-  "generated_at": "2026-08-29T23:42:59.724316Z",
+  "generated_at": "2026-08-30T02:15:23.920794Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 200,
-    "high_priority": 12,
-    "briefs": 19,
-    "stories": 183
+    "signals": 210,
+    "high_priority": 10,
+    "briefs": 14,
+    "stories": 197
   },
   "coverage": {
     "successful": 16,
@@ -23,45 +23,44 @@
   ],
   "section_counts": {
     "Buzzing": 55,
-    "Info Flow": 38,
-    "Zeli": 37,
+    "Info Flow": 41,
+    "Zeli": 41,
     "TechURLs": 28,
-    "Curated Media": 11,
-    "NewsNow": 9,
-    "Hacker News": 7,
-    "Follow Builders": 6
+    "Curated Media": 12,
+    "NewsNow": 12,
+    "Hacker News": 8,
+    "AI HOT": 5
   },
   "top_stories": [
     {
-      "story_id": "story_91992ed9f82d",
-      "title": "Codex CLI 0.151.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_dba8baf1aeeb",
+      "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
+      "url": "https://x.com/AYi_AInotes/status/2093864816079208512",
+      "primary_url": "https://x.com/AYi_AInotes/status/2093864816079208512",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "OpenAI Codex Changelog"
+        "X：阿易 AI Notes (@AYi_AInotes)"
       ],
-      "importance_score": 0.8138,
-      "importance_label": "官方更新",
-      "category": "official",
+      "importance_score": 0.7761,
+      "importance_label": "行业动态",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-29T00:00:00Z",
-      "earliest_at": "2026-08-29T00:00:00Z",
+      "latest_at": "2026-08-30T00:54:08Z",
+      "earliest_at": "2026-08-30T00:54:08Z",
       "sources": [
         {
-          "id": "f98e6d3f28314f72c32272040c8ebf3ac854f556",
-          "title": "Codex CLI 0.151.0",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-08-29T00:00:00Z"
+          "id": "b4cc051baae56ea92e59473009ca0d4364b0629a",
+          "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
+          "url": "https://x.com/AYi_AInotes/status/2093864816079208512",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-08-30T00:54:08Z"
         }
       ],
       "confidence": "single-source"
@@ -77,7 +76,7 @@
       "source_names": [
         "Dwarkesh Patel：Podcast & Blog（RSS）"
       ],
-      "importance_score": 0.7442,
+      "importance_score": 0.7378,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -109,7 +108,7 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "importance_score": 0.738,
+      "importance_score": 0.7329,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
