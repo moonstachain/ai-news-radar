@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a7af015d2bf75d19",
+  "snapshot_id": "38b9ac3bb9e67fa4",
   "channel": "ai-business",
-  "generated_at": "2026-08-30T20:26:10.027426Z",
+  "generated_at": "2026-08-30T23:04:07.488757Z",
   "window_hours": 24,
   "decision": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
   "metrics": {
-    "signals": 1,
+    "signals": 2,
     "briefs": 1,
     "clusters": 1,
-    "cases": 1
+    "cases": 2
   },
   "coverage": {
     "successful": 14,
@@ -20,15 +20,17 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_1bd5d1f9e205",
+      "brief_id": "biz_brief_eaaec99851db",
       "rank": 1,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_4551775a8368"
+        "biz_2347b0ec5610",
+        "biz_0221d911d40d"
       ],
       "evidence_titles": [
-        "2,000 upvotes on Reddit, 0 signups. I stopped launching and started commenting. 11 customers later."
+        "I spent the week talking to Customer Support pros about AI tools. Here are the 3 biggest flaws they highlighted.",
+        "I built the product. Now I’m questioning whether users will build the habit."
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -41,7 +43,7 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_1bd5d1f9e205",
+      "id": "biz_brief_eaaec99851db",
       "label": "Brief #1",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
@@ -49,28 +51,34 @@
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_92dee9051dfa",
+      "cluster_id": "biz_cluster_acc4f3ac306b",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 49,
+      "importance_score": 44,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_4551775a8368"
+        "biz_2347b0ec5610",
+        "biz_0221d911d40d"
       ],
       "top_sources": [
         {
           "source": "Indie Hackers",
-          "title": "2,000 upvotes on Reddit, 0 signups. I stopped launching and started commenting. 11 customers later.",
-          "url": "https://www.indiehackers.com/post/2-000-upvotes-on-reddit-0-signups-i-stopped-launching-and-started-commenting-11-customers-later-67518d8aa1"
+          "title": "I spent the week talking to Customer Support pros about AI tools. Here are the 3 biggest flaws they highlighted.",
+          "url": "https://www.indiehackers.com/post/i-spent-the-week-talking-to-customer-support-pros-about-ai-tools-here-are-the-3-biggest-flaws-they-highlighted-eadd6008f4"
+        },
+        {
+          "source": "Indie Hackers",
+          "title": "I built the product. Now I’m questioning whether users will build the habit.",
+          "url": "https://www.indiehackers.com/post/i-built-the-product-now-i-m-questioning-whether-users-will-build-the-habit-8a6682dba3"
         }
       ]
     }
