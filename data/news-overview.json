@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "38b9ac3bb9e67fa4",
+  "snapshot_id": "04952cfa960110a1",
   "channel": "ai-news",
-  "generated_at": "2026-08-30T22:53:03.750124Z",
+  "generated_at": "2026-09-03T14:06:47.085970Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 254,
-    "high_priority": 4,
-    "briefs": 9,
-    "stories": 244
+    "signals": 329,
+    "high_priority": 49,
+    "briefs": 20,
+    "stories": 313
   },
   "coverage": {
     "successful": 16,
@@ -22,29 +22,63 @@
     "aibreakfast"
   ],
   "section_counts": {
+    "Zeli": 71,
     "Buzzing": 68,
-    "Info Flow": 58,
-    "Zeli": 58,
-    "TechURLs": 28,
-    "NewsNow": 24,
-    "Curated Media": 11,
-    "AI HOT": 2,
-    "Hacker News": 2
+    "Info Flow": 54,
+    "TechURLs": 43,
+    "Curated Media": 22,
+    "AI HOT": 16,
+    "Follow Builders": 14,
+    "OPML RSS": 14
   },
   "top_stories": [
     {
-      "story_id": "story_ea92ab7ce270",
-      "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
-      "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
-      "primary_url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
-      "source": "The Decoder：AI News（RSS）",
+      "story_id": "story_96a3500c5a4b",
+      "title": "NeoMME：高效的多模态本地多语言编码器 / NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "primary_url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "importance_score": 0.8577,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-03T13:13:48Z",
+      "earliest_at": "2026-09-03T13:13:48Z",
+      "sources": [
+        {
+          "id": "d93c1f6b932dc05ebde205846d094df62f896547",
+          "title": "NeoMME：高效的多模态本地多语言编码器 / NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "url": "https://huggingface.co/blog/Hcompany/neomme",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-03T13:13:48Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_7f85661884a2",
+      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+      "primary_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+      "source": "NVIDIA Blog（RSS）",
       "source_name": "AI HOT",
       "source_count": 2,
       "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
+        "Hacker News",
+        "NVIDIA Blog（RSS）"
       ],
-      "importance_score": 0.7716,
+      "importance_score": 0.8442,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -52,93 +86,83 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-08-30T08:50:20Z",
-      "earliest_at": "2026-08-30T08:50:20Z",
+      "latest_at": "2026-09-03T12:10:33Z",
+      "earliest_at": "2026-09-03T11:59:49Z",
       "sources": [
         {
-          "id": "af3bbf71543322f3e623729a8d02ff883b3000b3",
-          "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
-          "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
-          "source": "The Decoder：AI News（RSS）",
+          "id": "97039d8f5eae769457f61ad241d373cd2c617626",
+          "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+          "source": "NVIDIA Blog（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-30T08:50:20Z"
+          "published_at": "2026-09-03T11:59:49Z"
         },
         {
-          "id": "62b5c6889312a5d3524397fec034ef37d4492211",
-          "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude / Sony and Warner sue Anthropic over \"one of the largest and most blatant ongoing thefts of intellectual property in history\"",
-          "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-08-30T08:50:20Z"
+          "id": "d4f66e7215f2e0fbf99d9ac91197d0e72c3e634b",
+          "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face / Nvidia to Acquire Hugging Face",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-03T12:10:33Z"
         }
       ],
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_dba8baf1aeeb",
-      "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
-      "url": "https://x.com/AYi_AInotes/status/2093864816079208512",
-      "primary_url": "https://x.com/AYi_AInotes/status/2093864816079208512",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "story_id": "story_362ae46d9e3c",
+      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+      "primary_url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
-      "source_count": 1,
+      "source_count": 3,
       "source_names": [
-        "X：阿易 AI Notes (@AYi_AInotes)"
+        "Hacker News",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "metr.org"
       ],
-      "importance_score": 0.7306,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.837,
+      "importance_label": "多源热议",
+      "category": "multi_source",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "latest_at": "2026-08-30T00:54:08Z",
-      "earliest_at": "2026-08-30T00:54:08Z",
+      "latest_at": "2026-09-03T04:49:35.840000Z",
+      "earliest_at": "2026-09-02T23:08:47Z",
       "sources": [
         {
-          "id": "b4cc051baae56ea92e59473009ca0d4364b0629a",
-          "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
-          "url": "https://x.com/AYi_AInotes/status/2093864816079208512",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "id": "9fe52d94d5189dd53e827e208467121ac63298a6",
+          "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-08-30T00:54:08Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_c71bc92556e6",
-      "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
-      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
-      "primary_url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
-      "source": "Daily Digest",
-      "source_name": "AI HubToday",
-      "source_count": 1,
-      "source_names": [
-        "Daily Digest"
-      ],
-      "importance_score": 0.7253,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "latest_at": "2026-08-30T04:21:04Z",
-      "earliest_at": "2026-08-30T04:21:04Z",
-      "sources": [
+          "published_at": "2026-09-03T04:49:35.840000Z"
+        },
         {
-          "id": "7ff7bf5d7d7068f4125735362fa01a896621d53d",
-          "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
-          "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
-          "source": "Daily Digest",
-          "source_name": "AI HubToday",
-          "site_id": "aihubtoday",
-          "published_at": "2026-08-30T04:21:04Z"
+          "id": "c338a7bf29802a14025c81949bd12d16edac085f",
+          "title": "METR关于OpenAI/Hugging Face黑客攻击事件的报告",
+          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+          "source": "metr.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-03T04:49:35.840000Z"
+        },
+        {
+          "id": "56d1a46beb49e63c8a6ca58942f3934b4b5f33d8",
+          "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告 / METR Report on OpenAI / Hugging Face Hacking Incident",
+          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-02T23:08:47Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }
