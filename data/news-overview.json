@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "04952cfa960110a1",
+  "snapshot_id": "97879d2ddc648a04",
   "channel": "ai-news",
-  "generated_at": "2026-09-03T14:06:47.085970Z",
+  "generated_at": "2026-09-05T18:28:40.170338Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 329,
-    "high_priority": 49,
+    "signals": 260,
+    "high_priority": 44,
     "briefs": 20,
-    "stories": 313
+    "stories": 240
   },
   "coverage": {
     "successful": 16,
@@ -22,63 +22,29 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Zeli": 71,
-    "Buzzing": 68,
-    "Info Flow": 54,
-    "TechURLs": 43,
-    "Curated Media": 22,
-    "AI HOT": 16,
-    "Follow Builders": 14,
-    "OPML RSS": 14
+    "Zeli": 62,
+    "Buzzing": 57,
+    "Info Flow": 44,
+    "TechURLs": 35,
+    "AIbase": 20,
+    "AI HOT": 15,
+    "Curated Media": 12,
+    "Follow Builders": 7
   },
   "top_stories": [
     {
-      "story_id": "story_96a3500c5a4b",
-      "title": "NeoMME：高效的多模态本地多语言编码器 / NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
-      "primary_url": "https://huggingface.co/blog/Hcompany/neomme",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "importance_score": 0.8577,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-03T13:13:48Z",
-      "earliest_at": "2026-09-03T13:13:48Z",
-      "sources": [
-        {
-          "id": "d93c1f6b932dc05ebde205846d094df62f896547",
-          "title": "NeoMME：高效的多模态本地多语言编码器 / NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "url": "https://huggingface.co/blog/Hcompany/neomme",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-03T13:13:48Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_7f85661884a2",
-      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-      "primary_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-      "source": "NVIDIA Blog（RSS）",
+      "story_id": "story_ac5a64ceef28",
+      "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "source": "The Verge：AI（RSS）",
       "source_name": "AI HOT",
       "source_count": 2,
       "source_names": [
-        "Hacker News",
-        "NVIDIA Blog（RSS）"
+        "The Verge",
+        "The Verge：AI（RSS）"
       ],
-      "importance_score": 0.8442,
+      "importance_score": 0.8108,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -86,80 +52,104 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-03T12:10:33Z",
-      "earliest_at": "2026-09-03T11:59:49Z",
+      "latest_at": "2026-09-05T11:15:55Z",
+      "earliest_at": "2026-09-05T11:15:55Z",
       "sources": [
         {
-          "id": "97039d8f5eae769457f61ad241d373cd2c617626",
-          "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
-          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-          "source": "NVIDIA Blog（RSS）",
+          "id": "1a45d4c9bbc56daf07ebb121ef83df67aa80fb67",
+          "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+          "source": "The Verge：AI（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-03T11:59:49Z"
+          "published_at": "2026-09-05T11:15:55Z"
         },
         {
-          "id": "d4f66e7215f2e0fbf99d9ac91197d0e72c3e634b",
-          "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face / Nvidia to Acquire Hugging Face",
-          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-03T12:10:33Z"
+          "id": "bf56e38204fe5072d81300a4e5630ba736115791",
+          "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制 / OpenAI admits to German wiki ‘incident’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+          "source": "The Verge",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-05T11:15:55Z"
         }
       ],
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_362ae46d9e3c",
-      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-      "primary_url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 3,
+      "story_id": "story_67aff5abb878",
+      "title": "GPT-6 Astra is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
       "source_names": [
-        "Hacker News",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "metr.org"
+        "GitHub Changelog"
       ],
-      "importance_score": 0.837,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.8082,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-04T18:59:51Z",
+      "earliest_at": "2026-09-04T18:59:51Z",
+      "sources": [
+        {
+          "id": "c81991057a853ffe91acd307d388dbac74f1710e",
+          "title": "GPT-6 Astra is generally available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-04T18:59:51Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_fdab4dad7ac0",
+      "title": "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
+      "url": "https://www.ithome.com/0/998/814.htm",
+      "primary_url": "https://www.ithome.com/0/998/814.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "importance_score": 0.8029,
+      "importance_label": "行业动态",
+      "category": "industry",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-03T04:49:35.840000Z",
-      "earliest_at": "2026-09-02T23:08:47Z",
+      "latest_at": "2026-09-05T11:43:16Z",
+      "earliest_at": "2026-09-05T11:43:16Z",
       "sources": [
         {
-          "id": "9fe52d94d5189dd53e827e208467121ac63298a6",
-          "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "211c57b36479363c1c2991e12ee6c42ec65dee09",
+          "title": "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
+          "url": "https://www.ithome.com/0/998/814.htm",
+          "source": "IT之家（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-03T04:49:35.840000Z"
+          "published_at": "2026-09-05T11:43:16Z"
         },
         {
-          "id": "c338a7bf29802a14025c81949bd12d16edac085f",
-          "title": "METR关于OpenAI/Hugging Face黑客攻击事件的报告",
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-          "source": "metr.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-03T04:49:35.840000Z"
-        },
-        {
-          "id": "56d1a46beb49e63c8a6ca58942f3934b4b5f33d8",
-          "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告 / METR Report on OpenAI / Hugging Face Hacking Incident",
-          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-02T23:08:47Z"
+          "id": "c65181578f0b81966af424b1fc0ad36bb3b9d44c",
+          "title": "OpenAI 回应旗下智能体攻进德国网站：将彻底改革“AI 模型攻击”事件披露机制",
+          "url": "https://www.ithome.com/0/998/814.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-05T11:43:16Z"
         }
       ],
       "confidence": "multi-source"
