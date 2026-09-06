@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "1791fbf636d80643",
+  "snapshot_id": "cf000ef314db3042",
   "channel": "ai-news",
-  "generated_at": "2026-09-05T22:29:21.992040Z",
+  "generated_at": "2026-09-06T13:00:11.887791Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 258,
-    "high_priority": 22,
-    "briefs": 20,
-    "stories": 238
+    "signals": 256,
+    "high_priority": 7,
+    "briefs": 13,
+    "stories": 244
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,60 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 62,
-    "Zeli": 53,
-    "Info Flow": 42,
-    "TechURLs": 39,
-    "NewsNow": 20,
-    "AI HOT": 16,
-    "Curated Media": 16,
-    "Follow Builders": 4
+    "Buzzing": 64,
+    "Info Flow": 57,
+    "Zeli": 48,
+    "TechURLs": 35,
+    "NewsNow": 26,
+    "Curated Media": 14,
+    "AI HOT": 5,
+    "OPML RSS": 4
   },
   "top_stories": [
+    {
+      "story_id": "story_ec06a66103fb",
+      "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
+      "url": "https://www.ithome.com/0/998/927.htm",
+      "primary_url": "https://www.ithome.com/0/998/927.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 2,
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "importance_score": 0.7921,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-06T06:46:16Z",
+      "earliest_at": "2026-09-06T06:46:16Z",
+      "sources": [
+        {
+          "id": "cc99a11445f9699c502d014aa4878337b7229e6e",
+          "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
+          "url": "https://www.ithome.com/0/998/927.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-06T06:46:16Z"
+        },
+        {
+          "id": "78ccc313f78c15d5f9130b5e1513e0673e4eaf7c",
+          "title": "OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩一度大幅变化",
+          "url": "https://www.ithome.com/0/998/927.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T06:46:16Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_1cb48b3f4151",
       "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
@@ -44,7 +88,7 @@
         "TechCrunch AI",
         "TechCrunch：AI（RSS）"
       ],
-      "importance_score": 0.8115,
+      "importance_score": 0.7796,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -77,18 +121,18 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_ac5a64ceef28",
-      "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "source": "The Verge：AI（RSS）",
+      "story_id": "story_e2d719d60d77",
+      "title": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
+      "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
+      "primary_url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
+      "source": "The Decoder：AI News（RSS）",
       "source_name": "AI HOT",
       "source_count": 2,
       "source_names": [
-        "The Verge",
-        "The Verge：AI（RSS）"
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.8017,
+      "importance_score": 0.7588,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -96,70 +140,26 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-05T11:15:55Z",
-      "earliest_at": "2026-09-05T11:15:55Z",
+      "latest_at": "2026-09-05T13:31:04Z",
+      "earliest_at": "2026-09-05T13:31:04Z",
       "sources": [
         {
-          "id": "1a45d4c9bbc56daf07ebb121ef83df67aa80fb67",
-          "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-          "source": "The Verge：AI（RSS）",
+          "id": "6e756d5d1a516d955c8d10082347a24296dbc25e",
+          "title": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
+          "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
+          "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-05T11:15:55Z"
+          "published_at": "2026-09-05T13:31:04Z"
         },
         {
-          "id": "bf56e38204fe5072d81300a4e5630ba736115791",
-          "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制 / OpenAI admits to German wiki ‘incident’",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-          "source": "The Verge",
+          "id": "59a40120723ec5d866b59b8d9e1b8036f050434a",
+          "title": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单 / OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
+          "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
+          "source": "The Decoder AI News",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-09-05T11:15:55Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_fdab4dad7ac0",
-      "title": "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
-      "url": "https://www.ithome.com/0/998/814.htm",
-      "primary_url": "https://www.ithome.com/0/998/814.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "importance_score": 0.7937,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-05T11:43:16Z",
-      "earliest_at": "2026-09-05T11:43:16Z",
-      "sources": [
-        {
-          "id": "211c57b36479363c1c2991e12ee6c42ec65dee09",
-          "title": "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
-          "url": "https://www.ithome.com/0/998/814.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-05T11:43:16Z"
-        },
-        {
-          "id": "c65181578f0b81966af424b1fc0ad36bb3b9d44c",
-          "title": "OpenAI 回应旗下智能体攻进德国网站：将彻底改革“AI 模型攻击”事件披露机制",
-          "url": "https://www.ithome.com/0/998/814.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-05T11:43:16Z"
+          "published_at": "2026-09-05T13:31:04Z"
         }
       ],
       "confidence": "multi-source"
