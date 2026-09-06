@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "b44d208dffca4fc0",
+  "snapshot_id": "f4e976e31fc60898",
   "channel": "ai-news",
-  "generated_at": "2026-09-06T18:00:58.785765Z",
+  "generated_at": "2026-09-06T20:02:46.170053Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 267,
-    "high_priority": 9,
+    "signals": 248,
+    "high_priority": 8,
     "briefs": 16,
-    "stories": 251
+    "stories": 231
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 74,
+    "Buzzing": 82,
     "Info Flow": 49,
-    "Zeli": 47,
-    "TechURLs": 35,
-    "NewsNow": 34,
-    "Curated Media": 15,
-    "AI HOT": 6,
+    "Zeli": 48,
+    "TechURLs": 32,
+    "NewsNow": 16,
+    "Curated Media": 10,
+    "AI HOT": 5,
     "OPML RSS": 3
   },
   "top_stories": [
@@ -39,12 +39,13 @@
       "primary_url": "https://openai.com/index/an-alien-mind",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
         "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "openai.com"
       ],
-      "importance_score": 0.855,
+      "importance_score": 0.8755,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -53,7 +54,7 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-06T09:00:00Z",
+      "latest_at": "2026-09-06T18:33:46.745000Z",
       "earliest_at": "2026-09-06T09:00:00Z",
       "sources": [
         {
@@ -73,6 +74,15 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-09-06T09:00:00Z"
+        },
+        {
+          "id": "11c74011454eeca9fdf1dda05e8f4996f0f8c862",
+          "title": "《外星人的思维》",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T18:33:46.745000Z"
         }
       ],
       "confidence": "multi-source"
@@ -89,7 +99,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8528,
+      "importance_score": 0.8483,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -123,48 +133,37 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_ec06a66103fb",
-      "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
-      "url": "https://www.ithome.com/0/998/927.htm",
-      "primary_url": "https://www.ithome.com/0/998/927.htm",
-      "source": "IT之家（RSS）",
+      "story_id": "story_6f9290dbd1a1",
+      "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
+      "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
       "source_name": "AI HOT",
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
+        "X：Rohan Paul (@rohanpaul_ai)"
       ],
-      "importance_score": 0.7806,
+      "importance_score": 0.7903,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-06T06:46:16Z",
-      "earliest_at": "2026-09-06T06:46:16Z",
+      "latest_at": "2026-09-06T18:23:14Z",
+      "earliest_at": "2026-09-06T18:23:14Z",
       "sources": [
         {
-          "id": "cc99a11445f9699c502d014aa4878337b7229e6e",
-          "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
-          "url": "https://www.ithome.com/0/998/927.htm",
-          "source": "IT之家（RSS）",
+          "id": "a760dbdfc09e78a43ddda41e2bc60b343aa60c29",
+          "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
+          "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-06T06:46:16Z"
-        },
-        {
-          "id": "78ccc313f78c15d5f9130b5e1513e0673e4eaf7c",
-          "title": "OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩一度大幅变化",
-          "url": "https://www.ithome.com/0/998/927.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T06:46:16Z"
+          "published_at": "2026-09-06T18:23:14Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     }
   ]
 }
