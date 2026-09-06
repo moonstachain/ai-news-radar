@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "1791fbf636d80643",
+  "snapshot_id": "62753318e6589dc0",
   "channel": "ai-news",
-  "generated_at": "2026-09-05T22:29:21.992040Z",
+  "generated_at": "2026-09-06T00:07:25.569442Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 258,
-    "high_priority": 22,
+    "signals": 256,
+    "high_priority": 18,
     "briefs": 20,
-    "stories": 238
+    "stories": 235
   },
   "coverage": {
     "successful": 16,
@@ -22,13 +22,13 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 62,
-    "Zeli": 53,
-    "Info Flow": 42,
+    "Buzzing": 65,
+    "Zeli": 46,
+    "Info Flow": 44,
     "TechURLs": 39,
-    "NewsNow": 20,
-    "AI HOT": 16,
-    "Curated Media": 16,
+    "NewsNow": 24,
+    "Curated Media": 15,
+    "AI HOT": 12,
     "Follow Builders": 4
   },
   "top_stories": [
@@ -44,7 +44,7 @@
         "TechCrunch AI",
         "TechCrunch：AI（RSS）"
       ],
-      "importance_score": 0.8115,
+      "importance_score": 0.8076,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -88,7 +88,7 @@
         "The Verge",
         "The Verge：AI（RSS）"
       ],
-      "importance_score": 0.8017,
+      "importance_score": 0.7981,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -132,7 +132,7 @@
         "IT之家 (ITHome)",
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7937,
+      "importance_score": 0.7901,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
