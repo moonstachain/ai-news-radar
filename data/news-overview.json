@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "cca905df2480f606",
+  "snapshot_id": "b44d208dffca4fc0",
   "channel": "ai-news",
-  "generated_at": "2026-09-06T16:00:37.193107Z",
+  "generated_at": "2026-09-06T18:00:58.785765Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 255,
-    "high_priority": 6,
-    "briefs": 15,
-    "stories": 242
+    "signals": 267,
+    "high_priority": 9,
+    "briefs": 16,
+    "stories": 251
   },
   "coverage": {
     "successful": 16,
@@ -22,32 +22,79 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 66,
-    "Info Flow": 51,
-    "Zeli": 46,
-    "TechURLs": 37,
-    "NewsNow": 31,
-    "Curated Media": 13,
-    "AI HOT": 4,
-    "OPML RSS": 4
+    "Buzzing": 74,
+    "Info Flow": 49,
+    "Zeli": 47,
+    "TechURLs": 35,
+    "NewsNow": 34,
+    "Curated Media": 15,
+    "AI HOT": 6,
+    "OPML RSS": 3
   },
   "top_stories": [
     {
-      "story_id": "story_19672c4832d4",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "primary_url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "story_id": "story_a8e8f9dc895a",
+      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱 / An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "primary_url": "https://openai.com/index/an-alien-mind",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "OpenAI News"
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8323,
+      "importance_score": 0.855,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-06T09:00:00Z",
+      "earliest_at": "2026-09-06T09:00:00Z",
+      "sources": [
+        {
+          "id": "07df97fa324316a3761be85953d935f46ac91560",
+          "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱 / An Alien Mind",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-06T09:00:00Z"
+        },
+        {
+          "id": "f94f7b5e1736ec0dee7ec7e9760600d5018ad8f1",
+          "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-06T09:00:00Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_19672c4832d4",
+      "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员 / Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "primary_url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      ],
+      "importance_score": 0.8528,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
@@ -56,15 +103,24 @@
       "sources": [
         {
           "id": "e711677302e79fe09b249f41566da77e02ec6e8d",
-          "title": "Research acceleration: The view inside OpenAI",
+          "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员 / Research acceleration: The view inside OpenAI",
           "url": "https://openai.com/index/research-acceleration-view-inside-openai",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-09-06T08:00:00Z"
+        },
+        {
+          "id": "f5a8de608c35a9e40fd19ca0e5310a1a10493dae",
+          "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-06T08:00:00Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     },
     {
       "story_id": "story_ec06a66103fb",
@@ -78,7 +134,7 @@
         "IT之家 (ITHome)",
         "IT之家（RSS）"
       ],
-      "importance_score": 0.7851,
+      "importance_score": 0.7806,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -106,50 +162,6 @@
           "source_name": "Info Flow",
           "site_id": "iris",
           "published_at": "2026-09-06T06:46:16Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_1cb48b3f4151",
-      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "primary_url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "importance_score": 0.7738,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-05T18:05:27Z",
-      "earliest_at": "2026-09-05T18:05:27Z",
-      "sources": [
-        {
-          "id": "f4630bc8d65b5b820902865dd28361dec0883fba",
-          "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-05T18:05:27Z"
-        },
-        {
-          "id": "47aaf60fb1df1d8dddce9401a1e5c859e7a9571b",
-          "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架 / OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-09-05T18:05:27Z"
         }
       ],
       "confidence": "multi-source"

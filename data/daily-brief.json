@@ -1,11 +1,93 @@
 {
-  "generated_at": "2026-09-06T16:00:37.193107Z",
+  "generated_at": "2026-09-06T18:00:58.785765Z",
   "window_hours": 24,
-  "total_items": 15,
+  "total_items": 16,
   "items": [
     {
+      "story_id": "story_a8e8f9dc895a",
+      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱 / An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "primary_url": "https://openai.com/index/an-alien-mind",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "07df97fa324316a3761be85953d935f46ac91560",
+          "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱 / An Alien Mind",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-06T09:00:00Z"
+        },
+        {
+          "id": "f94f7b5e1736ec0dee7ec7e9760600d5018ad8f1",
+          "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-06T09:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      ],
+      "items": [
+        {
+          "id": "07df97fa324316a3761be85953d935f46ac91560",
+          "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱 / An Alien Mind",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-06T09:00:00Z"
+        },
+        {
+          "id": "f94f7b5e1736ec0dee7ec7e9760600d5018ad8f1",
+          "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-06T09:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.855,
+      "importance": 0.855,
+      "importance_score": 0.855,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8779,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-06T09:00:00Z",
+      "latest_at": "2026-09-06T09:00:00Z",
+      "primary_item": {
+        "id": "07df97fa324316a3761be85953d935f46ac91560",
+        "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱 / An Alien Mind",
+        "url": "https://openai.com/index/an-alien-mind",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
       "story_id": "story_19672c4832d4",
-      "title": "Research acceleration: The view inside OpenAI",
+      "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员 / Research acceleration: The view inside OpenAI",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "primary_url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "source": "OpenAI News",
@@ -13,45 +95,65 @@
       "sources": [
         {
           "id": "e711677302e79fe09b249f41566da77e02ec6e8d",
-          "title": "Research acceleration: The view inside OpenAI",
+          "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员 / Research acceleration: The view inside OpenAI",
           "url": "https://openai.com/index/research-acceleration-view-inside-openai",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-09-06T08:00:00Z"
+        },
+        {
+          "id": "f5a8de608c35a9e40fd19ca0e5310a1a10493dae",
+          "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-06T08:00:00Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "OpenAI News"
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
       "items": [
         {
           "id": "e711677302e79fe09b249f41566da77e02ec6e8d",
-          "title": "Research acceleration: The view inside OpenAI",
+          "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员 / Research acceleration: The view inside OpenAI",
           "url": "https://openai.com/index/research-acceleration-view-inside-openai",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-09-06T08:00:00Z"
+        },
+        {
+          "id": "f5a8de608c35a9e40fd19ca0e5310a1a10493dae",
+          "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-06T08:00:00Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8323,
-      "importance": 0.8323,
-      "importance_score": 0.8323,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.8528,
+      "importance": 0.8528,
+      "importance_score": 0.8528,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8908,
-        "story_heat": 0.0
+        "recency": 0.8653,
+        "story_heat": 0.25
       },
       "category": "official",
       "reasons": [
         "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
@@ -59,7 +161,7 @@
       "latest_at": "2026-09-06T08:00:00Z",
       "primary_item": {
         "id": "e711677302e79fe09b249f41566da77e02ec6e8d",
-        "title": "Research acceleration: The view inside OpenAI",
+        "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员 / Research acceleration: The view inside OpenAI",
         "url": "https://openai.com/index/research-acceleration-view-inside-openai",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
@@ -119,15 +221,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7851,
-      "importance": 0.7851,
-      "importance_score": 0.7851,
+      "score": 0.7806,
+      "importance": 0.7806,
+      "importance_score": 0.7806,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8751,
+        "recency": 0.8501,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -200,15 +302,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7738,
-      "importance": 0.7738,
-      "importance_score": 0.7738,
+      "score": 0.77,
+      "importance": 0.77,
+      "importance_score": 0.77,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7287,
+        "recency": 0.7079,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -262,21 +364,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7524,
-      "importance": 0.7524,
-      "importance_score": 0.7524,
+      "score": 0.7487,
+      "importance": 0.7487,
+      "importance_score": 0.7487,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.83,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7323,
+        "recency": 0.7114,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-05T18:26:17Z",
       "latest_at": "2026-09-05T18:26:17Z",
@@ -323,15 +424,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7374,
-      "importance": 0.7374,
-      "importance_score": 0.7374,
+      "score": 0.7335,
+      "importance": 0.7335,
+      "importance_score": 0.7335,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7658,
+        "recency": 0.7439,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -346,6 +447,262 @@
         "url": "https://x.com/testingcatalog/status/2096350628054176240",
         "source": "X：Testing Catalog (@testingcatalog)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_5b887074ff6d",
+      "title": "我对人工智能的看法",
+      "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+      "primary_url": "https://beza1e1.tuxen.de/ai_feelings.html",
+      "source": "beza1e1.tuxen.de",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "8ddde2dc873217589ddd1fc5cef55601fa49ed9b",
+          "title": "我对人工智能的看法",
+          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+          "source": "beza1e1.tuxen.de",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T16:12:11.446000Z"
+        },
+        {
+          "id": "2702175e96021b1ab424f51a5850c37637c74000",
+          "title": "我对人工智能的看法 / How I feel about AI",
+          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-06T15:00:19Z"
+        },
+        {
+          "id": "e5f21d2f11daf2a5349732d418f9116b6f4268d0",
+          "title": "我对人工智能的看法 / I Feel about AI",
+          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-06T15:00:19Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "Hacker News · 24h最热",
+        "beza1e1.tuxen.de"
+      ],
+      "items": [
+        {
+          "id": "8ddde2dc873217589ddd1fc5cef55601fa49ed9b",
+          "title": "我对人工智能的看法",
+          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+          "source": "beza1e1.tuxen.de",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T16:12:11.446000Z"
+        },
+        {
+          "id": "2702175e96021b1ab424f51a5850c37637c74000",
+          "title": "我对人工智能的看法 / How I feel about AI",
+          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-06T15:00:19Z"
+        },
+        {
+          "id": "e5f21d2f11daf2a5349732d418f9116b6f4268d0",
+          "title": "我对人工智能的看法 / I Feel about AI",
+          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-06T15:00:19Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5661,
+      "importance": 0.5661,
+      "importance_score": 0.5661,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9742,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-06T15:00:19Z",
+      "latest_at": "2026-09-06T16:12:11.446000Z",
+      "primary_item": {
+        "id": "8ddde2dc873217589ddd1fc5cef55601fa49ed9b",
+        "title": "我对人工智能的看法",
+        "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+        "source": "beza1e1.tuxen.de",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_0c2a0b5dc5ee",
+      "title": "利用代码审查推动可持续的AI编码开发",
+      "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+      "primary_url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+      "source": "cacm.acm.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "a5da563db0db4e435dbebb5e29c8a5204ad3572d",
+          "title": "利用代码审查推动可持续的AI编码开发",
+          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+          "source": "cacm.acm.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T16:43:06.097000Z"
+        },
+        {
+          "id": "3229d72075b36622f24128425c5a6723c068524e",
+          "title": "利用代码审查推动可持续的AI编码开发 / Leverage Code Review for Sustainable AI Coding Development",
+          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T16:41:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "cacm.acm.org"
+      ],
+      "items": [
+        {
+          "id": "a5da563db0db4e435dbebb5e29c8a5204ad3572d",
+          "title": "利用代码审查推动可持续的AI编码开发",
+          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+          "source": "cacm.acm.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T16:43:06.097000Z"
+        },
+        {
+          "id": "3229d72075b36622f24128425c5a6723c068524e",
+          "title": "利用代码审查推动可持续的AI编码开发 / Leverage Code Review for Sustainable AI Coding Development",
+          "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T16:41:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5425,
+      "importance": 0.5425,
+      "importance_score": 0.5425,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9814,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-06T16:41:01Z",
+      "latest_at": "2026-09-06T16:43:06.097000Z",
+      "primary_item": {
+        "id": "a5da563db0db4e435dbebb5e29c8a5204ad3572d",
+        "title": "利用代码审查推动可持续的AI编码开发",
+        "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
+        "source": "cacm.acm.org",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_fd3208099b40",
+      "title": "OpenAI: We monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "primary_url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "source": "Hacker News",
+      "source_name": "TechURLs",
+      "sources": [
+        {
+          "id": "d58f06c32b97b48cc942f7a5009f9b278fab7e26",
+          "title": "OpenAI: We monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-06T16:37:55Z"
+        },
+        {
+          "id": "0a941a1961d8acb99621a69a466de79a90802697",
+          "title": "We monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T16:37:55Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)"
+      ],
+      "items": [
+        {
+          "id": "d58f06c32b97b48cc942f7a5009f9b278fab7e26",
+          "title": "OpenAI: We monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-06T16:37:55Z"
+        },
+        {
+          "id": "0a941a1961d8acb99621a69a466de79a90802697",
+          "title": "We monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T16:37:55Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5422,
+      "importance": 0.5422,
+      "importance_score": 0.5422,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9802,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-06T16:37:55Z",
+      "latest_at": "2026-09-06T16:37:55Z",
+      "primary_item": {
+        "id": "d58f06c32b97b48cc942f7a5009f9b278fab7e26",
+        "title": "OpenAI: We monitor internal coding agents for misalignment",
+        "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+        "source": "Hacker News",
+        "source_name": "TechURLs"
       }
     },
     {
@@ -402,15 +759,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5443,
-      "importance": 0.5443,
-      "importance_score": 0.5443,
+      "score": 0.5392,
+      "importance": 0.5392,
+      "importance_score": 0.5392,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9918,
+        "recency": 0.9635,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -445,18 +802,18 @@
           "published_at": "2026-09-06T14:22:15.057000Z"
         },
         {
-          "id": "76ba457e09973ac9f9d2633d5f022bb5fbe4f9a9",
+          "id": "13b8eae4cc6359941073f2142dff6e8ccd6ecc22",
           "title": "人工智能、工具与转型 / AI, Tools and Transformation",
           "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
           "published_at": "2026-09-06T02:12:46Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News",
+        "Hacker News (黑客新闻)",
         "www.ben-evans.com"
       ],
       "items": [
@@ -470,26 +827,26 @@
           "published_at": "2026-09-06T14:22:15.057000Z"
         },
         {
-          "id": "76ba457e09973ac9f9d2633d5f022bb5fbe4f9a9",
+          "id": "13b8eae4cc6359941073f2142dff6e8ccd6ecc22",
           "title": "人工智能、工具与转型 / AI, Tools and Transformation",
           "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
           "published_at": "2026-09-06T02:12:46Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5416,
-      "importance": 0.5416,
-      "importance_score": 0.5416,
+      "score": 0.5366,
+      "importance": 0.5366,
+      "importance_score": 0.5366,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9766,
+        "recency": 0.9487,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -559,15 +916,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5355,
-      "importance": 0.5355,
-      "importance_score": 0.5355,
+      "score": 0.5307,
+      "importance": 0.5307,
+      "importance_score": 0.5307,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.943,
+        "recency": 0.9161,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -611,18 +968,18 @@
           "published_at": "2026-09-05T22:19:59.965000Z"
         },
         {
-          "id": "b72649e582a023f0cfd069e021e67fcb9a6c5ec5",
+          "id": "99c4961efc5cdd3dafa4e1dd11aff6b0b36c2ea1",
           "title": "大语言模型作为认知病毒 / LLMs as a Cognitive Virus",
           "url": "https://arxiv.org/abs/2609.03344",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-05T20:02:35Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "arxiv.org"
       ],
       "items": [
@@ -645,26 +1002,26 @@
           "published_at": "2026-09-05T22:19:59.965000Z"
         },
         {
-          "id": "b72649e582a023f0cfd069e021e67fcb9a6c5ec5",
+          "id": "99c4961efc5cdd3dafa4e1dd11aff6b0b36c2ea1",
           "title": "大语言模型作为认知病毒 / LLMs as a Cognitive Virus",
           "url": "https://arxiv.org/abs/2609.03344",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-05T20:02:35Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5302,
-      "importance": 0.5302,
-      "importance_score": 0.5302,
+      "score": 0.5263,
+      "importance": 0.5263,
+      "importance_score": 0.5263,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7747,
+        "recency": 0.7526,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -735,15 +1092,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5257,
-      "importance": 0.5257,
-      "importance_score": 0.5257,
+      "score": 0.5211,
+      "importance": 0.5211,
+      "importance_score": 0.5211,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8884,
+        "recency": 0.863,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -778,18 +1135,18 @@
           "published_at": "2026-09-06T04:56:10.649000Z"
         },
         {
-          "id": "d075ebc311b9df2a498b1a183f0c1fab5149f730",
+          "id": "11c242abc23cebdcce3261b11e77fba0139ddbb4",
           "title": "安装在机械臂上的GPT-6 Astra / GPT-6 Astra on robot arms",
           "url": "https://openai.robocurve.org/gpt-6-astra",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-06T01:52:45Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News",
+        "Hacker News · 24h最热",
         "openai.robocurve.org"
       ],
       "items": [
@@ -803,26 +1160,26 @@
           "published_at": "2026-09-06T04:56:10.649000Z"
         },
         {
-          "id": "d075ebc311b9df2a498b1a183f0c1fab5149f730",
+          "id": "11c242abc23cebdcce3261b11e77fba0139ddbb4",
           "title": "安装在机械臂上的GPT-6 Astra / GPT-6 Astra on robot arms",
           "url": "https://openai.robocurve.org/gpt-6-astra",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
           "published_at": "2026-09-06T01:52:45Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5192,
-      "importance": 0.5192,
-      "importance_score": 0.5192,
+      "score": 0.5148,
+      "importance": 0.5148,
+      "importance_score": 0.5148,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8522,
+        "recency": 0.8279,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -893,15 +1250,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5056,
-      "importance": 0.5056,
-      "importance_score": 0.5056,
+      "score": 0.5016,
+      "importance": 0.5016,
+      "importance_score": 0.5016,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7766,
+        "recency": 0.7544,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -916,243 +1273,6 @@
         "url": "https://news.ycombinator.com/item?id=49580980",
         "source": "hackernews",
         "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_cc15feb485e7",
-      "title": "Show HN: 我们超越了 MLPerf：适用于键值对卸载和大型语言模型训练的现代化存储方案",
-      "url": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
-      "primary_url": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
-      "source": "www.theopenlake.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "af2a6cb05d3d44e853735d3a192957c0f5664202",
-          "title": "Show HN: 我们超越了 MLPerf：适用于键值对卸载和大型语言模型训练的现代化存储方案",
-          "url": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
-          "source": "www.theopenlake.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T17:35:49.695000Z"
-        },
-        {
-          "id": "8390f6866622ca297ba2ff53f8660c8f525a35d8",
-          "title": "Show HN: 我们超越了 MLPerf：适用于键值对卸载和大型语言模型训练的现代化存储方案 / Show HN: We Beat MLPerf: Modern Storage for KV Offload and LLM Training",
-          "url": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-05T17:32:20Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "www.theopenlake.com"
-      ],
-      "items": [
-        {
-          "id": "af2a6cb05d3d44e853735d3a192957c0f5664202",
-          "title": "Show HN: 我们超越了 MLPerf：适用于键值对卸载和大型语言模型训练的现代化存储方案",
-          "url": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
-          "source": "www.theopenlake.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T17:35:49.695000Z"
-        },
-        {
-          "id": "8390f6866622ca297ba2ff53f8660c8f525a35d8",
-          "title": "Show HN: 我们超越了 MLPerf：适用于键值对卸载和大型语言模型训练的现代化存储方案 / Show HN: We Beat MLPerf: Modern Storage for KV Offload and LLM Training",
-          "url": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-05T17:32:20Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.496,
-      "importance": 0.496,
-      "importance_score": 0.496,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7235,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-05T17:32:20Z",
-      "latest_at": "2026-09-05T17:35:49.695000Z",
-      "primary_item": {
-        "id": "af2a6cb05d3d44e853735d3a192957c0f5664202",
-        "title": "Show HN: 我们超越了 MLPerf：适用于键值对卸载和大型语言模型训练的现代化存储方案",
-        "url": "https://www.theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
-        "source": "www.theopenlake.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_c28811eea145",
-      "title": "OpenAI 承认了“维基事件”，并表示需要就人工智能的意外行为提高透明度",
-      "url": "https://reut.rs/3ThCCCK",
-      "primary_url": "https://reut.rs/3ThCCCK",
-      "source": "reut.rs",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "3cb54ac4ac52544f650ec7092267950dc02b99cc",
-          "title": "OpenAI 承认了“维基事件”，并表示需要就人工智能的意外行为提高透明度",
-          "url": "https://reut.rs/3ThCCCK",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T17:21:09.221000Z"
-        },
-        {
-          "id": "75766f7c30c151b30f43c944cab00e7e45558ce2",
-          "title": "OpenAI 承认了“维基事件”，并表示需要就人工智能的意外行为提高透明度 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU0FtQktXNWY5eEpHaUxBVGI2YWpHWE9SUGUtb1BhUkxLQmJvODRPX01WMnFqeEI2RThKMi1IT0E1eDBSUngtQkIwTUtiQWFjSHpFbXY0Q1BFcjZuUnBkVEZFMnFtOWpLUHVOZ1lZZzIwT3NxSnJnNG5DdHBvWi1STnFWSk1reWZRVkpEQjlCT05fdm8tV3ItQU5kSThCSjZON3ZvNXJhNXB2dWV0Zmt6NlJ1UUxoUDY4ZjZERk1qWmNUNkIxaW01anhRSURSaGlPZkE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T17:21:09.203000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "news.google.com",
-        "reut.rs"
-      ],
-      "items": [
-        {
-          "id": "3cb54ac4ac52544f650ec7092267950dc02b99cc",
-          "title": "OpenAI 承认了“维基事件”，并表示需要就人工智能的意外行为提高透明度",
-          "url": "https://reut.rs/3ThCCCK",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T17:21:09.221000Z"
-        },
-        {
-          "id": "75766f7c30c151b30f43c944cab00e7e45558ce2",
-          "title": "OpenAI 承认了“维基事件”，并表示需要就人工智能的意外行为提高透明度 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU0FtQktXNWY5eEpHaUxBVGI2YWpHWE9SUGUtb1BhUkxLQmJvODRPX01WMnFqeEI2RThKMi1IT0E1eDBSUngtQkIwTUtiQWFjSHpFbXY0Q1BFcjZuUnBkVEZFMnFtOWpLUHVOZ1lZZzIwT3NxSnJnNG5DdHBvWi1STnFWSk1reWZRVkpEQjlCT05fdm8tV3ItQU5kSThCSjZON3ZvNXJhNXB2dWV0Zmt6NlJ1UUxoUDY4ZjZERk1qWmNUNkIxaW01anhRSURSaGlPZkE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T17:21:09.203000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4956,
-      "importance": 0.4956,
-      "importance_score": 0.4956,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7209,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-05T17:21:09.203000Z",
-      "latest_at": "2026-09-05T17:21:09.221000Z",
-      "primary_item": {
-        "id": "3cb54ac4ac52544f650ec7092267950dc02b99cc",
-        "title": "OpenAI 承认了“维基事件”，并表示需要就人工智能的意外行为提高透明度",
-        "url": "https://reut.rs/3ThCCCK",
-        "source": "reut.rs",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_6993de6f2e8a",
-      "title": "OpenAI表示，将调整在人工智能代理出现失控情况时向公众通报的方式",
-      "url": "https://www.businessinsider.com/openai-ai-agent-rogue-reporting-german-wiki-hugging-face-2026-9",
-      "primary_url": "https://www.businessinsider.com/openai-ai-agent-rogue-reporting-german-wiki-hugging-face-2026-9",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "4e6c7327e3738359eff052733767c670dd48f81d",
-          "title": "OpenAI表示，将调整在人工智能代理出现失控情况时向公众通报的方式",
-          "url": "https://www.businessinsider.com/openai-ai-agent-rogue-reporting-german-wiki-hugging-face-2026-9",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T16:18:47.467000Z"
-        },
-        {
-          "id": "4e55fd6a71d454fdf05417e47d286e4ac4229daa",
-          "title": "OpenAI表示，将调整在人工智能代理出现失控情况时向公众通报的方式 / OpenAI says it will change how it informs the public when its AI agents go off the rails",
-          "url": "https://www.businessinsider.com/openai-ai-agent-rogue-reporting-german-wiki-hugging-face-2026-9",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-05T16:09:59Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "4e6c7327e3738359eff052733767c670dd48f81d",
-          "title": "OpenAI表示，将调整在人工智能代理出现失控情况时向公众通报的方式",
-          "url": "https://www.businessinsider.com/openai-ai-agent-rogue-reporting-german-wiki-hugging-face-2026-9",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T16:18:47.467000Z"
-        },
-        {
-          "id": "4e55fd6a71d454fdf05417e47d286e4ac4229daa",
-          "title": "OpenAI表示，将调整在人工智能代理出现失控情况时向公众通报的方式 / OpenAI says it will change how it informs the public when its AI agents go off the rails",
-          "url": "https://www.businessinsider.com/openai-ai-agent-rogue-reporting-german-wiki-hugging-face-2026-9",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-05T16:09:59Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4936,
-      "importance": 0.4936,
-      "importance_score": 0.4936,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7102,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-05T16:09:59Z",
-      "latest_at": "2026-09-05T16:18:47.467000Z",
-      "primary_item": {
-        "id": "4e6c7327e3738359eff052733767c670dd48f81d",
-        "title": "OpenAI表示，将调整在人工智能代理出现失控情况时向公众通报的方式",
-        "url": "https://www.businessinsider.com/openai-ai-agent-rogue-reporting-german-wiki-hugging-face-2026-9",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
       }
     }
   ]
