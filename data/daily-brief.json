@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T18:00:58.785765Z",
+  "generated_at": "2026-09-06T20:02:46.170053Z",
   "window_hours": 24,
   "total_items": 16,
   "items": [
@@ -28,12 +28,22 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-09-06T09:00:00Z"
+        },
+        {
+          "id": "11c74011454eeca9fdf1dda05e8f4996f0f8c862",
+          "title": "《外星人的思维》",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T18:33:46.745000Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
         "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "openai.com"
       ],
       "items": [
         {
@@ -53,20 +63,29 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-09-06T09:00:00Z"
+        },
+        {
+          "id": "11c74011454eeca9fdf1dda05e8f4996f0f8c862",
+          "title": "《外星人的思维》",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T18:33:46.745000Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.855,
-      "importance": 0.855,
-      "importance_score": 0.855,
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8755,
+      "importance": 0.8755,
+      "importance_score": 0.8755,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8779,
-        "story_heat": 0.25
+        "recency": 0.8526,
+        "story_heat": 0.5
       },
       "category": "official",
       "reasons": [
@@ -76,7 +95,7 @@
         "high_importance"
       ],
       "earliest_at": "2026-09-06T09:00:00Z",
-      "latest_at": "2026-09-06T09:00:00Z",
+      "latest_at": "2026-09-06T18:33:46.745000Z",
       "primary_item": {
         "id": "07df97fa324316a3761be85953d935f46ac91560",
         "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱 / An Alien Mind",
@@ -139,15 +158,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8528,
-      "importance": 0.8528,
-      "importance_score": 0.8528,
+      "score": 0.8483,
+      "importance": 0.8483,
+      "importance_score": 0.8483,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8653,
+        "recency": 0.8403,
         "story_heat": 0.25
       },
       "category": "official",
@@ -165,6 +184,67 @@
         "url": "https://openai.com/index/research-acceleration-view-inside-openai",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6f9290dbd1a1",
+      "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
+      "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+      "primary_url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a760dbdfc09e78a43ddda41e2bc60b343aa60c29",
+          "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
+          "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-06T18:23:14Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "items": [
+        {
+          "id": "a760dbdfc09e78a43ddda41e2bc60b343aa60c29",
+          "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
+          "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-06T18:23:14Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7903,
+      "importance": 0.7903,
+      "importance_score": 0.7903,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9763,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-06T18:23:14Z",
+      "latest_at": "2026-09-06T18:23:14Z",
+      "primary_item": {
+        "id": "a760dbdfc09e78a43ddda41e2bc60b343aa60c29",
+        "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
+        "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+        "source": "X：Rohan Paul (@rohanpaul_ai)",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -221,15 +301,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7806,
-      "importance": 0.7806,
-      "importance_score": 0.7806,
+      "score": 0.7762,
+      "importance": 0.7762,
+      "importance_score": 0.7762,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8501,
+        "recency": 0.8256,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -245,147 +325,6 @@
         "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
         "url": "https://www.ithome.com/0/998/927.htm",
         "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_1cb48b3f4151",
-      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "primary_url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "f4630bc8d65b5b820902865dd28361dec0883fba",
-          "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-05T18:05:27Z"
-        },
-        {
-          "id": "47aaf60fb1df1d8dddce9401a1e5c859e7a9571b",
-          "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架 / OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-09-05T18:05:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "f4630bc8d65b5b820902865dd28361dec0883fba",
-          "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-05T18:05:27Z"
-        },
-        {
-          "id": "47aaf60fb1df1d8dddce9401a1e5c859e7a9571b",
-          "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架 / OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-09-05T18:05:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.77,
-      "importance": 0.77,
-      "importance_score": 0.77,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7079,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-05T18:05:27Z",
-      "latest_at": "2026-09-05T18:05:27Z",
-      "primary_item": {
-        "id": "f4630bc8d65b5b820902865dd28361dec0883fba",
-        "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-        "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_8eaa7da6c549",
-      "title": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
-      "url": "https://x.com/rohanpaul_ai/status/2096303922378088854",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2096303922378088854",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "786836d98ac997152df84d9f9ed173eda62be199",
-          "title": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
-          "url": "https://x.com/rohanpaul_ai/status/2096303922378088854",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-05T18:26:17Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "items": [
-        {
-          "id": "786836d98ac997152df84d9f9ed173eda62be199",
-          "title": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
-          "url": "https://x.com/rohanpaul_ai/status/2096303922378088854",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-05T18:26:17Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7487,
-      "importance": 0.7487,
-      "importance_score": 0.7487,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.83,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7114,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-05T18:26:17Z",
-      "latest_at": "2026-09-05T18:26:17Z",
-      "primary_item": {
-        "id": "786836d98ac997152df84d9f9ed173eda62be199",
-        "title": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
-        "url": "https://x.com/rohanpaul_ai/status/2096303922378088854",
-        "source": "X：Rohan Paul (@rohanpaul_ai)",
         "source_name": "AI HOT"
       }
     },
@@ -424,15 +363,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7335,
-      "importance": 0.7335,
-      "importance_score": 0.7335,
+      "score": 0.7296,
+      "importance": 0.7296,
+      "importance_score": 0.7296,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7439,
+        "recency": 0.7224,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -447,6 +386,104 @@
         "url": "https://x.com/testingcatalog/status/2096350628054176240",
         "source": "X：Testing Catalog (@testingcatalog)",
         "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_fd3208099b40",
+      "title": "How we monitor internal coding agents for misalignment",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "primary_url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "dc4a99e87eea84ee409b6b1a2e7cf956287554de",
+          "title": "How we monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-06T16:37:55Z"
+        },
+        {
+          "id": "d58f06c32b97b48cc942f7a5009f9b278fab7e26",
+          "title": "OpenAI: We monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-06T16:37:55Z"
+        },
+        {
+          "id": "0a941a1961d8acb99621a69a466de79a90802697",
+          "title": "We monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T16:37:55Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "dc4a99e87eea84ee409b6b1a2e7cf956287554de",
+          "title": "How we monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-06T16:37:55Z"
+        },
+        {
+          "id": "d58f06c32b97b48cc942f7a5009f9b278fab7e26",
+          "title": "OpenAI: We monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-06T16:37:55Z"
+        },
+        {
+          "id": "0a941a1961d8acb99621a69a466de79a90802697",
+          "title": "We monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-06T16:37:55Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5621,
+      "importance": 0.5621,
+      "importance_score": 0.5621,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9519,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-06T16:37:55Z",
+      "latest_at": "2026-09-06T16:37:55Z",
+      "primary_item": {
+        "id": "dc4a99e87eea84ee409b6b1a2e7cf956287554de",
+        "title": "How we monitor internal coding agents for misalignment",
+        "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     },
     {
@@ -522,15 +559,15 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5661,
-      "importance": 0.5661,
-      "importance_score": 0.5661,
+      "score": 0.5611,
+      "importance": 0.5611,
+      "importance_score": 0.5611,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9742,
+        "recency": 0.946,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -544,6 +581,85 @@
         "title": "我对人工智能的看法",
         "url": "https://beza1e1.tuxen.de/ai_feelings.html",
         "source": "beza1e1.tuxen.de",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_f2769b9ac609",
+      "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。",
+      "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
+      "primary_url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "3eab50b1fb974c108b072876b8b676fd1ddd60cc",
+          "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。",
+          "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T17:30:50.842000Z"
+        },
+        {
+          "id": "75d0ddc47e7e05a7db91b65c1ec7ce4908aed738",
+          "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。 / AI agents keep finding ways to bend the rules. Here are some of the wildest.",
+          "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-06T17:05:25Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "3eab50b1fb974c108b072876b8b676fd1ddd60cc",
+          "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。",
+          "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-06T17:30:50.842000Z"
+        },
+        {
+          "id": "75d0ddc47e7e05a7db91b65c1ec7ce4908aed738",
+          "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。 / AI agents keep finding ways to bend the rules. Here are some of the wildest.",
+          "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-06T17:05:25Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5393,
+      "importance": 0.5393,
+      "importance_score": 0.5393,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9641,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-06T17:05:25Z",
+      "latest_at": "2026-09-06T17:30:50.842000Z",
+      "primary_item": {
+        "id": "3eab50b1fb974c108b072876b8b676fd1ddd60cc",
+        "title": "人工智能代理总能找到钻空子的办法。以下是一些最离谱的例子。",
+        "url": "https://www.businessinsider.com/ai-agents-rogue-strategies-cheating-lying-german-wiki-openai-anthropic-2026-9",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -601,15 +717,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5425,
-      "importance": 0.5425,
-      "importance_score": 0.5425,
+      "score": 0.5374,
+      "importance": 0.5374,
+      "importance_score": 0.5374,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9814,
+        "recency": 0.9531,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -624,85 +740,6 @@
         "url": "https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development",
         "source": "cacm.acm.org",
         "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_fd3208099b40",
-      "title": "OpenAI: We monitor internal coding agents for misalignment",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "primary_url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "d58f06c32b97b48cc942f7a5009f9b278fab7e26",
-          "title": "OpenAI: We monitor internal coding agents for misalignment",
-          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-06T16:37:55Z"
-        },
-        {
-          "id": "0a941a1961d8acb99621a69a466de79a90802697",
-          "title": "We monitor internal coding agents for misalignment",
-          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T16:37:55Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "Hacker News (黑客新闻)"
-      ],
-      "items": [
-        {
-          "id": "d58f06c32b97b48cc942f7a5009f9b278fab7e26",
-          "title": "OpenAI: We monitor internal coding agents for misalignment",
-          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-06T16:37:55Z"
-        },
-        {
-          "id": "0a941a1961d8acb99621a69a466de79a90802697",
-          "title": "We monitor internal coding agents for misalignment",
-          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-09-06T16:37:55Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5422,
-      "importance": 0.5422,
-      "importance_score": 0.5422,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9802,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-06T16:37:55Z",
-      "latest_at": "2026-09-06T16:37:55Z",
-      "primary_item": {
-        "id": "d58f06c32b97b48cc942f7a5009f9b278fab7e26",
-        "title": "OpenAI: We monitor internal coding agents for misalignment",
-        "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
       }
     },
     {
@@ -759,15 +796,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5392,
-      "importance": 0.5392,
-      "importance_score": 0.5392,
+      "score": 0.5342,
+      "importance": 0.5342,
+      "importance_score": 0.5342,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9635,
+        "recency": 0.9356,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -838,15 +875,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5366,
-      "importance": 0.5366,
-      "importance_score": 0.5366,
+      "score": 0.5316,
+      "importance": 0.5316,
+      "importance_score": 0.5316,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9487,
+        "recency": 0.9213,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -860,181 +897,6 @@
         "title": "人工智能、工具与转型",
         "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
         "source": "www.ben-evans.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_0c4cbb7ffcc5",
-      "title": "“智飞”已开放 / Intellectual Fly Is Open",
-      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
-      "primary_url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "sources": [
-        {
-          "id": "cd70f576fdbe0e24a6dd78154010844e02393742",
-          "title": "“智飞”已开放 / Intellectual Fly Is Open",
-          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-06T11:56:43Z"
-        },
-        {
-          "id": "90c5506c1c7c8cd75d4bbda43b67ec1ef23b9be0",
-          "title": "“智飞”已开放 / Intellectual Fly Is Open (2025)",
-          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-06T11:56:43Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "items": [
-        {
-          "id": "cd70f576fdbe0e24a6dd78154010844e02393742",
-          "title": "“智飞”已开放 / Intellectual Fly Is Open",
-          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-06T11:56:43Z"
-        },
-        {
-          "id": "90c5506c1c7c8cd75d4bbda43b67ec1ef23b9be0",
-          "title": "“智飞”已开放 / Intellectual Fly Is Open (2025)",
-          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-06T11:56:43Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5307,
-      "importance": 0.5307,
-      "importance_score": 0.5307,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9161,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-06T11:56:43Z",
-      "latest_at": "2026-09-06T11:56:43Z",
-      "primary_item": {
-        "id": "cd70f576fdbe0e24a6dd78154010844e02393742",
-        "title": "“智飞”已开放 / Intellectual Fly Is Open",
-        "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      }
-    },
-    {
-      "story_id": "story_b6a75cdb30da",
-      "title": "大型语言模型作为认知病毒",
-      "url": "https://arxiv.org/abs/2609.03344",
-      "primary_url": "https://arxiv.org/abs/2609.03344",
-      "source": "arxiv.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "ee960bc39612b0f42d0123d94fccbb52085cb023",
-          "title": "大型语言模型作为认知病毒",
-          "url": "https://arxiv.org/abs/2609.03344",
-          "source": "arxiv.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T22:19:59.980000Z"
-        },
-        {
-          "id": "14d5f3d25a90a052a62873de13da4b3d36db8db5",
-          "title": "大语言模型作为认知病毒",
-          "url": "https://arxiv.org/abs/2609.03344",
-          "source": "arxiv.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T22:19:59.965000Z"
-        },
-        {
-          "id": "99c4961efc5cdd3dafa4e1dd11aff6b0b36c2ea1",
-          "title": "大语言模型作为认知病毒 / LLMs as a Cognitive Virus",
-          "url": "https://arxiv.org/abs/2609.03344",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-05T20:02:35Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "arxiv.org"
-      ],
-      "items": [
-        {
-          "id": "ee960bc39612b0f42d0123d94fccbb52085cb023",
-          "title": "大型语言模型作为认知病毒",
-          "url": "https://arxiv.org/abs/2609.03344",
-          "source": "arxiv.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T22:19:59.980000Z"
-        },
-        {
-          "id": "14d5f3d25a90a052a62873de13da4b3d36db8db5",
-          "title": "大语言模型作为认知病毒",
-          "url": "https://arxiv.org/abs/2609.03344",
-          "source": "arxiv.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-05T22:19:59.965000Z"
-        },
-        {
-          "id": "99c4961efc5cdd3dafa4e1dd11aff6b0b36c2ea1",
-          "title": "大语言模型作为认知病毒 / LLMs as a Cognitive Virus",
-          "url": "https://arxiv.org/abs/2609.03344",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-05T20:02:35Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5263,
-      "importance": 0.5263,
-      "importance_score": 0.5263,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7526,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-05T20:02:35Z",
-      "latest_at": "2026-09-05T22:19:59.980000Z",
-      "primary_item": {
-        "id": "ee960bc39612b0f42d0123d94fccbb52085cb023",
-        "title": "大型语言模型作为认知病毒",
-        "url": "https://arxiv.org/abs/2609.03344",
-        "source": "arxiv.org",
         "source_name": "Buzzing"
       }
     },
@@ -1092,15 +954,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5211,
-      "importance": 0.5211,
-      "importance_score": 0.5211,
+      "score": 0.5167,
+      "importance": 0.5167,
+      "importance_score": 0.5167,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.863,
+        "recency": 0.8381,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1171,15 +1033,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5148,
-      "importance": 0.5148,
-      "importance_score": 0.5148,
+      "score": 0.5105,
+      "importance": 0.5105,
+      "importance_score": 0.5105,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8279,
+        "recency": 0.804,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1250,15 +1112,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5016,
-      "importance": 0.5016,
-      "importance_score": 0.5016,
+      "score": 0.4977,
+      "importance": 0.4977,
+      "importance_score": 0.4977,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7544,
+        "recency": 0.7326,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1273,6 +1135,162 @@
         "url": "https://news.ycombinator.com/item?id=49580980",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_b6a75cdb30da",
+      "title": "大型语言模型作为认知病毒",
+      "url": "https://arxiv.org/abs/2609.03344",
+      "primary_url": "https://arxiv.org/abs/2609.03344",
+      "source": "arxiv.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "ee960bc39612b0f42d0123d94fccbb52085cb023",
+          "title": "大型语言模型作为认知病毒",
+          "url": "https://arxiv.org/abs/2609.03344",
+          "source": "arxiv.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-05T22:19:59.980000Z"
+        },
+        {
+          "id": "14d5f3d25a90a052a62873de13da4b3d36db8db5",
+          "title": "大语言模型作为认知病毒",
+          "url": "https://arxiv.org/abs/2609.03344",
+          "source": "arxiv.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-05T22:19:59.965000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "arxiv.org"
+      ],
+      "items": [
+        {
+          "id": "ee960bc39612b0f42d0123d94fccbb52085cb023",
+          "title": "大型语言模型作为认知病毒",
+          "url": "https://arxiv.org/abs/2609.03344",
+          "source": "arxiv.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-05T22:19:59.980000Z"
+        },
+        {
+          "id": "14d5f3d25a90a052a62873de13da4b3d36db8db5",
+          "title": "大语言模型作为认知病毒",
+          "url": "https://arxiv.org/abs/2609.03344",
+          "source": "arxiv.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-05T22:19:59.965000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4974,
+      "importance": 0.4974,
+      "importance_score": 0.4974,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7309,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-05T22:19:59.965000Z",
+      "latest_at": "2026-09-05T22:19:59.980000Z",
+      "primary_item": {
+        "id": "ee960bc39612b0f42d0123d94fccbb52085cb023",
+        "title": "大型语言模型作为认知病毒",
+        "url": "https://arxiv.org/abs/2609.03344",
+        "source": "arxiv.org",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_0c4cbb7ffcc5",
+      "title": "“智飞”已开放 / Intellectual Fly Is Open",
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+      "primary_url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "sources": [
+        {
+          "id": "cd70f576fdbe0e24a6dd78154010844e02393742",
+          "title": "“智飞”已开放 / Intellectual Fly Is Open",
+          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-06T11:56:43Z"
+        },
+        {
+          "id": "90c5506c1c7c8cd75d4bbda43b67ec1ef23b9be0",
+          "title": "“智飞”已开放 / Intellectual Fly Is Open (2025)",
+          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-06T11:56:43Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "items": [
+        {
+          "id": "cd70f576fdbe0e24a6dd78154010844e02393742",
+          "title": "“智飞”已开放 / Intellectual Fly Is Open",
+          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-06T11:56:43Z"
+        },
+        {
+          "id": "90c5506c1c7c8cd75d4bbda43b67ec1ef23b9be0",
+          "title": "“智飞”已开放 / Intellectual Fly Is Open (2025)",
+          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-06T11:56:43Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5259,
+      "importance": 0.5259,
+      "importance_score": 0.5259,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8896,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-09-06T11:56:43Z",
+      "latest_at": "2026-09-06T11:56:43Z",
+      "primary_item": {
+        "id": "cd70f576fdbe0e24a6dd78154010844e02393742",
+        "title": "“智飞”已开放 / Intellectual Fly Is Open",
+        "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
       }
     }
   ]
