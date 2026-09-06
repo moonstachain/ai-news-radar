@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "cca905df2480f606",
+  "snapshot_id": "b44d208dffca4fc0",
   "channel": "ai-business",
-  "generated_at": "2026-09-06T16:11:51.971810Z",
+  "generated_at": "2026-09-06T18:12:03.328413Z",
   "window_hours": 24,
-  "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+  "decision": "Prioritize evidence with concrete economics, repeatable distribution, and explicit counter-signals.",
   "metrics": {
-    "signals": 1,
-    "briefs": 1,
-    "clusters": 1,
-    "cases": 1
+    "signals": 0,
+    "briefs": 0,
+    "clusters": 0,
+    "cases": 0
   },
   "coverage": {
     "successful": 15,
@@ -18,59 +18,7 @@
     "ratio": 0.5769,
     "status": "limited"
   },
-  "brief": [
-    {
-      "brief_id": "biz_brief_6fd6c6e17bb0",
-      "rank": 1,
-      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "evidence_refs": [
-        "biz_086be709f0f9"
-      ],
-      "evidence_titles": [
-        "🧠 Community Wisdom: Driving AI adoption when habits are the bottleneck, leveling up from APM to a mid-level PM role, converting a wave of new users to subscription, and more"
-      ],
-      "risk_level": "low",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
-    }
-  ],
-  "actions": [
-    {
-      "id": "biz_brief_6fd6c6e17bb0",
-      "label": "Brief #1",
-      "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
-    }
-  ],
-  "clusters": [
-    {
-      "cluster_id": "biz_cluster_d9a22ae5b47e",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "source_count": 1,
-      "importance_score": 31,
-      "confidence": "watch",
-      "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
-      ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
-      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "evidence_refs": [
-        "biz_086be709f0f9"
-      ],
-      "top_sources": [
-        {
-          "source": "Lenny's Newsletter",
-          "title": "🧠 Community Wisdom: Driving AI adoption when habits are the bottleneck, leveling up from APM to a mid-level PM role, converting a wave of new users to subscription, and more",
-          "url": "https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption"
-        }
-      ]
-    }
-  ]
+  "brief": [],
+  "actions": [],
+  "clusters": []
 }
