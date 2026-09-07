@@ -1,5 +1,41 @@
 {
-  "generated_at": "2026-09-07T00:17:41.842056Z",
+  "generated_at": "2026-09-07T05:12:19.038868Z",
   "window_hours": 24,
-  "items": []
+  "items": [
+    {
+      "signal_id": "biz_91602c7ddfde",
+      "title": "$48 MRR and I can't prove where any of it came from",
+      "url": "https://www.indiehackers.com/post/48-mrr-and-i-cant-prove-where-any-of-it-came-from-e4c2829e58",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-09-06T14:46:02.614000Z",
+      "captured_at": "2026-09-07T05:12:19.038868Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "MRR"
+      ],
+      "business_model_tags": [
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 32,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "$48 MRR and I can't prove where any of it came from Tags: OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    }
+  ]
 }
