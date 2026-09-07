@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d269e7ada3dfb55f",
+  "snapshot_id": "515b9b0213aa074f",
   "channel": "ai-news",
-  "generated_at": "2026-09-07T00:07:28.126456Z",
+  "generated_at": "2026-09-07T22:10:20.534013Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 276,
-    "high_priority": 8,
-    "briefs": 16,
-    "stories": 258
+    "signals": 242,
+    "high_priority": 25,
+    "briefs": 20,
+    "stories": 236
   },
   "coverage": {
     "successful": 16,
@@ -22,145 +22,123 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 90,
-    "Info Flow": 57,
-    "Zeli": 53,
-    "TechURLs": 38,
-    "NewsNow": 14,
-    "Curated Media": 13,
-    "AI HOT": 4,
-    "Official AI Updates": 2
+    "Zeli": 62,
+    "Buzzing": 47,
+    "TechURLs": 35,
+    "Info Flow": 34,
+    "AIbase": 20,
+    "OPML RSS": 12,
+    "Curated Media": 11,
+    "NewsNow": 11
   },
   "top_stories": [
     {
-      "story_id": "story_a8e8f9dc895a",
-      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱 / An Alien Mind",
-      "url": "https://openai.com/index/an-alien-mind",
-      "primary_url": "https://openai.com/index/an-alien-mind",
+      "story_id": "story_e02ae19def6b",
+      "title": "Supporting independent journalism in Ukraine",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "primary_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
-      "source_count": 3,
-      "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "openai.com"
-      ],
-      "importance_score": 0.8667,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-06T18:33:46.745000Z",
-      "earliest_at": "2026-09-06T09:00:00Z",
-      "sources": [
-        {
-          "id": "07df97fa324316a3761be85953d935f46ac91560",
-          "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱 / An Alien Mind",
-          "url": "https://openai.com/index/an-alien-mind",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-06T09:00:00Z"
-        },
-        {
-          "id": "f94f7b5e1736ec0dee7ec7e9760600d5018ad8f1",
-          "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
-          "url": "https://openai.com/index/an-alien-mind",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-06T09:00:00Z"
-        },
-        {
-          "id": "11c74011454eeca9fdf1dda05e8f4996f0f8c862",
-          "title": "《外星人的思维》",
-          "url": "https://openai.com/index/an-alien-mind",
-          "source": "openai.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-06T18:33:46.745000Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_19672c4832d4",
-      "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员 / Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "primary_url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
-      ],
-      "importance_score": 0.8396,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-06T08:00:00Z",
-      "earliest_at": "2026-09-06T08:00:00Z",
-      "sources": [
-        {
-          "id": "e711677302e79fe09b249f41566da77e02ec6e8d",
-          "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员 / Research acceleration: The view inside OpenAI",
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-06T08:00:00Z"
-        },
-        {
-          "id": "f5a8de608c35a9e40fd19ca0e5310a1a10493dae",
-          "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-06T08:00:00Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_6f9290dbd1a1",
-      "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
-      "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
-      "primary_url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
+        "OpenAI News"
       ],
-      "importance_score": 0.7803,
+      "importance_score": 0.8027,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-07T00:00:00Z",
+      "earliest_at": "2026-09-07T00:00:00Z",
+      "sources": [
+        {
+          "id": "6302cd534c94b9343d8c6428096c99f57e4984ac",
+          "title": "Supporting independent journalism in Ukraine",
+          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-07T00:00:00Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
+    {
+      "story_id": "story_09f466e518b1",
+      "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+      "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+      "primary_url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "importance_score": 0.7946,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-07T18:12:41Z",
+      "earliest_at": "2026-09-07T18:12:41Z",
+      "sources": [
+        {
+          "id": "95c41e8a2290a22e2e6aa56dbf94af123d8c0335",
+          "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+          "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-07T18:12:41Z"
+        },
+        {
+          "id": "283b6bd8933df0511b647de5a53aeeb29df7b39e",
+          "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力 / Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk",
+          "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-09-07T18:12:41Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_e984e0578aa3",
+      "title": "李飞飞团队推出世界模型 Atlas，或成通往 AGI 的核心原语",
+      "url": "https://www.aibase.com/news/30883",
+      "primary_url": "https://www.aibase.com/news/30883",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "importance_score": 0.7575,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-06T18:23:14Z",
-      "earliest_at": "2026-09-06T18:23:14Z",
+      "latest_at": "2026-09-07T18:10:20.534013Z",
+      "earliest_at": "2026-09-07T18:10:20.534013Z",
       "sources": [
         {
-          "id": "a760dbdfc09e78a43ddda41e2bc60b343aa60c29",
-          "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
-          "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-06T18:23:14Z"
+          "id": "075e270fa2368e00db90f91a931e9a32fb1b37d2",
+          "title": "李飞飞团队推出世界模型 Atlas，或成通往 AGI 的核心原语",
+          "url": "https://www.aibase.com/news/30883",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-07T18:10:20.534013Z"
         }
       ],
       "confidence": "single-source"

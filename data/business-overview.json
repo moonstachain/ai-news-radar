@@ -1,24 +1,92 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d269e7ada3dfb55f",
+  "snapshot_id": "515b9b0213aa074f",
   "channel": "ai-business",
-  "generated_at": "2026-09-07T00:17:41.842056Z",
+  "generated_at": "2026-09-07T22:21:58.085612Z",
   "window_hours": 24,
-  "decision": "Prioritize evidence with concrete economics, repeatable distribution, and explicit counter-signals.",
+  "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
   "metrics": {
-    "signals": 0,
-    "briefs": 0,
-    "clusters": 0,
-    "cases": 0
+    "signals": 3,
+    "briefs": 1,
+    "clusters": 1,
+    "cases": 3
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 26,
-    "failed": 11,
-    "ratio": 0.5769,
+    "failed": 10,
+    "ratio": 0.6154,
     "status": "limited"
   },
-  "brief": [],
-  "actions": [],
-  "clusters": []
+  "brief": [
+    {
+      "brief_id": "biz_brief_35796e12acea",
+      "rank": 1,
+      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_f470c94aa931",
+        "biz_37da81ed2e2f",
+        "biz_8452c0cf2c35"
+      ],
+      "evidence_titles": [
+        "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
+        "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+        "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
+    }
+  ],
+  "actions": [
+    {
+      "id": "biz_brief_35796e12acea",
+      "label": "Brief #1",
+      "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": "biz_cluster_412d1e93472b",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "source_count": 2,
+      "importance_score": 43,
+      "confidence": "medium",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_f470c94aa931",
+        "biz_37da81ed2e2f",
+        "biz_8452c0cf2c35"
+      ],
+      "top_sources": [
+        {
+          "source": "Lenny's Newsletter",
+          "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
+          "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the"
+        },
+        {
+          "source": "Latent Space",
+          "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+          "url": "https://www.latent.space/p/aeo"
+        },
+        {
+          "source": "Lenny's Newsletter",
+          "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger"
+        }
+      ]
+    }
+  ]
 }

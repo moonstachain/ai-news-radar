@@ -1,4 +1,47 @@
 {
-  "generated_at": "2026-09-07T00:17:41.842056Z",
-  "clusters": []
+  "generated_at": "2026-09-07T22:21:58.085612Z",
+  "clusters": [
+    {
+      "cluster_id": "biz_cluster_412d1e93472b",
+      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
+      "lane": "enterprise_workflow",
+      "signal_ids": [
+        "biz_f470c94aa931",
+        "biz_37da81ed2e2f",
+        "biz_8452c0cf2c35"
+      ],
+      "source_count": 2,
+      "importance_score": 43,
+      "confidence": "medium",
+      "yuanli_mapping": [
+        "yuanli_os",
+        "ftf_trust"
+      ],
+      "why_it_matters": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "evidence_refs": [
+        "biz_f470c94aa931",
+        "biz_37da81ed2e2f",
+        "biz_8452c0cf2c35"
+      ],
+      "top_sources": [
+        {
+          "source": "Lenny's Newsletter",
+          "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
+          "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the"
+        },
+        {
+          "source": "Latent Space",
+          "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+          "url": "https://www.latent.space/p/aeo"
+        },
+        {
+          "source": "Lenny's Newsletter",
+          "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger"
+        }
+      ]
+    }
+  ]
 }
