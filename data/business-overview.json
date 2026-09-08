@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_id": "515b9b0213aa074f",
+  "snapshot_id": "cb759af248e0a664",
   "channel": "ai-business",
-  "generated_at": "2026-09-07T22:21:58.085612Z",
+  "generated_at": "2026-09-08T00:47:01.751750Z",
   "window_hours": 24,
   "decision": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
   "metrics": {
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_35796e12acea",
+      "brief_id": "biz_brief_0a7406fb9f95",
       "rank": 1,
       "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "judgment": "3 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -44,7 +44,7 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_35796e12acea",
+      "id": "biz_brief_0a7406fb9f95",
       "label": "Brief #1",
       "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
@@ -56,7 +56,7 @@
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "source_count": 2,
-      "importance_score": 43,
+      "importance_score": 42,
       "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
