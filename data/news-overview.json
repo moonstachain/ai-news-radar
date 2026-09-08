@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "cb759af248e0a664",
+  "snapshot_id": "7ad3fefb96cd4460",
   "channel": "ai-news",
-  "generated_at": "2026-09-08T00:35:09.644949Z",
+  "generated_at": "2026-09-08T05:27:41.230364Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 240,
-    "high_priority": 24,
+    "signals": 297,
+    "high_priority": 25,
     "briefs": 20,
-    "stories": 234
+    "stories": 287
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Zeli": 55,
-    "Buzzing": 44,
-    "TechURLs": 42,
-    "Info Flow": 36,
+    "Info Flow": 66,
+    "Buzzing": 65,
+    "Zeli": 54,
+    "TechURLs": 49,
     "AIbase": 20,
-    "Curated Media": 13,
-    "OPML RSS": 11,
-    "NewsNow": 11
+    "Curated Media": 12,
+    "OPML RSS": 12,
+    "NewsNow": 12
   },
   "top_stories": [
     {
@@ -44,7 +44,7 @@
         "The Decoder AI News",
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7888,
+      "importance_score": 0.7776,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -87,7 +87,7 @@
       "source_names": [
         "公众号：数字生命卡兹克"
       ],
-      "importance_score": 0.7788,
+      "importance_score": 0.7666,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -110,34 +110,34 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_e984e0578aa3",
-      "title": "李飞飞团队推出世界模型 Atlas，或成通往 AGI 的核心原语",
-      "url": "https://www.aibase.com/news/30883",
-      "primary_url": "https://www.aibase.com/news/30883",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_f4b0267f1dc7",
+      "title": "最高法发布涉人工智能纠纷案件审理意见，明确 AI 换脸拟声等裁判规则",
+      "url": "https://www.ithome.com/0/999/313.htm",
+      "primary_url": "https://www.ithome.com/0/999/313.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "IT之家（RSS）"
       ],
-      "importance_score": 0.7517,
+      "importance_score": 0.7582,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-07T18:10:20.534013Z",
-      "earliest_at": "2026-09-07T18:10:20.534013Z",
+      "latest_at": "2026-09-07T07:46:08Z",
+      "earliest_at": "2026-09-07T07:46:08Z",
       "sources": [
         {
-          "id": "075e270fa2368e00db90f91a931e9a32fb1b37d2",
-          "title": "李飞飞团队推出世界模型 Atlas，或成通往 AGI 的核心原语",
-          "url": "https://www.aibase.com/news/30883",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-07T18:10:20.534013Z"
+          "id": "4d11d314dce69e120ff8a3cf61d89d398dd9240b",
+          "title": "最高法发布涉人工智能纠纷案件审理意见，明确 AI 换脸拟声等裁判规则",
+          "url": "https://www.ithome.com/0/999/313.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-07T07:46:08Z"
         }
       ],
       "confidence": "single-source"
