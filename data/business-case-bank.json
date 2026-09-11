@@ -1,66 +1,88 @@
 {
-  "generated_at": "2026-09-08T00:47:01.751750Z",
+  "generated_at": "2026-09-11T15:30:42.057659Z",
   "cases": [
     {
-      "case_id": "opc_case_f50d0631a0b0",
-      "company": "Build",
+      "case_id": "opc_case_2c5abc9e6a04",
+      "company": "Stripe",
       "founder": "",
       "source_refs": [
-        "biz_f470c94aa931"
+        "biz_42cd60bb051b"
       ],
-      "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
-      "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
-      "business_model": "AI Business Model Innovation, Founder Case, Enterprise AI Workflow",
+      "url": "https://www.cbinsights.com/research/newsletter-september-10-2026/",
+      "title": "Stripe’s founder factory and the AI governance boom",
+      "business_model": "Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
-      "distribution_channel": "Lenny's Newsletter",
+      "distribution_channel": "CB Insights",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
-        "yuanli_os"
+        "yuanli_asset",
+        "yuanli_startup",
+        "ftf_trust"
       ],
-      "score": 44
+      "score": 56
     },
     {
-      "case_id": "opc_case_dc9fd8451fc6",
-      "company": "The Frontier AEO",
+      "case_id": "opc_case_5eefe0c70efe",
+      "company": "CEO Interview",
       "founder": "",
       "source_refs": [
-        "biz_37da81ed2e2f"
+        "biz_a3bed2acf744"
       ],
-      "url": "https://www.latent.space/p/aeo",
-      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
-      "business_model": "Founder Case, Enterprise AI Workflow",
+      "url": "https://www.cbinsights.com/research/ceo-interview-yottavate/",
+      "title": "CEO Interview: YottaVate",
+      "business_model": "Founder Case",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
-      "distribution_channel": "Latent Space",
+      "distribution_channel": "CB Insights",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
-        "yuanli_startup"
+        "yuanli_startup",
+        "ftf_trust"
       ],
-      "score": 38
+      "score": 50
     },
     {
-      "case_id": "opc_case_1ede8d0e413f",
-      "company": "How I AI",
+      "case_id": "opc_case_dedcc02d0c10",
+      "company": "India",
       "founder": "",
       "source_refs": [
-        "biz_8452c0cf2c35"
+        "biz_be56e9397c5d"
       ],
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
-      "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
-      "business_model": "Enterprise AI Workflow, Founder Case",
+      "url": "https://www.bain.com/insights/indias-next-growth-frontier-b2b-commerce-payments-and-credit/",
+      "title": "India’s Next Growth Frontier: B2B Commerce, Payments, and Credit",
+      "business_model": "Founder Case, AI Business Model Innovation",
       "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
       "monetization": "To be extracted from the linked source.",
       "team_size_signal": "team size not explicit",
-      "distribution_channel": "Lenny's Newsletter",
+      "distribution_channel": "Bain Insights",
       "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
       "yuanli_mapping": [
-        "yuanli_os",
         "wealth_flywheel"
       ],
-      "score": 33
+      "score": 41
+    },
+    {
+      "case_id": "opc_case_f01378502739",
+      "company": "I Paid",
+      "founder": "",
+      "source_refs": [
+        "biz_aeeefa0e5202"
+      ],
+      "url": "https://www.indiehackers.com/post/i-paid-for-2-150-survey-responses-then-i-threw-441-of-them-away-88649ef59b",
+      "title": "I Paid for 2,150 Survey Responses. Then I Threw 441 of Them Away.",
+      "business_model": "OPC",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "Indie Hackers",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "ftf_trust"
+      ],
+      "score": 32
     }
   ]
 }

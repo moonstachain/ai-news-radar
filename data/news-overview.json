@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "cb759af248e0a664",
+  "snapshot_id": "098a37b29b8a153b",
   "channel": "ai-news",
-  "generated_at": "2026-09-08T00:35:09.644949Z",
+  "generated_at": "2026-09-11T15:29:26.124428Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 240,
-    "high_priority": 24,
+    "signals": 337,
+    "high_priority": 42,
     "briefs": 20,
-    "stories": 234
+    "stories": 319
   },
   "coverage": {
     "successful": 16,
@@ -22,21 +22,21 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Zeli": 55,
-    "Buzzing": 44,
-    "TechURLs": 42,
-    "Info Flow": 36,
-    "AIbase": 20,
-    "Curated Media": 13,
+    "Buzzing": 85,
+    "Info Flow": 66,
+    "Zeli": 64,
+    "TechURLs": 39,
+    "Curated Media": 26,
+    "AIbase": 15,
     "OPML RSS": 11,
-    "NewsNow": 11
+    "Follow Builders": 9
   },
   "top_stories": [
     {
-      "story_id": "story_09f466e518b1",
-      "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
-      "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
-      "primary_url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+      "story_id": "story_11bf04e0fb9c",
+      "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
+      "primary_url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
       "source": "The Decoder：AI News（RSS）",
       "source_name": "AI HOT",
       "source_count": 2,
@@ -44,7 +44,7 @@
         "The Decoder AI News",
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.7888,
+      "importance_score": 0.8214,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -52,92 +52,94 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-07T18:12:41Z",
-      "earliest_at": "2026-09-07T18:12:41Z",
+      "latest_at": "2026-09-11T13:50:28Z",
+      "earliest_at": "2026-09-11T13:50:28Z",
       "sources": [
         {
-          "id": "95c41e8a2290a22e2e6aa56dbf94af123d8c0335",
-          "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
-          "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+          "id": "e4b7f842e6f992b30f1c3f0e089721de19e4284c",
+          "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+          "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
           "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-07T18:12:41Z"
+          "published_at": "2026-09-11T13:50:28Z"
         },
         {
-          "id": "283b6bd8933df0511b647de5a53aeeb29df7b39e",
-          "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力 / Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk",
-          "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+          "id": "f2ba85b0a06eff9811d7f1e893918c758ce7387f",
+          "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据 / How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
+          "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
           "source": "The Decoder AI News",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-09-07T18:12:41Z"
+          "published_at": "2026-09-11T13:50:28Z"
         }
       ],
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_6cbde97d8260",
-      "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686056&idx=1&sn=c1710404c08cf3201da27f4d53f94940",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686056&idx=1&sn=c1710404c08cf3201da27f4d53f94940",
-      "source": "公众号：数字生命卡兹克",
-      "source_name": "AI HOT",
+      "story_id": "story_014159943e4d",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "primary_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "公众号：数字生命卡兹克"
+        "OpenAI News"
       ],
-      "importance_score": 0.7788,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.8162,
+      "importance_label": "官方更新",
+      "category": "official",
       "reasons": [
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-08T00:17:23Z",
-      "earliest_at": "2026-09-08T00:17:23Z",
+      "latest_at": "2026-09-10T16:00:00Z",
+      "earliest_at": "2026-09-10T16:00:00Z",
       "sources": [
         {
-          "id": "1d18c2369bbc6958848b9af98310580002d1fcf7",
-          "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686056&idx=1&sn=c1710404c08cf3201da27f4d53f94940",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-08T00:17:23Z"
+          "id": "a3b78437e92fb6a33cdc8b6fb400b1a8253ada5a",
+          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-10T16:00:00Z"
         }
       ],
       "confidence": "single-source"
     },
     {
-      "story_id": "story_e984e0578aa3",
-      "title": "李飞飞团队推出世界模型 Atlas，或成通往 AGI 的核心原语",
-      "url": "https://www.aibase.com/news/30883",
-      "primary_url": "https://www.aibase.com/news/30883",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_6ecf9c52fc09",
+      "title": "GitHub Copilot 每周发布 — 9 月 7 日 / GitHub Copilot weekly releases — September 7",
+      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "primary_url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "GitHub Changelog"
       ],
-      "importance_score": 0.7517,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.8137,
+      "importance_label": "官方更新",
+      "category": "official",
       "reasons": [
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-07T18:10:20.534013Z",
-      "earliest_at": "2026-09-07T18:10:20.534013Z",
+      "latest_at": "2026-09-10T22:55:07Z",
+      "earliest_at": "2026-09-10T22:55:07Z",
       "sources": [
         {
-          "id": "075e270fa2368e00db90f91a931e9a32fb1b37d2",
-          "title": "李飞飞团队推出世界模型 Atlas，或成通往 AGI 的核心原语",
-          "url": "https://www.aibase.com/news/30883",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-07T18:10:20.534013Z"
+          "id": "646ce98f87d3f93fae127844fb008182b9d79aca",
+          "title": "GitHub Copilot 每周发布 — 9 月 7 日 / GitHub Copilot weekly releases — September 7",
+          "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-10T22:55:07Z"
         }
       ],
       "confidence": "single-source"

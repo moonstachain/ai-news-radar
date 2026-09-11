@@ -1,124 +1,234 @@
 {
-  "generated_at": "2026-09-08T00:47:01.751750Z",
+  "generated_at": "2026-09-11T15:30:42.057659Z",
   "window_hours": 24,
   "items": [
     {
-      "signal_id": "biz_f470c94aa931",
-      "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
-      "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
-      "source_id": "lenny",
-      "source_name": "Lenny's Newsletter",
-      "published_at": "2026-09-07T12:04:19Z",
-      "captured_at": "2026-09-08T00:47:01.751750Z",
+      "signal_id": "biz_42cd60bb051b",
+      "title": "Stripe’s founder factory and the AI governance boom",
+      "url": "https://www.cbinsights.com/research/newsletter-september-10-2026/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-09-10T22:35:34Z",
+      "captured_at": "2026-09-11T15:30:42.057659Z",
       "lane": "startup_vc",
       "entities": [
-        "Lenny's Newsletter",
-        "Build",
-        "Stripe",
-        "Sharadh Krishnamurthy"
+        "CB Insights",
+        "Stripe"
       ],
       "business_model_tags": [
-        "AI Business Model Innovation",
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_asset",
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 56,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 13,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "Below, we break down some of tech’s biggest stories, with analyst perspective on the moves that matter the most. Here’s what we’re watching this week: AI app governance startups Stripe’s crypto mafia Asia’s Silicon Valle... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_a3bed2acf744",
+      "title": "CEO Interview: YottaVate",
+      "url": "https://www.cbinsights.com/research/ceo-interview-yottavate/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-09-11T14:49:49Z",
+      "captured_at": "2026-09-11T15:30:42.057659Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "CEO Interview",
+        "YottaVate"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Tatenda Mapesa, Chief Executive Officer (CEO) at YottaVate, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? At... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_be56e9397c5d",
+      "title": "India’s Next Growth Frontier: B2B Commerce, Payments, and Credit",
+      "url": "https://www.bain.com/insights/indias-next-growth-frontier-b2b-commerce-payments-and-credit/",
+      "source_id": "bain_insights",
+      "source_name": "Bain Insights",
+      "published_at": "2026-09-11T02:00:00Z",
+      "captured_at": "2026-09-11T15:30:42.057659Z",
+      "lane": "authority",
+      "entities": [
+        "Bain Insights",
+        "India",
+        "Next Growth Frontier",
+        "B2B Commerce",
+        "Payments",
+        "Credit"
+      ],
+      "business_model_tags": [
         "Founder Case",
+        "AI Business Model Innovation"
+      ],
+      "yuanli_tags": [
+        "wealth_flywheel"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 8,
+      "total_score": 41,
+      "score_breakdown": {
+        "source_authority": 20,
+        "yuanli_relevance": 3,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 0,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "India’s Next Growth Frontier: B2B Commerce, Payments, and Credit Tags: Founder Case, AI Business Model Innovation.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_435d54127b86",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+      "source_id": "github_blog",
+      "source_name": "GitHub Blog",
+      "published_at": "2026-09-10T21:31:19Z",
+      "captured_at": "2026-09-11T15:30:42.057659Z",
+      "lane": "ai_commercialization",
+      "entities": [
+        "GitHub Blog",
+        "GitHub Copilot",
+        "Beginners",
+        "Using"
+      ],
+      "business_model_tags": [
         "Enterprise AI Workflow"
       ],
       "yuanli_tags": [
         "yuanli_os"
       ],
       "opc_fit_score": 0,
-      "case_concreteness_score": 8,
-      "total_score": 44,
+      "case_concreteness_score": 0,
+      "total_score": 37,
       "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 10,
-        "case_concreteness": 8,
+        "source_authority": 20,
+        "yuanli_relevance": 5,
+        "business_model_value": 5,
+        "case_concreteness": 0,
         "opc_fit": 0,
         "freshness": 7,
         "counter_signal_value": 0
       },
-      "summary": "Watch now | 🎙️ Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent Tags: AI Business Model Innovation, Founder Case, Enterprise AI Workflow.",
+      "summary": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Us... Tags: Enterprise AI Workflow.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_37da81ed2e2f",
-      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
-      "url": "https://www.latent.space/p/aeo",
-      "source_id": "latent_space",
-      "source_name": "Latent Space",
-      "published_at": "2026-09-07T21:32:37Z",
-      "captured_at": "2026-09-08T00:47:01.751750Z",
-      "lane": "ai_commercialization",
+      "signal_id": "biz_4fd17b58df7d",
+      "title": "The Questions You Should Be Asking About the AI Bubble",
+      "url": "https://hbr.org/2026/09/the-questions-you-should-be-asking-about-the-ai-bubble",
+      "source_id": "hbr",
+      "source_name": "Harvard Business Review",
+      "published_at": "2026-09-11T12:05:21Z",
+      "captured_at": "2026-09-11T15:30:42.057659Z",
+      "lane": "authority",
       "entities": [
-        "Latent Space",
-        "The Frontier AEO",
-        "Tracker",
-        "What Astra Chooses"
+        "Harvard Business Review",
+        "The Questions You",
+        "Should Be Asking",
+        "About",
+        "AI Bubble"
       ],
       "business_model_tags": [
-        "Founder Case",
-        "Enterprise AI Workflow"
+        "Counter Signal",
+        "AI Business Model Innovation"
       ],
       "yuanli_tags": [
         "yuanli_startup"
       ],
       "opc_fit_score": 0,
-      "case_concreteness_score": 8,
-      "total_score": 38,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 8,
-        "opc_fit": 0,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to. Tags: Founder Case, Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_8452c0cf2c35",
-      "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
-      "source_id": "lenny",
-      "source_name": "Lenny's Newsletter",
-      "published_at": "2026-09-07T15:02:41Z",
-      "captured_at": "2026-09-08T00:47:01.751750Z",
-      "lane": "startup_vc",
-      "entities": [
-        "Lenny's Newsletter",
-        "How I AI",
-        "GPT-6 Astra",
-        "Stripe",
-        "Grok Bot",
-        "OpenClaw"
-      ],
-      "business_model_tags": [
-        "Enterprise AI Workflow",
-        "Founder Case"
-      ],
-      "yuanli_tags": [
-        "yuanli_os",
-        "wealth_flywheel"
-      ],
-      "opc_fit_score": 0,
       "case_concreteness_score": 0,
-      "total_score": 33,
+      "total_score": 35,
       "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 6,
+        "source_authority": 20,
+        "yuanli_relevance": 0,
         "business_model_value": 3,
         "case_concreteness": 0,
         "opc_fit": 0,
         "freshness": 8,
-        "counter_signal_value": 0
+        "counter_signal_value": 4
       },
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network Tags: Enterprise AI Workflow, Founder Case.",
+      "summary": "The Questions You Should Be Asking About the AI Bubble Tags: Counter Signal, AI Business Model Innovation.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_aeeefa0e5202",
+      "title": "I Paid for 2,150 Survey Responses. Then I Threw 441 of Them Away.",
+      "url": "https://www.indiehackers.com/post/i-paid-for-2-150-survey-responses-then-i-threw-441-of-them-away-88649ef59b",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-09-11T06:03:28.827000Z",
+      "captured_at": "2026-09-11T15:30:42.057659Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "I Paid",
+        "Survey Responses. Then",
+        "I Threw",
+        "Them Away"
+      ],
+      "business_model_tags": [
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "ftf_trust"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 0,
+      "total_score": 32,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 3,
+        "business_model_value": 0,
+        "case_concreteness": 0,
+        "opc_fit": 5,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "I Paid for 2,150 Survey Responses. Then I Threw 441 of Them Away. Tags: OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     }
   ]
 }
