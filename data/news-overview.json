@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "098a37b29b8a153b",
+  "snapshot_id": "e7a5826600165db7",
   "channel": "ai-news",
-  "generated_at": "2026-09-11T15:29:26.124428Z",
+  "generated_at": "2026-09-11T18:43:05.667790Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 337,
-    "high_priority": 42,
+    "signals": 414,
+    "high_priority": 36,
     "briefs": 20,
-    "stories": 319
+    "stories": 384
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,95 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 85,
-    "Info Flow": 66,
-    "Zeli": 64,
-    "TechURLs": 39,
-    "Curated Media": 26,
+    "Buzzing": 124,
+    "Info Flow": 72,
+    "Zeli": 66,
+    "TechURLs": 59,
+    "Curated Media": 25,
     "AIbase": 15,
-    "OPML RSS": 11,
-    "Follow Builders": 9
+    "NewsNow": 14,
+    "OPML RSS": 13
   },
   "top_stories": [
+    {
+      "story_id": "story_c7d3c8aeae42",
+      "title": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇） / Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "primary_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      ],
+      "importance_score": 0.8637,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-11T10:00:00Z",
+      "earliest_at": "2026-09-11T10:00:00Z",
+      "sources": [
+        {
+          "id": "9fa69dd2432ab59881aac0c5b1ccd0936f65064b",
+          "title": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇） / Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-11T10:00:00Z"
+        },
+        {
+          "id": "d2ba51c1450a2b8d19ce126838aaad5b2be66399",
+          "title": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇）",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-11T10:00:00Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_8587315c03c9",
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "importance_score": 0.8433,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-11T18:26:10Z",
+      "earliest_at": "2026-09-11T18:26:10Z",
+      "sources": [
+        {
+          "id": "d180e9307ad6108eb08f57f88bc0238030d71ce7",
+          "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+          "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-11T18:26:10Z"
+        }
+      ],
+      "confidence": "single-source"
+    },
     {
       "story_id": "story_11bf04e0fb9c",
       "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
@@ -44,7 +123,7 @@
         "The Decoder AI News",
         "The Decoder：AI News（RSS）"
       ],
-      "importance_score": 0.8214,
+      "importance_score": 0.8134,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -75,74 +154,6 @@
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_014159943e4d",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "primary_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "importance_score": 0.8162,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-10T16:00:00Z",
-      "earliest_at": "2026-09-10T16:00:00Z",
-      "sources": [
-        {
-          "id": "a3b78437e92fb6a33cdc8b6fb400b1a8253ada5a",
-          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T16:00:00Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_6ecf9c52fc09",
-      "title": "GitHub Copilot 每周发布 — 9 月 7 日 / GitHub Copilot weekly releases — September 7",
-      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-      "primary_url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "importance_score": 0.8137,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-10T22:55:07Z",
-      "earliest_at": "2026-09-10T22:55:07Z",
-      "sources": [
-        {
-          "id": "646ce98f87d3f93fae127844fb008182b9d79aca",
-          "title": "GitHub Copilot 每周发布 — 9 月 7 日 / GitHub Copilot weekly releases — September 7",
-          "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T22:55:07Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }

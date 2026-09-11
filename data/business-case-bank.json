@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:30:42.057659Z",
+  "generated_at": "2026-09-11T18:52:31.675791Z",
   "cases": [
     {
       "case_id": "opc_case_2c5abc9e6a04",
@@ -22,6 +22,27 @@
         "ftf_trust"
       ],
       "score": 56
+    },
+    {
+      "case_id": "opc_case_c726f154e97b",
+      "company": "CEO Interview",
+      "founder": "",
+      "source_refs": [
+        "biz_ca218043790e"
+      ],
+      "url": "https://www.cbinsights.com/research/ceo-interview-perimeter/",
+      "title": "CEO Interview: Perimeter",
+      "business_model": "Founder Case",
+      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
+      "monetization": "To be extracted from the linked source.",
+      "team_size_signal": "team size not explicit",
+      "distribution_channel": "CB Insights",
+      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
+      "yuanli_mapping": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "score": 50
     },
     {
       "case_id": "opc_case_5eefe0c70efe",
@@ -63,26 +84,6 @@
         "wealth_flywheel"
       ],
       "score": 41
-    },
-    {
-      "case_id": "opc_case_f01378502739",
-      "company": "I Paid",
-      "founder": "",
-      "source_refs": [
-        "biz_aeeefa0e5202"
-      ],
-      "url": "https://www.indiehackers.com/post/i-paid-for-2-150-survey-responses-then-i-threw-441-of-them-away-88649ef59b",
-      "title": "I Paid for 2,150 Survey Responses. Then I Threw 441 of Them Away.",
-      "business_model": "OPC",
-      "ai_leverage": "AI leverage inferred from source/title tags; verify in full article before using as a public claim.",
-      "monetization": "To be extracted from the linked source.",
-      "team_size_signal": "team size not explicit",
-      "distribution_channel": "Indie Hackers",
-      "reusable_lesson": "Use this as a Yuanli case atom: actor, leverage, distribution, monetization, and proof.",
-      "yuanli_mapping": [
-        "ftf_trust"
-      ],
-      "score": 32
     }
   ]
 }
