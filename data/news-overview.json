@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e7a5826600165db7",
+  "snapshot_id": "d36f6deb0424decf",
   "channel": "ai-news",
-  "generated_at": "2026-09-11T18:43:05.667790Z",
+  "generated_at": "2026-09-11T21:27:08.697406Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 414,
-    "high_priority": 36,
+    "signals": 446,
+    "high_priority": 32,
     "briefs": 20,
-    "stories": 384
+    "stories": 413
   },
   "coverage": {
     "successful": 16,
@@ -22,16 +22,61 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 124,
-    "Info Flow": 72,
-    "Zeli": 66,
-    "TechURLs": 59,
-    "Curated Media": 25,
+    "Buzzing": 145,
+    "Info Flow": 75,
+    "Zeli": 67,
+    "TechURLs": 64,
+    "Curated Media": 27,
     "AIbase": 15,
-    "NewsNow": 14,
-    "OPML RSS": 13
+    "OPML RSS": 14,
+    "NewsNow": 14
   },
   "top_stories": [
+    {
+      "story_id": "story_8587315c03c9",
+      "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化 / Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+      "primary_url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "GitHub AI & ML",
+        "GitHub Blog"
+      ],
+      "importance_score": 0.8613,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-11T18:26:10Z",
+      "earliest_at": "2026-09-11T18:26:10Z",
+      "sources": [
+        {
+          "id": "d180e9307ad6108eb08f57f88bc0238030d71ce7",
+          "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化 / Marketing ops as code: Automating events from planning to follow-up on GitHub",
+          "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-11T18:26:10Z"
+        },
+        {
+          "id": "84d095da089a6bbac567518186a311edae283570",
+          "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
+          "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+          "source": "GitHub Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-11T18:26:10Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_c7d3c8aeae42",
       "title": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇） / Rapidly scaling online storage to serve over 1 billion ChatGPT users",
@@ -44,7 +89,7 @@
         "OpenAI News",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       ],
-      "importance_score": 0.8637,
+      "importance_score": 0.8576,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -78,17 +123,17 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_8587315c03c9",
-      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
-      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
-      "source": "GitHub AI & ML",
+      "story_id": "story_850b6df2d33d",
+      "title": "Auto-resolution and analysis updates in Copilot code review",
+      "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "primary_url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "GitHub AI & ML"
+        "GitHub Changelog"
       ],
-      "importance_score": 0.8433,
+      "importance_score": 0.8483,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -96,64 +141,20 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-11T18:26:10Z",
-      "earliest_at": "2026-09-11T18:26:10Z",
+      "latest_at": "2026-09-11T20:00:07Z",
+      "earliest_at": "2026-09-11T20:00:07Z",
       "sources": [
         {
-          "id": "d180e9307ad6108eb08f57f88bc0238030d71ce7",
-          "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
-          "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
-          "source": "GitHub AI & ML",
+          "id": "eb40e36e6a9a04e2c03ce1e5fef7636434e1b494",
+          "title": "Auto-resolution and analysis updates in Copilot code review",
+          "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-11T18:26:10Z"
+          "published_at": "2026-09-11T20:00:07Z"
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_11bf04e0fb9c",
-      "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
-      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
-      "primary_url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "importance_score": 0.8134,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-11T13:50:28Z",
-      "earliest_at": "2026-09-11T13:50:28Z",
-      "sources": [
-        {
-          "id": "e4b7f842e6f992b30f1c3f0e089721de19e4284c",
-          "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
-          "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-11T13:50:28Z"
-        },
-        {
-          "id": "f2ba85b0a06eff9811d7f1e893918c758ce7387f",
-          "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据 / How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
-          "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-09-11T13:50:28Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }

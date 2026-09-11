@@ -1,38 +1,40 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e7a5826600165db7",
+  "snapshot_id": "d36f6deb0424decf",
   "channel": "ai-business",
-  "generated_at": "2026-09-11T18:52:31.675791Z",
+  "generated_at": "2026-09-11T21:36:49.810909Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 7,
+    "signals": 9,
     "briefs": 4,
     "clusters": 4,
-    "cases": 4
+    "cases": 8
   },
   "coverage": {
-    "successful": 15,
+    "successful": 17,
     "total": 26,
-    "failed": 11,
-    "ratio": 0.5769,
+    "failed": 9,
+    "ratio": 0.6538,
     "status": "limited"
   },
   "brief": [
     {
-      "brief_id": "biz_brief_9ba324bef1ea",
+      "brief_id": "biz_brief_321b6fae9ee0",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "6 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
         "biz_42cd60bb051b",
-        "biz_ca218043790e",
-        "biz_a3bed2acf744"
+        "biz_fb660c16d921",
+        "biz_80e9e2a380cb",
+        "biz_22673e92292f",
+        "biz_ca218043790e"
       ],
       "evidence_titles": [
         "Stripe’s founder factory and the AI governance boom",
-        "CEO Interview: Perimeter",
-        "CEO Interview: YottaVate"
+        "CEO Interview: Odynn",
+        "Executive Interview: Ledgebrook"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -43,7 +45,7 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_10791615fa0c",
+      "brief_id": "biz_brief_cf71b51137a0",
       "rank": 2,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -62,27 +64,26 @@
       "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     },
     {
-      "brief_id": "biz_brief_5af98705448d",
+      "brief_id": "biz_brief_7aeb5b289e24",
       "rank": 3,
-      "title": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "judgment": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_435d54127b86",
-        "biz_b0e2aa22bc99"
+        "biz_db95bfeed017"
       ],
       "evidence_titles": [
-        "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-        "Rapidly scaling online storage to serve over 1 billion ChatGPT users"
+        "I got tired of writing scripts just to pass API tokens, so I built a visual chainer."
       ],
       "risk_level": "low",
       "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
       ],
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands."
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_119174d714ff",
+      "brief_id": "biz_brief_5c9dc9778c51",
       "rank": 4,
       "title": "AI adoption counter-signals reveal where Yuanli claims need sharper proof and risk language.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -102,44 +103,46 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_9ba324bef1ea",
+      "id": "biz_brief_321b6fae9ee0",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_10791615fa0c",
+      "id": "biz_brief_cf71b51137a0",
       "label": "Brief #2",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
     },
     {
-      "id": "biz_brief_5af98705448d",
+      "id": "biz_brief_7aeb5b289e24",
       "label": "Brief #3",
-      "title": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
-      "context": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots."
+      "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
+      "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     }
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_a0e427aef2be",
+      "cluster_id": "biz_cluster_ceaad8c50417",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
       "source_count": 1,
-      "importance_score": 54,
+      "importance_score": 53,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "3 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "6 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
         "biz_42cd60bb051b",
-        "biz_ca218043790e",
-        "biz_a3bed2acf744"
+        "biz_fb660c16d921",
+        "biz_80e9e2a380cb",
+        "biz_22673e92292f",
+        "biz_ca218043790e"
       ],
       "top_sources": [
         {
@@ -149,13 +152,23 @@
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Perimeter",
-          "url": "https://www.cbinsights.com/research/ceo-interview-perimeter/"
+          "title": "CEO Interview: Odynn",
+          "url": "https://www.cbinsights.com/research/ceo-interview-odynn/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: YottaVate",
-          "url": "https://www.cbinsights.com/research/ceo-interview-yottavate/"
+          "title": "Executive Interview: Ledgebrook",
+          "url": "https://www.cbinsights.com/research/executive-interview-ledgebrook/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: Kilde",
+          "url": "https://www.cbinsights.com/research/ceo-interview-kilde/"
+        },
+        {
+          "source": "CB Insights",
+          "title": "CEO Interview: Perimeter",
+          "url": "https://www.cbinsights.com/research/ceo-interview-perimeter/"
         }
       ]
     },
@@ -186,33 +199,28 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_5151172cc3f7",
-      "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
-      "lane": "enterprise_workflow",
-      "source_count": 2,
-      "importance_score": 38,
-      "confidence": "medium",
+      "cluster_id": "biz_cluster_2ee343c13296",
+      "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
+      "lane": "opc",
+      "source_count": 1,
+      "importance_score": 41,
+      "confidence": "watch",
       "yuanli_mapping": [
-        "yuanli_os",
-        "ftf_trust"
+        "yuanli_asset",
+        "yuanli_startup",
+        "profit_container"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
-      "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
+      "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
-        "biz_435d54127b86",
-        "biz_b0e2aa22bc99"
+        "biz_db95bfeed017"
       ],
       "top_sources": [
         {
-          "source": "GitHub Blog",
-          "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/"
-        },
-        {
-          "source": "OpenAI News",
-          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+          "source": "Indie Hackers",
+          "title": "I got tired of writing scripts just to pass API tokens, so I built a visual chainer.",
+          "url": "https://www.indiehackers.com/post/i-got-tired-of-writing-scripts-just-to-pass-api-tokens-so-i-built-a-visual-chainer-c7b5ed295e"
         }
       ]
     },
