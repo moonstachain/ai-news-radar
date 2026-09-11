@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:52:31.675791Z",
+  "generated_at": "2026-09-11T21:36:49.810909Z",
   "window_hours": 24,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-09-10T22:35:34Z",
-      "captured_at": "2026-09-11T18:52:31.675791Z",
+      "captured_at": "2026-09-11T21:36:49.810909Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -40,13 +40,124 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_fb660c16d921",
+      "title": "CEO Interview: Odynn",
+      "url": "https://www.cbinsights.com/research/ceo-interview-odynn/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-09-11T20:54:32Z",
+      "captured_at": "2026-09-11T21:36:49.810909Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "CEO Interview",
+        "Odynn"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "John Taylor Garner, Chief Executive Officer (CEO) at Odynn, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? I... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_80e9e2a380cb",
+      "title": "Executive Interview: Ledgebrook",
+      "url": "https://www.cbinsights.com/research/executive-interview-ledgebrook/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-09-11T20:46:22Z",
+      "captured_at": "2026-09-11T21:36:49.810909Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "Executive Interview",
+        "Ledgebrook"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Adrian Copland, Chief Operating Officer (COO) at Ledgebrook, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? L... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
+      "signal_id": "biz_22673e92292f",
+      "title": "CEO Interview: Kilde",
+      "url": "https://www.cbinsights.com/research/ceo-interview-kilde/",
+      "source_id": "cbinsights",
+      "source_name": "CB Insights",
+      "published_at": "2026-09-11T20:39:08Z",
+      "captured_at": "2026-09-11T21:36:49.810909Z",
+      "lane": "startup_vc",
+      "entities": [
+        "CB Insights",
+        "CEO Interview",
+        "Kilde"
+      ],
+      "business_model_tags": [
+        "Founder Case"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup",
+        "ftf_trust"
+      ],
+      "opc_fit_score": 0,
+      "case_concreteness_score": 15,
+      "total_score": 50,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 6,
+        "business_model_value": 5,
+        "case_concreteness": 15,
+        "opc_fit": 0,
+        "freshness": 8,
+        "counter_signal_value": 0
+      },
+      "summary": "Radek Jezbera, Chief Executive Officer (CEO) at Kilde, tells CB Insights how they view the market, customer needs, and their company. How do you define your market and where does your company fit into that space? Kilde o... Tags: Founder Case.",
+      "timestamp_basis": "feed_published",
+      "transport_mode": "feed"
+    },
+    {
       "signal_id": "biz_ca218043790e",
       "title": "CEO Interview: Perimeter",
       "url": "https://www.cbinsights.com/research/ceo-interview-perimeter/",
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-09-11T16:02:42Z",
-      "captured_at": "2026-09-11T18:52:31.675791Z",
+      "captured_at": "2026-09-11T21:36:49.810909Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -83,7 +194,7 @@
       "source_id": "cbinsights",
       "source_name": "CB Insights",
       "published_at": "2026-09-11T14:49:49Z",
-      "captured_at": "2026-09-11T18:52:31.675791Z",
+      "captured_at": "2026-09-11T21:36:49.810909Z",
       "lane": "startup_vc",
       "entities": [
         "CB Insights",
@@ -120,7 +231,7 @@
       "source_id": "bain_insights",
       "source_name": "Bain Insights",
       "published_at": "2026-09-11T02:00:00Z",
-      "captured_at": "2026-09-11T18:52:31.675791Z",
+      "captured_at": "2026-09-11T21:36:49.810909Z",
       "lane": "authority",
       "entities": [
         "Bain Insights",
@@ -154,41 +265,40 @@
       "transport_mode": "feed"
     },
     {
-      "signal_id": "biz_435d54127b86",
-      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-      "source_id": "github_blog",
-      "source_name": "GitHub Blog",
-      "published_at": "2026-09-10T21:31:19Z",
-      "captured_at": "2026-09-11T18:52:31.675791Z",
-      "lane": "ai_commercialization",
+      "signal_id": "biz_db95bfeed017",
+      "title": "I got tired of writing scripts just to pass API tokens, so I built a visual chainer.",
+      "url": "https://www.indiehackers.com/post/i-got-tired-of-writing-scripts-just-to-pass-api-tokens-so-i-built-a-visual-chainer-c7b5ed295e",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-09-11T07:59:05.505000Z",
+      "captured_at": "2026-09-11T21:36:49.810909Z",
+      "lane": "opc",
       "entities": [
-        "GitHub Blog",
-        "GitHub Copilot",
-        "Beginners",
-        "Using"
+        "Indie Hackers",
+        "API"
       ],
       "business_model_tags": [
-        "Enterprise AI Workflow"
+        "Founder Case",
+        "OPC"
       ],
       "yuanli_tags": [
-        "yuanli_os"
+        "yuanli_startup"
       ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 0,
-      "total_score": 37,
+      "opc_fit_score": 5,
+      "case_concreteness_score": 8,
+      "total_score": 39,
       "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 5,
-        "business_model_value": 5,
-        "case_concreteness": 0,
-        "opc_fit": 0,
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 3,
+        "case_concreteness": 8,
+        "opc_fit": 5,
         "freshness": 7,
         "counter_signal_value": 0
       },
-      "summary": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Us... Tags: Enterprise AI Workflow.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
+      "summary": "I got tired of writing scripts just to pass API tokens, so I built a visual chainer. Tags: Founder Case, OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
     },
     {
       "signal_id": "biz_4fd17b58df7d",
@@ -197,7 +307,7 @@
       "source_id": "hbr",
       "source_name": "Harvard Business Review",
       "published_at": "2026-09-11T12:05:21Z",
-      "captured_at": "2026-09-11T18:52:31.675791Z",
+      "captured_at": "2026-09-11T21:36:49.810909Z",
       "lane": "authority",
       "entities": [
         "Harvard Business Review",
@@ -226,42 +336,6 @@
         "counter_signal_value": 4
       },
       "summary": "The Questions You Should Be Asking About the AI Bubble Tags: Counter Signal, AI Business Model Innovation.",
-      "timestamp_basis": "feed_published",
-      "transport_mode": "feed"
-    },
-    {
-      "signal_id": "biz_b0e2aa22bc99",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "source_id": "openai_news",
-      "source_name": "OpenAI News",
-      "published_at": "2026-09-11T10:00:00Z",
-      "captured_at": "2026-09-11T18:52:31.675791Z",
-      "lane": "ai_commercialization",
-      "entities": [
-        "OpenAI News",
-        "Rapidly",
-        "ChatGPT"
-      ],
-      "business_model_tags": [
-        "Enterprise AI Workflow"
-      ],
-      "yuanli_tags": [
-        "yuanli_startup"
-      ],
-      "opc_fit_score": 0,
-      "case_concreteness_score": 4,
-      "total_score": 32,
-      "score_breakdown": {
-        "source_authority": 20,
-        "yuanli_relevance": 0,
-        "business_model_value": 0,
-        "case_concreteness": 4,
-        "opc_fit": 0,
-        "freshness": 8,
-        "counter_signal_value": 0
-      },
-      "summary": "Rapidly scaling online storage to serve over 1 billion ChatGPT users Tags: Enterprise AI Workflow.",
       "timestamp_basis": "feed_published",
       "transport_mode": "feed"
     }
