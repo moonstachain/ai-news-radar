@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e5a6f92855ff66b9",
+  "snapshot_id": "e3bee08e7ddc91e5",
   "channel": "ai-news",
-  "generated_at": "2026-09-13T01:15:00.634160Z",
+  "generated_at": "2026-09-13T06:26:09.683711Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 301,
-    "high_priority": 11,
-    "briefs": 19,
-    "stories": 287
+    "signals": 297,
+    "high_priority": 9,
+    "briefs": 18,
+    "stories": 284
   },
   "coverage": {
     "successful": 16,
@@ -22,69 +22,48 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 91,
-    "Info Flow": 75,
-    "Zeli": 49,
-    "TechURLs": 43,
+    "Buzzing": 96,
+    "Info Flow": 62,
+    "TechURLs": 49,
+    "Zeli": 45,
     "Curated Media": 16,
-    "NewsNow": 11,
+    "NewsNow": 15,
     "AI HOT": 7,
     "OPML RSS": 7
   },
   "top_stories": [
     {
-      "story_id": "story_09e50792b59f",
-      "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
-      "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
-      "primary_url": "https://www.minitap.ai/blog/i-expected-better-from-google",
-      "source": "Hacker News：AI 热帖",
+      "story_id": "story_c5db4791b13f",
+      "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+      "url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
+      "primary_url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
+      "source": "MarkTechPost（RSS）",
       "source_name": "AI HOT",
-      "source_count": 3,
+      "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News：AI 热帖",
-        "www.minitap.ai"
+        "MarkTechPost（RSS）"
       ],
-      "importance_score": 0.7795,
-      "importance_label": "多源热议",
-      "category": "multi_source",
+      "importance_score": 0.7843,
+      "importance_label": "行业动态",
+      "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-12T05:37:39.339000Z",
-      "earliest_at": "2026-09-12T02:39:39Z",
+      "latest_at": "2026-09-13T05:56:03Z",
+      "earliest_at": "2026-09-13T05:56:03Z",
       "sources": [
         {
-          "id": "91a1aa978a55d14effc686b12c95db2fee658b3d",
-          "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
-          "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
-          "source": "Hacker News：AI 热帖",
+          "id": "4b8e45d73d6f9168d6f30f8fa97f8c8e80e018f0",
+          "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+          "url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
+          "source": "MarkTechPost（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-12T02:39:39Z"
-        },
-        {
-          "id": "dc157b82300112dd9d9e6e708a2586f74eabe0a6",
-          "title": "谷歌窃取了开源代码，却未注明作者（Artemis/Minitap）",
-          "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
-          "source": "www.minitap.ai",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-12T05:37:39.339000Z"
-        },
-        {
-          "id": "86d3ffef67a216332afb31ac15e7e55c85322225",
-          "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码 / Google stole open source code without crediting the authors (Artemis/Minitap)",
-          "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-12T02:39:39Z"
+          "published_at": "2026-09-13T05:56:03Z"
         }
       ],
-      "confidence": "multi-source"
+      "confidence": "single-source"
     },
     {
       "story_id": "story_4eb0f95713f7",
@@ -97,7 +76,7 @@
       "source_names": [
         "X：OpenAI Developers (@OpenAIDevs)"
       ],
-      "importance_score": 0.7727,
+      "importance_score": 0.7611,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -130,12 +109,11 @@
       "source_names": [
         "X：Sam Altman (@sama)"
       ],
-      "importance_score": 0.7523,
+      "importance_score": 0.7408,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "latest_at": "2026-09-12T16:30:45Z",
       "earliest_at": "2026-09-12T16:30:45Z",
