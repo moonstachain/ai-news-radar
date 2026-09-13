@@ -1,37 +1,92 @@
 {
   "schema_version": 1,
-  "snapshot_id": "e3bee08e7ddc91e5",
+  "snapshot_id": "bb1551eaa5fd5da8",
   "channel": "ai-news",
-  "generated_at": "2026-09-13T06:26:09.683711Z",
+  "generated_at": "2026-09-13T12:11:36.950938Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 297,
-    "high_priority": 9,
-    "briefs": 18,
-    "stories": 284
+    "signals": 338,
+    "high_priority": 14,
+    "briefs": 20,
+    "stories": 319
   },
   "coverage": {
-    "successful": 16,
+    "successful": 15,
     "total": 17,
-    "failed": 1,
-    "ratio": 0.9412,
+    "failed": 2,
+    "ratio": 0.8824,
     "status": "healthy"
   },
   "failed_sources": [
-    "aibreakfast"
+    "aibreakfast",
+    "waytoagi"
   ],
   "section_counts": {
-    "Buzzing": 96,
-    "Info Flow": 62,
-    "TechURLs": 49,
-    "Zeli": 45,
-    "Curated Media": 16,
-    "NewsNow": 15,
-    "AI HOT": 7,
-    "OPML RSS": 7
+    "Buzzing": 115,
+    "Info Flow": 66,
+    "Zeli": 53,
+    "TechURLs": 48,
+    "Curated Media": 18,
+    "NewsNow": 16,
+    "Follow Builders": 9,
+    "AI HOT": 8
   },
   "top_stories": [
+    {
+      "story_id": "story_c63b548b0537",
+      "title": "英伟达是人工智能领域的\"中央银行\"",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "primary_url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "www.economist.com"
+      ],
+      "importance_score": 0.7853,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-12T16:37:21.932000Z",
+      "earliest_at": "2026-09-12T15:08:27Z",
+      "sources": [
+        {
+          "id": "e5814b8840acf514cd5b4c3f6170266a5bd4d9f2",
+          "title": "英伟达是人工智能领域的\"中央银行\"",
+          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-12T16:37:21.932000Z"
+        },
+        {
+          "id": "737dfa5a1c21ab0007318eaa34c748227b4822c8",
+          "title": "英伟达是人工智能领域的“中央银行”",
+          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+          "source": "www.economist.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-12T16:37:21.932000Z"
+        },
+        {
+          "id": "ea41f1395d3cfd068cf428a70a2de28b629df868",
+          "title": "英伟达是人工智能领域的\"中央银行\" / Nvidia is the central bank of AI",
+          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-12T15:08:27Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_c5db4791b13f",
       "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
@@ -43,7 +98,7 @@
       "source_names": [
         "MarkTechPost（RSS）"
       ],
-      "importance_score": 0.7843,
+      "importance_score": 0.77,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -66,54 +121,24 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_4eb0f95713f7",
-      "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
-      "url": "https://x.com/OpenAIDevs/status/2098827327832822014",
-      "primary_url": "https://x.com/OpenAIDevs/status/2098827327832822014",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "X：OpenAI Developers (@OpenAIDevs)"
-      ],
-      "importance_score": 0.7611,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-12T17:33:23Z",
-      "earliest_at": "2026-09-12T17:33:23Z",
-      "sources": [
-        {
-          "id": "64f0788da28b86cf441c6809e7d0d5bda872fbb6",
-          "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
-          "url": "https://x.com/OpenAIDevs/status/2098827327832822014",
-          "source": "X：OpenAI Developers (@OpenAIDevs)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-12T17:33:23Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
       "story_id": "story_4e2dca866221",
       "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
       "url": "https://x.com/sama/status/2098811563415150910",
       "primary_url": "https://x.com/sama/status/2098811563415150910",
       "source": "X：Sam Altman (@sama)",
       "source_name": "AI HOT",
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
+        "Follow Builders · X · Sam Altman",
         "X：Sam Altman (@sama)"
       ],
-      "importance_score": 0.7408,
+      "importance_score": 0.7541,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
       "latest_at": "2026-09-12T16:30:45Z",
       "earliest_at": "2026-09-12T16:30:45Z",
@@ -126,9 +151,18 @@
           "source_name": "AI HOT",
           "site_id": "aihot",
           "published_at": "2026-09-12T16:30:45Z"
+        },
+        {
+          "id": "ef2975b2243de76f3a5d59310157a881804c2886",
+          "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问 / I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we've had at OpenAI in recent weeks. Committing to having independent evaluators with employee-like access is a great...",
+          "url": "https://x.com/sama/status/2098811563415150910",
+          "source": "Follow Builders · X · Sam Altman",
+          "source_name": "Follow Builders",
+          "site_id": "followbuilders",
+          "published_at": "2026-09-12T16:30:45Z"
         }
       ],
-      "confidence": "single-source"
+      "confidence": "multi-source"
     }
   ]
 }

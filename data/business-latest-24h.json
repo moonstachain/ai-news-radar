@@ -1,43 +1,7 @@
 {
-  "generated_at": "2026-09-13T06:28:18.639147Z",
+  "generated_at": "2026-09-13T12:12:40.448269Z",
   "window_hours": 24,
   "items": [
-    {
-      "signal_id": "biz_39a5694a2434",
-      "title": "I built a free site speed report that names the slow file. Pro Watch ($19/mo) just went live.",
-      "url": "https://www.indiehackers.com/post/i-built-a-free-site-speed-report-that-names-the-slow-file-pro-watch-19-mo-just-went-live-e955f190a2",
-      "source_id": "indie_hackers",
-      "source_name": "Indie Hackers",
-      "published_at": "2026-09-12T06:47:10.056000Z",
-      "captured_at": "2026-09-13T06:28:18.639147Z",
-      "lane": "opc",
-      "entities": [
-        "Indie Hackers",
-        "Pro Watch"
-      ],
-      "business_model_tags": [
-        "Founder Case",
-        "OPC"
-      ],
-      "yuanli_tags": [
-        "ftf_trust"
-      ],
-      "opc_fit_score": 5,
-      "case_concreteness_score": 12,
-      "total_score": 46,
-      "score_breakdown": {
-        "source_authority": 16,
-        "yuanli_relevance": 3,
-        "business_model_value": 3,
-        "case_concreteness": 12,
-        "opc_fit": 5,
-        "freshness": 7,
-        "counter_signal_value": 0
-      },
-      "summary": "I built a free site speed report that names the slow file. Pro Watch ($19/mo) just went live. Tags: Founder Case, OPC.",
-      "timestamp_basis": "page_structured_time",
-      "transport_mode": "page_detail"
-    },
     {
       "signal_id": "biz_00fb3176e554",
       "title": "I wanted Letterboxd for stand-up, so I built Standupd",
@@ -45,7 +9,7 @@
       "source_id": "indie_hackers",
       "source_name": "Indie Hackers",
       "published_at": "2026-09-12T17:08:28.054000Z",
-      "captured_at": "2026-09-13T06:28:18.639147Z",
+      "captured_at": "2026-09-13T12:12:40.448269Z",
       "lane": "opc",
       "entities": [
         "Indie Hackers",
@@ -82,7 +46,7 @@
       "source_id": "latent_space",
       "source_name": "Latent Space",
       "published_at": "2026-09-12T15:01:19Z",
-      "captured_at": "2026-09-13T06:28:18.639147Z",
+      "captured_at": "2026-09-13T12:12:40.448269Z",
       "lane": "ai_commercialization",
       "entities": [
         "Latent Space",
@@ -115,13 +79,48 @@
       "transport_mode": "feed"
     },
     {
+      "signal_id": "biz_270e5fa1aad1",
+      "title": "That \"$5,600/minute of downtime\" stat you've seen everywhere isn't about you",
+      "url": "https://www.indiehackers.com/post/that-5-600-minute-of-downtime-stat-you-ve-seen-everywhere-isn-t-about-you-72e30092d2",
+      "source_id": "indie_hackers",
+      "source_name": "Indie Hackers",
+      "published_at": "2026-09-12T12:58:19.990000Z",
+      "captured_at": "2026-09-13T12:12:40.448269Z",
+      "lane": "opc",
+      "entities": [
+        "Indie Hackers",
+        "That"
+      ],
+      "business_model_tags": [
+        "OPC"
+      ],
+      "yuanli_tags": [
+        "yuanli_startup"
+      ],
+      "opc_fit_score": 5,
+      "case_concreteness_score": 4,
+      "total_score": 32,
+      "score_breakdown": {
+        "source_authority": 16,
+        "yuanli_relevance": 0,
+        "business_model_value": 0,
+        "case_concreteness": 4,
+        "opc_fit": 5,
+        "freshness": 7,
+        "counter_signal_value": 0
+      },
+      "summary": "That \"$5,600/minute of downtime\" stat you've seen everywhere isn't about you Tags: OPC.",
+      "timestamp_basis": "page_structured_time",
+      "transport_mode": "page_detail"
+    },
+    {
       "signal_id": "biz_2b2f23c1b5e7",
       "title": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
       "source_id": "lenny",
       "source_name": "Lenny's Newsletter",
       "published_at": "2026-09-12T17:45:34Z",
-      "captured_at": "2026-09-13T06:28:18.639147Z",
+      "captured_at": "2026-09-13T12:12:40.448269Z",
       "lane": "startup_vc",
       "entities": [
         "Lenny's Newsletter",
