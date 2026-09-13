@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "a9cbda03dc4d87ea",
+  "snapshot_id": "a0961febcbfeddfc",
   "channel": "ai-news",
-  "generated_at": "2026-09-13T16:32:52.067148Z",
+  "generated_at": "2026-09-13T19:06:26.908146Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 346,
-    "high_priority": 8,
-    "briefs": 15,
-    "stories": 330
+    "signals": 361,
+    "high_priority": 7,
+    "briefs": 18,
+    "stories": 340
   },
   "coverage": {
     "successful": 16,
@@ -23,15 +23,59 @@
   ],
   "section_counts": {
     "Buzzing": 139,
-    "Info Flow": 61,
-    "Zeli": 53,
-    "TechURLs": 36,
+    "Info Flow": 62,
+    "Zeli": 61,
+    "TechURLs": 45,
     "NewsNow": 27,
     "Curated Media": 14,
-    "AI HOT": 7,
+    "AI HOT": 6,
     "OPML RSS": 5
   },
   "top_stories": [
+    {
+      "story_id": "story_7f49d82031d8",
+      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+      "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+      "primary_url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+      "source": "Hacker News：AI 热帖",
+      "source_name": "AI HOT",
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "Hacker News：AI 热帖"
+      ],
+      "importance_score": 0.8194,
+      "importance_label": "行业动态",
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-13T14:15:40Z",
+      "earliest_at": "2026-09-13T14:15:40Z",
+      "sources": [
+        {
+          "id": "233ba3a473d4d2792fa6ebaf00eff4c46865c136",
+          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+          "source": "Hacker News：AI 热帖",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-13T14:15:40Z"
+        },
+        {
+          "id": "144fcecd03d83e78d373a11af8be21ea668d2ae0",
+          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件 / Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
+          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-13T14:15:40Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
     {
       "story_id": "story_c5db4791b13f",
       "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
@@ -43,7 +87,7 @@
       "source_names": [
         "MarkTechPost（RSS）"
       ],
-      "importance_score": 0.76,
+      "importance_score": 0.7544,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
@@ -66,50 +110,6 @@
       "confidence": "single-source"
     },
     {
-      "story_id": "story_c63b548b0537",
-      "title": "英伟达是人工智能领域的\"中央银行\"",
-      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-      "primary_url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 2,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "www.economist.com"
-      ],
-      "importance_score": 0.752,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-12T16:37:21.932000Z",
-      "earliest_at": "2026-09-12T16:37:21.932000Z",
-      "sources": [
-        {
-          "id": "e5814b8840acf514cd5b4c3f6170266a5bd4d9f2",
-          "title": "英伟达是人工智能领域的\"中央银行\"",
-          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-12T16:37:21.932000Z"
-        },
-        {
-          "id": "737dfa5a1c21ab0007318eaa34c748227b4822c8",
-          "title": "英伟达是人工智能领域的“中央银行”",
-          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-          "source": "www.economist.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-12T16:37:21.932000Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
       "story_id": "story_83b26543b013",
       "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
       "url": "https://x.com/trq212/status/2098860941391872132",
@@ -121,7 +121,7 @@
         "Follow Builders · X · Thariq",
         "X：Thariq (@trq212)"
       ],
-      "importance_score": 0.743,
+      "importance_score": 0.7381,
       "importance_label": "行业动态",
       "category": "industry",
       "reasons": [
