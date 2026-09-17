@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "d8e1959f875bb155",
+  "snapshot_id": "80e19687763c26be",
   "channel": "ai-news",
-  "generated_at": "2026-09-16T23:59:20.748662Z",
+  "generated_at": "2026-09-17T03:04:47.223830Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 331,
-    "high_priority": 41,
+    "signals": 410,
+    "high_priority": 43,
     "briefs": 20,
-    "stories": 307
+    "stories": 380
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 95,
-    "Zeli": 62,
-    "TechURLs": 54,
-    "Info Flow": 37,
-    "Curated Media": 22,
+    "Buzzing": 118,
+    "Info Flow": 69,
+    "Zeli": 66,
+    "TechURLs": 57,
+    "Curated Media": 25,
     "AIbase": 20,
-    "OPML RSS": 14,
-    "Official AI Updates": 9
+    "NewsNow": 18,
+    "OPML RSS": 14
   },
   "top_stories": [
     {
@@ -46,7 +46,7 @@
         "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "openai.com"
       ],
-      "importance_score": 0.9006,
+      "importance_score": 0.8939,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -98,6 +98,51 @@
       "confidence": "multi-source"
     },
     {
+      "story_id": "story_6b8b0b6f48f2",
+      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust / Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+      "primary_url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "source_count": 2,
+      "source_names": [
+        "GitHub AI & ML",
+        "GitHub Blog"
+      ],
+      "importance_score": 0.8703,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-17T00:26:43Z",
+      "earliest_at": "2026-09-17T00:26:43Z",
+      "sources": [
+        {
+          "id": "a576196c89c601051dc98e2b0ab6cdc406aef131",
+          "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust / Migrating the GitHub Copilot runtime to Rust, using Copilot",
+          "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-17T00:26:43Z"
+        },
+        {
+          "id": "ca4dffffcb00c23f888bfd34c6a8e082a9dc14c3",
+          "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+          "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+          "source": "GitHub Blog",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-17T00:26:43Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
       "story_id": "story_aaa1a76c6763",
       "title": "副驾驶预算增加请求普遍可用 / Copilot budget increase requests are generally available",
       "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
@@ -108,7 +153,7 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8426,
+      "importance_score": 0.8352,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -130,70 +175,6 @@
         }
       ],
       "confidence": "single-source"
-    },
-    {
-      "story_id": "story_b121f3ccdf2a",
-      "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
-      "url": "https://claude.com/blog/cowork-is-now-claude",
-      "primary_url": "https://claude.com/blog/cowork-is-now-claude",
-      "source": "Claude：Blog（网页）",
-      "source_name": "AI HOT",
-      "source_count": 4,
-      "source_names": [
-        "Claude：Blog（网页）",
-        "Hacker News · 24h最热",
-        "Simon Willison",
-        "claude.com"
-      ],
-      "importance_score": 0.84,
-      "importance_label": "多源热议",
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-16T18:28:45.023000Z",
-      "earliest_at": "2026-09-16T16:26:25Z",
-      "sources": [
-        {
-          "id": "69f3afd499479f2465ff757dd0195e7d5354952c",
-          "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
-          "url": "https://claude.com/blog/cowork-is-now-claude",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-16T16:51:45.914000Z"
-        },
-        {
-          "id": "f75dea1184ff397ff69eebf652150cde9dd9549b",
-          "title": "克劳德 协作和聊天现已合而为一 克劳德 / Claude Cowork and chat are now one Claude",
-          "url": "https://simonwillison.net/2026/Sep/16/one-claude",
-          "source": "Simon Willison",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-16T18:09:49Z"
-        },
-        {
-          "id": "198af94ee5426e6dc428774485fa9fe93a1c778a",
-          "title": "Claude Cowork 和聊天功能现已合并为一个 Claude",
-          "url": "https://claude.com/blog/cowork-is-now-claude",
-          "source": "claude.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-16T18:28:45.023000Z"
-        },
-        {
-          "id": "6b60db725b6c6bc70401a93a0e74f907034bc20d",
-          "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能 / Claude Cowork and chat are now one Claude",
-          "url": "https://claude.com/blog/cowork-is-now-claude",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-16T16:26:25Z"
-        }
-      ],
-      "confidence": "multi-source"
     }
   ]
 }
