@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T00:00:19.302800Z",
+  "generated_at": "2026-09-17T03:14:03.643437Z",
   "clusters": [
     {
       "cluster_id": "biz_cluster_3da4d13ca1c1",
@@ -63,25 +63,27 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_1c9a17a81dee",
+      "cluster_id": "biz_cluster_166cfb173adc",
       "thesis": "Enterprise AI value is moving toward operating-model redesign rather than isolated copilots.",
       "lane": "enterprise_workflow",
       "signal_ids": [
         "biz_2ca162978148",
+        "biz_5cb0161ac1f9",
         "biz_5a4484931428"
       ],
-      "source_count": 2,
-      "importance_score": 50,
+      "source_count": 3,
+      "importance_score": 49,
       "confidence": "medium",
       "yuanli_mapping": [
         "yuanli_os",
         "ftf_trust"
       ],
-      "why_it_matters": "2 English evidence items from 2 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "3 English evidence items from 3 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Map each workflow case to the Yuanli OS organs: soul, memory, judgment, hands.",
       "evidence_refs": [
         "biz_2ca162978148",
+        "biz_5cb0161ac1f9",
         "biz_5a4484931428"
       ],
       "top_sources": [
@@ -89,6 +91,11 @@
           "source": "CB Insights",
           "title": "CEO Interview: Quantos Systems",
           "url": "https://www.cbinsights.com/research/ceo-interview-quantos-systems/"
+        },
+        {
+          "source": "GitHub Blog",
+          "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+          "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"
         },
         {
           "source": "Lenny's Newsletter",
@@ -105,7 +112,7 @@
         "biz_bb5c82480b3a"
       ],
       "source_count": 1,
-      "importance_score": 42,
+      "importance_score": 41,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
