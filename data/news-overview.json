@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "5ed0148241c225c2",
+  "snapshot_id": "d8e1959f875bb155",
   "channel": "ai-news",
-  "generated_at": "2026-09-14T01:18:24.141379Z",
+  "generated_at": "2026-09-16T23:59:20.748662Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 388,
-    "high_priority": 4,
+    "signals": 331,
+    "high_priority": 41,
     "briefs": 20,
-    "stories": 364
+    "stories": 307
   },
   "coverage": {
     "successful": 16,
@@ -22,28 +22,93 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 168,
-    "Info Flow": 68,
+    "Buzzing": 95,
     "Zeli": 62,
-    "TechURLs": 53,
-    "NewsNow": 18,
-    "Curated Media": 11,
-    "AI HOT": 3,
-    "OPML RSS": 3
+    "TechURLs": 54,
+    "Info Flow": 37,
+    "Curated Media": 22,
+    "AIbase": 20,
+    "OPML RSS": 14,
+    "Official AI Updates": 9
   },
   "top_stories": [
     {
-      "story_id": "story_12e9dd685180",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "primary_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "story_id": "story_52752974efc0",
+      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify / Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "primary_url": "https://openai.com/index/reimagining-advertising-with-ai",
       "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 4,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "openai.com"
+      ],
+      "importance_score": 0.9006,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-16T16:06:24.581000Z",
+      "earliest_at": "2026-09-16T13:00:00Z",
+      "sources": [
+        {
+          "id": "1e1aa16f656edc3f5d9d467b70353312655c1c5a",
+          "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify / Reimagining advertising with AI",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-16T13:00:00Z"
+        },
+        {
+          "id": "56d701c8ff45e67a3e15d6da12ea18be874c754f",
+          "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-16T13:00:00Z"
+        },
+        {
+          "id": "a4d2c1667014a737766721c70d32e2515d30a289",
+          "title": "OpenAI 通过“赞助代理”扩展 ChatGPT 广告业务",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-16T16:06:24.581000Z"
+        },
+        {
+          "id": "17fd4a48ecfbec862337d0627282c178c703d764",
+          "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify / OpenAI expands ChatGPT ads with Sponsored Agents",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-16T13:51:15Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_aaa1a76c6763",
+      "title": "副驾驶预算增加请求普遍可用 / Copilot budget increase requests are generally available",
+      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "primary_url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "GitHub Changelog"
       ],
-      "importance_score": 0.8566,
+      "importance_score": 0.8426,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -51,96 +116,84 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-14T00:00:00Z",
-      "earliest_at": "2026-09-14T00:00:00Z",
+      "latest_at": "2026-09-16T20:17:18Z",
+      "earliest_at": "2026-09-16T20:17:18Z",
       "sources": [
         {
-          "id": "54b29e5d6f4765b0653d6e5e22c91217d622018b",
-          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-          "source": "OpenAI News",
+          "id": "1442424c196ee010e9d62e063be8fb4b61e9ac14",
+          "title": "副驾驶预算增加请求普遍可用 / Copilot budget increase requests are generally available",
+          "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+          "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-14T00:00:00Z"
+          "published_at": "2026-09-16T20:17:18Z"
         }
       ],
       "confidence": "single-source"
     },
     {
-      "story_id": "story_7f49d82031d8",
-      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-      "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-      "primary_url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-      "source": "Hacker News：AI 热帖",
+      "story_id": "story_b121f3ccdf2a",
+      "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "primary_url": "https://claude.com/blog/cowork-is-now-claude",
+      "source": "Claude：Blog（网页）",
       "source_name": "AI HOT",
-      "source_count": 2,
+      "source_count": 4,
       "source_names": [
-        "Hacker News",
-        "Hacker News：AI 热帖"
+        "Claude：Blog（网页）",
+        "Hacker News · 24h最热",
+        "Simon Willison",
+        "claude.com"
       ],
-      "importance_score": 0.8051,
-      "importance_label": "行业动态",
-      "category": "industry",
+      "importance_score": 0.84,
+      "importance_label": "多源热议",
+      "category": "multi_source",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-13T14:15:40Z",
-      "earliest_at": "2026-09-13T14:15:40Z",
+      "latest_at": "2026-09-16T18:28:45.023000Z",
+      "earliest_at": "2026-09-16T16:26:25Z",
       "sources": [
         {
-          "id": "233ba3a473d4d2792fa6ebaf00eff4c46865c136",
-          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-          "source": "Hacker News：AI 热帖",
+          "id": "69f3afd499479f2465ff757dd0195e7d5354952c",
+          "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
+          "url": "https://claude.com/blog/cowork-is-now-claude",
+          "source": "Claude：Blog（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-13T14:15:40Z"
+          "published_at": "2026-09-16T16:51:45.914000Z"
         },
         {
-          "id": "144fcecd03d83e78d373a11af8be21ea668d2ae0",
-          "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件 / Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
-          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-13T14:15:40Z"
+          "id": "f75dea1184ff397ff69eebf652150cde9dd9549b",
+          "title": "克劳德 协作和聊天现已合而为一 克劳德 / Claude Cowork and chat are now one Claude",
+          "url": "https://simonwillison.net/2026/Sep/16/one-claude",
+          "source": "Simon Willison",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-16T18:09:49Z"
+        },
+        {
+          "id": "198af94ee5426e6dc428774485fa9fe93a1c778a",
+          "title": "Claude Cowork 和聊天功能现已合并为一个 Claude",
+          "url": "https://claude.com/blog/cowork-is-now-claude",
+          "source": "claude.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-16T18:28:45.023000Z"
+        },
+        {
+          "id": "6b60db725b6c6bc70401a93a0e74f907034bc20d",
+          "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能 / Claude Cowork and chat are now one Claude",
+          "url": "https://claude.com/blog/cowork-is-now-claude",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-09-16T16:26:25Z"
         }
       ],
       "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_c5db4791b13f",
-      "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
-      "url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
-      "primary_url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost（RSS）"
-      ],
-      "importance_score": 0.7417,
-      "importance_label": "行业动态",
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "latest_at": "2026-09-13T05:56:03Z",
-      "earliest_at": "2026-09-13T05:56:03Z",
-      "sources": [
-        {
-          "id": "4b8e45d73d6f9168d6f30f8fa97f8c8e80e018f0",
-          "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
-          "url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-13T05:56:03Z"
-        }
-      ],
-      "confidence": "single-source"
     }
   ]
 }
