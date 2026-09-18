@@ -1,40 +1,40 @@
 {
   "schema_version": 1,
-  "snapshot_id": "56ca49314118dd5a",
+  "snapshot_id": "de31a82408fe09fb",
   "channel": "ai-business",
-  "generated_at": "2026-09-18T15:26:11.821812Z",
+  "generated_at": "2026-09-18T18:38:08.811030Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 10,
-    "briefs": 1,
-    "clusters": 1,
-    "cases": 10
+    "signals": 12,
+    "briefs": 2,
+    "clusters": 2,
+    "cases": 11
   },
   "coverage": {
-    "successful": 15,
+    "successful": 16,
     "total": 26,
-    "failed": 11,
-    "ratio": 0.5769,
+    "failed": 10,
+    "ratio": 0.6154,
     "status": "limited"
   },
   "brief": [
     {
-      "brief_id": "biz_brief_b7f4ad4cf4d0",
+      "brief_id": "biz_brief_49ac92fd269f",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
-      "judgment": "10 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "11 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
-        "biz_1e85d1132572",
-        "biz_360a966bcbbf",
-        "biz_8831062efcba",
-        "biz_0f7ee3bfebae",
-        "biz_a1eae0ee1ef8"
+        "biz_591d126f268c",
+        "biz_f578705b71bd",
+        "biz_133301d8198e",
+        "biz_d5349468ade2",
+        "biz_d88ca3358227"
       ],
       "evidence_titles": [
-        "CEO Interview: Polaris Infotech Services",
-        "CEO Interview: Legal Map",
-        "CEO Interview: Xflow"
+        "CEO Interview: Onebrief",
+        "CEO Interview: Doha Encounters",
+        "Executive Interview: Attain OS"
       ],
       "risk_level": "low",
       "yuanli_mapping": [
@@ -43,64 +43,115 @@
         "wealth_flywheel"
       ],
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
+    },
+    {
+      "brief_id": "biz_brief_984a829c6525",
+      "rank": 2,
+      "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "evidence_refs": [
+        "biz_ac7086834057"
+      ],
+      "evidence_titles": [
+        "When a Team Member Underperforms—but Has Organizational Capital"
+      ],
+      "risk_level": "low",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims."
     }
   ],
   "actions": [
     {
-      "id": "biz_brief_b7f4ad4cf4d0",
+      "id": "biz_brief_49ac92fd269f",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
+    },
+    {
+      "id": "biz_brief_984a829c6525",
+      "label": "Brief #2",
+      "title": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
     }
   ],
   "clusters": [
     {
-      "cluster_id": "biz_cluster_ece0ab363af7",
+      "cluster_id": "biz_cluster_093204e8f2fd",
       "thesis": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "lane": "founder_case",
-      "source_count": 1,
-      "importance_score": 52,
-      "confidence": "watch",
+      "source_count": 2,
+      "importance_score": 54,
+      "confidence": "medium",
       "yuanli_mapping": [
         "ftf_trust",
         "yuanli_asset",
         "wealth_flywheel"
       ],
-      "why_it_matters": "10 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "11 English evidence items from 2 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Convert high-score founder cases into FTF credible story assets.",
       "evidence_refs": [
-        "biz_1e85d1132572",
-        "biz_360a966bcbbf",
-        "biz_8831062efcba",
-        "biz_0f7ee3bfebae",
-        "biz_a1eae0ee1ef8"
+        "biz_591d126f268c",
+        "biz_f578705b71bd",
+        "biz_133301d8198e",
+        "biz_d5349468ade2",
+        "biz_d88ca3358227"
       ],
       "top_sources": [
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Polaris Infotech Services",
-          "url": "https://www.cbinsights.com/research/ceo-interview-polaris-infotech-services/"
+          "title": "CEO Interview: Onebrief",
+          "url": "https://www.cbinsights.com/research/ceo-interview-onebrief/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Legal Map",
-          "url": "https://www.cbinsights.com/research/ceo-interview-legal-map/"
+          "title": "CEO Interview: Doha Encounters",
+          "url": "https://www.cbinsights.com/research/ceo-interview-doha-encounters/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Xflow",
-          "url": "https://www.cbinsights.com/research/ceo-interview-xflow/"
+          "title": "Executive Interview: Attain OS",
+          "url": "https://www.cbinsights.com/research/executive-interview-attain-os/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Novella",
-          "url": "https://www.cbinsights.com/research/ceo-interview-novella/"
+          "title": "CEO Interview: Praetorian Aeronautics",
+          "url": "https://www.cbinsights.com/research/ceo-interview-praetorian-aeronautics/"
         },
         {
           "source": "CB Insights",
-          "title": "CEO Interview: Pure Capture Innovations",
-          "url": "https://www.cbinsights.com/research/ceo-interview-pure-capture-innovations/"
+          "title": "CEO Interview: Chorah Labs",
+          "url": "https://www.cbinsights.com/research/ceo-interview-chorah-labs/"
+        }
+      ]
+    },
+    {
+      "cluster_id": "biz_cluster_4edc1079fc58",
+      "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
+      "lane": "authority_trust",
+      "source_count": 1,
+      "importance_score": 33,
+      "confidence": "watch",
+      "yuanli_mapping": [
+        "ftf_trust",
+        "yuanli_asset",
+        "yuanli_startup"
+      ],
+      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
+      "recommended_action": "Use these authority-backed signals as FTF proof points before making public claims.",
+      "evidence_refs": [
+        "biz_ac7086834057"
+      ],
+      "top_sources": [
+        {
+          "source": "Harvard Business Review",
+          "title": "When a Team Member Underperforms—but Has Organizational Capital",
+          "url": "https://hbr.org/2026/09/when-a-team-member-underperforms-but-has-organizational-capital"
         }
       ]
     }
