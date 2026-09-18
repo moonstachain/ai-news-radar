@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "6e13d505e585722a",
+  "snapshot_id": "99458c7714f5b78d",
   "channel": "ai-news",
-  "generated_at": "2026-09-18T21:23:08.212695Z",
+  "generated_at": "2026-09-18T23:26:49.348839Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 484,
-    "high_priority": 40,
+    "signals": 506,
+    "high_priority": 37,
     "briefs": 20,
-    "stories": 445
+    "stories": 468
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 150,
+    "Buzzing": 170,
     "TechURLs": 92,
-    "Info Flow": 69,
-    "Zeli": 63,
-    "Curated Media": 33,
-    "NewsNow": 21,
-    "AI HOT": 18,
-    "OPML RSS": 16
+    "Info Flow": 73,
+    "Zeli": 67,
+    "Curated Media": 32,
+    "NewsNow": 20,
+    "AI HOT": 16,
+    "OPML RSS": 15
   },
   "top_stories": [
     {
@@ -47,7 +47,7 @@
         "hackernews",
         "www.hacktron.ai"
       ],
-      "importance_score": 0.8652,
+      "importance_score": 0.861,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -119,7 +119,7 @@
         "Hacker News：AI 热帖",
         "www.cnn.com"
       ],
-      "importance_score": 0.8497,
+      "importance_score": 0.8447,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -161,17 +161,17 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_587e82fd87bc",
-      "title": "GitHub Copilot 每周发布 — 9 月 14 日 / GitHub Copilot weekly releases — September 14",
-      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
-      "primary_url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+      "story_id": "story_cbde4620c702",
+      "title": "Copilot code review: An improved review experience",
+      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+      "primary_url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8468,
+      "importance_score": 0.844,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -179,17 +179,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-18T19:21:22Z",
-      "earliest_at": "2026-09-18T19:21:22Z",
+      "latest_at": "2026-09-18T20:17:22Z",
+      "earliest_at": "2026-09-18T20:17:22Z",
       "sources": [
         {
-          "id": "ec3c44c58e68216dee4e22ab0b584c55825e5eec",
-          "title": "GitHub Copilot 每周发布 — 9 月 14 日 / GitHub Copilot weekly releases — September 14",
-          "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+          "id": "eda89f683fc829811bfac03eaaca9ec78f28c28a",
+          "title": "Copilot code review: An improved review experience",
+          "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-18T19:21:22Z"
+          "published_at": "2026-09-18T20:17:22Z"
         }
       ],
       "confidence": "single-source"
