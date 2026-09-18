@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "80e19687763c26be",
+  "snapshot_id": "98b3a44bec2427a8",
   "channel": "ai-news",
-  "generated_at": "2026-09-17T03:04:47.223830Z",
+  "generated_at": "2026-09-18T11:33:41.213682Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 410,
-    "high_priority": 43,
+    "signals": 340,
+    "high_priority": 41,
     "briefs": 20,
-    "stories": 380
+    "stories": 307
   },
   "coverage": {
     "successful": 16,
@@ -22,138 +22,176 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 118,
-    "Info Flow": 69,
-    "Zeli": 66,
-    "TechURLs": 57,
-    "Curated Media": 25,
-    "AIbase": 20,
-    "NewsNow": 18,
-    "OPML RSS": 14
+    "Buzzing": 79,
+    "Zeli": 69,
+    "TechURLs": 52,
+    "Info Flow": 50,
+    "Curated Media": 19,
+    "AI HOT": 16,
+    "OPML RSS": 15,
+    "NewsNow": 12
   },
   "top_stories": [
     {
-      "story_id": "story_52752974efc0",
-      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify / Reimagining advertising with AI",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "primary_url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 4,
+      "story_id": "story_39b208522bb5",
+      "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "primary_url": "https://www.hacktron.ai/blog/hacking-openai",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 5,
       "source_names": [
-        "Hacker News · 24h最热",
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "openai.com"
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "Lobsters (技术社区)",
+        "hackernews",
+        "www.hacktron.ai"
       ],
-      "importance_score": 0.8939,
-      "importance_label": "官方更新",
-      "category": "official",
+      "importance_score": 0.8868,
+      "importance_label": "多源热议",
+      "category": "multi_source",
       "reasons": [
-        "official_source",
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-16T16:06:24.581000Z",
-      "earliest_at": "2026-09-16T13:00:00Z",
+      "latest_at": "2026-09-18T10:26:42Z",
+      "earliest_at": "2026-09-18T02:47:24Z",
       "sources": [
         {
-          "id": "1e1aa16f656edc3f5d9d467b70353312655c1c5a",
-          "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify / Reimagining advertising with AI",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-16T13:00:00Z"
-        },
-        {
-          "id": "56d701c8ff45e67a3e15d6da12ea18be874c754f",
-          "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "id": "7d2e860c12e91824b743f2cd0766b4a7888011b4",
+          "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-16T13:00:00Z"
+          "published_at": "2026-09-18T04:45:46.237000Z"
         },
         {
-          "id": "a4d2c1667014a737766721c70d32e2515d30a289",
-          "title": "OpenAI 通过“赞助代理”扩展 ChatGPT 广告业务",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
-          "source": "openai.com",
+          "id": "7a476928dcd5d5b62b8fe475ddca0dbd2cd0ffa9",
+          "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号 / Hacking OpenAI",
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-18T10:26:42Z"
+        },
+        {
+          "id": "670084e32196613c0b728bbf7574fe486402723a",
+          "title": "入侵OpenAI",
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "www.hacktron.ai",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-09-16T16:06:24.581000Z"
+          "published_at": "2026-09-18T04:45:46.237000Z"
         },
         {
-          "id": "17fd4a48ecfbec862337d0627282c178c703d764",
-          "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify / OpenAI expands ChatGPT ads with Sponsored Agents",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "id": "fc06b529e408a2880b0e1fe8642be63f6882ebbc",
+          "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号 / A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-18T02:47:24Z"
+        },
+        {
+          "id": "090b80327fdc32560593d33a0b97ebda2909fffa",
+          "title": "堆溢出和 SSO 配置错误会危及 OpenAI 内部存储库 / A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "url": "https://news.ycombinator.com/item?id=49749656",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-09-18T02:47:24Z"
+        }
+      ],
+      "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_5ff94f8b654c",
+      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "primary_url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 5,
+      "source_names": [
+        "Hacker News",
+        "Hacker News · 24h最热",
+        "TechCrunch",
+        "TechCrunch：AI（RSS）",
+        "techcrunch.com"
+      ],
+      "importance_score": 0.8549,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-18T11:15:43.941000Z",
+      "earliest_at": "2026-09-17T19:46:08Z",
+      "sources": [
+        {
+          "id": "14511c8b5dd853440e87ab99755ea51b46a6cd25",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-17T19:46:08Z"
+        },
+        {
+          "id": "10ec9de1d189ec4a0933b53035ff16548acdfd54",
+          "title": "微软高管称人工智能数据抓取是“人类历史上规模最大的劳动力盗窃行为”",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "techcrunch.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-18T11:15:43.941000Z"
+        },
+        {
+          "id": "6792b094f89b63f83782daaf009ffe17ff4ae984",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-18T09:45:07Z"
+        },
+        {
+          "id": "07d88bec8b04480d277b16a8028de1e06f6a6dcd",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
           "site_id": "zeli",
-          "published_at": "2026-09-16T13:51:15Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_6b8b0b6f48f2",
-      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust / Migrating the GitHub Copilot runtime to Rust, using Copilot",
-      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
-      "primary_url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "source_count": 2,
-      "source_names": [
-        "GitHub AI & ML",
-        "GitHub Blog"
-      ],
-      "importance_score": 0.8703,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-17T00:26:43Z",
-      "earliest_at": "2026-09-17T00:26:43Z",
-      "sources": [
-        {
-          "id": "a576196c89c601051dc98e2b0ab6cdc406aef131",
-          "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust / Migrating the GitHub Copilot runtime to Rust, using Copilot",
-          "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-17T00:26:43Z"
+          "published_at": "2026-09-18T00:07:08Z"
         },
         {
-          "id": "ca4dffffcb00c23f888bfd34c6a8e082a9dc14c3",
-          "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
-          "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
-          "source": "GitHub Blog",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-17T00:26:43Z"
+          "id": "830d69cc874966f0bd62aa9cb3d2e077da299495",
+          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "source": "TechCrunch",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-09-17T19:46:08Z"
         }
       ],
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_aaa1a76c6763",
-      "title": "副驾驶预算增加请求普遍可用 / Copilot budget increase requests are generally available",
-      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
-      "primary_url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+      "story_id": "story_cfbfb7473f2f",
+      "title": "副驾驶影响仪表板现在显示功能参与度 / Copilot impact dashboard now shows feature engagement",
+      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
+      "primary_url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "importance_score": 0.8352,
+      "importance_score": 0.8195,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -161,17 +199,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-16T20:17:18Z",
-      "earliest_at": "2026-09-16T20:17:18Z",
+      "latest_at": "2026-09-17T21:47:27Z",
+      "earliest_at": "2026-09-17T21:47:27Z",
       "sources": [
         {
-          "id": "1442424c196ee010e9d62e063be8fb4b61e9ac14",
-          "title": "副驾驶预算增加请求普遍可用 / Copilot budget increase requests are generally available",
-          "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+          "id": "f3caaef86269b72461c881b48e4cad194588c253",
+          "title": "副驾驶影响仪表板现在显示功能参与度 / Copilot impact dashboard now shows feature engagement",
+          "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-16T20:17:18Z"
+          "published_at": "2026-09-17T21:47:27Z"
         }
       ],
       "confidence": "single-source"
