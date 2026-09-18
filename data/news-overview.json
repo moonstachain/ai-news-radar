@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "98b3a44bec2427a8",
+  "snapshot_id": "56ca49314118dd5a",
   "channel": "ai-news",
-  "generated_at": "2026-09-18T11:33:41.213682Z",
+  "generated_at": "2026-09-18T15:25:06.416003Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 340,
-    "high_priority": 41,
+    "signals": 418,
+    "high_priority": 47,
     "briefs": 20,
-    "stories": 307
+    "stories": 379
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 79,
-    "Zeli": 69,
-    "TechURLs": 52,
-    "Info Flow": 50,
-    "Curated Media": 19,
-    "AI HOT": 16,
-    "OPML RSS": 15,
-    "NewsNow": 12
+    "Buzzing": 107,
+    "Zeli": 71,
+    "TechURLs": 68,
+    "Info Flow": 65,
+    "Curated Media": 23,
+    "AI HOT": 19,
+    "OPML RSS": 19,
+    "NewsNow": 16
   },
   "top_stories": [
     {
@@ -47,7 +47,7 @@
         "hackernews",
         "www.hacktron.ai"
       ],
-      "importance_score": 0.8868,
+      "importance_score": 0.8779,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,91 +107,17 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_5ff94f8b654c",
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "primary_url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 5,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "TechCrunch",
-        "TechCrunch：AI（RSS）",
-        "techcrunch.com"
-      ],
-      "importance_score": 0.8549,
-      "importance_label": "多源热议",
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-18T11:15:43.941000Z",
-      "earliest_at": "2026-09-17T19:46:08Z",
-      "sources": [
-        {
-          "id": "14511c8b5dd853440e87ab99755ea51b46a6cd25",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-17T19:46:08Z"
-        },
-        {
-          "id": "10ec9de1d189ec4a0933b53035ff16548acdfd54",
-          "title": "微软高管称人工智能数据抓取是“人类历史上规模最大的劳动力盗窃行为”",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "techcrunch.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-09-18T11:15:43.941000Z"
-        },
-        {
-          "id": "6792b094f89b63f83782daaf009ffe17ff4ae984",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history'",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-18T09:45:07Z"
-        },
-        {
-          "id": "07d88bec8b04480d277b16a8028de1e06f6a6dcd",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-18T00:07:08Z"
-        },
-        {
-          "id": "830d69cc874966f0bd62aa9cb3d2e077da299495",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-17T19:46:08Z"
-        }
-      ],
-      "confidence": "multi-source"
-    },
-    {
-      "story_id": "story_cfbfb7473f2f",
-      "title": "副驾驶影响仪表板现在显示功能参与度 / Copilot impact dashboard now shows feature engagement",
-      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-      "primary_url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-      "source": "GitHub Changelog",
+      "story_id": "story_55f4720a90e1",
+      "title": "你应该读一下代码吗？RAG 死了吗？Skills 杀死了 MCP 吗？ / Should you read the code, is RAG dead, and did Skills kill MCP?",
+      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
+      "primary_url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
+      "source": "GitHub AI & ML",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "GitHub AI & ML"
       ],
-      "importance_score": 0.8195,
+      "importance_score": 0.8509,
       "importance_label": "官方更新",
       "category": "official",
       "reasons": [
@@ -199,20 +125,74 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-17T21:47:27Z",
-      "earliest_at": "2026-09-17T21:47:27Z",
+      "latest_at": "2026-09-18T15:00:00Z",
+      "earliest_at": "2026-09-18T15:00:00Z",
       "sources": [
         {
-          "id": "f3caaef86269b72461c881b48e4cad194588c253",
-          "title": "副驾驶影响仪表板现在显示功能参与度 / Copilot impact dashboard now shows feature engagement",
-          "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-          "source": "GitHub Changelog",
+          "id": "b2a33477c6a92e94e343ae83b5c74e9663d09bdc",
+          "title": "你应该读一下代码吗？RAG 死了吗？Skills 杀死了 MCP 吗？ / Should you read the code, is RAG dead, and did Skills kill MCP?",
+          "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
+          "source": "GitHub AI & ML",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-17T21:47:27Z"
+          "published_at": "2026-09-18T15:00:00Z"
         }
       ],
       "confidence": "single-source"
+    },
+    {
+      "story_id": "story_b3566f385089",
+      "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
+      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "primary_url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "source": "Hacker News：AI 热帖",
+      "source_name": "AI HOT",
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News：AI 热帖",
+        "tokenstead.ai"
+      ],
+      "importance_score": 0.8475,
+      "importance_label": "多源热议",
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-18T12:33:41.989000Z",
+      "earliest_at": "2026-09-18T10:35:28Z",
+      "sources": [
+        {
+          "id": "656596878735c4bdcb0c5b7cf3549b7dd602f588",
+          "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
+          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+          "source": "Hacker News：AI 热帖",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-18T10:35:28Z"
+        },
+        {
+          "id": "122f082e8323a0950fa23608bf1f059274bd894f",
+          "title": "ZCode 是一款基于 GLM 的编码代理，它会自动上传您的 Git 历史记录",
+          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+          "source": "tokenstead.ai",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-09-18T12:33:41.989000Z"
+        },
+        {
+          "id": "e6a768ba0ed92a451c40d1e0233143913a0c9b9c",
+          "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS / ZCode, the GLM coding agent, silently uploads your Git history",
+          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-09-18T10:35:28Z"
+        }
+      ],
+      "confidence": "multi-source"
     }
   ]
 }
