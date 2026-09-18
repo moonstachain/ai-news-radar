@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "de31a82408fe09fb",
+  "snapshot_id": "6e13d505e585722a",
   "channel": "ai-news",
-  "generated_at": "2026-09-18T18:37:06.983372Z",
+  "generated_at": "2026-09-18T21:23:08.212695Z",
   "window_hours": 24,
   "decision": "优先追踪官方模型、产品与开发工具迁移；把单源判断和来源缺口视为待验证情报。",
   "metrics": {
-    "signals": 459,
+    "signals": 484,
     "high_priority": 40,
     "briefs": 20,
-    "stories": 417
+    "stories": 445
   },
   "coverage": {
     "successful": 16,
@@ -22,14 +22,14 @@
     "aibreakfast"
   ],
   "section_counts": {
-    "Buzzing": 129,
-    "TechURLs": 80,
-    "Info Flow": 72,
+    "Buzzing": 150,
+    "TechURLs": 92,
+    "Info Flow": 69,
     "Zeli": 63,
-    "Curated Media": 37,
-    "AI HOT": 20,
-    "NewsNow": 19,
-    "OPML RSS": 18
+    "Curated Media": 33,
+    "NewsNow": 21,
+    "AI HOT": 18,
+    "OPML RSS": 16
   },
   "top_stories": [
     {
@@ -47,7 +47,7 @@
         "hackernews",
         "www.hacktron.ai"
       ],
-      "importance_score": 0.871,
+      "importance_score": 0.8652,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -107,55 +107,19 @@
       "confidence": "multi-source"
     },
     {
-      "story_id": "story_55f4720a90e1",
-      "title": "你应该读一下代码吗？RAG 死了吗？Skills 杀死了 MCP 吗？ / Should you read the code, is RAG dead, and did Skills kill MCP?",
-      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
-      "primary_url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "importance_score": 0.8428,
-      "importance_label": "官方更新",
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "latest_at": "2026-09-18T15:00:00Z",
-      "earliest_at": "2026-09-18T15:00:00Z",
-      "sources": [
-        {
-          "id": "b2a33477c6a92e94e343ae83b5c74e9663d09bdc",
-          "title": "你应该读一下代码吗？RAG 死了吗？Skills 杀死了 MCP 吗？ / Should you read the code, is RAG dead, and did Skills kill MCP?",
-          "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp",
-          "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-18T15:00:00Z"
-        }
-      ],
-      "confidence": "single-source"
-    },
-    {
-      "story_id": "story_5ff94f8b654c",
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "primary_url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-      "source": "TechCrunch：AI（RSS）",
+      "story_id": "story_176ec7b3e8f0",
+      "title": "美军因 AI 幻觉情报报告险些拦截中国船只",
+      "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "primary_url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "source": "Hacker News：AI 热帖",
       "source_name": "AI HOT",
-      "source_count": 5,
+      "source_count": 3,
       "source_names": [
         "Hacker News",
-        "Hacker News · 24h最热",
-        "TechCrunch",
-        "TechCrunch：AI（RSS）",
-        "techcrunch.com"
+        "Hacker News：AI 热帖",
+        "www.cnn.com"
       ],
-      "importance_score": 0.841,
+      "importance_score": 0.8497,
       "importance_label": "多源热议",
       "category": "multi_source",
       "reasons": [
@@ -163,56 +127,72 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "latest_at": "2026-09-18T11:15:43.941000Z",
-      "earliest_at": "2026-09-17T19:46:08Z",
+      "latest_at": "2026-09-18T18:48:49.722000Z",
+      "earliest_at": "2026-09-18T17:28:01Z",
       "sources": [
         {
-          "id": "14511c8b5dd853440e87ab99755ea51b46a6cd25",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "TechCrunch：AI（RSS）",
+          "id": "2decbef3c0728a852ea1e5b34fc103fa36eb94a1",
+          "title": "美军因 AI 幻觉情报报告险些拦截中国船只",
+          "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+          "source": "Hacker News：AI 热帖",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-09-17T19:46:08Z"
+          "published_at": "2026-09-18T17:28:01Z"
         },
         {
-          "id": "10ec9de1d189ec4a0933b53035ff16548acdfd54",
-          "title": "微软高管称人工智能数据抓取是“人类历史上规模最大的劳动力盗窃行为”",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "techcrunch.com",
+          "id": "0ea33f912b37b9f311ade659916c1b113c8861c6",
+          "title": "美军因使用人工智能生成虚假情报报告，险些酿成大祸",
+          "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+          "source": "www.cnn.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-09-18T11:15:43.941000Z"
+          "published_at": "2026-09-18T18:48:49.722000Z"
         },
         {
-          "id": "6792b094f89b63f83782daaf009ffe17ff4ae984",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human history'",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+          "id": "936026127d8a0ece0e328cfa5b9d59c323ab9a74",
+          "title": "美军因 AI 幻觉情报报告险些拦截中国船只 / US Military had close call after using AI for hallucinated intelligence report",
+          "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-09-18T09:45:07Z"
-        },
-        {
-          "id": "07d88bec8b04480d277b16a8028de1e06f6a6dcd",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping 'the largest theft of labor in human",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-09-18T00:07:08Z"
-        },
-        {
-          "id": "830d69cc874966f0bd62aa9cb3d2e077da299495",
-          "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取 / Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
-          "source": "TechCrunch",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-09-17T19:46:08Z"
+          "published_at": "2026-09-18T17:28:01Z"
         }
       ],
       "confidence": "multi-source"
+    },
+    {
+      "story_id": "story_587e82fd87bc",
+      "title": "GitHub Copilot 每周发布 — 9 月 14 日 / GitHub Copilot weekly releases — September 14",
+      "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+      "primary_url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "importance_score": 0.8468,
+      "importance_label": "官方更新",
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "latest_at": "2026-09-18T19:21:22Z",
+      "earliest_at": "2026-09-18T19:21:22Z",
+      "sources": [
+        {
+          "id": "ec3c44c58e68216dee4e22ab0b584c55825e5eec",
+          "title": "GitHub Copilot 每周发布 — 9 月 14 日 / GitHub Copilot weekly releases — September 14",
+          "url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-18T19:21:22Z"
+        }
+      ],
+      "confidence": "single-source"
     }
   ]
 }
