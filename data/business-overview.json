@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "snapshot_id": "6e13d505e585722a",
+  "snapshot_id": "99458c7714f5b78d",
   "channel": "ai-business",
-  "generated_at": "2026-09-18T21:24:12.831807Z",
+  "generated_at": "2026-09-18T23:30:14.682324Z",
   "window_hours": 24,
   "decision": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
   "metrics": {
-    "signals": 13,
+    "signals": 14,
     "briefs": 3,
     "clusters": 3,
-    "cases": 12
+    "cases": 13
   },
   "coverage": {
     "successful": 16,
@@ -20,7 +20,7 @@
   },
   "brief": [
     {
-      "brief_id": "biz_brief_07f1b7d4c14a",
+      "brief_id": "biz_brief_ac6e95f326c7",
       "rank": 1,
       "title": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building.",
       "judgment": "11 English evidence items from 2 sources connect this pattern to Yuanli IP.",
@@ -45,14 +45,16 @@
       "recommended_action": "Convert high-score founder cases into FTF credible story assets."
     },
     {
-      "brief_id": "biz_brief_3fafeff9d734",
+      "brief_id": "biz_brief_de15b70c956a",
       "rank": 2,
       "title": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
-      "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "judgment": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "evidence_refs": [
+        "biz_8bdf311cfe51",
         "biz_4747d24fec16"
       ],
       "evidence_titles": [
+        "A few weeks ago, I shared Tweak on Indie Hackers when we launched the first version.",
         "Did anyone actually pay you before you built the full product?"
       ],
       "risk_level": "low",
@@ -64,7 +66,7 @@
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped."
     },
     {
-      "brief_id": "biz_brief_c4c7654ee8dd",
+      "brief_id": "biz_brief_5dabdc34960c",
       "rank": 3,
       "title": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "judgment": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
@@ -85,19 +87,19 @@
   ],
   "actions": [
     {
-      "id": "biz_brief_07f1b7d4c14a",
+      "id": "biz_brief_ac6e95f326c7",
       "label": "Brief #1",
       "title": "Convert high-score founder cases into FTF credible story assets.",
       "context": "Founder stories provide the most reusable proof layer for Yuanli IP trust-building."
     },
     {
-      "id": "biz_brief_3fafeff9d734",
+      "id": "biz_brief_de15b70c956a",
       "label": "Brief #2",
       "title": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "context": "AI leverage is making one-person and tiny-team companies a credible strategic archetype."
     },
     {
-      "id": "biz_brief_c4c7654ee8dd",
+      "id": "biz_brief_5dabdc34960c",
       "label": "Brief #3",
       "title": "Use these authority-backed signals as FTF proof points before making public claims.",
       "context": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims."
@@ -155,24 +157,30 @@
       ]
     },
     {
-      "cluster_id": "biz_cluster_fcdf6b8dfae8",
+      "cluster_id": "biz_cluster_ba33c754e18f",
       "thesis": "AI leverage is making one-person and tiny-team companies a credible strategic archetype.",
       "lane": "opc",
       "source_count": 1,
-      "importance_score": 42,
+      "importance_score": 44,
       "confidence": "watch",
       "yuanli_mapping": [
         "yuanli_asset",
         "yuanli_startup",
         "profit_container"
       ],
-      "why_it_matters": "1 English evidence items from 1 sources connect this pattern to Yuanli IP.",
+      "why_it_matters": "2 English evidence items from 1 sources connect this pattern to Yuanli IP.",
       "counter_evidence": "See counter_signal cluster for adoption, ROI, and trust risks.",
       "recommended_action": "Turn the strongest case into a Yuanli OPC teaching module with leverage, distribution, and monetization explicitly mapped.",
       "evidence_refs": [
+        "biz_8bdf311cfe51",
         "biz_4747d24fec16"
       ],
       "top_sources": [
+        {
+          "source": "Indie Hackers",
+          "title": "A few weeks ago, I shared Tweak on Indie Hackers when we launched the first version.",
+          "url": "https://www.indiehackers.com/post/a-few-weeks-ago-i-shared-tweak-on-indie-hackers-when-we-launched-the-first-version-5665c4cead"
+        },
         {
           "source": "Indie Hackers",
           "title": "Did anyone actually pay you before you built the full product?",
@@ -185,7 +193,7 @@
       "thesis": "Business-school and consulting evidence strengthens the trust layer behind Yuanli IP claims.",
       "lane": "authority_trust",
       "source_count": 1,
-      "importance_score": 33,
+      "importance_score": 32,
       "confidence": "watch",
       "yuanli_mapping": [
         "ftf_trust",
